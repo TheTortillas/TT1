@@ -1,0 +1,67 @@
+% ERRORES:
+% https://tex.stackexchange.com/questions/588006/minted-does-not-work-in-texstudio
+% https://tex.stackexchange.com/questions/406205/no-citation-bibdata-or-bibstyle-command
+% https://tex.stackexchange.com/questions/240913/latex-minted-error (pdflatex -interaction=nonstopmode -shell-escape %.tex)
+% pdflatex -interaction=nonstopmode tuarchivo.tex
+
+\documentclass{ipn}
+
+\usepackage{minted}
+\usepackage{ipnstyle}
+\usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{bookmark}
+\usepackage{hyperref}
+\usepackage{biblatex}
+
+
+
+\addbibresource{./references.bib}
+
+\author{Sebastián Morales Palacios}
+\title{Desarrollo de una aplicación web para el cálculo y graficación de series de Fourier}
+\projectnumber{2025-A075}
+\schoolname{Escuela Superior de Cómputo}
+\degree{Ingeniero en Sistemas Computacionales}
+\advisor{Lic.¿ Jesús Alfredo Martínez Nuño}
+\coadvisor{M. en C. Gisela González Albarrán}
+\academicyear{Enero 2025}
+
+\hypersetup{
+	colorlinks=false,
+	pdfauthor={Your Name},
+	pdftitle={TTcito},
+	pdfsubject={Thesis},
+	pdfkeywords={keyword1, keyword2, keyword3},
+	pdfproducer={Latex with hyperref},
+	pdfcreator={pdflatex}
+}
+
+\pagestyle{headings}
+
+\begin{document}
+	\frontmatter
+	\maketitle
+	\input{frontmatter/advertisement}
+	\input{frontmatter/abstract}
+	\input{frontmatter/acknowledgements}
+	\tableofcontents
+	\listoffigures
+	\listoftables
+	\listofalgorithms
+	
+	\mainmatter
+	\include{chapters/chapter01}
+	\include{chapters/chapter02}
+	
+	\appendix
+	\include{chapters/appendixA}
+	\include{chapters/appendixB}
+	
+	\backmatter
+	\bookmarksetup{startatroot}
+	\printbibliography[heading=bibintoc]
+\end{document}
