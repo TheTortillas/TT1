@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.24)  13 JUN 2024 23:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.24)  14 JUN 2024 19:19
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -972,8 +972,8 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
 
-(main.aux (chapters/chapter01.aux) (chapters/chapter02.aux)
-(chapters/appendixA.aux) (chapters/appendixB.aux))
+(main.aux (chapters/chapter01/chapter01.aux) (chapters/chapter02/chapter02.aux)
+(appendages/appendixA/appendixA.aux) (appendages/appendixB/appendixB.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
@@ -1181,9 +1181,9 @@ rus elit, vestibulum
  [17] [18
 
 ]
-\openout2 = `chapters/chapter01.aux'.
+\openout2 = `chapters/chapter01/chapter01.aux'.
 
- (chapters/chapter01.tex
+ (chapters/chapter01/chapter01.tex
 Chapter 1.
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
@@ -1232,9 +1232,9 @@ rus elit, vestibulum
  []
 
 [4]
-\openout2 = `chapters/chapter02.aux'.
+\openout2 = `chapters/chapter02/chapter02.aux'.
 
- (chapters/chapter02.tex
+ (chapters/chapter02/chapter02.tex
 Chapter 2.
 
 Overfull \hbox (11.99998pt too wide) in paragraph at lines 5--19
@@ -1267,9 +1267,9 @@ rus elit, vestibulum
 
 
 ] [6]
-\openout2 = `chapters/appendixA.aux'.
+\openout2 = `appendages/appendixA/appendixA.aux'.
 
- (chapters/appendixA.tex
+ (appendages/appendixA/appendixA.tex
 Appendix A.
 \openout3 = `main.pyg'.
 
@@ -1293,9 +1293,9 @@ rus elit, vestibulum
 
 
 ] [8]
-\openout2 = `chapters/appendixB.aux'.
+\openout2 = `appendages/appendixB/appendixB.aux'.
 
- (chapters/appendixB.tex
+ (appendages/appendixB/appendixB.tex
 Appendix B.
 <img/appendixA/alexnet.png, id=188, 853.1875pt x 392.46625pt>
 File: img/appendixA/alexnet.png Graphic file (type png)
@@ -1336,8 +1336,9 @@ Overfull \hbox (9.58388pt too wide) in paragraph at lines 66--66
 
 
 
-] (main.aux (chapters/chapter01.aux) (chapters/chapter02.aux)
-(chapters/appendixA.aux) (chapters/appendixB.aux))
+] (main.aux (chapters/chapter01/chapter01.aux)
+(chapters/chapter02/chapter02.aux) (appendages/appendixA/appendixA.aux)
+(appendages/appendixB/appendixB.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
@@ -1357,8 +1358,8 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29039 strings out of 476305
- 523824 string characters out of 5791965
+ 29045 strings out of 476305
+ 525124 string characters out of 5791965
  1939751 words of memory out of 5000000
  50665 multiletter control sequences out of 15000+600000
  568335 words of font info for 73 fonts, out of 8000000 for 9000
@@ -1381,7 +1382,7 @@ nts/type1/public/amsfonts/cm/cmsy10.pfb></home/sebastian/.miktex/texmfs/install
 /fonts/type1/public/amsfonts/cm/cmti12.pfb></home/sebastian/.miktex/texmfs/inst
 all/fonts/type1/public/amsfonts/cm/cmtt12.pfb></home/sebastian/.miktex/texmfs/i
 nstall/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (29 pages, 409392 bytes).
+Output written on main.pdf (29 pages, 409209 bytes).
 PDF statistics:
  347 PDF objects out of 1000 (max. 8388607)
  69 named destinations out of 1000 (max. 500000)
