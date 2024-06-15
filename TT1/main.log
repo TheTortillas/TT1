@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.24)  14 JUN 2024 20:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.24)  14 JUN 2024 21:33
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1280,68 +1280,96 @@ LaTeX Info: Redefining \% on input line 57.
 (chapters/chapter01/chapter01.tex
 Cap\'{\i }tulo 1.
 
-Overfull \hbox (17.67633pt too wide) in paragraph at lines 6--6
-[]\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
-purus elit, vestibulum
+Overfull \hbox (0.63406pt too wide) in paragraph at lines 7--8
+\OT1/cmr/m/n/12 series de Fourier no solo en la investigaci^^Son avanzada, sino
+ tambi^^Sen en la formaci^^Son
  []
 
 
-Overfull \hbox (17.67633pt too wide) in paragraph at lines 10--10
-[]\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
-purus elit, vestibulum
+Overfull \hbox (7.33484pt too wide) in paragraph at lines 7--8
+\OT1/cmr/m/n/12 acad^^Semica de futuros ingenieros y cient^^S^^Pficos. Sin emba
+rgo, a pesar de su prevalencia
  []
 
 
-Overfull \hbox (5.96664pt too wide) in paragraph at lines 13--14
-\OT1/cmr/m/n/12 vestibulum ut, placerat ac, adipiscing vitae, felis. Curabitur 
-dictum gravida mauris.
+Overfull \hbox (7.98083pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/12 resultados de manera directa y eficiente. A diferencia de otros
+ c^^Salculos matem^^Saticos,
  []
 
 [1
 
 
 ]
-Overfull \hbox (17.67633pt too wide) in paragraph at lines 25--25
+Overfull \hbox (17.67633pt too wide) in paragraph at lines 14--14
 []\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
 purus elit, vestibulum
  []
 
 
-Overfull \hbox (17.67633pt too wide) in paragraph at lines 28--28
+Overfull \hbox (5.96664pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/12 vestibulum ut, placerat ac, adipiscing vitae, felis. Curabitur 
+dictum gravida mauris.
+ []
+
+
+Overfull \hbox (17.67633pt too wide) in paragraph at lines 29--29
 []\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
 purus elit, vestibulum
  []
 
-LaTeX Info: Redefining \. on input line 30.
-LaTeX Info: Redefining \% on input line 30.
+LaTeX Info: Redefining \. on input line 29.
+LaTeX Info: Redefining \% on input line 29.
 [2]
-Overfull \hbox (17.67633pt too wide) in paragraph at lines 47--47
+Overfull \hbox (17.67633pt too wide) in paragraph at lines 32--32
 []\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
 purus elit, vestibulum
  []
 
+
+Overfull \hbox (17.67633pt too wide) in paragraph at lines 51--51
+[]\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
+purus elit, vestibulum
+ []
+
+LaTeX Info: Redefining \. on input line 51.
+LaTeX Info: Redefining \% on input line 51.
+[3]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 49.
+put line 53.
 
-Overfull \hbox (17.67633pt too wide) in paragraph at lines 70--70
+Overfull \hbox (17.67633pt too wide) in paragraph at lines 74--74
 []\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
 purus elit, vestibulum
  []
 
-LaTeX Info: Redefining \. on input line 70.
-LaTeX Info: Redefining \% on input line 70.
-[3])
+)
 Overfull \hbox (17.67633pt too wide) in paragraph at lines 58--58
 []\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
 purus elit, vestibulum
  []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 LaTeX Info: Redefining \. on input line 58.
 LaTeX Info: Redefining \% on input line 58.
-[4]
+ [4]
+LaTeX Info: Redefining \. on input line 58.
+LaTeX Info: Redefining \% on input line 58.
+
+[5]
 \openout2 = `chapters/chapter02/chapter02.aux'.
 
  (chapters/chapter02/chapter02.tex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [6
+
+
+
+
+]
 Cap\'{\i }tulo 2.
 LaTeX Font Info:    Trying to load font information for U+lasy on input line 10
 .
@@ -1372,15 +1400,10 @@ Overfull \hbox (17.67633pt too wide) in paragraph at lines 59--59
 purus elit, vestibulum
  []
 
-[5
-
-
-
-
-]
+[7]
 LaTeX Info: Redefining \. on input line 59.
 LaTeX Info: Redefining \% on input line 59.
- [6]
+ [8]
 \openout2 = `appendages/appendixA/appendixA.aux'.
 
  (appendages/appendixA/appendixA.tex
@@ -1407,7 +1430,7 @@ Overfull \hbox (17.67633pt too wide) in paragraph at lines 62--62
 purus elit, vestibulum
  []
 
-[7
+[9
 
 
 
@@ -1415,12 +1438,12 @@ purus elit, vestibulum
 ]
 LaTeX Info: Redefining \. on input line 62.
 LaTeX Info: Redefining \% on input line 62.
- [8]
+ [10]
 \openout2 = `appendages/appendixB/appendixB.aux'.
 
  (appendages/appendixB/appendixB.tex
 Ap\'{e}ndice B.
-<img/appendixA/alexnet.png, id=189, 853.1875pt x 392.46625pt>
+<img/appendixA/alexnet.png, id=199, 853.1875pt x 392.46625pt>
 File: img/appendixA/alexnet.png Graphic file (type png)
 <use img/appendixA/alexnet.png>
 Package pdftex.def Info: img/appendixA/alexnet.png  used on input line 5.
@@ -1431,7 +1454,7 @@ Overfull \hbox (17.67633pt too wide) in paragraph at lines 3--9
 purus elit, vestibulum
  []
 
-[9
+[11
 
 
 
@@ -1439,7 +1462,7 @@ purus elit, vestibulum
  <./img/appendixA/alexnet.png>])
 LaTeX Info: Redefining \. on input line 63.
 LaTeX Info: Redefining \% on input line 63.
- [10]
+ [12]
 Overfull \hbox (3.1292pt too wide) in paragraph at lines 67--67
 []\OT1/cmr/m/n/12 Claire Adam-Bourdarios et al. []  The Higgs boson machine lea
 rning challenge[].
@@ -1463,7 +1486,7 @@ Overfull \hbox (6.6794pt too wide) in paragraph at lines 67--67
 OP Publishing. 2018, p^^Sag. 042037. 
  []
 
-[11
+[13
 
 
 
@@ -1487,28 +1510,20 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
 runsystem(rm main.pyg)...executed.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29464 strings out of 476305
- 530997 string characters out of 5791965
- 1938751 words of memory out of 5000000
- 51079 multiletter control sequences out of 15000+600000
+ 29471 strings out of 476305
+ 531206 string characters out of 5791965
+ 1937751 words of memory out of 5000000
+ 51083 multiletter control sequences out of 15000+600000
  568104 words of font info for 73 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 101i,13n,117p,999b,1933s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,13n,117p,1570b,1933s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12
 .pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmb
 x8.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/c
@@ -1527,9 +1542,9 @@ ts/type1/public/amsfonts/cm/cmti12.pfb></home/sebastian/.miktex/texmfs/install/
 fonts/type1/public/amsfonts/cm/cmtt12.pfb></home/sebastian/.miktex/texmfs/insta
 ll/fonts/type1/public/amsfonts/latxfont/lasy10.pfb></home/sebastian/.miktex/tex
 mfs/install/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (29 pages, 426917 bytes).
+Output written on main.pdf (31 pages, 432866 bytes).
 PDF statistics:
- 352 PDF objects out of 1000 (max. 8388607)
- 69 named destinations out of 1000 (max. 500000)
+ 363 PDF objects out of 1000 (max. 8388607)
+ 72 named destinations out of 1000 (max. 500000)
  160 words of extra memory for PDF output out of 10000 (max. 10000000)
 

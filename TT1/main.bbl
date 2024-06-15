@@ -19,6 +19,34 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
+    \entry{almira2017fourier}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=02cf6ebeecf2664895e8554427af6022}{%
+           family={Almira},
+           familyi={A\bibinitperiod},
+           given={J.M.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {RBA}%
+      }
+      \strng{namehash}{02cf6ebeecf2664895e8554427af6022}
+      \strng{fullhash}{02cf6ebeecf2664895e8554427af6022}
+      \strng{fullhashraw}{02cf6ebeecf2664895e8554427af6022}
+      \strng{bibnamehash}{02cf6ebeecf2664895e8554427af6022}
+      \strng{authorbibnamehash}{02cf6ebeecf2664895e8554427af6022}
+      \strng{authornamehash}{02cf6ebeecf2664895e8554427af6022}
+      \strng{authorfullhash}{02cf6ebeecf2664895e8554427af6022}
+      \strng{authorfullhashraw}{02cf6ebeecf2664895e8554427af6022}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9788447387755}
+      \field{series}{Genios de las matemáticas}
+      \field{title}{Fourier: un matemático al servicio de la física}
+      \field{year}{2017}
+    \endentry
     \entry{adam2015higgs}{inproceedings}{}{}
       \name{author}{6}{}{%
         {{hash=f64069b8858ffaa83251e49553259d00}{%
@@ -63,8 +91,8 @@
       \strng{authornamehash}{29c2a28deed7f7e828ad07d26e340568}
       \strng{authorfullhash}{cdfa62c667ffb58f2b8337144885d816}
       \strng{authorfullhashraw}{cdfa62c667ffb58f2b8337144885d816}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{NIPS 2014 Workshop on High-energy Physics and Machine Learning}
@@ -94,8 +122,8 @@
       \strng{authornamehash}{2864cd3f15c6e6c024f34340e9fccc5d}
       \strng{authorfullhash}{2864cd3f15c6e6c024f34340e9fccc5d}
       \strng{authorfullhashraw}{2864cd3f15c6e6c024f34340e9fccc5d}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Instrumentation}
@@ -135,8 +163,8 @@
       \strng{authornamehash}{008b0c5cabf28da4ef041500cb0ce8cd}
       \strng{authorfullhash}{008b0c5cabf28da4ef041500cb0ce8cd}
       \strng{authorfullhashraw}{008b0c5cabf28da4ef041500cb0ce8cd}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature communications}
@@ -176,8 +204,8 @@
       \strng{authornamehash}{ee7fed1c7dd860cf46cf81a280e3c44d}
       \strng{authorfullhash}{ee7fed1c7dd860cf46cf81a280e3c44d}
       \strng{authorfullhashraw}{ee7fed1c7dd860cf46cf81a280e3c44d}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Journal of Physics: Conference Series}
