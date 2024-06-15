@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.24)  14 JUN 2024 19:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.24)  14 JUN 2024 20:09
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1122,14 +1122,34 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <16> not available
 
 
 {/home/sebastian/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map} <./img/Escudo
-IPN.png> <./img/EscudoESCOM.png>] (frontmatter/advertisement.tex [2
+IPN.png> <./img/EscudoESCOM.png>]
+(frontmatter/technical_document/technical_document.tex [2
+
+]
+Overfull \hbox (12.40439pt too wide) in paragraph at lines 7--9
+\OT1/cmr/m/n/12 discretas o continuas. El desarrollo en serie puede ser tanto e
+n forma trigonom^^Setricas
+ []
+
+
+Overfull \hbox (3.23087pt too wide) in paragraph at lines 7--9
+\OT1/cmr/m/n/12 m^^Setodos num^^Sericos, 3. M^^Sodulo de graficaci^^Son de func
+iones peri^^Sodicas y coeficientes
+ []
+
+) (frontmatter/advertisement.tex
+Underfull \hbox (badness 10000) in paragraph at lines 16--1
+
+ []
+
+[3] [4
 
 ])
 
 Package lipsum Warning: Unknown language 'latin'. Hyphenation patterns for
 (lipsum)                'english' will be used instead.
 
-(frontmatter/abstract.tex [3] [4
+(frontmatter/abstract.tex [5] [6
 
 ]
 Overfull \hbox (2.73921pt too wide) in paragraph at lines 3--3
@@ -1137,48 +1157,48 @@ Overfull \hbox (2.73921pt too wide) in paragraph at lines 3--3
 rus elit, vestibulum
  []
 
-[5] [6
+[7] [8
 
 ])
-Overfull \hbox (2.73921pt too wide) in paragraph at lines 49--49
+Overfull \hbox (2.73921pt too wide) in paragraph at lines 50--50
 \OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut pu
 rus elit, vestibulum
  []
 
-(frontmatter/acknowledgements.tex [7] [8
+(frontmatter/acknowledgements.tex [9] [10
 
 ])
-Overfull \hbox (2.73921pt too wide) in paragraph at lines 50--51
+Overfull \hbox (2.73921pt too wide) in paragraph at lines 51--52
 \OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut pu
 rus elit, vestibulum
  []
 
-[9] [10
+[11] [12
 
 ] (main.toc)
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [11] [12
+ [13] [14
 
 ] (main.lof)
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- [13] [14
+ [15] [16
 
 ] (main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [15] [16
+ [17] [18
 
 ]
 (main.loa)
 \tf@loa=\write9
 \openout9 = `main.loa'.
 
- [17] [18
+ [19] [20
 
 ]
 \openout2 = `chapters/chapter01/chapter01.aux'.
@@ -1226,7 +1246,7 @@ rus elit, vestibulum
  []
 
 [3])
-Overfull \hbox (2.73921pt too wide) in paragraph at lines 57--57
+Overfull \hbox (2.73921pt too wide) in paragraph at lines 58--58
 \OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut pu
 rus elit, vestibulum
  []
@@ -1256,7 +1276,7 @@ rus elit, vestibulum
  []
 
 )
-Overfull \hbox (2.73921pt too wide) in paragraph at lines 58--58
+Overfull \hbox (2.73921pt too wide) in paragraph at lines 59--59
 \OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut pu
 rus elit, vestibulum
  []
@@ -1297,7 +1317,7 @@ rus elit, vestibulum
 
  (appendages/appendixB/appendixB.tex
 Appendix B.
-<img/appendixA/alexnet.png, id=188, 853.1875pt x 392.46625pt>
+<img/appendixA/alexnet.png, id=198, 853.1875pt x 392.46625pt>
 File: img/appendixA/alexnet.png Graphic file (type png)
 <use img/appendixA/alexnet.png>
 Package pdftex.def Info: img/appendixA/alexnet.png  used on input line 5.
@@ -1314,19 +1334,19 @@ rus elit, vestibulum
 
 
  <./img/appendixA/alexnet.png>]) [10]
-Overfull \hbox (3.43913pt too wide) in paragraph at lines 66--66
+Overfull \hbox (3.43913pt too wide) in paragraph at lines 67--67
 []\OT1/cmr/m/n/12 Claire Adam-Bourdarios et al. \  The Higgs boson machine lear
 ning challenge".
  []
 
 
-Overfull \hbox (13.49652pt too wide) in paragraph at lines 66--66
+Overfull \hbox (13.49652pt too wide) in paragraph at lines 67--67
 \OT1/cmr/m/n/12 particles in high-energy physics with deep learning". In: \OT1/
 cmr/m/it/12 Nature communications
  []
 
 
-Overfull \hbox (9.58388pt too wide) in paragraph at lines 66--66
+Overfull \hbox (9.58388pt too wide) in paragraph at lines 67--67
 \OT1/cmr/m/n/12 Background Discrimination in Liquid based Neutrino Experiment".
  In: \OT1/cmr/m/it/12 Journal
  []
@@ -1358,13 +1378,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29045 strings out of 476305
- 525124 string characters out of 5791965
+ 29062 strings out of 476305
+ 525781 string characters out of 5791965
  1939751 words of memory out of 5000000
- 50665 multiletter control sequences out of 15000+600000
+ 50674 multiletter control sequences out of 15000+600000
  568335 words of font info for 73 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 101i,12n,117p,679b,1809s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,12n,117p,999b,1810s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/sebastian/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm
 1200.pk></home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/
 cmbx12.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfonts/
@@ -1382,9 +1402,9 @@ nts/type1/public/amsfonts/cm/cmsy10.pfb></home/sebastian/.miktex/texmfs/install
 /fonts/type1/public/amsfonts/cm/cmti12.pfb></home/sebastian/.miktex/texmfs/inst
 all/fonts/type1/public/amsfonts/cm/cmtt12.pfb></home/sebastian/.miktex/texmfs/i
 nstall/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (29 pages, 409209 bytes).
+Output written on main.pdf (31 pages, 412956 bytes).
 PDF statistics:
- 347 PDF objects out of 1000 (max. 8388607)
- 69 named destinations out of 1000 (max. 500000)
- 160 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 361 PDF objects out of 1000 (max. 8388607)
+ 72 named destinations out of 1000 (max. 500000)
+ 168 words of extra memory for PDF output out of 10000 (max. 10000000)
 
