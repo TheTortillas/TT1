@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.24)  14 JUN 2024 21:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.24)  16 JUN 2024 07:52
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1156,53 +1156,15 @@ Overfull \hbox (4.84103pt too wide) in paragraph at lines 7--9
 ^^Son anal^^S^^Ptica o por m^^Setodos
  []
 
-) (frontmatter/abstract.tex
-Underfull \hbox (badness 10000) in paragraph at lines 16--1
+)
+Underfull \hbox (badness 10000) in paragraph at lines 16--52
 
  []
 
 [3]
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
- [4
-
-]
-
-Package lipsum Warning: Unknown language 'latin'. Hyphenation patterns for
-(lipsum)                'spanish' will be used instead.
-
-
-Overfull \hbox (17.67633pt too wide) in paragraph at lines 3--3
-[]\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
-purus elit, vestibulum
- []
-
-[5]
-LaTeX Info: Redefining \. on input line 4.
-LaTeX Info: Redefining \% on input line 4.
- [6
-
-])
-Overfull \hbox (17.67633pt too wide) in paragraph at lines 50--50
-[]\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
-purus elit, vestibulum
- []
-
-(frontmatter/acknowledgements.tex [7]
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
- [8
-
-])
-Overfull \hbox (17.67633pt too wide) in paragraph at lines 51--52
-[]\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
-purus elit, vestibulum
- []
-
-[9]
 LaTeX Info: Redefining \. on input line 52.
 LaTeX Info: Redefining \% on input line 52.
- [10
+ [4
 
 ] (main.toc
 LaTeX Info: Redefining \sptext on input line 1.
@@ -1217,26 +1179,14 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 Package spanish Warning: Replacing `OT1/cmr/bx/sc' by 
 (spanish)                faked small caps on input line 2.
 
-
-Package spanish Warning: Replacing `OT1/cmr/bx/sc' by 
-(spanish)                faked small caps on input line 3.
-
-
-Package spanish Warning: Replacing `OT1/cmr/bx/sc' by 
-(spanish)                faked small caps on input line 4.
-
-
-Package spanish Warning: Replacing `OT1/cmr/bx/sc' by 
-(spanish)                faked small caps on input line 5.
-
 )
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [11]
+ [5]
 LaTeX Info: Redefining \. on input line 53.
 LaTeX Info: Redefining \% on input line 53.
- [12
+ [6
 
 ] (main.lof
 LaTeX Info: Redefining \sptext on input line 1.
@@ -1246,10 +1196,10 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- [13]
+ [7]
 LaTeX Info: Redefining \. on input line 54.
 LaTeX Info: Redefining \% on input line 54.
- [14
+ [8
 
 ] (main.lot
 LaTeX Info: Redefining \sptext on input line 1.
@@ -1259,19 +1209,19 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [15]
+ [9]
 LaTeX Info: Redefining \. on input line 55.
 LaTeX Info: Redefining \% on input line 55.
- [16
+ [10
 
 ] (main.loa)
 \tf@loa=\write9
 \openout9 = `main.loa'.
 
- [17]
+ [11]
 LaTeX Info: Redefining \. on input line 57.
 LaTeX Info: Redefining \% on input line 57.
- [18
+ [12
 
 ]
 \openout2 = `chapters/chapter01/chapter01.aux'.
@@ -1301,44 +1251,70 @@ Overfull \hbox (7.98083pt too wide) in paragraph at lines 9--10
 
 
 ]
-Overfull \hbox (17.67633pt too wide) in paragraph at lines 14--14
+Overfull \hbox (4.84103pt too wide) in paragraph at lines 17--18
+[]\OT1/cmr/m/n/12 Implementar una interfaz de usuario que permita ingresar la f
+unci^^Son continua
+ []
+
+
+Overfull \hbox (32.22818pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/12 o a trozos, seleccionar intervalos y definir el tipo de serie d
+e Fourier (trigonom^^Setrica
+ []
+
+
+Overfull \hbox (27.55746pt too wide) in paragraph at lines 18--19
+[]\OT1/cmr/m/n/12 Implementar los m^^Sodulos para el c^^Salculo de coeficientes
+ de la serie trigonom^^Setricas
+ []
+
+
+Package lipsum Warning: Unknown language 'latin'. Hyphenation patterns for
+(lipsum)                'spanish' will be used instead.
+
+
+Overfull \hbox (17.67633pt too wide) in paragraph at lines 28--28
 []\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
 purus elit, vestibulum
  []
 
-
-Overfull \hbox (5.96664pt too wide) in paragraph at lines 17--18
+LaTeX Info: Redefining \. on input line 28.
+LaTeX Info: Redefining \% on input line 28.
+[2]
+Overfull \hbox (5.96664pt too wide) in paragraph at lines 31--32
 \OT1/cmr/m/n/12 vestibulum ut, placerat ac, adipiscing vitae, felis. Curabitur 
 dictum gravida mauris.
  []
 
 
-Overfull \hbox (17.67633pt too wide) in paragraph at lines 29--29
-[]\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
-purus elit, vestibulum
- []
-
-LaTeX Info: Redefining \. on input line 29.
-LaTeX Info: Redefining \% on input line 29.
-[2]
-Overfull \hbox (17.67633pt too wide) in paragraph at lines 32--32
+Overfull \hbox (17.67633pt too wide) in paragraph at lines 43--43
 []\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
 purus elit, vestibulum
  []
 
 
-Overfull \hbox (17.67633pt too wide) in paragraph at lines 51--51
+Overfull \hbox (17.67633pt too wide) in paragraph at lines 46--46
 []\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
 purus elit, vestibulum
  []
 
-LaTeX Info: Redefining \. on input line 51.
-LaTeX Info: Redefining \% on input line 51.
+LaTeX Info: Redefining \. on input line 46.
+LaTeX Info: Redefining \% on input line 46.
 [3]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 53.
+Overfull \hbox (17.67633pt too wide) in paragraph at lines 65--65
+[]\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
+purus elit, vestibulum
+ []
 
-Overfull \hbox (17.67633pt too wide) in paragraph at lines 74--74
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 67.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 85.
+LaTeX Info: Redefining \% on input line 85.
+ [4]
+Overfull \hbox (17.67633pt too wide) in paragraph at lines 88--88
 []\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
 purus elit, vestibulum
  []
@@ -1349,27 +1325,15 @@ Overfull \hbox (17.67633pt too wide) in paragraph at lines 58--58
 purus elit, vestibulum
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 LaTeX Info: Redefining \. on input line 58.
 LaTeX Info: Redefining \% on input line 58.
- [4]
-LaTeX Info: Redefining \. on input line 58.
-LaTeX Info: Redefining \% on input line 58.
-
 [5]
+LaTeX Info: Redefining \. on input line 58.
+LaTeX Info: Redefining \% on input line 58.
+ [6]
 \openout2 = `chapters/chapter02/chapter02.aux'.
 
  (chapters/chapter02/chapter02.tex
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
- [6
-
-
-
-
-]
 Cap\'{\i }tulo 2.
 LaTeX Font Info:    Trying to load font information for U+lasy on input line 10
 .
@@ -1400,7 +1364,12 @@ Overfull \hbox (17.67633pt too wide) in paragraph at lines 59--59
 purus elit, vestibulum
  []
 
-[7]
+[7
+
+
+
+
+]
 LaTeX Info: Redefining \. on input line 59.
 LaTeX Info: Redefining \% on input line 59.
  [8]
@@ -1443,7 +1412,7 @@ LaTeX Info: Redefining \% on input line 62.
 
  (appendages/appendixB/appendixB.tex
 Ap\'{e}ndice B.
-<img/appendixA/alexnet.png, id=199, 853.1875pt x 392.46625pt>
+<img/appendixA/alexnet.png, id=174, 853.1875pt x 392.46625pt>
 File: img/appendixA/alexnet.png Graphic file (type png)
 <use img/appendixA/alexnet.png>
 Package pdftex.def Info: img/appendixA/alexnet.png  used on input line 5.
@@ -1517,13 +1486,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29471 strings out of 476305
- 531206 string characters out of 5791965
+ 29449 strings out of 476305
+ 530589 string characters out of 5791965
  1937751 words of memory out of 5000000
- 51083 multiletter control sequences out of 15000+600000
+ 51075 multiletter control sequences out of 15000+600000
  568104 words of font info for 73 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 101i,13n,117p,1570b,1933s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,13n,117p,1570b,1935s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12
 .pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmb
 x8.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/c
@@ -1542,9 +1511,9 @@ ts/type1/public/amsfonts/cm/cmti12.pfb></home/sebastian/.miktex/texmfs/install/
 fonts/type1/public/amsfonts/cm/cmtt12.pfb></home/sebastian/.miktex/texmfs/insta
 ll/fonts/type1/public/amsfonts/latxfont/lasy10.pfb></home/sebastian/.miktex/tex
 mfs/install/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (31 pages, 432866 bytes).
+Output written on main.pdf (25 pages, 425148 bytes).
 PDF statistics:
- 363 PDF objects out of 1000 (max. 8388607)
- 72 named destinations out of 1000 (max. 500000)
+ 337 PDF objects out of 1000 (max. 8388607)
+ 66 named destinations out of 1000 (max. 500000)
  160 words of extra memory for PDF output out of 10000 (max. 10000000)
 
