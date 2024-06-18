@@ -2,7 +2,7 @@
 En este capítulo, examinaremos el problema que se abordará y los objetivos previstos para este proyecto. Además, investigaremos los productos existentes que desempeñan una función similar al proyecto que se llevará a cabo.
 
 \section{Planteamiento del Problema}
-Las series de Fourier, desde su concepción por Jean-Baptiste Joseph Fourier a principios del siglo XIX, han desempeñado un rol crucial en el análisis y la comprensión de señales y fenómenos periódicos. Las series de Fourier son parte esencial en campos como la ingeniería eléctrica, la física teórica y el procesamiento de señales, imágenes y audio, permitiendo descomponer funciones periódicas en sumas de senos y cosenos, lo que facilita su análisis y manipulación. Estas herramientas matemáticas no solo han impulsado avances significativos en la ciencia y tecnología, transformando nuestra interacción con el mundo, sino que también son cruciales en la enseñanza de los fundamentos teóricos de la ingeniería. En el ámbito de las ciencias computacionales, el estudio del análisis de Fourier se aplica a áreas vitales como la adquisición y procesamiento de señales, el procesamiento de imágenes y la robótica. Esta capacidad de simplificar señales complejas en componentes básicos no solo mejora el análisis, sino que también facilita la síntesis de nuevas tecnologías que se adaptan a necesidades y entornos cambiantes \cite{almira2017fourier}.
+Las series de Fourier, desde su concepción por Jean-Baptiste Joseph Fourier a principios del siglo XIX, han desempeñado un rol crucial en el análisis y la comprensión de señales y fenómenos periódicos. Las series de Fourier son parte esencial en campos como la ingeniería eléctrica, la física teórica y el procesamiento de señales, imágenes y audio, permitiendo descomponer funciones periódicas en sumas de senos y cosenos, lo que facilita su análisis y manipulación. Estas herramientas matemáticas no solo han impulsado avances significativos en la ciencia y tecnología, transformando nuestra interacción con el mundo, sino que también son cruciales en la enseñanza de los fundamentos teóricos de la ingeniería. En el ámbito de las ciencias computacionales, el estudio del análisis de Fourier se aplica a áreas vitales como la adquisición y procesamiento de señales, el procesamiento de imágenes y la robótica. Esta capacidad de simplificar señales complejas en componentes básicos no solo mejora el análisis, sino que también facilita la síntesis de nuevas tecnologías que se adaptan a necesidades y entornos cambiantes~\cite{almira2017fourier}.
 
 Este amplio espectro de aplicaciones destaca la importancia crítica de las series de Fourier no solo en la investigación avanzada, sino también en la formación académica de futuros ingenieros y científicos. Sin embargo, a pesar de su prevalencia en el currículo educativo, la implementación práctica de este análisis en entornos de aprendizaje a menudo revela áreas de oportunidad dentro de las herramientas disponibles, lo que impacta directamente en la eficacia con la que los estudiantes pueden aplicar y profundizar su comprensión de estos conceptos esenciales.
 
@@ -20,6 +20,25 @@ Desarrollar un prototipo de una aplicación web capaz de calcular las series de 
 	aproximación de la serie de Fourier. Este módulo debería incluir opciones para añadir o eliminar términos y visualizar cómo estas modificaciones afectan la aproximación a la función original
 \end{itemize}
 
+\newpage
+
+\section{Estado del Arte}
+    \begin{table}[h]
+	\centering
+	\begin{tabular}{ | m{2.5cm} | m{6.5cm} | m{4cm} | }
+		\rowcolor{black!75}
+		\head {SOFTWARE} & \head {CARACTERÍSTICAS} & \head {PRECIO} \\ \hline
+		Wolfram Alpha & Potente motor de conocimiento computacional para cálculos matemáticos y gráficos. No especializado en series de Fourier.~\cite{wolfram2024}  & Desde MXN \$1,200.00 anuales para estudiantes, plan gratuito limitado. \\ \hline
+		Geogebra & Herramienta dinámica para construcciones geométricas y gráficas. Requiere cálculos previos para series de Fourier.~\cite{GeoGebra2024} & Software libre y código abierto \\ \hline
+		Desmos  & Similar a Geogebra es una calculadora gráfica en línea para cálculos y gráficos, incluida la representación de series de Fourier. Requiere cálculos previos para series de Fourier.~\cite{Desmos2024} & Software libre y código abierto\\ \hline
+		Manim & Librería de animación en Python para visualizaciones matemáticas, incluida la animación de series de Fourier. Requiere conocimientos de programación y cálculos previos.~\cite{Manim2024} & Software libre y código abierto \\ \hline
+		Matlab  & Entorno de programación para cálculos numéricos y visualización de datos, con herramientas específicas para series de Fourier. Requiere conocimientos en programación.~\cite{MathWorks2024} & Desde USD\$99 (aprox. MXN\$1627.82) anuales para estudiantes.\\ \hline
+	\end{tabular}
+	\caption{Comparación de software para cálculos matemáticos y visualización de datos}
+	\label{tabla:software}
+\end{table}
+
+% ------------
 
 \begin{definition}[Open space]
 A subset $U$ of a metric space $(M, d)$ is called open if, for any point $x$ in $U$, there exists a real number $\epsilon > 0$ such that any point $y\in M$ satisfying $d(x, y) < \epsilon$ belongs to $U$. Equivalently, $U$ is open if every point in $U$ has a neighborhood contained in $U$.

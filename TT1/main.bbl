@@ -47,6 +47,123 @@
       \field{title}{Fourier: un matemático al servicio de la física}
       \field{year}{2017}
     \endentry
+    \entry{wolfram2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=aa345219ebe4e7ae94dbba8e7ae99912}{%
+           family={Intelligence},
+           familyi={I\bibinitperiod},
+           given={Wolfram\bibnamedelimb |\bibnamedelimb Alpha:\bibnamedelima Computational},
+           giveni={W\bibinitperiod\bibinitdelim |\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{aa345219ebe4e7ae94dbba8e7ae99912}
+      \strng{fullhash}{aa345219ebe4e7ae94dbba8e7ae99912}
+      \strng{fullhashraw}{aa345219ebe4e7ae94dbba8e7ae99912}
+      \strng{bibnamehash}{aa345219ebe4e7ae94dbba8e7ae99912}
+      \strng{authorbibnamehash}{aa345219ebe4e7ae94dbba8e7ae99912}
+      \strng{authornamehash}{aa345219ebe4e7ae94dbba8e7ae99912}
+      \strng{authorfullhash}{aa345219ebe4e7ae94dbba8e7ae99912}
+      \strng{authorfullhashraw}{aa345219ebe4e7ae94dbba8e7ae99912}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.wolframalpha.com/}}
+      \field{note}{Accedido: 17 Junio, 2024}
+      \field{title}{Wolfram | Alpha: Making the world’s knowledge computable}
+      \field{year}{2024}
+    \endentry
+    \entry{GeoGebra2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=2190b1c1ebdc18c903e001ee5867de74}{%
+           family={{GeoGebra}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{2190b1c1ebdc18c903e001ee5867de74}
+      \strng{fullhash}{2190b1c1ebdc18c903e001ee5867de74}
+      \strng{fullhashraw}{2190b1c1ebdc18c903e001ee5867de74}
+      \strng{bibnamehash}{2190b1c1ebdc18c903e001ee5867de74}
+      \strng{authorbibnamehash}{2190b1c1ebdc18c903e001ee5867de74}
+      \strng{authornamehash}{2190b1c1ebdc18c903e001ee5867de74}
+      \strng{authorfullhash}{2190b1c1ebdc18c903e001ee5867de74}
+      \strng{authorfullhashraw}{2190b1c1ebdc18c903e001ee5867de74}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.geogebra.org}}
+      \field{note}{Accedido: 2024-04-14}
+      \field{title}{GeoGebra - the world’s favorite, free math tools used by over 100 million students and teachers}
+      \field{year}{2024}
+    \endentry
+    \entry{Desmos2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=8381b43e9de8c0d498ce9bbd4131efdc}{%
+           family={{Desmos}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{8381b43e9de8c0d498ce9bbd4131efdc}
+      \strng{fullhash}{8381b43e9de8c0d498ce9bbd4131efdc}
+      \strng{fullhashraw}{8381b43e9de8c0d498ce9bbd4131efdc}
+      \strng{bibnamehash}{8381b43e9de8c0d498ce9bbd4131efdc}
+      \strng{authorbibnamehash}{8381b43e9de8c0d498ce9bbd4131efdc}
+      \strng{authornamehash}{8381b43e9de8c0d498ce9bbd4131efdc}
+      \strng{authorfullhash}{8381b43e9de8c0d498ce9bbd4131efdc}
+      \strng{authorfullhashraw}{8381b43e9de8c0d498ce9bbd4131efdc}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.desmos.com}}
+      \field{note}{Accedido: 2024-04-14}
+      \field{title}{Desmos | Let's learn together}
+      \field{year}{2024}
+    \endentry
+    \entry{Manim2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=ce4709613c6cae50866f3c3abd59f95c}{%
+           family={{Manim Community}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ce4709613c6cae50866f3c3abd59f95c}
+      \strng{fullhash}{ce4709613c6cae50866f3c3abd59f95c}
+      \strng{fullhashraw}{ce4709613c6cae50866f3c3abd59f95c}
+      \strng{bibnamehash}{ce4709613c6cae50866f3c3abd59f95c}
+      \strng{authorbibnamehash}{ce4709613c6cae50866f3c3abd59f95c}
+      \strng{authornamehash}{ce4709613c6cae50866f3c3abd59f95c}
+      \strng{authorfullhash}{ce4709613c6cae50866f3c3abd59f95c}
+      \strng{authorfullhashraw}{ce4709613c6cae50866f3c3abd59f95c}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.manim.community}}
+      \field{note}{Accedido: 2024-04-14}
+      \field{title}{Manim Community}
+      \field{year}{2024}
+    \endentry
+    \entry{MathWorks2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=2d2b0d998977e6379aad61f1b56ac3c1}{%
+           family={{MathWorks}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{fullhash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{fullhashraw}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{bibnamehash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{authorbibnamehash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{authornamehash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{authorfullhash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{authorfullhashraw}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://la.mathworks.com/}}
+      \field{note}{Accedido: 2024-04-14}
+      \field{title}{MathWorks - Creadores de MATLAB y Simulink - MATLAB y Simulink}
+      \field{year}{2024}
+    \endentry
     \entry{adam2015higgs}{inproceedings}{}{}
       \name{author}{6}{}{%
         {{hash=f64069b8858ffaa83251e49553259d00}{%
@@ -91,8 +208,8 @@
       \strng{authornamehash}{29c2a28deed7f7e828ad07d26e340568}
       \strng{authorfullhash}{cdfa62c667ffb58f2b8337144885d816}
       \strng{authorfullhashraw}{cdfa62c667ffb58f2b8337144885d816}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{NIPS 2014 Workshop on High-energy Physics and Machine Learning}
@@ -122,8 +239,8 @@
       \strng{authornamehash}{2864cd3f15c6e6c024f34340e9fccc5d}
       \strng{authorfullhash}{2864cd3f15c6e6c024f34340e9fccc5d}
       \strng{authorfullhashraw}{2864cd3f15c6e6c024f34340e9fccc5d}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Instrumentation}
@@ -163,8 +280,8 @@
       \strng{authornamehash}{008b0c5cabf28da4ef041500cb0ce8cd}
       \strng{authorfullhash}{008b0c5cabf28da4ef041500cb0ce8cd}
       \strng{authorfullhashraw}{008b0c5cabf28da4ef041500cb0ce8cd}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature communications}
@@ -204,8 +321,8 @@
       \strng{authornamehash}{ee7fed1c7dd860cf46cf81a280e3c44d}
       \strng{authorfullhash}{ee7fed1c7dd860cf46cf81a280e3c44d}
       \strng{authorfullhashraw}{ee7fed1c7dd860cf46cf81a280e3c44d}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Journal of Physics: Conference Series}

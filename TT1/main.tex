@@ -16,14 +16,35 @@
 \usepackage{bookmark}
 \usepackage{hyperref}
 \usepackage{biblatex}
+\usepackage{url}
 
+% ------------- Para las tablas
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage[table]{xcolor}
 
+\definecolor{darkblue}{rgb}{0.0, 0.0, 0.55}
+\definecolor{darkgray}{rgb}{0.66, 0.66, 0.66}
+\rowcolors{2}{gray!15}{white}
+
+\newcommand{\head}[1]{%
+	\textcolor{white}{\textbf{#1}}}
+\renewcommand{\arraystretch}{1.5}
+
+% Redefinir nombre de la lista de tablas en español
+\addto\captionsspanish{\renewcommand{\listtablename}{Lista de tablas}}
+
+% Redefinir nombre de los captions de las tablas en español
+\addto\captionsspanish{\renewcommand{\tablename}{Tabla}}
+
+%----------------------------
 
 \addbibresource{./references.bib}
 
 \author{Sebastián Morales Palacios}
 \title{Desarrollo de una aplicación web para el cálculo y graficación de series de Fourier}
-\projectnumber{TT 2025-A075}
+\projectnumber{2025-A075}
 \schoolname{Escuela Superior de Cómputo}
 \degree{Ingeniero en Sistemas Computacionales}
 \advisor{Lic. Jesús Alfredo Martínez Nuño}
@@ -33,7 +54,7 @@
 \hypersetup{
 	colorlinks=false,
 	pdfauthor={Your Name},
-	pdftitle={TT 2025-A075},
+	pdftitle={2025-A075},
 	pdfsubject={Thesis},
 	pdfkeywords={keyword1, keyword2, keyword3},
 	pdfproducer={Latex with hyperref},

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.24)  16 JUN 2024 07:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.24)  17 JUN 2024 18:25
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -976,7 +976,23 @@ File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
 )
 \BKM@id=\count500
 ))
-Package hyperref Info: Option `colorlinks' set `false' on input line 41.
+(/home/sebastian/.miktex/texmfs/install/tex/latex/tools/array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen280
+\ar@mcellbox=\box69
+\extrarowheight=\dimen281
+\NC@list=\toks43
+\extratabsurround=\skip86
+\backup@length=\skip87
+\ar@cellbox=\box70
+)
+(/home/sebastian/.miktex/texmfs/install/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2024/05/26 v1.0h Color table columns (DPC)
+\everycr=\toks44
+\minrowclearance=\skip88
+\rownum=\count501
+)
+Package hyperref Info: Option `colorlinks' set `false' on input line 62.
 runsystem(command -v pygmentize && touch main.aex)...executed.
 
 runsystem(rm main.aex)...executed.
@@ -993,38 +1009,38 @@ LaTeX Info: Redefining \% on input line 14.
 ges/appendixA/appendixA.aux) (appendages/appendixB/appendixB.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
 
 (/home/sebastian/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count501
-\scratchdimen=\dimen280
-\scratchbox=\box69
-\nofMPsegments=\count502
-\nofMParguments=\count503
-\everyMPshowfont=\toks43
-\MPscratchCnt=\count504
-\MPscratchDim=\dimen281
-\MPnumerator=\count505
-\makeMPintoPDFobject=\count506
-\everyMPtoPDFconversion=\toks44
+\scratchcounter=\count502
+\scratchdimen=\dimen282
+\scratchbox=\box71
+\nofMPsegments=\count503
+\nofMParguments=\count504
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count505
+\MPscratchDim=\dimen283
+\MPnumerator=\count506
+\makeMPintoPDFobject=\count507
+\everyMPtoPDFconversion=\toks46
 )
 (/home/sebastian/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.st
 y
@@ -1071,9 +1087,9 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 (/home/sebastian/.miktex/texmfs/install/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
-\c@lstlisting=\count507
-LaTeX Info: Redefining \. on input line 45.
-LaTeX Info: Redefining \% on input line 45.
+\c@lstlisting=\count508
+LaTeX Info: Redefining \. on input line 66.
+LaTeX Info: Redefining \% on input line 66.
 Package biblatex Info: Trying to load language 'spanish'...
 Package biblatex Info: ... file 'spanish.lbx' found.
 
@@ -1089,28 +1105,28 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
 (main.bbl)
-Package biblatex Info: Reference section=0 on input line 45.
-Package biblatex Info: Reference segment=0 on input line 45.
+Package biblatex Info: Reference section=0 on input line 66.
+Package biblatex Info: Reference segment=0 on input line 66.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 45.
+Package hyperref Info: Link coloring OFF on input line 66.
 <img/EscudoIPN.png, id=3, 774.895pt x 1145.27875pt>
 File: img/EscudoIPN.png Graphic file (type png)
 <use img/EscudoIPN.png>
-Package pdftex.def Info: img/EscudoIPN.png  used on input line 48.
+Package pdftex.def Info: img/EscudoIPN.png  used on input line 69.
 (pdftex.def)             Requested size: 53.48749pt x 79.0418pt.
 <img/EscudoESCOM.png, id=5, 451.6875pt x 289.08pt>
 File: img/EscudoESCOM.png Graphic file (type png)
 <use img/EscudoESCOM.png>
-Package pdftex.def Info: img/EscudoESCOM.png  used on input line 48.
+Package pdftex.def Info: img/EscudoESCOM.png  used on input line 69.
 (pdftex.def)             Requested size: 101.6259pt x 65.04019pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 48.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 69.
 
  (/home/sebastian/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 48.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 69.
 
 
 (/home/sebastian/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
@@ -1118,23 +1134,23 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <22> not available
-(Font)              size <20.74> substituted on input line 48.
+(Font)              size <20.74> substituted on input line 69.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/sc' in size <22> not available
-(Font)              size <20.74> substituted on input line 48.
+(Font)              size <20.74> substituted on input line 69.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 48.
+(Font)              size <17.28> substituted on input line 69.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/sc' in size <16> not available
-(Font)              size <17.28> substituted on input line 48.
+(Font)              size <17.28> substituted on input line 69.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 48.
+(Font)              size <17.28> substituted on input line 69.
 
 [1
 
@@ -1157,13 +1173,13 @@ Overfull \hbox (4.84103pt too wide) in paragraph at lines 7--9
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 16--52
+Underfull \hbox (badness 10000) in paragraph at lines 16--73
 
  []
 
 [3]
-LaTeX Info: Redefining \. on input line 52.
-LaTeX Info: Redefining \% on input line 52.
+LaTeX Info: Redefining \. on input line 73.
+LaTeX Info: Redefining \% on input line 73.
  [4
 
 ] (main.toc
@@ -1184,8 +1200,8 @@ Package spanish Warning: Replacing `OT1/cmr/bx/sc' by
 \openout6 = `main.toc'.
 
  [5]
-LaTeX Info: Redefining \. on input line 53.
-LaTeX Info: Redefining \% on input line 53.
+LaTeX Info: Redefining \. on input line 74.
+LaTeX Info: Redefining \% on input line 74.
  [6
 
 ] (main.lof
@@ -1197,21 +1213,27 @@ LaTeX Info: Redefining \% on input line 1.
 \openout7 = `main.lof'.
 
  [7]
-LaTeX Info: Redefining \. on input line 54.
-LaTeX Info: Redefining \% on input line 54.
+LaTeX Info: Redefining \. on input line 75.
+LaTeX Info: Redefining \% on input line 75.
  [8
 
 ] (main.lot
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
+
+Overfull \hbox (1.90779pt too wide) in paragraph at lines 4--4
+ [][] [][]\OT1/cmr/m/n/12 Comparaci^^Son de software para c^^Salculos matem^^Sa
+ticos y visualizaci^^Son 
+ []
+
 )
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
  [9]
-LaTeX Info: Redefining \. on input line 55.
-LaTeX Info: Redefining \% on input line 55.
+LaTeX Info: Redefining \. on input line 76.
+LaTeX Info: Redefining \% on input line 76.
  [10
 
 ] (main.loa)
@@ -1219,15 +1241,14 @@ LaTeX Info: Redefining \% on input line 55.
 \openout9 = `main.loa'.
 
  [11]
-LaTeX Info: Redefining \. on input line 57.
-LaTeX Info: Redefining \% on input line 57.
+LaTeX Info: Redefining \. on input line 78.
+LaTeX Info: Redefining \% on input line 78.
  [12
 
 ]
 \openout2 = `chapters/chapter01/chapter01.aux'.
 
-
-(chapters/chapter01/chapter01.tex
+ (chapters/chapter01/chapter01.tex
 Cap\'{\i }tulo 1.
 
 Overfull \hbox (0.63406pt too wide) in paragraph at lines 7--8
@@ -1268,69 +1289,160 @@ Overfull \hbox (27.55746pt too wide) in paragraph at lines 18--19
  de la serie trigonom^^Setricas
  []
 
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
+[2]
+Overfull \hbox (5.95143pt too wide) in paragraph at lines 30--30
+[]|[]\OT1/cmr/bx/sc/12 SOFTWARE[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+[]|\OT1/cmr/m/n/12 Wolfram
+ []
+
+
+Underfull \hbox (badness 6978) in paragraph at lines 31--31
+[]|\OT1/cmr/m/n/12 Potente motor de conocimiento
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+\OT1/cmr/m/n/12 computacional para c^^Salculos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+\OT1/cmr/m/n/12 matem^^Saticos y gr^^Saficos. No
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+\OT1/cmr/m/n/12 anuales para
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+\OT1/cmr/m/n/12 estudiantes, plan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+[]|\OT1/cmr/m/n/12 Herramienta din^^Samica para
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+\OT1/cmr/m/n/12 construcciones geom^^Setricas y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+[]|\OT1/cmr/m/n/12 Similar a Geogebra es una
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 33--33
+\OT1/cmr/m/n/12 calculadora gr^^Safica en l^^S^^Pnea para
+ []
+
+
+Underfull \hbox (badness 6641) in paragraph at lines 33--33
+\OT1/cmr/m/n/12 c^^Salculos y gr^^Saficos, incluida la
+ []
+
+
+Underfull \hbox (badness 2486) in paragraph at lines 34--34
+\OT1/cmr/m/n/12 para visualizaciones matem^^Saticas,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+[]|\OT1/cmr/m/n/12 Entorno de programaci^^Son para
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 35--35
+\OT1/cmr/m/n/12 para series de Fourier. Requiere
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+[]|\OT1/cmr/m/n/12 Desde USD\TS1/cmr/m/n/12 $\OT1/cmr/m/n/12 99
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+\OT1/cmr/m/n/12 (aprox.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+\OT1/cmr/m/n/12 MXN\TS1/cmr/m/n/12 $\OT1/cmr/m/n/12 1627.82)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+\OT1/cmr/m/n/12 anuales para
+ []
+
 
 Package lipsum Warning: Unknown language 'latin'. Hyphenation patterns for
 (lipsum)                'spanish' will be used instead.
 
 
-Overfull \hbox (17.67633pt too wide) in paragraph at lines 28--28
+Overfull \hbox (17.67633pt too wide) in paragraph at lines 47--47
 []\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
 purus elit, vestibulum
  []
 
-LaTeX Info: Redefining \. on input line 28.
-LaTeX Info: Redefining \% on input line 28.
-[2]
-Overfull \hbox (5.96664pt too wide) in paragraph at lines 31--32
+LaTeX Info: Redefining \. on input line 47.
+LaTeX Info: Redefining \% on input line 47.
+[3]
+Overfull \hbox (5.96664pt too wide) in paragraph at lines 50--51
 \OT1/cmr/m/n/12 vestibulum ut, placerat ac, adipiscing vitae, felis. Curabitur 
 dictum gravida mauris.
  []
 
 
-Overfull \hbox (17.67633pt too wide) in paragraph at lines 43--43
+Overfull \hbox (17.67633pt too wide) in paragraph at lines 62--62
 []\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
 purus elit, vestibulum
  []
 
 
-Overfull \hbox (17.67633pt too wide) in paragraph at lines 46--46
-[]\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
-purus elit, vestibulum
- []
-
-LaTeX Info: Redefining \. on input line 46.
-LaTeX Info: Redefining \% on input line 46.
-[3]
 Overfull \hbox (17.67633pt too wide) in paragraph at lines 65--65
 []\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
 purus elit, vestibulum
  []
 
+LaTeX Info: Redefining \. on input line 65.
+LaTeX Info: Redefining \% on input line 65.
+[4]
+Overfull \hbox (17.67633pt too wide) in paragraph at lines 84--84
+[]\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
+purus elit, vestibulum
+ []
+
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 67.
+put line 86.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 85.
-LaTeX Info: Redefining \% on input line 85.
- [4]
-Overfull \hbox (17.67633pt too wide) in paragraph at lines 88--88
+Overfull \hbox (17.67633pt too wide) in paragraph at lines 107--107
 []\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
 purus elit, vestibulum
  []
 
-)
-Overfull \hbox (17.67633pt too wide) in paragraph at lines 58--58
+LaTeX Info: Redefining \. on input line 107.
+LaTeX Info: Redefining \% on input line 107.
+[5])
+Overfull \hbox (17.67633pt too wide) in paragraph at lines 79--79
 []\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
 purus elit, vestibulum
  []
 
-LaTeX Info: Redefining \. on input line 58.
-LaTeX Info: Redefining \% on input line 58.
-[5]
-LaTeX Info: Redefining \. on input line 58.
-LaTeX Info: Redefining \% on input line 58.
- [6]
+LaTeX Info: Redefining \. on input line 79.
+LaTeX Info: Redefining \% on input line 79.
+[6]
 \openout2 = `chapters/chapter02/chapter02.aux'.
 
  (chapters/chapter02/chapter02.tex
@@ -1359,20 +1471,24 @@ purus elit, vestibulum
  []
 
 )
-Overfull \hbox (17.67633pt too wide) in paragraph at lines 59--59
+Overfull \hbox (17.67633pt too wide) in paragraph at lines 80--80
 []\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
 purus elit, vestibulum
  []
 
-[7
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7
 
 
 
 
 ]
-LaTeX Info: Redefining \. on input line 59.
-LaTeX Info: Redefining \% on input line 59.
- [8]
+LaTeX Info: Redefining \. on input line 80.
+LaTeX Info: Redefining \% on input line 80.
+
+[8]
 \openout2 = `appendages/appendixA/appendixA.aux'.
 
  (appendages/appendixA/appendixA.tex
@@ -1394,7 +1510,7 @@ purus elit, vestibulum
  []
 
 )
-Overfull \hbox (17.67633pt too wide) in paragraph at lines 62--62
+Overfull \hbox (17.67633pt too wide) in paragraph at lines 83--83
 []\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
 purus elit, vestibulum
  []
@@ -1405,14 +1521,14 @@ purus elit, vestibulum
 
 
 ]
-LaTeX Info: Redefining \. on input line 62.
-LaTeX Info: Redefining \% on input line 62.
+LaTeX Info: Redefining \. on input line 83.
+LaTeX Info: Redefining \% on input line 83.
  [10]
 \openout2 = `appendages/appendixB/appendixB.aux'.
 
  (appendages/appendixB/appendixB.tex
 Ap\'{e}ndice B.
-<img/appendixA/alexnet.png, id=174, 853.1875pt x 392.46625pt>
+<img/appendixA/alexnet.png, id=188, 853.1875pt x 392.46625pt>
 File: img/appendixA/alexnet.png Graphic file (type png)
 <use img/appendixA/alexnet.png>
 Package pdftex.def Info: img/appendixA/alexnet.png  used on input line 5.
@@ -1429,30 +1545,18 @@ purus elit, vestibulum
 
 
  <./img/appendixA/alexnet.png>])
-LaTeX Info: Redefining \. on input line 63.
-LaTeX Info: Redefining \% on input line 63.
+LaTeX Info: Redefining \. on input line 84.
+LaTeX Info: Redefining \% on input line 84.
  [12]
-Overfull \hbox (3.1292pt too wide) in paragraph at lines 67--67
+Overfull \hbox (9.00414pt too wide) in paragraph at lines 88--88
 []\OT1/cmr/m/n/12 Claire Adam-Bourdarios et al. []  The Higgs boson machine lea
 rning challenge[].
  []
 
 
-Overfull \hbox (8.34499pt too wide) in paragraph at lines 67--67
-[]\OT1/cmr/m/n/12 Pierre Baldi, Peter Sadowski y Daniel Whiteson. []  Searching
- for exotic particles
- []
-
-
-Overfull \hbox (13.18443pt too wide) in paragraph at lines 67--67
-\OT1/cmr/m/n/12 Background Discrimination in Liquid based Neutrino Experiment[]
-. En: \OT1/cmr/m/it/12 Journal
- []
-
-
-Overfull \hbox (6.6794pt too wide) in paragraph at lines 67--67
-\OT1/cmr/m/it/12 of Physics: Conference Series\OT1/cmr/m/n/12 . Vol. 1085. 4. I
-OP Publishing. 2018, p^^Sag. 042037. 
+Overfull \hbox (22.97202pt too wide) in paragraph at lines 88--88
+\OT1/cmr/m/n/12 particles in high-energy physics with deep learning[]. En: \OT1
+/cmr/m/it/12 Nature communications
  []
 
 [13
@@ -1479,41 +1583,48 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
 runsystem(rm main.pyg)...executed.
+
+
+Package biblatex Warning: Please rerun LaTeX.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29449 strings out of 476305
- 530589 string characters out of 5791965
- 1937751 words of memory out of 5000000
- 51075 multiletter control sequences out of 15000+600000
- 568104 words of font info for 73 fonts, out of 8000000 for 9000
+ 29631 strings out of 476305
+ 533754 string characters out of 5791965
+ 1941751 words of memory out of 5000000
+ 51243 multiletter control sequences out of 15000+600000
+ 568441 words of font info for 74 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 101i,13n,117p,1570b,1935s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12
-.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmb
-x8.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/c
-mcsc10.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfonts/
-cm/cmex10.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfon
-ts/cm/cmitt10.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public/am
-sfonts/cm/cmmi12.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public
-/amsfonts/cm/cmmi8.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/publ
-ic/amsfonts/cm/cmr10.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/pu
-blic/amsfonts/cm/cmr12.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/
-public/amsfonts/cm/cmr17.pfb></home/sebastian/.miktex/texmfs/install/fonts/type
-1/public/amsfonts/cm/cmr8.pfb></home/sebastian/.miktex/texmfs/install/fonts/typ
-e1/public/amsfonts/cm/cmsl12.pfb></home/sebastian/.miktex/texmfs/install/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb></home/sebastian/.miktex/texmfs/install/fon
-ts/type1/public/amsfonts/cm/cmti12.pfb></home/sebastian/.miktex/texmfs/install/
-fonts/type1/public/amsfonts/cm/cmtt12.pfb></home/sebastian/.miktex/texmfs/insta
-ll/fonts/type1/public/amsfonts/latxfont/lasy10.pfb></home/sebastian/.miktex/tex
-mfs/install/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (25 pages, 425148 bytes).
+ 101i,14n,117p,1570b,1935s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/sebastian/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm
+1200.pk></home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/
+cmbx12.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfonts/
+cm/cmbx8.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfont
+s/cm/cmcsc10.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public/ams
+fonts/cm/cmex10.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public/
+amsfonts/cm/cmitt10.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/pub
+lic/amsfonts/cm/cmmi12.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/
+public/amsfonts/cm/cmmi8.pfb></home/sebastian/.miktex/texmfs/install/fonts/type
+1/public/amsfonts/cm/cmr10.pfb></home/sebastian/.miktex/texmfs/install/fonts/ty
+pe1/public/amsfonts/cm/cmr12.pfb></home/sebastian/.miktex/texmfs/install/fonts/
+type1/public/amsfonts/cm/cmr17.pfb></home/sebastian/.miktex/texmfs/install/font
+s/type1/public/amsfonts/cm/cmr8.pfb></home/sebastian/.miktex/texmfs/install/fon
+ts/type1/public/amsfonts/cm/cmsl12.pfb></home/sebastian/.miktex/texmfs/install/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/sebastian/.miktex/texmfs/insta
+ll/fonts/type1/public/amsfonts/cm/cmti12.pfb></home/sebastian/.miktex/texmfs/in
+stall/fonts/type1/public/amsfonts/cm/cmtt12.pfb></home/sebastian/.miktex/texmfs
+/install/fonts/type1/public/amsfonts/latxfont/lasy10.pfb></home/sebastian/.mikt
+ex/texmfs/install/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on main.pdf (25 pages, 433753 bytes).
 PDF statistics:
- 337 PDF objects out of 1000 (max. 8388607)
- 66 named destinations out of 1000 (max. 500000)
- 160 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 367 PDF objects out of 1000 (max. 8388607)
+ 73 named destinations out of 1000 (max. 500000)
+ 168 words of extra memory for PDF output out of 10000 (max. 10000000)
 

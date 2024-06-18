@@ -2376,10 +2376,15 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1" intorder="1">almira2017fourier</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">adam2015higgs</bcf:citekey>
-    <bcf:citekey order="2" intorder="2">atlas2014neural</bcf:citekey>
-    <bcf:citekey order="2" intorder="3">baldi2014searching</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">li2018deep</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">wolfram2024</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">GeoGebra2024</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">Desmos2024</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">Manim2024</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">MathWorks2024</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">adam2015higgs</bcf:citekey>
+    <bcf:citekey order="7" intorder="2">atlas2014neural</bcf:citekey>
+    <bcf:citekey order="7" intorder="3">baldi2014searching</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">li2018deep</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
