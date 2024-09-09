@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.24)  17 JUN 2024 18:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.24)  8 SEP 2024 18:02
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1005,8 +1005,9 @@ Package csquotes Info: Redefining alias 'default' -> 'spanish'.
 (main.aux
 LaTeX Info: Redefining \. on input line 14.
 LaTeX Info: Redefining \% on input line 14.
- (chapters/chapter01/chapter01.aux) (chapters/chapter02/chapter02.aux) (appenda
-ges/appendixA/appendixA.aux) (appendages/appendixB/appendixB.aux))
+ (chapters/chapter01/chapter01.aux) (chapters/chapter02/chapter02.aux) (chapter
+s/chapter03/chapter03.aux) (appendages/appendixA/appendixA.aux)
+(appendages/appendixB/appendixB.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
@@ -1447,22 +1448,52 @@ LaTeX Info: Redefining \% on input line 79.
 
  (chapters/chapter02/chapter02.tex
 Cap\'{\i }tulo 2.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 10
+
+Overfull \hbox (16.07286pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/12 particularmente en el contexto de las ecuaciones diferenciales 
+que modelan fen^^Somenos
+ []
+
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 19
 .
 (/home/sebastian/.miktex/texmfs/install/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-Overfull \hbox (11.99998pt too wide) in paragraph at lines 5--19
+Overfull \hbox (11.99998pt too wide) in paragraph at lines 14--28
  [][] 
  []
 
 LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 
-19.
-LaTeX Font Info:    No file OMScmtt.fd. on input line 19.
+28.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 28.
 
 LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbackslash' on input line 19.
+(Font)              for symbol `textbackslash' on input line 28.
+
+)
+Overfull \hbox (17.67633pt too wide) in paragraph at lines 80--80
+[]\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
+purus elit, vestibulum
+ []
+
+[7
+
+
+
+
+]
+LaTeX Info: Redefining \. on input line 80.
+LaTeX Info: Redefining \% on input line 80.
+ [8]
+\openout2 = `chapters/chapter03/chapter03.aux'.
+
+ (chapters/chapter03/chapter03.tex
+Cap\'{\i }tulo 3.
+
+Overfull \hbox (11.99998pt too wide) in paragraph at lines 5--19
+ [][] 
+ []
 
 
 Overfull \hbox (17.67633pt too wide) in paragraph at lines 3--22
@@ -1471,7 +1502,7 @@ purus elit, vestibulum
  []
 
 )
-Overfull \hbox (17.67633pt too wide) in paragraph at lines 80--80
+Overfull \hbox (17.67633pt too wide) in paragraph at lines 81--81
 []\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
 purus elit, vestibulum
  []
@@ -1479,16 +1510,16 @@ purus elit, vestibulum
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7
+ [9
 
 
 
 
 ]
-LaTeX Info: Redefining \. on input line 80.
-LaTeX Info: Redefining \% on input line 80.
+LaTeX Info: Redefining \. on input line 81.
+LaTeX Info: Redefining \% on input line 81.
 
-[8]
+[10]
 \openout2 = `appendages/appendixA/appendixA.aux'.
 
  (appendages/appendixA/appendixA.tex
@@ -1510,25 +1541,25 @@ purus elit, vestibulum
  []
 
 )
-Overfull \hbox (17.67633pt too wide) in paragraph at lines 83--83
+Overfull \hbox (17.67633pt too wide) in paragraph at lines 84--84
 []\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
 purus elit, vestibulum
  []
 
-[9
+[11
 
 
 
 
 ]
-LaTeX Info: Redefining \. on input line 83.
-LaTeX Info: Redefining \% on input line 83.
- [10]
+LaTeX Info: Redefining \. on input line 84.
+LaTeX Info: Redefining \% on input line 84.
+ [12]
 \openout2 = `appendages/appendixB/appendixB.aux'.
 
  (appendages/appendixB/appendixB.tex
 Ap\'{e}ndice B.
-<img/appendixA/alexnet.png, id=188, 853.1875pt x 392.46625pt>
+<img/appendixA/alexnet.png, id=206, 853.1875pt x 392.46625pt>
 File: img/appendixA/alexnet.png Graphic file (type png)
 <use img/appendixA/alexnet.png>
 Package pdftex.def Info: img/appendixA/alexnet.png  used on input line 5.
@@ -1539,27 +1570,27 @@ Overfull \hbox (17.67633pt too wide) in paragraph at lines 3--9
 purus elit, vestibulum
  []
 
-[11
+[13
 
 
 
 
  <./img/appendixA/alexnet.png>])
-LaTeX Info: Redefining \. on input line 84.
-LaTeX Info: Redefining \% on input line 84.
- [12]
-Overfull \hbox (9.00414pt too wide) in paragraph at lines 88--88
+LaTeX Info: Redefining \. on input line 85.
+LaTeX Info: Redefining \% on input line 85.
+ [14]
+Overfull \hbox (9.00414pt too wide) in paragraph at lines 89--89
 []\OT1/cmr/m/n/12 Claire Adam-Bourdarios et al. []  The Higgs boson machine lea
 rning challenge[].
  []
 
 
-Overfull \hbox (22.97202pt too wide) in paragraph at lines 88--88
+Overfull \hbox (22.97202pt too wide) in paragraph at lines 89--89
 \OT1/cmr/m/n/12 particles in high-energy physics with deep learning[]. En: \OT1
 /cmr/m/it/12 Nature communications
  []
 
-[13
+[15
 
 
 
@@ -1569,8 +1600,8 @@ LaTeX Info: Redefining \sptext on input line 14.
 LaTeX Info: Redefining \. on input line 14.
 LaTeX Info: Redefining \% on input line 14.
  (chapters/chapter01/chapter01.aux)
-(chapters/chapter02/chapter02.aux) (appendages/appendixA/appendixA.aux)
-(appendages/appendixB/appendixB.aux))
+(chapters/chapter02/chapter02.aux) (chapters/chapter03/chapter03.aux)
+(appendages/appendixA/appendixA.aux) (appendages/appendixB/appendixB.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
@@ -1583,23 +1614,17 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
 runsystem(rm main.pyg)...executed.
-
-
-Package biblatex Warning: Please rerun LaTeX.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29631 strings out of 476305
- 533754 string characters out of 5791965
- 1941751 words of memory out of 5000000
- 51243 multiletter control sequences out of 15000+600000
+ 29668 strings out of 476305
+ 535073 string characters out of 5791965
+ 1940751 words of memory out of 5000000
+ 51265 multiletter control sequences out of 15000+600000
  568441 words of font info for 74 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  101i,14n,117p,1570b,1935s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1622,9 +1647,9 @@ ll/fonts/type1/public/amsfonts/cm/cmti12.pfb></home/sebastian/.miktex/texmfs/in
 stall/fonts/type1/public/amsfonts/cm/cmtt12.pfb></home/sebastian/.miktex/texmfs
 /install/fonts/type1/public/amsfonts/latxfont/lasy10.pfb></home/sebastian/.mikt
 ex/texmfs/install/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (25 pages, 433753 bytes).
+Output written on main.pdf (27 pages, 439653 bytes).
 PDF statistics:
- 367 PDF objects out of 1000 (max. 8388607)
- 73 named destinations out of 1000 (max. 500000)
- 168 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 394 PDF objects out of 1000 (max. 8388607)
+ 79 named destinations out of 1000 (max. 500000)
+ 192 words of extra memory for PDF output out of 10000 (max. 10000000)
 
