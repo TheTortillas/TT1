@@ -17,12 +17,18 @@
 \usepackage{hyperref}
 \usepackage{biblatex}
 \usepackage{url}
+\usepackage{amsmath}
 
 % ------------- Para las tablas
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{array}
 \usepackage[table]{xcolor}
+
+%-------------- Para graficar
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest}
 
 \definecolor{darkblue}{rgb}{0.0, 0.0, 0.55}
 \definecolor{darkgray}{rgb}{0.66, 0.66, 0.66}
@@ -37,6 +43,14 @@
 
 % Redefinir nombre de los captions de las tablas en español
 \addto\captionsspanish{\renewcommand{\tablename}{Tabla}}
+
+% Quitar la sangría cuando se inicia cada parrafo
+\setlength{\parindent}{0pt}
+
+% Ajustar la justifiación del texto (problemas por el español)
+\sloppy
+
+
 
 %----------------------------
 

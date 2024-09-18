@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.24)  8 SEP 2024 18:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.24)  18 SEP 2024 12:23
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -992,7 +992,424 @@ Package: colortbl 2024/05/26 v1.0h Color table columns (DPC)
 \minrowclearance=\skip88
 \rownum=\count501
 )
-Package hyperref Info: Option `colorlinks' set `false' on input line 62.
+(/home/sebastian/.miktex/texmfs/install/tex/latex/pgf/frontendlayer/tikz.sty
+(/home/sebastian/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgf.sty
+(/home/sebastian/.miktex/texmfs/install/tex/latex/pgf/utilities/pgfrcs.sty
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-commo
+n.tex
+\pgfutil@everybye=\toks45
+\pgfutil@tempdima=\dimen282
+\pgfutil@tempdimb=\dimen283
+)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-latex
+.def
+\pgfutil@abb=\box71
+)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfrcs.code.t
+ex (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(/home/sebastian/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgfcore.sty
+(/home/sebastian/.miktex/texmfs/install/tex/latex/pgf/systemlayer/pgfsys.sty
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys.code
+.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.
+tex
+\pgfkeys@pathtoks=\toks46
+\pgfkeys@temptoks=\toks47
+
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeyslibrar
+yfiltered.code.tex
+\pgfkeys@tmptoks=\toks48
+))
+\pgf@x=\dimen284
+\pgf@y=\dimen285
+\pgf@xa=\dimen286
+\pgf@ya=\dimen287
+\pgf@xb=\dimen288
+\pgf@yb=\dimen289
+\pgf@xc=\dimen290
+\pgf@yc=\dimen291
+\pgf@xd=\dimen292
+\pgf@yd=\dimen293
+\w@pgf@writea=\write6
+\r@pgf@reada=\read6
+\c@pgf@counta=\count502
+\c@pgf@countb=\count503
+\c@pgf@countc=\count504
+\c@pgf@countd=\count505
+\t@pgf@toka=\toks49
+\t@pgf@tokb=\toks50
+\t@pgf@tokc=\toks51
+\pgf@sys@id@count=\count506
+
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-pdft
+ex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-comm
+on-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsyssoftp
+ath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count507
+\pgfsyssoftpath@bigbuffer@items=\count508
+)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsysproto
+col.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcore.code
+.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathutil.code.t
+ex)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathparser.code
+.tex
+\pgfmath@dimen=\dimen294
+\pgfmath@count=\count509
+\pgfmath@box=\box72
+\pgfmath@toks=\toks52
+\pgfmath@stack@operand=\toks53
+\pgfmath@stack@operation=\toks54
+)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.c
+ode.tex)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.b
+asic.code.tex)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.t
+rigonometric.code.tex)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.r
+andom.code.tex)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.c
+omparison.code.tex)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.b
+ase.code.tex)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.r
+ound.code.tex)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.m
+isc.code.tex)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.i
+ntegerarithmetics.code.tex)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathcalc.code.t
+ex)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfloat.code.
+tex
+\c@pgfmathroundto@lastzeros=\count510
+))
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/math/pgfint.code.tex)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepoint
+s.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen295
+\pgf@picmaxx=\dimen296
+\pgf@picminy=\dimen297
+\pgf@picmaxy=\dimen298
+\pgf@pathminx=\dimen299
+\pgf@pathmaxx=\dimen300
+\pgf@pathminy=\dimen301
+\pgf@pathmaxy=\dimen302
+\pgf@xx=\dimen303
+\pgf@xy=\dimen304
+\pgf@yx=\dimen305
+\pgf@yy=\dimen306
+\pgf@zx=\dimen307
+\pgf@zy=\dimen308
+)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathc
+onstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen309
+\pgf@path@lasty=\dimen310
+)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathu
+sage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen311
+\pgf@shorten@start@additional=\dimen312
+)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorescope
+s.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box73
+\pgf@hbox=\box74
+\pgf@layerbox@main=\box75
+\pgf@picture@serial@count=\count511
+)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoregraph
+icstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen313
+)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretrans
+formations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen314
+\pgf@pt@y=\dimen315
+\pgf@pt@temp=\dimen316
+)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorequick
+.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreobjec
+ts.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathp
+rocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorearrow
+s.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen317
+)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreshade
+.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen318
+\pgf@sys@shading@range@num=\count512
+\pgf@shadingcount=\count513
+)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreimage
+.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreexter
+nal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box76
+)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorelayer
+s.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretrans
+parency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepatte
+rns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorerdf.c
+ode.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduleshapes
+.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box77
+)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduleplot.c
+ode.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/home/sebastian/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-ver
+sion-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen319
+\pgf@nodesepend=\dimen320
+)
+(/home/sebastian/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-ver
+sion-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(/home/sebastian/.miktex/texmfs/install/tex/latex/pgf/utilities/pgffor.sty
+(/home/sebastian/.miktex/texmfs/install/tex/latex/pgf/utilities/pgfkeys.sty
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.
+tex)) (/home/sebastian/.miktex/texmfs/install/tex/latex/pgf/math/pgfmath.sty
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex))
+
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/utilities/pgffor.code.t
+ex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen321
+\pgffor@skip=\dimen322
+\pgffor@stack=\toks55
+\pgffor@toks=\toks56
+))
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/tikz
+.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryplo
+thandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count514
+\pgfplotmarksize=\dimen323
+)
+\tikz@lastx=\dimen324
+\tikz@lasty=\dimen325
+\tikz@lastxsaved=\dimen326
+\tikz@lastysaved=\dimen327
+\tikz@lastmovetox=\dimen328
+\tikz@lastmovetoy=\dimen329
+\tikzleveldistance=\dimen330
+\tikzsiblingdistance=\dimen331
+\tikz@figbox=\box78
+\tikz@figbox@bg=\box79
+\tikz@tempbox=\box80
+\tikz@tempbox@bg=\box81
+\tikztreelevel=\count515
+\tikznumberofchildren=\count516
+\tikznumberofcurrentchild=\count517
+\tikz@fig@count=\count518
+
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmodulematrix
+.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count519
+\pgfmatrixcurrentcolumn=\count520
+\pgf@matrix@numberofcolumns=\count521
+)
+\tikz@expandcount=\count522
+
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libr
+aries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/home/sebastian/.miktex/texmfs/install/tex/latex/pgfplots/pgfplots.sty
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/pgfplots.revision.
+tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/pgfplots.code.tex
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/pgfplotscore.code.
+tex
+\t@pgfplots@toka=\toks57
+\t@pgfplots@tokb=\toks58
+\t@pgfplots@tokc=\toks59
+\pgfplots@tmpa=\dimen332
+\c@pgfplots@coordindex=\count523
+\c@pgfplots@scanlineindex=\count524
+
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/sys/pgfplotssysgen
+eric.code.tex))
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/libs/pgfplotslibra
+ry.code.tex)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/oldpgfcompatib/pgf
+plotsoldpgfsupp_loader.code.tex
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryfpu
+.code.tex)
+Package pgfplots: loading complementary utilities for your pgf version...
+\t@pgf@toka=\toks60
+\t@pgf@tokb=\toks61
+\t@pgf@tokc=\toks62
+
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/oldpgfcompatib/pgf
+plotsoldpgfsupp_pgfutil-common-lists.tex))
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/util/pgfplotsutil.
+code.tex
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/liststructure/pgfp
+lotsliststructure.code.tex)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/liststructure/pgfp
+lotsliststructureext.code.tex)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/liststructure/pgfp
+lotsarray.code.tex
+\c@pgfplotsarray@tmp=\count525
+)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/liststructure/pgfp
+lotsmatrix.code.tex)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/numtable/pgfplotst
+ableshared.code.tex
+\c@pgfplotstable@counta=\count526
+\t@pgfplotstable@a=\toks63
+)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/liststructure/pgfp
+lotsdeque.code.tex)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/util/pgfplotsbinar
+y.code.tex
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/util/pgfplotsbinar
+y.data.code.tex))
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/util/pgfplotsutil.
+verb.code.tex)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/libs/pgflibrarypgf
+plots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count527
+
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/sys/pgflibrarypgfp
+lots.surfshading.pgfsys-pdftex.def)))
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/util/pgfplotscolor
+map.code.tex
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/util/pgfplotscolor
+.code.tex))
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/pgfplotsstackedplo
+ts.code.tex)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/pgfplotsplothandle
+rs.code.tex
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/pgfplotsmeshplotha
+ndler.code.tex
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/pgfplotsmeshplotim
+age.code.tex)))
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/pgfplots.scaling.c
+ode.tex)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/pgfplotscoordproce
+ssing.code.tex)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/pgfplots.errorbars
+.code.tex)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/pgfplots.markers.c
+ode.tex)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/pgfplotsticks.code
+.tex)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/pgfplots.paths.cod
+e.tex)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libr
+aries/tikzlibrarydecorations.code.tex
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduledecora
+tions.code.tex
+\pgfdecoratedcompleteddistance=\dimen333
+\pgfdecoratedremainingdistance=\dimen334
+\pgfdecoratedinputsegmentcompleteddistance=\dimen335
+\pgfdecoratedinputsegmentremainingdistance=\dimen336
+\pgf@decorate@distancetomove=\dimen337
+\pgf@decorate@repeatstate=\count528
+\pgfdecorationsegmentamplitude=\dimen338
+\pgfdecorationsegmentlength=\dimen339
+)
+\tikz@lib@dec@box=\box82
+)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libr
+aries/tikzlibrarydecorations.pathmorphing.code.tex
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/libraries/decorations/p
+gflibrarydecorations.pathmorphing.code.tex))
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libr
+aries/tikzlibrarydecorations.pathreplacing.code.tex
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/libraries/decorations/p
+gflibrarydecorations.pathreplacing.code.tex))
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/libs/tikzlibrarypg
+fplots.contourlua.code.tex)
+\pgfplots@numplots=\count529
+\pgfplots@xmin@reg=\dimen340
+\pgfplots@xmax@reg=\dimen341
+\pgfplots@ymin@reg=\dimen342
+\pgfplots@ymax@reg=\dimen343
+\pgfplots@zmin@reg=\dimen344
+\pgfplots@zmax@reg=\dimen345
+)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libr
+aries/tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryplo
+tmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+Package hyperref Info: Option `colorlinks' set `false' on input line 76.
 runsystem(command -v pygmentize && touch main.aex)...executed.
 
 runsystem(rm main.aex)...executed.
@@ -1001,47 +1418,46 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
-
-(main.aux
+ (main.aux
 LaTeX Info: Redefining \. on input line 14.
 LaTeX Info: Redefining \% on input line 14.
- (chapters/chapter01/chapter01.aux) (chapters/chapter02/chapter02.aux) (chapter
-s/chapter03/chapter03.aux) (appendages/appendixA/appendixA.aux)
-(appendages/appendixB/appendixB.aux))
+ (chapters/chapter01/chapter01.aux)
+(chapters/chapter02/chapter02.aux) (chapters/chapter03/chapter03.aux)
+(appendages/appendixA/appendixA.aux) (appendages/appendixB/appendixB.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
 
 (/home/sebastian/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count502
-\scratchdimen=\dimen282
-\scratchbox=\box71
-\nofMPsegments=\count503
-\nofMParguments=\count504
-\everyMPshowfont=\toks45
-\MPscratchCnt=\count505
-\MPscratchDim=\dimen283
-\MPnumerator=\count506
-\makeMPintoPDFobject=\count507
-\everyMPtoPDFconversion=\toks46
+\scratchcounter=\count530
+\scratchdimen=\dimen346
+\scratchbox=\box83
+\nofMPsegments=\count531
+\nofMParguments=\count532
+\everyMPshowfont=\toks64
+\MPscratchCnt=\count533
+\MPscratchDim=\dimen347
+\MPnumerator=\count534
+\makeMPintoPDFobject=\count535
+\everyMPtoPDFconversion=\toks65
 )
 (/home/sebastian/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.st
 y
@@ -1088,9 +1504,9 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 (/home/sebastian/.miktex/texmfs/install/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
-\c@lstlisting=\count508
-LaTeX Info: Redefining \. on input line 66.
-LaTeX Info: Redefining \% on input line 66.
+\c@lstlisting=\count536
+LaTeX Info: Redefining \. on input line 80.
+LaTeX Info: Redefining \% on input line 80.
 Package biblatex Info: Trying to load language 'spanish'...
 Package biblatex Info: ... file 'spanish.lbx' found.
 
@@ -1106,28 +1522,32 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
 (main.bbl)
-Package biblatex Info: Reference section=0 on input line 66.
-Package biblatex Info: Reference segment=0 on input line 66.
+Package biblatex Info: Reference section=0 on input line 80.
+Package biblatex Info: Reference segment=0 on input line 80.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 66.
-<img/EscudoIPN.png, id=3, 774.895pt x 1145.27875pt>
+Package hyperref Info: Link coloring OFF on input line 80.
+
+Package pgfplots notification 'compat/show suggested version=true': document ha
+s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
+
+<img/EscudoIPN.png, id=6, 774.895pt x 1145.27875pt>
 File: img/EscudoIPN.png Graphic file (type png)
 <use img/EscudoIPN.png>
-Package pdftex.def Info: img/EscudoIPN.png  used on input line 69.
+Package pdftex.def Info: img/EscudoIPN.png  used on input line 83.
 (pdftex.def)             Requested size: 53.48749pt x 79.0418pt.
-<img/EscudoESCOM.png, id=5, 451.6875pt x 289.08pt>
+<img/EscudoESCOM.png, id=8, 451.6875pt x 289.08pt>
 File: img/EscudoESCOM.png Graphic file (type png)
 <use img/EscudoESCOM.png>
-Package pdftex.def Info: img/EscudoESCOM.png  used on input line 69.
+Package pdftex.def Info: img/EscudoESCOM.png  used on input line 83.
 (pdftex.def)             Requested size: 101.6259pt x 65.04019pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 69.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 83.
 
- (/home/sebastian/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
+(/home/sebastian/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 69.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 83.
 
 
 (/home/sebastian/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
@@ -1135,23 +1555,23 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <22> not available
-(Font)              size <20.74> substituted on input line 69.
+(Font)              size <20.74> substituted on input line 83.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/sc' in size <22> not available
-(Font)              size <20.74> substituted on input line 69.
+(Font)              size <20.74> substituted on input line 83.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 69.
+(Font)              size <17.28> substituted on input line 83.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/sc' in size <16> not available
-(Font)              size <17.28> substituted on input line 69.
+(Font)              size <17.28> substituted on input line 83.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 69.
+(Font)              size <17.28> substituted on input line 83.
 
 [1
 
@@ -1161,26 +1581,14 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <16> not available
 IPN.png> <./img/EscudoESCOM.png>]
 (frontmatter/technical_document/technical_document.tex [2
 
-]
-Overfull \hbox (10.23628pt too wide) in paragraph at lines 7--9
-\OT1/cmr/m/n/12 discretas o continuas. El desarrollo en serie puede ser tanto e
-n forma trigonom^^Setricas
- []
-
-
-Overfull \hbox (4.84103pt too wide) in paragraph at lines 7--9
-\OT1/cmr/m/n/12 M^^Sodulo para el c^^Salculo de coeficientes mediante integraci
-^^Son anal^^S^^Ptica o por m^^Setodos
- []
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 16--73
+])
+Underfull \hbox (badness 10000) in paragraph at lines 16--87
 
  []
 
 [3]
-LaTeX Info: Redefining \. on input line 73.
-LaTeX Info: Redefining \% on input line 73.
+LaTeX Info: Redefining \. on input line 87.
+LaTeX Info: Redefining \% on input line 87.
  [4
 
 ] (main.toc
@@ -1197,12 +1605,12 @@ Package spanish Warning: Replacing `OT1/cmr/bx/sc' by
 (spanish)                faked small caps on input line 2.
 
 )
-\tf@toc=\write6
-\openout6 = `main.toc'.
+\tf@toc=\write7
+\openout7 = `main.toc'.
 
  [5]
-LaTeX Info: Redefining \. on input line 74.
-LaTeX Info: Redefining \% on input line 74.
+LaTeX Info: Redefining \. on input line 88.
+LaTeX Info: Redefining \% on input line 88.
  [6
 
 ] (main.lof
@@ -1210,12 +1618,12 @@ LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
-\tf@lof=\write7
-\openout7 = `main.lof'.
+\tf@lof=\write8
+\openout8 = `main.lof'.
 
  [7]
-LaTeX Info: Redefining \. on input line 75.
-LaTeX Info: Redefining \% on input line 75.
+LaTeX Info: Redefining \. on input line 89.
+LaTeX Info: Redefining \% on input line 89.
  [8
 
 ] (main.lot
@@ -1223,27 +1631,27 @@ LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 
-Overfull \hbox (1.90779pt too wide) in paragraph at lines 4--4
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
  [][] [][]\OT1/cmr/m/n/12 Comparaci^^Son de software para c^^Salculos matem^^Sa
-ticos y visualizaci^^Son 
+ticos y 
  []
 
 )
-\tf@lot=\write8
-\openout8 = `main.lot'.
+\tf@lot=\write9
+\openout9 = `main.lot'.
 
  [9]
-LaTeX Info: Redefining \. on input line 76.
-LaTeX Info: Redefining \% on input line 76.
+LaTeX Info: Redefining \. on input line 90.
+LaTeX Info: Redefining \% on input line 90.
  [10
 
 ] (main.loa)
-\tf@loa=\write9
-\openout9 = `main.loa'.
+\tf@loa=\write10
+\openout10 = `main.loa'.
 
  [11]
-LaTeX Info: Redefining \. on input line 78.
-LaTeX Info: Redefining \% on input line 78.
+LaTeX Info: Redefining \. on input line 92.
+LaTeX Info: Redefining \% on input line 92.
  [12
 
 ]
@@ -1252,47 +1660,18 @@ LaTeX Info: Redefining \% on input line 78.
  (chapters/chapter01/chapter01.tex
 Cap\'{\i }tulo 1.
 
-Overfull \hbox (0.63406pt too wide) in paragraph at lines 7--8
-\OT1/cmr/m/n/12 series de Fourier no solo en la investigaci^^Son avanzada, sino
- tambi^^Sen en la formaci^^Son
- []
-
-
-Overfull \hbox (7.33484pt too wide) in paragraph at lines 7--8
-\OT1/cmr/m/n/12 acad^^Semica de futuros ingenieros y cient^^S^^Pficos. Sin emba
-rgo, a pesar de su prevalencia
- []
-
-
-Overfull \hbox (7.98083pt too wide) in paragraph at lines 9--10
-\OT1/cmr/m/n/12 resultados de manera directa y eficiente. A diferencia de otros
- c^^Salculos matem^^Saticos,
+Underfull \hbox (badness 1028) in paragraph at lines 9--10
+\OT1/cmr/m/n/12 r^^Sapidas y fiables, las series de Fourier requer^^S^^Pan un p
+roceso mucho m^^Sas
  []
 
 [1
 
 
 ]
-Overfull \hbox (4.84103pt too wide) in paragraph at lines 17--18
-[]\OT1/cmr/m/n/12 Implementar una interfaz de usuario que permita ingresar la f
-unci^^Son continua
- []
-
-
-Overfull \hbox (32.22818pt too wide) in paragraph at lines 17--18
-\OT1/cmr/m/n/12 o a trozos, seleccionar intervalos y definir el tipo de serie d
-e Fourier (trigonom^^Setrica
- []
-
-
-Overfull \hbox (27.55746pt too wide) in paragraph at lines 18--19
-[]\OT1/cmr/m/n/12 Implementar los m^^Sodulos para el c^^Salculo de coeficientes
- de la serie trigonom^^Setricas
- []
-
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
-[2]
+ [2]
 Overfull \hbox (5.95143pt too wide) in paragraph at lines 30--30
 []|[]\OT1/cmr/bx/sc/12 SOFTWARE[]| 
  []
@@ -1392,103 +1771,102 @@ Package lipsum Warning: Unknown language 'latin'. Hyphenation patterns for
 (lipsum)                'spanish' will be used instead.
 
 
-Overfull \hbox (17.67633pt too wide) in paragraph at lines 47--47
+Underfull \hbox (badness 1264) in paragraph at lines 47--47
 []\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
-purus elit, vestibulum
+purus elit,
  []
 
 LaTeX Info: Redefining \. on input line 47.
 LaTeX Info: Redefining \% on input line 47.
 [3]
-Overfull \hbox (5.96664pt too wide) in paragraph at lines 50--51
-\OT1/cmr/m/n/12 vestibulum ut, placerat ac, adipiscing vitae, felis. Curabitur 
-dictum gravida mauris.
+Underfull \hbox (badness 1264) in paragraph at lines 62--62
+[]\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
+purus elit,
  []
 
 
-Overfull \hbox (17.67633pt too wide) in paragraph at lines 62--62
+Underfull \hbox (badness 1264) in paragraph at lines 65--65
 []\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
-purus elit, vestibulum
- []
-
-
-Overfull \hbox (17.67633pt too wide) in paragraph at lines 65--65
-[]\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
-purus elit, vestibulum
+purus elit,
  []
 
 LaTeX Info: Redefining \. on input line 65.
 LaTeX Info: Redefining \% on input line 65.
 [4]
-Overfull \hbox (17.67633pt too wide) in paragraph at lines 84--84
+Underfull \hbox (badness 1264) in paragraph at lines 84--84
 []\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
-purus elit, vestibulum
+purus elit,
  []
 
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 86.
 
-Overfull \hbox (17.67633pt too wide) in paragraph at lines 107--107
+Underfull \hbox (badness 1264) in paragraph at lines 107--107
 []\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
-purus elit, vestibulum
+purus elit,
  []
 
 LaTeX Info: Redefining \. on input line 107.
 LaTeX Info: Redefining \% on input line 107.
 [5])
-Overfull \hbox (17.67633pt too wide) in paragraph at lines 79--79
+Underfull \hbox (badness 1264) in paragraph at lines 93--93
 []\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
-purus elit, vestibulum
+purus elit,
  []
 
-LaTeX Info: Redefining \. on input line 79.
-LaTeX Info: Redefining \% on input line 79.
+LaTeX Info: Redefining \. on input line 93.
+LaTeX Info: Redefining \% on input line 93.
 [6]
 \openout2 = `chapters/chapter02/chapter02.aux'.
 
  (chapters/chapter02/chapter02.tex
 Cap\'{\i }tulo 2.
-
-Overfull \hbox (16.07286pt too wide) in paragraph at lines 2--3
-\OT1/cmr/m/n/12 particularmente en el contexto de las ecuaciones diferenciales 
-que modelan fen^^Somenos
- []
-
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 19
-.
-(/home/sebastian/.miktex/texmfs/install/tex/latex/base/ulasy.fd
-File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
-Overfull \hbox (11.99998pt too wide) in paragraph at lines 14--28
- [][] 
- []
-
-LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 
-28.
-LaTeX Font Info:    No file OMScmtt.fd. on input line 28.
-
-LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbackslash' on input line 28.
-
-)
-Overfull \hbox (17.67633pt too wide) in paragraph at lines 80--80
-[]\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
-purus elit, vestibulum
- []
-
 [7
 
 
 
 
 ]
-LaTeX Info: Redefining \. on input line 80.
-LaTeX Info: Redefining \% on input line 80.
- [8]
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 74
+.
+ (/home/sebastian/.miktex/texmfs/install/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+Overfull \hbox (11.99998pt too wide) in paragraph at lines 69--83
+ [][] 
+ []
+
+LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 
+83.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 83.
+
+LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbackslash' on input line 83.
+
+)
+Underfull \hbox (badness 1264) in paragraph at lines 94--94
+[]\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
+purus elit,
+ []
+
+LaTeX Info: Redefining \. on input line 94.
+LaTeX Info: Redefining \% on input line 94.
+[8]
+LaTeX Info: Redefining \. on input line 94.
+LaTeX Info: Redefining \% on input line 94.
+ [9]
 \openout2 = `chapters/chapter03/chapter03.aux'.
 
  (chapters/chapter03/chapter03.tex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [10
+
+
+
+
+]
 Cap\'{\i }tulo 3.
 
 Overfull \hbox (11.99998pt too wide) in paragraph at lines 5--19
@@ -1496,30 +1874,25 @@ Overfull \hbox (11.99998pt too wide) in paragraph at lines 5--19
  []
 
 
-Overfull \hbox (17.67633pt too wide) in paragraph at lines 3--22
+Underfull \hbox (badness 1264) in paragraph at lines 3--22
 []\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
-purus elit, vestibulum
+purus elit,
  []
 
 )
-Overfull \hbox (17.67633pt too wide) in paragraph at lines 81--81
+Underfull \hbox (badness 1264) in paragraph at lines 95--95
 []\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
-purus elit, vestibulum
+purus elit,
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9
+ [11]
+LaTeX Info: Redefining \. on input line 95.
+LaTeX Info: Redefining \% on input line 95.
 
-
-
-
-]
-LaTeX Info: Redefining \. on input line 81.
-LaTeX Info: Redefining \% on input line 81.
-
-[10]
+[12]
 \openout2 = `appendages/appendixA/appendixA.aux'.
 
  (appendages/appendixA/appendixA.tex
@@ -1535,39 +1908,15 @@ LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
 Package hyperref Info: bookmark level for unknown listing defaults to 0 on inpu
 t line 24.
 
-Overfull \hbox (17.67633pt too wide) in paragraph at lines 3--25
+Underfull \hbox (badness 1264) in paragraph at lines 3--25
 []\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
-purus elit, vestibulum
+purus elit,
  []
 
 )
-Overfull \hbox (17.67633pt too wide) in paragraph at lines 84--84
+Underfull \hbox (badness 1264) in paragraph at lines 98--98
 []\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
-purus elit, vestibulum
- []
-
-[11
-
-
-
-
-]
-LaTeX Info: Redefining \. on input line 84.
-LaTeX Info: Redefining \% on input line 84.
- [12]
-\openout2 = `appendages/appendixB/appendixB.aux'.
-
- (appendages/appendixB/appendixB.tex
-Ap\'{e}ndice B.
-<img/appendixA/alexnet.png, id=206, 853.1875pt x 392.46625pt>
-File: img/appendixA/alexnet.png Graphic file (type png)
-<use img/appendixA/alexnet.png>
-Package pdftex.def Info: img/appendixA/alexnet.png  used on input line 5.
-(pdftex.def)             Requested size: 411.42686pt x 189.26196pt.
-
-Overfull \hbox (17.67633pt too wide) in paragraph at lines 3--9
-[]\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
-purus elit, vestibulum
+purus elit,
  []
 
 [13
@@ -1575,22 +1924,46 @@ purus elit, vestibulum
 
 
 
- <./img/appendixA/alexnet.png>])
-LaTeX Info: Redefining \. on input line 85.
-LaTeX Info: Redefining \% on input line 85.
+]
+LaTeX Info: Redefining \. on input line 98.
+LaTeX Info: Redefining \% on input line 98.
  [14]
-Overfull \hbox (9.00414pt too wide) in paragraph at lines 89--89
-[]\OT1/cmr/m/n/12 Claire Adam-Bourdarios et al. []  The Higgs boson machine lea
-rning challenge[].
- []
+\openout2 = `appendages/appendixB/appendixB.aux'.
 
+ (appendages/appendixB/appendixB.tex
+Ap\'{e}ndice B.
+<img/appendixA/alexnet.png, id=224, 853.1875pt x 392.46625pt>
+File: img/appendixA/alexnet.png Graphic file (type png)
+<use img/appendixA/alexnet.png>
+Package pdftex.def Info: img/appendixA/alexnet.png  used on input line 5.
+(pdftex.def)             Requested size: 411.42686pt x 189.26196pt.
 
-Overfull \hbox (22.97202pt too wide) in paragraph at lines 89--89
-\OT1/cmr/m/n/12 particles in high-energy physics with deep learning[]. En: \OT1
-/cmr/m/it/12 Nature communications
+Underfull \hbox (badness 1264) in paragraph at lines 3--9
+[]\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
+purus elit,
  []
 
 [15
+
+
+
+
+ <./img/appendixA/alexnet.png>])
+LaTeX Info: Redefining \. on input line 99.
+LaTeX Info: Redefining \% on input line 99.
+ [16]
+Underfull \hbox (badness 1515) in paragraph at lines 103--103
+[]\OT1/cmr/m/n/12 Claire Adam-Bourdarios et al. []  The Higgs boson machine lea
+rning
+ []
+
+
+Underfull \hbox (badness 3590) in paragraph at lines 103--103
+\OT1/cmr/m/n/12 particles in high-energy physics with deep learning[]. En: \OT1
+/cmr/m/it/12 Nature
+ []
+
+[17
 
 
 
@@ -1621,13 +1994,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29668 strings out of 476305
- 535073 string characters out of 5791965
- 1940751 words of memory out of 5000000
- 51265 multiletter control sequences out of 15000+600000
+ 49775 strings out of 476305
+ 1097880 string characters out of 5791965
+ 2124978 words of memory out of 5000000
+ 71028 multiletter control sequences out of 15000+600000
  568441 words of font info for 74 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 101i,14n,117p,1570b,1935s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,15n,117p,1570b,1933s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/sebastian/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm
 1200.pk></home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/
 cmbx12.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfonts/
@@ -1647,9 +2020,9 @@ ll/fonts/type1/public/amsfonts/cm/cmti12.pfb></home/sebastian/.miktex/texmfs/in
 stall/fonts/type1/public/amsfonts/cm/cmtt12.pfb></home/sebastian/.miktex/texmfs
 /install/fonts/type1/public/amsfonts/latxfont/lasy10.pfb></home/sebastian/.mikt
 ex/texmfs/install/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (27 pages, 439653 bytes).
+Output written on main.pdf (29 pages, 451566 bytes).
 PDF statistics:
- 394 PDF objects out of 1000 (max. 8388607)
- 79 named destinations out of 1000 (max. 500000)
- 192 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 414 PDF objects out of 1000 (max. 8388607)
+ 84 named destinations out of 1000 (max. 500000)
+ 212 words of extra memory for PDF output out of 10000 (max. 10000000)
 
