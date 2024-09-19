@@ -2384,7 +2384,9 @@
     <bcf:citekey order="7" intorder="1">adam2015higgs</bcf:citekey>
     <bcf:citekey order="7" intorder="2">atlas2014neural</bcf:citekey>
     <bcf:citekey order="7" intorder="3">baldi2014searching</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">li2018deep</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">[25]</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">[27]</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">li2018deep</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
