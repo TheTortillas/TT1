@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.24)  18 SEP 2024 14:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.24)  20 SEP 2024 13:28
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1409,7 +1409,7 @@ File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 tmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
-Package hyperref Info: Option `colorlinks' set `false' on input line 76.
+Package hyperref Info: Option `colorlinks' set `false' on input line 77.
 runsystem(command -v pygmentize && touch main.aex)...executed.
 
 runsystem(rm main.aex)...executed.
@@ -1422,32 +1422,27 @@ Package csquotes Info: Redefining alias 'default' -> 'spanish'.
 LaTeX Info: Redefining \. on input line 14.
 LaTeX Info: Redefining \% on input line 14.
  (chapters/chapter01/chapter01.aux)
-(chapters/chapter02/chapter02.aux
-
-LaTeX Warning: Label `eq2' multiply defined.
-
-) (chapters/chapter03/chapter03.aux) (appendages/appendixA/appendixA.aux)
-(appendages/appendixB/appendixB.aux))
+(chapters/chapter02/chapter02.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
 
 (/home/sebastian/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1509,8 +1504,8 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
 \c@lstlisting=\count536
-LaTeX Info: Redefining \. on input line 80.
-LaTeX Info: Redefining \% on input line 80.
+LaTeX Info: Redefining \. on input line 81.
+LaTeX Info: Redefining \% on input line 81.
 Package biblatex Info: Trying to load language 'spanish'...
 Package biblatex Info: ... file 'spanish.lbx' found.
 
@@ -1526,12 +1521,12 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
 (main.bbl)
-Package biblatex Info: Reference section=0 on input line 80.
-Package biblatex Info: Reference segment=0 on input line 80.
+Package biblatex Info: Reference section=0 on input line 81.
+Package biblatex Info: Reference segment=0 on input line 81.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 80.
+Package hyperref Info: Link coloring OFF on input line 81.
 
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
@@ -1539,19 +1534,19 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 <img/EscudoIPN.png, id=6, 774.895pt x 1145.27875pt>
 File: img/EscudoIPN.png Graphic file (type png)
 <use img/EscudoIPN.png>
-Package pdftex.def Info: img/EscudoIPN.png  used on input line 83.
+Package pdftex.def Info: img/EscudoIPN.png  used on input line 84.
 (pdftex.def)             Requested size: 53.48749pt x 79.0418pt.
 <img/EscudoESCOM.png, id=8, 451.6875pt x 289.08pt>
 File: img/EscudoESCOM.png Graphic file (type png)
 <use img/EscudoESCOM.png>
-Package pdftex.def Info: img/EscudoESCOM.png  used on input line 83.
+Package pdftex.def Info: img/EscudoESCOM.png  used on input line 84.
 (pdftex.def)             Requested size: 101.6259pt x 65.04019pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 83.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 84.
 
 (/home/sebastian/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 83.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 84.
 
 
 (/home/sebastian/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
@@ -1559,23 +1554,23 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <22> not available
-(Font)              size <20.74> substituted on input line 83.
+(Font)              size <20.74> substituted on input line 84.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/sc' in size <22> not available
-(Font)              size <20.74> substituted on input line 83.
+(Font)              size <20.74> substituted on input line 84.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 83.
+(Font)              size <17.28> substituted on input line 84.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/sc' in size <16> not available
-(Font)              size <17.28> substituted on input line 83.
+(Font)              size <17.28> substituted on input line 84.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 83.
+(Font)              size <17.28> substituted on input line 84.
 
 [1
 
@@ -1586,13 +1581,13 @@ IPN.png> <./img/EscudoESCOM.png>]
 (frontmatter/technical_document/technical_document.tex [2
 
 ])
-Underfull \hbox (badness 10000) in paragraph at lines 16--87
+Underfull \hbox (badness 10000) in paragraph at lines 16--88
 
  []
 
 [3]
-LaTeX Info: Redefining \. on input line 87.
-LaTeX Info: Redefining \% on input line 87.
+LaTeX Info: Redefining \. on input line 88.
+LaTeX Info: Redefining \% on input line 88.
  [4
 
 ] (main.toc
@@ -1613,8 +1608,8 @@ Package spanish Warning: Replacing `OT1/cmr/bx/sc' by
 \openout7 = `main.toc'.
 
  [5]
-LaTeX Info: Redefining \. on input line 88.
-LaTeX Info: Redefining \% on input line 88.
+LaTeX Info: Redefining \. on input line 89.
+LaTeX Info: Redefining \% on input line 89.
  [6
 
 ] (main.lof
@@ -1626,8 +1621,8 @@ LaTeX Info: Redefining \% on input line 1.
 \openout8 = `main.lof'.
 
  [7]
-LaTeX Info: Redefining \. on input line 89.
-LaTeX Info: Redefining \% on input line 89.
+LaTeX Info: Redefining \. on input line 90.
+LaTeX Info: Redefining \% on input line 90.
  [8
 
 ] (main.lot
@@ -1645,8 +1640,8 @@ ticos y
 \openout9 = `main.lot'.
 
  [9]
-LaTeX Info: Redefining \. on input line 90.
-LaTeX Info: Redefining \% on input line 90.
+LaTeX Info: Redefining \. on input line 91.
+LaTeX Info: Redefining \% on input line 91.
  [10
 
 ] (main.loa)
@@ -1654,8 +1649,8 @@ LaTeX Info: Redefining \% on input line 90.
 \openout10 = `main.loa'.
 
  [11]
-LaTeX Info: Redefining \. on input line 92.
-LaTeX Info: Redefining \% on input line 92.
+LaTeX Info: Redefining \. on input line 93.
+LaTeX Info: Redefining \% on input line 93.
  [12
 
 ]
@@ -1770,72 +1765,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--35
 \OT1/cmr/m/n/12 anuales para
  []
 
-
-Package lipsum Warning: Unknown language 'latin'. Hyphenation patterns for
-(lipsum)                'spanish' will be used instead.
-
-
-Underfull \hbox (badness 1264) in paragraph at lines 47--47
-[]\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
-purus elit,
- []
-
-LaTeX Info: Redefining \. on input line 47.
-LaTeX Info: Redefining \% on input line 47.
-[3]
-Underfull \hbox (badness 1264) in paragraph at lines 62--62
-[]\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
-purus elit,
- []
-
-
-Underfull \hbox (badness 1264) in paragraph at lines 65--65
-[]\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
-purus elit,
- []
-
-LaTeX Info: Redefining \. on input line 65.
-LaTeX Info: Redefining \% on input line 65.
-[4]
-Underfull \hbox (badness 1264) in paragraph at lines 84--84
-[]\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
-purus elit,
- []
-
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 86.
-
-Underfull \hbox (badness 1264) in paragraph at lines 107--107
-[]\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
-purus elit,
- []
-
-LaTeX Info: Redefining \. on input line 107.
-LaTeX Info: Redefining \% on input line 107.
-[5])
-Underfull \hbox (badness 1264) in paragraph at lines 93--93
-[]\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
-purus elit,
- []
-
-LaTeX Info: Redefining \. on input line 93.
-LaTeX Info: Redefining \% on input line 93.
-[6]
+)
+LaTeX Info: Redefining \. on input line 94.
+LaTeX Info: Redefining \% on input line 94.
+ [3]
 \openout2 = `chapters/chapter02/chapter02.aux'.
 
  (chapters/chapter02/chapter02.tex
-Cap\'{\i }tulo 2.
-[7
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [4
 
 
 
 
 ]
+Cap\'{\i }tulo 2.
+[5]
 
-LaTeX Warning: Citation '[25]' on page 8 undefined on input line 69.
+LaTeX Warning: Citation '[25]' on page 6 undefined on input line 69.
 
 
-LaTeX Warning: Citation '[27]' on page 8 undefined on input line 69.
+LaTeX Warning: Citation '[27]' on page 6 undefined on input line 69.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 69--70
@@ -1857,151 +1808,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
 LaTeX Info: Redefining \. on input line 82.
 LaTeX Info: Redefining \% on input line 82.
-[8]
+[6]
 Underfull \hbox (badness 10000) in paragraph at lines 99--101
 
  []
 
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 18
-5.
-(/home/sebastian/.miktex/texmfs/install/tex/latex/base/ulasy.fd
-File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
-Overfull \hbox (11.99998pt too wide) in paragraph at lines 180--194
- [][] 
- []
+LaTeX Info: Redefining \. on input line 123.
+LaTeX Info: Redefining \% on input line 123.
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 214--216
 
-LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 
-194.
-LaTeX Font Info:    No file OMScmtt.fd. on input line 194.
-
-LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbackslash' on input line 194.
-
-)
-Underfull \hbox (badness 1264) in paragraph at lines 94--94
-[]\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
-purus elit,
- []
-
-LaTeX Info: Redefining \. on input line 94.
-LaTeX Info: Redefining \% on input line 94.
-[9]
-LaTeX Info: Redefining \. on input line 94.
-LaTeX Info: Redefining \% on input line 94.
- [10]
-LaTeX Info: Redefining \. on input line 94.
-LaTeX Info: Redefining \% on input line 94.
- [11]
-\openout2 = `chapters/chapter03/chapter03.aux'.
-
- (chapters/chapter03/chapter03.tex
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
- [12
-
-
-
-
-]
-Cap\'{\i }tulo 3.
-
-Overfull \hbox (11.99998pt too wide) in paragraph at lines 5--19
- [][] 
  []
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 3--22
-[]\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
-purus elit,
+Underfull \hbox (badness 10000) in paragraph at lines 217--220
+
  []
 
 )
-Underfull \hbox (badness 1264) in paragraph at lines 95--95
-[]\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
-purus elit,
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13]
 LaTeX Info: Redefining \. on input line 95.
 LaTeX Info: Redefining \% on input line 95.
-
-[14]
-\openout2 = `appendages/appendixA/appendixA.aux'.
-
- (appendages/appendixA/appendixA.tex
-Ap\'{e}ndice A.
-\openout3 = `main.pyg'.
-
-(_minted-main/default.pygstyle)
-(_minted-main/732EA2E12307B3008618A7AA9C87D0F5541C68F80C6A6F06151AFD63BAE50EBC.
-pygtex
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 2.
+ [8]
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 10
+4.
+ (/home/sebastian/.miktex/texmfs/install/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-Package hyperref Info: bookmark level for unknown listing defaults to 0 on inpu
-t line 24.
-
-Underfull \hbox (badness 1264) in paragraph at lines 3--25
-[]\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
-purus elit,
- []
-
-)
-Underfull \hbox (badness 1264) in paragraph at lines 98--98
-[]\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
-purus elit,
- []
-
-[15
-
-
-
-
-]
-LaTeX Info: Redefining \. on input line 98.
-LaTeX Info: Redefining \% on input line 98.
- [16]
-\openout2 = `appendages/appendixB/appendixB.aux'.
-
- (appendages/appendixB/appendixB.tex
-Ap\'{e}ndice B.
-<img/appendixA/alexnet.png, id=246, 853.1875pt x 392.46625pt>
-File: img/appendixA/alexnet.png Graphic file (type png)
-<use img/appendixA/alexnet.png>
-Package pdftex.def Info: img/appendixA/alexnet.png  used on input line 5.
-(pdftex.def)             Requested size: 411.42686pt x 189.26196pt.
-
-Underfull \hbox (badness 1264) in paragraph at lines 3--9
-[]\OT1/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
-purus elit,
- []
-
-[17
-
-
-
-
- <./img/appendixA/alexnet.png>])
-LaTeX Info: Redefining \. on input line 99.
-LaTeX Info: Redefining \% on input line 99.
- [18]
-Underfull \hbox (badness 1515) in paragraph at lines 103--103
+Underfull \hbox (badness 1515) in paragraph at lines 104--104
 []\OT1/cmr/m/n/12 Claire Adam-Bourdarios et al. []  The Higgs boson machine lea
 rning
  []
 
 
-Underfull \hbox (badness 3590) in paragraph at lines 103--103
+Underfull \hbox (badness 3590) in paragraph at lines 104--104
 \OT1/cmr/m/n/12 particles in high-energy physics with deep learning[]. En: \OT1
 /cmr/m/it/12 Nature
  []
 
-[19
+[9
 
 
 
@@ -2011,8 +1855,7 @@ LaTeX Info: Redefining \sptext on input line 14.
 LaTeX Info: Redefining \. on input line 14.
 LaTeX Info: Redefining \% on input line 14.
  (chapters/chapter01/chapter01.aux)
-(chapters/chapter02/chapter02.aux) (chapters/chapter03/chapter03.aux)
-(appendages/appendixA/appendixA.aux) (appendages/appendixB/appendixB.aux))
+(chapters/chapter02/chapter02.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
@@ -2029,11 +1872,6 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
-
-runsystem(rm main.pyg)...executed.
-
-
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
 (biblatex)                and rerun LaTeX afterwards.
@@ -2043,37 +1881,47 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49930 strings out of 476305
- 1101050 string characters out of 5791965
- 2133118 words of memory out of 5000000
- 71178 multiletter control sequences out of 15000+600000
- 568441 words of font info for 74 fonts, out of 8000000 for 9000
+ 49608 strings out of 476305
+ 1093146 string characters out of 5791965
+ 2131037 words of memory out of 5000000
+ 70927 multiletter control sequences out of 15000+600000
+ 567961 words of font info for 72 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 101i,15n,117p,1570b,1933s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/sebastian/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm
-1200.pk></home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/
-cmbx12.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfonts/
-cm/cmbx8.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfont
-s/cm/cmcsc10.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public/ams
-fonts/cm/cmex10.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public/
-amsfonts/cm/cmitt10.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/pub
-lic/amsfonts/cm/cmmi12.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/
-public/amsfonts/cm/cmmi8.pfb></home/sebastian/.miktex/texmfs/install/fonts/type
-1/public/amsfonts/cm/cmr10.pfb></home/sebastian/.miktex/texmfs/install/fonts/ty
-pe1/public/amsfonts/cm/cmr12.pfb></home/sebastian/.miktex/texmfs/install/fonts/
-type1/public/amsfonts/cm/cmr17.pfb></home/sebastian/.miktex/texmfs/install/font
-s/type1/public/amsfonts/cm/cmr8.pfb></home/sebastian/.miktex/texmfs/install/fon
-ts/type1/public/amsfonts/cm/cmsl12.pfb></home/sebastian/.miktex/texmfs/install/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/sebastian/.miktex/texmfs/insta
-ll/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/sebastian/.miktex/texmfs/ins
-tall/fonts/type1/public/amsfonts/cm/cmti12.pfb></home/sebastian/.miktex/texmfs/
-install/fonts/type1/public/amsfonts/cm/cmtt12.pfb></home/sebastian/.miktex/texm
-fs/install/fonts/type1/public/amsfonts/latxfont/lasy10.pfb></home/sebastian/.mi
-ktex/texmfs/install/fonts/type1/public/amsfonts/symbols/msam10.pfb></home/sebas
-tian/.miktex/texmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (31 pages, 498455 bytes).
+ 101i,15n,117p,1570b,1937s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{table.caption.9} has been referenced but does not e
+xist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{chapter*.10} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.2.2} has been referenced but does not exist
+, replaced by a fixed one
+
+ </home/sebastian/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm12
+00.pk></home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cm
+bx12.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm
+/cmbx8.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfonts/
+cm/cmcsc10.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfo
+nts/cm/cmex10.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public/am
+sfonts/cm/cmmi12.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public
+/amsfonts/cm/cmmi8.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/pu
+blic/amsfonts/cm/cmr17.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/
+public/amsfonts/cm/cmr6.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1
+/public/amsfonts/cm/cmr8.pfb></home/sebastian/.miktex/texmfs/install/fonts/type
+1/public/amsfonts/cm/cmsl12.pfb></home/sebastian/.miktex/texmfs/install/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb></home/sebastian/.miktex/texmfs/install/font
+s/type1/public/amsfonts/cm/cmsy8.pfb></home/sebastian/.miktex/texmfs/install/fo
+nts/type1/public/amsfonts/cm/cmti12.pfb></home/sebastian/.miktex/texmfs/install
+/fonts/type1/public/amsfonts/cm/cmtt12.pfb></home/sebastian/.miktex/texmfs/inst
+all/fonts/type1/public/amsfonts/latxfont/lasy10.pfb></home/sebastian/.miktex/te
+xmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (21 pages, 406079 bytes).
 PDF statistics:
- 445 PDF objects out of 1000 (max. 8388607)
- 89 named destinations out of 1000 (max. 500000)
- 212 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 319 PDF objects out of 1000 (max. 8388607)
+ 58 named destinations out of 1000 (max. 500000)
+ 119 words of extra memory for PDF output out of 10000 (max. 10000000)
 

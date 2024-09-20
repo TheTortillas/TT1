@@ -101,96 +101,147 @@ representa otra onda que se desplaza hacia la derecha con velocidad 1. De este m
 
 
 
-Otra manera de obtener la solución del problema \ref{eq1}, completamente distinta de la vista anteriormente, fue propuesta por \textbf{Daniel Bernoulli} en 1753 (\textit{Hist. de l'Acad. de Berlin, 9, 1753, 147-172; 173-195}). La idea clave es obtener la solución de \ref{eq1} como superposición de ondas más sencillas, concretamente aquellas que son de la forma
+Otra manera de obtener la solución del problema \ref{eq1}, completamente distinta de la vista anteriormente, fue propuesta por \textit{Daniel Bernoulli} en 1753 (\textit{Hist. de l'Acad. de Berlin, 9, 1753, 147-172; 173-195}). La idea clave es obtener la solución de \ref{eq1} como superposición de ondas más sencillas, concretamente aquellas que son de la forma
 
 \begin{equation}\label{eq3}
 	u_n(x,t) = \sin(nx) \cos(nt), \quad \forall \, n \in \mathbb{N},
 \end{equation}
+\newline
+donde $\mathbb{N}$ es el conjunto de los números naturales. Para cada tiempo $t$ fijo, la anterior función es un múltiplo de la función $\sin(nx)$, que se anula exactamente en $n-1$ puntos del intervalo $(0, \pi)$. Así, si pudiésemos observar la vibración de la cuerda correspondiente a las ondas \( u_n \), tendríamos \( n - 1 \) puntos, llamados
+nodos, en los que la cuerda se mantendría constantemente fija en el eje de
+abscisas (como en los extremos del intervalo \([0, \pi]\)). Entre dichos nodos, la
+cuerda oscilaría de acuerdo con \ref{eq3}.
 
-donde $\mathbb{N}$ es el conjunto de los números naturales. Para cada tiempo $t$ fijo, la anterior función es un múltiplo de la función $\sin(nx)$, que se anula exactamente en $n-1$ puntos del intervalo $(0, \pi)$. Así, si pudiésemos observar la vibración de...
+\textit{¿Cómo concibió Bernoulli la idea anterior?} Parece ser que una posibilidad es
+que usase sus conocimientos musicales. Para ello se basó en que el sonido que
+emite una cuerda vibrante es, en general, superposición de armónicos, es decir,
+superposición de funciones de la forma \( u_n(x, t) \). Tales funciones representan,
+para \( n = 1 \) el tono fundamental y para \( n > 1 \) sus armónicos, y desde el
+punto de vista musical se corresponden con los tonos puros. Así, Bernoulli
+afirmó que cualquier sonido que produjese la vibración de la cuerda debe ser
+superposición de tonos puros. 
 
-
-\begin{figure}
+\begin{figure}[h]
 	\centering
-	
-	\begin{tikzpicture}
+	\begin{tikzpicture}[xscale=2]
 		
 		% Primera onda (n=1)
-		\draw[thick] plot[domain=0:2*3.14, samples=100] (\x,{sin(0.5*\x r)});
-		\draw [opacity = 0.5] plot[domain=0:2*3.14, samples=100] (\x,{0.75*sin(0.5*\x r)});
-		\draw [opacity = 0.5] plot[domain=0:2*3.14, samples=100] (\x,{0.5*sin(0.5*\x r)});
-		\draw [opacity = 0.5] plot[domain=0:2*3.14, samples=100] (\x,{0.25*sin(0.5*\x r)});
-		\draw [opacity = 0.5] plot[domain=0:2*3.14, samples=100] (\x,{0*sin(0.5*\x r)});
-		\draw [opacity = 0.5] plot[domain=0:2*3.14, samples=100] (\x,{-0.5*sin(0.5*\x r)});
-		\draw [opacity = 0.5] plot[domain=0:2*3.14, samples=100] (\x,{-0.25*sin(0.5*\x r)});
-		\draw [opacity = 0.5] plot[domain=0:2*3.14, samples=100] (\x,{-0.75*sin(0.5*\x r)});
-		\draw [opacity = 0.5] plot[domain=0:2*3.14, samples=100] (\x,{-sin(0.5*\x r)});
+		\draw[thick] plot[domain=0:3.14, samples=100] (\x,{sin(\x r)});
+		\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{0.75*sin(\x r)});
+		\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{0.5*sin(\x r)});
+		\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{0.25*sin(\x r)});
+		\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{0*sin(\x r)});
+		\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{-0.5*sin(\x r)});
+		\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{-0.25*sin(\x r)});
+		\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{-0.75*sin(\x r)});
+		\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{-sin(\x r)});
+		\node[right] at (3.14, 0) {\shortstack{Primer armónico \\ (Fundamental)}};
+		
+		
+		\draw[->] (-0.15, -1) node[below] {Nodo} -- (0, 0);
+		\draw[->] (3.3, -1) node[below] {Nodo} -- (3.14, 0);
+		
 		
 		% Segunda onda en la parte inferior (misma onda desplazada hacia abajo)
 		\begin{scope}[shift={(0,-2.5)}] % Mueve todo el segundo gráfico hacia abajo
-			\draw[thick] plot[domain=0:2*3.14, samples=100] (\x,{sin(\x r)});
-			\draw [opacity = 0.5] plot[domain=0:2*3.14, samples=100] (\x,{0.75*sin(\x r)});
-			\draw [opacity = 0.5] plot[domain=0:2*3.14, samples=100] (\x,{0.5*sin(\x r)});
-			\draw [opacity = 0.5] plot[domain=0:2*3.14, samples=100] (\x,{0.25*sin(\x r)});
-			\draw [opacity = 0.5] plot[domain=0:2*3.14, samples=100] (\x,{0*sin(\x r)});
-			\draw [opacity = 0.5] plot[domain=0:2*3.14, samples=100] (\x,{-0.5*sin(\x r)});
-			\draw [opacity = 0.5] plot[domain=0:2*3.14, samples=100] (\x,{-0.25*sin(\x r)});
-			\draw [opacity = 0.5] plot[domain=0:2*3.14, samples=100] (\x,{-0.75*sin(\x r)});
-			\draw [opacity = 0.5] plot[domain=0:2*3.14, samples=100] (\x,{-sin(\x r)});
+			\draw[thick] plot[domain=0:3.14, samples=100] (\x,{sin(2*\x r)});
+			\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{0.75*sin(2*\x r)});
+			\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{0.5*sin(2*\x r)});
+			\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{0.25*sin(2*\x r)});
+			\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{0*sin(2*\x r)});
+			\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{-0.5*sin(2*\x r)});
+			\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{-0.25*sin(2*\x r)});
+			\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{-0.75*sin(2*\x r)});
+			\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{-sin(2*\x r)});
+			\node[right] at (3.14, 0) {Segundo armónico};
+			
+			\draw[->] (-0.15, -1) node[below] {Nodo} -- (0, 0);
+			\draw[->] (1.57, -1) node[below] {Nodo} -- (1.57, 0);
+			\draw[->] (3.3, -1) node[below] {Nodo} -- (3.14, 0);
 		\end{scope}
+		
 		
 		% Segunda onda en la parte inferior (misma onda desplazada hacia abajo)
 		\begin{scope}[shift={(0,-5)}] % Mueve todo el segundo gráfico hacia abajo
-			\draw[thick] plot[domain=0:2*3.14, samples=100] (\x,{sin(1.5*\x r)});
-			\draw [opacity = 0.5] plot[domain=0:2*3.14, samples=100] (\x,{0.75*sin(1.5*\x r)});
-			\draw [opacity = 0.5] plot[domain=0:2*3.14, samples=100] (\x,{0.5*sin(1.5*\x r)});
-			\draw [opacity = 0.5] plot[domain=0:2*3.14, samples=100] (\x,{0.25*sin(1.5*\x r)});
-			\draw [opacity = 0.5] plot[domain=0:2*3.14, samples=100] (\x,{0*sin(1.5*\x r)});
-			\draw [opacity = 0.5] plot[domain=0:2*3.14, samples=100] (\x,{-0.5*sin(1.5*\x r)});
-			\draw [opacity = 0.5] plot[domain=0:2*3.14, samples=100] (\x,{-0.25*sin(1.5*\x r)});
-			\draw [opacity = 0.5] plot[domain=0:2*3.14, samples=100] (\x,{-0.75*sin(1.5*\x r)});
-			\draw [opacity = 0.5] plot[domain=0:2*3.14, samples=100] (\x,{-sin(1.5*\x r)});
+			\draw[thick] plot[domain=0:3.14, samples=100] (\x,{sin(4*\x r)});
+			\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{0.75*sin(4*\x r)});
+			\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{0.5*sin(4*\x r)});
+			\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{0.25*sin(4*\x r)});
+			\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{0*sin(4*\x r)});
+			\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{-0.5*sin(4*\x r)});
+			\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{-0.25*sin(4*\x r)});
+			\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{-0.75*sin(4*\x r)});
+			\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{-sin(4*\x r)});
+			\node[right] at (3.14, 0) {Cuarto armónico};
+			
+			% Flechas hacia los nodos
+			\draw[->] (-0.15, -1) node[below] {Nodo} -- (0, 0);
+			\draw[->] (0.7, -1) node[below] {Nodo} -- (0.785, 0);
+			\draw[->] (1.57, -1) node[below] {Nodo} -- (1.57, 0);
+			\draw[->] (2.455, -1) node[below] {Nodo} -- (2.355, 0);
+			\draw[->] (3.3, -1) node[below] {Nodo} -- (3.14, 0);
 		\end{scope}
 		
 		
-		% Segunda onda en la parte inferior (misma onda desplazada hacia abajo)
-		\begin{scope}[shift={(0,-7.5)}] % Mueve todo el segundo gráfico hacia abajo
-			\draw[thick] plot[domain=0:2*3.14, samples=100] (\x,{sin(2*\x r)});
-			\draw [opacity = 0.5] plot[domain=0:2*3.14, samples=100] (\x,{0.75*sin(2*\x r)});
-			\draw [opacity = 0.5] plot[domain=0:2*3.14, samples=100] (\x,{0.5*sin(2*\x r)});
-			\draw [opacity = 0.5] plot[domain=0:2*3.14, samples=100] (\x,{0.25*sin(2*\x r)});
-			\draw [opacity = 0.5] plot[domain=0:2*3.14, samples=100] (\x,{0*sin(2*\x r)});
-			\draw [opacity = 0.5] plot[domain=0:2*3.14, samples=100] (\x,{-0.5*sin(2*\x r)});
-			\draw [opacity = 0.5] plot[domain=0:2*3.14, samples=100] (\x,{-0.25*sin(2*\x r)});
-			\draw [opacity = 0.5] plot[domain=0:2*3.14, samples=100] (\x,{-0.75*sin(2*\x r)});
-			\draw [opacity = 0.5] plot[domain=0:2*3.14, samples=100] (\x,{-sin(2*\x r)});
-		\end{scope}
 		
+		\begin{scope}[shift={(0,1)}] 
+			% Eje x graduado en múltiplos de pi/4
+			\draw[thick, ->] (0,-8) -- (3.14,-8) node[anchor=north] {}; % Eje x
+			\foreach \x in {0,0.785,1.57,2.355,3.14} {
+				\draw (\x,-8.1) -- (\x,-7.9); % Marcas de tic
+			}
+			\foreach \x/\label in {0/$0$,0.785/$\frac{\pi}{4}$,1.57/$\frac{\pi}{2}$,2.355/$\frac{3\pi}{4}$,3.14/$\pi$} {
+				\draw (\x,-8.3) node[anchor=north] {\label}; % Etiquetas
+			}
+			
+			% Líneas verticales punteadas
+			\foreach \x in {0,0.785,1.57,2.355,3.14} {
+				\draw[dashed, gray] (\x,-8) -- (\x,0.1); % Líneas punteadas desde el eje x hacia arriba
+			}
+		\end{scope}
 	\end{tikzpicture}
+	
+	\caption{Ilustración de 3 armónicos y sus nodos de la cuerda al vibrar.} 
+	\label{fig:armonicos_cuerda}  % Etiqueta para la figura
 \end{figure}
 
+Desde el punto de vista matemático, ello significa
+que la solución de \ref{eq1} debe poder representarse de la forma:
 
 
-\section{Recommendations and future work}
+\begin{equation}\label{eq4}
+	u(x,t) = \sum_{n=1}^{\infty} a_n \sin(nx) \cos(nt)
+\end{equation}
+\newline
+
+donde los coeficientes \( a_n \) han de elegirse adecuadamente para que se satisfaga
+\ref{eq1}.
+\newline
+
+\subsection{La ecuación de calor}
+
+Uno de los problemas más interesantes que abordaron los científicos del siglo XVIII, y que apare
 
 
-
-\begin{table}[hbtp]
-	\centering
-	\begin{tabular}{@{}*{2}{p{0.5\textwidth}}@{}}
-		\toprule
-		\textbf{Correct} &  \textbf{Incorrect}
-		\\
-		\midrule
-		\enquote{This is an \enquote{inner quote} inside an outer quote}
-		&
-		"This is an 'inner quote' inside an outer quote"
-		\\
-		\bottomrule
-	\end{tabular}
-	\caption[Quotation marks]
-	{Proper quotation mark usage.
-		The \texttt{\textbackslash enquote} command chooses the correct
-		quotation marks for the specified language.}
-\end{table}
-\lipsum[1]
+%
+%
+%\section{Recommendations and future work}
+%\begin{table}[hbtp]
+%	\centering
+%	\begin{tabular}{@{}*{2}{p{0.5\textwidth}}@{}}
+%		\toprule
+%		\textbf{Correct} &  \textbf{Incorrect}
+%		\\
+%		\midrule
+%		\enquote{This is an \enquote{inner quote} inside an outer quote}
+%		&
+%		"This is an 'inner quote' inside an outer quote"
+%		\\
+%		\bottomrule
+%	\end{tabular}
+%	\caption[Quotation marks]
+%	{Proper quotation mark usage.
+%		The \texttt{\textbackslash enquote} command chooses the correct
+%		quotation marks for the specified language.}
+%\end{table}
+%\lipsum[1]
