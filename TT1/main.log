@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.24)  20 SEP 2024 13:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.24)  29 SEP 2024 17:09
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1419,10 +1419,14 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
  (main.aux
-LaTeX Info: Redefining \. on input line 14.
-LaTeX Info: Redefining \% on input line 14.
+LaTeX Info: Redefining \. on input line 15.
+LaTeX Info: Redefining \% on input line 15.
  (chapters/chapter01/chapter01.aux)
-(chapters/chapter02/chapter02.aux))
+(chapters/chapter02/chapter02.aux) (chapters/chapter03/chapter03.aux
+
+LaTeX Warning: Label `ch:Marco Teórico' multiply defined.
+
+) (chapters/chapter04/chapter04.aux) (chapters/chapter05/chapter05.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
@@ -1581,7 +1585,7 @@ IPN.png> <./img/EscudoESCOM.png>]
 (frontmatter/technical_document/technical_document.tex [2
 
 ])
-Underfull \hbox (badness 10000) in paragraph at lines 16--88
+Underfull \hbox (badness 10000) in paragraph at lines 23--88
 
  []
 
@@ -1630,7 +1634,7 @@ LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--4
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
  [][] [][]\OT1/cmr/m/n/12 Comparaci^^Son de software para c^^Salculos matem^^Sa
 ticos y 
  []
@@ -1659,7 +1663,7 @@ LaTeX Info: Redefining \% on input line 93.
  (chapters/chapter01/chapter01.tex
 Cap\'{\i }tulo 1.
 
-Underfull \hbox (badness 1028) in paragraph at lines 9--10
+Underfull \hbox (badness 1028) in paragraph at lines 12--13
 \OT1/cmr/m/n/12 r^^Sapidas y fiables, las series de Fourier requer^^S^^Pan un p
 roceso mucho m^^Sas
  []
@@ -1668,104 +1672,9 @@ roceso mucho m^^Sas
 
 
 ]
-LaTeX Info: Redefining \. on input line 23.
-LaTeX Info: Redefining \% on input line 23.
- [2]
-Overfull \hbox (5.95143pt too wide) in paragraph at lines 30--30
-[]|[]\OT1/cmr/bx/sc/12 SOFTWARE[]| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
-[]|\OT1/cmr/m/n/12 Wolfram
- []
-
-
-Underfull \hbox (badness 6978) in paragraph at lines 31--31
-[]|\OT1/cmr/m/n/12 Potente motor de conocimiento
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
-\OT1/cmr/m/n/12 computacional para c^^Salculos
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
-\OT1/cmr/m/n/12 matem^^Saticos y gr^^Saficos. No
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
-\OT1/cmr/m/n/12 anuales para
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
-\OT1/cmr/m/n/12 estudiantes, plan
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-[]|\OT1/cmr/m/n/12 Herramienta din^^Samica para
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-\OT1/cmr/m/n/12 construcciones geom^^Setricas y
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--33
-[]|\OT1/cmr/m/n/12 Similar a Geogebra es una
- []
-
-
-Underfull \hbox (badness 1308) in paragraph at lines 33--33
-\OT1/cmr/m/n/12 calculadora gr^^Safica en l^^S^^Pnea para
- []
-
-
-Underfull \hbox (badness 6641) in paragraph at lines 33--33
-\OT1/cmr/m/n/12 c^^Salculos y gr^^Saficos, incluida la
- []
-
-
-Underfull \hbox (badness 2486) in paragraph at lines 34--34
-\OT1/cmr/m/n/12 para visualizaciones matem^^Saticas,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--35
-[]|\OT1/cmr/m/n/12 Entorno de programaci^^Son para
- []
-
-
-Underfull \hbox (badness 2285) in paragraph at lines 35--35
-\OT1/cmr/m/n/12 para series de Fourier. Requiere
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--35
-[]|\OT1/cmr/m/n/12 Desde USD\TS1/cmr/m/n/12 $\OT1/cmr/m/n/12 99
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--35
-\OT1/cmr/m/n/12 (aprox.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--35
-\OT1/cmr/m/n/12 MXN\TS1/cmr/m/n/12 $\OT1/cmr/m/n/12 1627.82)
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--35
-\OT1/cmr/m/n/12 anuales para
- []
-
-)
+LaTeX Info: Redefining \. on input line 29.
+LaTeX Info: Redefining \% on input line 29.
+ [2])
 LaTeX Info: Redefining \. on input line 94.
 LaTeX Info: Redefining \% on input line 94.
  [3]
@@ -1781,12 +1690,123 @@ LaTeX Info: Redefining \% on input line 1.
 
 ]
 Cap\'{\i }tulo 2.
-[5]
 
-LaTeX Warning: Citation '[25]' on page 6 undefined on input line 69.
+Overfull \hbox (5.95143pt too wide) in paragraph at lines 9--9
+[]|[]\OT1/cmr/bx/sc/12 SOFTWARE[]| 
+ []
 
 
-LaTeX Warning: Citation '[27]' on page 6 undefined on input line 69.
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+[]|\OT1/cmr/m/n/12 Wolfram
+ []
+
+
+Underfull \hbox (badness 6978) in paragraph at lines 10--10
+[]|\OT1/cmr/m/n/12 Potente motor de conocimiento
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+\OT1/cmr/m/n/12 computacional para c^^Salculos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+\OT1/cmr/m/n/12 matem^^Saticos y gr^^Saficos. No
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+\OT1/cmr/m/n/12 anuales para
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+\OT1/cmr/m/n/12 estudiantes, plan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+[]|\OT1/cmr/m/n/12 Herramienta din^^Samica para
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+\OT1/cmr/m/n/12 construcciones geom^^Setricas y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+[]|\OT1/cmr/m/n/12 Similar a Geogebra es una
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 12--12
+\OT1/cmr/m/n/12 calculadora gr^^Safica en l^^S^^Pnea para
+ []
+
+
+Underfull \hbox (badness 6641) in paragraph at lines 12--12
+\OT1/cmr/m/n/12 c^^Salculos y gr^^Saficos, incluida la
+ []
+
+
+Underfull \hbox (badness 2486) in paragraph at lines 13--13
+\OT1/cmr/m/n/12 para visualizaciones matem^^Saticas,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+[]|\OT1/cmr/m/n/12 Entorno de programaci^^Son para
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 14--14
+\OT1/cmr/m/n/12 para series de Fourier. Requiere
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+[]|\OT1/cmr/m/n/12 Desde USD\TS1/cmr/m/n/12 $\OT1/cmr/m/n/12 99
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+\OT1/cmr/m/n/12 (aprox.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+\OT1/cmr/m/n/12 MXN\TS1/cmr/m/n/12 $\OT1/cmr/m/n/12 1627.82)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+\OT1/cmr/m/n/12 anuales para
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [5]
+LaTeX Info: Redefining \. on input line 95.
+LaTeX Info: Redefining \% on input line 95.
+ [6]
+\openout2 = `chapters/chapter03/chapter03.aux'.
+
+ (chapters/chapter03/chapter03.tex
+Cap\'{\i }tulo 3.
+[7
+
+
+
+
+]
+
+LaTeX Warning: Citation '[25]' on page 8 undefined on input line 69.
+
+
+LaTeX Warning: Citation '[27]' on page 8 undefined on input line 69.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 69--70
@@ -1808,54 +1828,88 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
 LaTeX Info: Redefining \. on input line 82.
 LaTeX Info: Redefining \% on input line 82.
-[6]
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 99--101
 
  []
 
 LaTeX Info: Redefining \. on input line 123.
 LaTeX Info: Redefining \% on input line 123.
-[7]
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 214--216
 
  []
 
+)
+LaTeX Info: Redefining \. on input line 96.
+LaTeX Info: Redefining \% on input line 96.
+ [10]
+LaTeX Info: Redefining \. on input line 96.
+LaTeX Info: Redefining \% on input line 96.
+ [11]
+\openout2 = `chapters/chapter04/chapter04.aux'.
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--220
+ (chapters/chapter04/chapter04.tex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [12
 
+
+
+
+]
+Cap\'{\i }tulo 4.
+) [13]
+\openout2 = `chapters/chapter05/chapter05.aux'.
+
+ (chapters/chapter05/chapter05.tex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [14
+
+
+
+
+]
+Cap\'{\i }tulo 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+|\OT1/cmr/bx/sc/24.88 Implementaci^^Son (Primer
  []
 
-)
-LaTeX Info: Redefining \. on input line 95.
-LaTeX Info: Redefining \% on input line 95.
- [8]
+) [15]
+LaTeX Info: Redefining \. on input line 103.
+LaTeX Info: Redefining \% on input line 103.
+ [16
+
+
+
+]
 LaTeX Font Info:    Trying to load font information for U+lasy on input line 10
-4.
+5.
  (/home/sebastian/.miktex/texmfs/install/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-Underfull \hbox (badness 1515) in paragraph at lines 104--104
+Underfull \hbox (badness 1515) in paragraph at lines 105--105
 []\OT1/cmr/m/n/12 Claire Adam-Bourdarios et al. []  The Higgs boson machine lea
 rning
  []
 
 
-Underfull \hbox (badness 3590) in paragraph at lines 104--104
+Underfull \hbox (badness 3590) in paragraph at lines 105--105
 \OT1/cmr/m/n/12 particles in high-energy physics with deep learning[]. En: \OT1
 /cmr/m/it/12 Nature
  []
 
-[9
-
-
-
+[17
 
 ] (main.aux
 LaTeX Info: Redefining \sptext on input line 14.
 LaTeX Info: Redefining \. on input line 14.
 LaTeX Info: Redefining \% on input line 14.
  (chapters/chapter01/chapter01.aux)
-(chapters/chapter02/chapter02.aux))
+(chapters/chapter02/chapter02.aux) (chapters/chapter03/chapter03.aux)
+(chapters/chapter04/chapter04.aux) (chapters/chapter05/chapter05.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
@@ -1872,6 +1926,9 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 
+LaTeX Warning: There were multiply-defined labels.
+
+
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
 (biblatex)                and rerun LaTeX afterwards.
@@ -1881,47 +1938,35 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49608 strings out of 476305
- 1093146 string characters out of 5791965
- 2131037 words of memory out of 5000000
- 70927 multiletter control sequences out of 15000+600000
+ 49723 strings out of 476305
+ 1097148 string characters out of 5791965
+ 2144149 words of memory out of 5000000
+ 70997 multiletter control sequences out of 15000+600000
  567961 words of font info for 72 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  101i,15n,117p,1570b,1937s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{table.caption.9} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{chapter*.10} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.2.2} has been referenced but does not exist
-, replaced by a fixed one
-
- </home/sebastian/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm12
-00.pk></home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cm
-bx12.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm
-/cmbx8.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfonts/
-cm/cmcsc10.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfo
-nts/cm/cmex10.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public/am
-sfonts/cm/cmmi12.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public
-/amsfonts/cm/cmmi8.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/publ
-ic/amsfonts/cm/cmr12.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/pu
-blic/amsfonts/cm/cmr17.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/
-public/amsfonts/cm/cmr6.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1
-/public/amsfonts/cm/cmr8.pfb></home/sebastian/.miktex/texmfs/install/fonts/type
-1/public/amsfonts/cm/cmsl12.pfb></home/sebastian/.miktex/texmfs/install/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb></home/sebastian/.miktex/texmfs/install/font
-s/type1/public/amsfonts/cm/cmsy8.pfb></home/sebastian/.miktex/texmfs/install/fo
-nts/type1/public/amsfonts/cm/cmti12.pfb></home/sebastian/.miktex/texmfs/install
-/fonts/type1/public/amsfonts/cm/cmtt12.pfb></home/sebastian/.miktex/texmfs/inst
-all/fonts/type1/public/amsfonts/latxfont/lasy10.pfb></home/sebastian/.miktex/te
-xmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (21 pages, 406079 bytes).
+ </home/sebastian/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm
+1200.pk></home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/
+cmbx12.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfonts/
+cm/cmbx8.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfont
+s/cm/cmcsc10.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public/ams
+fonts/cm/cmex10.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public/
+amsfonts/cm/cmmi12.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/publ
+ic/amsfonts/cm/cmmi8.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/pu
+blic/amsfonts/cm/cmr12.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/
+public/amsfonts/cm/cmr17.pfb></home/sebastian/.miktex/texmfs/install/fonts/type
+1/public/amsfonts/cm/cmr6.pfb></home/sebastian/.miktex/texmfs/install/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb></home/sebastian/.miktex/texmfs/install/fonts/ty
+pe1/public/amsfonts/cm/cmsl12.pfb></home/sebastian/.miktex/texmfs/install/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb></home/sebastian/.miktex/texmfs/install/fo
+nts/type1/public/amsfonts/cm/cmsy8.pfb></home/sebastian/.miktex/texmfs/install/
+fonts/type1/public/amsfonts/cm/cmti12.pfb></home/sebastian/.miktex/texmfs/insta
+ll/fonts/type1/public/amsfonts/cm/cmtt12.pfb></home/sebastian/.miktex/texmfs/in
+stall/fonts/type1/public/amsfonts/latxfont/lasy10.pfb></home/sebastian/.miktex/
+texmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (29 pages, 421158 bytes).
 PDF statistics:
- 319 PDF objects out of 1000 (max. 8388607)
- 58 named destinations out of 1000 (max. 500000)
- 119 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 397 PDF objects out of 1000 (max. 8388607)
+ 76 named destinations out of 1000 (max. 500000)
+ 183 words of extra memory for PDF output out of 10000 (max. 10000000)
 

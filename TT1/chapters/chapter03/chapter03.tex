@@ -1,24 +1,266 @@
-\chapter{Conclusions}\label{ch:Conclusions}
-\lipsum[1]
-\begin{table}[hbtp]
-    \centering
-    \begin{tabular}{@{}*{2}{p{0.5\textwidth}}@{}}
-        \toprule
-        \textbf{Correct} &  \textbf{Incorrect}
-        \\
-        \midrule
-        \enquote{This is an \enquote{inner quote} inside an outer quote}
-        &
-        "This is an 'inner quote' inside an outer quote"
-        \\
-        \bottomrule
-    \end{tabular}
-    \caption[Quotation marks]
-    {Proper quotation mark usage.
-    The \texttt{\textbackslash enquote} command chooses the correct
-    quotation marks for the specified language.}
-\end{table}
-\lipsum[1]
+\chapter{Marco Teórico}\label{ch:Marco Teórico}
+En este capitulo...
 
-\section{Recommendations and future work}
-\lipsum[1]
+
+\section{Origen e Historia}
+Uno de los problemas del que se ocuparon los matemáticos del siglo XVIII es el que se conoce con el nombre del ``problema de la cuerda vibrante''. Este problema fue estudiado por d'Alembert y Euler (usando el método de propagación de las ondas) y un poco más tarde, concretamente en 1753, por Daniel Bernoulli. La solución dada por este difería de la proporcionada por los anteriores y consistió básicamente en expresar la solución del problema como superposición (en general infinita) de ondas sencillas. 
+
+Las ideas de Bernoulli fueron aplicadas y perfeccionadas por Fourier, en 1807, en el estudio de problemas relacionados con la conducción del calor. Quedaron plasmadas por escrito en el libro clásico \emph{Théorie analytique de la chaleur}, publicado en 1822. Los razonamientos realizados por Fourier en este libro plantearon de manera inmediata numerosas controversias y cuestiones que han tenido una influencia significativa en la historia de la Matemática.
+
+\subsection{El problema de la cuerda oscilante}
+
+Uno de los problemas más interesantes que abordaron los científicos del siglo XVIII, y que aparece con frecuencia en problemas físicos relacionados con procesos oscilatorios, es el conocido como "El problema de la cuerda vibrante". Este se puede describir en su forma más elemental de la siguiente manera: Supongamos que tenemos una cuerda flexible y tensa, cuyos extremos están fijos, convenientemente, en los puntos $(0, 0)$ y $(\pi, 0)$ sobre el eje horizontal. Si la cuerda se tira de modo que su forma inicial corresponde a la curva definida por $y = f(x)$, y luego se suelta, la pregunta es: ¿Cuál será el movimiento resultante de la cuerda?
+
+Los desplazamientos de la cuerda siempre se encuentran en un mismo plano, y el vector desplazamiento es perpendicular en cualquier momento. Para describir este movimiento se utiliza una función $u(x, t)$, donde $u(x, t)$ representa el desplazamiento vertical de la cuerda en la posición $x$ (con $0 \leq x \leq \pi$) y en el instante $t$ (con $t \geq 0$). El problema es determinar $u(x, t)$ a partir de $f(x)$.
+
+El primer matemático que propuso un modelo adecuado para este problema fue Jean Le Rond d'Alembert. Bajo diversas hipótesis (asumiendo, por ejemplo, que las vibraciones son "pequeñas"), d'Alembert demostró en 1747 (\textit{Hist. de l'Acad. de Berlin, 3, 1747, pp. 214-219}) que la función $u(x,t)$ debe satisfacer las siguientes condiciones:
+
+\begin{equation} \label{eq1}
+	\begin{split}
+		\frac{\partial^2 u(x,t)}{\partial t^2} &= \frac{\partial^2 u(x,t)}{\partial x^2}, \quad 0 < x < \pi, \ t > 0 \\
+		u(x,0) &= f(x), \quad 0 \leq x \leq \pi \\
+		\frac{\partial u(x,0)}{\partial t} &= 0, \quad 0 \leq x \leq \pi \\
+		u(0,t) &= u(\pi,t) = 0, \quad t \geq 0.
+	\end{split}
+\end{equation}
+
+
+La primera de estas condiciones es una ecuación en derivadas parciales de segundo orden, conocida como la \textit{Ecuación de Ondas}. La segunda ecuación establece la posición inicial de la cuerda, mientras que la tercera indica que la velocidad inicial de la cuerda es cero (recordando que, una vez desplazada a la posición $f(x)$, la cuerda es liberada). La última condición expresa que, para cualquier tiempo, los extremos de la cuerda permanecen fijos. En la figura \ref{fig:cuerda-vibrante} La variable $u = u(x,t)$ mide el desplazamiento sobre la vertical a tiempo $t > 0$ en la posición $x \in [0,\pi]$.
+
+\begin{figure}[h]
+	\centering
+	
+	\begin{tikzpicture}[scale=1.0]
+		% Ejes coordenados
+		\draw[->,ultra thick] (-0.5,0) -- (7,0) node[right] {$x$};
+		\draw[->,ultra thick] (0,-1) -- (0,2) node[above] {$u(x,t)$};
+		
+		% Extremos fijos en x=0 y x=L
+		\draw[thick] (0,0) circle (0.05) node[below] {$x=0$};
+		\draw[thick] (6,0) circle (0.05) node[below] {$x=\pi$};
+		
+		% Desplazamiento inicial de la cuerda
+		\draw[domain=0:6,smooth,variable=\x,blue,thick] plot ({\x},{0.8*sin(180*\x/6)});
+		
+		% Etiqueta de la cuerda
+		\node[above,blue] at (3,0.8) {$u(x,0) = f(x)$};
+		
+		% Condiciones de contorno (Movidas hacia arriba para evitar superposición)
+		\draw[<-] (0,0.1) -- (-0.5,0.4) node[left] {$u(0,t)=0$};
+		\draw[<-] (6,0.1) -- (6.5,0.4) node[right] {$u(\pi,t)=0$};
+		
+		% Indicación de tiempo inicial
+		\node at (3,-0.8) {$t = 0$};
+		
+		% Flecha de tiempo (opcional)
+		% \draw[->] (6.5,1) -- (6.5,1.5) node[right] {$t$ aumenta};
+	\end{tikzpicture}
+	\caption{Ilustración del problema de la cuerda vibrante.} 
+	\label{fig:cuerda-vibrante}  % Etiqueta para la figura
+\end{figure}
+
+D'Alembert demostró también que la solución de \ref{eq1} viene dada por
+
+\begin{equation}\label{eq2}
+	u(x,t) = \frac{1}{2} \left[ \tilde{f}(x+t) + \tilde{f}(x-t) \right]
+\end{equation}
+donde $\tilde{f}$ es ``una extensión conveniente de la función $f$.''
+
+De manera más precisa, y con el lenguaje de hoy en día, el teorema de d'Alembert (\cite{[25]}, \cite{[27]}) confirmó que la posición futura de la cuerda está completamente determinada por su posición inicial: \\[0.3cm]
+
+\textbf{TEOREMA 2.1.} \textit{Sea $f \in C^2 [0, \pi]$, tal que $f(0) = f(\pi) = f''(0^+) = f''(\pi^-) = 0$. Entonces (1.1) tiene una única solución $u \in C^2(\Omega) \cap C^1(\bar{\Omega})$, donde $\Omega = (0, \pi) \times (0, +\infty)$. Además $u$ viene dada por la fórmula (1.2), donde $\tilde{f}$ es la extensión a $\mathbb{R}$ (conjunto de los números reales), impar y $2\pi$-periódica de la función $f$.} \\[0.3cm]
+
+
+No se conoce con exactitud la manera en que \textit{d’Alembert} llegó a la fórmula \ref{eq2}, pero un camino muy probable pudo ser el siguiente: el cambio de variables
+
+\[
+\xi = x+t, \quad \mu = x-t,
+\]
+transforma la ecuación 
+\[
+\frac{\partial^2 u(x,t)}{\partial t^2} = \frac{\partial^2 u(x,t)}{\partial x^2},
+\]
+en otra más simple:
+\[
+\frac{\partial^2 u}{\partial \xi \partial \mu} = 0.
+\]
+Las soluciones de esta última ecuación son trivialmente de la forma 
+\[
+u(\xi, \mu) = F(\xi) + G(\mu).
+\]
+Combinando esta última relación con las otras condiciones en \ref{eq1}, se puede llegar a intuir la forma (1.2) que tiene la solución de \ref{eq1}.
+
+La interpretación física de la solución dada por \textit{d’Alembert} es muy interesante: La función \[
+\frac{1}{2} f(x+t)
+\]
+representa una onda (una solución de la ecuación de ondas) que se desplaza hacia la izquierda con velocidad 1. Análogamente, la función
+\[
+\frac{1}{2} f(x-t)
+\]
+representa otra onda que se desplaza hacia la derecha con velocidad 1. De este modo, la solución de \ref{eq1} es la superposición de dos ondas, una de las cuales se desplaza hacia la izquierda y otra hacia la derecha, ambas con velocidad 1. Por este motivo se dice que la fórmula \ref{eq2}se ha obtenido usando el \textit{Método de propagación de las ondas}.\\[0.3cm]
+
+
+
+Otra manera de obtener la solución del problema \ref{eq1}, completamente distinta de la vista anteriormente, fue propuesta por \textit{Daniel Bernoulli} en 1753 (\textit{Hist. de l'Acad. de Berlin, 9, 1753, 147-172; 173-195}). La idea clave es obtener la solución de \ref{eq1} como superposición de ondas más sencillas, concretamente aquellas que son de la forma
+
+\begin{equation}\label{eq3}
+	u_n(x,t) = \sin(nx) \cos(nt), \quad \forall \, n \in \mathbb{N},
+\end{equation}
+\newline
+donde $\mathbb{N}$ es el conjunto de los números naturales. Para cada tiempo $t$ fijo, la anterior función es un múltiplo de la función $\sin(nx)$, que se anula exactamente en $n-1$ puntos del intervalo $(0, \pi)$. Así, si pudiésemos observar la vibración de la cuerda correspondiente a las ondas \( u_n \), tendríamos \( n - 1 \) puntos, llamados
+nodos, en los que la cuerda se mantendría constantemente fija en el eje de
+abscisas (como en los extremos del intervalo \([0, \pi]\)). Entre dichos nodos, la
+cuerda oscilaría de acuerdo con \ref{eq3}.
+
+¿Cómo concibió \textit{Bernoulli} la idea anterior? Parece ser que una posibilidad es
+que usase sus conocimientos musicales. Para ello se basó en que el sonido que
+emite una cuerda vibrante es, en general, superposición de armónicos, es decir,
+superposición de funciones de la forma \( u_n(x, t) \). Tales funciones representan,
+para \( n = 1 \) el tono fundamental y para \( n > 1 \) sus armónicos, y desde el
+punto de vista musical se corresponden con los tonos puros. Así, \textit{Bernoulli}
+afirmó que cualquier sonido que produjese la vibración de la cuerda debe ser
+superposición de tonos puros. 
+
+\begin{figure}[h]
+	\centering
+	\begin{tikzpicture}[xscale=2]
+		
+		% Primera onda (n=1)
+		\draw[thick] plot[domain=0:3.14, samples=100] (\x,{sin(\x r)});
+		\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{0.75*sin(\x r)});
+		\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{0.5*sin(\x r)});
+		\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{0.25*sin(\x r)});
+		\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{0*sin(\x r)});
+		\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{-0.5*sin(\x r)});
+		\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{-0.25*sin(\x r)});
+		\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{-0.75*sin(\x r)});
+		\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{-sin(\x r)});
+		\node[right] at (3.14, 0) {\shortstack{Primer armónico \\ (Fundamental)}};
+		
+		
+		\draw[->] (-0.15, -1) node[below] {Nodo} -- (0, 0);
+		\draw[->] (3.3, -1) node[below] {Nodo} -- (3.14, 0);
+		
+		
+		% Segunda onda en la parte inferior (misma onda desplazada hacia abajo)
+		\begin{scope}[shift={(0,-2.5)}] % Mueve todo el segundo gráfico hacia abajo
+			\draw[thick] plot[domain=0:3.14, samples=100] (\x,{sin(2*\x r)});
+			\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{0.75*sin(2*\x r)});
+			\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{0.5*sin(2*\x r)});
+			\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{0.25*sin(2*\x r)});
+			\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{0*sin(2*\x r)});
+			\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{-0.5*sin(2*\x r)});
+			\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{-0.25*sin(2*\x r)});
+			\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{-0.75*sin(2*\x r)});
+			\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{-sin(2*\x r)});
+			\node[right] at (3.14, 0) {Segundo armónico};
+			
+			\draw[->] (-0.15, -1) node[below] {Nodo} -- (0, 0);
+			\draw[->] (1.57, -1) node[below] {Nodo} -- (1.57, 0);
+			\draw[->] (3.3, -1) node[below] {Nodo} -- (3.14, 0);
+		\end{scope}
+		
+		
+		% Segunda onda en la parte inferior (misma onda desplazada hacia abajo)
+		\begin{scope}[shift={(0,-5)}] % Mueve todo el segundo gráfico hacia abajo
+			\draw[thick] plot[domain=0:3.14, samples=100] (\x,{sin(4*\x r)});
+			\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{0.75*sin(4*\x r)});
+			\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{0.5*sin(4*\x r)});
+			\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{0.25*sin(4*\x r)});
+			\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{0*sin(4*\x r)});
+			\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{-0.5*sin(4*\x r)});
+			\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{-0.25*sin(4*\x r)});
+			\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{-0.75*sin(4*\x r)});
+			\draw [opacity = 0.4] plot[domain=0:3.14, samples=100] (\x,{-sin(4*\x r)});
+			\node[right] at (3.14, 0) {Cuarto armónico};
+			
+			% Flechas hacia los nodos
+			\draw[->] (-0.15, -1) node[below] {Nodo} -- (0, 0);
+			\draw[->] (0.7, -1) node[below] {Nodo} -- (0.785, 0);
+			\draw[->] (1.57, -1) node[below] {Nodo} -- (1.57, 0);
+			\draw[->] (2.455, -1) node[below] {Nodo} -- (2.355, 0);
+			\draw[->] (3.3, -1) node[below] {Nodo} -- (3.14, 0);
+		\end{scope}
+		
+		
+		
+		\begin{scope}[shift={(0,1)}] 
+			% Eje x graduado en múltiplos de pi/4
+			\draw[thick, ->] (0,-8) -- (3.14,-8) node[anchor=north] {}; % Eje x
+			\foreach \x in {0,0.785,1.57,2.355,3.14} {
+				\draw (\x,-8.1) -- (\x,-7.9); % Marcas de tic
+			}
+			\foreach \x/\label in {0/$0$,0.785/$\frac{\pi}{4}$,1.57/$\frac{\pi}{2}$,2.355/$\frac{3\pi}{4}$,3.14/$\pi$} {
+				\draw (\x,-8.3) node[anchor=north] {\label}; % Etiquetas
+			}
+			
+			% Líneas verticales punteadas
+			\foreach \x in {0,0.785,1.57,2.355,3.14} {
+				\draw[dashed, gray] (\x,-8) -- (\x,0.1); % Líneas punteadas desde el eje x hacia arriba
+			}
+		\end{scope}
+	\end{tikzpicture}
+	
+	\caption{Ilustración de 3 armónicos y sus nodos de la cuerda al vibrar.} 
+	\label{fig:armonicos_cuerda}  % Etiqueta para la figura
+\end{figure}
+
+Desde el punto de vista matemático, ello significa
+que la solución de \ref{eq1} debe poder representarse de la forma:
+
+
+\begin{equation}\label{eq4}
+	u(x,t) = \sum_{n=1}^{\infty} a_n \sin(nx) \cos(nt)
+\end{equation}
+\newline
+
+donde los coeficientes \( a_n \) han de elegirse adecuadamente para que se satisfaga
+\ref{eq1}.
+\newline
+Ahora bien, \( f \) no es, en general de la forma justo mencionada, pero, y ahora 
+viene la pregunta clave: ¿Será posible obtener la solución de \ref{eq1}, para cualquier 
+\( f \) dada, como superposición de las anteriores soluciones sencillas \( u_n \)? Esto es
+lo que propuso \textit{Bernouilli}.
+
+Si la solución propuesta por \textit{Bernouilli} fuese correcta, ello obligaría a que
+
+\begin{equation}\label{eq5}
+	u(x, 0) = \sum_{n=1}^{\infty} a_n \sen(nx)
+\end{equation}
+
+y por tanto a que
+
+\begin{equation}\label{eq6}
+f(x) = \sum_{n=1}^{\infty} a_n \sen(nx), \quad \forall x \in [0, \pi],
+\end{equation}
+
+para “una adecuada elección de los coeficientes \( a_n \)”.
+
+
+\subsection{La ecuación de calor}
+
+Uno de los problemas más interesantes que abordaron los científicos del siglo XVIII, y que apare
+
+
+%
+%
+%\section{Recommendations and future work}
+%\begin{table}[hbtp]
+%	\centering
+%	\begin{tabular}{@{}*{2}{p{0.5\textwidth}}@{}}
+%		\toprule
+%		\textbf{Correct} &  \textbf{Incorrect}
+%		\\
+%		\midrule
+%		\enquote{This is an \enquote{inner quote} inside an outer quote}
+%		&
+%		"This is an 'inner quote' inside an outer quote"
+%		\\
+%		\bottomrule
+%	\end{tabular}
+%	\caption[Quotation marks]
+%	{Proper quotation mark usage.
+%		The \texttt{\textbackslash enquote} command chooses the correct
+%		quotation marks for the specified language.}
+%\end{table}
+%\lipsum[1]
