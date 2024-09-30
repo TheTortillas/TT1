@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.24)  29 SEP 2024 17:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.24)  29 SEP 2024 18:15
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1419,8 +1419,8 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
  (main.aux
-LaTeX Info: Redefining \. on input line 15.
-LaTeX Info: Redefining \% on input line 15.
+LaTeX Info: Redefining \. on input line 14.
+LaTeX Info: Redefining \% on input line 14.
  (chapters/chapter01/chapter01.aux)
 (chapters/chapter02/chapter02.aux) (chapters/chapter03/chapter03.aux
 
@@ -1672,18 +1672,78 @@ roceso mucho m^^Sas
 
 
 ]
-LaTeX Info: Redefining \. on input line 29.
-LaTeX Info: Redefining \% on input line 29.
- [2])
+Underfull \hbox (badness 1558) in paragraph at lines 15--19
+\OT1/cmr/m/n/12 importantes oportunidades de mejora. Las herramientas actuales,
+ aunque
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--19
+
+ []
+
+LaTeX Info: Redefining \. on input line 19.
+LaTeX Info: Redefining \% on input line 19.
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 21--23
+
+ []
+
+
+Underfull \hbox (badness 3098) in paragraph at lines 27--28
+\OT1/cmr/m/n/12 en un intervalo o para \OT1/cmr/bx/sc/12 funciones definidas a 
+trozos\OT1/cmr/m/n/12 . El
+ []
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 27--28
+\OT1/cmr/m/n/12 discontinuidades o que est^^Sen definidas por partes en distint
+os
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 38--39
+[]\OT1/cmr/bx/sc/12 Serie completa \OT1/cmr/m/n/12 para funciones peri^^Sodicas
+ en un intervalo
+ []
+
+LaTeX Info: Redefining \. on input line 39.
+LaTeX Info: Redefining \% on input line 39.
+[3]
+Underfull \hbox (badness 1043) in paragraph at lines 51--52
+\OT1/cmr/m/n/12 el usuario podr^^Sa ingresar las funciones, definir los interva
+los y
+ []
+
+
+Underfull \hbox (badness 2012) in paragraph at lines 51--52
+\OT1/cmr/m/n/12 a usuarios sin experiencia en programaci^^Son obtener resultado
+s
+ []
+
+)
 LaTeX Info: Redefining \. on input line 94.
 LaTeX Info: Redefining \% on input line 94.
- [3]
+ [4]
+LaTeX Info: Redefining \. on input line 94.
+LaTeX Info: Redefining \% on input line 94.
+ [5]
 \openout2 = `chapters/chapter02/chapter02.aux'.
 
  (chapters/chapter02/chapter02.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [4
+ [6
 
 
 
@@ -1788,25 +1848,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--14
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [5]
+) [7]
 LaTeX Info: Redefining \. on input line 95.
 LaTeX Info: Redefining \% on input line 95.
- [6]
+ [8]
 \openout2 = `chapters/chapter03/chapter03.aux'.
 
  (chapters/chapter03/chapter03.tex
 Cap\'{\i }tulo 3.
-[7
+[9
 
 
 
 
 ]
 
-LaTeX Warning: Citation '[25]' on page 8 undefined on input line 69.
+LaTeX Warning: Citation '[25]' on page 10 undefined on input line 69.
 
 
-LaTeX Warning: Citation '[27]' on page 8 undefined on input line 69.
+LaTeX Warning: Citation '[27]' on page 10 undefined on input line 69.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 69--70
@@ -1828,14 +1888,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
 LaTeX Info: Redefining \. on input line 82.
 LaTeX Info: Redefining \% on input line 82.
-[8]
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 99--101
 
  []
 
 LaTeX Info: Redefining \. on input line 123.
 LaTeX Info: Redefining \% on input line 123.
-[9]
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 214--216
 
  []
@@ -1843,29 +1903,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 214--216
 )
 LaTeX Info: Redefining \. on input line 96.
 LaTeX Info: Redefining \% on input line 96.
- [10]
+ [12]
 LaTeX Info: Redefining \. on input line 96.
 LaTeX Info: Redefining \% on input line 96.
- [11]
+ [13]
 \openout2 = `chapters/chapter04/chapter04.aux'.
 
  (chapters/chapter04/chapter04.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [12
+ [14
 
 
 
 
 ]
 Cap\'{\i }tulo 4.
-) [13]
+) [15]
 \openout2 = `chapters/chapter05/chapter05.aux'.
 
  (chapters/chapter05/chapter05.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [14
+ [16
 
 
 
@@ -1877,10 +1937,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
 |\OT1/cmr/bx/sc/24.88 Implementaci^^Son (Primer
  []
 
-) [15]
+) [17]
 LaTeX Info: Redefining \. on input line 103.
 LaTeX Info: Redefining \% on input line 103.
- [16
+ [18
 
 
 
@@ -1901,7 +1961,7 @@ Underfull \hbox (badness 3590) in paragraph at lines 105--105
 /cmr/m/it/12 Nature
  []
 
-[17
+[19
 
 ] (main.aux
 LaTeX Info: Redefining \sptext on input line 14.
@@ -1938,10 +1998,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49723 strings out of 476305
- 1097148 string characters out of 5791965
- 2144149 words of memory out of 5000000
- 70997 multiletter control sequences out of 15000+600000
+ 49726 strings out of 476305
+ 1097176 string characters out of 5791965
+ 2144153 words of memory out of 5000000
+ 70998 multiletter control sequences out of 15000+600000
  567961 words of font info for 72 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  101i,15n,117p,1570b,1937s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1964,9 +2024,9 @@ fonts/type1/public/amsfonts/cm/cmti12.pfb></home/sebastian/.miktex/texmfs/insta
 ll/fonts/type1/public/amsfonts/cm/cmtt12.pfb></home/sebastian/.miktex/texmfs/in
 stall/fonts/type1/public/amsfonts/latxfont/lasy10.pfb></home/sebastian/.miktex/
 texmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (29 pages, 421158 bytes).
+Output written on main.pdf (31 pages, 428222 bytes).
 PDF statistics:
- 397 PDF objects out of 1000 (max. 8388607)
- 76 named destinations out of 1000 (max. 500000)
+ 407 PDF objects out of 1000 (max. 8388607)
+ 78 named destinations out of 1000 (max. 500000)
  183 words of extra memory for PDF output out of 10000 (max. 10000000)
 

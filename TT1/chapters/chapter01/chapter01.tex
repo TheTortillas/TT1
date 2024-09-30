@@ -12,11 +12,45 @@ Este amplio espectro de aplicaciones destaca la importancia crítica de las seri
 La necesidad de una herramienta más eficiente se hizo evidente durante los cursos de Matemáticas Avanzadas para la Ingeniería y Procesamiento de Señales Digitales. Al enfrentar el análisis de Fourier, especialmente al resolver ejercicios sobre series de Fourier, se descubrió la falta de medios óptimos para verificar los resultados de manera directa y eficiente. A diferencia de otros cálculos matemáticos, donde las calculadoras especializadas permiten comprobaciones rápidas y fiables, las series de Fourier requerían un proceso mucho más tedioso. Para asegurar la corrección de los cálculos, era necesario utilizar software de resolución matemática para obtener los coeficientes y, posteriormente, otro software de graficación para visualizar si los resultados correspondían efectivamente a la función dada. Este desafío se ampliaba aún más cuando se presentaban variaciones mínimas en los ejercicios, como cambiar el intervalo de la función o alternar entre series trigonométricas y complejas, o incluso al aplicar extensiones pares o impares. Cada una de estas variaciones obligaba a repetir todos los pasos desde el inicio, lo que no solo consumía tiempo valioso, sino que también complicaba la gestión del tiempo disponible, especialmente cuando se tiene una carga académica intensa. Este tiempo podría utilizarse mejor en comprender los conceptos subyacentes y explorar en profundidad el por qué y el cómo de los fenómenos analizados mediante estas series.
 
 \section{Justificación}
-Aquí puedo poner la justificación, probablemente la del Protocolo
+A pesar de la indiscutible importancia del análisis de Fourier en diversas áreas de la ciencia y la ingeniería, el acceso a herramientas que integren de manera eficiente el cálculo y la visualización de las series de Fourier aún presenta importantes oportunidades de mejora. Las herramientas actuales, aunque avanzadas y robustas, suelen fragmentar el proceso, obligando a los usuarios a utilizar distintos programas o plataformas para realizar los cálculos y la representación gráfica de los resultados. Esta división entre herramientas de cálculo y visualización añade una capa de complejidad y tiempo, especialmente para aquellos usuarios que, además de realizar cálculos precisos, requieren visualizar los resultados de manera rápida y efectiva.\\\\
+En este contexto, surge la propuesta de desarrollar un prototipo de aplicación web que combine ambas funcionalidades en una sola interfaz, facilitando el proceso de resolver y graficar las series de Fourier de manera práctica, intuitiva y accesible desde cualquier dispositivo con acceso a Internet. La creación de una plataforma que integre estos aspectos tiene el potencial de mejorar significativamente la experiencia del usuario al permitirle resolver ecuaciones y obtener representaciones gráficas de las series de Fourier en un solo entorno, eliminando la necesidad de conocimientos técnicos avanzados o el uso de múltiples herramientas. \\\\
+El desarrollo de esta aplicación tiene el potencial de ser un aporte valioso para diversas comunidades, como estudiantes, ingenieros y profesionales del área de las ciencias exactas, que requieren manipular y visualizar series de Fourier en sus trabajos. La integración de funcionalidades de cálculo simbólico con visualización gráfica interactiva permitirá un mayor grado de experimentación y aprendizaje, reduciendo el tiempo y esfuerzo necesarios para comprender y analizar las transformaciones de Fourier. \\\\
+Además, este proyecto representa una oportunidad para integrar y aplicar los conocimientos y habilidades adquiridos a lo largo de mi formación en ingeniería en sistemas. Al abordar tanto aspectos de programación, como de matemáticas avanzadas y principios de ingeniería de software, este trabajo terminal no solo permite abordar una necesidad práctica, sino que también sirve como un medio para demostrar la capacidad de aplicar teoría y técnicas de ingeniería en un contexto real. De esta manera, no solo se busca desarrollar una herramienta útil para otros, sino también consolidar y exhibir competencias en áreas clave de mi carrera.
 
 \section{Solución Propuesta}
-Aquí puedo poner la justificación, probablemente la del Protocolo
-
+La solución que se plantea en este proyecto es el desarrollo de una aplicación web que permita el cálculo y graficación de series de Fourier de manera integrada, eficiente y accesible, cubriendo la brecha existente en las herramientas actuales, que tienden a separar el cálculo matemático de la visualización gráfica en una sola interfaz. La solución propuesta combinará estas dos funcionalidades en una sola plataforma, diseñada para ser simple de usar, práctica y accesible desde cualquier navegador web, para usuarios que deseen analizar y visualizar series de Fourier, eliminando la necesidad de usar múltiples programas para resolver y graficar las series de Fourier. \\\\
+La aplicación web contará con las siguientes características clave:
+\begin{itemize}
+	\item \textbf{Cálculo automático de series de Fourier para diferentes tipos de funciones:}
+	\vspace{-10pt}
+	\begin{itemize}
+		\item La aplicación calculará \textbf{series de Fourier} para \textbf{funciones continuas} en un intervalo o para \textbf{funciones definidas a trozos}. El usuario podrá ingresar funciones matemáticas, incluso aquellas con discontinuidades o que estén definidas por partes en distintos intervalos, y la aplicación manejará estos casos automáticamente.
+		\item Se implementará tanto la \textbf{serie trigonométrica} como la \textbf{serie exponencial compleja}. La serie trigonométrica descompondrá la función en términos de senos y cosenos, mientras que la versión compleja lo hará en términos de exponenciales imaginarios, lo cual es útil en el contexto de análisis más avanzado y en aplicaciones de ingeniería.
+	\end{itemize}
+	
+	\item \textbf{Extensiones de medio rango:}
+	\vspace{-10pt}
+	\begin{itemize}
+		\item La herramienta permitirá calcular \textbf{extensiones de medio rango} para funciones en un medio intervalo. Esto incluirá la posibilidad de obtener:
+		\begin{itemize}
+			\item \textbf{Serie de senos} para funciones impares.
+			\item \textbf{Serie de cosenos} para funciones pares.
+			\item \textbf{Serie completa} para funciones periódicas en un intervalo definido, permitiendo extender la función para construir series de Fourier en un medio rango específico.
+		\end{itemize}
+	\end{itemize}
+	
+	\item \textbf{Visualización gráfica interactiva:}
+	\vspace{-10pt}
+	\begin{itemize}
+		\item Una vez calculados los coeficientes de Fourier, la aplicación generará una \textbf{gráfica interactiva} que mostrará la aproximación de la serie de Fourier a la función original. El usuario podrá ajustar el número de términos de la serie para observar cómo mejora la aproximación conforme se incluyen más términos en la suma.
+	\end{itemize}
+	
+	\item \textbf{Interfaz intuitiva y amigable:}
+	\vspace{-10pt}
+	\begin{itemize}
+		\item  La aplicación ofrecerá una interfaz sencilla y accesible, en la que el usuario podrá ingresar las funciones, definir los intervalos y elegir el tipo de serie de Fourier que desea calcular. La experiencia estará diseñada para minimizar la curva de aprendizaje, permitiendo a usuarios sin experiencia en programación obtener resultados rápidamente.
+	\end{itemize}
+\end{itemize}
 
 \section{Objetivos}
 \subsection{Objetivo General}
@@ -31,7 +65,7 @@ Desarrollar un prototipo de una aplicación web capaz de calcular las series de 
 \end{itemize}
 
 \section{Metodología de la Investigación}
-Acá voy a detallar el porqué voy a usar la metodología de Prototipos
+Para el desarrollo de este proyecto se utlizará la metodología por prototipos...
 
 \section{Estructura del documento técnico}
 Al final voy a detallar como es que está estructurado todo el documento del TT
