@@ -13,17 +13,85 @@
 \contentsline {chapter}{\numberline {2}Estado del Arte}{7}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Herramientas y Tecnologías Actuales}{7}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Comparativa del Funcionamiento de las Herramientas}{8}{subsection.2.1.1}%
-\contentsline {subsubsection}{Forma Trigonométrica}{9}{subsubsection*.6}%
-\contentsline {subsubsection}{Forma Exponencial Compleja}{10}{subsubsection*.7}%
-\contentsline {subsubsection}{Cálculo de Serie de Fourier con Wolfram Alpha}{10}{subsubsection*.8}%
-\contentsline {subsubsection}{Cálculo de Serie de Fourier con MATLAB}{10}{subsubsection*.9}%
-\contentsline {subsubsection}{Cálculo de Serie de Fourier con GeoGebra}{10}{subsubsection*.10}%
-\contentsline {subsubsection}{Cálculo de Serie de Fourier con Python (Matplotlib/Manim)}{10}{subsubsection*.11}%
+\contentsline {subsubsection}{\numberline {2.1.1.1}Forma Trigonométrica}{9}{subsubsection.2.1.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1.2}Forma Exponencial Compleja}{10}{subsubsection.2.1.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.1.3}Cálculo de Serie de Fourier con Wolfram Alpha}{10}{subsubsection.2.1.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.1.4}Cálculo de Serie de Fourier con MATLAB}{10}{subsubsection.2.1.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.1.5}Cálculo de Serie de Fourier con GeoGebra}{10}{subsubsection.2.1.1.5}%
+\contentsline {subsubsection}{\numberline {2.1.1.6}Cálculo de Serie de Fourier con Python (Matplotlib/Manim)}{10}{subsubsection.2.1.1.6}%
 \contentsline {section}{\numberline {2.2}Trabajos y Proyectos Relacionados}{10}{section.2.2}%
 \contentsline {chapter}{\numberline {3}Marco Teórico}{11}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Origen e Historia}{11}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}El problema de la cuerda oscilante}{11}{subsection.3.1.1}%
 \contentsline {subsection}{\numberline {3.1.2}La ecuación de calor}{15}{subsection.3.1.2}%
-\contentsline {chapter}{\numberline {4}Análisis y Diseño del Sistema}{17}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Implementación (Primer Prototipo)}{19}{chapter.5}%
-\contentsline {chapter}{Bibliograf\'{\i }a}{21}{chapter*.14}%
+\contentsline {section}{\numberline {3.2}Series de Fourier}{17}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Series de Funciones}{17}{subsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.1.1}Definición de Series de Funciones}{17}{subsubsection.3.2.1.1}%
+\contentsline {subsubsection}{\numberline {3.2.1.2}Convergencia de Series de Funciones}{17}{subsubsection.3.2.1.2}%
+\contentsline {subsection}{\numberline {3.2.2}Definición de las Funciones Trigonométricas de Seno y Coseno}{17}{subsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.1}Definición del Seno}{17}{subsubsection.3.2.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2.2}Definición del Coseno}{17}{subsubsection.3.2.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.3}Propiedades y Relaciones Fundamentales}{17}{subsubsection.3.2.2.3}%
+\contentsline {subsection}{\numberline {3.2.3}Funciones Periódicas}{17}{subsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.3.1}Definición de Funciones Periódicas}{17}{subsubsection.3.2.3.1}%
+\contentsline {subsubsection}{\numberline {3.2.3.2}Propiedades de las Funciones Periódicas}{17}{subsubsection.3.2.3.2}%
+\contentsline {subsection}{\numberline {3.2.4}Armónicos}{17}{subsection.3.2.4}%
+\contentsline {subsubsection}{\numberline {3.2.4.1}Definición de Armónicos}{17}{subsubsection.3.2.4.1}%
+\contentsline {subsubsection}{\numberline {3.2.4.2}Importancia de los Armónicos en Series de Fourier}{17}{subsubsection.3.2.4.2}%
+\contentsline {subsection}{\numberline {3.2.5}Funciones Ortogonales}{17}{subsection.3.2.5}%
+\contentsline {subsubsection}{\numberline {3.2.5.1}Concepto de Ortogonalidad}{17}{subsubsection.3.2.5.1}%
+\contentsline {subsubsection}{\numberline {3.2.5.2}Ejemplos de Funciones Ortogonales}{17}{subsubsection.3.2.5.2}%
+\contentsline {subsection}{\numberline {3.2.6}Originalidad del Seno y Coseno}{17}{subsection.3.2.6}%
+\contentsline {subsubsection}{\numberline {3.2.6.1}Propiedades del Seno y el Coseno}{17}{subsubsection.3.2.6.1}%
+\contentsline {subsubsection}{\numberline {3.2.6.2}Uso del Seno y el Coseno en Series de Fourier}{17}{subsubsection.3.2.6.2}%
+\contentsline {subsection}{\numberline {3.2.7}Series de Fourier de Período $T$ o de $-p$ a $-p$}{17}{subsection.3.2.7}%
+\contentsline {subsubsection}{\numberline {3.2.7.1}Generalización de la Serie de Fourier}{17}{subsubsection.3.2.7.1}%
+\contentsline {subsubsection}{\numberline {3.2.7.2}Coeficientes de Fourier para Período $T$}{17}{subsubsection.3.2.7.2}%
+\contentsline {subsection}{\numberline {3.2.8}Funciones Suaves y Suaves por Partes}{17}{subsection.3.2.8}%
+\contentsline {subsubsection}{\numberline {3.2.8.1}Definición de Funciones Suaves}{17}{subsubsection.3.2.8.1}%
+\contentsline {subsubsection}{\numberline {3.2.8.2}Definición de Funciones Suaves por Partes}{17}{subsubsection.3.2.8.2}%
+\contentsline {subsubsection}{\numberline {3.2.8.3}Aplicaciones en Series de Fourier}{17}{subsubsection.3.2.8.3}%
+\contentsline {subsection}{\numberline {3.2.9}Series de Fourier de Senos y Cosenos}{17}{subsection.3.2.9}%
+\contentsline {subsubsection}{\numberline {3.2.9.1}Condiciones para la Cancelación de Coeficientes}{17}{subsubsection.3.2.9.1}%
+\contentsline {subsubsection}{\numberline {3.2.9.2}Desarrollo de Series de Fourier con Senos y Cosenos}{17}{subsubsection.3.2.9.2}%
+\contentsline {subsection}{\numberline {3.2.10}Funciones Pares e Impares}{17}{subsection.3.2.10}%
+\contentsline {subsubsection}{\numberline {3.2.10.1}Definición y Propiedades de Funciones Pares}{17}{subsubsection.3.2.10.1}%
+\contentsline {subsubsection}{\numberline {3.2.10.2}Definición y Propiedades de Funciones Impares}{17}{subsubsection.3.2.10.2}%
+\contentsline {subsection}{\numberline {3.2.11}Extensiones de Medio Intervalo}{17}{subsection.3.2.11}%
+\contentsline {subsubsection}{\numberline {3.2.11.1}Extensión Periódica}{17}{subsubsection.3.2.11.1}%
+\contentsline {subsubsection}{\numberline {3.2.11.2}Extensión Par}{17}{subsubsection.3.2.11.2}%
+\contentsline {subsubsection}{\numberline {3.2.11.3}Extensión Impar}{17}{subsubsection.3.2.11.3}%
+\contentsline {subsection}{\numberline {3.2.12}Serie Compleja de Fourier de Período $T$ o de $-p$ a $p$}{17}{subsection.3.2.12}%
+\contentsline {subsubsection}{\numberline {3.2.12.1}Definición de Serie Compleja de Fourier}{17}{subsubsection.3.2.12.1}%
+\contentsline {subsubsection}{\numberline {3.2.12.2}Coeficientes Complejos para Período $T$}{17}{subsubsection.3.2.12.2}%
+\contentsline {subsection}{\numberline {3.2.13}Serie Compleja de Fourier de $0$ a $p$}{17}{subsection.3.2.13}%
+\contentsline {subsubsection}{\numberline {3.2.13.1}Definición y Desarrollo}{17}{subsubsection.3.2.13.1}%
+\contentsline {subsubsection}{\numberline {3.2.13.2}Aplicaciones y Ejemplos}{17}{subsubsection.3.2.13.2}%
+\contentsline {section}{\numberline {3.3}Tecnologías Utilizadas}{17}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}HTML, CSS y JavaScript}{17}{subsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.1}HTML}{17}{subsubsection.3.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.2}CSS}{18}{subsubsection.3.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.3.1.3}JavaScript}{18}{subsubsection.3.3.1.3}%
+\contentsline {subsection}{\numberline {3.3.2}NodeJS}{18}{subsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.1}Introducción a NodeJS}{18}{subsubsection.3.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.3.2.2}Ventajas del uso de NodeJS para aplicaciones web}{18}{subsubsection.3.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.3}Integración de NodeJS con Maxima}{18}{subsubsection.3.3.2.3}%
+\contentsline {subsection}{\numberline {3.3.3}Maxima}{18}{subsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.3.1}Qué es Maxima y por qué se usa para cálculos simbólicos}{18}{subsubsection.3.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.3.2}Implementación de Maxima en el servidor}{18}{subsubsection.3.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.4}Angular (Posible implementación futura)}{18}{subsection.3.3.4}%
+\contentsline {subsubsection}{\numberline {3.3.4.1}Introducción a Angular}{18}{subsubsection.3.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.3.4.2}Ventajas del uso de Angular para futuras versiones del proyecto}{18}{subsubsection.3.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.3.4.3}Consideraciones para su implementación}{18}{subsubsection.3.3.4.3}%
+\contentsline {subsection}{\numberline {3.3.5}Metodologías de Desarrollo de Software}{19}{subsection.3.3.5}%
+\contentsline {subsubsection}{\numberline {3.3.5.1}Desarrollo Ágil}{19}{subsubsection.3.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.3.5.2}Fases del Proyecto}{19}{subsubsection.3.3.5.2}%
+\contentsline {subsection}{\numberline {3.3.6}Usabilidad y Experiencia de Usuario (UX)}{19}{subsection.3.3.6}%
+\contentsline {subsubsection}{\numberline {3.3.6.1}Principios de Usabilidad}{19}{subsubsection.3.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.3.6.2}Diseño de la Interfaz de Usuario (UI)}{19}{subsubsection.3.3.6.2}%
+\contentsline {subsection}{\numberline {3.3.7}Seguridad en Aplicaciones Web}{19}{subsection.3.3.7}%
+\contentsline {subsubsection}{\numberline {3.3.7.1}Protección contra ataques comunes}{19}{subsubsection.3.3.7.1}%
+\contentsline {subsubsection}{\numberline {3.3.7.2}Autenticación y manejo seguro de datos}{19}{subsubsection.3.3.7.2}%
+\contentsline {chapter}{\numberline {4}Análisis y Diseño del Sistema}{21}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Implementación (Primer Prototipo)}{23}{chapter.5}%
+\contentsline {chapter}{Bibliograf\'{\i }a}{25}{chapter*.8}%
