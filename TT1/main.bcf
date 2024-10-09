@@ -2380,9 +2380,10 @@
     <bcf:citekey order="3" intorder="1">GeoGebra2024</bcf:citekey>
     <bcf:citekey order="4" intorder="1">Desmos2024</bcf:citekey>
     <bcf:citekey order="5" intorder="1">Manim2024</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">MathWorks2024</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">[25]</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">[27]</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">Matplotlib-sympy2024</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">MathWorks2024</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">[25]</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">[27]</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

@@ -1,18 +1,161 @@
-\chapter{Estado del Arte}\label{ch:Marco Teórico}
-En este capitulo...
+\chapter{Estado del Arte}\label{ch:Estado del Arte}
+Para la correcta comprensión del trabajo presente, se necesita conocer el estado actual de las herramientas y tecnologías disponibles para el cálculo y la visualización de series de Fourier, así como los estudios y proyectos previos que abordan la implementación de soluciones similares. En este sentido, se revisarán diversas plataformas de uso común que permiten realizar estos procesos de manera separada, además de destacar trabajos académicos relacionados que aportan al desarrollo de herramientas educativas y matemáticas interactivas. Esta revisión permitirá contextualizar la propuesta de una aplicación web que integre ambas funcionalidades en una sola plataforma.
 
-\section{Estado del Arte}
-\begin{table}[h]
-	\centering
-	\begin{tabular}{ | m{2.5cm} | m{6.5cm} | m{4cm} | }
-		\rowcolor{black!75}
-		\head {SOFTWARE} & \head {CARACTERÍSTICAS} & \head {PRECIO} \\ \hline
-		Wolfram Alpha & Potente motor de conocimiento computacional para cálculos matemáticos y gráficos. No especializado en series de Fourier.~\cite{wolfram2024}  & Desde MXN \$1,200.00 anuales para estudiantes, plan gratuito limitado. \\ \hline
-		Geogebra & Herramienta dinámica para construcciones geométricas y gráficas. Requiere cálculos previos para series de Fourier.~\cite{GeoGebra2024} & Software libre y código abierto \\ \hline
-		Desmos  & Similar a Geogebra es una calculadora gráfica en línea para cálculos y gráficos, incluida la representación de series de Fourier. Requiere cálculos previos para series de Fourier.~\cite{Desmos2024} & Software libre y código abierto\\ \hline
-		Manim & Librería de animación en Python para visualizaciones matemáticas, incluida la animación de series de Fourier. Requiere conocimientos de programación y cálculos previos.~\cite{Manim2024} & Software libre y código abierto \\ \hline
-		Matlab  & Entorno de programación para cálculos numéricos y visualización de datos, con herramientas específicas para series de Fourier. Requiere conocimientos en programación.~\cite{MathWorks2024} & Desde USD\$99 (aprox. MXN\$1627.82) anuales para estudiantes.\\ \hline
-	\end{tabular}
-	\caption{Comparación de software para cálculos matemáticos y visualización de datos}
-	\label{tabla:software}
-\end{table}
+\section{Herramientas y Tecnologías Actuales}
+En esta sección se presentarán las principales herramientas tecnológicas utilizadas para el cálculo de series de Fourier y su visualización gráfica. Podemos verlos en la siguiente tabla:
+
+\begin{longtable}{ | m{2.5cm} | m{6.5cm} | m{4cm} | }
+	\caption{Comparación de software para cálculos matemáticos y visualización de datos} \label{tabla:software} \\
+	\rowcolor{black!75}
+	\head {SOFTWARE} & \head {CARACTERÍSTICAS} & \head {PRECIO} \\ \hline
+	\endfirsthead
+	\multicolumn{3}{c}{{\tablename\ \thetable{} -- continuación}} \\
+	\rowcolor{black!75}
+	\head {SOFTWARE} & \head {CARACTERÍSTICAS} & \head {PRECIO} \\ \hline
+	\endhead
+	\hline \multicolumn{3}{r}{{Continúa en la siguiente página}} \\
+	\endfoot
+	\hline
+	\endlastfoot
+	Wolfram Alpha & Se trata de un potente motor comercial de conocimiento computacional para cálculos matemáticos y gráficos. Contiene módulos para el calculo de distintos tipos de series de Fourier.~\cite{wolfram2024}  & Desde MXN \$1,200.00 anuales para estudiantes, plan gratuito limitado. \\ \hline
+	Geogebra & Herramienta dinámica para construcciones geométricas y gráficas. Requiere cálculos previos para graficar las series de Fourier.~\cite{GeoGebra2024} & Software libre y código abierto \\ \hline
+	Desmos  & Similar a Geogebra es una calculadora gráfica en línea para cálculos y gráficos, incluida la representación de series de Fourier. Requiere cálculos previos para series de Fourier.~\cite{Desmos2024} & Software libre y código abierto\\ \hline
+	Python$_{Manim}$ & Librería de animación en Python para visualizaciones matemáticas, incluida la animación de series de Fourier. Requiere conocimientos de programación y cálculos previos.~\cite{Manim2024} & Software libre y código abierto \\ \hline
+	Python$_{SymPy}$ &Es una biblioteca de Python para realizar matemáticas simbólicas, que incluye el cálculo de series de Fourier. A menudo se usa en combinación con librerías de visualización como Matplotlib para representar gráficamente los resultados, pero de nuevo, esta combinación requiere conocimientos de programación.~\cite{Matplotlib-sympy2024} & Software libre y código abierto \\ \hline
+	Matlab  & Es un entorno de programación comercial para cálculos numéricos y visualización de datos, con herramientas específicas para series de Fourier. Requiere conocimientos en programación.~\cite{MathWorks2024} & Desde USD\$99 (aprox. MXN\$1627.82) anuales para estudiantes.\\ \hline	
+\end{longtable}
+
+\subsection{Comparativa del Funcionamiento de las Herramientas}
+
+A continuación, se procederá a calcular la serie de Fourier para la función \( f(x) = x \) en el intervalo de \(-\pi\) a \(\pi\) utilizando cada una de las herramientas previamente descritas. El cálculo se realizará en su \textbf{forma trigonométrica} y, en los casos en que la herramienta lo permita, también se obtendrá la \textbf{forma exponencial compleja}. Asimismo, se graficará la serie de Fourier en las plataformas que lo permitan, lo que nos permitirá comparar tanto el proceso como los resultados obtenidos en cada herramienta. \newline
+
+Esta comparación servirá para identificar las capacidades, ventajas y limitaciones de cada una de las plataformas en el contexto del cálculo y la visualización de series de Fourier, evaluando también su facilidad de uso y precisión en la representación gráfica.\newline
+
+Primeramente, calcularemos la serie nosotros para hacer una comparativa con los resultados dados por los softwares:\newline
+Dada la función \( f(x) = x \), vamos a calcular los coeficientes correspondientes a su serie de Fourier en el intervalo \([- \pi, \pi]\).
+
+\subsubsection{Forma Trigonométrica}
+
+La serie trigonométrica de Fourier para una función \( f(x) \) está dada por la siguiente expresión:
+
+\[
+f(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left( a_n \cos(n \omega_0 x) + b_n \sin(n \omega_0 x) \right)
+\]
+
+Donde los coeficientes \( a_0 \), \( a_n \) y \( b_n \) se definen como:
+
+\[
+a_0 = \frac{2}{T} \int_{-T/2}^{T/2} f(x) \, dx
+\]
+
+\[
+a_n = \frac{2}{T} \int_{-T/2}^{T/2} f(x) \cos(n \omega_0 x) \, dx
+\]
+
+\[
+b_n = \frac{2}{T} \int_{-T/2}^{T/2} f(x) \sin(n \omega_0 x) \, dx
+\]
+
+Donde \( \omega_0 = \frac{2\pi}{T} \), y en este caso, \( T = 2\pi \), por lo que \( \omega_0 = 1 \).
+
+Calculamos cada uno de los coeficientes para \( f(x) = x \):
+
+- El coeficiente \( a_0 \) es:
+
+\[
+a_0 = \frac{2}{2\pi} \int_{-\pi}^{\pi} x \, dx = 0
+\]
+
+- El coeficiente \( a_n \) es:
+
+\[
+a_n = \frac{2}{2\pi} \int_{-\pi}^{\pi} x \cos(n x) \, dx = 0
+\]
+
+- El coeficiente \( b_n \) es:
+
+\[
+b_n = \frac{2}{2\pi} \int_{-\pi}^{\pi} x \sin(n x) \, dx = 
+\begin{cases} 
+	\frac{2}{n}, & \text{si } n \text{ es impar}, \\
+	0, & \text{si } n \text{ es par}.
+\end{cases}
+\]
+
+Por lo tanto, la serie trigonométrica de Fourier para \( f(x) = x \) es:
+
+\[
+f(x) = \sum_{n=1, \, n \, \text{impar}}^{\infty} \frac{2}{n} \sin(n x)
+\]
+
+\subsubsection{Forma Exponencial Compleja}
+
+La serie exponencial compleja de Fourier está dada por la siguiente expresión:
+
+\[
+f(x) = \sum_{n=-\infty}^{\infty} c_n e^{i n \omega_0 x}
+\]
+
+Donde los coeficientes \( c_n \) se definen como:
+
+\[
+c_n = \frac{1}{T} \int_{-T/2}^{T/2} f(x) e^{-i n \omega_0 x} \, dx
+\]
+
+Calculamos el coeficiente \( c_0 \):
+
+\[
+c_0 = \frac{1}{2\pi} \int_{-\pi}^{\pi} x \, dx = 0
+\]
+
+Para \( n \neq 0 \), el coeficiente \( c_n \) es:
+
+\[
+c_n = \begin{cases} 
+	\frac{i}{n}, & \text{si } n \text{ es impar}, \\
+	0, & \text{si } n \text{ es par}.
+\end{cases}
+\]
+
+Por lo tanto, la serie exponencial compleja de Fourier para \( f(x) = x \) es:
+
+\[
+f(x) = \sum_{\substack{n=-\infty \\ n \neq 0}}^{\infty} \frac{i}{n} e^{i n x}
+\]
+
+
+\subsubsection{Cálculo de Serie de Fourier con Wolfram Alpha}
+
+Aquí se describirá cómo se realiza el cálculo y la graficación de la serie de Fourier utilizando Wolfram Alpha...
+
+\subsubsection{Cálculo de Serie de Fourier con MATLAB}
+
+Aquí se describirá cómo se realiza el cálculo y la graficación de la serie de Fourier utilizando MATLAB...
+
+\subsubsection{Cálculo de Serie de Fourier con GeoGebra}
+
+Aquí se describirá cómo se realiza el cálculo y la graficación de la serie de Fourier utilizando GeoGebra...
+
+\subsubsection{Cálculo de Serie de Fourier con Python (Matplotlib/Manim)}
+
+Aquí se describirá cómo se realiza el cálculo y la graficación de la serie de Fourier utilizando Python con las librerías Matplotlib o Manim...
+
+
+
+\section{Trabajos y Proyectos Relacionados}
+En esta sección se analizarán trabajos académicos y proyectos de investigación que han desarrollado herramientas similares o que abordan la enseñanza de series de Fourier y el uso de plataformas interactivas para la educación matemática. 
+
+%\begin{table}[h]
+%	\centering
+%	\begin{tabular}{ | m{2.5cm} | m{6.5cm} | m{4cm} | }
+%		\rowcolor{black!75}
+%		\head {SOFTWARE} & \head {CARACTERÍSTICAS} & \head {PRECIO} \\ \hline
+%		Wolfram Alpha & Potente motor de conocimiento computacional para cálculos matemáticos y gráficos. No especializado en series de Fourier.~\cite{wolfram2024}  & Desde MXN \$1,200.00 anuales para estudiantes, plan gratuito limitado. \\ \hline
+%		Geogebra & Herramienta dinámica para construcciones geométricas y gráficas. Requiere cálculos previos para series de Fourier.~\cite{GeoGebra2024} & Software libre y código abierto \\ \hline
+%		Desmos  & Similar a Geogebra es una calculadora gráfica en línea para cálculos y gráficos, incluida la representación de series de Fourier. Requiere cálculos previos para series de Fourier.~\cite{Desmos2024} & Software libre y código abierto\\ \hline
+%		Manim & Librería de animación en Python para visualizaciones matemáticas, incluida la animación de series de Fourier. Requiere conocimientos de programación y cálculos previos.~\cite{Manim2024} & Software libre y código abierto \\ \hline
+%		Matlab  & Entorno de programación para cálculos numéricos y visualización de datos, con herramientas específicas para series de Fourier. Requiere conocimientos en programación.~\cite{MathWorks2024} & Desde USD\$99 (aprox. MXN\$1627.82) anuales para estudiantes.\\ \hline
+%	\end{tabular}
+%	\caption{Comparación de software para cálculos matemáticos y visualización de datos}
+%	\label{tabla:software}
+%\end{table}

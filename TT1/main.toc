@@ -11,11 +11,19 @@
 \contentsline {section}{\numberline {1.6}Metodología de la Investigación}{4}{section.1.6}%
 \contentsline {section}{\numberline {1.7}Estructura del documento técnico}{5}{section.1.7}%
 \contentsline {chapter}{\numberline {2}Estado del Arte}{7}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Estado del Arte}{7}{section.2.1}%
-\contentsline {chapter}{\numberline {3}Marco Teórico}{9}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Origen e Historia}{9}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}El problema de la cuerda oscilante}{9}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}La ecuación de calor}{13}{subsection.3.1.2}%
-\contentsline {chapter}{\numberline {4}Análisis y Diseño del Sistema}{15}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Implementación (Primer Prototipo)}{17}{chapter.5}%
-\contentsline {chapter}{Bibliograf\'{\i }a}{19}{chapter*.9}%
+\contentsline {section}{\numberline {2.1}Herramientas y Tecnologías Actuales}{7}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Comparativa del Funcionamiento de las Herramientas}{8}{subsection.2.1.1}%
+\contentsline {subsubsection}{Forma Trigonométrica}{9}{subsubsection*.6}%
+\contentsline {subsubsection}{Forma Exponencial Compleja}{10}{subsubsection*.7}%
+\contentsline {subsubsection}{Cálculo de Serie de Fourier con Wolfram Alpha}{10}{subsubsection*.8}%
+\contentsline {subsubsection}{Cálculo de Serie de Fourier con MATLAB}{10}{subsubsection*.9}%
+\contentsline {subsubsection}{Cálculo de Serie de Fourier con GeoGebra}{10}{subsubsection*.10}%
+\contentsline {subsubsection}{Cálculo de Serie de Fourier con Python (Matplotlib/Manim)}{10}{subsubsection*.11}%
+\contentsline {section}{\numberline {2.2}Trabajos y Proyectos Relacionados}{10}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Marco Teórico}{11}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Origen e Historia}{11}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}El problema de la cuerda oscilante}{11}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}La ecuación de calor}{15}{subsection.3.1.2}%
+\contentsline {chapter}{\numberline {4}Análisis y Diseño del Sistema}{17}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Implementación (Primer Prototipo)}{19}{chapter.5}%
+\contentsline {chapter}{Bibliograf\'{\i }a}{21}{chapter*.14}%
