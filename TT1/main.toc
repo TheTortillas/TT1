@@ -93,5 +93,27 @@
 \contentsline {subsubsection}{\numberline {3.3.7.1}Protección contra ataques comunes}{19}{subsubsection.3.3.7.1}%
 \contentsline {subsubsection}{\numberline {3.3.7.2}Autenticación y manejo seguro de datos}{19}{subsubsection.3.3.7.2}%
 \contentsline {chapter}{\numberline {4}Análisis y Diseño del Sistema}{21}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Metodología de Desarrollo}{22}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Descripción de la Metodología}{22}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Ventajas de la Metodología Elegida}{22}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Análisis de Requerimientos}{22}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Requisitos Funcionales}{22}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Requisitos No Funcionales}{22}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Análisis de Riesgos}{22}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Identificación de Riesgos}{22}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Jerarquización de Riesgos}{22}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Estimación de Costos}{22}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Método de Estimación de Costos}{22}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Detalle de los Costos Estimados}{22}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}Diseño del Sistema}{22}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Arquitectura General del Sistema}{22}{subsection.4.5.1}%
+\contentsline {subsubsection}{\numberline {4.5.1.1}Arquitectura Cliente-Servidor}{22}{subsubsection.4.5.1.1}%
+\contentsline {subsubsection}{\numberline {4.5.1.2}Flujo de Datos}{22}{subsubsection.4.5.1.2}%
+\contentsline {subsection}{\numberline {4.5.2}Diseño de la Base de Datos}{22}{subsection.4.5.2}%
+\contentsline {subsubsection}{\numberline {4.5.2.1}Modelo Entidad-Relación}{22}{subsubsection.4.5.2.1}%
+\contentsline {subsubsection}{\numberline {4.5.2.2}Normalización de la Base de Datos}{22}{subsubsection.4.5.2.2}%
+\contentsline {subsection}{\numberline {4.5.3}Diseño de la Interfaz de Usuario}{22}{subsection.4.5.3}%
+\contentsline {subsubsection}{\numberline {4.5.3.1}Estructura de la Interfaz}{22}{subsubsection.4.5.3.1}%
+\contentsline {subsubsection}{\numberline {4.5.3.2}Prototipo de la Interfaz}{22}{subsubsection.4.5.3.2}%
 \contentsline {chapter}{\numberline {5}Implementación (Primer Prototipo)}{23}{chapter.5}%
 \contentsline {chapter}{Bibliograf\'{\i }a}{25}{chapter*.8}%
