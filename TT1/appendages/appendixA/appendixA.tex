@@ -1,26 +1,143 @@
-\chapter{Simulator}\label{app:Simulator}
-\lipsum[1]
-\begin{listing}[H]
-\begin{minted}{python}
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
+\chapter{Cálculo de los Coeficientes de la Serie de Fourier}\label{app:Estado-del-arte-coeff}
 
-class Net(nn.Module):
-    def __init__(self):
-        super(Net, self).__init__()
-        self.conv1 = nn.Conv2d(1, 6, 5)
-        self.conv2 = nn.Conv2d(6, 16, 5)
-        self.fc1 = nn.Linear(16 * 5 * 5, 120)  # 5*5 from image dimension
-        self.fc2 = nn.Linear(120, 84)
-        self.fc3 = nn.Linear(84, 10)
-    def forward(self, x):
-        # ...
-        return x
+Dada la función \( f(x) = x \), vamos a calcular los coeficientes correspondientes a su serie de Fourier en el intervalo \([- \pi, \pi]\).
 
-net = Net()
-print(net)
-\end{minted}
-\caption{A basic neural network.}
-\end{listing}
-\lipsum[1]
+\section{Forma Trigonométrica}
+
+La serie trigonométrica de Fourier para una función \( f(x) \) está dada por la siguiente expresión:
+
+\[
+f(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left( a_n \cos(n \omega_0 x) + b_n \sin(n \omega_0 x) \right)
+\]
+
+Donde los coeficientes \( a_0 \), \( a_n \) y \( b_n \) se definen como:
+
+\[
+a_0 = \frac{2}{T} \int_{-T/2}^{T/2} f(x) \, dx
+\]
+
+\[
+a_n = \frac{2}{T} \int_{-T/2}^{T/2} f(x) \cos(n \omega_0 x) \, dx
+\]
+
+\[
+b_n = \frac{2}{T} \int_{-T/2}^{T/2} f(x) \sin(n \omega_0 x) \, dx
+\]
+
+Donde \( \omega_0 = \frac{2\pi}{T} \), y en este caso, \( T = 2\pi \), por lo que \( \omega_0 = 1 \).
+
+Calculamos cada uno de los coeficientes para \( f(x) = x \):
+
+- El coeficiente \( a_0 \) es:
+
+\[
+a_0 = \frac{2}{2\pi} \int_{-\pi}^{\pi} x \, dx = \frac{1}{\pi} \left[ \frac{x^2}{2} \right]_{-\pi}^{\pi} = \frac{1}{\pi} \left( \frac{\pi^2}{2} - \frac{(-\pi)^2}{2} \right) = 0
+\]
+
+Por lo tanto, \( a_0 = 0 \).
+
+- El coeficiente \( a_n \) es:
+
+Dado que \( x \cos(n x) \) es una función impar, ya que \( x \) es impar y \( \cos(n x) \) es par, su integral en un intervalo simétrico es cero:
+
+\[
+a_n = \frac{1}{\pi} \int_{-\pi}^{\pi} x \cos(n x) \, dx = 0
+\]
+
+- El coeficiente \( b_n \) es:
+
+Dado que \( x \sin(n x) \) es una función par (producto de dos funciones impares), podemos calcular:
+
+\[
+b_n = \frac{1}{\pi} \int_{-\pi}^{\pi} x \sin(n x) \, dx = \frac{2}{\pi} \int_{0}^{\pi} x \sin(n x) \, dx
+\]
+
+Aplicamos integración por partes, tomando \( u = x \) y \( dv = \sin(n x) \, dx \), lo que nos da \( du = dx \) y \( v = -\frac{1}{n} \cos(n x) \). Entonces:
+
+\[
+\int_{0}^{\pi} x \sin(n x) \, dx = -\frac{x}{n} \cos(n x) \bigg|_{0}^{\pi} + \frac{1}{n} \int_{0}^{\pi} \cos(n x) \, dx
+\]
+
+Evaluamos el primer término:
+
+\[
+-\frac{\pi}{n} \cos(n \pi) + 0 = -\frac{\pi}{n} (-1)^n
+\]
+
+La integral restante es:
+
+\[
+\frac{1}{n} \int_{0}^{\pi} \cos(n x) \, dx = \frac{1}{n} \left[ \frac{\sin(n x)}{n} \right]_0^{\pi} = \frac{1}{n^2} (0 - 0) = 0
+\]
+
+Por lo tanto, el coeficiente \( b_n \) es:
+
+\[
+b_n = \frac{2}{\pi} \left( -\frac{\pi}{n} (-1)^n \right) = \frac{2 (-1)^{n+1}}{n}
+\]
+
+Entonces, la serie trigonométrica de Fourier para \( f(x) = x \) es:
+
+\[
+f(x) = 2 \sum_{n=1}^{\infty} \frac{(-1)^{n+1}}{n} \sin(n x)
+\]
+
+\section{Forma Exponencial Compleja}
+
+La serie exponencial compleja de Fourier está dada por la siguiente expresión:
+
+\[
+f(x) = \sum_{n=-\infty}^{\infty} c_n e^{i n \omega_0 x}
+\]
+
+Donde los coeficientes \( c_n \) se definen como:
+
+\[
+c_n = \frac{1}{T} \int_{-T/2}^{T/2} f(x) e^{-i n \omega_0 x} \, dx
+\]
+
+Calculamos el coeficiente \( c_n \) para \( n \neq 0 \):
+
+\[
+c_n = \frac{1}{2\pi} \int_{-\pi}^{\pi} x e^{-i n x} \, dx
+\]
+
+Aplicamos integración por partes con \( u = x \) y \( dv = e^{-i n x} \, dx \), obteniendo \( du = dx \) y \( v = \frac{e^{-i n x}}{-i n} \). Entonces:
+
+\[
+c_n = \frac{1}{2\pi} \left( \left[ x \frac{e^{-i n x}}{-i n} \right]_{-\pi}^{\pi} - \int_{-\pi}^{\pi} \frac{e^{-i n x}}{-i n} dx \right)
+\]
+
+El primer término es:
+
+\[
+\left[ x \frac{e^{-i n x}}{-i n} \right]_{-\pi}^{\pi} = \frac{\pi e^{-i n \pi} - (-\pi) e^{i n \pi}}{-i n} = \frac{2 \pi (-1)^n}{-i n}
+\]
+
+El segundo término es cero, ya que:
+
+\[
+\int_{-\pi}^{\pi} e^{-i n x} dx = 0
+\]
+
+Por lo tanto:
+
+\[
+c_n = \frac{1}{2\pi} \left( \frac{2 \pi (-1)^n}{-i n} \right) = \frac{i (-1)^n}{n}
+\]
+
+Para \( n = 0 \):
+
+\[
+c_0 = \frac{1}{2\pi} \int_{-\pi}^{\pi} x \, dx = 0
+\]
+
+Así que la serie exponencial compleja de Fourier para \( f(x) = x \) es:
+
+\[
+f(x) = \sum_{\substack{n=-\infty \\ n \neq 0}}^{\infty} \frac{i (-1)^n}{n} e^{i n x}
+\]
+
+
+Ambas representaciones son equivalentes y proporcionan la expansión de Fourier correcta para la función dada.
+

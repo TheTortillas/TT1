@@ -5,12 +5,14 @@
 % pdflatex -interaction=nonstopmode tuarchivo.tex
 
 \documentclass{ipn}
-
-\usepackage{minted}
+\usepackage{matlab-prettifier}
+%\usepackage{minted}
+%\usepackage{listings}   % Para incluir código fuente
+%\usepackage[utf8]{inputenc}
 \usepackage{ipnstyle}
 \usepackage{lipsum}
 \usepackage{graphicx}
-\usepackage{float}
+%\usepackage{float}
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{bookmark}
@@ -56,8 +58,6 @@
 % Ajustar la justifiación del texto (problemas por el español)
 \sloppy
 
-
-
 %----------------------------
 
 \addbibresource{./references.bib}
@@ -101,9 +101,9 @@
 	\include{chapters/chapter03/chapter03}
 	\include{chapters/chapter04/chapter04}
 	\include{chapters/chapter05/chapter05}
-	%\appendix
-	%\include{appendages/appendixA/appendixA}
-	%\include{appendages/appendixB/appendixB}
+	\appendix
+	\include{appendages/appendixA/appendixA}
+	\include{appendages/appendixB/appendixB}
 	
 	\backmatter
 	\bookmarksetup{startatroot}

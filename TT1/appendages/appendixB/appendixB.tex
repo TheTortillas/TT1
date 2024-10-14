@@ -1,17 +1,37 @@
-\chapter{Proof of theorem}\label{app:Proof of theorem}
-\lipsum[1]
-\begin{figure}[thbp]
-    \centering
-    \includegraphics[width=\textwidth]{img/appendixA/alexnet.png}
-    \caption{AlexNet architecture.}\label{fig:alexnet}
-\end{figure}
-\lipsum[1]
-\begin{align}
-     \vec{\nabla} \cdot \vec{E} \quad &=\quad\frac{\rho}{\epsilon_0} &&\text{Gauss's Law} \\      
-    \vec{\nabla} \cdot \vec{B} \quad &=\quad 0 &&\text{Gauss's Law for Magnetism}\\
-    \vec{\nabla} \times \vec{E} \quad &=\hspace{10pt}-\frac{\partial{\vec{B}}}{\partial{t}} &&\text{Faraday's Law of Induction} \\ 
-    \vec{\nabla} \times \vec{B} \quad &=\quad \mu_0\left( \epsilon_0\frac{\partial{\vec{E}}}{\partial{t}}+\vec{J}\right) &&\text{Ampere's Circuital Law}
-\end{align}
 
-We can find more information in~\cite{li2018deep}.
+\chapter{Simulator}\label{app:Simulator}
 
+\begin{lstlisting}[style=Matlab-editor]
+	% Numero de terminos en la serie de Fourier
+	N = 10; % Puedes modificar N para mejorar la aproximacion
+	
+	% Vector de tiempo de -pi a pi
+	t = linspace(-pi, pi, 1000);
+	
+	% Funcion original x(t) = t
+	x_original = t;
+	
+	% Inicializacion de la aproximacion de la serie de Fourier
+	x_aprox = zeros(size(t));
+	
+	% Calculo de la serie de Fourier
+	for n = 1:N
+	bn = (2 / n) * (-1)^(n + 1);
+	x_aprox = x_aprox + bn * sin(n * t);
+	end
+	
+	% Grafica de la funcion original y su aproximacion
+	figure;
+	plot(t, x_original, 'k', 'LineWidth', 1.5); % Funcion original en negro
+	hold on;
+	plot(t, x_aprox, 'r', 'LineWidth', 1.5); % Aproximacion en rojo
+	legend('Funcion original x(t)', ['Aproximacion con N = ', num2str(N), ' terminos']);
+	xlabel('t');
+	ylabel('x(t)');
+	title('Serie de Fourier de x(t) = t');
+	grid on;
+	hold off;
+	
+\end{lstlisting}
+	
+\end{document}
