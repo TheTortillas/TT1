@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.24)  13 OCT 2024 22:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.24)  19 OCT 2024 21:58
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1694,73 +1694,93 @@ LaTeX Info: Redefining \% on input line 1.
 ]
 Cap\'{\i }tulo 2.
 
-Overfull \hbox (5.95143pt too wide) in paragraph at lines 10--10
+Overfull \hbox (5.95143pt too wide) in paragraph at lines 9--9
 []|[]\OT1/cmr/bx/sc/12 SOFTWARE[]| 
  []
 
 
-Overfull \hbox (5.95143pt too wide) in paragraph at lines 14--14
+Overfull \hbox (5.95143pt too wide) in paragraph at lines 13--13
 []|[]\OT1/cmr/bx/sc/12 SOFTWARE[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
 []|\OT1/cmr/m/n/12 Wolfram
  []
 
 
-Underfull \hbox (badness 4229) in paragraph at lines 20--20
+Underfull \hbox (badness 4229) in paragraph at lines 19--19
 []|\OT1/cmr/m/n/12 Se trata de un potente motor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
 \OT1/cmr/m/n/12 comercial de conocimiento
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
 \OT1/cmr/m/n/12 computacional para c^^Salculos
  []
 
 
-Underfull \hbox (badness 1681) in paragraph at lines 20--20
+Underfull \hbox (badness 1681) in paragraph at lines 19--19
 \OT1/cmr/m/n/12 matem^^Saticos y gr^^Saficos. Contiene
  []
 
 
-Underfull \hbox (badness 4366) in paragraph at lines 20--20
+Underfull \hbox (badness 4366) in paragraph at lines 19--19
 \OT1/cmr/m/n/12 (Trigonom^^Setrica y compleja) as^^S^^P
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
 \OT1/cmr/m/n/12 como las extensiones pares e
  []
 
 
-Underfull \hbox (badness 4846) in paragraph at lines 20--20
+Underfull \hbox (badness 4846) in paragraph at lines 19--19
 \OT1/cmr/m/n/12 la serie y obtener una gr^^Safica
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
 \OT1/cmr/m/n/12 anuales para
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
 \OT1/cmr/m/n/12 estudiantes, plan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
 []|\OT1/cmr/m/n/12 Herramienta din^^Samica para
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
 \OT1/cmr/m/n/12 construcciones geom^^Setricas y
+ []
+
+
+Underfull \hbox (badness 4752) in paragraph at lines 20--20
+\OT1/cmr/m/n/12 serie o extensi^^Son trigonom^^Setrica
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[]|\OT1/cmr/m/n/12 Similar a Geogebra es una
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 21--21
+\OT1/cmr/m/n/12 calculadora gr^^Safica en l^^S^^Pnea para
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 21--21
+\OT1/cmr/m/n/12 modo podemos graficar cualquier
  []
 
 
@@ -1769,137 +1789,117 @@ Underfull \hbox (badness 4752) in paragraph at lines 21--21
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--22
-[]|\OT1/cmr/m/n/12 Similar a Geogebra es una
- []
-
-
-Underfull \hbox (badness 1308) in paragraph at lines 22--22
-\OT1/cmr/m/n/12 calculadora gr^^Safica en l^^S^^Pnea para
- []
-
-
-Underfull \hbox (badness 1502) in paragraph at lines 22--22
-\OT1/cmr/m/n/12 modo podemos graficar cualquier
- []
-
-
-Underfull \hbox (badness 4752) in paragraph at lines 22--22
-\OT1/cmr/m/n/12 serie o extensi^^Son trigonom^^Setrica
- []
-
-
-Underfull \hbox (badness 2486) in paragraph at lines 23--23
+Underfull \hbox (badness 2486) in paragraph at lines 22--22
 \OT1/cmr/m/n/12 para visualizaciones matem^^Saticas,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
 \OT1/cmr/m/n/12 serie ya sea trigonom^^Setrica o
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
 \OT1/cmr/m/n/12 exponencial y poder animar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
 \OT1/cmr/m/n/12 de infinitas maneras el como
  []
 
 
-Underfull \hbox (badness 8094) in paragraph at lines 23--23
+Underfull \hbox (badness 8094) in paragraph at lines 22--22
 \OT1/cmr/m/n/12 se aproxima la serie con sus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
 \OT1/cmr/m/n/12 coeficientes. Requiere hacer los
  []
 
 
-Underfull \hbox (badness 3872) in paragraph at lines 23--23
+Underfull \hbox (badness 3872) in paragraph at lines 22--22
 \OT1/cmr/m/n/12 c^^Salculos, armar la expresi^^Son de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
 \OT1/cmr/m/n/12 realizar matem^^Saticas simb^^Solicas,
  []
 
 
-Underfull \hbox (badness 2452) in paragraph at lines 24--24
+Underfull \hbox (badness 2452) in paragraph at lines 23--23
 \OT1/cmr/m/n/12 que incluye el c^^Salculo de series
  []
 
 
-Underfull \hbox (badness 5711) in paragraph at lines 24--24
+Underfull \hbox (badness 5711) in paragraph at lines 23--23
 \OT1/cmr/m/n/12 de Fourier. A menudo se usa
  []
 
 
-Underfull \hbox (badness 2635) in paragraph at lines 24--24
+Underfull \hbox (badness 2635) in paragraph at lines 23--23
 \OT1/cmr/m/n/12 en combinaci^^Son con librer^^S^^Pas de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
 \OT1/cmr/m/n/12 visualizaci^^Son como Matplotlib
  []
 
 
-Underfull \hbox (badness 1478) in paragraph at lines 24--24
+Underfull \hbox (badness 1478) in paragraph at lines 23--23
 \OT1/cmr/m/n/12 para representar gr^^Saficamente los
  []
 
 
-Underfull \hbox (badness 3977) in paragraph at lines 24--24
+Underfull \hbox (badness 3977) in paragraph at lines 23--23
 \OT1/cmr/m/n/12 resultados, pero de nuevo, esta
  []
 
 
-Underfull \hbox (badness 2573) in paragraph at lines 25--25
+Underfull \hbox (badness 2573) in paragraph at lines 24--24
 []|\OT1/cmr/m/n/12 Es un entorno de programaci^^Son
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
 \OT1/cmr/m/n/12 y visualizaci^^Son de datos, con
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
 \OT1/cmr/m/n/12 herramientas espec^^S^^Pficas para
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
 \OT1/cmr/m/n/12 series de Fourier, adem^^Sas de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
 \OT1/cmr/m/n/12 tener funciones para poder
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
 []|\OT1/cmr/m/n/12 Desde USD\TS1/cmr/m/n/12 $\OT1/cmr/m/n/12 99
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
 \OT1/cmr/m/n/12 (aprox.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
 \OT1/cmr/m/n/12 MXN\TS1/cmr/m/n/12 $\OT1/cmr/m/n/12 1627.82)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
 \OT1/cmr/m/n/12 anuales para
  []
 
@@ -1907,56 +1907,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--25
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
  [8]
-Underfull \hbox (badness 10000) in paragraph at lines 28--28
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
 |[]\OT1/cmr/bx/n/14.4 Comparativa del Funcionamiento de las
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
-LaTeX Info: Redefining \. on input line 57.
-LaTeX Info: Redefining \% on input line 57.
+LaTeX Info: Redefining \. on input line 58.
+LaTeX Info: Redefining \% on input line 58.
 [9]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-<img/chapter02/wolfram_trig_series.png, id=399, 1166.3575pt x 895.345pt>
+<img/chapter02/wolfram_trig_series.png, id=411, 1166.3575pt x 895.345pt>
 File: img/chapter02/wolfram_trig_series.png Graphic file (type png)
 <use img/chapter02/wolfram_trig_series.png>
 Package pdftex.def Info: img/chapter02/wolfram_trig_series.png  used on input l
-ine 110.
+ine 111.
 (pdftex.def)             Requested size: 370.28166pt x 284.23473pt.
 
-Underfull \hbox (badness 2653) in paragraph at lines 106--113
+Underfull \hbox (badness 2653) in paragraph at lines 107--114
 []\OT1/cmr/m/n/12 WolframAlpha nos permite calcular series de Fourier trigonom^
 ^Setricas y
  []
 
-
-Underfull \vbox (badness 2384) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 114.
-LaTeX Info: Redefining \% on input line 114.
- [10]
-<img/chapter02/wolfram_complex_series.png, id=405, 1166.3575pt x 800.9925pt>
+LaTeX Info: Redefining \. on input line 115.
+LaTeX Info: Redefining \% on input line 115.
+[10]
+<img/chapter02/wolfram_complex_series.png, id=417, 1166.3575pt x 800.9925pt>
 File: img/chapter02/wolfram_complex_series.png Graphic file (type png)
 <use img/chapter02/wolfram_complex_series.png>
 Package pdftex.def Info: img/chapter02/wolfram_complex_series.png  used on inpu
-t line 117.
+t line 118.
 (pdftex.def)             Requested size: 370.28166pt x 254.28174pt.
-LaTeX Info: Redefining \. on input line 122.
-LaTeX Info: Redefining \% on input line 122.
-
-[11 <./img/chapter02/wolfram_trig_series.png> <./img/chapter02/wolfram_complex_
-series.png>])
+LaTeX Info: Redefining \. on input line 123.
+LaTeX Info: Redefining \% on input line 123.
+ [11 <./img/chapter02/wolfram_trig_series.png> <./img/chapter02/wolfram_complex
+_series.png>])
 LaTeX Info: Redefining \. on input line 100.
 LaTeX Info: Redefining \% on input line 100.
  [12]
@@ -2112,58 +2108,247 @@ LaTeX Info: Redefining \% on input line 101.
 
  (chapters/chapter04/chapter04.tex
 Cap\'{\i }tulo 4.
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+[]|\OT1/cmr/bx/sc/12 Prioridad de
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 28--29
+[]|\OT1/cmr/m/n/12 Funciones ingresadas en formato compatible con
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+\OT1/cmr/m/n/12 soportar funciones trigonom^^Setricas, polinomios,
+ []
+
+[21
 
 
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+[]|\OT1/cmr/bx/sc/12 Prioridad de
+ []
+
+
+Underfull \hbox (badness 2181) in paragraph at lines 53--54
+[]|\OT1/cmr/m/n/12 Los usuarios deben poder seleccionar entre las
+ []
+
+
+Underfull \hbox (badness 4108) in paragraph at lines 55--56
+[]|\OT1/cmr/m/n/12 El usuario debe haber ingresado una funci^^Son
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 55--56
+\OT1/cmr/m/n/12 matem^^Satica y estar en el ^^Sarea de selecci^^Son de
+ []
+
+LaTeX Info: Redefining \. on input line 60.
+LaTeX Info: Redefining \% on input line 60.
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
+[]|\OT1/cmr/bx/sc/12 Prioridad de
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 78--79
+[]|\OT1/cmr/m/n/12 El usuario debe haber ingresado una funci^^Son y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+[]|\OT1/cmr/bx/sc/12 Prioridad de
+ []
+
+LaTeX Info: Redefining \. on input line 106.
+LaTeX Info: Redefining \% on input line 106.
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+[]|\OT1/cmr/bx/sc/12 Prioridad de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+[]|\OT1/cmr/bx/sc/12 Prioridad de
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 142--143
+[]|\OT1/cmr/m/n/12 Expresi^^Son matem^^Satica de la serie de Fourier y
+ []
+
+LaTeX Info: Redefining \. on input line 151.
+LaTeX Info: Redefining \% on input line 151.
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\OT1/cmr/bx/sc/12 Prioridad de
+ []
+
+
+Underfull \hbox (badness 5771) in paragraph at lines 163--164
+[]|\OT1/cmr/m/n/12 Funci^^Son ingresada por el usuario, par^^Sametros
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
+[]|\OT1/cmr/bx/sc/12 Prioridad de
+ []
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 190--191
+[]|\OT1/cmr/m/n/12 La aplicaci^^Son debe optimizar el c^^Salculo de los
+ []
+
+
+Underfull \hbox (badness 4582) in paragraph at lines 190--191
+\OT1/cmr/m/n/12 coeficientes para mejorar el rendimiento y la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+\OT1/cmr/m/n/12 experiencia del usuario, manejando grandes
+ []
+
+LaTeX Info: Redefining \. on input line 197.
+LaTeX Info: Redefining \% on input line 197.
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
+[]|\OT1/cmr/bx/sc/12 Rendimiento y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+[]|\OT1/cmr/bx/sc/12 Interfaz de Usuario
+ []
+
+
+Underfull \hbox (badness 2689) in paragraph at lines 221--222
+\OT1/cmr/m/n/12 el uso de jerga t^^Secnica complicada. La notaci^^Son
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--223
+[]|\OT1/cmr/bx/sc/12 Manejo de la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
+[]|\OT1/cmr/m/n/12 La aplicaci^^Son debe soportar m^^Sultiples usuarios
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--225
+[]|\OT1/cmr/bx/sc/12 Portabilidad y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
+\OT1/cmr/m/n/12 navegadores modernos (Chrome, Firefox, Edge).
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 225--226
+\OT1/cmr/m/n/12 Aunque no es recomendable usar la aplicaci^^Son en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--227
+[]|\OT1/cmr/bx/sc/12 Modularidad y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--227
+\OT1/cmr/bx/sc/12 Extensibilidad del
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 227--228
+[]|\OT1/cmr/m/n/12 El frontend debe estar dise~nado para facilitar la
+ []
+
+
+Underfull \hbox (badness 2846) in paragraph at lines 227--228
+\OT1/cmr/m/n/12 de desarrollo para facilitar la adici^^Son de nuevas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
+[]|\OT1/cmr/bx/sc/12 Seguridad de la
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 229--230
+\OT1/cmr/m/n/12 en el backend para evitar solicitudes maliciosas o
+ []
+
+
+Underfull \hbox (badness 2173) in paragraph at lines 229--230
+\OT1/cmr/m/n/12 repetitivas que puedan afectar el rendimiento del
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--231
+[]|\OT1/cmr/bx/sc/12 Mantenibilidad de
+ []
+
+
+Overfull \hbox (40.56445pt too wide) in alignment at lines 204--240
+ [] [] 
+ []
+
+LaTeX Info: Redefining \. on input line 240.
+LaTeX Info: Redefining \% on input line 240.
+[26])
 LaTeX Info: Redefining \. on input line 102.
 LaTeX Info: Redefining \% on input line 102.
-
-[22]
+ [27]
 \openout2 = `chapters/chapter05/chapter05.aux'.
 
  (chapters/chapter05/chapter05.tex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [28
+
+
+
+
+]
 Cap\'{\i }tulo 5.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\newline' on input line 1.
 
-) [23
-
-
-
-
-]
+) [29]
 \openout2 = `appendages/appendixA/appendixA.aux'.
 
  (appendages/appendixA/appendixA.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [24
+ [30
 
 
 
 
 ]
 Ap\'{e}ndice A.
-[25]
+[31]
 LaTeX Info: Redefining \. on input line 113.
 LaTeX Info: Redefining \% on input line 113.
 
 Overfull \hbox (33.15697pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/12 26 \OT1/cmr/m/sl/12 AP[]ENDICE A.  C[]ALCULO DE LOS COEFICIENTE
+\OT1/cmr/m/n/12 32 \OT1/cmr/m/sl/12 AP[]ENDICE A.  C[]ALCULO DE LOS COEFICIENTE
 S DE LA SERIE DE FOURIER
  []
 
-[26])
+[32])
 LaTeX Info: Redefining \. on input line 105.
 LaTeX Info: Redefining \% on input line 105.
- [27]
+ [33]
 \openout2 = `appendages/appendixB/appendixB.aux'.
 
  (appendages/appendixB/appendixB.tex
@@ -2171,11 +2356,11 @@ LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
 
 Overfull \hbox (33.15697pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/12 28 \OT1/cmr/m/sl/12 AP[]ENDICE A.  C[]ALCULO DE LOS COEFICIENTE
+\OT1/cmr/m/n/12 34 \OT1/cmr/m/sl/12 AP[]ENDICE A.  C[]ALCULO DE LOS COEFICIENTE
 S DE LA SERIE DE FOURIER
  []
 
-[28
+[34
 
 
 
@@ -2186,7 +2371,7 @@ LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line
 25.
 (/home/sebastian/.miktex/texmfs/install/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-) [29]
+) [35]
 (main.aux
 LaTeX Info: Redefining \sptext on input line 14.
 LaTeX Info: Redefining \. on input line 14.
@@ -2215,10 +2400,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 (\end occurred when \ifx on line 106 was incomplete)
 (\end occurred when \ifnum on line 106 was incomplete) 
 Here is how much of TeX's memory you used:
- 48262 strings out of 476305
- 1059398 string characters out of 5791965
- 2187013 words of memory out of 5000000
- 69414 multiletter control sequences out of 15000+600000
+ 48289 strings out of 476305
+ 1059588 string characters out of 5791965
+ 2187844 words of memory out of 5000000
+ 69429 multiletter control sequences out of 15000+600000
  570453 words of font info for 82 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  101i,19n,125p,1570b,2344s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2271,9 +2456,9 @@ stall/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/sebastian/.miktex/texmfs/
 install/fonts/type1/public/amsfonts/cm/cmti12.pfb></home/sebastian/.miktex/texm
 fs/install/fonts/type1/public/amsfonts/cm/cmtt12.pfb></home/sebastian/.miktex/t
 exmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (43 pages, 735790 bytes).
+Output written on main.pdf (49 pages, 754064 bytes).
 PDF statistics:
- 1035 PDF objects out of 1200 (max. 8388607)
- 219 named destinations out of 1000 (max. 500000)
- 985 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1065 PDF objects out of 1200 (max. 8388607)
+ 231 named destinations out of 1000 (max. 500000)
+ 961 words of extra memory for PDF output out of 10000 (max. 10000000)
 
