@@ -38,8 +38,8 @@
       \strng{authornamehash}{02cf6ebeecf2664895e8554427af6022}
       \strng{authorfullhash}{02cf6ebeecf2664895e8554427af6022}
       \strng{authorfullhashraw}{02cf6ebeecf2664895e8554427af6022}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{9788447387755}
@@ -63,8 +63,8 @@
       \strng{authornamehash}{aa345219ebe4e7ae94dbba8e7ae99912}
       \strng{authorfullhash}{aa345219ebe4e7ae94dbba8e7ae99912}
       \strng{authorfullhashraw}{aa345219ebe4e7ae94dbba8e7ae99912}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://reference.wolfram.com/language/guide/FourierAnalysis.html}}
@@ -86,8 +86,8 @@
       \strng{authornamehash}{2190b1c1ebdc18c903e001ee5867de74}
       \strng{authorfullhash}{2190b1c1ebdc18c903e001ee5867de74}
       \strng{authorfullhashraw}{2190b1c1ebdc18c903e001ee5867de74}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://www.geogebra.org}}
@@ -109,8 +109,8 @@
       \strng{authornamehash}{8381b43e9de8c0d498ce9bbd4131efdc}
       \strng{authorfullhash}{8381b43e9de8c0d498ce9bbd4131efdc}
       \strng{authorfullhashraw}{8381b43e9de8c0d498ce9bbd4131efdc}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://www.desmos.com}}
@@ -132,8 +132,8 @@
       \strng{authornamehash}{ce4709613c6cae50866f3c3abd59f95c}
       \strng{authorfullhash}{ce4709613c6cae50866f3c3abd59f95c}
       \strng{authorfullhashraw}{ce4709613c6cae50866f3c3abd59f95c}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://www.manim.community}}
@@ -157,8 +157,8 @@
       \strng{authornamehash}{4361b9d0991adf5ff49278dec9d481b7}
       \strng{authorfullhash}{4361b9d0991adf5ff49278dec9d481b7}
       \strng{authorfullhashraw}{4361b9d0991adf5ff49278dec9d481b7}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://computationalmindset.com/en/mathematics/fourier-series-in-python.html}}
@@ -180,8 +180,9 @@
       \strng{authornamehash}{2d2b0d998977e6379aad61f1b56ac3c1}
       \strng{authorfullhash}{2d2b0d998977e6379aad61f1b56ac3c1}
       \strng{authorfullhashraw}{2d2b0d998977e6379aad61f1b56ac3c1}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{extraname}{1}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://la.mathworks.com/}}
@@ -189,9 +190,291 @@
       \field{title}{MathWorks - Creadores de MATLAB y Simulink - MATLAB y Simulink}
       \field{year}{2024}
     \endentry
+    \entry{historia-alambert-fourier-euler}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=706148ebcea077935f9cd219889a44d7}{%
+           family={A.},
+           familyi={A\bibinitperiod},
+           given={Cañada},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{706148ebcea077935f9cd219889a44d7}
+      \strng{fullhash}{706148ebcea077935f9cd219889a44d7}
+      \strng{fullhashraw}{706148ebcea077935f9cd219889a44d7}
+      \strng{bibnamehash}{706148ebcea077935f9cd219889a44d7}
+      \strng{authorbibnamehash}{706148ebcea077935f9cd219889a44d7}
+      \strng{authornamehash}{706148ebcea077935f9cd219889a44d7}
+      \strng{authorfullhash}{706148ebcea077935f9cd219889a44d7}
+      \strng{authorfullhashraw}{706148ebcea077935f9cd219889a44d7}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.nieuwarchief.nl/serie5/pdf/naw5-2000-01-3-242.pdf}}
+      \field{issn}{1665-2436}
+      \field{journaltitle}{Revista Latinoamericana de Investigación en Matemática Educativa, RELIME}
+      \field{note}{Accedido: 23 Octubre, 2024}
+      \field{title}{Una perspectiva histórica de las series de Fourier: de las ecuaciones de ondas y del calor a los operadores compactos y autoadjuntos}
+      \field{year}{2000}
+    \endentry
+    \entry{unal_52162}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=44040eeed69bf481b740c71e25da8903}{%
+           family={Leandro},
+           familyi={L\bibinitperiod},
+           given={Campo\bibnamedelimb Bedoya\bibnamedelima Oscar},
+           giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \strng{namehash}{44040eeed69bf481b740c71e25da8903}
+      \strng{fullhash}{44040eeed69bf481b740c71e25da8903}
+      \strng{fullhashraw}{44040eeed69bf481b740c71e25da8903}
+      \strng{bibnamehash}{44040eeed69bf481b740c71e25da8903}
+      \strng{authorbibnamehash}{44040eeed69bf481b740c71e25da8903}
+      \strng{authornamehash}{44040eeed69bf481b740c71e25da8903}
+      \strng{authorfullhash}{44040eeed69bf481b740c71e25da8903}
+      \strng{authorfullhashraw}{44040eeed69bf481b740c71e25da8903}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://repositorio.unal.edu.co/handle/unal/52162}}
+      \field{note}{Accedido: 23 Octubre, 2024}
+      \field{title}{Ecuación de D'Alembert, de la cuerda vibrante, bajo la teoría de Lie}
+      \field{year}{2014}
+    \endentry
+    \entry{demostracion-onda}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=83c1b58a2772f53838c5628183083ea0}{%
+           family={D.},
+           familyi={D\bibinitperiod},
+           given={Chamorro},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{83c1b58a2772f53838c5628183083ea0}
+      \strng{fullhash}{83c1b58a2772f53838c5628183083ea0}
+      \strng{fullhashraw}{83c1b58a2772f53838c5628183083ea0}
+      \strng{bibnamehash}{83c1b58a2772f53838c5628183083ea0}
+      \strng{authorbibnamehash}{83c1b58a2772f53838c5628183083ea0}
+      \strng{authornamehash}{83c1b58a2772f53838c5628183083ea0}
+      \strng{authorfullhash}{83c1b58a2772f53838c5628183083ea0}
+      \strng{authorfullhashraw}{83c1b58a2772f53838c5628183083ea0}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.amarun.org/images/amarun/materiales/EDP/edp/Leccion_5.pdf}}
+      \field{journaltitle}{Ecuaciones en Derivadas Parciales (Nivel 3)}
+      \field{note}{Accedido: 23 Octubre, 2024}
+      \field{title}{Lección n°5: Ecuación de Ondas}
+      \field{year}{2015}
+    \endentry
+    \entry{bernoulli_Mechanics}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=89065af76c950fd34901b8da6324cc67}{%
+           family={Grattan-Guinness},
+           familyi={G\bibinithyphendelim G\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{89065af76c950fd34901b8da6324cc67}
+      \strng{fullhash}{89065af76c950fd34901b8da6324cc67}
+      \strng{fullhashraw}{89065af76c950fd34901b8da6324cc67}
+      \strng{bibnamehash}{89065af76c950fd34901b8da6324cc67}
+      \strng{authorbibnamehash}{89065af76c950fd34901b8da6324cc67}
+      \strng{authornamehash}{89065af76c950fd34901b8da6324cc67}
+      \strng{authorfullhash}{89065af76c950fd34901b8da6324cc67}
+      \strng{authorfullhashraw}{89065af76c950fd34901b8da6324cc67}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.nieuwarchief.nl/serie5/pdf/naw5-2000-01-3-242.pdf}}
+      \field{note}{Accedido: 23 Octubre, 2024}
+      \field{title}{Daniel Bernoulli and the varieties of mechanics}
+      \field{year}{2000}
+    \endentry
+    \entry{springer1999Physics}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=d2407a16cccf10468e6246d9a6e8a798}{%
+           family={E.},
+           familyi={E\bibinitperiod},
+           given={Garber},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{d2407a16cccf10468e6246d9a6e8a798}
+      \strng{fullhash}{d2407a16cccf10468e6246d9a6e8a798}
+      \strng{fullhashraw}{d2407a16cccf10468e6246d9a6e8a798}
+      \strng{bibnamehash}{d2407a16cccf10468e6246d9a6e8a798}
+      \strng{authorbibnamehash}{d2407a16cccf10468e6246d9a6e8a798}
+      \strng{authornamehash}{d2407a16cccf10468e6246d9a6e8a798}
+      \strng{authorfullhash}{d2407a16cccf10468e6246d9a6e8a798}
+      \strng{authorfullhashraw}{d2407a16cccf10468e6246d9a6e8a798}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-4612-7272-4}
+      \field{title}{The Language of Physics: The Calculus and the Development of Theoretical Physics in Europe, 1750-1914}
+      \field{year}{1999}
+    \endentry
+    \entry{demostracion-calor}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=fb828426463c5de87af5cd5990f5f5d2}{%
+           family={T.},
+           familyi={T\bibinitperiod},
+           given={Brereton\bibnamedelima J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{fb828426463c5de87af5cd5990f5f5d2}
+      \strng{fullhash}{fb828426463c5de87af5cd5990f5f5d2}
+      \strng{fullhashraw}{fb828426463c5de87af5cd5990f5f5d2}
+      \strng{bibnamehash}{fb828426463c5de87af5cd5990f5f5d2}
+      \strng{authorbibnamehash}{fb828426463c5de87af5cd5990f5f5d2}
+      \strng{authornamehash}{fb828426463c5de87af5cd5990f5f5d2}
+      \strng{authorfullhash}{fb828426463c5de87af5cd5990f5f5d2}
+      \strng{authorfullhashraw}{fb828426463c5de87af5cd5990f5f5d2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://math.berkeley.edu/~jbrere/heatequation}}
+      \field{journaltitle}{Home | Department of Mathematics}
+      \field{note}{Accedido: 23 Octubre, 2024}
+      \field{title}{FOURIER SERIES: SOLVING THE HEAT EQUATION}
+      \field{year}{2015}
+    \endentry
+    \entry{demostracion-calor-feldman}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=540ffc1a169163a8e79742994bccf36b}{%
+           family={J.},
+           familyi={J\bibinitperiod},
+           given={Feldman},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{540ffc1a169163a8e79742994bccf36b}
+      \strng{fullhash}{540ffc1a169163a8e79742994bccf36b}
+      \strng{fullhashraw}{540ffc1a169163a8e79742994bccf36b}
+      \strng{bibnamehash}{540ffc1a169163a8e79742994bccf36b}
+      \strng{authorbibnamehash}{540ffc1a169163a8e79742994bccf36b}
+      \strng{authornamehash}{540ffc1a169163a8e79742994bccf36b}
+      \strng{authorfullhash}{540ffc1a169163a8e79742994bccf36b}
+      \strng{authorfullhashraw}{540ffc1a169163a8e79742994bccf36b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://personal.math.ubc.ca/~feldman/m267/heatSln.pdf}}
+      \field{note}{Accedido: 23 Octubre, 2024}
+      \field{title}{Solution of the Heat Equation by Separation of Variables}
+      \field{year}{2007}
+    \endentry
+    \entry{fourierTolstov}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=8d0b166e62f99dd56ca5cdbdd01dabd2}{%
+           family={Tolstov},
+           familyi={T\bibinitperiod},
+           given={P.G.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Prentice-Hall, Inc.}%
+      }
+      \strng{namehash}{8d0b166e62f99dd56ca5cdbdd01dabd2}
+      \strng{fullhash}{8d0b166e62f99dd56ca5cdbdd01dabd2}
+      \strng{fullhashraw}{8d0b166e62f99dd56ca5cdbdd01dabd2}
+      \strng{bibnamehash}{8d0b166e62f99dd56ca5cdbdd01dabd2}
+      \strng{authorbibnamehash}{8d0b166e62f99dd56ca5cdbdd01dabd2}
+      \strng{authornamehash}{8d0b166e62f99dd56ca5cdbdd01dabd2}
+      \strng{authorfullhash}{8d0b166e62f99dd56ca5cdbdd01dabd2}
+      \strng{authorfullhashraw}{8d0b166e62f99dd56ca5cdbdd01dabd2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780486633176}
+      \field{title}{Fourier Series}
+      \field{year}{1962}
+    \endentry
+    \entry{fourierHsu}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=50a1f663e8ed928bd9d45f0b444b3471}{%
+           family={Hsu},
+           familyi={H\bibinitperiod},
+           given={P.H.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley Iberoamericana}%
+      }
+      \strng{namehash}{50a1f663e8ed928bd9d45f0b444b3471}
+      \strng{fullhash}{50a1f663e8ed928bd9d45f0b444b3471}
+      \strng{fullhashraw}{50a1f663e8ed928bd9d45f0b444b3471}
+      \strng{bibnamehash}{50a1f663e8ed928bd9d45f0b444b3471}
+      \strng{authorbibnamehash}{50a1f663e8ed928bd9d45f0b444b3471}
+      \strng{authornamehash}{50a1f663e8ed928bd9d45f0b444b3471}
+      \strng{authorfullhash}{50a1f663e8ed928bd9d45f0b444b3471}
+      \strng{authorfullhashraw}{50a1f663e8ed928bd9d45f0b444b3471}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9685000476}
+      \field{title}{Analisis de Fourier}
+      \field{year}{1987}
+    \endentry
+    \entry{fourierCinvestav}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=bc8099f8e70da6f274fdbf6418184c3f}{%
+           family={Flores},
+           familyi={F\bibinitperiod},
+           given={Dr.\bibnamedelimi Wilfrido\bibnamedelima Gómez},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{bc8099f8e70da6f274fdbf6418184c3f}
+      \strng{fullhash}{bc8099f8e70da6f274fdbf6418184c3f}
+      \strng{fullhashraw}{bc8099f8e70da6f274fdbf6418184c3f}
+      \strng{bibnamehash}{bc8099f8e70da6f274fdbf6418184c3f}
+      \strng{authorbibnamehash}{bc8099f8e70da6f274fdbf6418184c3f}
+      \strng{authornamehash}{bc8099f8e70da6f274fdbf6418184c3f}
+      \strng{authorfullhash}{bc8099f8e70da6f274fdbf6418184c3f}
+      \strng{authorfullhashraw}{bc8099f8e70da6f274fdbf6418184c3f}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.tamps.cinvestav.mx/~wgomez/documentos/analisis_de_fourier.pdf}}
+      \field{note}{Accedido: 26 Oct, 2024}
+      \field{title}{Introducción al Análisis de Fourier}
+      \field{year}{2024}
+    \endentry
+    \entry{MetodologíasDeDesarrollo2015}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=2d2b0d998977e6379aad61f1b56ac3c1}{%
+           family={{MathWorks}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{fullhash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{fullhashraw}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{bibnamehash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{authorbibnamehash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{authornamehash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{authorfullhash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{authorfullhashraw}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://woodyweb.wordpress.com/2015/08/24/metodologias-de-desarrollo/}}
+      \field{note}{Accedido: 22 Oct, 2024}
+      \field{title}{Metodologías de desarrollo.}
+      \field{year}{2015}
+    \endentry
   \enddatalist
-  \missing{[25]}
-  \missing{[27]}
 \endrefsection
 \endinput
 

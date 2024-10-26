@@ -2,12 +2,19 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Gráfica de los coeficientes de Fourier calculados en el \hyperref [app:Estado-del-arte-coeff]{Apendice A}}}{10}{figure.caption.6}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Calculo de una serie trigonométrica de Fourier en WolframAlpha}}{11}{figure.caption.7}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Calculo de una serie trigonométrica de Fourier en WolframAlpha}}{11}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Gráfica de los coeficientes de Fourier calculados en el \hyperref [app:Estado-del-arte-coeff]{Apendice A} \textit {Fuente: Elaboración propia}}}{9}{figure.caption.5}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Calculo de una serie trigonométrica de Fourier en WolframAlpha}}{10}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Calculo de una serie trigonométrica de Fourier en WolframAlpha}}{10}{figure.caption.7}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Ilustración del problema de la cuerda vibrante.}}{14}{figure.caption.9}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Ilustración de 3 armónicos y sus nodos de la cuerda al vibrar.}}{16}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Ilustración del problema de la cuerda vibrante.}}{14}{figure.caption.8}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Ilustración de 3 armónicos y sus nodos de la cuerda al vibrar.}}{15}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Ilustración del problema de transferencia de calor en una barra de longitud $\pi $. }}{17}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Gráfica de una función periódica $f(t)$ con periodo $T$.}}{20}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Gráfica del área bajo la curva de $f(t)$ entre los intervalos desde $a$ hasta $a + T$ y desde $b$ hasta $b + T$. }}{21}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Gráfica de las funciones trigonométricas $sin(t)$ y $cos(t)$. }}{21}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Función $sin(t)$ con diferentes frecuencias}}{22}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Relación de la frecuencia angular entre la función $sin(t)$ con el circulo unitario.}}{22}{figure.caption.15}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Etapas de la metodología por prototipos \newline \centering \textit {Fuente: ~\blx@tocontentsinit {0}\cite {MetodologíasDeDesarrollo2015}}}}{29}{figure.caption.16}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

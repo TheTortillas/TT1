@@ -6,7 +6,7 @@
 
 % Cargar la clase base de LaTeX con tamaño de fuente de 12 puntos y diseño a dos caras
 % Si quisieramos que no hubiera páginas en blanco en las preeliminares añadimos el parametro openany
-\LoadClass[12pt, twoside]{book}
+\LoadClass[12pt, twoside, openany]{book}
 
 % Paquetes requeridos para la codificación de entrada, colores, geometría de página y ajuste de cuadros
 \RequirePackage[utf8]{inputenc}

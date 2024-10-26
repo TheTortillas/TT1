@@ -9,10 +9,10 @@
 %\usepackage{minted}
 %\usepackage{listings}   % Para incluir código fuente
 %\usepackage[utf8]{inputenc}
+%\usepackage{float}
 \usepackage{ipnstyle}
 \usepackage{lipsum}
 \usepackage{graphicx}
-%\usepackage{float}
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{bookmark}
@@ -32,6 +32,19 @@
 \usepackage{tikz}
 \usepackage{pgfplots}
 \pgfplotsset{compat=newest}
+\usepackage{amsmath}
+\usepackage{physics}
+\usepackage[outline]{contour} % glow around text
+\usepackage{xcolor}
+\usetikzlibrary{intersections}
+\usetikzlibrary{decorations.markings}
+\usetikzlibrary{angles,quotes} % for pic
+\usetikzlibrary{calc}
+\usetikzlibrary{3d}
+\contourlength{1.3pt}
+\usetikzlibrary{patterns}
+
+
 \deactivatequoting	% error de tikz en \draw [];
 
 %-------------- Para habilitar más numeración en el indice
@@ -57,6 +70,10 @@
 
 % Ajustar la justifiación del texto (problemas por el español)
 \sloppy
+
+%Para qeue no se justifique a lo alto
+\raggedbottom
+
 
 %----------------------------
 
@@ -86,26 +103,31 @@
 \begin{document}
 	\frontmatter
 	\maketitle
+	\cleardoublepage
+	
+	
+	%\input{frontmatter/dibujo-portada/draw}
 	\input{frontmatter/technical_document/technical_document}
 	%\input{frontmatter/advertisement}
 	%\input{frontmatter/abstract}
 	%\input{frontmatter/acknowledgements}
+	\cleardoublepage
 	\tableofcontents
 	\listoffigures
 	\listoftables
-	\listofalgorithms
+	%\listofalgorithms
 	
 	\mainmatter
-	\include{chapters/chapter01/chapter01}
-	\include{chapters/chapter02/chapter02}
-	\include{chapters/chapter03/chapter03}
-	\include{chapters/chapter04/chapter04}
-	\include{chapters/chapter05/chapter05}
+		\include{chapters/chapter01/chapter01}
+		\include{chapters/chapter02/chapter02}
+		\include{chapters/chapter03/chapter03}
+		\include{chapters/chapter04/chapter04}
+		\include{chapters/chapter05/chapter05}
 	\appendix
-	\include{appendages/appendixA/appendixA}
-	\include{appendages/appendixB/appendixB}
+		\include{appendages/appendixA/appendixA}
+		%\include{appendages/appendixB/appendixB}
 	
 	\backmatter
-	\bookmarksetup{startatroot}
-	\printbibliography[heading=bibintoc]
+		\bookmarksetup{startatroot}
+		\printbibliography[heading=bibintoc]
 \end{document}

@@ -1,31 +1,44 @@
 \chapter{Marco Teórico}\label{ch:Marco Teórico}
-En este capitulo...
-
+En este capítulo se presentará la teoría fundamental necesaria para el desarrollo de nuestra calculadora de series de Fourier. Comenzaremos explorando la historia y evolución de las series de Fourier, se detallarán las fórmulas matemáticas necesarias para comprender la descomposición de funciones periódicas en sumas de senos y cosenos, resaltando los conceptos de coeficientes de Fourier. Además, se analizarán las tecnologías que emplearemos en la implementación del proyecto, para asegurar un rendimiento óptimo en los cálculos y visualización de resultados.
 
 \section{Origen e Historia}
-Uno de los problemas del que se ocuparon los matemáticos del siglo XVIII es el que se conoce con el nombre del ``problema de la cuerda vibrante''. Este problema fue estudiado por d'Alembert y Euler (usando el método de propagación de las ondas) y un poco más tarde, concretamente en 1753, por Daniel Bernoulli. La solución dada por este difería de la proporcionada por los anteriores y consistió básicamente en expresar la solución del problema como superposición (en general infinita) de ondas sencillas. 
+Uno de los problemas del que se ocuparon los matemáticos del siglo XVIII es el que se conoce con el nombre del \textit{problema de la cuerda vibrante}. Este problema fue estudiado por D’Alambert y Euler (usando el método de propagación de las ondas) y un poco más tarde, concretamente en 1753, por Daniel Bernoulli. La solución dada por este difería de la proporcionada por los anteriores y consistió básicamente en expresar la solución del problema como superposición (en general infinita) de ondas sencillas. 
 
-Las ideas de Bernoulli fueron aplicadas y perfeccionadas por Fourier, en 1807, en el estudio de problemas relacionados con la conducción del calor. Quedaron plasmadas por escrito en el libro clásico \emph{Théorie analytique de la chaleur}, publicado en 1822. Los razonamientos realizados por Fourier en este libro plantearon de manera inmediata numerosas controversias y cuestiones que han tenido una influencia significativa en la historia de la Matemática.
+Las ideas de Bernoulli fueron aplicadas y perfeccionadas por Fourier, en 1807, en el estudio de problemas relacionados con la conducción del calor. Quedaron plasmadas por escrito en el libro clásico \emph{Théorie analytique de la chaleur}, publicado en 1822. Los razonamientos realizados por Fourier en este libro plantearon de manera inmediata numerosas controversias y cuestiones que han tenido una influencia significativa en la historia de la Matemática ~\cite{historia-alambert-fourier-euler}.
 
 \subsection{El problema de la cuerda oscilante}
 
-Uno de los problemas más interesantes que abordaron los científicos del siglo XVIII, y que aparece con frecuencia en problemas físicos relacionados con procesos oscilatorios, es el conocido como "El problema de la cuerda vibrante". Este se puede describir en su forma más elemental de la siguiente manera: Supongamos que tenemos una cuerda flexible y tensa, cuyos extremos están fijos, convenientemente, en los puntos $(0, 0)$ y $(\pi, 0)$ sobre el eje horizontal. Si la cuerda se tira de modo que su forma inicial corresponde a la curva definida por $y = f(x)$, y luego se suelta, la pregunta es: ¿Cuál será el movimiento resultante de la cuerda?
+Uno de los problemas más interesantes que abordaron los científicos del siglo XVIII, y que aparece con frecuencia en problemas físicos relacionados con procesos oscilatorios, es el conocido como \textit{problema de la cuerda vibrante}. Este se puede describir en su forma más elemental de la siguiente manera: Supongamos que tenemos una cuerda flexible y tensa, cuyos extremos están fijos, convenientemente, en los puntos $(0, 0)$ y $(\ell, 0)$ sobre el eje horizontal. Si la cuerda se tira de modo que su forma inicial corresponde a la curva definida por $y = f(x)$, y luego se suelta, la pregunta es: ¿Cuál será el movimiento resultante de la cuerda?
 
-Los desplazamientos de la cuerda siempre se encuentran en un mismo plano, y el vector desplazamiento es perpendicular en cualquier momento. Para describir este movimiento se utiliza una función $u(x, t)$, donde $u(x, t)$ representa el desplazamiento vertical de la cuerda en la posición $x$ (con $0 \leq x \leq \pi$) y en el instante $t$ (con $t \geq 0$). El problema es determinar $u(x, t)$ a partir de $f(x)$.
+Los desplazamientos de la cuerda siempre se encuentran en un mismo plano, y el vector desplazamiento es perpendicular en cualquier momento. Para describir este movimiento se utiliza una función $u(x, t)$, donde $u(x, t)$ representa el desplazamiento vertical de la cuerda en la posición $x$ (con $0 \leq x \leq \ell$) y en el instante $t$ (con $t \geq 0$). El problema es determinar $u(x, t)$ a partir de $f(x)$ ~\cite{historia-alambert-fourier-euler}.
 
-El primer matemático que propuso un modelo adecuado para este problema fue Jean Le Rond d'Alembert. Bajo diversas hipótesis (asumiendo, por ejemplo, que las vibraciones son "pequeñas"), d'Alembert demostró en 1747 (\textit{Hist. de l'Acad. de Berlin, 3, 1747, pp. 214-219}) que la función $u(x,t)$ debe satisfacer las siguientes condiciones:
+\subsubsection{D’Alambert y Euler}
+El primer matemático que propuso un modelo adecuado para este problema fue Jean Le Rond D’Alambert ~\cite{unal_52162}. Bajo diversas hipótesis (asumiendo, por ejemplo, que las vibraciones son "pequeñas"), en 1747 D’Alambert dedujo la ecuación de onda en la siguiente forma (usando notación moderna):
 
 \begin{equation} \label{eq1}
 	\begin{split}
-		\frac{\partial^2 u(x,t)}{\partial t^2} &= \frac{\partial^2 u(x,t)}{\partial x^2}, \quad 0 < x < \pi, \ t > 0 \\
-		u(x,0) &= f(x), \quad 0 \leq x \leq \pi \\
-		\frac{\partial u(x,0)}{\partial t} &= 0, \quad 0 \leq x \leq \pi \\
-		u(0,t) &= u(\pi,t) = 0, \quad t \geq 0.
+		\frac{\partial^2 u(x,t)}{\partial t^2} &=  \frac{\partial^2 u(x,t)}{\partial x^2}, \quad 0 < x < \ell, \ t > 0 \\
+	\end{split}
+\end{equation}
+en donde:
+\begin{itemize}
+	\item \( u(x,t) \): Es la función que describe el desplazamiento de la onda en función de la posición \( x \) y el tiempo \( t \).
+	\item \( \frac{\partial^2 u(x,t)}{\partial t^2} \): Segunda derivada parcial de \( u(x,t) \) respecto al tiempo \( t \), que representa la aceleración del desplazamiento de la onda.
+	\item \( \frac{\partial^2 u(x,t)}{\partial x^2} \): Segunda derivada parcial de \( u(x,t) \) respecto a la posición \( x \), que describe la curvatura espacial de la onda.
+\end{itemize}
+
+ y esta debe satisfacer las condiciones siguientes:
+
+\begin{equation} \label{eq2}
+	\begin{split}
+		u(x,0) &= f(x), \quad 0 \leq x \leq \ell \\
+		\frac{\partial u(x,0)}{\partial t} &= 0, \quad 0 \leq x \leq \ell \\
+		u(0,t) &= u(\ell,t) = 0, \quad t \geq 0.
 	\end{split}
 \end{equation}
 
 
-La primera de estas condiciones es una ecuación en derivadas parciales de segundo orden, conocida como la \textit{Ecuación de Ondas}. La segunda ecuación establece la posición inicial de la cuerda, mientras que la tercera indica que la velocidad inicial de la cuerda es cero (recordando que, una vez desplazada a la posición $f(x)$, la cuerda es liberada). La última condición expresa que, para cualquier tiempo, los extremos de la cuerda permanecen fijos. En la figura \ref{fig:cuerda-vibrante} La variable $u = u(x,t)$ mide el desplazamiento sobre la vertical a tiempo $t > 0$ en la posición $x \in [0,\pi]$.
+En donde la primera ecuación establece la posición inicial de la cuerda, mientras que la segunda indica que la velocidad inicial de la cuerda es cero (recordando que, una vez desplazada a la posición $f(x)$, la cuerda es liberada). La última condición expresa que, para cualquier tiempo, los extremos de la cuerda permanecen fijos. En la figura \ref{fig:cuerda-vibrante} La variable $u = u(x,t)$ mide el desplazamiento sobre la vertical a tiempo $t > 0$ en la posición $x \in [0,\ell]$.
 
 \begin{figure}[h]
 	\centering
@@ -37,17 +50,17 @@ La primera de estas condiciones es una ecuación en derivadas parciales de segun
 		
 		% Extremos fijos en x=0 y x=L
 		\draw[thick] (0,0) circle (0.05) node[below] {$x=0$};
-		\draw[thick] (6,0) circle (0.05) node[below] {$x=\pi$};
+		\draw[thick] (6,0) circle (0.05) node[below] {$x=\ell$};
 		
 		% Desplazamiento inicial de la cuerda
-		\draw[domain=0:6,smooth,variable=\x,blue,thick] plot ({\x},{0.8*sin(180*\x/6)});
+		\draw[domain=0:6,smooth,variable=\x,blue,thick] plot ({\x},{1.8*sin(180*\x/6)});
 		
 		% Etiqueta de la cuerda
-		\node[above,blue] at (3,0.8) {$u(x,0) = f(x)$};
+		\node[above,blue] at (3,1.9) {$u(x,0) = f(x)$};
 		
 		% Condiciones de contorno (Movidas hacia arriba para evitar superposición)
 		\draw[<-] (0,0.1) -- (-0.5,0.4) node[left] {$u(0,t)=0$};
-		\draw[<-] (6,0.1) -- (6.5,0.4) node[right] {$u(\pi,t)=0$};
+		\draw[<-] (6,0.1) -- (6.5,0.4) node[right] {$u(\ell,t)=0$};
 		
 		% Indicación de tiempo inicial
 		\node at (3,-0.8) {$t = 0$};
@@ -55,71 +68,62 @@ La primera de estas condiciones es una ecuación en derivadas parciales de segun
 		% Flecha de tiempo (opcional)
 		% \draw[->] (6.5,1) -- (6.5,1.5) node[right] {$t$ aumenta};
 	\end{tikzpicture}
-	\caption{Ilustración del problema de la cuerda vibrante.} 
+	\caption[Ilustración del problema de la cuerda vibrante.] {\textit{Fuente: Elaboración propia} }
 	\label{fig:cuerda-vibrante}  % Etiqueta para la figura
 \end{figure}
+%https://teorica.fis.ucm.es/pparanda/EDPdf/EDPviejas/ppedp6.pdf
 
-D'Alembert demostró también que la solución de \ref{eq1} viene dada por
-
-\begin{equation}\label{eq2}
-	u(x,t) = \frac{1}{2} \left[ \tilde{f}(x+t) + \tilde{f}(x-t) \right]
-\end{equation}
-donde $\tilde{f}$ es ``una extensión conveniente de la función $f$.''
-
-De manera más precisa, y con el lenguaje de hoy en día, el teorema de d'Alembert (\cite{[25]}, \cite{[27]}) confirmó que la posición futura de la cuerda está completamente determinada por su posición inicial: \\[0.3cm]
-
-\textbf{TEOREMA 2.1.} \textit{Sea $f \in C^2 [0, \pi]$, tal que $f(0) = f(\pi) = f''(0^+) = f''(\pi^-) = 0$. Entonces (1.1) tiene una única solución $u \in C^2(\Omega) \cap C^1(\bar{\Omega})$, donde $\Omega = (0, \pi) \times (0, +\infty)$. Además $u$ viene dada por la fórmula (1.2), donde $\tilde{f}$ es la extensión a $\mathbb{R}$ (conjunto de los números reales), impar y $2\pi$-periódica de la función $f$.} \\[0.3cm]
-
-
-No se conoce con exactitud la manera en que \textit{d’Alembert} llegó a la fórmula \ref{eq2}, pero un camino muy probable pudo ser el siguiente: el cambio de variables
-
-\[
-\xi = x+t, \quad \mu = x-t,
-\]
-transforma la ecuación 
-\[
-\frac{\partial^2 u(x,t)}{\partial t^2} = \frac{\partial^2 u(x,t)}{\partial x^2},
-\]
-en otra más simple:
-\[
-\frac{\partial^2 u}{\partial \xi \partial \mu} = 0.
-\]
-Las soluciones de esta última ecuación son trivialmente de la forma 
-\[
-u(\xi, \mu) = F(\xi) + G(\mu).
-\]
-Combinando esta última relación con las otras condiciones en \ref{eq1}, se puede llegar a intuir la forma (1.2) que tiene la solución de \ref{eq1}.
-
-La interpretación física de la solución dada por \textit{d’Alembert} es muy interesante: La función \[
-\frac{1}{2} f(x+t)
-\]
-representa una onda (una solución de la ecuación de ondas) que se desplaza hacia la izquierda con velocidad 1. Análogamente, la función
-\[
-\frac{1}{2} f(x-t)
-\]
-representa otra onda que se desplaza hacia la derecha con velocidad 1. De este modo, la solución de \ref{eq1} es la superposición de dos ondas, una de las cuales se desplaza hacia la izquierda y otra hacia la derecha, ambas con velocidad 1. Por este motivo se dice que la fórmula \ref{eq2}se ha obtenido usando el \textit{Método de propagación de las ondas}.\\[0.3cm]
-
-
-
-Otra manera de obtener la solución del problema \ref{eq1}, completamente distinta de la vista anteriormente, fue propuesta por \textit{Daniel Bernoulli} en 1753 (\textit{Hist. de l'Acad. de Berlin, 9, 1753, 147-172; 173-195}). La idea clave es obtener la solución de \ref{eq1} como superposición de ondas más sencillas, concretamente aquellas que son de la forma
+Y apartir de esto, construyó la solución ~\cite{demostracion-onda}:
 
 \begin{equation}\label{eq3}
-	u_n(x,t) = \sin(nx) \cos(nt), \quad \forall \, n \in \mathbb{N},
+	u(x,t) =   F\left( x+t \right) + G\left( x-t \right)
 \end{equation}
-\newline
-donde $\mathbb{N}$ es el conjunto de los números naturales. Para cada tiempo $t$ fijo, la anterior función es un múltiplo de la función $\sin(nx)$, que se anula exactamente en $n-1$ puntos del intervalo $(0, \pi)$. Así, si pudiésemos observar la vibración de la cuerda correspondiente a las ondas \( u_n \), tendríamos \( n - 1 \) puntos, llamados
-nodos, en los que la cuerda se mantendría constantemente fija en el eje de
-abscisas (como en los extremos del intervalo \([0, \pi]\)). Entre dichos nodos, la
-cuerda oscilaría de acuerdo con \ref{eq3}.
 
-¿Cómo concibió \textit{Bernoulli} la idea anterior? Parece ser que una posibilidad es
-que usase sus conocimientos musicales. Para ello se basó en que el sonido que
-emite una cuerda vibrante es, en general, superposición de armónicos, es decir,
-superposición de funciones de la forma \( u_n(x, t) \). Tales funciones representan,
-para \( n = 1 \) el tono fundamental y para \( n > 1 \) sus armónicos, y desde el
-punto de vista musical se corresponden con los tonos puros. Así, \textit{Bernoulli}
-afirmó que cualquier sonido que produjese la vibración de la cuerda debe ser
-superposición de tonos puros. 
+Que, estando sujeta a las condiciones de frontera \ref{eq2} se podía reducir a ~\cite{demostracion-onda}:
+
+\begin{equation}\label{eq4}
+	u(x,t) =   F\left( x+t \right) + F\left( x-t \right)
+\end{equation}
+
+siempre y cuando la función \( F \) fuese periódica, impar y diferenciable en todas partes. D’Alambert demostraba con esto que la ecuación de onda admitía “un número infinito de soluciones”. \newline 
+
+Euler entra en escena al criticar varias de las suposiciones que D'Alambert hiciera para encontrar su solución. Una de particular interés es la de suponer que la forma inicial de la curva o cuerda era continua y diferenciable “como una anguila”. Esta suposición para Euler, le quitaba generalidad a la solución de D' Alambert pues omitía funciones, notablemente la que representa una cuerda al
+ser pulsada, como se muestra en la figura \ref{fig:cuerda-vibrante}.
+Euler derivó una ecuación de onda ligeramente más general que la de D'Alembert \ref{eq1}:
+\begin{equation}\label{eq5}	
+	\frac{1}{c^2} \frac{\partial^2 u(x,t)}{\partial t^2} = \frac{\partial^2 u(x,t)}{\partial x^2} 
+\end{equation}
+
+con la solución ~\cite{demostracion-onda}:
+
+\begin{equation}\label{eq6}	
+	u(x,t) = F(x+ct) + G(x-ct)
+\end{equation}
+
+que con las mismas condiciones de frontera resulta en ~\cite{demostracion-onda}:
+
+\begin{equation}\label{eq7}	
+	u(x,t) = F(x+ct) + F(x-ct)
+\end{equation}
+
+
+Euler argumentaba, a diferencia de D'Alembert, que la función \( F \) quedaba determinada por la posición y velocidad inicial de la cuerda. Si denotamos por \( w(x) \) y \( v(x) \) a éstas, respectivamente, entonces la solución puede representarse como:
+
+
+\begin{equation}\label{eq8}	
+	u(x,t) = \frac{1}{2} \left( w(x+ct) + w(x-ct) + \frac{1}{c} \int_{x-ct}^{x+ct} v(s) ds \right)
+\end{equation}
+
+Las funciones \( w \) y \( v \) podían ser arbitrarias (en el sentido que podían representar cualquier curva que pudiera “dibujarse a mano”) e incluía, implícitamente, a la curva “triangular” de la figura. Como dicen los autores ~\cite{bernoulli_Mechanics} a D'Alembert no le quitaba el sueño sacrificar realismo físico por pureza matemática; Euler, por el contrario, usaba la realidad física para contraargumentar la generalidad de las soluciones obtenidas por el francés aunque su interés no fuera tanto realismo físico sino la generalidad de las soluciones admitidas por la ecuación de onda.
+
+\subsubsection{Bernoulli}
+Otra manera de obtener la solución del problema \ref{eq1}, distinta a la de sus distinguidos interlocutores, fue propuesta por Daniel Bernoulli en 1753 ~\cite{bernoulli_Mechanics} La idea clave es obtener la solución de \ref{eq1} como superposición de ondas más sencillas, concretamente aquellas que son de la forma ~\cite{springer1999Physics}:
+
+\begin{equation}\label{eq9}	
+	u(x) = \alpha \sin \frac{\pi x}{\ell} + \beta \sin \frac{2\pi x}{\ell} + \gamma \sin \frac{3\pi x}{\ell} + \delta \sin \frac{4\pi x}{\ell} + \dots
+\end{equation}
+
+que incorporaban el hecho experimental de que cualquier modo de vibración de una cuerda puede obtenerse superponiendo modos vibratorios simples representados por cada término. Estas funciones representan, para \( n = 1 \), el modo fundamental, y para \( n > 1 \) , sus armónicos. De esta manera, cualquier vibración de la cuerda puede describirse como una superposición de estos armónicos, como se puede ver en la figura \ref{fig:armonicos_cuerda}.
 
 \begin{figure}[h]
 	\centering
@@ -190,7 +194,7 @@ superposición de tonos puros.
 			\foreach \x in {0,0.785,1.57,2.355,3.14} {
 				\draw (\x,-8.1) -- (\x,-7.9); % Marcas de tic
 			}
-			\foreach \x/\label in {0/$0$,0.785/$\frac{\pi}{4}$,1.57/$\frac{\pi}{2}$,2.355/$\frac{3\pi}{4}$,3.14/$\pi$} {
+			\foreach \x/\label in {0/$0$,0.785/$\frac{\ell}{4}$,1.57/$\frac{\ell}{2}$,2.355/$\frac{3\ell}{4}$,3.14/$\ell$} {
 				\draw (\x,-8.3) node[anchor=north] {\label}; % Etiquetas
 			}
 			
@@ -201,101 +205,560 @@ superposición de tonos puros.
 		\end{scope}
 	\end{tikzpicture}
 	
-	\caption{Ilustración de 3 armónicos y sus nodos de la cuerda al vibrar.} 
+	\caption[Ilustración de 3 armónicos y sus nodos de la cuerda al vibrar.] {\textit{Fuente: Elaboración propia}} 
 	\label{fig:armonicos_cuerda}  % Etiqueta para la figura
 \end{figure}
 
-Desde el punto de vista matemático, ello significa
-que la solución de \ref{eq1} debe poder representarse de la forma:
+Si la solución propuesta por Bernouilli fuese correcta, ello obligaría a que
 
-
-\begin{equation}\label{eq4}
-	u(x,t) = \sum_{n=1}^{\infty} a_n \sin(nx) \cos(nt)
-\end{equation}
-\newline
-
-donde los coeficientes \( a_n \) han de elegirse adecuadamente para que se satisfaga
-\ref{eq1}.
-\newline
-Ahora bien, \( f \) no es, en general de la forma justo mencionada, pero, y ahora 
-viene la pregunta clave: ¿Será posible obtener la solución de \ref{eq1}, para cualquier 
-\( f \) dada, como superposición de las anteriores soluciones sencillas \( u_n \)? Esto es
-lo que propuso \textit{Bernouilli}.
-
-Si la solución propuesta por \textit{Bernouilli} fuese correcta, ello obligaría a que
-
-\begin{equation}\label{eq5}
-	u(x, 0) = \sum_{n=1}^{\infty} a_n \sen(nx)
+\begin{equation}\label{eq10}
+	u(x, 0) = \sum_{n=1}^{\infty} C_n \sen(nx)
 \end{equation}
 
 y por tanto a que
 
-\begin{equation}\label{eq6}
-f(x) = \sum_{n=1}^{\infty} a_n \sen(nx), \quad \forall x \in [0, \pi],
+\begin{equation}\label{eq11}
+f(x) = \sum_{n=1}^{\infty} C_n \sen(nx), \quad \forall x \in [0, \ell],
 \end{equation}
 
-para “una adecuada elección de los coeficientes \( a_n \)”.
+para “una adecuada elección de los coeficientes \( C_n \)”. \newline
+
+
+Pero esta fórmula no es correcta del todo pues le falta, a cada término, el producto por la función coseno (función del tiempo). Más aún, Bernoulli fue incapaz de mostrar cómo podían obtenerse los coeficientes \( \alpha \), \( \beta \), \( \gamma \), \( \delta \), ... cosa que sí hizo Euler un poco después con el método de integrar la expansión después de multiplicarla por senos o cosenos. Es claro que la solución de Bernoulli no es tan general como la de D’Alembert pero algo que aún el gran Euler no pudo realmente entender es que la solución de Bernoulli permitía funciones iniciales más generales que, a decir de otros autores, fue tema de críticas por parte de Euler a la propuesta de D’Alembert ~\cite{springer1999Physics}.
+Bernoulli y Euler mantuvieron una correspondencia epistolar productiva, y se puede afirmar que ambos dependían del otro para realizar su trabajo: Bernoulli necesitaba de Euler para orientar sus estudios matemáticos, mientras que Euler dependía de Bernoulli para comprender los fenómenos físicos que sustentaban su investigación matemática. A pesar de que partían de estudios matemáticos comunes, al final no lograron resolver ni juntos, ni de manera individual, ni desde una perspectiva experimental, donde la matemática jugara un papel metodológico predominante, ni desde el punto de vista matemático donde la física del problema guiara y definiera la teoría. Euler nunca consideró especialmente relevante el trabajo matemático de Daniel Bernoulli, ya que sus métodos eran algo imprecisos, aunque con gran intuición física. Por su parte, Bernoulli tampoco valoraba mucho los estudios matemáticos de Euler, pues estaban distantes de los experimentos. Bernoulli incluso llegó a comentar que Euler "tomaba sus pruebas de la naturaleza y no de algún principio de análisis". ~\cite{springer1999Physics}
 
 
 \subsection{La ecuación de calor}
+Hubo que esperar 54 años hasta que las ideas de Bernoulli fueron tomadas en cuenta por el barón Jean Baptiste-Joseph Fourier, matemático y físico francés, quien, entre otras actividades acompañó a Napoleón, en calidad e científico, en la campaña de éste en Egipto. Allí, como secretario del "Instituto de Egipto", hizo gala de gran competencia en diversos asuntos administrativos. ~\cite{almira2017fourier}
+
+\subsubsection{Fourier}
+Al regresar a Francia, y como profesor de Análisis de la Escuela Politécnica, Fourier se interesó por la teoría de la conducción del calor en los cuerpos sólidos. En 1807 envió un artículo a la Academia de Ciencias de París, que trataba sobre dicho tema. Más concretamente, Fourier consideró una varilla delgada de longitud dada \( \ell \), cuyos extremos se mantienen a \( 0^\circ \) centígrados y cuya superficie lateral está aislada. Si la distribución inicial de temperatura en la varilla viene dada por una función \( f(x) \) (se supone que la temperatura de la varilla en cada sección transversal de la misma es constante), ¿Cuál será la temperatura de cualquier punto \( x \) de la varilla en el tiempo \( t \)? Suponiendo que la varilla satisface condiciones físicas apropiadas, Fourier demostró que si \( u(x,t) \) representa la temperatura en la sección \( x \) y en el tiempo \( t \), entonces la función \( u \) debe tener la siguiente forma:
+
+\begin{equation} \label{eq12}
+	\begin{split}
+		\frac{\partial u(x,t)}{\partial t} &= \alpha^2 \frac{\partial^2 u(x,t)}{\partial x^2} , \quad 0 < x < \ell, \ 0 < t < \infty \\
+	\end{split}
+\end{equation}
+
+en donde: 
+\begin{itemize}
+	\item \(\frac{\partial u}{\partial t}(x,t)\): Representa la derivada parcial de \(u\) con respecto al tiempo \(t\), es decir, cómo cambia la temperatura \(u(x,t)\) en el punto \(x\) a lo largo del tiempo \(t\).
+	\item \(u(x,t)\): Es la función que describe la temperatura en un punto \(x\) en el espacio y en un tiempo \(t\). Depende tanto de la posición espacial \(x\) como del tiempo \(t\).
+	
+	\item \(\alpha^2\): Es el coeficiente de difusión térmica, que depende del material en cuestión. Este coeficiente es constante y está relacionado con la capacidad del material para difundir el calor. La unidad de \(\alpha\) es metros cuadrados por segundo \((\text{m}^2/\text{s})\).
+	\item \(\frac{\partial^2 u}{\partial x^2}(x,t)\): Representa la derivada parcial segunda de \(u\) con respecto a la posición \(x\), es decir, cómo cambia la pendiente (o curvatura) de la temperatura a lo largo del espacio. Esta cantidad indica cómo el calor se distribuye espacialmente.
+\end{itemize}
+
+Esta ecuación modela la difusión del calor en un medio a lo largo del tiempo. La derivada en el tiempo \(\left(\frac{\partial u}{\partial t}\right)\) está relacionada con la derivada segunda en el espacio \(\left(\frac{\partial^2 u}{\partial x^2}\right)\), lo que refleja que el cambio en la temperatura con el tiempo depende de cómo está distribuido el calor en el espacio.
+y esta debe satisfacer las siguientes condiciones:
+
+\begin{equation} \label{eq13}
+	\begin{split}
+		u(0,t) &= u(\ell,t) = 0, \quad 0 \leq t \leq \infty \\
+		u(x,0) &= f(x), \quad 0 \leq x \leq \ell.
+	\end{split}
+\end{equation}
+
+\begin{figure}[h]
+	\centering
+	\begin{tikzpicture}
+		% Aplicar un sombreado degradado del cilindro (de naranja a rojo)
+		\shade[left color=orange, right color=red] (0,1) -- (6.28,1) arc (90:-90:0.5 and 1) -- (0,-1) arc (-90:90:0.5 and 1);
+		
+		\filldraw [color=orange, draw=black](0,0) ellipse (0.5 and 1);  % Parte delantera del cilindro
+		%\shade[left color=orange, right color=red] (0,0) ellipse (0.5 and 1);
+		
+		% Dibujar las líneas laterales con degradado
+		\draw[thick, draw=black] (0,1) -- (6.28,1);
+		\draw[thick, draw=black] (0,-1) -- (6.28,-1);
+		\draw[thick, draw=black] (6.28,1) arc (90:-90:0.5 and 1);  % Arco frontal
+		\draw[dashed, thick, draw=black] (6.28,0) ellipse (0.5 and 1);  % Parte trasera del cilindro
+		
+		% Dibujar el plano coordenado xy
+		\draw[->,ultra thick] (-1,0) -- (7,0) node[right] {$x$};  % Eje x
+		\draw[->,ultra thick] (0,-2.5) -- (0,2.5) node[above] {$u(x,t)$};  % Eje y
+		
+		% Extremos fijos en x=0 y x=L
+		\draw[thick] (0,0) circle (0.05) node[below] {$x=0$};
+		\draw (3.14,0.1) -- (3.14,-0.1) node[below] {$\frac{\ell}{2}$};
+		\draw (6.28,0.1) -- (6.28,-0.1) node[below] {$\ell$};
+		
+		% Condiciones de contorno (Movidas hacia arriba para evitar superposición)
+		\draw[<-] (0,0.1) -- (-0.5,1.5) node[left] {$u(0,t)=0$};
+		\draw[<-] (6,0.1) -- (6.5,1.5) node[right] {$u(\ell,t)=0$};
+	\end{tikzpicture}
+ 	\caption[Ilustración del problema de transferencia de calor en una barra de longitud $\pi$.  ]{\textit{ Fuente: Elaboración propia} }
+	\label{fig:barra-pi}  % Etiqueta para la figura
+\end{figure}
+
+La primera condición en \ref{eq12} es una Ecuación en Derivadas Parciales de segundo orden, conocida con el nombre de Ecuación del Calor. La segunda significa que la temperatura, en los extremos de la varilla, se mantiene a \( 0^\circ \) centígrados en cualquier tiempo, mientras que la última relación representa la distribución inicial de temperatura en la varilla considerada.
+
+Partiendo de las ideas de Bernoulli, para la ecuación de ondas, Fourier buscó las soluciones más sencillas que puede presentar la ecuación del calor: aquellas que son de la forma:
+\begin{equation} \label{eq14}
+	\begin{split}
+		u(x,t) = X(x)P(t) \\
+	\end{split}
+\end{equation}
+
+ Imponiendo la condición de que tales funciones satisfagan, formalmente, dicha ecuación, obtenemos, como en el caso de la ecuación de ondas, los dos problemas siguientes de ecuaciones diferenciales ordinarias ~\cite{demostracion-calor}:
+\begin{equation} \label{eq15}
+	\begin{split}
+		X''(x) + \mu X(x) &= 0, \quad x \in (0, \ell), \ X(0) = X(\ell) = 0 \\
+		P'(t) + \mu P(t) &= 0, \quad t > 0
+	\end{split}
+\end{equation}
+
+Utilizando el método de separación de variables ~\cite{demostracion-calor-feldman}, Fourier propuso que la solución a la ecuación del calor podría expresarse como el producto de dos funciones, una dependiente de la posición \( X(x) \) y otra del tiempo \( P(t) \), como se indica en \eqref{eq13}. Esto descompone la ecuación en dos ecuaciones diferenciales ordinarias: una espacial \eqref{eq15} y una temporal \eqref{eq15}. Fourier resolvió cada una de estas ecuaciones por separado. La solución espacial \( X(t) \) resulta en una serie de funciones sinusoidales que satisfacen las condiciones de frontera en los extremos de la varilla, mientras que la solución temporal \( P(t) \) resulta en exponentes negativos que representan la disipación de calor en el tiempo. Así, disponemos de un procedimiento que nos permite calcular infinitas “soluciones elementales” de la ecuación del calor, a saber, las funciones de la forma \( b_n v_n \), donde \( v_n \) se define como:
+
+\begin{equation} \label{eq16}
+	\begin{split}
+		v(x,t) = \sin \left( \frac{n \pi}{\ell} x \right) e^{- \alpha^2 \frac{n^2 \pi^2}{\ell^2} k t}
+	\end{split}
+\end{equation}
+
+Es trivial que, si la distribución inicial de temperatura, \( f \), es algún múltiplo de \( \sen(nx) \) (o una combinación lineal finita de funciones de este tipo), entonces la solución buscada de \eqref{eq16} es un múltiplo adecuado de \( v_n \) (respectivamente, una adecuada combinación lineal de funciones de esta forma).
+
+Ahora bien, \( f(x) \) no es, en general, de la forma justo mencionada, pero, y aquí demostró Fourier, como Bernouilli, una enorme intuición, ¿Será posible obtener la solución \( u(x,t)\) de \eqref{eq16}, para cualquier \( f(x)\) dada, como superposición de las anteriores soluciones sencillas \( v_n \)? Es decir, ¿Será posible elegir adecuadamente los coeficientes \( b_n \) tal que la única solución de \eqref{eq16} sea de la forma:
+
+ 
+\begin{equation} \label{eq17}
+	\begin{split}
+		u(x,t) = \sum_{n=1}^{\infty} b_n \sin \left( \frac{n \pi}{\ell} x \right) e^{- \alpha^2 \frac{n^2 \pi^2}{\ell^2} k t}
+	\end{split}
+\end{equation}
+
+Fourier afirmó en su artículo que esto era correcto. Observemos que nuevamente llegamos a que, entonces, se debe satisfacer la relación \eqref{eq9}. Esto plantea la misma cuestión para dos problemas completamente distintos, el problema \eqref{eq1} y el problema \eqref{eq12}, en donde los coeficientes  \( b_n \) toman la forma:
+
+\begin{equation} \label{eq18}
+	\begin{split}
+		b_n = \frac{2}{\ell} \int_0^{\ell} f(x) \sin \left( \frac{n \pi x}{\ell} \right) \, dx
+	\end{split}
+\end{equation}
+
+Los coeficientes \( b_n \) se determinan en función de la distribución inicial de temperatura \( f(x) \) a través de la expresión en \eqref{eq18}, lo que permite que la solución refleje la distribución inicial específica de la varilla. Así, la solución general toma la forma de una serie de Fourier, como se observa en \eqref{eq17}, donde cada término de la serie combina una función sinusoidal en el espacio con un decaimiento exponencial en el tiempo. \newline
+
+El artículo Fourier fue evaluado por Lagrange, Laplace y Legendre y fue rechazado por la Academia Francesa, principalmente debido a la forma en que dedujo la ecuación del calor y por la falta de rigor en sus conclusiones (según la opinión de los académicos mencionados). Sin embargo, los miembros de dicha institución reconocían la relevancia de los problemas relacionados con la propagación del calor, y los resultados teóricos que Fourier presentó mostraban gran concordancia con varios experimentos realizados previamente ~\cite{historia-alambert-fourier-euler}. 
+
+Debido a esto, la Academia estableció un premio sobre el tema. Dicho premio fue otorgado a Fourier en 1812, pero, a pesar de esto, los académicos continuaron criticando la falta de rigor, de modo que, aunque ganó el premio, Fourier no logró publicar su trabajo en la famosa serie “\textit{Mémoires}” de la Academia Francesa. Con gran perseverancia, Fourier continuó trabajando en el tema, y en 1822 publicó su célebre libro \textit{Théorie Analytique de la Chaleur, Firmin Didot, Père et Fils, 1822, París}, donde incluyó gran parte de su artículo de 1812 casi sin modificaciones. Este libro es actualmente una de las obras clásicas en matemáticas ~\cite{historia-alambert-fourier-euler}.
+
+Dos años después, obtuvo el puesto de Secretario de la Academia Francesa, lo que le permitió finalmente publicar su artículo en la serie “\textit{Mémoires}” ~\cite{historia-alambert-fourier-euler}.
 
 \section{Series de Fourier}
+Luego de que las soluciones para la ecuación de onda y de calor fueron desarrolladas, Joseph Fourier propuso un nuevo método para expresar funciones periódicas en función de sinusoides. Las bases de lo que hoy conocemos como series de Fourier fueron establecidas por esta propuesta.\newline
+
+A continuación, se describen los conceptos matemáticos en los cuales se basan las series de Fourier, ofreciendo una base firme para entenderlas y aplicarlas en el estudio de funciones que se repiten periódicamente.
+\subsection{Funciones Periódicas}
+Una función es llamada \textit{función periódica} si existe una constante \( T > 0\) tal que
+
+\begin{equation} \label{eq19}
+	\begin{split}
+		f(t) = f(t \pm T)
+	\end{split}
+\end{equation}
+para todo valor de \( t \) en el dominio de definición de $f(t)$, donde la constante \( T \) se denomina \textit{periodo} de la función. El periodo también se puede definir como el tiempo transcurrido entre dos puntos equivalentes de una función ~\cite{fourierTolstov}.
+
+Las funciones periódicas aparecen en muchas aplicaciones de matemáticas para problemas de física e ingeniería. Es evidente que la suma, diferencia, producto o cociente de dos funciones con período $T$ también será una función con período $T$ ~\cite{fourierTolstov}.
+
+Si graficamos una función periódica $f(t)$ en un intervalo cerrado $a \leq t \leq a \pm T$, podemos obtener la gráfica completa de $f(t)$ repitiendo periódicamente la porción de la gráfica correspondiente a $a \leq t \leq a \pm T$ \ref{fig:funcion-periodica}.
+
+\begin{figure}[H]
+	\centering
+	\begin{tikzpicture}[scale=1]
+		\begin{axis}[
+			axis lines=middle,
+			enlargelimits=false,
+			width=15cm,
+			height=7cm,
+			ylabel={\large $f(t)$},
+			xlabel={\large $t$},
+			xtick={-4*pi, -2*pi, 0, 2*pi, 4*pi},
+			xticklabels={$a - 2T$, $a - T$, $a$, $a + T$, $a + 2T$},
+			ymin=-4, ymax=4,
+			xmin=-4*pi, xmax=4*pi,
+			samples=400,
+			domain=-4*pi:4*pi,
+			axis background/.style={fill=white},
+			yticklabels={}, 
+			grid=none,
+			xticklabel style={yshift=-3cm} % Ajusta el valor según necesites
+			]
+			
+			
+			\addplot[blue, ultra thick] {2 * ((-1)^(1-1)/1 * sin(deg(1*x)) + (-1)^(2-1)/2 * sin(deg(2*x)) + (-1)^(3-1)/3 * sin(deg(3*x)))};    
+			
+			\addplot[dashed, black, thick] coordinates {(2*pi, -4) (2*pi, 4)};
+			\addplot[dashed, black, thick] coordinates {(-2*pi, -4) (-2*pi, 4)};
+			\addplot[dashed, black, thick] coordinates {(4*pi, -4) (4*pi, 4)};
+			\addplot[dashed, black, thick] coordinates {(-4*pi, -4) (-4*pi, 4)};
+			
+		\end{axis}
+	\end{tikzpicture}
+	
+		\caption[Gráfica de una función periódica $f(t)$ con periodo $T$.]  {\textit{ Fuente: Elaboración propia} }
+	\label{fig:funcion-periodica}  % Etiqueta para la figura
+\end{figure}
+Si $T$ es un período de la función $f(t)$, entonces los números $2T$, $3T$, $4T$, $\dots$ también son períodos. Esto se deduce fácilmente al inspeccionar la gráfica de una función periódica o a partir de la serie de igualdades ~\cite{fourierHsu}
+\begin{equation} \label{eq20}
+	\begin{split}
+		f(t) = f(t \pm T) = f(t \pm 2T) = f(t \pm 3T) = \dots f(t \pm nT), \quad n = 0, \pm1, \pm2, \dots
+	\end{split}
+\end{equation}
+que se obtiene mediante el uso repetido de la condición \eqref{eq19}. Así, si \( T \) es un periodo, también lo es \( nT \), donde \( n \) es cualquier entero positivo, es decir, si existe un periodo, no es único ~\cite{fourierHsu}. Ademas, podemos definir como el \textit{periodo fundamental} \( T_0 \) de \( f(t) \) a el valor positivo más pequeño de \( T \) para el cual se satisface \eqref{eq19}. ~\cite{fourierCinvestav} \newline
+
+Ahora, consideremos la siguiente propiedad de cualquier función \( f(t) \) con período \( T \):
+
+Si \( f(t) \) es integrable en cualquier intervalo de longitud \( T \), entonces es integrable en cualquier otro intervalo de la misma longitud, y el valor de la integral es el mismo. Es decir,
+
+\begin{equation}
+	\int_a^{a+T} f(t) \, dx = \int_b^{b+T} f(t) \, dt
+\end{equation}
+
+para cualquier \( a \) y \( b \).
+
+Esta propiedad es una consecuencia directa de la interpretación del área bajo la curva como la integral. De hecho, cada integral de la ecuación anterior representa el área entre la curva \( f(t) \), el eje \( t \), y las líneas verticales en los puntos extremos del intervalo. Las áreas sobre el eje \( t \) se consideran positivas y las áreas bajo el eje \(t\) como negativas. En este caso, las áreas representadas por ambas integrales son iguales debido a la periodicidad de \( f(t) \) ~\cite{fourierTolstov} \ref{fig:area-periodica}.
+
+\begin{figure}
+	
+	\begin{tikzpicture}[scale=1]
+		\begin{axis}[
+			axis lines=middle,
+			enlargelimits=false,
+			width=15cm,
+			height=7cm,
+			ylabel={\large $f(t)$},
+			xlabel={\large $t$},
+			xtick={-5*pi/2, -pi/2, pi/4, 9*pi/4},
+			xticklabels={\large $a$, $a + T$, $b$, $b + T$},
+			ymin=-4, ymax=4,
+			xmin=-3*pi, xmax=3*pi,
+			samples=400,
+			domain=-3*pi:3*pi,
+			axis background/.style={fill=white},
+			yticklabels={}, 
+			grid=none,
+			xticklabel style={yshift=-3.2cm, xshift=0} % Ajusta el valor según necesites
+			]
+			
+			% Colorear el área bajo la curva entre a y a+T con patrón
+			\addplot [
+			draw=none,
+			pattern=north east lines, % <-- Cambia fill por pattern
+			pattern color=blue,       % <-- Define el color del patrón
+			domain=-5*pi/2:-pi/2,
+			samples=400,
+			] {2 * ((-1)^(1-1)/1 * sin(deg(1*x)) + (-1)^(2-1)/2 * sin(deg(2*x)) + (-1)^(3-1)/3 * sin(deg(3*x)))} \closedcycle;
+			
+			% Colorear el área bajo la curva entre b y b+T con patrón
+			\addplot [
+			draw=none,
+			pattern=north west lines, % <-- Cambia fill por pattern
+			pattern color=red,        % <-- Define el color del patrón
+			domain=pi/4:9*pi/4,
+			samples=400,
+			] {2 * ((-1)^(1-1)/1 * sin(deg(1*x)) + (-1)^(2-1)/2 * sin(deg(2*x)) + (-1)^(3-1)/3 * sin(deg(3*x)))} \closedcycle;
+			
+			\addplot[blue, ultra thick] {2 * ((-1)^(1-1)/1 * sin(deg(1*x)) + (-1)^(2-1)/2 * sin(deg(2*x)) + (-1)^(3-1)/3 * sin(deg(3*x)))};    
+			
+			\addplot[dashed, black, thick] coordinates {(-5*pi/2, -4) (-5*pi/2, 4)};
+			\addplot[dashed, black, thick] coordinates {(-pi/2, -4) (-pi/2, 4)};
+			\addplot[dashed, black, thick] coordinates {(pi/4, -4) (pi/4, 4)};
+			\addplot[dashed, black, thick] coordinates {(9*pi/4, -4) (9*pi/4, 4)};
+			
+		\end{axis}
+	\end{tikzpicture}
+	\caption[Gráfica del área bajo la curva de $f(t)$ entre los intervalos desde $a$ hasta $a + T$ y desde $b$ hasta $b + T$. ]{\textit{ Fuente: Elaboración propia} }
+	\label{fig:area-periodica}  % Etiqueta para la figura
+\end{figure}
+
+A partir de ahora, cuando afirmemos que una función \( f(t) \) de período \( T \) es integrable, queremos decir que es integrable en un intervalo de longitud \( T \). Esto implica, a partir de la propiedad recién demostrada, que \( f(t) \) es integrable en cualquier intervalo de longitud finita ~\cite{fourierTolstov}. \newline
+
+Las funciones periódicas más representativas son las funciones trigonométricas \(\sin(t)\) y \(\cos(t)\), ambas con periodo \( T = 2\pi \) (Figura \ref{fig:sen-cos}). Por lo tanto, de acuerdo con \eqref{eq19}, se tiene que \(\sin(t + 2\pi) = \sin(t)\) y \(\cos(t + 2\pi) = \cos(t)\) ~\cite{fourierCinvestav}.
+
+\begin{figure}[H]
+	\begin{minipage}{0.5\textwidth} % Reducimos el ancho al 48%
+		\begin{tikzpicture}[scale=0.45]
+			\begin{axis}[
+				axis lines=middle,
+				grid=both,
+				enlargelimits=false,
+				width=15cm, % Ancho de la gráfica
+				height=13cm, % Altura de la gráfica
+				xlabel={\Huge $t$},
+				ylabel={\Huge $f(t) = A \sin(t)$},
+				xtick={0, 1.5708, 3.1416, 4.7124, 6.2832, 7.8540, 9.4248, 10.9956, 12.5664},
+				xticklabels={$0$, $\frac{\pi}{2}$, $\pi$, $\frac{3\pi}{2}$, $2\pi$, $\frac{5\pi}{2}$, $3\pi$, $\frac{7\pi}{2}$, $4\pi$},
+				xticklabel style={font=\Large},
+				ytick={-1.5, -1, -0.5, 0, 0.5, 1, 1.5}, % Gradación de 0.5 en 0.5 en el eje y
+				ymin=-1.5, ymax=1.5,
+				xmin=0, xmax=4*pi,
+				samples=400,
+				domain=0:4*pi,
+				axis background/.style={fill=white}
+				]
+				
+				\addplot[blue, ultra thick] {( sin(180*x/pi) )};
+				
+				\addplot[dashed, black, thick] coordinates {(2*pi, -1.5) (2*pi, 1.5)};
+				\draw[<->, ultra thick, red] (0,-1.25) -- (2*pi,-1.25) node[midway, below, black] {\large $T$};
+				\draw[<->, ultra thick, red] (3*pi/2,0) -- (3*pi/2,-1) node[midway, below right, black, xshift=0.1cm] {\large $A$};
+			\end{axis}
+		\end{tikzpicture}
+	\end{minipage}
+	\hspace{0.1cm} % Espacio de 0.5 cm entre las gráficas
+	\begin{minipage}{0.5\textwidth} % Reducimos el ancho al 48%
+		\begin{tikzpicture}[scale=0.45]
+			\begin{axis}[
+				axis lines=middle,
+				grid=both,
+				enlargelimits=false,
+				width=15cm, % Ancho de la gráfica
+				height=13cm, % Altura de la gráfica
+				xlabel={\Huge $t$},
+				ylabel={\Huge $f(t) = A \cos(t)$},
+				xtick={0, 1.5708, 3.1416, 4.7124, 6.2832, 7.8540, 9.4248, 10.9956, 12.5664},
+				xticklabels={$0$, $\frac{\pi}{2}$, $\pi$, $\frac{3\pi}{2}$, $2\pi$, $\frac{5\pi}{2}$, $3\pi$, $\frac{7\pi}{2}$, $4\pi$},
+				xticklabel style={font=\Large},
+				ytick={-1.5, -1, -0.5, 0, 0.5, 1, 1.5}, % Gradación de 0.5 en 0.5 en el eje y
+				ymin=-1.5, ymax=1.5,
+				xmin=0, xmax=4*pi,
+				samples=400,
+				domain=0:4*pi,
+				axis background/.style={fill=white}
+				]
+				
+				\addplot[blue, ultra thick] {( cos(180*x/pi) )};
+				
+				\addplot[dashed, black, thick] coordinates {(2*pi, -1.5) (2*pi, 1.5)};
+				\draw[<->, ultra thick, red] (0,-1.25) -- (2*pi,-1.25) node[midway, below, black] {\large $T$};
+				\draw[<->, ultra thick, red] (pi,0) -- (pi,-1) node[midway, below right, black, xshift=0.1cm] {\large $A$};
+			\end{axis}
+		\end{tikzpicture}
+	\end{minipage}
+	\caption[Gráfica de las funciones trigonométricas $sin(t)$ y $cos(t)$.  ]{\textit{ Fuente: Elaboración propia} }
+	\label{fig:sen-cos}  % Etiqueta para la figura
+\end{figure}
+
+\subsection{Frecuencia}
+La relación entre la \textit{frecuencia} \( f \) y el \textit{periodo} \( T \) de una función oscilatoria está dada por
+\begin{equation}
+	f = \frac{1}{T}
+\end{equation}
+lo cual indica el número de oscilaciones de la función por unidad de tiempo. La unidad de medida de la frecuencia es el hertz (Hz). Un hertz quiere decir que una función oscila una vez por segundo. La Figura \ref{fig:seno-diferentes-frecuencias} muestra una función senoidal con tres frecuencias diferentes.
+
+\begin{figure}[H]
+	\centering
+	\begin{tikzpicture}
+		\begin{axis}[
+			axis lines=middle,
+			grid=both,
+			enlargelimits=false,
+			width=15cm, % Ancho de la gráfica
+			height=13cm, % Altura de la gráfica
+			xlabel={\Large $t$},
+			ylabel={\large $f(t)$},
+			xtick={0, 0.7854, 1.5708, 2.3562, 3.1416, 3.9269, 4.7124, 5.498, 6.2832},
+			xticklabels={ $0$, $\frac{\pi}{4}$, $\frac{\pi}{2}$, $\frac{3\pi}{4}$, $\pi$, $\frac{5\pi}{4}$, $\frac{3\pi}{2}$, $\frac{7\pi}{4}$, $2\pi$},
+			xticklabel style={font=\Large},
+			ytick={-1, -0.5, 0, 0.5, 1}, % Gradación de 0.5 en 0.5 en el eje y
+			ymin=-2, ymax=1.1,
+			xmin=0, xmax=2*pi,
+			samples=400,
+			domain=0:4*pi,
+			axis background/.style={fill=white}
+			legend style={at={(0.02,0.98)}, anchor=north west},% Posición ajustada a la esquina superior izquierda
+			axis background/.style={fill=white}
+			]
+			
+			\addplot[blue, ultra thick] {( sin(180*x/pi) )};
+			\addlegendentry{1 Hz};
+			\addplot[red, ultra thick, dashed] {( sin(360*x/pi) )};
+			\addlegendentry{2 Hz};
+			\addplot[orange, ultra thick, dotted] {( sin(540*x/pi) )};
+			\addlegendentry{3 Hz};
+			
+			\addplot[dashed, black,  thick] coordinates {(pi, 0) (pi, -4)};
+			\addplot[dashed, black,  thick] coordinates {(2*pi/3, 0) (2*pi/3, -4)};
+			\addplot[dashed, black,  thick] coordinates {(2*pi, 0) (2*pi, -4)};
+			
+			\draw[<->, ultra thick, orange] (0,-1.25) -- (2*pi/3,-1.25) node[midway, below, black] {\large $T_1$};
+			\draw[<->, ultra thick, red] (0,-1.5) -- (pi,-1.5) node[midway, below, black] {\large $T_2$};
+			\draw[<->, ultra thick, blue] (0,-1.75) -- (2*pi,-1.75) node[midway, below, black] {\large $T_3$};
+			
+			
+		\end{axis}
+	\end{tikzpicture}
+	\caption[Función $sin(t)$ con diferentes frecuencias]{Función $sin(t)$ con diferentes frecuencias. \textit{Fuente: Elaboración propia}}
+	\label{fig:seno-diferentes-frecuencias}  % Etiqueta para la figura
+\end{figure}
+
+La \textit{frecuencia angular}, usualmente denotada por \( \omega \), se define como la razón de cambio del desplazamiento angular \( \theta \) durante la oscilación (o rotación) ~\cite{fourierCinvestav}:
+\begin{equation}
+	\frac{d\theta}{dt} = \omega = 2 \pi f = \frac{2 \pi}{T}.
+\end{equation}
+
+La frecuencia angular se mide comúnmente en radianes por segundo (\( \text{rad/s} \)). La Figura\ref{fig:frecuencia-func-circ} ejemplifica la relación de una onda senoidal en el intervalo \([0, 2\pi]\) con una frecuencia angular \( \omega \). ~\cite{fourierCinvestav}
+\begin{figure}[H]
+	\begin{minipage}{0.5\textwidth} % Reducimos el ancho al 48%
+	\begin{tikzpicture}[scale=0.5]
+		\begin{axis}[
+			axis lines=middle,
+			grid=both,
+			enlargelimits=false,
+			width=15cm, % Ancho de la gráfica
+			height=13cm, % Altura de la gráfica
+			xlabel={\Large $t$},
+			ylabel={\large $f(t)$},
+			xtick={0, 0.7854, 1.5708, 2.3562, 3.1416, 3.9269, 4.7124, 5.498, 6.2832},
+			xticklabels={ $0$, $\frac{\pi}{4}$, $\frac{\pi}{2}$, $\frac{3\pi}{4}$, $\pi$, $\frac{5\pi}{4}$, $\frac{3\pi}{2}$, $\frac{7\pi}{4}$, $2\pi$},
+			xticklabel style={font=\Large},
+			ytick={-1, -0.5, 0, 0.5, 1}, % Gradación de 0.5 en 0.5 en el eje y
+			ymin=-1.1, ymax=1.1,
+			xmin=0, xmax=2*pi,
+			samples=400,
+			domain=0:4*pi,
+			axis background/.style={fill=white}
+			]
+			
+			\addplot[blue, ultra thick] {( sin(180*x/pi) )};
+			
+			\draw[<->, ultra thick, red] (pi/2,0) -- (pi/2,1) node[midway, below right, black, xshift=0.1cm] {\large $A$};
+		\end{axis}
+	\end{tikzpicture}
+	\end{minipage}
+	\hspace{1cm} % Espacio de 0.5 cm entre las gráficas
+	\begin{minipage}{0.5\textwidth} % Reducimos el ancho al 48%
+		\scalebox{0.5}{
+		\begin{tikzpicture}
+			% Draw the circle
+			\draw[ultra thick, blue] (0,0) circle (4cm);
+			
+			% Draw the axes
+			\draw[->] (-4.5,0) -- (4.5,0) node[right] {\Large $0$};
+			\draw[->] (0,-4.5) -- (0,4.5) node[above] {\Large $\frac{\pi}{2}$};
+			
+			% Label the angles
+			\node at (-4.5, 0) [left] {\Large $\pi$};
+			\node at (0, -4.5) [below] {\Large $\frac{3\pi}{2}$};
+			
+			% Draw the radius line
+			\draw[<->, ultra thick, red] (0,0) -- (2.82,2.82);
+			
+			% Draw angle
+			\draw (0.8,0) arc (0:45:0.8); % Cambia el radio del arco a 0.8 para hacerlo más grande
+			\node at (1,0.3) {\Large $\theta$};
+		\end{tikzpicture}
+	}
+	\end{minipage}
+	\caption[Relación de la frecuencia angular entre la función $sin(t)$ con el circulo unitario.] {\textit{ Fuente: Elaboración propia}  }
+	\label{fig:frecuencia-func-circ}  % Etiqueta para la figura
+\end{figure}
+
 
 \subsection{Series de Funciones}
+Una serie de funciones es una suma infinita de funciones que depende de un parámetro. Este concepto es fundamental para el desarrollo de muchas herramientas en análisis matemático.
+
 \subsubsection{Definición de Series de Funciones}
+La definición de una serie de funciones involucra una suma infinita donde cada término es una función. Estas series pueden converger a una función límite.
+
 \subsubsection{Convergencia de Series de Funciones}
-
-\subsection{Definición de las Funciones Trigonométricas de Seno y Coseno}
-\subsubsection{Definición del Seno}
-\subsubsection{Definición del Coseno}
-\subsubsection{Propiedades y Relaciones Fundamentales}
-
-\subsection{Funciones Periódicas}
-\subsubsection{Definición de Funciones Periódicas}
-\subsubsection{Propiedades de las Funciones Periódicas}
+La convergencia de una serie de funciones describe cuándo y cómo la suma de los términos se aproxima a una función límite. Existen distintos tipos de convergencia, como la convergencia puntual y la convergencia uniforme.
 
 \subsection{Armónicos}
+Los armónicos son funciones sinusoidales que forman parte fundamental de la teoría de las series de Fourier, utilizados en la descomposición de señales.
+
 \subsubsection{Definición de Armónicos}
+Los armónicos se definen como múltiplos enteros de una frecuencia fundamental. Son componentes básicos en el análisis de series de Fourier.
+
 \subsubsection{Importancia de los Armónicos en Series de Fourier}
+En las series de Fourier, los armónicos permiten expresar funciones periódicas como una combinación de senos y cosenos de diferentes frecuencias.
 
 \subsection{Funciones Ortogonales}
+Las funciones ortogonales son fundamentales en el análisis de Fourier, ya que permiten descomponer funciones en términos independientes entre sí.
+
 \subsubsection{Concepto de Ortogonalidad}
+La ortogonalidad entre funciones significa que su producto interno es cero. Esto permite la separación de componentes en una descomposición.
+
 \subsubsection{Ejemplos de Funciones Ortogonales}
+Ejemplos de funciones ortogonales incluyen los senos y cosenos en series de Fourier, y los polinomios de Legendre y Chebyshev.
 
 \subsection{Originalidad del Seno y Coseno}
-\subsubsection{Propiedades del Seno y el Coseno}
-\subsubsection{Uso del Seno y el Coseno en Series de Fourier}
+El seno y el coseno son fundamentales en el análisis de Fourier debido a sus propiedades de periodicidad y ortogonalidad.
 
-\subsection{Series de Fourier de Período $T$ o de $-p$ a $-p$}
+\subsubsection{Propiedades del Seno y el Coseno}
+El seno y el coseno tienen propiedades importantes, como su periodicidad y simetría, que los hacen útiles en series de Fourier.
+
+\subsubsection{Uso del Seno y el Coseno en Series de Fourier}
+En series de Fourier, el seno y el coseno se usan para representar funciones periódicas a través de la descomposición en frecuencias.
+
+\subsection{Series de Fourier de Período $T$ o de $-p$ a $p$}
+Esta sección aborda la construcción de series de Fourier para funciones periódicas en intervalos definidos.
+
 \subsubsection{Generalización de la Serie de Fourier}
+La serie de Fourier puede generalizarse a cualquier intervalo de periodo $T$ o simétrico en $[-p, p]$.
+
 \subsubsection{Coeficientes de Fourier para Período $T$}
+Los coeficientes de Fourier para funciones periódicas de periodo $T$ se calculan integrando sobre un intervalo de longitud $T$.
 
 \subsection{Funciones Suaves y Suaves por Partes}
+Las funciones suaves y suaves por partes tienen importancia en el análisis de Fourier por su comportamiento en el límite.
+
 \subsubsection{Definición de Funciones Suaves}
+Una función suave es infinitamente diferenciable en su dominio, lo que facilita su análisis en series.
+
 \subsubsection{Definición de Funciones Suaves por Partes}
+Una función suave por partes es diferenciable en segmentos específicos, con algunas discontinuidades en sus derivadas.
+
 \subsubsection{Aplicaciones en Series de Fourier}
+Estas funciones son útiles en el análisis de Fourier debido a sus propiedades de continuidad y diferenciabilidad.
 
 \subsection{Series de Fourier de Senos y Cosenos}
+Las series de Fourier de senos y cosenos permiten descomponer funciones en términos de senos y cosenos exclusivamente.
+
 \subsubsection{Condiciones para la Cancelación de Coeficientes}
+Para que ciertos coeficientes desaparezcan en una serie de Fourier, la función debe tener propiedades particulares de simetría.
+
 \subsubsection{Desarrollo de Series de Fourier con Senos y Cosenos}
+El desarrollo de series de Fourier en senos y cosenos se basa en las propiedades de simetría de las funciones.
 
 \subsection{Funciones Pares e Impares}
+Las funciones pares e impares presentan propiedades específicas que simplifican sus desarrollos en series de Fourier.
+
 \subsubsection{Definición y Propiedades de Funciones Pares}
+Una función par es simétrica respecto al eje y; sus series de Fourier contienen solo términos de coseno.
+
 \subsubsection{Definición y Propiedades de Funciones Impares}
+Una función impar es simétrica respecto al origen; sus series de Fourier contienen solo términos de seno.
 
 \subsection{Extensiones de Medio Intervalo}
+Las extensiones de medio intervalo son técnicas para definir una función en un dominio extendido, facilitando el análisis de Fourier.
+
 \subsubsection{Extensión Periódica}
+La extensión periódica replica la función en intervalos sucesivos, creando una función periódica.
+
 \subsubsection{Extensión Par}
+La extensión par hace que la función sea simétrica respecto al eje y, facilitando el análisis con cosenos.
+
 \subsubsection{Extensión Impar}
+La extensión impar hace que la función sea simétrica respecto al origen, facilitando el análisis con senos.
 
 \subsection{Serie Compleja de Fourier de Período $T$ o de $-p$ a $p$}
+La serie compleja de Fourier representa funciones periódicas utilizando exponentes complejos, simplificando el cálculo.
+
 \subsubsection{Definición de Serie Compleja de Fourier}
+La serie compleja de Fourier usa exponentes complejos para expresar funciones periódicas de manera compacta.
+
 \subsubsection{Coeficientes Complejos para Período $T$}
+Los coeficientes complejos se obtienen integrando sobre un intervalo de longitud $T$ y representan la amplitud y fase de cada frecuencia.
 
 \subsection{Serie Compleja de Fourier de $0$ a $p$}
+Esta serie compleja se utiliza para representar funciones definidas en intervalos específicos como $[0, p]$.
+
 \subsubsection{Definición y Desarrollo}
-no
+Se describe cómo desarrollar la serie compleja de Fourier en un intervalo de $[0, p]$, utilizando exponentes complejos.
+
 \subsubsection{Aplicaciones y Ejemplos}
+Ejemplos de aplicación de la serie compleja de Fourier en análisis de señales y sistemas periódicos.
+
 
 \section{Tecnologías Utilizadas}
 
