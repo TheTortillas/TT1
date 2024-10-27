@@ -450,6 +450,58 @@
       \field{title}{Introducción al Análisis de Fourier}
       \field{year}{2024}
     \endentry
+    \entry{armonicosOpenStax}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=ee0491cfaae7dc7c8f7017c28cfc8175}{%
+           family={Moebs},
+           familyi={M\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee0491cfaae7dc7c8f7017c28cfc8175}
+      \strng{fullhash}{ee0491cfaae7dc7c8f7017c28cfc8175}
+      \strng{fullhashraw}{ee0491cfaae7dc7c8f7017c28cfc8175}
+      \strng{bibnamehash}{ee0491cfaae7dc7c8f7017c28cfc8175}
+      \strng{authorbibnamehash}{ee0491cfaae7dc7c8f7017c28cfc8175}
+      \strng{authornamehash}{ee0491cfaae7dc7c8f7017c28cfc8175}
+      \strng{authorfullhash}{ee0491cfaae7dc7c8f7017c28cfc8175}
+      \strng{authorfullhashraw}{ee0491cfaae7dc7c8f7017c28cfc8175}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://openstax.org/books/física-universitaria-volumen-1/pages/15-1-movimiento-armonico-simple}}
+      \field{note}{Accedido: 26 Oct, 2024}
+      \field{title}{15.1 Movimiento armóico simple - Física universitaria volumen 1 | OpenStax}
+      \field{year}{2024}
+    \endentry
+    \entry{matesAvanzadasZill}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=4f1802a9605a28bafbd47a7c5594114b}{%
+           family={Zill},
+           familyi={Z\bibinitperiod},
+           given={D.\bibnamedelimi G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{4f1802a9605a28bafbd47a7c5594114b}
+      \strng{fullhash}{4f1802a9605a28bafbd47a7c5594114b}
+      \strng{fullhashraw}{4f1802a9605a28bafbd47a7c5594114b}
+      \strng{bibnamehash}{4f1802a9605a28bafbd47a7c5594114b}
+      \strng{authorbibnamehash}{4f1802a9605a28bafbd47a7c5594114b}
+      \strng{authornamehash}{4f1802a9605a28bafbd47a7c5594114b}
+      \strng{authorfullhash}{4f1802a9605a28bafbd47a7c5594114b}
+      \strng{authorfullhashraw}{4f1802a9605a28bafbd47a7c5594114b}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9786071507723}
+      \field{title}{Matemáticas Avanzadas para la Ingeniería}
+      \field{year}{2011}
+    \endentry
     \entry{MetodologíasDeDesarrollo2015}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=2d2b0d998977e6379aad61f1b56ac3c1}{%
@@ -465,8 +517,8 @@
       \strng{authorfullhash}{2d2b0d998977e6379aad61f1b56ac3c1}
       \strng{authorfullhashraw}{2d2b0d998977e6379aad61f1b56ac3c1}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://woodyweb.wordpress.com/2015/08/24/metodologias-de-desarrollo/}}

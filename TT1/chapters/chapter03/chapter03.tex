@@ -53,10 +53,10 @@ En donde la primera ecuación establece la posición inicial de la cuerda, mient
 		\draw[thick] (6,0) circle (0.05) node[below] {$x=\ell$};
 		
 		% Desplazamiento inicial de la cuerda
-		\draw[domain=0:6,smooth,variable=\x,blue,thick] plot ({\x},{1.8*sin(180*\x/6)});
+		\draw[domain=0:6,smooth,variable=\x,guinda,thick] plot ({\x},{1.8*sin(180*\x/6)});
 		
 		% Etiqueta de la cuerda
-		\node[above,blue] at (3,1.9) {$u(x,0) = f(x)$};
+		\node[above,guinda] at (3,1.9) {$u(x,0) = f(x)$};
 		
 		% Condiciones de contorno (Movidas hacia arriba para evitar superposición)
 		\draw[<-] (0,0.1) -- (-0.5,0.4) node[left] {$u(0,t)=0$};
@@ -68,7 +68,7 @@ En donde la primera ecuación establece la posición inicial de la cuerda, mient
 		% Flecha de tiempo (opcional)
 		% \draw[->] (6.5,1) -- (6.5,1.5) node[right] {$t$ aumenta};
 	\end{tikzpicture}
-	\caption[Ilustración del problema de la cuerda vibrante.] {\textit{Fuente: Elaboración propia} }
+	\caption[Ilustración del problema de la cuerda vibrante.] {Ilustración del problema de la cuerda vibrante. \textit{Fuente: Elaboración propia} }
 	\label{fig:cuerda-vibrante}  % Etiqueta para la figura
 \end{figure}
 %https://teorica.fis.ucm.es/pparanda/EDPdf/EDPviejas/ppedp6.pdf
@@ -205,7 +205,7 @@ que incorporaban el hecho experimental de que cualquier modo de vibración de un
 		\end{scope}
 	\end{tikzpicture}
 	
-	\caption[Ilustración de 3 armónicos y sus nodos de la cuerda al vibrar.] {\textit{Fuente: Elaboración propia}} 
+	\caption[Ilustración de 3 armónicos y sus nodos de la cuerda al vibrar.] {Ilustración de 3 armónicos y sus nodos de la cuerda al vibrar.\textit{Fuente: Elaboración propia}} 
 	\label{fig:armonicos_cuerda}  % Etiqueta para la figura
 \end{figure}
 
@@ -287,7 +287,7 @@ y esta debe satisfacer las siguientes condiciones:
 		\draw[<-] (0,0.1) -- (-0.5,1.5) node[left] {$u(0,t)=0$};
 		\draw[<-] (6,0.1) -- (6.5,1.5) node[right] {$u(\ell,t)=0$};
 	\end{tikzpicture}
- 	\caption[Ilustración del problema de transferencia de calor en una barra de longitud $\pi$.  ]{\textit{ Fuente: Elaboración propia} }
+ 	\caption[Ilustración del problema de transferencia de calor en una barra de longitud $\ell$.  ]{ Ilustración del problema de transferencia de calor en una barra de longitud $\pi$.  \textit{ Fuente: Elaboración propia} }
 	\label{fig:barra-pi}  % Etiqueta para la figura
 \end{figure}
 
@@ -384,7 +384,7 @@ Si graficamos una función periódica $f(t)$ en un intervalo cerrado $a \leq t \
 			]
 			
 			
-			\addplot[blue, ultra thick] {2 * ((-1)^(1-1)/1 * sin(deg(1*x)) + (-1)^(2-1)/2 * sin(deg(2*x)) + (-1)^(3-1)/3 * sin(deg(3*x)))};    
+			\addplot[guinda, ultra thick] {2 * ((-1)^(1-1)/1 * sin(deg(1*x)) + (-1)^(2-1)/2 * sin(deg(2*x)) + (-1)^(3-1)/3 * sin(deg(3*x)))};    
 			
 			\addplot[dashed, black, thick] coordinates {(2*pi, -4) (2*pi, 4)};
 			\addplot[dashed, black, thick] coordinates {(-2*pi, -4) (-2*pi, 4)};
@@ -394,7 +394,7 @@ Si graficamos una función periódica $f(t)$ en un intervalo cerrado $a \leq t \
 		\end{axis}
 	\end{tikzpicture}
 	
-		\caption[Gráfica de una función periódica $f(t)$ con periodo $T$.]  {\textit{ Fuente: Elaboración propia} }
+		\caption[Gráfica de una función periódica $f(t)$ con periodo $T$.]  {Gráfica de una función periódica $f(t)$ con periodo $T$.\textit{ Fuente: Elaboración propia} }
 	\label{fig:funcion-periodica}  % Etiqueta para la figura
 \end{figure}
 Si $T$ es un período de la función $f(t)$, entonces los números $2T$, $3T$, $4T$, $\dots$ también son períodos. Esto se deduce fácilmente al inspeccionar la gráfica de una función periódica o a partir de la serie de igualdades ~\cite{fourierHsu}
@@ -409,7 +409,7 @@ Ahora, consideremos la siguiente propiedad de cualquier función \( f(t) \) con 
 
 Si \( f(t) \) es integrable en cualquier intervalo de longitud \( T \), entonces es integrable en cualquier otro intervalo de la misma longitud, y el valor de la integral es el mismo. Es decir,
 
-\begin{equation}
+\begin{equation} \label{eq21}
 	\int_a^{a+T} f(t) \, dx = \int_b^{b+T} f(t) \, dt
 \end{equation}
 
@@ -457,7 +457,7 @@ Esta propiedad es una consecuencia directa de la interpretación del área bajo 
 			samples=400,
 			] {2 * ((-1)^(1-1)/1 * sin(deg(1*x)) + (-1)^(2-1)/2 * sin(deg(2*x)) + (-1)^(3-1)/3 * sin(deg(3*x)))} \closedcycle;
 			
-			\addplot[blue, ultra thick] {2 * ((-1)^(1-1)/1 * sin(deg(1*x)) + (-1)^(2-1)/2 * sin(deg(2*x)) + (-1)^(3-1)/3 * sin(deg(3*x)))};    
+			\addplot[guinda, ultra thick] {2 * ((-1)^(1-1)/1 * sin(deg(1*x)) + (-1)^(2-1)/2 * sin(deg(2*x)) + (-1)^(3-1)/3 * sin(deg(3*x)))};    
 			
 			\addplot[dashed, black, thick] coordinates {(-5*pi/2, -4) (-5*pi/2, 4)};
 			\addplot[dashed, black, thick] coordinates {(-pi/2, -4) (-pi/2, 4)};
@@ -466,7 +466,7 @@ Esta propiedad es una consecuencia directa de la interpretación del área bajo 
 			
 		\end{axis}
 	\end{tikzpicture}
-	\caption[Gráfica del área bajo la curva de $f(t)$ entre los intervalos desde $a$ hasta $a + T$ y desde $b$ hasta $b + T$. ]{\textit{ Fuente: Elaboración propia} }
+	\caption[Gráfica del área bajo la curva de $f(t)$ entre los intervalos desde $a$ hasta $a + T$ y desde $b$ hasta $b + T$. ]{Gráfica del área bajo la curva de $f(t)$ entre los intervalos desde $a$ hasta $a + T$ y desde $b$ hasta $b + T$. \textit{ Fuente: Elaboración propia} }
 	\label{fig:area-periodica}  % Etiqueta para la figura
 \end{figure}
 
@@ -496,7 +496,7 @@ Las funciones periódicas más representativas son las funciones trigonométrica
 				axis background/.style={fill=white}
 				]
 				
-				\addplot[blue, ultra thick] {( sin(180*x/pi) )};
+				\addplot[guinda, ultra thick] {( sin(180*x/pi) )};
 				
 				\addplot[dashed, black, thick] coordinates {(2*pi, -1.5) (2*pi, 1.5)};
 				\draw[<->, ultra thick, red] (0,-1.25) -- (2*pi,-1.25) node[midway, below, black] {\large $T$};
@@ -526,7 +526,7 @@ Las funciones periódicas más representativas son las funciones trigonométrica
 				axis background/.style={fill=white}
 				]
 				
-				\addplot[blue, ultra thick] {( cos(180*x/pi) )};
+				\addplot[guinda, ultra thick] {( cos(180*x/pi) )};
 				
 				\addplot[dashed, black, thick] coordinates {(2*pi, -1.5) (2*pi, 1.5)};
 				\draw[<->, ultra thick, red] (0,-1.25) -- (2*pi,-1.25) node[midway, below, black] {\large $T$};
@@ -534,20 +534,20 @@ Las funciones periódicas más representativas son las funciones trigonométrica
 			\end{axis}
 		\end{tikzpicture}
 	\end{minipage}
-	\caption[Gráfica de las funciones trigonométricas $sin(t)$ y $cos(t)$.  ]{\textit{ Fuente: Elaboración propia} }
+	\caption[Gráfica de las funciones trigonométricas $sin(t)$ y $cos(t)$.  ]{Gráfica de las funciones trigonométricas $sin(t)$ y $cos(t)$. \textit{ Fuente: Elaboración propia} }
 	\label{fig:sen-cos}  % Etiqueta para la figura
 \end{figure}
 
 \subsection{Frecuencia}
 La relación entre la \textit{frecuencia} \( f \) y el \textit{periodo} \( T \) de una función oscilatoria está dada por
-\begin{equation}
+\begin{equation} \label{eq22}
 	f = \frac{1}{T}
 \end{equation}
-lo cual indica el número de oscilaciones de la función por unidad de tiempo. La unidad de medida de la frecuencia es el hertz (Hz). Un hertz quiere decir que una función oscila una vez por segundo. La Figura \ref{fig:seno-diferentes-frecuencias} muestra una función senoidal con tres frecuencias diferentes.
+lo cual indica el número de oscilaciones de la función por unidad de tiempo. La unidad de medida de la frecuencia es el hertz (Hz). Un hertz quiere decir que una función oscila una vez por segundo ~\cite{fourierCinvestav}. La Figura \ref{fig:seno-diferentes-frecuencias} muestra una función senoidal con tres frecuencias diferentes.
 
 \begin{figure}[H]
 	\centering
-	\begin{tikzpicture}
+	\begin{tikzpicture}[scale=0.7]
 		\begin{axis}[
 			axis lines=middle,
 			grid=both,
@@ -569,7 +569,7 @@ lo cual indica el número de oscilaciones de la función por unidad de tiempo. L
 			axis background/.style={fill=white}
 			]
 			
-			\addplot[blue, ultra thick] {( sin(180*x/pi) )};
+			\addplot[guinda, ultra thick] {( sin(180*x/pi) )};
 			\addlegendentry{1 Hz};
 			\addplot[red, ultra thick, dashed] {( sin(360*x/pi) )};
 			\addlegendentry{2 Hz};
@@ -582,7 +582,7 @@ lo cual indica el número de oscilaciones de la función por unidad de tiempo. L
 			
 			\draw[<->, ultra thick, orange] (0,-1.25) -- (2*pi/3,-1.25) node[midway, below, black] {\large $T_1$};
 			\draw[<->, ultra thick, red] (0,-1.5) -- (pi,-1.5) node[midway, below, black] {\large $T_2$};
-			\draw[<->, ultra thick, blue] (0,-1.75) -- (2*pi,-1.75) node[midway, below, black] {\large $T_3$};
+			\draw[<->, ultra thick, guinda] (0,-1.75) -- (2*pi,-1.75) node[midway, below, black] {\large $T_3$};
 			
 			
 		\end{axis}
@@ -591,12 +591,13 @@ lo cual indica el número de oscilaciones de la función por unidad de tiempo. L
 	\label{fig:seno-diferentes-frecuencias}  % Etiqueta para la figura
 \end{figure}
 
-La \textit{frecuencia angular}, usualmente denotada por \( \omega \), se define como la razón de cambio del desplazamiento angular \( \theta \) durante la oscilación (o rotación) ~\cite{fourierCinvestav}:
-\begin{equation}
-	\frac{d\theta}{dt} = \omega = 2 \pi f = \frac{2 \pi}{T}.
+La \textit{frecuencia angular}, usualmente denotada por \( \omega_0 \), se define como la razón de cambio del desplazamiento angular \( \theta \) durante la oscilación (o rotación) ~\cite{fourierCinvestav}:
+
+\begin{equation} \label{eq23}
+	\frac{d\theta}{dt} = \omega_0 = 2 \pi f = \frac{2 \pi}{T}.
 \end{equation}
 
-La frecuencia angular se mide comúnmente en radianes por segundo (\( \text{rad/s} \)). La Figura\ref{fig:frecuencia-func-circ} ejemplifica la relación de una onda senoidal en el intervalo \([0, 2\pi]\) con una frecuencia angular \( \omega \). ~\cite{fourierCinvestav}
+La frecuencia angular se mide comúnmente en radianes por segundo (\( \text{rad/s} \)). La Figura\ref{fig:frecuencia-func-circ} ejemplifica la relación de una onda senoidal en el intervalo \([0, 2\pi]\) con una frecuencia angular \( \omega_0 \). ~\cite{fourierCinvestav}
 \begin{figure}[H]
 	\begin{minipage}{0.5\textwidth} % Reducimos el ancho al 48%
 	\begin{tikzpicture}[scale=0.5]
@@ -619,7 +620,7 @@ La frecuencia angular se mide comúnmente en radianes por segundo (\( \text{rad/
 			axis background/.style={fill=white}
 			]
 			
-			\addplot[blue, ultra thick] {( sin(180*x/pi) )};
+			\addplot[guinda, ultra thick] {( sin(180*x/pi) )};
 			
 			\draw[<->, ultra thick, red] (pi/2,0) -- (pi/2,1) node[midway, below right, black, xshift=0.1cm] {\large $A$};
 		\end{axis}
@@ -630,7 +631,7 @@ La frecuencia angular se mide comúnmente en radianes por segundo (\( \text{rad/
 		\scalebox{0.5}{
 		\begin{tikzpicture}
 			% Draw the circle
-			\draw[ultra thick, blue] (0,0) circle (4cm);
+			\draw[ultra thick, guinda] (0,0) circle (4cm);
 			
 			% Draw the axes
 			\draw[->] (-4.5,0) -- (4.5,0) node[right] {\Large $0$};
@@ -649,10 +650,422 @@ La frecuencia angular se mide comúnmente en radianes por segundo (\( \text{rad/
 		\end{tikzpicture}
 	}
 	\end{minipage}
-	\caption[Relación de la frecuencia angular entre la función $sin(t)$ con el circulo unitario.] {\textit{ Fuente: Elaboración propia}  }
+	\caption[Relación de la frecuencia angular entre la función $sin(t)$ con el circulo unitario.] {Relación de la frecuencia angular entre la función $sin(t)$ con el circulo unitario.\textit{ Fuente: Elaboración propia}  }
 	\label{fig:frecuencia-func-circ}  % Etiqueta para la figura
 \end{figure}
 
+\subsection{Armónicos}
+La función periódica más simple, y la de mayor importancia para las aplicaciones, es
+\begin{equation}
+	\begin{split}
+		f(t) = A \sin(\omega_0 t + \varphi) \\
+		f(t) = A \cos(\omega_0 t + \varphi) 
+	\end{split}
+\end{equation}
+
+Cabe señalar que, dado que las funciones seno y coseno solo se diferencian por un deslizamiento de fase, este movimiento podría modelarse usando la función coseno o la función seno, en donde \(A\), \(\omega_0\), y \(\varphi\) son constantes. En una función armónica, la \textit{amplitud} \(A\) representa el valor máximo de la oscilación. La \textit{frecuencia angular} \(\omega_0\) determina la rapidez con la que se realiza la oscilación y viene dada por $\frac{2\pi}{T}$, recordando que $T$ es el periodo de la función, y la \textit{fase inicial} \(\varphi\) indica el desplazamiento de la función en el tiempo al inicio de la observación, es decir, indica con que desfase comienza. \ref{fig:fase-coseno} ~\cite{armonicosOpenStax}. 
+
+\begin{figure}[H]
+	\begin{minipage}{0.5\textwidth} % Reducimos el ancho al 48%
+		\begin{tikzpicture}[scale=0.5]
+			\begin{axis}[
+				axis lines=middle,
+				grid=both,
+				enlargelimits=false,
+				width=15cm, % Ancho de la gráfica
+				height=13cm, % Altura de la gráfica
+				xlabel={\Large $\theta$},
+				ylabel={\large $f(\theta)$},
+				xtick={-3.1416, -2.3562, -1.5708, -0.7854, 0, 0.7854, 1.5708, 2.3562, 3.1416, 3.9269, 4.7124, 5.498, 6.2832},
+				xticklabels={ $-\pi$, $-\frac{3\pi}{4}$, $-\frac{\pi}{2}$, $-\frac{\pi}{4}$, $0$, $\frac{\pi}{4}$, $\frac{\pi}{2}$, $\frac{3\pi}{4}$, $\pi$, $\frac{5\pi}{4}$, $\frac{3\pi}{2}$, $\frac{7\pi}{4}$, $2\pi$},
+				xticklabel style={font=\Large},
+				ytick={-2, -1, 0, 1, 2}, % Gradación de 0.5 en 0.5 en el eje y
+				ymin=-2, ymax=2,
+				xmin=-pi, xmax=2*pi,
+				samples=400,
+				domain=-pi:2*pi,
+				axis background/.style={fill=white}
+				]
+				% Mueve la etiqueta f(t) al lado izquierdo del eje y y la pone en color rojo
+				\node at (axis cs:0.4,1.2) {\huge \textcolor{guinda}{$f(\theta) = \cos(\theta)$}};
+				\addplot[guinda, ultra thick] {( cos(180*x/pi) )};
+			\end{axis}
+		\end{tikzpicture}
+	\end{minipage}
+	\hspace{0.25cm} % Espacio de 0.5 cm entre las gráficas
+	\begin{minipage}{0.5\textwidth} % Reducimos el ancho al 48%
+		\begin{tikzpicture}[scale=0.5]
+			\begin{axis}[
+				axis lines=middle,
+				grid=both,
+				enlargelimits=false,
+				width=15cm, % Ancho de la gráfica
+				height=13cm, % Altura de la gráfica
+				xlabel={\Large $\theta$},
+				ylabel={\large $f(\theta)$},
+				xtick={-3.1416, -2.3562, -1.5708, -0.7854, 0, 0.7854, 1.5708, 2.3562, 3.1416, 3.9269, 4.7124, 5.498, 6.2832},
+				xticklabels={ $-\pi$, $-\frac{3\pi}{4}$, $-\frac{\pi}{2}$, $-\frac{\pi}{4}$, $0$, $\frac{\pi}{4}$, $\frac{\pi}{2}$, $\frac{3\pi}{4}$, $\pi$, $\frac{5\pi}{4}$, $\frac{3\pi}{2}$, $\frac{7\pi}{4}$, $2\pi$},
+				xticklabel style={font=\Large},
+				ytick={-2, -1, 0, 1, 2}, % Gradación de 0.5 en 0.5 en el eje y
+				ymin=-2, ymax=2,
+				xmin=-pi, xmax=2*pi,
+				samples=400,
+				domain=-pi:2*pi,
+				axis background/.style={fill=white}
+				]
+				% Mueve la etiqueta f(t) al lado izquierdo del eje y y la pone en color rojo
+				\node at (axis cs:0.4,1.2) {\huge \textcolor{guinda}{$f(\theta) = \cos(\theta + \textcolor{orange}{\varphi})$}};
+				\addplot[guinda, ultra thick] {( cos(180*x/pi - 57.2958*pi/2) )};
+				\addplot[dashed, black, thick] coordinates {(pi/2, -2) (pi/2, 2)};
+				\draw[<->, ultra thick, red, dashed] (axis cs:0,-1) -- (axis cs:pi/2,-1) node[midway, below, black] {\huge $\textcolor{orange}{\varphi}$};;
+			\end{axis}
+		\end{tikzpicture}
+	\end{minipage}
+	\caption[Una función coseno y la misma función coseno desplazada hacia la izquierda por un ángulo $\varphi$.] {Una función coseno y la misma función coseno desplazada hacia la izquierda por un ángulo $\varphi$.\textit{ Fuente: Elaboración propia}  }
+	\label{fig:fase-coseno}  % Etiqueta para la figura
+\end{figure}
+
+\subsection{Funciones Pares e Impares}
+Más adelante se verá como es que la paridad o imparidad de una función $f(t)$ muchas veces puede ahorrar diversos cálculos, comenzamos definiendo que una función es par si se cumple que: ~\cite{matesAvanzadasZill}
+
+\begin{equation} \label{eq24}
+	f(t) = f(-t) , \quad -L < t < L
+\end{equation}
+
+En la Figura \ref{fig:funcion-par} se muestra un ejemplo de una función para en donde se puede observar la definición \eqref{eq24}
+\begin{figure}[H]
+	\centering
+	\begin{tikzpicture}[scale=0.5]
+		\begin{axis}[
+			axis lines=middle,
+			grid=both,
+			enlargelimits=false,
+			width=15cm, % Ancho de la gráfica
+			height=13cm, % Altura de la gráfica
+			xlabel={\huge $t$},
+			ylabel={\huge $f(t)$},
+			xtick={-3,-2,-1,0,1,2,3},
+			ytick={-3,-2,-1,0,1,2,3},
+			xticklabels=\empty, % Elimina los números en el eje x
+			yticklabels=\empty, % Elimina los números en el eje y
+			ymin=-3, ymax=3,
+			xmin=-3, xmax=3,
+			samples=400,
+			domain=-3:3,
+			axis background/.style={fill=white}
+			]
+			% Agrega etiquetas "t" en x=2 y x=-2
+			\node at (axis cs:2,-0.5) {\huge $t$};
+			\node at (axis cs:-2,-0.5) {\huge $-t$};
+			
+			% Dibuja las líneas rojas
+			\draw[<->, ultra thick, red, dashed] (axis cs:0,2) -- (axis cs:-2,2);
+			\draw[<->, ultra thick, red, dashed] (axis cs:-2,0) -- (axis cs:-2,2);
+			\draw[<->, ultra thick, red, dashed] (axis cs:0,2) -- (axis cs:2,2);
+			\draw[<->, ultra thick, red, dashed] (axis cs:2,0) -- (axis cs:2,2);
+			
+			% Agrega la curva azul
+			\addplot[guinda, ultra thick] {(x^2 - 2)};
+		\end{axis}
+	\end{tikzpicture}
+	\caption[Ejemplo de una función par]{Ejemplo de una función par. \textit{Fuente: Elaboración propia}}
+	\label{fig:funcion-par}  % Etiqueta para la figura
+\end{figure}
+
+Ahora, decimos que una función es impar si se cumple que: ~\cite{matesAvanzadasZill}
+esquina
+\begin{equation} \label{eq25}
+	f(t) = - f(t) , \quad -L < t < L
+\end{equation}
+
+En la Figura \ref{fig:funcion-impar} se muestra un ejemplo de una función para en donde se puede observar la definición \eqref{eq25}
+\begin{figure}[H]
+	\centering
+	\begin{tikzpicture}[scale=0.5]
+		\begin{axis}[
+			axis lines=middle,
+			grid=both,
+			enlargelimits=false,
+			width=15cm, % Ancho de la gráfica
+			height=13cm, % Altura de la gráfica
+			xlabel={\huge $t$},
+			xtick={-3,-2,-1,0,1,2,3},
+			ytick={-3,-2,-1,0,1,2,3},
+			xticklabels=\empty, % Elimina los números en el eje x
+			yticklabels=\empty, % Elimina los números en el eje y
+			ymin=-3, ymax=3,
+			xmin=-3, xmax=3,
+			samples=400,
+			domain=-3:3,
+			axis background/.style={fill=white}
+			]
+			% Agrega etiquetas "t" en x=2 y x=-2
+			\node at (axis cs:-1.4,0.5) {\huge $t$};
+			\node at (axis cs:1.4,-0.5) {\huge $-t$};
+			
+			% Mueve la etiqueta f(t) al lado izquierdo del eje y
+			\node at (axis cs:-0.5,2.744) {\huge $f(t)$};
+			\node at (axis cs:0.5,-2.744) {\huge $f(t)$};
+			
+			% Dibuja las líneas rojas
+			\draw[<->, ultra thick, red, dashed] (axis cs:-1.4,-2.744) -- (axis cs:0,-2.744);
+			\draw[<->, ultra thick, red, dashed] (axis cs:-1.4,0) -- (axis cs:-1.4,-2.744);
+			
+			\draw[<->, ultra thick, red, dashed] (axis cs:1.4,2.744) -- (axis cs:0,2.744);
+			\draw[<->, ultra thick, red, dashed] (axis cs:1.4,0) -- (axis cs:1.4,2.744);
+			
+			% Agrega la curva azul
+			\addplot[guinda, ultra thick] {(x^3)};
+		\end{axis}
+	\end{tikzpicture}
+	\caption[Ejemplo de una función impar]{Ejemplo de una función impar. \textit{Fuente: Elaboración propia}}
+	\label{fig:funcion-impar}  % Etiqueta para la figura
+\end{figure}
+Podemos decir entonces que en un intervalo simétrico $-L < t < L$, la gráfica de una función par tiene simetría respecto al eje y, mientras que la gráfica de una función impar tiene simetría en relación con el origen. ADemás, las funciones pares e impares culpen con los siguientes teoremas ~\cite{matesAvanzadasZill}:
+\begin{itemize}
+	\item[a)] El producto de dos funciones pares es par.
+	\item[b)] El producto de dos funciones impares es par.
+	\item[c)] El producto de una función par y una impar es impar.
+	\item[d)] La suma (resta) de dos funciones pares es par.
+	\item[e)] La suma (resta) de dos funciones impares es impar.
+	\item[f)] Si $f$ es par, entonces $\int_{-a}^{a} f(t) \, dt = 2 \int_{0}^{a} f(t) \, dt$.
+	\item[g)] Si $f$ es impar, entonces $\int_{-a}^{a} f(t) \, dt = 0$.
+\end{itemize}
+En la Figura \ref{fig:areas-par-impar} podemos observar como es que se cumplen los teoremas f y g, ya que en la primera el área de la función desde $-a$ hasta $0$ es el negativo a su contraparte que se encuentra desde $0$ hasta $a$, lo que significa que el área conjunta desde $-a$ hasta $a$ se anulará dando $0$, por otra parte, la segunda imagen nos muestra que el área desde $-a$ hasta $0$ es la misma que la que hay desde $0$ hasta $a$, lo que implica que el área desde desde $-a$ hasta $a$ es lo doble de el área desde $0$ hasta $\mp a$. 
+\begin{figure}[H]
+	\begin{minipage}{0.5\textwidth} % Reducimos el ancho al 48%
+		\begin{tikzpicture}[scale=0.5]
+			\begin{axis}[
+				axis lines=middle,
+				enlargelimits=false,
+				width=15cm,
+				height=7cm,
+				ylabel={\large $f(t)$},
+				xlabel={\large $t$},
+				xticklabels=\empty, % Elimina los números en el eje x
+				yticklabels=\empty, % Elimina los números en el eje y
+				ymin=-1.5, ymax=1.5,
+				xmin=-pi, xmax=pi,
+				samples=400,
+				domain=-pi:pi,
+				axis background/.style={fill=white},
+				yticklabels={}, 
+				grid=none,
+				xticklabel style={yshift=-3.2cm, xshift=0} % Ajusta el valor según necesites
+				]
+				
+				% Colorear el área bajo la curva entre a y a+T con patrón
+				\addplot [
+				draw=none,
+				pattern=north east lines, % <-- Cambia fill por pattern
+				pattern color=blue,       % <-- Define el color del patrón
+				domain=-pi:0,
+				samples=400,
+				]{( sin(180*x/pi)}\closedcycle;
+				
+				% Colorear el área bajo la curva entre b y b+T con patrón
+				\addplot [
+				draw=none,
+				pattern=north east lines, % <-- Cambia fill por pattern
+				pattern color=red,        % <-- Define el color del patrón
+				domain=0:pi,
+				samples=400,
+				] {( sin(180*x/pi)} \closedcycle;
+				
+				\addplot[guinda, ultra thick] {( sin(180*x/pi)};    
+				
+				\node at (axis cs:0.5,-2.744) {\huge $f(t)$};
+				
+				\node at (axis cs:-pi+0.2,0.5) {\huge $-a$};
+				\node at (axis cs:pi-0.2,0.5) {\huge $a$};
+				
+				
+			\end{axis}
+		\end{tikzpicture}
+	\end{minipage}
+	\hspace{0.25cm} % Espacio de 0.5 cm entre las gráficas
+	\begin{minipage}{0.5\textwidth} % Reducimos el ancho al 48%
+		\begin{tikzpicture}[scale=0.5]
+			\begin{axis}[
+				axis lines=middle,
+				enlargelimits=false,
+				width=15cm,
+				height=7cm,
+				ylabel={\large $f(t)$},
+				xlabel={\large $t$},
+				xticklabels=\empty, % Elimina los números en el eje x
+				yticklabels=\empty, % Elimina los números en el eje y
+				ymin=-1.5, ymax=1.5,
+				xmin=-pi, xmax=pi,
+				samples=400,
+				domain=-pi:pi,
+				axis background/.style={fill=white},
+				yticklabels={}, 
+				grid=none,
+				xticklabel style={yshift=-3.2cm, xshift=0} % Ajusta el valor según necesites
+				]
+				
+				% Colorear el área bajo la curva entre a y a+T con patrón
+				\addplot [
+				draw=none,
+				pattern=north east lines, % <-- Cambia fill por pattern
+				pattern color=blue,       % <-- Define el color del patrón
+				domain=-pi:0,
+				samples=400,
+				]{( cos(90*x/pi)}\closedcycle;
+				
+				% Colorear el área bajo la curva entre b y b+T con patrón
+				\addplot [
+				draw=none,
+				pattern=north east lines, % <-- Cambia fill por pattern
+				pattern color=red,        % <-- Define el color del patrón
+				domain=0:pi,
+				samples=400,
+				] {( cos(90*x/pi)} \closedcycle;
+				
+				\addplot[guinda, ultra thick] {( cos(90*x/pi)};    
+				
+				\node at (axis cs:0.5,-2.744) {\huge $f(t)$};
+				
+				\node at (axis cs:-pi+0.2,0.5) {\huge $-a$};
+				\node at (axis cs:pi-0.2,0.5) {\huge $a$};
+				
+			\end{axis}
+		\end{tikzpicture}
+	\end{minipage}
+	\caption[Comprobación de los teoremas f y g de funciones pares e impares ]{Comprobación de los teoremas f y g de funciones pares e impares \textit{Fuente: Elaboración propia}}
+	\label{fig:areas-par-impar}  % Etiqueta para la figura
+\end{figure}
+
+
+\subsection{Funciones suaves y funciones suaves a trozos}
+Una función \( f(t) \) se dice que es \textit{suave} en el intervalo \([a, b]\) si tiene una derivada \textit{continua} en \([a, b]\). En términos geométricos, esto significa que la dirección de la tangente cambia de forma \textit{continua}, sin saltos, mientras se desplaza a lo largo de la curva \(  f(t) \) [ver Figura \ref{fig:smooth-func}]. Así, el gráfico de una función suave es una curva suave sin “saltos”. ~\cite{fourierTolstov}
+\begin{figure} [H]
+	\centering
+	\begin{tikzpicture}[scale=0.5]
+		\begin{axis}[
+			axis lines=middle,
+			grid=both,
+			enlargelimits=false,
+			width=15cm, % Ancho de la gráfica
+			height=13cm, % Altura de la gráfica
+			xlabel={\huge $t$},
+			ylabel={\huge $f(t)$},
+			xtick={-3,-2,-1,0,1,2,3},
+			ytick={-3,-2,-1,0,1,2,3},
+			xticklabels=\empty, % Elimina los números en el eje x
+			yticklabels=\empty, % Elimina los números en el eje y
+			ymin=-3, ymax=3,
+			xmin=-3, xmax=3,
+			samples=400,
+			domain=-1:2,
+			axis background/.style={fill=white}
+			]
+			% Agrega etiquetas "t" en x=2 y x=-2
+			\node at (axis cs:2,-0.5) {\huge $b$};
+			\node at (axis cs:-1,-1.5) {\huge $a$};
+			
+			% Dibuja las líneas rojas
+			\draw[<->, ultra thick, red, dashed] (axis cs:-1,0) -- (axis cs:-1,-1);
+			\draw[<->, ultra thick, red, dashed] (axis cs:2,0) -- (axis cs:2,2);
+			
+			% Agrega la curva guinda
+			\addplot[guinda, ultra thick] {((x^3)-2*x^2+2)};
+			
+		\end{axis}
+	\end{tikzpicture}
+	\caption[Ejemplo de una función suave]{Ejemplo de una función suave. \textit{Fuente: Elaboración propia}}
+	\label{fig:smooth-func}  % Etiqueta para la figura
+\end{figure}
+
+La función \( f(t) \) se dice que es \textit{suave a trozos} en el intervalo \([a, b]\) si tanto \( f(t) \) como su derivada son continuas en \([a, b]\), o si tienen solamente un número finito de discontinuidades de salto en \([a, b]\). Es fácil ver que el gráfico de una función suave por partes es o bien una curva continua o una curva discontinua que puede tener un número finito de saltos (en las cuales la derivada tiene saltos). A medida que nos acercamos a cualquier discontinuidad o salto (desde un lado o el otro), la dirección de la tangente se aproxima a una posición límite definida, ya que la derivada sólo puede tener discontinuidades de salto. Las figuras \ref{fig:funcion-suave-trozos} ilustran las gráficas de funciones suaves a trozos continuas y discontinuas. ~\cite{fourierTolstov}
+
+\begin{figure}[H]
+	\begin{minipage}{0.5\textwidth} % Reducimos el ancho al 48%
+		\begin{tikzpicture}[scale=0.5]
+			\begin{axis}[
+				axis lines=middle,
+				grid=both,
+				enlargelimits=false,
+				width=15cm, % Ancho de la gráfica
+				height=13cm, % Altura de la gráfica
+				xlabel={\huge $t$},
+				ylabel={\huge $f(t)$},
+				xtick={-3,-2,-1,0,1,2,3},
+				ytick={-3,-2,-1,0,1,2,3},
+				xticklabels=\empty, % Elimina los números en el eje x
+				yticklabels=\empty, % Elimina los números en el eje y
+				ymin=-3, ymax=3,
+				xmin=-3, xmax=3,
+				samples=400,
+				domain=-2:2,
+				axis background/.style={fill=white}
+				]
+				% Agrega etiquetas "t" en x=2 y x=-2
+				\node at (axis cs:2,-0.5) {\huge $b$};
+				\node at (axis cs:-2,0.5) {\huge $a$};
+				
+				% Dibuja las líneas rojas
+				\draw[<->, ultra thick, red, dashed] (axis cs:-2,0) -- (axis cs:-2,-1);
+				
+				% Agrega la curva azul para la función a trozos
+				\addplot[guinda, ultra thick, domain=-2:-1] {-1}; % segmento cuadrático en [-2, -1]
+				\addplot[guinda, ultra thick, domain=-1:1] {x^3}; % seno en [-1, 1]
+				\addplot[guinda, ultra thick, domain=1:2] {-(x-1)^2 + 1}; % segmento cuadrático en [1, 2]
+				
+			\end{axis}
+		\end{tikzpicture}
+	\end{minipage}
+		\hspace{0.25cm} % Espacio de 0.5 cm entre las gráficas
+	\begin{minipage}{0.5\textwidth} % Reducimos el ancho al 48%
+		\begin{tikzpicture}[scale=0.5]
+			\begin{axis}[
+				axis lines=middle,
+				grid=both,
+				enlargelimits=false,
+				width=15cm, % Ancho de la gráfica
+				height=13cm, % Altura de la gráfica
+				xlabel={\huge $t$},
+				ylabel={\huge $f(t)$},
+				xtick={-3,-2,-1,0,1,2,3},
+				ytick={-3,-2,-1,0,1,2,3},
+				xticklabels=\empty, % Elimina los números en el eje x
+				yticklabels=\empty, % Elimina los números en el eje y
+				ymin=-3, ymax=3,
+				xmin=-3, xmax=3,
+				samples=400,
+				domain=-2:2,
+				axis background/.style={fill=white}
+				]
+				% Agrega etiquetas "t" en x=2 y x=-2
+				\node at (axis cs:2,-0.5) {\huge $b$};
+				\node at (axis cs:-2,-0.5) {\huge $a$};
+				
+				% Dibuja las líneas rojas
+				\draw[<->, ultra thick, red, dashed] (axis cs:-2,0) -- (axis cs:-2,1);
+				\draw[<->, ultra thick, red, dashed] (axis cs:2,0) -- (axis cs:2,1);
+				
+				%Uniones entre saltos
+				\draw[thick, guinda, dashed] (axis cs:-1,-1) -- (axis cs:-1,1);
+				\draw[thick, guinda, dashed] (axis cs:0,-1) -- (axis cs:0,0);
+				\draw[thick, guinda, dashed] (axis cs:1,1) -- (axis cs:1,2);
+				
+				% Agrega la curva azul para la función a trozos
+				\addplot[guinda, ultra thick, domain=-2:-1] {1}; % segmento cuadrático en [-2, -1]
+				\addplot[guinda, ultra thick, domain=-1:0] {sin(deg(pi*x))-1}; % seno en [-1, 1]
+				\addplot[guinda, ultra thick, domain=0:1] {x^2};
+				\addplot[guinda, ultra thick, domain=1:2] {-(x-1)^2 + 2}; % segmento cuadrático en [1, 2]
+				
+			\end{axis}
+		\end{tikzpicture}
+	\end{minipage}
+	\caption[Ejemplo de una función suave a trozos completamente continua y una función a tozos con discontinuidades (saltos).]{Ejemplo de una función suave a trozos completamente continua y una función a tozos con discontinuidades (saltos).]\textit{Fuente: Elaboración propia}}
+	\label{fig:funcion-suave-trozos}  % Etiqueta para la figura
+\end{figure}
+Entonces, una función continua o discontinua \( f(t) \) definida en todo el eje \( t \) se dice que es \textit{suave a trozos} si, en cualquier intervalo finito, se comporta de manera que su derivada es continua o tiene pocas discontinuidades. Esto significa que la función puede tener ciertos "saltos" o cambios bruscos en su forma, pero entre estos puntos, su comportamiento es regular y suave. Este concepto es útil para funciones periódicas, que se repiten en ciclos. Toda función \( f(t) \) suave a trozos (ya sea continua o discontinua) está acotada, lo que implica que no puede crecer indefinidamente y tiene una derivada acotada en todas partes, excepto en sus "esquinas" y puntos de discontinuidad (es decir, en los puntos donde la función cambia abruptamente o tiene saltos), donde la derivada \( f'(t) \) no existe. ~\cite{fourierTolstov}
+
+\subsection{Funciones Ortogonales}
+Las funciones ortogonales son fundamentales en el análisis de Fourier, ya que permiten descomponer funciones en términos independientes entre sí.
 
 \subsection{Series de Funciones}
 Una serie de funciones es una suma infinita de funciones que depende de un parámetro. Este concepto es fundamental para el desarrollo de muchas herramientas en análisis matemático.
@@ -663,32 +1076,6 @@ La definición de una serie de funciones involucra una suma infinita donde cada 
 \subsubsection{Convergencia de Series de Funciones}
 La convergencia de una serie de funciones describe cuándo y cómo la suma de los términos se aproxima a una función límite. Existen distintos tipos de convergencia, como la convergencia puntual y la convergencia uniforme.
 
-\subsection{Armónicos}
-Los armónicos son funciones sinusoidales que forman parte fundamental de la teoría de las series de Fourier, utilizados en la descomposición de señales.
-
-\subsubsection{Definición de Armónicos}
-Los armónicos se definen como múltiplos enteros de una frecuencia fundamental. Son componentes básicos en el análisis de series de Fourier.
-
-\subsubsection{Importancia de los Armónicos en Series de Fourier}
-En las series de Fourier, los armónicos permiten expresar funciones periódicas como una combinación de senos y cosenos de diferentes frecuencias.
-
-\subsection{Funciones Ortogonales}
-Las funciones ortogonales son fundamentales en el análisis de Fourier, ya que permiten descomponer funciones en términos independientes entre sí.
-
-\subsubsection{Concepto de Ortogonalidad}
-La ortogonalidad entre funciones significa que su producto interno es cero. Esto permite la separación de componentes en una descomposición.
-
-\subsubsection{Ejemplos de Funciones Ortogonales}
-Ejemplos de funciones ortogonales incluyen los senos y cosenos en series de Fourier, y los polinomios de Legendre y Chebyshev.
-
-\subsection{Originalidad del Seno y Coseno}
-El seno y el coseno son fundamentales en el análisis de Fourier debido a sus propiedades de periodicidad y ortogonalidad.
-
-\subsubsection{Propiedades del Seno y el Coseno}
-El seno y el coseno tienen propiedades importantes, como su periodicidad y simetría, que los hacen útiles en series de Fourier.
-
-\subsubsection{Uso del Seno y el Coseno en Series de Fourier}
-En series de Fourier, el seno y el coseno se usan para representar funciones periódicas a través de la descomposición en frecuencias.
 
 \subsection{Series de Fourier de Período $T$ o de $-p$ a $p$}
 Esta sección aborda la construcción de series de Fourier para funciones periódicas en intervalos definidos.
@@ -702,14 +1089,6 @@ Los coeficientes de Fourier para funciones periódicas de periodo $T$ se calcula
 \subsection{Funciones Suaves y Suaves por Partes}
 Las funciones suaves y suaves por partes tienen importancia en el análisis de Fourier por su comportamiento en el límite.
 
-\subsubsection{Definición de Funciones Suaves}
-Una función suave es infinitamente diferenciable en su dominio, lo que facilita su análisis en series.
-
-\subsubsection{Definición de Funciones Suaves por Partes}
-Una función suave por partes es diferenciable en segmentos específicos, con algunas discontinuidades en sus derivadas.
-
-\subsubsection{Aplicaciones en Series de Fourier}
-Estas funciones son útiles en el análisis de Fourier debido a sus propiedades de continuidad y diferenciabilidad.
 
 \subsection{Series de Fourier de Senos y Cosenos}
 Las series de Fourier de senos y cosenos permiten descomponer funciones en términos de senos y cosenos exclusivamente.

@@ -8,13 +8,19 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Ilustración del problema de la cuerda vibrante.}}{14}{figure.caption.8}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Ilustración de 3 armónicos y sus nodos de la cuerda al vibrar.}}{15}{figure.caption.9}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Ilustración del problema de transferencia de calor en una barra de longitud $\pi $. }}{17}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Ilustración del problema de transferencia de calor en una barra de longitud $\ell $. }}{17}{figure.caption.10}%
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Gráfica de una función periódica $f(t)$ con periodo $T$.}}{20}{figure.caption.11}%
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Gráfica del área bajo la curva de $f(t)$ entre los intervalos desde $a$ hasta $a + T$ y desde $b$ hasta $b + T$. }}{21}{figure.caption.12}%
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Gráfica de las funciones trigonométricas $sin(t)$ y $cos(t)$. }}{21}{figure.caption.13}%
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Función $sin(t)$ con diferentes frecuencias}}{22}{figure.caption.14}%
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Relación de la frecuencia angular entre la función $sin(t)$ con el circulo unitario.}}{22}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Una función coseno y la misma función coseno desplazada hacia la izquierda por un ángulo $\varphi $.}}{23}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Ejemplo de una función par}}{24}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Ejemplo de una función impar}}{24}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Comprobación de los teoremas f y g de funciones pares e impares }}{25}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Ejemplo de una función suave}}{25}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Ejemplo de una función suave a trozos completamente continua y una función a tozos con discontinuidades (saltos).}}{26}{figure.caption.21}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Etapas de la metodología por prototipos \newline \centering \textit {Fuente: ~\blx@tocontentsinit {0}\cite {MetodologíasDeDesarrollo2015}}}}{29}{figure.caption.16}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Etapas de la metodología por prototipos \newline \centering \textit {Fuente: ~\blx@tocontentsinit {0}\cite {MetodologíasDeDesarrollo2015}}}}{32}{figure.caption.22}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
