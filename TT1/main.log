@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.24)  27 OCT 2024 20:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.24)  27 OCT 2024 21:22
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1382,7 +1382,13 @@ aries/tikzlibraryspy.code.tex
 File: tikzlibraryspy.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@lib@spybox=\box81
 )
-Package hyperref Info: Option `colorlinks' set `false' on input line 102.
+(/home/sebastian/.miktex/texmfs/install/tex/latex/pgf/frontendlayer/libraries/t
+ikzlibraryexternal.code.tex
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libr
+aries/tikzexternalshared.code.tex))
+\openout4 = `main.auxlock'.
+
+Package hyperref Info: Option `colorlinks' set `false' on input line 104.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -1390,30 +1396,30 @@ Package csquotes Info: Redefining alias 'default' -> 'spanish'.
  (main.aux
 LaTeX Info: Redefining \. on input line 14.
 LaTeX Info: Redefining \% on input line 14.
- (chapters/chapter01/chapter01.aux)
-(chapters/chapter02/chapter02.aux) (chapters/chapter03/chapter03.aux)
+ (chapters/chapter01/chapter01.aux) (chapters/chapter02/chapter02.aux) (chapter
+s/chapter03/chapter03.aux)
 (chapters/chapter04/chapter04.aux) (chapters/chapter05/chapter05.aux)
 (appendages/appendixA/appendixA.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
 
 (/home/sebastian/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1480,8 +1486,8 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \c@lstlisting=\count512
-LaTeX Info: Redefining \. on input line 106.
-LaTeX Info: Redefining \% on input line 106.
+LaTeX Info: Redefining \. on input line 108.
+LaTeX Info: Redefining \% on input line 108.
 Package biblatex Info: Trying to load language 'spanish'...
 Package biblatex Info: ... file 'spanish.lbx' found.
 (/home/sebastian/.miktex/texmfs/install/tex/latex/biblatex/lbx/spanish.lbx
@@ -1496,8 +1502,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
 (main.bbl)
-Package biblatex Info: Reference section=0 on input line 106.
-Package biblatex Info: Reference segment=0 on input line 106.
+Package biblatex Info: Reference section=0 on input line 108.
+Package biblatex Info: Reference segment=0 on input line 108.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
@@ -1506,7 +1512,7 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 106.
+Package hyperref Info: Link coloring OFF on input line 108.
 
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
@@ -1514,19 +1520,19 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 <img/EscudoIPN.png, id=6, 774.895pt x 1145.27875pt>
 File: img/EscudoIPN.png Graphic file (type png)
 <use img/EscudoIPN.png>
-Package pdftex.def Info: img/EscudoIPN.png  used on input line 109.
+Package pdftex.def Info: img/EscudoIPN.png  used on input line 111.
 (pdftex.def)             Requested size: 53.48749pt x 79.0418pt.
 <img/EscudoESCOM.png, id=8, 451.6875pt x 289.08pt>
 File: img/EscudoESCOM.png Graphic file (type png)
 <use img/EscudoESCOM.png>
-Package pdftex.def Info: img/EscudoESCOM.png  used on input line 109.
+Package pdftex.def Info: img/EscudoESCOM.png  used on input line 111.
 (pdftex.def)             Requested size: 101.6259pt x 65.04019pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 109
+LaTeX Font Info:    Trying to load font information for U+msa on input line 111
 .
 (/home/sebastian/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 109
+LaTeX Font Info:    Trying to load font information for U+msb on input line 111
 .
 
 (/home/sebastian/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
@@ -1534,23 +1540,23 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <22> not available
-(Font)              size <20.74> substituted on input line 109.
+(Font)              size <20.74> substituted on input line 111.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/sc' in size <22> not available
-(Font)              size <20.74> substituted on input line 109.
+(Font)              size <20.74> substituted on input line 111.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 109.
+(Font)              size <17.28> substituted on input line 111.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/sc' in size <16> not available
-(Font)              size <17.28> substituted on input line 109.
+(Font)              size <17.28> substituted on input line 111.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 109.
+(Font)              size <17.28> substituted on input line 111.
 
 [1
 
@@ -1567,15 +1573,15 @@ Underfull \hbox (badness 1184) in paragraph at lines 15--16
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 23--117
+Underfull \hbox (badness 10000) in paragraph at lines 23--119
 
  []
 
 [3
 
 ]
-LaTeX Info: Redefining \. on input line 117.
-LaTeX Info: Redefining \% on input line 117.
+LaTeX Info: Redefining \. on input line 119.
+LaTeX Info: Redefining \% on input line 119.
  [4
 
 ] (main.toc
@@ -1603,15 +1609,15 @@ Underfull \hbox (badness 3568) in paragraph at lines 60--60
  [][] [][]\OT1/cmr/m/n/12 Ventajas del uso de Angular para futuras 
  []
 
-LaTeX Info: Redefining \sptext on input line 79.
-LaTeX Info: Redefining \. on input line 79.
-LaTeX Info: Redefining \% on input line 79.
+LaTeX Info: Redefining \sptext on input line 80.
+LaTeX Info: Redefining \. on input line 80.
+LaTeX Info: Redefining \% on input line 80.
 [6])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
-LaTeX Info: Redefining \. on input line 119.
-LaTeX Info: Redefining \% on input line 119.
+LaTeX Info: Redefining \. on input line 121.
+LaTeX Info: Redefining \% on input line 121.
  [7] (main.lof
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
@@ -1639,8 +1645,8 @@ ticos y
  [9
 
 ]
-LaTeX Info: Redefining \. on input line 123.
-LaTeX Info: Redefining \% on input line 123.
+LaTeX Info: Redefining \. on input line 125.
+LaTeX Info: Redefining \% on input line 125.
  [10
 
 ]
@@ -1718,11 +1724,11 @@ s
  []
 
 )
-LaTeX Info: Redefining \. on input line 124.
-LaTeX Info: Redefining \% on input line 124.
+LaTeX Info: Redefining \. on input line 126.
+LaTeX Info: Redefining \% on input line 126.
  [4]
-LaTeX Info: Redefining \. on input line 124.
-LaTeX Info: Redefining \% on input line 124.
+LaTeX Info: Redefining \. on input line 126.
+LaTeX Info: Redefining \% on input line 126.
  [5]
 \openout2 = `chapters/chapter02/chapter02.aux'.
 
@@ -1964,11 +1970,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--34
 LaTeX Info: Redefining \. on input line 58.
 LaTeX Info: Redefining \% on input line 58.
 [8]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-<img/chapter02/wolfram_trig_series.png, id=397, 1166.3575pt x 895.345pt>
+===== Image 'figures/main-figure0' is up-to-date. ======
+<img/chapter02/wolfram_trig_series.png, id=399, 1166.3575pt x 895.345pt>
 File: img/chapter02/wolfram_trig_series.png Graphic file (type png)
 <use img/chapter02/wolfram_trig_series.png>
 Package pdftex.def Info: img/chapter02/wolfram_trig_series.png  used on input l
@@ -1982,8 +1985,8 @@ Underfull \hbox (badness 2653) in paragraph at lines 108--115
 
 LaTeX Info: Redefining \. on input line 116.
 LaTeX Info: Redefining \% on input line 116.
-[9]
-<img/chapter02/wolfram_complex_series.png, id=403, 1166.3575pt x 800.9925pt>
+[9 <./figures/main-figure0.pdf>]
+<img/chapter02/wolfram_complex_series.png, id=436, 1166.3575pt x 800.9925pt>
 File: img/chapter02/wolfram_complex_series.png Graphic file (type png)
 <use img/chapter02/wolfram_complex_series.png>
 Package pdftex.def Info: img/chapter02/wolfram_complex_series.png  used on inpu
@@ -1993,12 +1996,13 @@ LaTeX Info: Redefining \. on input line 124.
 LaTeX Info: Redefining \% on input line 124.
  [10 <./img/chapter02/wolfram_trig_series.png> <./img/chapter02/wolfram_complex
 _series.png>])
-LaTeX Info: Redefining \. on input line 125.
-LaTeX Info: Redefining \% on input line 125.
+LaTeX Info: Redefining \. on input line 127.
+LaTeX Info: Redefining \% on input line 127.
  [11]
 \openout2 = `chapters/chapter03/chapter03.aux'.
 
- (chapters/chapter03/chapter03.tex
+
+(chapters/chapter03/chapter03.tex
 Cap\'{\i }tulo 3.
 [12
 
@@ -2006,6 +2010,7 @@ Cap\'{\i }tulo 3.
 
 
 ]
+===== Image 'figures/main-figure1' is up-to-date. ======
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -2019,12 +2024,13 @@ LaTeX Info: Redefining \% on input line 93.
 [13]
 LaTeX Info: Redefining \. on input line 121.
 LaTeX Info: Redefining \% on input line 121.
- [14]
+ [14 <./figures/main-figure1.pdf>]
 Underfull \hbox (badness 1314) in paragraph at lines 126--127
 \OT1/cmr/m/n/12 de una cuerda puede obtenerse superponiendo modos vibratorios s
 imples
  []
 
+===== Image 'figures/main-figure2' is up-to-date. ======
 
 Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
@@ -2032,13 +2038,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
 LaTeX Info: Redefining \. on input line 229.
 LaTeX Info: Redefining \% on input line 229.
-[15]
+[15 <./figures/main-figure2.pdf>]
 LaTeX Info: Redefining \. on input line 245.
 LaTeX Info: Redefining \% on input line 245.
  [16]
+===== Image 'figures/main-figure3' is up-to-date. ======
 LaTeX Info: Redefining \. on input line 297.
 LaTeX Info: Redefining \% on input line 297.
- [17]
+[17 <./figures/main-figure3.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 338--339
 
  []
@@ -2053,7 +2060,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 347--348
 LaTeX Info: Redefining \. on input line 362.
 LaTeX Info: Redefining \% on input line 362.
 [19]
-Overfull \hbox (13.32887pt too wide) in paragraph at lines 395--396
+===== Image 'figures/main-figure4' is up-to-date. ======
+
+Overfull \hbox (13.32903pt too wide) in paragraph at lines 366--396
  [][] 
  []
 
@@ -2062,13 +2071,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 405--407
 
  []
 
+===== Image 'figures/main-figure5' is up-to-date. ======
 LaTeX Info: Redefining \. on input line 471.
 LaTeX Info: Redefining \% on input line 471.
-[20]
+[20 <./figures/main-figure4.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 473--474
 
  []
 
+===== Image 'figures/main-figure6' is up-to-date. ======
+===== Image 'figures/main-figure7' is up-to-date. ======
 
 Overfull \hbox (8.0676pt too wide) in paragraph at lines 478--537
 []$[]$   $[]$ 
@@ -2076,15 +2088,16 @@ Overfull \hbox (8.0676pt too wide) in paragraph at lines 478--537
 
 LaTeX Info: Redefining \. on input line 547.
 LaTeX Info: Redefining \% on input line 547.
-[21]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
+[21 <./figures/main-figure5.pdf> <./figures/main-figure6.pdf> <./figures/main-f
+igure7.pdf>]
+===== Image 'figures/main-figure8' is up-to-date. ======
+===== Image 'figures/main-figure9' is up-to-date. ======
 
-Overfull \hbox (8.93298pt too wide) in paragraph at lines 627--628
+Overfull \hbox (8.93248pt too wide) in paragraph at lines 603--628
 [][] 
  []
 
+===== Image 'figures/main-figure10' is up-to-date. ======
 
 Overfull \hbox (33.6749pt too wide) in paragraph at lines 602--653
 []$[]$   $[]$ 
@@ -2092,24 +2105,38 @@ Overfull \hbox (33.6749pt too wide) in paragraph at lines 602--653
 
 LaTeX Info: Redefining \. on input line 664.
 LaTeX Info: Redefining \% on input line 664.
-[22]
+[22 <./figures/main-figure8.pdf> <./figures/main-figure9.pdf> <./figures/main-f
+igure10.pdf>]
+===== Image 'figures/main-figure11' is up-to-date. ======
+===== Image 'figures/main-figure12' is up-to-date. ======
+
 Overfull \hbox (12.33533pt too wide) in paragraph at lines 669--724
 []$[]$   $[]$ 
  []
 
+===== Image 'figures/main-figure13' is up-to-date. ======
 LaTeX Info: Redefining \. on input line 774.
 LaTeX Info: Redefining \% on input line 774.
-[23]
+[23 <./figures/main-figure11.pdf> <./figures/main-figure12.pdf>]
+===== Image 'figures/main-figure14' is up-to-date. ======
+===== Image 'figures/main-figure15' is up-to-date. ======
+===== Image 'figures/main-figure16' is up-to-date. ======
+
 Overfull \hbox (12.33533pt too wide) in paragraph at lines 836--936
 []$[]$   $[]$ 
  []
 
 LaTeX Info: Redefining \. on input line 938.
 LaTeX Info: Redefining \% on input line 938.
-[24]
+[24 <./figures/main-figure13.pdf> <./figures/main-figure14.pdf>]
+===== Image 'figures/main-figure17' is up-to-date. ======
 LaTeX Info: Redefining \. on input line 982.
 LaTeX Info: Redefining \% on input line 982.
- [25]
+[25 <./figures/main-figure15.pdf> <./figures/main-figure16.pdf> <./figures/main
+-figure17.pdf>]
+===== Image 'figures/main-figure18' is up-to-date. ======
+===== Image 'figures/main-figure19' is up-to-date. ======
+
 Overfull \hbox (12.33533pt too wide) in paragraph at lines 984--1062
 []$[]$   $[]$ 
  []
@@ -2140,7 +2167,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 LaTeX Info: Redefining \. on input line 1080.
 LaTeX Info: Redefining \% on input line 1080.
-[26]
+[26 <./figures/main-figure18.pdf> <./figures/main-figure19.pdf>]
 Overfull \hbox (12.10497pt too wide) detected at line 1095
 [][][]\OML/cmm/m/it/12 a[] \OT1/cmr/m/n/12 = [] [][] \OML/cmm/m/it/12 f\OT1/cmr
 /m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr/m/n/12 ) \OML/cmm/m/it/12 dt;  a[] \OT1/cmr
@@ -2156,9 +2183,10 @@ Underfull \hbox (badness 1062) in paragraph at lines 1097--1099
 a arbitraria puede
  []
 
+===== Image 'figures/main-figure20' is up-to-date. ======
 LaTeX Info: Redefining \. on input line 1146.
 LaTeX Info: Redefining \% on input line 1146.
-[27]
+[27 <./figures/main-figure20.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 1152--1154
 
  []
@@ -2171,25 +2199,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 1177--1178
 LaTeX Info: Redefining \. on input line 1178.
 LaTeX Info: Redefining \% on input line 1178.
 [28]
-Overfull \hbox (4.35251pt too wide) in paragraph at lines 1229--1230
+===== Image 'figures/main-figure21' is up-to-date. ======
+
+Overfull \hbox (4.3525pt too wide) in paragraph at lines 1200--1230
 [][] 
  []
 
 LaTeX Info: Redefining \. on input line 1237.
 LaTeX Info: Redefining \% on input line 1237.
-[29]
-Overfull \hbox (4.35251pt too wide) in paragraph at lines 1282--1283
+[29 <./figures/main-figure21.pdf>]
+===== Image 'figures/main-figure22' is up-to-date. ======
+
+Overfull \hbox (4.3525pt too wide) in paragraph at lines 1248--1283
 [][] 
  []
 
+===== Image 'figures/main-figure23' is up-to-date. ======
 
-Overfull \hbox (4.35251pt too wide) in paragraph at lines 1336--1337
+Overfull \hbox (4.3525pt too wide) in paragraph at lines 1302--1337
 [][] 
  []
 
 LaTeX Info: Redefining \. on input line 1341.
 LaTeX Info: Redefining \% on input line 1341.
-[30]
+[30 <./figures/main-figure22.pdf>]
 Overfull \hbox (10.68004pt too wide) detected at line 1349
 [][][]\OML/cmm/m/it/12 a[] \OT1/cmr/m/n/12 = [] [][] \OML/cmm/m/it/12 f\OT1/cmr
 /m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr/m/n/12 ) \OML/cmm/m/it/12 dt;  a[] \OT1/cmr
@@ -2201,7 +2234,7 @@ it/12 dt
 
 LaTeX Info: Redefining \. on input line 1374.
 LaTeX Info: Redefining \% on input line 1374.
-[31]
+[31 <./figures/main-figure23.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1394.
@@ -2250,6 +2283,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1415.
 
+===== Image 'figures/main-figure24' is up-to-date. ======
 LaTeX Info: Redefining \. on input line 1478.
 LaTeX Info: Redefining \% on input line 1478.
 [33]
@@ -2260,26 +2294,36 @@ on
 
 LaTeX Info: Redefining \. on input line 1486.
 LaTeX Info: Redefining \% on input line 1486.
-[34]
+[34 <./figures/main-figure24.pdf>]
 Underfull \hbox (badness 1024) in paragraph at lines 1489--1490
 \OT1/cmr/m/n/12 nuevos usuarios de manera flexible, sin necesidad de infraestru
 ctura
  []
 
-LaTeX Info: Redefining \. on input line 1513.
-LaTeX Info: Redefining \% on input line 1513.
-[35]
-LaTeX Info: Redefining \. on input line 1533.
-LaTeX Info: Redefining \% on input line 1533.
- [36])
-LaTeX Info: Redefining \. on input line 126.
-LaTeX Info: Redefining \% on input line 126.
- [37]
+<img/chapter03/ui-web-arquitectura.png, id=1110, 458.71375pt x 163.61125pt>
+File: img/chapter03/ui-web-arquitectura.png Graphic file (type png)
+<use img/chapter03/ui-web-arquitectura.png>
+Package pdftex.def Info: img/chapter03/ui-web-arquitectura.png  used on input l
+ine 1495.
+(pdftex.def)             Requested size: 370.28166pt x 132.075pt.
+LaTeX Info: Redefining \. on input line 1505.
+LaTeX Info: Redefining \% on input line 1505.
+[35 <./img/chapter03/ui-web-arquitectura.png>]
+LaTeX Info: Redefining \. on input line 1534.
+LaTeX Info: Redefining \% on input line 1534.
+ [36]
+LaTeX Info: Redefining \. on input line 1552.
+LaTeX Info: Redefining \% on input line 1552.
+ [37])
+LaTeX Info: Redefining \. on input line 128.
+LaTeX Info: Redefining \% on input line 128.
+ [38]
 \openout2 = `chapters/chapter04/chapter04.aux'.
 
- (chapters/chapter04/chapter04.tex
+
+(chapters/chapter04/chapter04.tex
 Cap\'{\i }tulo 4.
-<img/chapter04/prototipo.png, id=705, 295.1025pt x 316.18124pt>
+<img/chapter04/prototipo.png, id=1134, 295.1025pt x 316.18124pt>
 File: img/chapter04/prototipo.png Graphic file (type png)
 <use img/chapter04/prototipo.png>
 Package pdftex.def Info: img/chapter04/prototipo.png  used on input line 9.
@@ -2300,7 +2344,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
  []
 
-[38
+[39
 
 
 
@@ -2362,7 +2406,7 @@ Underfull \hbox (badness 5832) in paragraph at lines 33--33
 
 LaTeX Info: Redefining \. on input line 45.
 LaTeX Info: Redefining \% on input line 45.
-[39]
+[40]
 Underfull \hbox (badness 10000) in paragraph at lines 56--56
 []|\OT1/cmr/bx/sc/12 Prioridad de
  []
@@ -2399,7 +2443,7 @@ Underfull \hbox (badness 1436) in paragraph at lines 87--88
 
 LaTeX Info: Redefining \. on input line 92.
 LaTeX Info: Redefining \% on input line 92.
-[40]
+[41]
 Underfull \hbox (badness 10000) in paragraph at lines 102--102
 []|\OT1/cmr/bx/sc/12 Prioridad de
  []
@@ -2416,7 +2460,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--125
 
 LaTeX Info: Redefining \. on input line 138.
 LaTeX Info: Redefining \% on input line 138.
-[41]
+[42]
 Underfull \hbox (badness 10000) in paragraph at lines 147--147
 []|\OT1/cmr/bx/sc/12 Prioridad de
  []
@@ -2433,7 +2477,7 @@ Underfull \hbox (badness 1460) in paragraph at lines 174--175
 
 LaTeX Info: Redefining \. on input line 183.
 LaTeX Info: Redefining \% on input line 183.
-[42]
+[43]
 Underfull \hbox (badness 10000) in paragraph at lines 193--193
 []|\OT1/cmr/bx/sc/12 Prioridad de
  []
@@ -2465,7 +2509,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 222--223
 
 LaTeX Info: Redefining \. on input line 229.
 LaTeX Info: Redefining \% on input line 229.
-[43]
+[44]
 Underfull \hbox (badness 10000) in paragraph at lines 251--251
 []|\OT1/cmr/bx/sc/12 Rendimiento y
  []
@@ -2552,13 +2596,13 @@ Overfull \hbox (40.56445pt too wide) in alignment at lines 236--272
 
 LaTeX Info: Redefining \. on input line 272.
 LaTeX Info: Redefining \% on input line 272.
-[44])
-LaTeX Info: Redefining \. on input line 127.
-LaTeX Info: Redefining \% on input line 127.
- [45]
-LaTeX Info: Redefining \. on input line 127.
-LaTeX Info: Redefining \% on input line 127.
+[45])
+LaTeX Info: Redefining \. on input line 129.
+LaTeX Info: Redefining \% on input line 129.
  [46]
+LaTeX Info: Redefining \. on input line 129.
+LaTeX Info: Redefining \% on input line 129.
+ [47]
 \openout2 = `chapters/chapter05/chapter05.aux'.
 
  (chapters/chapter05/chapter05.tex
@@ -2567,7 +2611,7 @@ Cap\'{\i }tulo 5.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\newline' on input line 1.
 
-) [47
+) [48
 
 
 
@@ -2577,7 +2621,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
  (appendages/appendixA/appendixA.tex
 Ap\'{e}ndice A.
-[48
+[49
 
 
 
@@ -2585,43 +2629,43 @@ Ap\'{e}ndice A.
 ]
 LaTeX Info: Redefining \. on input line 113.
 LaTeX Info: Redefining \% on input line 113.
- [49])
-LaTeX Info: Redefining \. on input line 130.
-LaTeX Info: Redefining \% on input line 130.
 
 Overfull \hbox (33.15697pt too wide) has occurred while \output is active
 \OT1/cmr/m/n/12 50 \OT1/cmr/m/sl/12 AP[]ENDICE A.  C[]ALCULO DE LOS COEFICIENTE
 S DE LA SERIE DE FOURIER
  []
 
-[50]
-Underfull \hbox (badness 10000) in paragraph at lines 135--135
+[50])
+LaTeX Info: Redefining \. on input line 132.
+LaTeX Info: Redefining \% on input line 132.
+ [51]
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
 []\OT1/cmr/m/n/12 Wolfram | Alpha: Computational Intelligence. \OT1/cmr/m/it/12
  Fourier
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--135
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
 []\OT1/cmr/m/n/12 Ettore Messina. \OT1/cmr/m/it/12 Fourier Series in Python\OT1
 /cmr/m/n/12 . []$\OT1/cmtt/m/n/12 https : / /
  []
 
-[51
+[52
 
 
 
 
 ]
-Underfull \hbox (badness 8151) in paragraph at lines 135--135
+Underfull \hbox (badness 8151) in paragraph at lines 137--137
 []\OT1/cmr/m/n/12 G. P. Tolstov. \OT1/cmr/m/it/12 Fourier Series\OT1/cmr/m/n/12
  . Prentice-Hall, Inc., 1962. \OT1/cmr/m/sc/12 isbn\OT1/cmr/m/n/12 :
  []
 
 Missing character: There is no Ã in font cmtt12!
 Missing character: There is no ­ in font cmtt12!
-LaTeX Info: Redefining \. on input line 136.
-LaTeX Info: Redefining \% on input line 136.
-[52] (main.aux
+LaTeX Info: Redefining \. on input line 138.
+LaTeX Info: Redefining \% on input line 138.
+[53] (main.aux
 LaTeX Info: Redefining \sptext on input line 14.
 LaTeX Info: Redefining \. on input line 14.
 LaTeX Info: Redefining \% on input line 14.
@@ -2646,13 +2690,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49716 strings out of 476305
- 1093103 string characters out of 5791965
- 2493105 words of memory out of 5000000
- 70781 multiletter control sequences out of 15000+600000
- 575537 words of font info for 102 fonts, out of 8000000 for 9000
+ 48834 strings out of 476305
+ 1076035 string characters out of 5791965
+ 2084727 words of memory out of 5000000
+ 69862 multiletter control sequences out of 15000+600000
+ 570533 words of font info for 82 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 101i,19n,117p,1571b,3259s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,17n,117p,1571b,3259s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/sebastian/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcti
 1200.pk> </home/sebastian/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi60
 0/tcrm1200.pk></home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfon
@@ -2674,9 +2718,9 @@ install/fonts/type1/public/amsfonts/cm/cmsy6.pfb></home/sebastian/.miktex/texmf
 s/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/sebastian/.miktex/tex
 mfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb></home/sebastian/.miktex/
 texmfs/install/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (62 pages, 1198500 bytes).
+Output written on main.pdf (63 pages, 1365221 bytes).
 PDF statistics:
- 1230 PDF objects out of 1440 (max. 8388607)
- 267 named destinations out of 1000 (max. 500000)
- 796 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1655 PDF objects out of 1728 (max. 8388607)
+ 271 named destinations out of 1000 (max. 500000)
+ 912 words of extra memory for PDF output out of 10000 (max. 10000000)
 

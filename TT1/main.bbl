@@ -588,6 +588,30 @@
       \field{title}{Fundamentos del Análisis de Fourier}
       \field{year}{2003}
     \endentry
+    \entry{apliacionWebAmazon}{misc}{}{}
+      \list{organization}{1}{%
+        {Amazon Web Services, Inc.}%
+      }
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://aws.amazon.com/es/what-is/web-application/}}
+      \field{note}{Accedido: 27 Oct, 2024}
+      \field{title}{¿Qué es una aplicación web?}
+      \field{year}{2023}
+    \endentry
+    \entry{uqbar-wiki-web}{misc}{}{}
+      \list{organization}{1}{%
+        {uqbar-wiki}%
+      }
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{hhttps://wiki.uqbar.org/wiki/articles/ui-web-intro-arquitectura.html}}
+      \field{note}{Accedido: 27 Oct, 2024}
+      \field{title}{Introducción a la Arquitectura web}
+      \field{year}{2023}
+    \endentry
     \entry{interfazAlbornoz}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=655d89f010857a500f56622e9048cbe2}{%

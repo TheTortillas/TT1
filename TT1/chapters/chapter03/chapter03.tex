@@ -1477,8 +1477,8 @@ Cuando una función dada se aproxima mediante una serie de Fourier, ya sea trigo
 \end{figure}
 
 \section{Aplicaciones Web}
-Una aplicación web es un software que opera sobre un navegador web. Las compañías deben compartir datos y ofrecer servicios a distancia. Emplean aplicaciones en línea para interactuar con los clientes cuando lo requieran de manera segura. Las características más habituales de las páginas web, tales como carrito de compra, búsqueda y filtrado de productos, mensajería instantánea y canales de noticias en las redes sociales, se diseñan de la misma manera que las aplicaciones en línea. Le facilitan el acceso a funcionalidades avanzadas sin requerir la instalación o configuración de un programa informático.
-Las aplicaciones en línea ofrecen numerosas ventajas, y prácticamente todas las grandes compañías las incorporan en sus propuestas para los usuarios.
+Una aplicación web es un software que opera sobre un navegador web. Las compañías deben compartir datos y ofrecer servicios a distancia. Emplean aplicaciones en línea para interactuar con los clientes cuando lo requieran de manera segura. Las características más habituales de las páginas web, tales como carrito de compra, búsqueda y filtrado de productos, mensajería instantánea y canales de noticias en las redes sociales, se diseñan de la misma manera que las aplicaciones en línea. Facilitan el acceso a funcionalidades avanzadas sin requerir la instalación o configuración de un programa informático.
+Las aplicaciones en línea ofrecen numerosas ventajas, y prácticamente todas las grandes compañías las incorporan en sus propuestas para los usuarios ~\cite{apliacionWebAmazon}. Algunas de las ventajas de las apliaciones web son;
 \begin{itemize}
 	\item \textbf{Accesibilidad}: Las aplicaciones web pueden ser accedidas desde cualquier navegador y desde una variedad de dispositivos personales y empresariales. Grupos de trabajo en distintas ubicaciones pueden interactuar con documentos compartidos, sistemas de gestión de contenidos y otros servicios empresariales a través de aplicaciones web basadas en suscripciones.
 	
@@ -1487,6 +1487,21 @@ Las aplicaciones en línea ofrecen numerosas ventajas, y prácticamente todas la
 	\item \textbf{Simplicidad para el usuario}: Los usuarios no necesitan descargar las aplicaciones web, lo cual facilita su acceso sin ocupar espacio en el disco duro o requerir mantenimiento. Las aplicaciones web reciben actualizaciones de software y seguridad de forma automática, lo que garantiza que siempre estén actualizadas y reduce el riesgo de vulnerabilidades de seguridad.
 	
 	\item \textbf{Escalabilidad}: Las empresas que emplean aplicaciones web pueden añadir nuevos usuarios de manera flexible, sin necesidad de infraestructura adicional ni hardware costoso. Además, la mayoría de los datos de las aplicaciones web se almacenan en la nube, evitando así la inversión en capacidad de almacenamiento adicional para ejecutar las aplicaciones.
+\end{itemize}
+
+Las aplicaciones web están basadas en una arquitectura cliente-servidor, en la cual el código se divide en dos partes: scripts del lado del cliente y scripts del lado del servidor ~\cite{apliacionWebAmazon}.\newline 
+\begin{figure}[h]
+	\centering	 
+	\includegraphics[width=0.9\textwidth]{img/chapter03/ui-web-arquitectura.png}
+	\caption[Diagrama de una arquitectura cliente - servidor]{Diagrama de una arquitectura cliente - servidor. \textit{Fuente: ~\cite{uqbar-wiki-web}}}
+	\label{fig:cliente-servidor}  % Etiqueta para la figura
+\end{figure}
+
+
+\begin{itemize}	
+	\item \textbf{Arquitectura del lado del cliente:} El script del lado del cliente se encarga de gestionar la funcionalidad de la interfaz de usuario, que incluye elementos como botones y menús desplegables. Cuando el usuario final accede a la aplicación web mediante un enlace, el navegador carga el script del lado del cliente y renderiza tanto los elementos visuales como el texto necesario para la interacción con el usuario. Por ejemplo, el usuario puede visualizar contenidos, reproducir videos o completar la información de un formulario de contacto. Acciones como hacer clic en el botón de enviar se envían al servidor como solicitudes del cliente.
+	
+	\item \textbf{Arquitectura del lado del servidor:} El script del lado del servidor se encarga del procesamiento de la información. Este servidor gestiona las solicitudes realizadas por el cliente y devuelve una respuesta. Estas solicitudes pueden incluir acciones como la obtención de datos adicionales, la edición de datos o el almacenamiento de nuevos datos. Por ejemplo, si el usuario hace clic en un botón de “Leer más”, el servidor le envía contenido adicional. Si hace clic en “Enviar”, el servidor guarda los datos del usuario en una base de datos. En ciertos casos, el servidor completa la solicitud generando y enviando una página HTML completa al cliente, lo cual se denomina renderizado del lado del servidor.
 \end{itemize}
 
 
