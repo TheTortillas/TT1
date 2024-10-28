@@ -1,16 +1,16 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'main.blg'
-[59] biber:340> INFO - === sáb oct 26, 2024, 20:52:25
-[69] Biber.pm:420> INFO - Reading 'main.bcf'
-[121] Biber.pm:994> INFO - Found 20 citekeys in bib section 0
-[131] Biber.pm:4463> INFO - Processing section 0
-[138] Biber.pm:4654> INFO - Looking for bibtex file './references.bib' for section 0
-[139] bibtex.pm:1713> INFO - LaTeX decoding ...
-[154] bibtex.pm:1519> INFO - Found BibTeX data source './references.bib'
-[247] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[247] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[247] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'es-ES'
-[254] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[259] bbl.pm:779> INFO - Output to main.bbl
-[259] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_KRg2/33e59b5ca9ec342068223d604c3f8d55_63273.utf8, line 155, warning: 12 characters of junk seen at toplevel
-[259] Biber.pm:133> INFO - WARNINGS: 1
+[58] biber:340> INFO - === dom oct 27, 2024, 20:26:20
+[72] Biber.pm:420> INFO - Reading 'main.bcf'
+[133] Biber.pm:994> INFO - Found 24 citekeys in bib section 0
+[144] Biber.pm:4463> INFO - Processing section 0
+[152] Biber.pm:4654> INFO - Looking for bibtex file './references.bib' for section 0
+[153] bibtex.pm:1713> INFO - LaTeX decoding ...
+[171] bibtex.pm:1519> INFO - Found BibTeX data source './references.bib'
+[278] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[278] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[278] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[287] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[292] bbl.pm:779> INFO - Output to main.bbl
+[292] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_qlO2/33e59b5ca9ec342068223d604c3f8d55_25395.utf8, line 198, warning: 12 characters of junk seen at toplevel
+[292] Biber.pm:133> INFO - WARNINGS: 1

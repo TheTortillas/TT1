@@ -20,7 +20,12 @@
 \contentsline {figure}{\numberline {3.12}{\ignorespaces Comprobación de los teoremas f y g de funciones pares e impares }}{25}{figure.caption.19}%
 \contentsline {figure}{\numberline {3.13}{\ignorespaces Ejemplo de una función suave}}{25}{figure.caption.20}%
 \contentsline {figure}{\numberline {3.14}{\ignorespaces Ejemplo de una función suave a trozos completamente continua y una función a tozos con discontinuidades (saltos).}}{26}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Gráfica de una función periódica \( f(t) \) con periodo \( T \), repitiéndose en intervalos de \( T, 2T, \) y \( 3T \).}}{27}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Extensión par en cosenos de una función $f(t)$}}{29}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Extensión impar en senos de una función $f(t)$}}{30}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Extensión periódica de medio rango de una función $f(t)$}}{31}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Aproximación de una función $f(t) = x$ con $-\pi < x < \pi $ en sus 50 primeros armónicos}}{34}{figure.caption.26}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Etapas de la metodología por prototipos \newline \centering \textit {Fuente: ~\blx@tocontentsinit {0}\cite {MetodologíasDeDesarrollo2015}}}}{32}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Etapas de la metodología por prototipos \newline \centering \textit {Fuente: ~\blx@tocontentsinit {0}\cite {MetodologíasDeDesarrollo2015}}}}{38}{figure.caption.27}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

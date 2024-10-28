@@ -192,20 +192,20 @@
     \endentry
     \entry{historia-alambert-fourier-euler}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=706148ebcea077935f9cd219889a44d7}{%
-           family={A.},
-           familyi={A\bibinitperiod},
-           given={Cañada},
-           giveni={C\bibinitperiod}}}%
+        {{hash=a9cf7799903ccde7c9019a30c56079c6}{%
+           family={Cañada},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
       }
-      \strng{namehash}{706148ebcea077935f9cd219889a44d7}
-      \strng{fullhash}{706148ebcea077935f9cd219889a44d7}
-      \strng{fullhashraw}{706148ebcea077935f9cd219889a44d7}
-      \strng{bibnamehash}{706148ebcea077935f9cd219889a44d7}
-      \strng{authorbibnamehash}{706148ebcea077935f9cd219889a44d7}
-      \strng{authornamehash}{706148ebcea077935f9cd219889a44d7}
-      \strng{authorfullhash}{706148ebcea077935f9cd219889a44d7}
-      \strng{authorfullhashraw}{706148ebcea077935f9cd219889a44d7}
+      \strng{namehash}{a9cf7799903ccde7c9019a30c56079c6}
+      \strng{fullhash}{a9cf7799903ccde7c9019a30c56079c6}
+      \strng{fullhashraw}{a9cf7799903ccde7c9019a30c56079c6}
+      \strng{bibnamehash}{a9cf7799903ccde7c9019a30c56079c6}
+      \strng{authorbibnamehash}{a9cf7799903ccde7c9019a30c56079c6}
+      \strng{authornamehash}{a9cf7799903ccde7c9019a30c56079c6}
+      \strng{authorfullhash}{a9cf7799903ccde7c9019a30c56079c6}
+      \strng{authorfullhashraw}{a9cf7799903ccde7c9019a30c56079c6}
       \field{sortinit}{9}
       \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
@@ -219,20 +219,20 @@
     \endentry
     \entry{unal_52162}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=44040eeed69bf481b740c71e25da8903}{%
-           family={Leandro},
-           familyi={L\bibinitperiod},
-           given={Campo\bibnamedelimb Bedoya\bibnamedelima Oscar},
-           giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=d3c98b6baac7c23629dd830091df90fb}{%
+           family={Bedoya},
+           familyi={B\bibinitperiod},
+           given={O.\bibnamedelimi L.\bibnamedelimi Campo},
+           giveni={O\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
       }
-      \strng{namehash}{44040eeed69bf481b740c71e25da8903}
-      \strng{fullhash}{44040eeed69bf481b740c71e25da8903}
-      \strng{fullhashraw}{44040eeed69bf481b740c71e25da8903}
-      \strng{bibnamehash}{44040eeed69bf481b740c71e25da8903}
-      \strng{authorbibnamehash}{44040eeed69bf481b740c71e25da8903}
-      \strng{authornamehash}{44040eeed69bf481b740c71e25da8903}
-      \strng{authorfullhash}{44040eeed69bf481b740c71e25da8903}
-      \strng{authorfullhashraw}{44040eeed69bf481b740c71e25da8903}
+      \strng{namehash}{d3c98b6baac7c23629dd830091df90fb}
+      \strng{fullhash}{d3c98b6baac7c23629dd830091df90fb}
+      \strng{fullhashraw}{d3c98b6baac7c23629dd830091df90fb}
+      \strng{bibnamehash}{d3c98b6baac7c23629dd830091df90fb}
+      \strng{authorbibnamehash}{d3c98b6baac7c23629dd830091df90fb}
+      \strng{authornamehash}{d3c98b6baac7c23629dd830091df90fb}
+      \strng{authorfullhash}{d3c98b6baac7c23629dd830091df90fb}
+      \strng{authorfullhashraw}{d3c98b6baac7c23629dd830091df90fb}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -244,20 +244,20 @@
     \endentry
     \entry{demostracion-onda}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=83c1b58a2772f53838c5628183083ea0}{%
-           family={D.},
-           familyi={D\bibinitperiod},
-           given={Chamorro},
-           giveni={C\bibinitperiod}}}%
+        {{hash=9fa963b7e5d56715ea439892b587d214}{%
+           family={Chamorro},
+           familyi={C\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
       }
-      \strng{namehash}{83c1b58a2772f53838c5628183083ea0}
-      \strng{fullhash}{83c1b58a2772f53838c5628183083ea0}
-      \strng{fullhashraw}{83c1b58a2772f53838c5628183083ea0}
-      \strng{bibnamehash}{83c1b58a2772f53838c5628183083ea0}
-      \strng{authorbibnamehash}{83c1b58a2772f53838c5628183083ea0}
-      \strng{authornamehash}{83c1b58a2772f53838c5628183083ea0}
-      \strng{authorfullhash}{83c1b58a2772f53838c5628183083ea0}
-      \strng{authorfullhashraw}{83c1b58a2772f53838c5628183083ea0}
+      \strng{namehash}{9fa963b7e5d56715ea439892b587d214}
+      \strng{fullhash}{9fa963b7e5d56715ea439892b587d214}
+      \strng{fullhashraw}{9fa963b7e5d56715ea439892b587d214}
+      \strng{bibnamehash}{9fa963b7e5d56715ea439892b587d214}
+      \strng{authorbibnamehash}{9fa963b7e5d56715ea439892b587d214}
+      \strng{authornamehash}{9fa963b7e5d56715ea439892b587d214}
+      \strng{authorfullhash}{9fa963b7e5d56715ea439892b587d214}
+      \strng{authorfullhashraw}{9fa963b7e5d56715ea439892b587d214}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -295,23 +295,23 @@
     \endentry
     \entry{springer1999Physics}{book}{}{}
       \name{author}{1}{}{%
-        {{hash=d2407a16cccf10468e6246d9a6e8a798}{%
-           family={E.},
-           familyi={E\bibinitperiod},
-           given={Garber},
-           giveni={G\bibinitperiod}}}%
+        {{hash=7c9f6969e83bc709ae84d3ec75098c42}{%
+           family={Garber},
+           familyi={G\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {Springer}%
       }
-      \strng{namehash}{d2407a16cccf10468e6246d9a6e8a798}
-      \strng{fullhash}{d2407a16cccf10468e6246d9a6e8a798}
-      \strng{fullhashraw}{d2407a16cccf10468e6246d9a6e8a798}
-      \strng{bibnamehash}{d2407a16cccf10468e6246d9a6e8a798}
-      \strng{authorbibnamehash}{d2407a16cccf10468e6246d9a6e8a798}
-      \strng{authornamehash}{d2407a16cccf10468e6246d9a6e8a798}
-      \strng{authorfullhash}{d2407a16cccf10468e6246d9a6e8a798}
-      \strng{authorfullhashraw}{d2407a16cccf10468e6246d9a6e8a798}
+      \strng{namehash}{7c9f6969e83bc709ae84d3ec75098c42}
+      \strng{fullhash}{7c9f6969e83bc709ae84d3ec75098c42}
+      \strng{fullhashraw}{7c9f6969e83bc709ae84d3ec75098c42}
+      \strng{bibnamehash}{7c9f6969e83bc709ae84d3ec75098c42}
+      \strng{authorbibnamehash}{7c9f6969e83bc709ae84d3ec75098c42}
+      \strng{authornamehash}{7c9f6969e83bc709ae84d3ec75098c42}
+      \strng{authorfullhash}{7c9f6969e83bc709ae84d3ec75098c42}
+      \strng{authorfullhashraw}{7c9f6969e83bc709ae84d3ec75098c42}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -322,20 +322,20 @@
     \endentry
     \entry{demostracion-calor}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=fb828426463c5de87af5cd5990f5f5d2}{%
-           family={T.},
-           familyi={T\bibinitperiod},
-           given={Brereton\bibnamedelima J.},
-           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=d9bb133ef0af0c9f2f404fa5ed300552}{%
+           family={Brereton},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
       }
-      \strng{namehash}{fb828426463c5de87af5cd5990f5f5d2}
-      \strng{fullhash}{fb828426463c5de87af5cd5990f5f5d2}
-      \strng{fullhashraw}{fb828426463c5de87af5cd5990f5f5d2}
-      \strng{bibnamehash}{fb828426463c5de87af5cd5990f5f5d2}
-      \strng{authorbibnamehash}{fb828426463c5de87af5cd5990f5f5d2}
-      \strng{authornamehash}{fb828426463c5de87af5cd5990f5f5d2}
-      \strng{authorfullhash}{fb828426463c5de87af5cd5990f5f5d2}
-      \strng{authorfullhashraw}{fb828426463c5de87af5cd5990f5f5d2}
+      \strng{namehash}{d9bb133ef0af0c9f2f404fa5ed300552}
+      \strng{fullhash}{d9bb133ef0af0c9f2f404fa5ed300552}
+      \strng{fullhashraw}{d9bb133ef0af0c9f2f404fa5ed300552}
+      \strng{bibnamehash}{d9bb133ef0af0c9f2f404fa5ed300552}
+      \strng{authorbibnamehash}{d9bb133ef0af0c9f2f404fa5ed300552}
+      \strng{authornamehash}{d9bb133ef0af0c9f2f404fa5ed300552}
+      \strng{authorfullhash}{d9bb133ef0af0c9f2f404fa5ed300552}
+      \strng{authorfullhashraw}{d9bb133ef0af0c9f2f404fa5ed300552}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -348,20 +348,20 @@
     \endentry
     \entry{demostracion-calor-feldman}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=540ffc1a169163a8e79742994bccf36b}{%
-           family={J.},
-           familyi={J\bibinitperiod},
-           given={Feldman},
-           giveni={F\bibinitperiod}}}%
+        {{hash=bbdff7daae75a919debfeba64791c251}{%
+           family={Feldman},
+           familyi={F\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
       }
-      \strng{namehash}{540ffc1a169163a8e79742994bccf36b}
-      \strng{fullhash}{540ffc1a169163a8e79742994bccf36b}
-      \strng{fullhashraw}{540ffc1a169163a8e79742994bccf36b}
-      \strng{bibnamehash}{540ffc1a169163a8e79742994bccf36b}
-      \strng{authorbibnamehash}{540ffc1a169163a8e79742994bccf36b}
-      \strng{authornamehash}{540ffc1a169163a8e79742994bccf36b}
-      \strng{authorfullhash}{540ffc1a169163a8e79742994bccf36b}
-      \strng{authorfullhashraw}{540ffc1a169163a8e79742994bccf36b}
+      \strng{namehash}{bbdff7daae75a919debfeba64791c251}
+      \strng{fullhash}{bbdff7daae75a919debfeba64791c251}
+      \strng{fullhashraw}{bbdff7daae75a919debfeba64791c251}
+      \strng{bibnamehash}{bbdff7daae75a919debfeba64791c251}
+      \strng{authorbibnamehash}{bbdff7daae75a919debfeba64791c251}
+      \strng{authornamehash}{bbdff7daae75a919debfeba64791c251}
+      \strng{authorfullhash}{bbdff7daae75a919debfeba64791c251}
+      \strng{authorfullhashraw}{bbdff7daae75a919debfeba64791c251}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -373,23 +373,23 @@
     \endentry
     \entry{fourierTolstov}{book}{}{}
       \name{author}{1}{}{%
-        {{hash=8d0b166e62f99dd56ca5cdbdd01dabd2}{%
+        {{hash=4c3ef7033750c1eca2b84350030ad277}{%
            family={Tolstov},
            familyi={T\bibinitperiod},
-           given={P.G.},
-           giveni={P\bibinitperiod}}}%
+           given={G.\bibnamedelimi P.},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {Prentice-Hall, Inc.}%
       }
-      \strng{namehash}{8d0b166e62f99dd56ca5cdbdd01dabd2}
-      \strng{fullhash}{8d0b166e62f99dd56ca5cdbdd01dabd2}
-      \strng{fullhashraw}{8d0b166e62f99dd56ca5cdbdd01dabd2}
-      \strng{bibnamehash}{8d0b166e62f99dd56ca5cdbdd01dabd2}
-      \strng{authorbibnamehash}{8d0b166e62f99dd56ca5cdbdd01dabd2}
-      \strng{authornamehash}{8d0b166e62f99dd56ca5cdbdd01dabd2}
-      \strng{authorfullhash}{8d0b166e62f99dd56ca5cdbdd01dabd2}
-      \strng{authorfullhashraw}{8d0b166e62f99dd56ca5cdbdd01dabd2}
+      \strng{namehash}{4c3ef7033750c1eca2b84350030ad277}
+      \strng{fullhash}{4c3ef7033750c1eca2b84350030ad277}
+      \strng{fullhashraw}{4c3ef7033750c1eca2b84350030ad277}
+      \strng{bibnamehash}{4c3ef7033750c1eca2b84350030ad277}
+      \strng{authorbibnamehash}{4c3ef7033750c1eca2b84350030ad277}
+      \strng{authornamehash}{4c3ef7033750c1eca2b84350030ad277}
+      \strng{authorfullhash}{4c3ef7033750c1eca2b84350030ad277}
+      \strng{authorfullhashraw}{4c3ef7033750c1eca2b84350030ad277}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -400,23 +400,23 @@
     \endentry
     \entry{fourierHsu}{book}{}{}
       \name{author}{1}{}{%
-        {{hash=50a1f663e8ed928bd9d45f0b444b3471}{%
+        {{hash=e719f880132e427c94a91493b6c3a1bb}{%
            family={Hsu},
            familyi={H\bibinitperiod},
-           given={P.H.},
-           giveni={P\bibinitperiod}}}%
+           given={H.\bibnamedelimi P.},
+           giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {Addison-Wesley Iberoamericana}%
       }
-      \strng{namehash}{50a1f663e8ed928bd9d45f0b444b3471}
-      \strng{fullhash}{50a1f663e8ed928bd9d45f0b444b3471}
-      \strng{fullhashraw}{50a1f663e8ed928bd9d45f0b444b3471}
-      \strng{bibnamehash}{50a1f663e8ed928bd9d45f0b444b3471}
-      \strng{authorbibnamehash}{50a1f663e8ed928bd9d45f0b444b3471}
-      \strng{authornamehash}{50a1f663e8ed928bd9d45f0b444b3471}
-      \strng{authorfullhash}{50a1f663e8ed928bd9d45f0b444b3471}
-      \strng{authorfullhashraw}{50a1f663e8ed928bd9d45f0b444b3471}
+      \strng{namehash}{e719f880132e427c94a91493b6c3a1bb}
+      \strng{fullhash}{e719f880132e427c94a91493b6c3a1bb}
+      \strng{fullhashraw}{e719f880132e427c94a91493b6c3a1bb}
+      \strng{bibnamehash}{e719f880132e427c94a91493b6c3a1bb}
+      \strng{authorbibnamehash}{e719f880132e427c94a91493b6c3a1bb}
+      \strng{authornamehash}{e719f880132e427c94a91493b6c3a1bb}
+      \strng{authorfullhash}{e719f880132e427c94a91493b6c3a1bb}
+      \strng{authorfullhashraw}{e719f880132e427c94a91493b6c3a1bb}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -427,20 +427,23 @@
     \endentry
     \entry{fourierCinvestav}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=bc8099f8e70da6f274fdbf6418184c3f}{%
+        {{hash=fb2effb2448e151572e497faf7d7112c}{%
            family={Flores},
            familyi={F\bibinitperiod},
-           given={Dr.\bibnamedelimi Wilfrido\bibnamedelima Gómez},
-           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+           given={W.\bibnamedelimi Gómez},
+           giveni={W\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
       }
-      \strng{namehash}{bc8099f8e70da6f274fdbf6418184c3f}
-      \strng{fullhash}{bc8099f8e70da6f274fdbf6418184c3f}
-      \strng{fullhashraw}{bc8099f8e70da6f274fdbf6418184c3f}
-      \strng{bibnamehash}{bc8099f8e70da6f274fdbf6418184c3f}
-      \strng{authorbibnamehash}{bc8099f8e70da6f274fdbf6418184c3f}
-      \strng{authornamehash}{bc8099f8e70da6f274fdbf6418184c3f}
-      \strng{authorfullhash}{bc8099f8e70da6f274fdbf6418184c3f}
-      \strng{authorfullhashraw}{bc8099f8e70da6f274fdbf6418184c3f}
+      \list{organization}{1}{%
+        {Cinvestav}%
+      }
+      \strng{namehash}{fb2effb2448e151572e497faf7d7112c}
+      \strng{fullhash}{fb2effb2448e151572e497faf7d7112c}
+      \strng{fullhashraw}{fb2effb2448e151572e497faf7d7112c}
+      \strng{bibnamehash}{fb2effb2448e151572e497faf7d7112c}
+      \strng{authorbibnamehash}{fb2effb2448e151572e497faf7d7112c}
+      \strng{authornamehash}{fb2effb2448e151572e497faf7d7112c}
+      \strng{authorfullhash}{fb2effb2448e151572e497faf7d7112c}
+      \strng{authorfullhashraw}{fb2effb2448e151572e497faf7d7112c}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
@@ -502,6 +505,117 @@
       \field{title}{Matemáticas Avanzadas para la Ingeniería}
       \field{year}{2011}
     \endentry
+    \entry{fourierCruzFierro}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=3c1e872b9a632fb0f1138cddb2a0e7bf}{%
+           family={Fierro},
+           familyi={F\bibinitperiod},
+           given={C.\bibnamedelimi F.\bibnamedelimi Cruz},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{3c1e872b9a632fb0f1138cddb2a0e7bf}
+      \strng{fullhash}{3c1e872b9a632fb0f1138cddb2a0e7bf}
+      \strng{fullhashraw}{3c1e872b9a632fb0f1138cddb2a0e7bf}
+      \strng{bibnamehash}{3c1e872b9a632fb0f1138cddb2a0e7bf}
+      \strng{authorbibnamehash}{3c1e872b9a632fb0f1138cddb2a0e7bf}
+      \strng{authornamehash}{3c1e872b9a632fb0f1138cddb2a0e7bf}
+      \strng{authorfullhash}{3c1e872b9a632fb0f1138cddb2a0e7bf}
+      \strng{authorfullhashraw}{3c1e872b9a632fb0f1138cddb2a0e7bf}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://cruzfierro.com/cursos/2011v/matematicas5/apuntes5.pdf}}
+      \field{note}{Accedido: 27 Oct, 2024}
+      \field{title}{Ecuaciones Diferenciales / Matemáticas 5 / Series de Fourier}
+      \field{year}{2024}
+    \endentry
+    \entry{youtubeComplexFourier}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=8b32bd9f148a7425ecb96db00a593bb8}{%
+           family={Luz},
+           familyi={L\bibinitperiod},
+           given={Matemáticas},
+           giveni={M\bibinitperiod},
+           prefix={con},
+           prefixi={c\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Youtube}%
+      }
+      \strng{namehash}{8b32bd9f148a7425ecb96db00a593bb8}
+      \strng{fullhash}{8b32bd9f148a7425ecb96db00a593bb8}
+      \strng{fullhashraw}{8b32bd9f148a7425ecb96db00a593bb8}
+      \strng{bibnamehash}{8b32bd9f148a7425ecb96db00a593bb8}
+      \strng{authorbibnamehash}{8b32bd9f148a7425ecb96db00a593bb8}
+      \strng{authornamehash}{8b32bd9f148a7425ecb96db00a593bb8}
+      \strng{authorfullhash}{8b32bd9f148a7425ecb96db00a593bb8}
+      \strng{authorfullhashraw}{8b32bd9f148a7425ecb96db00a593bb8}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.youtube.com/watch?v=3F4XReHr3i8}}
+      \field{note}{Accedido: 27 Oct, 2024}
+      \field{title}{Serie Compleja de Fourier.}
+      \field{year}{2020}
+    \endentry
+    \entry{fourierCarrillo}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=52d9846940f38e318bbe2b354cc63d19}{%
+           family={González},
+           familyi={G\bibinitperiod},
+           given={C.\bibnamedelimi J.\bibnamedelimi Carrillo},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Youtube}%
+      }
+      \strng{namehash}{52d9846940f38e318bbe2b354cc63d19}
+      \strng{fullhash}{52d9846940f38e318bbe2b354cc63d19}
+      \strng{fullhashraw}{52d9846940f38e318bbe2b354cc63d19}
+      \strng{bibnamehash}{52d9846940f38e318bbe2b354cc63d19}
+      \strng{authorbibnamehash}{52d9846940f38e318bbe2b354cc63d19}
+      \strng{authornamehash}{52d9846940f38e318bbe2b354cc63d19}
+      \strng{authorfullhash}{52d9846940f38e318bbe2b354cc63d19}
+      \strng{authorfullhashraw}{52d9846940f38e318bbe2b354cc63d19}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://grupo_ene.webs.uvigo.es/wordpress/publicaciones/Apuntes_Fourier.pdf}}
+      \field{note}{Accedido: 27 Oct, 2024}
+      \field{title}{Fundamentos del Análisis de Fourier}
+      \field{year}{2003}
+    \endentry
+    \entry{interfazAlbornoz}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=655d89f010857a500f56622e9048cbe2}{%
+           family={Albornoz},
+           familyi={A\bibinitperiod},
+           given={M.\bibnamedelimi C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {SEDICI}%
+      }
+      \strng{namehash}{655d89f010857a500f56622e9048cbe2}
+      \strng{fullhash}{655d89f010857a500f56622e9048cbe2}
+      \strng{fullhashraw}{655d89f010857a500f56622e9048cbe2}
+      \strng{bibnamehash}{655d89f010857a500f56622e9048cbe2}
+      \strng{authorbibnamehash}{655d89f010857a500f56622e9048cbe2}
+      \strng{authornamehash}{655d89f010857a500f56622e9048cbe2}
+      \strng{authorfullhash}{655d89f010857a500f56622e9048cbe2}
+      \strng{authorfullhashraw}{655d89f010857a500f56622e9048cbe2}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://sedici.unlp.edu.ar/handle/10915/41578}}
+      \field{note}{Accedido: 27 Oct, 2024}
+      \field{title}{Diseño de interfaz gráfica de usuario}
+      \field{year}{2014}
+    \endentry
     \entry{MetodologíasDeDesarrollo2015}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=2d2b0d998977e6379aad61f1b56ac3c1}{%
@@ -517,8 +631,8 @@
       \strng{authorfullhash}{2d2b0d998977e6379aad61f1b56ac3c1}
       \strng{authorfullhashraw}{2d2b0d998977e6379aad61f1b56ac3c1}
       \field{extraname}{2}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://woodyweb.wordpress.com/2015/08/24/metodologias-de-desarrollo/}}

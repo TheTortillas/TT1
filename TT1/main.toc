@@ -32,75 +32,63 @@
 \contentsline {subsection}{\numberline {3.2.4}Funciones Pares e Impares}{23}{subsection.3.2.4}%
 \contentsline {subsection}{\numberline {3.2.5}Funciones suaves y funciones suaves a trozos}{25}{subsection.3.2.5}%
 \contentsline {subsection}{\numberline {3.2.6}Funciones Ortogonales}{26}{subsection.3.2.6}%
-\contentsline {subsection}{\numberline {3.2.7}Series de Funciones}{26}{subsection.3.2.7}%
-\contentsline {subsubsection}{\numberline {3.2.7.1}Definición de Series de Funciones}{26}{subsubsection.3.2.7.1}%
-\contentsline {subsubsection}{\numberline {3.2.7.2}Convergencia de Series de Funciones}{27}{subsubsection.3.2.7.2}%
-\contentsline {subsection}{\numberline {3.2.8}Series de Fourier de Período $T$ o de $-p$ a $p$}{27}{subsection.3.2.8}%
-\contentsline {subsubsection}{\numberline {3.2.8.1}Generalización de la Serie de Fourier}{27}{subsubsection.3.2.8.1}%
-\contentsline {subsubsection}{\numberline {3.2.8.2}Coeficientes de Fourier para Período $T$}{27}{subsubsection.3.2.8.2}%
-\contentsline {subsection}{\numberline {3.2.9}Funciones Suaves y Suaves por Partes}{27}{subsection.3.2.9}%
-\contentsline {subsection}{\numberline {3.2.10}Series de Fourier de Senos y Cosenos}{27}{subsection.3.2.10}%
-\contentsline {subsubsection}{\numberline {3.2.10.1}Condiciones para la Cancelación de Coeficientes}{27}{subsubsection.3.2.10.1}%
-\contentsline {subsubsection}{\numberline {3.2.10.2}Desarrollo de Series de Fourier con Senos y Cosenos}{27}{subsubsection.3.2.10.2}%
-\contentsline {subsection}{\numberline {3.2.11}Funciones Pares e Impares}{27}{subsection.3.2.11}%
-\contentsline {subsubsection}{\numberline {3.2.11.1}Definición y Propiedades de Funciones Pares}{27}{subsubsection.3.2.11.1}%
-\contentsline {subsubsection}{\numberline {3.2.11.2}Definición y Propiedades de Funciones Impares}{28}{subsubsection.3.2.11.2}%
-\contentsline {subsection}{\numberline {3.2.12}Extensiones de Medio Intervalo}{28}{subsection.3.2.12}%
-\contentsline {subsubsection}{\numberline {3.2.12.1}Extensión Periódica}{28}{subsubsection.3.2.12.1}%
-\contentsline {subsubsection}{\numberline {3.2.12.2}Extensión Par}{28}{subsubsection.3.2.12.2}%
-\contentsline {subsubsection}{\numberline {3.2.12.3}Extensión Impar}{28}{subsubsection.3.2.12.3}%
-\contentsline {subsection}{\numberline {3.2.13}Serie Compleja de Fourier de Período $T$ o de $-p$ a $p$}{28}{subsection.3.2.13}%
-\contentsline {subsubsection}{\numberline {3.2.13.1}Definición de Serie Compleja de Fourier}{28}{subsubsection.3.2.13.1}%
-\contentsline {subsubsection}{\numberline {3.2.13.2}Coeficientes Complejos para Período $T$}{28}{subsubsection.3.2.13.2}%
-\contentsline {subsection}{\numberline {3.2.14}Serie Compleja de Fourier de $0$ a $p$}{28}{subsection.3.2.14}%
-\contentsline {subsubsection}{\numberline {3.2.14.1}Definición y Desarrollo}{28}{subsubsection.3.2.14.1}%
-\contentsline {subsubsection}{\numberline {3.2.14.2}Aplicaciones y Ejemplos}{29}{subsubsection.3.2.14.2}%
-\contentsline {section}{\numberline {3.3}Tecnologías Utilizadas}{29}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}HTML, CSS y JavaScript}{29}{subsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.1.1}HTML}{29}{subsubsection.3.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.3.1.2}CSS}{29}{subsubsection.3.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.3.1.3}JavaScript}{29}{subsubsection.3.3.1.3}%
-\contentsline {subsection}{\numberline {3.3.2}NodeJS}{29}{subsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.2.1}Introducción a NodeJS}{29}{subsubsection.3.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.3.2.2}Ventajas del uso de NodeJS para aplicaciones web}{29}{subsubsection.3.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.3.2.3}Integración de NodeJS con Maxima}{29}{subsubsection.3.3.2.3}%
-\contentsline {subsection}{\numberline {3.3.3}Maxima}{29}{subsection.3.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.3.1}Qué es Maxima y por qué se usa para cálculos simbólicos}{29}{subsubsection.3.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.3.2}Implementación de Maxima en el servidor}{29}{subsubsection.3.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.4}Angular (Posible implementación futura)}{30}{subsection.3.3.4}%
-\contentsline {subsubsection}{\numberline {3.3.4.1}Introducción a Angular}{30}{subsubsection.3.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.3.4.2}Ventajas del uso de Angular para futuras versiones del proyecto}{30}{subsubsection.3.3.4.2}%
-\contentsline {subsubsection}{\numberline {3.3.4.3}Consideraciones para su implementación}{30}{subsubsection.3.3.4.3}%
-\contentsline {subsection}{\numberline {3.3.5}Metodologías de Desarrollo de Software}{30}{subsection.3.3.5}%
-\contentsline {subsubsection}{\numberline {3.3.5.1}Desarrollo Ágil}{30}{subsubsection.3.3.5.1}%
-\contentsline {subsubsection}{\numberline {3.3.5.2}Fases del Proyecto}{30}{subsubsection.3.3.5.2}%
-\contentsline {subsection}{\numberline {3.3.6}Usabilidad y Experiencia de Usuario (UX)}{30}{subsection.3.3.6}%
-\contentsline {subsubsection}{\numberline {3.3.6.1}Principios de Usabilidad}{30}{subsubsection.3.3.6.1}%
-\contentsline {subsubsection}{\numberline {3.3.6.2}Diseño de la Interfaz de Usuario (UI)}{30}{subsubsection.3.3.6.2}%
-\contentsline {subsection}{\numberline {3.3.7}Seguridad en Aplicaciones Web}{30}{subsection.3.3.7}%
-\contentsline {subsubsection}{\numberline {3.3.7.1}Protección contra ataques comunes}{30}{subsubsection.3.3.7.1}%
-\contentsline {subsubsection}{\numberline {3.3.7.2}Autenticación y manejo seguro de datos}{31}{subsubsection.3.3.7.2}%
-\contentsline {chapter}{\numberline {4}Análisis y Diseño del Sistema}{32}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Metodología de Desarrollo}{32}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}¿Por qué prototipos para este trabajo?}{33}{subsection.4.1.1}%
-\contentsline {section}{\numberline {4.2}Análisis de Requerimientos}{34}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Requerimientos Funcionales}{34}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Requerimientos No Funcionales}{38}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}Análisis de Riesgos}{40}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Identificación de Riesgos}{40}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Jerarquización de Riesgos}{40}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Estimación de Costos}{40}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Método de Estimación de Costos}{40}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Detalle de los Costos Estimados}{40}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}Diseño del Sistema}{40}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Arquitectura General del Sistema}{40}{subsection.4.5.1}%
-\contentsline {subsubsection}{\numberline {4.5.1.1}Arquitectura Cliente-Servidor}{40}{subsubsection.4.5.1.1}%
-\contentsline {subsubsection}{\numberline {4.5.1.2}Flujo de Datos}{40}{subsubsection.4.5.1.2}%
-\contentsline {subsection}{\numberline {4.5.2}Diseño de la Interfaz de Usuario}{40}{subsection.4.5.2}%
-\contentsline {subsubsection}{\numberline {4.5.2.1}Estructura de la Interfaz}{40}{subsubsection.4.5.2.1}%
-\contentsline {subsubsection}{\numberline {4.5.2.2}Prototipo de la Interfaz}{40}{subsubsection.4.5.2.2}%
-\contentsline {chapter}{\numberline {5}Implementación \newline (Primer Prototipo)}{41}{chapter.5}%
-\contentsline {chapter}{\numberline {A}Cálculo de los Coeficientes de la Serie de Fourier}{42}{appendix.Alph1}%
-\contentsline {section}{\numberline {A.1}Forma Trigonométrica}{42}{section.Alph1.1}%
-\contentsline {section}{\numberline {A.2}Forma Exponencial Compleja}{43}{section.Alph1.2}%
-\contentsline {chapter}{Bibliograf\'{\i }a}{45}{appendix*.23}%
+\contentsline {subsection}{\numberline {3.2.7}Serie Trigonométrica de Fourier}{26}{subsection.3.2.7}%
+\contentsline {subsubsection}{\numberline {3.2.7.1}Series de Fourier de Período $T$ o de $-p$ a $p$}{27}{subsubsection.3.2.7.1}%
+\contentsline {subsubsection}{\numberline {3.2.7.2}Criterios para funciones pares e impares}{28}{subsubsection.3.2.7.2}%
+\contentsline {subsection}{\numberline {3.2.8}Extensiones de Medio Intervalo}{29}{subsection.3.2.8}%
+\contentsline {subsubsection}{\numberline {3.2.8.1}Extensión Par (Serie de Cosenos)}{29}{subsubsection.3.2.8.1}%
+\contentsline {subsubsection}{\numberline {3.2.8.2}Extensión Impar (Serie de Senos)}{30}{subsubsection.3.2.8.2}%
+\contentsline {subsubsection}{\numberline {3.2.8.3}Extensión Periódica}{30}{subsubsection.3.2.8.3}%
+\contentsline {subsection}{\numberline {3.2.9}Serie Compleja de Fourier}{31}{subsection.3.2.9}%
+\contentsline {subsubsection}{\numberline {3.2.9.1}Serie Compleja de Fourier de Período $T$ o de $-p$ a $p$}{32}{subsubsection.3.2.9.1}%
+\contentsline {subsection}{\numberline {3.2.10}Serie Compleja de Fourier de $0$ a $L$}{33}{subsection.3.2.10}%
+\contentsline {subsection}{\numberline {3.2.11}Fenómeno de Gibbs}{33}{subsection.3.2.11}%
+\contentsline {section}{\numberline {3.3}Aplicaciones Web}{34}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}HTML, CSS y JavaScript}{35}{subsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.1}HTML}{35}{subsubsection.3.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.2}CSS}{35}{subsubsection.3.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.3.1.3}JavaScript}{35}{subsubsection.3.3.1.3}%
+\contentsline {subsection}{\numberline {3.3.2}NodeJS}{35}{subsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.1}Introducción a NodeJS}{35}{subsubsection.3.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.3.2.2}Ventajas del uso de NodeJS para aplicaciones web}{35}{subsubsection.3.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.3}Integración de NodeJS con Maxima}{35}{subsubsection.3.3.2.3}%
+\contentsline {subsection}{\numberline {3.3.3}Maxima}{36}{subsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.3.1}Qué es Maxima y por qué se usa para cálculos simbólicos}{36}{subsubsection.3.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.3.2}Implementación de Maxima en el servidor}{36}{subsubsection.3.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.4}Angular (Posible implementación futura)}{36}{subsection.3.3.4}%
+\contentsline {subsubsection}{\numberline {3.3.4.1}Introducción a Angular}{36}{subsubsection.3.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.3.4.2}Ventajas del uso de Angular para futuras versiones del proyecto}{36}{subsubsection.3.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.3.4.3}Consideraciones para su implementación}{36}{subsubsection.3.3.4.3}%
+\contentsline {subsection}{\numberline {3.3.5}Metodologías de Desarrollo de Software}{36}{subsection.3.3.5}%
+\contentsline {subsubsection}{\numberline {3.3.5.1}Desarrollo Ágil}{36}{subsubsection.3.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.3.5.2}Fases del Proyecto}{36}{subsubsection.3.3.5.2}%
+\contentsline {subsection}{\numberline {3.3.6}Interfaz gráfica de usuario}{36}{subsection.3.3.6}%
+\contentsline {subsubsection}{\numberline {3.3.6.1}Principios de Usabilidad}{37}{subsubsection.3.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.3.6.2}Diseño de la Interfaz de Usuario (UI)}{37}{subsubsection.3.3.6.2}%
+\contentsline {subsection}{\numberline {3.3.7}Seguridad en Aplicaciones Web}{37}{subsection.3.3.7}%
+\contentsline {subsubsection}{\numberline {3.3.7.1}Protección contra ataques comunes}{37}{subsubsection.3.3.7.1}%
+\contentsline {subsubsection}{\numberline {3.3.7.2}Autenticación y manejo seguro de datos}{37}{subsubsection.3.3.7.2}%
+\contentsline {chapter}{\numberline {4}Análisis y Diseño del Sistema}{38}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Metodología de Desarrollo}{38}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}¿Por qué prototipos para este trabajo?}{39}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}Análisis de Requerimientos}{40}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Requerimientos Funcionales}{40}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Requerimientos No Funcionales}{44}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Análisis de Riesgos}{46}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Identificación de Riesgos}{46}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Jerarquización de Riesgos}{46}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Estimación de Costos}{46}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Método de Estimación de Costos}{46}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Detalle de los Costos Estimados}{46}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}Diseño del Sistema}{46}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Arquitectura General del Sistema}{46}{subsection.4.5.1}%
+\contentsline {subsubsection}{\numberline {4.5.1.1}Arquitectura Cliente-Servidor}{46}{subsubsection.4.5.1.1}%
+\contentsline {subsubsection}{\numberline {4.5.1.2}Flujo de Datos}{46}{subsubsection.4.5.1.2}%
+\contentsline {subsection}{\numberline {4.5.2}Diseño de la Interfaz de Usuario}{46}{subsection.4.5.2}%
+\contentsline {subsubsection}{\numberline {4.5.2.1}Estructura de la Interfaz}{46}{subsubsection.4.5.2.1}%
+\contentsline {subsubsection}{\numberline {4.5.2.2}Prototipo de la Interfaz}{46}{subsubsection.4.5.2.2}%
+\contentsline {chapter}{\numberline {5}Implementación \newline (Primer Prototipo)}{47}{chapter.5}%
+\contentsline {chapter}{\numberline {A}Cálculo de los Coeficientes de la Serie de Fourier}{48}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}Forma Trigonométrica}{48}{section.Alph1.1}%
+\contentsline {section}{\numberline {A.2}Forma Exponencial Compleja}{49}{section.Alph1.2}%
+\contentsline {chapter}{Bibliograf\'{\i }a}{51}{appendix*.28}%

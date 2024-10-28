@@ -717,7 +717,7 @@ Cabe señalar que, dado que las funciones seno y coseno solo se diferencian por 
 				\node at (axis cs:0.4,1.2) {\huge \textcolor{guinda}{$f(\theta) = \cos(\theta + \textcolor{orange}{\varphi})$}};
 				\addplot[guinda, ultra thick] {( cos(180*x/pi - 57.2958*pi/2) )};
 				\addplot[dashed, black, thick] coordinates {(pi/2, -2) (pi/2, 2)};
-				\draw[<->, ultra thick, red, dashed] (axis cs:0,-1) -- (axis cs:pi/2,-1) node[midway, below, black] {\huge $\textcolor{orange}{\varphi}$};;
+				\draw[<->, ultra thick, red, dashed] (axis cs:0,-1) -- (axis cs:pi/2,-1) node[midway, below, black] {\huge $\textcolor{orange}{\varphi}$};
 			\end{axis}
 		\end{tikzpicture}
 	\end{minipage}
@@ -1059,7 +1059,7 @@ La función \( f(t) \) se dice que es \textit{suave a trozos} en el intervalo \(
 			\end{axis}
 		\end{tikzpicture}
 	\end{minipage}
-	\caption[Ejemplo de una función suave a trozos completamente continua y una función a tozos con discontinuidades (saltos).]{Ejemplo de una función suave a trozos completamente continua y una función a tozos con discontinuidades (saltos).]\textit{Fuente: Elaboración propia}}
+	\caption[Ejemplo de una función suave a trozos completamente continua y una función a tozos con discontinuidades (saltos).]{Ejemplo de una función suave a trozos completamente continua y una función a tozos con discontinuidades (saltos).\textit{Fuente: Elaboración propia}}
 	\label{fig:funcion-suave-trozos}  % Etiqueta para la figura
 \end{figure}
 Entonces, una función continua o discontinua \( f(t) \) definida en todo el eje \( t \) se dice que es \textit{suave a trozos} si, en cualquier intervalo finito, se comporta de manera que su derivada es continua o tiene pocas discontinuidades. Esto significa que la función puede tener ciertos "saltos" o cambios bruscos en su forma, pero entre estos puntos, su comportamiento es regular y suave. Este concepto es útil para funciones periódicas, que se repiten en ciclos. Toda función \( f(t) \) suave a trozos (ya sea continua o discontinua) está acotada, lo que implica que no puede crecer indefinidamente y tiene una derivada acotada en todas partes, excepto en sus "esquinas" y puntos de discontinuidad (es decir, en los puntos donde la función cambia abruptamente o tiene saltos), donde la derivada \( f'(t) \) no existe. ~\cite{fourierTolstov}
@@ -1067,79 +1067,429 @@ Entonces, una función continua o discontinua \( f(t) \) definida en todo el eje
 \subsection{Funciones Ortogonales}
 Las funciones ortogonales son fundamentales en el análisis de Fourier, ya que permiten descomponer funciones en términos independientes entre sí.
 
-\subsection{Series de Funciones}
-Una serie de funciones es una suma infinita de funciones que depende de un parámetro. Este concepto es fundamental para el desarrollo de muchas herramientas en análisis matemático.
+\subsection{Serie Trigonométrica de Fourier}
+Como ya vimos anteriormente, las series de Fourier, fueron introducidas por el matemático francés Jean Baptiste Joseph Fourier con el objetivo de aproximar funciones periódicas utilizando un conjunto de funciones ortogonales como $\{1, \cos \omega_0 t, \cos 2\omega_0 t, \dots, \cos n\omega_0 t, \dots, \sin \omega_0 t, \sin 2\omega_0 t, \dots, \sin n\omega_0 t, \dots\}$ ~\cite{matesAvanzadasZill}.
 
-\subsubsection{Definición de Series de Funciones}
-La definición de una serie de funciones involucra una suma infinita donde cada término es una función. Estas series pueden converger a una función límite.
-
-\subsubsection{Convergencia de Series de Funciones}
-La convergencia de una serie de funciones describe cuándo y cómo la suma de los términos se aproxima a una función límite. Existen distintos tipos de convergencia, como la convergencia puntual y la convergencia uniforme.
+La idea fundamental detrás de las series de Fourier es descomponer una función periódica en términos de una suma infinita de funciones básicas, senos y cosenos, cuyas frecuencias son múltiplos de la frecuencia de la función original. Esta descomposición permite analizar las propiedades de una función o señal y facilita la síntesis de objetos o fenómenos.
 
 
-\subsection{Series de Fourier de Período $T$ o de $-p$ a $p$}
-Esta sección aborda la construcción de series de Fourier para funciones periódicas en intervalos definidos.
+\subsubsection{Series de Fourier de Período $T$ o de $-p$ a $p$}
 
-\subsubsection{Generalización de la Serie de Fourier}
-La serie de Fourier puede generalizarse a cualquier intervalo de periodo $T$ o simétrico en $[-p, p]$.
+Si $f(t)$ es una función periódica de periodo $T$ \ref{fig:func-periodica}, se puede expresar mediante una serie trigonométrica como:
 
-\subsubsection{Coeficientes de Fourier para Período $T$}
-Los coeficientes de Fourier para funciones periódicas de periodo $T$ se calculan integrando sobre un intervalo de longitud $T$.
-
-\subsection{Funciones Suaves y Suaves por Partes}
-Las funciones suaves y suaves por partes tienen importancia en el análisis de Fourier por su comportamiento en el límite.
+\begin{equation}\label{eq26}
+	f(t) = \frac{a_0}{2} + a_1 \cos(\omega_0 t) + a_2 \cos(2\omega_0 t) + \dots + b_1 \sin(\omega_0 t) + b_2 \sin(2\omega_0 t) + \dots
+\end{equation}
 
 
-\subsection{Series de Fourier de Senos y Cosenos}
-Las series de Fourier de senos y cosenos permiten descomponer funciones en términos de senos y cosenos exclusivamente.
+o de forma general como ~\cite{fourierHsu}:
 
-\subsubsection{Condiciones para la Cancelación de Coeficientes}
-Para que ciertos coeficientes desaparezcan en una serie de Fourier, la función debe tener propiedades particulares de simetría.
+\begin{equation}\label{eq27}
+f(t) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[a_n \cos(n\omega_0 t) + b_n \sin(n\omega_0 t)\right]
+\end{equation}
 
-\subsubsection{Desarrollo de Series de Fourier con Senos y Cosenos}
-El desarrollo de series de Fourier en senos y cosenos se basa en las propiedades de simetría de las funciones.
+donde $\omega_0 = \frac{2\pi}{T}$ es la frecuencia angular fundamental y los coeficientes $a_0$, $a_n$ y $b_n$ son los coeficientes de Fourier dados por \eqref{eq28} ~\cite{fourierHsu}: 
 
-\subsection{Funciones Pares e Impares}
-Las funciones pares e impares presentan propiedades específicas que simplifican sus desarrollos en series de Fourier.
+\begin{equation}\label{eq28}
+	a_0 = \frac{2}{T} \int_{-\frac{T}{2}}^{\frac{T}{2}} f(t) \ dt, \quad a_n = \frac{2}{T} \int_{-\frac{T}{2}}^{\frac{T}{2}} f(t) \cos(n\omega_0 t) \ dt, \quad b_n = \frac{2}{T} \int_{-\frac{T}{2}}^{\frac{T}{2}} f(t) \sin(n\omega_0 t) \ dt
+\end{equation}
 
-\subsubsection{Definición y Propiedades de Funciones Pares}
-Una función par es simétrica respecto al eje y; sus series de Fourier contienen solo términos de coseno.
+La ecuación \eqref{eq27} describe cómo una función periódica arbitraria puede representarse como una suma infinita de componentes sinusoidales con diferentes frecuencias. El componente de la frecuencia $\omega_n = n\omega_0$ se denomina el $n$-ésimo armónico de la función periódica. Utilizando las relaciones de ortogonalidad en las... (acá vamos a poner lo de ortogonalidad).\newline
+Otra forma muy común de representar una función $f(t)$ en una serie de Fourier es cuando el periodo $T$ se encuentra definido en un intervalo de $-p$ a $p$, que es completamente equivalente a cuando está definida sobre $-\frac{T}{2}$ a $\frac{T}{2}$, para este caso, la fórmula de la serie sigue siendo la misma establecida previamente en \eqref{eq27}, lo que cambia levemente es como se definen nuestros coeficientes: ~\cite{matesAvanzadasZill}
+\begin{equation}\label{eq29}
+	a_0 = \frac{1}{p} \int_{-p}^{p} f(t) \, dt, \quad a_n = \frac{1}{p} \int_{-p}^{p} f(t) \cos(n\omega_0 t) \, dt, \quad b_n = \frac{1}{p} \int_{-p}^{p} f(t) \sin(n\omega_0 t) \, dt
+\end{equation}
 
-\subsubsection{Definición y Propiedades de Funciones Impares}
-Una función impar es simétrica respecto al origen; sus series de Fourier contienen solo términos de seno.
+donde también cambia un poco como se define nuestra frecuencia fundamental $\omega_0 = \frac{\pi}{p}$. ~\cite{matesAvanzadasZill}: 
+
+\begin{figure}[H]
+	\centering
+		\begin{tikzpicture}[scale=0.6]
+		\begin{axis}[
+			axis lines=middle,
+			grid=both,
+			enlargelimits=false,
+			width=15cm, % Ancho de la gráfica
+			height=10cm, % Altura de la gráfica
+			xlabel={\Large $t$},
+			ylabel={\large $f(t)$},
+			xtick={-5,-3,-1,0,1,3,5},
+			xticklabels={-$3p$, -$2p$, -$p$, 0, $p$, $2p$, $3p$},
+			xticklabel style={font=\Large},
+			ytick={-4,-3,-2, -1, 0, 1, 2}, % Gradación de 0.5 en 0.5 en el eje y
+			yticklabels=\empty,
+			ymin=-4, ymax=2,
+			xmin=-5, xmax=5,
+			samples=400,
+			domain=-5:5,
+			axis background/.style={fill=white}
+			]
+			\addplot[guinda, ultra thick, domain=-3:-1, dashed] {( x+2 )};
+			\addplot[guinda, ultra thick, domain=-5:-3, dashed] {( x+4 )};
+			\addplot[guinda, ultra thick, domain=-1:1] {( x )};
+			\addplot[guinda, ultra thick, domain=3:1, dashed] {( x-2 )};
+			\addplot[guinda, ultra thick, domain=5:3, dashed] {( x-4 )};
+			
+			\draw[<->, ultra thick, red, dashdotted] (axis cs:-1,-1.5) -- (axis cs:1,-1.5)node[midway, below, black] {\large $\textbf{{$T$}}$};
+			\draw[<->, ultra thick, red, dashdotted] (axis cs:-3,-2.5) -- (axis cs:3,-2.5)node[midway, below, black] {\large $\textbf{{$2T$}}$};
+			\draw[<->, ultra thick, red, dashdotted] (axis cs:-5,-3.5) -- (axis cs:5,-3.5)node[midway, below, black] {\large $\textbf{{$3T$}}$};
+			
+		\end{axis}
+	\end{tikzpicture}
+	\caption[Gráfica de una función periódica \( f(t) \) con periodo \( T \), repitiéndose en intervalos de \( T, 2T, \) y \( 3T \).]{Gráfica de una función periódica \( f(t) \) con periodo \( T \), repitiéndose en intervalos de \( T, 2T, \) y \( 3T \). \textit{Fuente: Elaboración propia}}
+	\label{fig:func-periodica}  % Etiqueta para la figura
+\end{figure}
+
+\subsubsection{Criterios para funciones pares e impares}
+Como vimos anteriormente, el que una función sea par o impar podrá ahorrar potenciales cálculos, en primera, podemos decir que si nuestra función $f(t)$ es una función par, entonces los únicos coeficientes que será necesario calcular serán los coeficientes $a_0$ y $a_n$ \eqref{eq28}. Pero, ¿qué pasa con el coeficiente $b_n$?
+Recordemos que el coeficiente \( b_n \) en la serie de Fourier está dado por la integral:
+\[
+b_n = \frac{2}{T} \int_{-T/2}^{T/2} f(t) \sin\left(\sin(n\omega_0 t)\right) \, dt
+\]
+Dado que \( f(t) \) es par y \( \sin\left(\sin(n\omega_0 t)\right) \) es una función impar, al multiplicarlos obtenemos una función impar ~\cite{matesAvanzadasZill}, como ya vimos anteriormente. Entonces, esto implica que cuando integremos esta función impar resultante sobre un intervalo simétrico alrededor del origen (como $-\frac{T}{2}$, $\frac{T}{2}$), la integral resultante será cero:
+\[
+b_n = \frac{2}{T} \int_{-T/2}^{T/2} f(t) \sin\left(\sin(n\omega_0 t)\right) \, dt = 0
+\]
+Por lo tanto, todos los coeficientes \( b_n \) se cancelan automáticamente cuando \( f(t) \) es una función par, ya que la contribución de los términos de seno se anula debido a la simetría impar del integrando. Esto simplifica la serie de Fourier, ya que solo es necesario calcular los coeficientes \( a_0 \), correspondiente al promedio de la función y \( a_n \), correspondiente a los términos de coseno, que son funciones pares. \newline
+
+Algo similar sucede cuando nuestra función $f(t)$ es una función impar, en este caso el único coeficiente que sobrevive es el coeficiente $b_n$. Sabemos que el coeficiente \( a_n \) en la serie de Fourier se calcula mediante la integral:
+
+\[
+a_n = \frac{2}{T} \int_{-T/2}^{T/2} f(t) \cos(n \omega_0 t) \, dt
+\]
+
+Dado que \( f(t) \) es una función impar y \( \cos(n \omega_0 t) \) es una función par, el producto \( f(t) \cos(n \omega_0 t) \) será una función impar. Esto es porque la multiplicación de una función impar con una función par produce una función impar. ~\cite{matesAvanzadasZill}
+
+Al integrar una función impar en un intervalo simétrico alrededor del origen, como \([-T/2, T/2]\), la integral resultará en cero. Esto implica que:
+
+\[
+a_n = \frac{2}{T} \int_{-T/2}^{T/2} f(t) \cos(n \omega_0 t) \, dt = 0
+\]
+
+Por un razonamiento análogo, el coeficiente \( a_0 \), que representa el promedio de la función y se calcula mediante la integral:
+
+\[
+a_0 = \frac{2}{T} \int_{-T/2}^{T/2} f(t) \, dt
+\]
+
+también será igual a cero, ya que la función \( f(t) \) es impar y, al integrarla sobre un intervalo simétrico, la integral se anula.
+
+Por lo tanto, cuando \( f(t) \) es una función impar, todos los coeficientes \( a_n \) y \( a_0 \) se cancelan automáticamente, ya que la contribución de los términos de coseno y del promedio de la función se anula debido a la simetría impar del integrando. Así, en este caso, solo es necesario calcular los coeficientes \( b_n \), correspondientes a los términos de seno, los cuales son funciones impares y, por lo tanto, sobreviven en la serie de Fourier. \newline
+
+Entonces, podemos decir que la serie de Fourier para una función $f(t)$ cuando esta función es \textbf{par} es:
+
+\begin{equation}\label{eq30}
+	f(t) = \frac{a_0}{2} + \sum_{n=1}^{\infty} a_n \cos(n\omega_0 t)
+\end{equation}
+
+Y la serie de Fourier para una función $f(t)$ cuando esta función es \textbf{impar} es:
+
+\begin{equation}\label{eq31}
+	f(t) =\sum_{n=1}^{\infty}  b_n \sin(n\omega_0 t),
+\end{equation}
+
+donde los coeficientes de Fourier cuando se mantienen igual \ref{eq28}, solo es cuestión de aplicar lo previamente visto para saber cuando calcular los necesarios:
+
 
 \subsection{Extensiones de Medio Intervalo}
-Las extensiones de medio intervalo son técnicas para definir una función en un dominio extendido, facilitando el análisis de Fourier.
+En la sección anterior observamos que para desarrollar una función $f(t)$ en una serie de Fourier debía estar declarada en un intervalo simétrico $-\frac{T}{2}$, $\frac{T}{2}$, sin embargo, en muchos casos nos interesa representar una función definida solamente para $0 < x < L$ mediante una serie trigonométrica estas se conocen como \textit{extensiones de medio rango}, entonces se está en libertad de asumir cuál será el comportamiento de la serie para este intervalo, recordando que  $\omega_0 = \frac{2\pi}{T} = \frac{\pi}{L}$ es la frecuencia angular fundamental. De aquí existen 3 posibilidades, asumir que la función es par, impar o periódica ~\cite{fourierCruzFierro}. 
+
+\subsubsection{Extensión Par (Serie de Cosenos)}
+La extensión par hace que la función sea simétrica respecto al eje y (Figura \ref{fig:serie-de-cosenos}), permitiendo extender el análisis a un intervalo completo de manera simétrica.
+\begin{figure}[H]
+	\begin{tikzpicture}
+		\begin{axis}[
+			axis lines=middle,
+			grid=both,
+			enlargelimits=false,
+			width=15cm, % Ancho de la gráfica
+			height=6cm, % Altura de la gráfica
+			xlabel={\Large $t$},
+			ylabel={\large $f(t)$},
+			xtick={-5,-4,-3,-2,-1,0,1,2,3,4,5},
+			xticklabels={$-5L$, $-4L$, $-3L$, $-2L$, $-L$, 0, $L$, $2L$, $3L$, $4L$, $5L$},
+			xticklabel style={font=\Large},
+			ytick={ -1, 0, 1, 2}, % Gradación de 0.5 en 0.5 en el eje y
+			yticklabels=\empty,
+			ymin=-1, ymax=2,
+			xmin=-5, xmax=5,
+			samples=400,
+			domain=-5:5,
+			axis background/.style={fill=white}
+			]
+			\addplot[guinda, ultra thick, domain=-3:-1, dashed] {( (x+2)^2 )};
+			\addplot[guinda, ultra thick, domain=-5:-3, dashed] {( (x+4)^2  )};
+			\addplot[guinda, ultra thick, domain=0:1] {( x^2 )};
+			\addplot[guinda, ultra thick, domain=-1:0, dashed] {( x^2 )};
+			\addplot[guinda, ultra thick, domain=3:1, dashed] {( (x-2)^2  )};
+			\addplot[guinda, ultra thick, domain=5:3, dashed] {( (x-4)^2 )};
+			
+			\addplot[black, mark=*, mark size=3pt, only marks] coordinates {(-5,0) (-4,0) (-3,0) (-2,0) (-1,0) (0,0) (1,0) (2,0) (3,0) (4,0) (5,0)};
+		\end{axis}
+	\end{tikzpicture}
+		\caption[Extensión par en cosenos de una función $f(t)$]{Extensión par en cosenos de una función $f(t)$. \textit{Fuente: Elaboración propia}}
+		\label{fig:serie-de-cosenos} 
+\end{figure}
+Para la extensión par, la serie de Fourier se define de la misma manera que cuando tenemos una función par $f(t)$ \eqref{eq30}:
+
+\begin{equation}\label{eq32}
+	f(t) = \frac{a_0}{2} + \sum_{n=1}^{\infty} a_n \cos(n\omega_0 t)
+\end{equation}
+
+Pero los coeficientes se verán afectados de la siguiente forma: ~\cite{fourierCruzFierro}
+\begin{equation}\label{eq33}
+	a_0 = \frac{2}{L} \int_{0}^{L} f(t) \, dt, \quad a_n = \frac{2}{L} \int_{0}^{L} f(t) \cos(n\omega_0 t) \, dt, \quad 
+\end{equation}
+
+\subsubsection{Extensión Impar (Serie de Senos)}
+La extensión impar hace que la función sea simétrica respecto al origen (Figura \ref{fig:serie-de-senos}), permitiendo analizarla en un intervalo completo con una continuidad en la transición de signo.
+
+\begin{figure}[H]
+	\begin{tikzpicture}
+		\begin{axis}[
+			axis lines=middle,
+			grid=both,
+			enlargelimits=false,
+			width=15cm, % Ancho de la gráfica
+			height=6cm, % Altura de la gráfica
+			xlabel={\Large $t$},
+			ylabel={\large $f(t)$},
+			xtick={-5,-4,-3,-2,-1,0,1,2,3,4,5},
+			xticklabels={$-5L$, $-4L$, $-3L$, $-2L$, $-L$, 0, $L$, $2L$, $3L$, $4L$, $5L$},
+			xticklabel style={font=\Large},
+			ytick={ -2, -1, 0, 1, 2}, % Gradación de 0.5 en 0.5 en el eje y
+			yticklabels=\empty,
+			ymin=-2, ymax=2,
+			xmin=-5, xmax=5,
+			samples=400,
+			domain=-5:5,
+			axis background/.style={fill=white}
+			]
+			
+			\addplot[guinda, ultra thick, domain=-1:0, dashed] {( -(x)^2 )};
+			\addplot[guinda, ultra thick, domain=-2:-1, dashed] {( (x+2)^2 )};
+			\addplot[guinda, ultra thick, domain=-3:-2, dashed] {( -(x+2)^2 )};
+			\addplot[guinda, ultra thick, domain=-4:-3, dashed] {( (x+4)^2  )};
+			\addplot[guinda, ultra thick, domain=-5:-4, dashed] {( -(x+4)^2 )};
+			\addplot[guinda, ultra thick, domain=0:1] {( x^2 )};
+			\addplot[guinda, ultra thick, domain=1:2, dashed] {( -(x-2)^2 )};
+			\addplot[guinda, ultra thick, domain=2:3, dashed] {( (x-2)^2 )};
+			\addplot[guinda, ultra thick, domain=3:4, dashed] {( -(x-4)^2  )};
+			\addplot[guinda, ultra thick, domain=4:5, dashed] {( (x-4)^2 )};
+			
+			\addplot[black, mark=*, mark size=3pt, only marks] coordinates {(-5,0) (-4,0) (-3,0) (-2,0) (-1,0) (0,0) (1,0) (2,0) (3,0) (4,0) (5,0)};
+		\end{axis}
+	\end{tikzpicture}
+	\caption[Extensión impar en senos de una función $f(t)$]{Extensión impar en cosenos de una función $f(t)$. \textit{Fuente: Elaboración propia}}
+	\label{fig:serie-de-senos} 
+\end{figure}
+Para la extensión impar, la serie de Fourier se define de la misma manera que cuando tenemos una función impar $f(t)$ \eqref{eq31}:
+
+\begin{equation}\label{eq34}
+	f(t) =\sum_{n=1}^{\infty}  b_n \sin(n\omega_0 t),
+\end{equation}
+
+Pero el coeficiente se verá afectado de la siguiente forma: ~\cite{fourierCruzFierro}
+\begin{equation}\label{eq35}
+	b_n = \frac{2}{L} \int_{-0}^{L} f(t) \cos(n\omega_0 t) \, dt \quad 
+\end{equation}
+
 
 \subsubsection{Extensión Periódica}
-La extensión periódica replica la función en intervalos sucesivos, creando una función periódica.
+La extensión periódica replica la función en intervalos sucesivos, creando una función periódica que se extiende indefinidamente en ambos sentidos (Figura \ref{fig:extencion-periodica}).
 
-\subsubsection{Extensión Par}
-La extensión par hace que la función sea simétrica respecto al eje y, facilitando el análisis con cosenos.
+\begin{figure}[H]
+	\begin{tikzpicture}
+		\begin{axis}[
+			axis lines=middle,
+			grid=both,
+			enlargelimits=false,
+			width=15cm, % Ancho de la gráfica
+			height=6cm, % Altura de la gráfica
+			xlabel={\Large $t$},
+			ylabel={\large $f(t)$},
+			xtick={-5,-4,-3,-2,-1,0,1,2,3,4,5},
+			xticklabels={$-5L$, $-4L$, $-3L$, $-2L$, $-L$, 0, $L$, $2L$, $3L$, $4L$, $5L$},
+			xticklabel style={font=\Large},
+			ytick={ -2, -1, 0, 1, 2}, % Gradación de 0.5 en 0.5 en el eje y
+			yticklabels=\empty,
+			ymin=-2, ymax=2,
+			xmin=-5, xmax=5,
+			samples=400,
+			domain=-5:5,
+			axis background/.style={fill=white}
+			]
+			
+			\addplot[guinda, ultra thick, domain=-1:0, dashed] {( (x+1)^2 )};
+			\addplot[guinda, ultra thick, domain=-2:-1, dashed] {( (x+2)^2 )};
+			\addplot[guinda, ultra thick, domain=-3:-2, dashed] {( (x+3)^2 )};
+			\addplot[guinda, ultra thick, domain=-4:-3, dashed] {( (x+4)^2  )};
+			\addplot[guinda, ultra thick, domain=-5:-4, dashed] {( (x+5)^2 )};
+			\addplot[guinda, ultra thick, domain=0:1] {( x^2 )};
+			\addplot[guinda, ultra thick, domain=1:2, dashed] {( (x-1)^2 )};
+			\addplot[guinda, ultra thick, domain=2:3, dashed] {( (x-2)^2 )};
+			\addplot[guinda, ultra thick, domain=3:4, dashed] {( (x-3)^2  )};
+			\addplot[guinda, ultra thick, domain=4:5, dashed] {( (x-4)^2 )};
+			
+			\addplot[black, mark=*, mark size=3pt, only marks] coordinates {(-5,0.5) (-4,0.5) (-3,0.5) (-2,0.5) (-1,0.5) (0,0.5) (1,0.5) (2,0.5) (3,0.5) (4,0.5) (5,0.5)};
+		\end{axis}
+	\end{tikzpicture}
+	
+	\caption[Extensión periódica de medio rango de una función $f(t)$]{Extensión periódica de medio rango de una función $f(t)$. \textit{Fuente: Elaboración propia}}
+	\label{fig:extencion-periodica} 
+\end{figure}
+Para la extensión periódica, al no ser par ni impar, requerirá de los 3 coeficientes, y a diferencia de las extensiones par e impar, en esta tanto la serie como el calculo de los coeficientes tomarán una forma ligeramente diferente: ~\cite{fourierCruzFierro}
+\begin{equation}\label{eq36}
+	f(t) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[a_n \cos(2n\omega_0 t) + b_n \sin(2n\omega_0 t)\right],
+\end{equation}
 
-\subsubsection{Extensión Impar}
-La extensión impar hace que la función sea simétrica respecto al origen, facilitando el análisis con senos.
 
-\subsection{Serie Compleja de Fourier de Período $T$ o de $-p$ a $p$}
-La serie compleja de Fourier representa funciones periódicas utilizando exponentes complejos, simplificando el cálculo.
+\begin{equation}\label{eq37}
+	a_0 = \frac{2}{L} \int_{0}^{L} f(t) \, dt, \quad a_n = \frac{2}{L} \int_{0}^{L} f(t) \cos(2n\omega_0 t) \, dt, \quad b_n = \frac{2}{L} \int_{0}^{L} f(t) \sin(2n\omega_0 t) \, dt
+\end{equation}
 
-\subsubsection{Definición de Serie Compleja de Fourier}
-La serie compleja de Fourier usa exponentes complejos para expresar funciones periódicas de manera compacta.
+\subsection{Serie Compleja de Fourier}
+Una forma compacta de expresar a la serie trigonométrica de Fourier \eqref{eq27} es definiría en términos de una exponencial compleja. Para lograr esto, se representan a las funciones de seno y coseno usando la notación de Euler $e^{i\theta} = cos(\theta) + isin(\theta)$, donde $i^{2} = -1$. ~\cite{youtubeComplexFourier}
 
-\subsubsection{Coeficientes Complejos para Período $T$}
-Los coeficientes complejos se obtienen integrando sobre un intervalo de longitud $T$ y representan la amplitud y fase de cada frecuencia.
+\begin{equation}\label{eq38}
+	\cos t = \frac{e^{it} + e^{-it}}{2}, \quad \sin t = \frac{e^{it} - e^{-it}}{2i}
+\end{equation}
+Al utilizar \eqref{eq38} para reemplazar $\cos \left(n\omega_0 t\right)$ y $\sin \left(n\omega_0 t\right)$ en \eqref{eq38}, la serie de Fourier de una función $f$ puede escribirse como
 
-\subsection{Serie Compleja de Fourier de $0$ a $p$}
-Esta serie compleja se utiliza para representar funciones definidas en intervalos específicos como $[0, p]$.
+\begin{equation} \label{eq39}
+	\begin{split}
+		f(t) &= \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[a_n \frac{e^{i(n\omega_0 t)} + e^{-i(n\omega_0 t)}}{2} + b_n \frac{e^{i(n\omega_0 t)} - e^{-i(n\omega_0 t)}}{2i}\right] \\
+		&= \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[\frac{1}{2} \left(a_n - i b_n\right) e^{i (n\omega_0 t)} + \frac{1}{2} \left(a_n + i b_n\right) e^{-i (n\omega_0 t)}\right] \\
+		&= c_0 + \sum_{n=1}^{\infty} c_n e^{i (n\omega_0 t)} + \sum_{n=1}^{\infty} c_{-n} e^{-i(n\omega_0 t)}
+	\end{split}
+\end{equation}
 
-\subsubsection{Definición y Desarrollo}
-Se describe cómo desarrollar la serie compleja de Fourier en un intervalo de $[0, p]$, utilizando exponentes complejos.
 
-\subsubsection{Aplicaciones y Ejemplos}
-Ejemplos de aplicación de la serie compleja de Fourier en análisis de señales y sistemas periódicos.
+donde $c_0 = \frac{1}{2} a_0$, $c_n = \frac{1}{2} (a_n - i b_n)$ y $c_{-n} = \frac{1}{2} (a_n + i b_n)$. Los símbolos $a_n$, $b_n$ son los coeficientes de la definición \eqref{eq27}. Cuando la función $f(t)$ es real, $c_n$ y $c_{-n}$ son complejos conjugados y pueden escribirse también en términos de las funciones exponenciales complejas:
+
+\begin{equation} \label{eq40}
+	\begin{split}
+		c_0 &= \frac{2}{T} \int_{-\frac{T}{2}}^{\frac{T}{2}} f(t) \, dt \\
+	\end{split}
+\end{equation}
+
+\begin{equation} \label{eq41}
+	\begin{split}
+		c_n &= \frac{2}{T} \left(a_n - i b_n\right) = \frac{2}{T} \left(\frac{2}{T} \int_{-\frac{T}{2}}^{\frac{T}{2}} f(t) cos(n\omega_0 t)  dt - i \frac{T}{2} \int_{-\frac{T}{2}}^{\frac{T}{2}} f(t) sin(n\omega_0 t) dt\right) \\
+		&=  \frac{1}{T} \int_{-\frac{T}{2}}^{\frac{T}{2}} f(t) \left( cos(n\omega_0 t)  - i \sin (n\omega_0 t)  \right) dt \\
+		&= \frac{1}{T} \int_{-\frac{T}{2}}^{\frac{T}{2}} f(t) e^{-i (n\omega_0 t)}  dt		
+	\end{split}
+\end{equation}
+
+\begin{equation} \label{eq42}
+	\begin{split}
+		c_{-n} &= \frac{2}{T} \left(a_n + i b_n\right) = \frac{2}{T} \left(\frac{2}{T} \int_{-\frac{T}{2}}^{\frac{T}{2}} f(t) cos(n\omega_0 t)  dt + i \frac{T}{2} \int_{-\frac{T}{2}}^{\frac{T}{2}} f(t) sin(n\omega_0 t) dt\right) \\
+		&=  \frac{1}{T} \int_{-\frac{T}{2}}^{\frac{T}{2}} f(t) \left( cos(n\omega_0 t)  + i \sin (n\omega_0 t)  \right) dt \\
+		&= \frac{1}{T} \int_{-\frac{T}{2}}^{\frac{T}{2}} f(t) e^{i (n\omega_0 t)}  dt		
+	\end{split}
+\end{equation}
+Puesto que los subíndices de coeficientes y exponentes se encuentran en el rango de todo el conjunto de enteros no negativos… $-3, -2, -1, 0, 1, 2, 3, \dots$, podemos escribir los resultados de \eqref{eq39}, \eqref{eq40}, \eqref{eq41} y \eqref{eq42} de manera más compacta al sumar tanto enteros negativos como no negativos. En otras palabras, es posible utilizar \textit{una} suma y \textit{una} integral que defina todos los coeficientes $c_0$, $c_n$ y $c_{-n}$. ~\cite{matesAvanzadasZill}
 
 
-\section{Tecnologías Utilizadas}
+\subsubsection{Serie Compleja de Fourier de Período $T$ o de $-p$ a $p$}
+Si $f(t)$ es una función periódica de periodo $T$ \ref{fig:func-periodica}, se puede expresar mediante una serie exponencial compleja como: ~\cite{fourierHsu}
+\begin{equation}\label{eq45}
+	f(t) = c_0 + \sum_{\substack{n=-\infty \\ n \neq 0}}^{\infty} c_n e^{i n \omega_0 t}
+\end{equation}
+
+
+recordando que $\omega_0 = \frac{2\pi}{T}$ es la frecuencia angular fundamental y los coeficientes $c_0$ y $c_n$ están dados por: 
+
+\begin{equation}\label{eq43}
+	c_n = \frac{1}{T} \int_{-T/2}^{T/2} f(t) e^{-i n \omega_0 t} \ dt \quad c_0 = \frac{1}{T} \int_{-T/2}^{T/2} f(t)\ dt 
+\end{equation}
+
+Se calcula el coeficiente $c_0$ por aparte del coeficiente general $c_n$ ya que en varios casos, el coeficiente $c_n$ presenta una indeterminación en $n=0$, por lo tanto, calculamos el coeficiente por aparte para evitar este problema.\newline
+
+Recordemos que otra forma en la que nos podemos encontrar la función $f(t)$ es que esté definida sobre un intervalo $[-p, p]$ \ref{fig:func-periodica}, recordamos que la frecuencia fundamental toma la forma de $\omega_0 = \frac{\pi}{p}$ y los coeficientes ahora tienen la siguiente forma
+
+\begin{equation}\label{eq44}
+	c_n = \frac{1}{2p} \int_{-p}^{p} f(t) e^{-i n \omega_0 t} \ dt \quad c_0 = \frac{1}{2p} \int_{-p}^{p} f(t)\ dt 
+\end{equation}
+
+\subsection{Serie Compleja de Fourier de $0$ a $L$}
+Así como con la serie trigonométrica, también se puede obtener una extensión de medio intervalo usando la serie exponencial compleja, con la diferencia de que solo podemos obtener la extensión de medio rango periódica \ref{fig:extencion-periodica} de una función definida en el intervalo $0$ a $L$, ya que las extensiones par e impar se obtienen unicamente con componentes trigonométricos. Esta serie tiene la misma forma de \eqref{eq45}, pero los coeficientes quedan de la siguiente forma ~\cite{fourierCinvestav}
+
+\begin{equation}\label{eq46}
+	c_n = \frac{1}{L} \int_{0}^{L} f(t) e^{-i n \omega_0 t} \ dt \quad c_0 = \frac{1}{L} \int_{0}^{L} f(t)\ dt 
+\end{equation}
+
+\subsection{Fenómeno de Gibbs}
+Cuando una función dada se aproxima mediante una serie de Fourier, ya sea trigonométrica o exponencial compleja, habrá un error considerable en la vecindad de la discontinuidad, no importa cuantos términos se quieran emplear. Este efecto se conoce como el fenómeno de Gibbs. Para ilustrar este fenómeno se puede ver en la Figura \ref{fig:gibbs} el resultado de aproximar una onda cuadrada por una serie finita de Fourier ~\cite{fourierCarrillo}
+
+\begin{figure}[H]
+	\centering
+	\begin{tikzpicture}[scale=0.7, spy using outlines={circle, magnification=4, size=7cm, connect spies}]
+		\begin{axis}[
+			axis lines=middle,
+			grid=both,
+			enlargelimits=false,
+			width=15cm, % Ancho de la gráfica
+			height=13cm, % Altura de la gráfica
+			xlabel=$x$,
+			ylabel={$f(x)$},
+			xtick={-6.28319, -4.7123889, -3.14159, -1.5708, 0, 1.5708, 3.14159, 4.7123889, 6.28319},
+			xticklabels={$-2\pi$, $-\frac{3\pi}{2}$, $-\pi$, $-\frac{\pi}{2}$, $0$, $\frac{\pi}{2}$, $\pi$, $\frac{3\pi}{2}$, $2\pi$},
+			ymin=-6, ymax=6,
+			xmin=-2*pi, xmax=2*pi,
+			samples=1500,
+			domain=-7:7,
+			axis background/.style={fill=white}
+			]
+			
+			% Aproximación con 6 términos
+			%\addplot[orange, thick] {2*( sin(180*x/pi)/1 - sin(180*2*x/pi)/2 + sin(180*3*x/pi)/3 - sin(180*4*x/pi)/4 + sin(180*5*x/pi)/5 - sin(180*6*x/pi)/6 )};
+			
+			\addplot[guinda, thick] {
+				2*( sin(180*x/pi)/1 - sin(180*2*x/pi)/2 + sin(180*3*x/pi)/3 - sin(180*4*x/pi)/4 
+				+ sin(180*5*x/pi)/5 - sin(180*6*x/pi)/6 + sin(180*7*x/pi)/7 - sin(180*8*x/pi)/8 
+				+ sin(180*9*x/pi)/9 - sin(180*10*x/pi)/10 + sin(180*11*x/pi)/11 - sin(180*12*x/pi)/12 
+				+ sin(180*13*x/pi)/13 - sin(180*14*x/pi)/14 + sin(180*15*x/pi)/15 - sin(180*16*x/pi)/16 
+				+ sin(180*17*x/pi)/17 - sin(180*18*x/pi)/18 + sin(180*19*x/pi)/19 - sin(180*20*x/pi)/20 
+				+ sin(180*21*x/pi)/21 - sin(180*22*x/pi)/22 + sin(180*23*x/pi)/23 - sin(180*24*x/pi)/24 
+				+ sin(180*25*x/pi)/25 - sin(180*26*x/pi)/26 + sin(180*27*x/pi)/27 - sin(180*28*x/pi)/28 
+				+ sin(180*29*x/pi)/29 - sin(180*30*x/pi)/30 + sin(180*31*x/pi)/31 - sin(180*32*x/pi)/32 
+				+ sin(180*33*x/pi)/33 - sin(180*34*x/pi)/34 + sin(180*35*x/pi)/35 - sin(180*36*x/pi)/36 
+				+ sin(180*37*x/pi)/37 - sin(180*38*x/pi)/38 + sin(180*39*x/pi)/39 - sin(180*40*x/pi)/40 
+				+ sin(180*41*x/pi)/41 - sin(180*42*x/pi)/42 + sin(180*43*x/pi)/43 - sin(180*44*x/pi)/44 
+				+ sin(180*45*x/pi)/45 - sin(180*46*x/pi)/46 + sin(180*47*x/pi)/47 - sin(180*48*x/pi)/48 
+				+ sin(180*49*x/pi)/49 - sin(180*50*x/pi)/50
+				)
+			};
+			
+	
+			% Coordenadas para el espía
+			\coordinate (spypoint) at (axis cs:0.2,0.2);
+			\coordinate (spyviewer) at (axis cs:-4,3);
+			
+		\end{axis}
+		% Añadimos el espía
+		\spy on (spypoint) in node [fill=white] at (spyviewer);
+	\end{tikzpicture}
+	
+	\caption[Aproximación de una función $f(t) = x$ con $-\pi < x < \pi$ en sus 50 primeros armónicos]{Aproximación de una función $f(t) = x$ con $-\pi < x < \pi$ en sus 50 primeros armónicos. \textit{Fuente: Elaboración propia}}
+	\label{fig:gibbs} 
+\end{figure}
+
+\section{Aplicaciones Web}
+Una aplicación web es un software que opera sobre un navegador web. Las compañías deben compartir datos y ofrecer servicios a distancia. Emplean aplicaciones en línea para interactuar con los clientes cuando lo requieran de manera segura. Las características más habituales de las páginas web, tales como carrito de compra, búsqueda y filtrado de productos, mensajería instantánea y canales de noticias en las redes sociales, se diseñan de la misma manera que las aplicaciones en línea. Le facilitan el acceso a funcionalidades avanzadas sin requerir la instalación o configuración de un programa informático.
+Las aplicaciones en línea ofrecen numerosas ventajas, y prácticamente todas las grandes compañías las incorporan en sus propuestas para los usuarios.
+\begin{itemize}
+	\item \textbf{Accesibilidad}: Las aplicaciones web pueden ser accedidas desde cualquier navegador y desde una variedad de dispositivos personales y empresariales. Grupos de trabajo en distintas ubicaciones pueden interactuar con documentos compartidos, sistemas de gestión de contenidos y otros servicios empresariales a través de aplicaciones web basadas en suscripciones.
+	
+	\item \textbf{Desarrollo eficiente}: El desarrollo de aplicaciones web es relativamente sencillo y rentable para las empresas, permitiendo a equipos pequeños realizar ciclos de desarrollo cortos. Esto hace que las aplicaciones web sean una forma eficiente y asequible de desarrollar software. Además, dado que la misma versión de la aplicación funciona en todos los navegadores y dispositivos modernos, no es necesario crear múltiples versiones para diversas plataformas.
+	
+	\item \textbf{Simplicidad para el usuario}: Los usuarios no necesitan descargar las aplicaciones web, lo cual facilita su acceso sin ocupar espacio en el disco duro o requerir mantenimiento. Las aplicaciones web reciben actualizaciones de software y seguridad de forma automática, lo que garantiza que siempre estén actualizadas y reduce el riesgo de vulnerabilidades de seguridad.
+	
+	\item \textbf{Escalabilidad}: Las empresas que emplean aplicaciones web pueden añadir nuevos usuarios de manera flexible, sin necesidad de infraestructura adicional ni hardware costoso. Además, la mayoría de los datos de las aplicaciones web se almacenan en la nube, evitando así la inversión en capacidad de almacenamiento adicional para ejecutar las aplicaciones.
+\end{itemize}
+
+
 
 \subsection{HTML, CSS y JavaScript}
 \subsubsection{HTML}
@@ -1176,7 +1526,8 @@ Consideraciones técnicas y cómo Angular podría mejorar la estructura de la ap
 Breve descripción de la metodología ágil aplicada al desarrollo de la aplicación.
 - \subsubsection{Fases del Proyecto}
 Descripción de las fases de planificación, desarrollo y pruebas que seguiste.
-\subsection{Usabilidad y Experiencia de Usuario (UX)}
+\subsection{Interfaz gráfica de usuario}
+Las Interfaces Gráficas de Usuario (GUI) son omnipresentes en nuestra vida cotidiana, ya sea al utilizar una computadora o un celular entre otros dispositivos. La eficacia de una GUI es crucial para determinar si un producto será competitivo o no. Un producto puede fracasar si el usuario no logra completar una acción, como una transacción económica, si no comprende la secuencia de pasos requeridos, si no encuentra fácilmente cómo realizar una acción necesaria, como hacer una compra, o si no encuentra atractivo el diseño de la aplicación. ~\cite{interfazAlbornoz}
 - \subsubsection{Principios de Usabilidad}
 Breve descripción de los principios que seguiste para garantizar una buena usabilidad de la aplicación.
 - \subsubsection{Diseño de la Interfaz de Usuario (UI)}
