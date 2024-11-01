@@ -2,31 +2,72 @@
 Para la correcta comprensión del trabajo presente, se necesita conocer el estado actual de las herramientas y tecnologías disponibles para el cálculo y la visualización de series de Fourier, así como los estudios y proyectos previos que abordan la implementación de soluciones similares. En este sentido, se revisarán diversas plataformas de uso común que permiten realizar estos procesos de manera separada, además de destacar trabajos académicos relacionados que aportan al desarrollo de herramientas educativas y matemáticas interactivas. Esta revisión permitirá contextualizar la propuesta de una aplicación web que integre ambas funcionalidades en una sola plataforma.
 
 \section{Herramientas y Tecnologías Actuales}
-En esta sección se presentarán las principales herramientas tecnológicas utilizadas para el cálculo de series de Fourier y su visualización gráfica. Podemos verlos en la siguiente tabla:
+Las series de Fourier al formar parte importante en diversas áreas de aprendizaje como la ingeniería, la física y las matemáticas aplicadas, ha impulsado el desarrollo de numerosas soluciones tecnológicas para su cálculo y visualización. En consecuencia, hoy en día disponemos de una gran variedad de plataformas y herramientas que facilitan estos procesos, permitiendo resolver y graficar series de Fourier de forma parcial. En esta sección, se presenta un análisis de las herramientas más significativas para esto, así como sus características, funcionalidades y limitaciones en cuanto a la  incorporación de ambas capacidades en una única plataforma.
 
-\begin{longtable}{ | m{2.5cm} | m{6.5cm} | m{4cm} | }
-	\rowcolor{black!75}
-	\head {SOFTWARE} & \head {CARACTERÍSTICAS} & \head {PRECIO} \\ \hline
-	\endfirsthead
-	\multicolumn{3}{c}{{\tablename\ \thetable{} -- continuación}} \\
-	\rowcolor{black!75}
-	\head {SOFTWARE} & \head {CARACTERÍSTICAS} & \head {PRECIO} \\ \hline
-	\endhead
-	\hline \multicolumn{3}{r}{{Continúa en la siguiente página}} \\
-	\endfoot
-	\hline
-	\endlastfoot
-	Wolfram Alpha & Se trata de un potente motor comercial de conocimiento computacional para cálculos matemáticos y gráficos. Contiene módulos que permiten el calculo de los coeficientes de Series de Fourier (Trigonométrica y compleja) así como las extensiones pares e impares para funciones simples o a trozos, así como poder expandir la serie y obtener una gráfica estática.~\cite{wolfram2024}  & Desde MXN \$1,200.00 anuales para estudiantes, plan gratuito limitado. \\ \hline
-	Geogebra & Herramienta dinámica para construcciones geométricas y gráficas. Podemos graficar cualquier serie o extensión trigonométrica y poder ver como cambia la serie conforme añadimos más coeficientes. Requiere que hagamos los cálculos y armar la expresión de la serie~\cite{GeoGebra2024} & Software libre y código abierto \\ \hline
-	Desmos  & Similar a Geogebra es una calculadora gráfica en línea para cálculos y gráficos, donde de igual modo podemos graficar cualquier serie o extensión trigonométrica y poder ver como cambia la serie conforme añadimos más coeficientes. Requiere cálculos previos para series de Fourier.~\cite{Desmos2024} & Software libre y código abierto\\ \hline
-	Python$_{Manim}$ & Librería de animación en Python para visualizaciones matemáticas, incluida la animación de series de Fourier. Podemos graficar cualquier serie ya sea trigonométrica o exponencial y poder animar de infinitas maneras el como se aproxima la serie con sus coeficientes. Requiere hacer los cálculos, armar la expresión de la serie y tener conocimientos en Python, programación orientada a objetos y a librería de Manim ~\cite{Manim2024} & Software libre y código abierto \\ \hline
-	Python$_{SymPy}$ &Es una biblioteca de Python para realizar matemáticas simbólicas, que incluye el cálculo de series de Fourier. A menudo se usa en combinación con librerías de visualización como Matplotlib para representar gráficamente los resultados, pero de nuevo, esta combinación requiere conocimientos de programación.~\cite{Matplotlib-sympy2024} & Software libre y código abierto \\ \hline
-	Matlab  & Es un entorno de programación comercial para cálculos numéricos y visualización de datos, con herramientas específicas para series de Fourier, además de tener funciones para poder graficarlas. Requiere conocimientos en matlab.~\cite{MathWorks2024} & Desde USD\$99 (aprox. MXN\$1627.82) anuales para estudiantes.\\ \hline	
-	\rowcolor{white}\caption{Comparación de software para cálculos matemáticos y visualización de datos} \label{tabla:software} \\
-\end{longtable}
+\subsection{WolfarmAlpha}
+Wolfram Alpha es una aplicación que proporciona respuestas tanto a preguntas como cálculos basados en el motor de Mathematica, un potente software para cálculos simbólicos y numéricos ~\cite{wolframMatemathica}. 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{img/chapter02/logo_wolfram.jpg}
+	\caption[Logotipo de WolframAlpha.]{Logotipo de WolframAlpha. \textit{Fuente: ~\cite{wolframMatemathica}}}
+	\label{fig:logo-wolfram}  % Etiqueta para la figura
+\end{figure}
+En contraste con otros motores de búsqueda, en vez de ofrecer una lista de sitios web o documentos, proporciona respuestas precisas y exhaustivas basándose en los conceptos introducidos en su motor de búsqueda. Entre algunas de sus capacidades, este potente software permite tiene funciones propias para resolver y graficar series de Fourier ~\cite{wolfram2024}:
+%\begin{itemize}
+%	\item \texttt{FourierSeries[exp, t, n]}: Calcula la expansión de la serie de Fourier de la función \texttt{exp} donde esta puede ser de un solo trozo o definida a varios trozos en términos de de la variable \texttt{t} hasta el \texttt{n}.
+%	\item \texttt{FourierTrigSeries[exp, t, n]}: Expande en una serie trigonométrica...
+%\end{itemize}
+\begin{verbatim}
+	FourierSeries[exp, t, n]
+	FourierTrigSeries[exp, t, n]
+	FourierSinSeries[exp, t, n]
+	FourierCosSeries[[exp, t, n]]
+\end{verbatim} 
+Estas funciones nos permiten obtener expansión de la serie de Fourier, ya sea compleja, trigonométrica, en senos o cosenos  de una función \texttt{exp} con periodo de $2\pi$ donde esta puede ser de un solo trozo o definida a varios trozos, para esto se usaría la función \texttt{Piecewise[{{val1,cond1},{val2,cond2},…}]}~\cite{wolframMatemathicaPiecewise}, en términos de de la variable \texttt{t} hasta el \texttt{n}-ésimo término. Además nos mostrará una gráfica estática de una aproximación con \texttt{n} términos. También tiene funciones para calcular los coeficientes de la serie ~\cite{wolframMatemathica}:
+\begin{verbatim}
+	FourierSeriesCoefficient[exp, t, n]
+	FourierSinCoefficient[exp, t, n]
+	FourierCosCoefficient[[exp, t, n]]
+\end{verbatim} 
+Estas funciones nos permiten calcular el \texttt{n}-ésimo coeficiente de la serie de Fourier exponencial compleja, de senos o de cosenos, de una función \texttt{exp} con periodo de $2\pi$, recordando que puede ser a trozos o de un solo trozo. \newline
+Podemos observar que las funciones propias de Wolfram Alpha para problemas que impliquen series de Fourier limitan el periodo en el que las funciones matemáticas son definidas, limitándolo en $2*\pi$, para estos casos se podría resolver el coeficiente directamente usando la función de \texttt{Integrate[f,{x,xmin,xmax}]}~\cite{wolframMatemathicaPiecewise} para calcular individualmente cada coeficiente, ya sea $a_0, a_n$ y $b_n$ para las series trigonométricas o $c_0$ y $c_n$ para la serie compleja, pero así no nos proporciona la pequeña gráfica que si nos da al usar las funciones para expandir la serie, además de que la gráfica que se proporciona no es interactiva, y si quieremos verla con más detalle debemos pagar su suscripción.
 
+\subsection{Symbolab}
+Symbolab es una calculadora digital que ayuda a resolver problemas matemáticos, como ecuaciones, álgebra o cálculo. Se trata de una herramienta que puede ser útil para aprender matemáticas, ya que ofrece evaluaciones personalizadas y conocimientos impulsados por inteligencia artificial. ~\cite{symbolabDocs}. 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.3\textwidth]{img/chapter02/logo_symbolab.png}
+	\caption[Logotipo de Symbolab.]{Logotipo de Symbolab. \textit{Fuente: ~\cite{symbolabDocs}}}
+	\label{fig:logo-symbolab}  % Etiqueta para la figura
+\end{figure}
+Symbolab se centra en la enseñanza de procedimientos matemáticos mediante explicaciones detalladas. Su interfaz es especialmente útil para estudiantes, ya que presenta guías paso a paso para temas como derivadas, integrales y ecuaciones algebraicas complejas, lo cual es ideal para el aprendizaje autodidacta. Este cuenta con una función para resolver series de Fourier en su forma trigonométrica denominada \texttt{fourier series (f), [-L, L]} ~\cite{symbolabDocs} en donde \texttt{f} es una función definida en el intervalo de \texttt{[-L, L]}. A pesar de contar con funciones para definir funciones matemáticas a trozos y funciones para hacer gráficas, no es posible unificarlas en la misma aplicación, ademas de no contar con funciones para otras series de Fourier como extensiones de medio rango o exponencial compleja, pero, al igual que en Wolfram Alpha, se pueden calcular individualmente los coeficientes con la función \texttt{integral from a to b of x}~\cite{symbolabDocs}.
 
-\subsection{Comparativa del Funcionamiento de las Herramientas}
+\subsection{Matlab}
+Python es un lenguaje de programación ampliamente utilizado en las aplicaciones web, el desarrollo de software, la ciencia de datos y el machine learning (ML). Los desarrolladores utilizan Python porque es eficiente y fácil de aprender, además de que se puede ejecutar en muchas plataformas
+
+\subsection{Maple}
+Python es un lenguaje de programación ampliamente utilizado en las aplicaciones web, el desarrollo de software, la ciencia de datos y el machine learning (ML). Los desarrolladores utilizan Python porque es eficiente y fácil de aprender, además de que se puede ejecutar en muchas plataformas
+
+\subsection{Maxima}
+Python es un lenguaje de programación ampliamente utilizado en las aplicaciones web, el desarrollo de software, la ciencia de datos y el machine learning (ML). Los desarrolladores utilizan Python porque es eficiente y fácil de aprender, además de que se puede ejecutar en muchas plataformas
+
+\subsection{Geogebra / Desmos}
+Python es un lenguaje de programación ampliamente utilizado en las aplicaciones web, el desarrollo de software, la ciencia de datos y el machine learning (ML). Los desarrolladores utilizan Python porque es eficiente y fácil de aprender, además de que se puede ejecutar en muchas plataformas
+
+\subsection{Python}
+Python es un lenguaje de programación ampliamente utilizado en las aplicaciones web, el desarrollo de software, la ciencia de datos y el machine learning (ML). Los desarrolladores utilizan Python porque es eficiente y fácil de aprender, además de que se puede ejecutar en muchas plataformas diferentes. El software Python se puede descargar gratis, se integra bien a todos los tipos de sistemas y aumenta la velocidad del desarrollo ~\cite{amazonPython}.
+La versatilidad de python permiten que se creen librerías para todo tipo de tareas con él, una de ellas es la de hacer cálculos matemáticos y creación de gráficos, de los cuales, podemos tomar funciones especificas para ayudarnos en el calculo de series de Fourier
+
+\subsubsection{Sympy / Matplotlib}
+Python es un lenguaje de programación ampliamente utilizado en las aplicaciones web, el desarrollo de software, la ciencia de datos y el machine learning (ML). Los desarrolladores utilizan Python porque es eficiente y fácil de aprender, además de que se puede ejecutar en muchas plataformas diferentes. El software Python se puede descargar gratis, se integra bien a todos los tipos de sistemas y aumenta la velocidad del desarrollo.
+
+\subsubsection{Manim}
+Python es un lenguaje de programación ampliamente utilizado en las aplicaciones web, el desarrollo de software, la ciencia de datos y el machine learning (ML). Los desarrolladores utilizan Python porque es eficiente y fácil de aprender, además de que se puede ejecutar en muchas plataformas diferentes. El software Python se puede descargar gratis, se integra bien a todos los tipos de sistemas y aumenta la velocidad del desarrollo.
+
+\subsection{ChatGPT}
+Python es un lenguaje de programación ampliamente utilizado en las aplicaciones web, el desarrollo de software, la ciencia de datos y el machine learning (ML). Los desarrolladores utilizan Python porque es eficiente y fácil de aprender, además de que se puede ejecutar en muchas plataformas
+
+\section{Comparativa del Funcionamiento de las Herramientas}
 
 A continuación, se procederá a calcular la serie de Fourier para la función \( f(x) = x \) en el intervalo de \(-\pi\) a \(\pi\) utilizando cada una de las herramientas previamente descritas. El cálculo se realizará en su \textbf{forma trigonométrica} y, en los casos en que la herramienta lo permita, también se obtendrá la \textbf{forma exponencial compleja}. Asimismo, se graficará la serie de Fourier en las plataformas que lo permitan, lo que nos permitirá comparar tanto el proceso como los resultados obtenidos en cada herramienta. \newline
 
@@ -134,6 +175,27 @@ Aquí se describirá cómo se realiza el cálculo y la graficación de la serie 
 Aquí se describirá cómo se realiza el cálculo y la graficación de la serie de Fourier utilizando Python con las librerías Matplotlib o Manim...
 
 
+
+\begin{longtable}{ | m{2.5cm} | m{6.5cm} | m{4cm} | }
+	\rowcolor{black!75}
+	\head {SOFTWARE} & \head {CARACTERÍSTICAS} & \head {PRECIO} \\ \hline
+	\endfirsthead
+	\multicolumn{3}{c}{{\tablename\ \thetable{} -- continuación}} \\
+	\rowcolor{black!75}
+	\head {SOFTWARE} & \head {CARACTERÍSTICAS} & \head {PRECIO} \\ \hline
+	\endhead
+	\hline \multicolumn{3}{r}{{Continúa en la siguiente página}} \\
+	\endfoot
+	\hline
+	\endlastfoot
+	Wolfram Alpha & Se trata de un potente motor comercial de conocimiento computacional para cálculos matemáticos y gráficos. Contiene módulos que permiten el calculo de los coeficientes de Series de Fourier (Trigonométrica y compleja) así como las extensiones pares e impares para funciones simples o a trozos, así como poder expandir la serie y obtener una gráfica estática.~\cite{wolfram2024}  & Desde MXN \$1,200.00 anuales para estudiantes, plan gratuito limitado. \\ \hline
+	Geogebra & Herramienta dinámica para construcciones geométricas y gráficas. Podemos graficar cualquier serie o extensión trigonométrica y poder ver como cambia la serie conforme añadimos más coeficientes. Requiere que hagamos los cálculos y armar la expresión de la serie~\cite{GeoGebra2024} & Software libre y código abierto \\ \hline
+	Desmos  & Similar a Geogebra es una calculadora gráfica en línea para cálculos y gráficos, donde de igual modo podemos graficar cualquier serie o extensión trigonométrica y poder ver como cambia la serie conforme añadimos más coeficientes. Requiere cálculos previos para series de Fourier.~\cite{Desmos2024} & Software libre y código abierto\\ \hline
+	Python$_{Manim}$ & Librería de animación en Python para visualizaciones matemáticas, incluida la animación de series de Fourier. Podemos graficar cualquier serie ya sea trigonométrica o exponencial y poder animar de infinitas maneras el como se aproxima la serie con sus coeficientes. Requiere hacer los cálculos, armar la expresión de la serie y tener conocimientos en Python, programación orientada a objetos y a librería de Manim ~\cite{Manim2024} & Software libre y código abierto \\ \hline
+	Python$_{SymPy}$ &Es una biblioteca de Python para realizar matemáticas simbólicas, que incluye el cálculo de series de Fourier. A menudo se usa en combinación con librerías de visualización como Matplotlib para representar gráficamente los resultados, pero de nuevo, esta combinación requiere conocimientos de programación.~\cite{Matplotlib-sympy2024} & Software libre y código abierto \\ \hline
+	Matlab  & Es un entorno de programación comercial para cálculos numéricos y visualización de datos, con herramientas específicas para series de Fourier, además de tener funciones para poder graficarlas. Requiere conocimientos en matlab.~\cite{MathWorks2024} & Desde USD\$99 (aprox. MXN\$1627.82) anuales para estudiantes.\\ \hline	
+	\rowcolor{white}\caption{Comparación de software para cálculos matemáticos y visualización de datos} \label{tabla:software} \\
+\end{longtable}
 
 \section{Trabajos y Proyectos Relacionados}
 En esta sección se analizarán trabajos académicos y proyectos de investigación que han desarrollado herramientas similares o que abordan la enseñanza de series de Fourier y el uso de plataformas interactivas para la educación matemática. 

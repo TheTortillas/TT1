@@ -38,14 +38,39 @@
       \strng{authornamehash}{02cf6ebeecf2664895e8554427af6022}
       \strng{authorfullhash}{02cf6ebeecf2664895e8554427af6022}
       \strng{authorfullhashraw}{02cf6ebeecf2664895e8554427af6022}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{9788447387755}
       \field{series}{Genios de las matemáticas}
       \field{title}{Fourier: un matemático al servicio de la física}
       \field{year}{2017}
+    \endentry
+    \entry{wolframMatemathica}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=a79d45891151faee8734afbeb3813f2c}{%
+           family={Knowledge},
+           familyi={K\bibinitperiod},
+           given={Wolfram:\bibnamedelimb Computation\bibnamedelima Meets},
+           giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{a79d45891151faee8734afbeb3813f2c}
+      \strng{fullhash}{a79d45891151faee8734afbeb3813f2c}
+      \strng{fullhashraw}{a79d45891151faee8734afbeb3813f2c}
+      \strng{bibnamehash}{a79d45891151faee8734afbeb3813f2c}
+      \strng{authorbibnamehash}{a79d45891151faee8734afbeb3813f2c}
+      \strng{authornamehash}{a79d45891151faee8734afbeb3813f2c}
+      \strng{authorfullhash}{a79d45891151faee8734afbeb3813f2c}
+      \strng{authorfullhashraw}{a79d45891151faee8734afbeb3813f2c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.wolfram.com/mathematica/}}
+      \field{note}{Accedido: 31 de Octubre de 2024}
+      \field{title}{Wolfram Mathematica: Modern Technical Computing}
+      \field{year}{2024}
     \endentry
     \entry{wolfram2024}{misc}{}{}
       \name{author}{1}{}{%
@@ -63,13 +88,90 @@
       \strng{authornamehash}{aa345219ebe4e7ae94dbba8e7ae99912}
       \strng{authorfullhash}{aa345219ebe4e7ae94dbba8e7ae99912}
       \strng{authorfullhashraw}{aa345219ebe4e7ae94dbba8e7ae99912}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://reference.wolfram.com/language/guide/FourierAnalysis.html}}
       \field{note}{Accedido: 17 Junio, 2024}
       \field{title}{Fourier Analysis—Wolfram Language Documentation}
+      \field{year}{2024}
+    \endentry
+    \entry{wolframMatemathicaPiecewise}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=16e5470c9b37a2a07debffd2afd35783}{%
+           family={Center},
+           familyi={C\bibinitperiod},
+           given={Wolfram\bibnamedelimb Language\bibnamedelimb |\bibnamedelimb System\bibnamedelima Documentation},
+           giveni={W\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim |\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{16e5470c9b37a2a07debffd2afd35783}
+      \strng{fullhash}{16e5470c9b37a2a07debffd2afd35783}
+      \strng{fullhashraw}{16e5470c9b37a2a07debffd2afd35783}
+      \strng{bibnamehash}{16e5470c9b37a2a07debffd2afd35783}
+      \strng{authorbibnamehash}{16e5470c9b37a2a07debffd2afd35783}
+      \strng{authornamehash}{16e5470c9b37a2a07debffd2afd35783}
+      \strng{authorfullhash}{16e5470c9b37a2a07debffd2afd35783}
+      \strng{authorfullhashraw}{16e5470c9b37a2a07debffd2afd35783}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://reference.wolfram.com/language/ref/Piecewise.html}}
+      \field{note}{Accedido: 31 de Octubre de 2024}
+      \field{title}{Piecewise: Function defined in pieces for different conditions—Wolfram Documentation}
+      \field{year}{2024}
+    \endentry
+    \entry{symbolabDocs}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=b548a0c9accca538835df8d0e456abfd}{%
+           family={Symbolab\bibnamedelimb -\bibnamedelimb calculadora\bibnamedelimb paso\bibnamedelimb a\bibnamedelima paso},
+           familyi={S\bibinitperiod\bibinitdelim \bibinithyphendelim \bibinitperiod\bibinitdelim c\bibinitperiod\bibinitdelim p\bibinitperiod\bibinitdelim a\bibinitperiod\bibinitdelim p\bibinitperiod},
+           given={Solucionador},
+           giveni={S\bibinitperiod},
+           prefix={matemático},
+           prefixi={m\bibinitperiod}}}%
+      }
+      \strng{namehash}{b548a0c9accca538835df8d0e456abfd}
+      \strng{fullhash}{b548a0c9accca538835df8d0e456abfd}
+      \strng{fullhashraw}{b548a0c9accca538835df8d0e456abfd}
+      \strng{bibnamehash}{b548a0c9accca538835df8d0e456abfd}
+      \strng{authorbibnamehash}{b548a0c9accca538835df8d0e456abfd}
+      \strng{authornamehash}{b548a0c9accca538835df8d0e456abfd}
+      \strng{authorfullhash}{b548a0c9accca538835df8d0e456abfd}
+      \strng{authorfullhashraw}{b548a0c9accca538835df8d0e456abfd}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://es.symbolab.com}}
+      \field{note}{Accedido: 31 de Octubre de 2024}
+      \field{title}{Solucionador matemático Symbolab - calculadora paso a paso}
+      \field{year}{2024}
+    \endentry
+    \entry{amazonPython}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=9a9b96cb6dfbff10e6a4edd142c58a3e}{%
+           family={Amazon\bibnamedelimb Web\bibnamedelima Services},
+           familyi={A\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Inc.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{9a9b96cb6dfbff10e6a4edd142c58a3e}
+      \strng{fullhash}{9a9b96cb6dfbff10e6a4edd142c58a3e}
+      \strng{fullhashraw}{9a9b96cb6dfbff10e6a4edd142c58a3e}
+      \strng{bibnamehash}{9a9b96cb6dfbff10e6a4edd142c58a3e}
+      \strng{authorbibnamehash}{9a9b96cb6dfbff10e6a4edd142c58a3e}
+      \strng{authornamehash}{9a9b96cb6dfbff10e6a4edd142c58a3e}
+      \strng{authorfullhash}{9a9b96cb6dfbff10e6a4edd142c58a3e}
+      \strng{authorfullhashraw}{9a9b96cb6dfbff10e6a4edd142c58a3e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://aws.amazon.com/es/what-is/python/}}
+      \field{note}{Accedido: 31 de Octubre de 2024}
+      \field{title}{¿Qué es Python? - Explicación del lenguaje Python - AWS}
       \field{year}{2024}
     \endentry
     \entry{GeoGebra2024}{misc}{}{}
@@ -86,8 +188,8 @@
       \strng{authornamehash}{2190b1c1ebdc18c903e001ee5867de74}
       \strng{authorfullhash}{2190b1c1ebdc18c903e001ee5867de74}
       \strng{authorfullhashraw}{2190b1c1ebdc18c903e001ee5867de74}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://www.geogebra.org}}
@@ -109,8 +211,8 @@
       \strng{authornamehash}{8381b43e9de8c0d498ce9bbd4131efdc}
       \strng{authorfullhash}{8381b43e9de8c0d498ce9bbd4131efdc}
       \strng{authorfullhashraw}{8381b43e9de8c0d498ce9bbd4131efdc}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://www.desmos.com}}
@@ -132,8 +234,8 @@
       \strng{authornamehash}{ce4709613c6cae50866f3c3abd59f95c}
       \strng{authorfullhash}{ce4709613c6cae50866f3c3abd59f95c}
       \strng{authorfullhashraw}{ce4709613c6cae50866f3c3abd59f95c}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://www.manim.community}}
@@ -157,8 +259,8 @@
       \strng{authornamehash}{4361b9d0991adf5ff49278dec9d481b7}
       \strng{authorfullhash}{4361b9d0991adf5ff49278dec9d481b7}
       \strng{authorfullhashraw}{4361b9d0991adf5ff49278dec9d481b7}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://computationalmindset.com/en/mathematics/fourier-series-in-python.html}}
@@ -181,8 +283,8 @@
       \strng{authorfullhash}{2d2b0d998977e6379aad61f1b56ac3c1}
       \strng{authorfullhashraw}{2d2b0d998977e6379aad61f1b56ac3c1}
       \field{extraname}{1}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://la.mathworks.com/}}
@@ -206,8 +308,8 @@
       \strng{authornamehash}{a9cf7799903ccde7c9019a30c56079c6}
       \strng{authorfullhash}{a9cf7799903ccde7c9019a30c56079c6}
       \strng{authorfullhashraw}{a9cf7799903ccde7c9019a30c56079c6}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://www.nieuwarchief.nl/serie5/pdf/naw5-2000-01-3-242.pdf}}
@@ -216,6 +318,33 @@
       \field{note}{Accedido: 23 Octubre, 2024}
       \field{title}{Una perspectiva histórica de las series de Fourier: de las ecuaciones de ondas y del calor a los operadores compactos y autoadjuntos}
       \field{year}{2000}
+    \endentry
+    \entry{weinbergerEDP}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=17c455d743635724e0cb5c46bf14c112}{%
+           family={Weinberger},
+           familyi={W\bibinitperiod},
+           given={H.\bibnamedelimi F.},
+           giveni={H\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Editorial Reverté}%
+      }
+      \strng{namehash}{17c455d743635724e0cb5c46bf14c112}
+      \strng{fullhash}{17c455d743635724e0cb5c46bf14c112}
+      \strng{fullhashraw}{17c455d743635724e0cb5c46bf14c112}
+      \strng{bibnamehash}{17c455d743635724e0cb5c46bf14c112}
+      \strng{authorbibnamehash}{17c455d743635724e0cb5c46bf14c112}
+      \strng{authornamehash}{17c455d743635724e0cb5c46bf14c112}
+      \strng{authorfullhash}{17c455d743635724e0cb5c46bf14c112}
+      \strng{authorfullhashraw}{17c455d743635724e0cb5c46bf14c112}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9788429151602}
+      \field{title}{Ecuaciones diferenciales en derivadas parciales con métodos de variable compleja y de transformadas integrales}
+      \field{year}{1970}
     \endentry
     \entry{unal_52162}{misc}{}{}
       \name{author}{1}{}{%
@@ -233,8 +362,8 @@
       \strng{authornamehash}{d3c98b6baac7c23629dd830091df90fb}
       \strng{authorfullhash}{d3c98b6baac7c23629dd830091df90fb}
       \strng{authorfullhashraw}{d3c98b6baac7c23629dd830091df90fb}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://repositorio.unal.edu.co/handle/unal/52162}}
@@ -258,8 +387,8 @@
       \strng{authornamehash}{9fa963b7e5d56715ea439892b587d214}
       \strng{authorfullhash}{9fa963b7e5d56715ea439892b587d214}
       \strng{authorfullhashraw}{9fa963b7e5d56715ea439892b587d214}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://www.amarun.org/images/amarun/materiales/EDP/edp/Leccion_5.pdf}}
@@ -284,8 +413,8 @@
       \strng{authornamehash}{89065af76c950fd34901b8da6324cc67}
       \strng{authorfullhash}{89065af76c950fd34901b8da6324cc67}
       \strng{authorfullhashraw}{89065af76c950fd34901b8da6324cc67}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://www.nieuwarchief.nl/serie5/pdf/naw5-2000-01-3-242.pdf}}
@@ -312,8 +441,8 @@
       \strng{authornamehash}{7c9f6969e83bc709ae84d3ec75098c42}
       \strng{authorfullhash}{7c9f6969e83bc709ae84d3ec75098c42}
       \strng{authorfullhashraw}{7c9f6969e83bc709ae84d3ec75098c42}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-1-4612-7272-4}
@@ -336,8 +465,8 @@
       \strng{authornamehash}{d9bb133ef0af0c9f2f404fa5ed300552}
       \strng{authorfullhash}{d9bb133ef0af0c9f2f404fa5ed300552}
       \strng{authorfullhashraw}{d9bb133ef0af0c9f2f404fa5ed300552}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://math.berkeley.edu/~jbrere/heatequation}}
@@ -362,8 +491,8 @@
       \strng{authornamehash}{bbdff7daae75a919debfeba64791c251}
       \strng{authorfullhash}{bbdff7daae75a919debfeba64791c251}
       \strng{authorfullhashraw}{bbdff7daae75a919debfeba64791c251}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://personal.math.ubc.ca/~feldman/m267/heatSln.pdf}}
@@ -390,8 +519,8 @@
       \strng{authornamehash}{4c3ef7033750c1eca2b84350030ad277}
       \strng{authorfullhash}{4c3ef7033750c1eca2b84350030ad277}
       \strng{authorfullhashraw}{4c3ef7033750c1eca2b84350030ad277}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{9780486633176}
@@ -417,8 +546,8 @@
       \strng{authornamehash}{e719f880132e427c94a91493b6c3a1bb}
       \strng{authorfullhash}{e719f880132e427c94a91493b6c3a1bb}
       \strng{authorfullhashraw}{e719f880132e427c94a91493b6c3a1bb}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{9685000476}
@@ -444,8 +573,8 @@
       \strng{authornamehash}{fb2effb2448e151572e497faf7d7112c}
       \strng{authorfullhash}{fb2effb2448e151572e497faf7d7112c}
       \strng{authorfullhashraw}{fb2effb2448e151572e497faf7d7112c}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://www.tamps.cinvestav.mx/~wgomez/documentos/analisis_de_fourier.pdf}}
@@ -469,8 +598,8 @@
       \strng{authornamehash}{ee0491cfaae7dc7c8f7017c28cfc8175}
       \strng{authorfullhash}{ee0491cfaae7dc7c8f7017c28cfc8175}
       \strng{authorfullhashraw}{ee0491cfaae7dc7c8f7017c28cfc8175}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://openstax.org/books/física-universitaria-volumen-1/pages/15-1-movimiento-armonico-simple}}
@@ -497,12 +626,39 @@
       \strng{authornamehash}{4f1802a9605a28bafbd47a7c5594114b}
       \strng{authorfullhash}{4f1802a9605a28bafbd47a7c5594114b}
       \strng{authorfullhashraw}{4f1802a9605a28bafbd47a7c5594114b}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{9786071507723}
       \field{title}{Matemáticas Avanzadas para la Ingeniería}
+      \field{year}{2011}
+    \endentry
+    \entry{algebraLinealPoole}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=412f63433906124d38869f5988eeb0c5}{%
+           family={Poole},
+           familyi={P\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cengage Learning}%
+      }
+      \strng{namehash}{412f63433906124d38869f5988eeb0c5}
+      \strng{fullhash}{412f63433906124d38869f5988eeb0c5}
+      \strng{fullhashraw}{412f63433906124d38869f5988eeb0c5}
+      \strng{bibnamehash}{412f63433906124d38869f5988eeb0c5}
+      \strng{authorbibnamehash}{412f63433906124d38869f5988eeb0c5}
+      \strng{authornamehash}{412f63433906124d38869f5988eeb0c5}
+      \strng{authorfullhash}{412f63433906124d38869f5988eeb0c5}
+      \strng{authorfullhashraw}{412f63433906124d38869f5988eeb0c5}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780538735452}
+      \field{title}{Linear Algebra, A Modern Introduction 3rd ed.}
       \field{year}{2011}
     \endentry
     \entry{fourierCruzFierro}{misc}{}{}
@@ -521,8 +677,8 @@
       \strng{authornamehash}{3c1e872b9a632fb0f1138cddb2a0e7bf}
       \strng{authorfullhash}{3c1e872b9a632fb0f1138cddb2a0e7bf}
       \strng{authorfullhashraw}{3c1e872b9a632fb0f1138cddb2a0e7bf}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://cruzfierro.com/cursos/2011v/matematicas5/apuntes5.pdf}}
@@ -551,8 +707,8 @@
       \strng{authornamehash}{8b32bd9f148a7425ecb96db00a593bb8}
       \strng{authorfullhash}{8b32bd9f148a7425ecb96db00a593bb8}
       \strng{authorfullhashraw}{8b32bd9f148a7425ecb96db00a593bb8}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://www.youtube.com/watch?v=3F4XReHr3i8}}
@@ -579,8 +735,8 @@
       \strng{authornamehash}{52d9846940f38e318bbe2b354cc63d19}
       \strng{authorfullhash}{52d9846940f38e318bbe2b354cc63d19}
       \strng{authorfullhashraw}{52d9846940f38e318bbe2b354cc63d19}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://grupo_ene.webs.uvigo.es/wordpress/publicaciones/Apuntes_Fourier.pdf}}
@@ -592,8 +748,8 @@
       \list{organization}{1}{%
         {Amazon Web Services, Inc.}%
       }
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://aws.amazon.com/es/what-is/web-application/}}
       \field{note}{Accedido: 27 Oct, 2024}
@@ -604,13 +760,59 @@
       \list{organization}{1}{%
         {uqbar-wiki}%
       }
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{hhttps://wiki.uqbar.org/wiki/articles/ui-web-intro-arquitectura.html}}
-      \field{note}{Accedido: 27 Oct, 2024}
+      \field{howpublished}{\url{https://wiki.uqbar.org/wiki/articles/ui-web-intro-arquitectura.html}}
+      \field{note}{Accedido: 29 Oct, 2024}
       \field{title}{Introducción a la Arquitectura web}
       \field{year}{2023}
+    \endentry
+    \entry{HTMLMDN}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=3ea55c6971b673b2279b8381df63591d}{%
+           family={Docs},
+           familyi={D\bibinitperiod},
+           given={MDN\bibnamedelima Web},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{3ea55c6971b673b2279b8381df63591d}
+      \strng{fullhash}{3ea55c6971b673b2279b8381df63591d}
+      \strng{fullhashraw}{3ea55c6971b673b2279b8381df63591d}
+      \strng{bibnamehash}{3ea55c6971b673b2279b8381df63591d}
+      \strng{authorbibnamehash}{3ea55c6971b673b2279b8381df63591d}
+      \strng{authornamehash}{3ea55c6971b673b2279b8381df63591d}
+      \strng{authorfullhash}{3ea55c6971b673b2279b8381df63591d}
+      \strng{authorfullhashraw}{3ea55c6971b673b2279b8381df63591d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.w3schools.com/graphics/canvas_intro.asp}}
+      \field{note}{Accedido: 27 Oct, 2024}
+      \field{title}{HTML: HyperText Markup Language | MDN}
+    \endentry
+    \entry{CanvasHTMLW3S}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=d1b8966a9412346f177b467bc9807f87}{%
+           family={W3Schools.com},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{d1b8966a9412346f177b467bc9807f87}
+      \strng{fullhash}{d1b8966a9412346f177b467bc9807f87}
+      \strng{fullhashraw}{d1b8966a9412346f177b467bc9807f87}
+      \strng{bibnamehash}{d1b8966a9412346f177b467bc9807f87}
+      \strng{authorbibnamehash}{d1b8966a9412346f177b467bc9807f87}
+      \strng{authornamehash}{d1b8966a9412346f177b467bc9807f87}
+      \strng{authorfullhash}{d1b8966a9412346f177b467bc9807f87}
+      \strng{authorfullhashraw}{d1b8966a9412346f177b467bc9807f87}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://developer.mozilla.org/en-US/docs/Web/HTML}}
+      \field{note}{Accedido: 29 Oct, 2024}
+      \field{title}{W3Schools Online Web Tutorials}
     \endentry
     \entry{interfazAlbornoz}{misc}{}{}
       \name{author}{1}{}{%
@@ -631,8 +833,8 @@
       \strng{authornamehash}{655d89f010857a500f56622e9048cbe2}
       \strng{authorfullhash}{655d89f010857a500f56622e9048cbe2}
       \strng{authorfullhashraw}{655d89f010857a500f56622e9048cbe2}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://sedici.unlp.edu.ar/handle/10915/41578}}
@@ -655,8 +857,8 @@
       \strng{authorfullhash}{2d2b0d998977e6379aad61f1b56ac3c1}
       \strng{authorfullhashraw}{2d2b0d998977e6379aad61f1b56ac3c1}
       \field{extraname}{2}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://woodyweb.wordpress.com/2015/08/24/metodologias-de-desarrollo/}}

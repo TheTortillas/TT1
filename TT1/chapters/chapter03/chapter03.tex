@@ -10,10 +10,10 @@ Las ideas de Bernoulli fueron aplicadas y perfeccionadas por Fourier, en 1807, e
 
 Uno de los problemas más interesantes que abordaron los científicos del siglo XVIII, y que aparece con frecuencia en problemas físicos relacionados con procesos oscilatorios, es el conocido como \textit{problema de la cuerda vibrante}. Este se puede describir en su forma más elemental de la siguiente manera: Supongamos que tenemos una cuerda flexible y tensa, cuyos extremos están fijos, convenientemente, en los puntos $(0, 0)$ y $(\ell, 0)$ sobre el eje horizontal. Si la cuerda se tira de modo que su forma inicial corresponde a la curva definida por $y = f(x)$, y luego se suelta, la pregunta es: ¿Cuál será el movimiento resultante de la cuerda?
 
-Los desplazamientos de la cuerda siempre se encuentran en un mismo plano, y el vector desplazamiento es perpendicular en cualquier momento. Para describir este movimiento se utiliza una función $u(x, t)$, donde $u(x, t)$ representa el desplazamiento vertical de la cuerda en la posición $x$ (con $0 \leq x \leq \ell$) y en el instante $t$ (con $t \geq 0$). El problema es determinar $u(x, t)$ a partir de $f(x)$ ~\cite{historia-alambert-fourier-euler}.
+Los desplazamientos de la cuerda siempre se encuentran en un mismo plano, y el vector desplazamiento es perpendicular en cualquier momento. Para describir este movimiento se utiliza una función $u(x, t)$, donde $u(x, t)$ representa el desplazamiento vertical de la cuerda en la posición $x$ (con $0 \leq x \leq \ell$) y en el instante $t$ (con $t \geq 0$). El problema es determinar $u(x, t)$ a partir de $f(x)$ ~\cite{weinbergerEDP}.
 
 \subsubsection{D’Alambert y Euler}
-El primer matemático que propuso un modelo adecuado para este problema fue Jean Le Rond D’Alambert ~\cite{unal_52162}. Bajo diversas hipótesis (asumiendo, por ejemplo, que las vibraciones son "pequeñas"), en 1747 D’Alambert dedujo la ecuación de onda en la siguiente forma (usando notación moderna):
+El primer matemático que propuso un modelo adecuado para este problema fue Jean Le Rond D’Alambert ~\cite{unal_52162}. Bajo diversas hipótesis (asumiendo, por ejemplo, que las vibraciones son "pequeñas"), en 1747 D’Alambert dedujo la ecuación de onda en la siguiente forma:
 
 \begin{equation} \label{eq1}
 	\begin{split}
@@ -475,8 +475,9 @@ A partir de ahora, cuando afirmemos que una función \( f(t) \) de período \( T
 Las funciones periódicas más representativas son las funciones trigonométricas \(\sin(t)\) y \(\cos(t)\), ambas con periodo \( T = 2\pi \) (Figura \ref{fig:sen-cos}). Por lo tanto, de acuerdo con \eqref{eq19}, se tiene que \(\sin(t + 2\pi) = \sin(t)\) y \(\cos(t + 2\pi) = \cos(t)\) ~\cite{fourierCinvestav}.
 
 \begin{figure}[H]
+	
 	\begin{minipage}{0.5\textwidth} % Reducimos el ancho al 48%
-		\begin{tikzpicture}[scale=0.45]
+		\begin{tikzpicture}[scale=0.46]
 			\begin{axis}[
 				axis lines=middle,
 				grid=both,
@@ -487,8 +488,9 @@ Las funciones periódicas más representativas son las funciones trigonométrica
 				ylabel={\Huge $f(t) = A \sin(t)$},
 				xtick={0, 1.5708, 3.1416, 4.7124, 6.2832, 7.8540, 9.4248, 10.9956, 12.5664},
 				xticklabels={$0$, $\frac{\pi}{2}$, $\pi$, $\frac{3\pi}{2}$, $2\pi$, $\frac{5\pi}{2}$, $3\pi$, $\frac{7\pi}{2}$, $4\pi$},
-				xticklabel style={font=\Large},
+				xticklabel style={font=\LARGE},
 				ytick={-1.5, -1, -0.5, 0, 0.5, 1, 1.5}, % Gradación de 0.5 en 0.5 en el eje y
+				yticklabel style={font=\LARGE},
 				ymin=-1.5, ymax=1.5,
 				xmin=0, xmax=4*pi,
 				samples=400,
@@ -499,14 +501,14 @@ Las funciones periódicas más representativas son las funciones trigonométrica
 				\addplot[guinda, ultra thick] {( sin(180*x/pi) )};
 				
 				\addplot[dashed, black, thick] coordinates {(2*pi, -1.5) (2*pi, 1.5)};
-				\draw[<->, ultra thick, red] (0,-1.25) -- (2*pi,-1.25) node[midway, below, black] {\large $T$};
-				\draw[<->, ultra thick, red] (3*pi/2,0) -- (3*pi/2,-1) node[midway, below right, black, xshift=0.1cm] {\large $A$};
+				\draw[<->, ultra thick, red] (0,-1.25) -- (2*pi,-1.25) node[midway, below, black] {\LARGE $T$};
+				\draw[<->, ultra thick, red] (3*pi/2,0) -- (3*pi/2,-1) node[midway, below right, black, xshift=0.1cm] {\LARGE $A$};
 			\end{axis}
 		\end{tikzpicture}
 	\end{minipage}
 	\hspace{0.1cm} % Espacio de 0.5 cm entre las gráficas
 	\begin{minipage}{0.5\textwidth} % Reducimos el ancho al 48%
-		\begin{tikzpicture}[scale=0.45]
+		\begin{tikzpicture}[scale=0.46]
 			\begin{axis}[
 				axis lines=middle,
 				grid=both,
@@ -517,8 +519,9 @@ Las funciones periódicas más representativas son las funciones trigonométrica
 				ylabel={\Huge $f(t) = A \cos(t)$},
 				xtick={0, 1.5708, 3.1416, 4.7124, 6.2832, 7.8540, 9.4248, 10.9956, 12.5664},
 				xticklabels={$0$, $\frac{\pi}{2}$, $\pi$, $\frac{3\pi}{2}$, $2\pi$, $\frac{5\pi}{2}$, $3\pi$, $\frac{7\pi}{2}$, $4\pi$},
-				xticklabel style={font=\Large},
+				xticklabel style={font=\LARGE},
 				ytick={-1.5, -1, -0.5, 0, 0.5, 1, 1.5}, % Gradación de 0.5 en 0.5 en el eje y
+				yticklabel style={font=\LARGE},
 				ymin=-1.5, ymax=1.5,
 				xmin=0, xmax=4*pi,
 				samples=400,
@@ -529,8 +532,8 @@ Las funciones periódicas más representativas son las funciones trigonométrica
 				\addplot[guinda, ultra thick] {( cos(180*x/pi) )};
 				
 				\addplot[dashed, black, thick] coordinates {(2*pi, -1.5) (2*pi, 1.5)};
-				\draw[<->, ultra thick, red] (0,-1.25) -- (2*pi,-1.25) node[midway, below, black] {\large $T$};
-				\draw[<->, ultra thick, red] (pi,0) -- (pi,-1) node[midway, below right, black, xshift=0.1cm] {\large $A$};
+				\draw[<->, ultra thick, red] (0,-1.25) -- (2*pi,-1.25) node[midway, below, black] {\LARGE $T$};
+				\draw[<->, ultra thick, red] (pi,0) -- (pi,-1) node[midway, below right, black, xshift=0.1cm] {\LARGE $A$};
 			\end{axis}
 		\end{tikzpicture}
 	\end{minipage}
@@ -547,17 +550,17 @@ lo cual indica el número de oscilaciones de la función por unidad de tiempo. L
 
 \begin{figure}[H]
 	\centering
-	\begin{tikzpicture}[scale=0.7]
+	\begin{tikzpicture}[scale=0.8]
 		\begin{axis}[
 			axis lines=middle,
 			grid=both,
 			enlargelimits=false,
 			width=15cm, % Ancho de la gráfica
 			height=13cm, % Altura de la gráfica
-			xlabel={\Large $t$},
+			xlabel={\large $t$},
 			ylabel={\large $f(t)$},
 			xtick={0, 0.7854, 1.5708, 2.3562, 3.1416, 3.9269, 4.7124, 5.498, 6.2832},
-			xticklabels={ $0$, $\frac{\pi}{4}$, $\frac{\pi}{2}$, $\frac{3\pi}{4}$, $\pi$, $\frac{5\pi}{4}$, $\frac{3\pi}{2}$, $\frac{7\pi}{4}$, $2\pi$},
+			xticklabels={\large $0$, $\frac{\pi}{4}$, $\frac{\pi}{2}$, $\frac{3\pi}{4}$, $\pi$, $\frac{5\pi}{4}$, $\frac{3\pi}{2}$, $\frac{7\pi}{4}$, $2\pi$},
 			xticklabel style={font=\Large},
 			ytick={-1, -0.5, 0, 0.5, 1}, % Gradación de 0.5 en 0.5 en el eje y
 			ymin=-2, ymax=1.1,
@@ -607,11 +610,11 @@ La frecuencia angular se mide comúnmente en radianes por segundo (\( \text{rad/
 			enlargelimits=false,
 			width=15cm, % Ancho de la gráfica
 			height=13cm, % Altura de la gráfica
-			xlabel={\Large $t$},
-			ylabel={\large $f(t)$},
+			xlabel={\huge $t$},
+			ylabel={\huge $f(t)$},
 			xtick={0, 0.7854, 1.5708, 2.3562, 3.1416, 3.9269, 4.7124, 5.498, 6.2832},
 			xticklabels={ $0$, $\frac{\pi}{4}$, $\frac{\pi}{2}$, $\frac{3\pi}{4}$, $\pi$, $\frac{5\pi}{4}$, $\frac{3\pi}{2}$, $\frac{7\pi}{4}$, $2\pi$},
-			xticklabel style={font=\Large},
+			xticklabel style={font=\huge},
 			ytick={-1, -0.5, 0, 0.5, 1}, % Gradación de 0.5 en 0.5 en el eje y
 			ymin=-1.1, ymax=1.1,
 			xmin=0, xmax=2*pi,
@@ -622,7 +625,7 @@ La frecuencia angular se mide comúnmente en radianes por segundo (\( \text{rad/
 			
 			\addplot[guinda, ultra thick] {( sin(180*x/pi) )};
 			
-			\draw[<->, ultra thick, red] (pi/2,0) -- (pi/2,1) node[midway, below right, black, xshift=0.1cm] {\large $A$};
+			\draw[<->, ultra thick, red] (pi/2,0) -- (pi/2,1) node[midway, below right, black, xshift=0.1cm] {\huge $A$};
 		\end{axis}
 	\end{tikzpicture}
 	\end{minipage}
@@ -634,19 +637,19 @@ La frecuencia angular se mide comúnmente en radianes por segundo (\( \text{rad/
 			\draw[ultra thick, guinda] (0,0) circle (4cm);
 			
 			% Draw the axes
-			\draw[->] (-4.5,0) -- (4.5,0) node[right] {\Large $0$};
-			\draw[->] (0,-4.5) -- (0,4.5) node[above] {\Large $\frac{\pi}{2}$};
+			\draw[->] (-4.5,0) -- (4.5,0) node[right] {\huge $0$};
+			\draw[->] (0,-4.5) -- (0,4.5) node[above] {\huge $\frac{\pi}{2}$};
 			
 			% Label the angles
-			\node at (-4.5, 0) [left] {\Large $\pi$};
-			\node at (0, -4.5) [below] {\Large $\frac{3\pi}{2}$};
+			\node at (-4.5, 0) [left] {\huge $\pi$};
+			\node at (0, -4.5) [below] {\huge $\frac{3\pi}{2}$};
 			
 			% Draw the radius line
 			\draw[<->, ultra thick, red] (0,0) -- (2.82,2.82);
 			
 			% Draw angle
-			\draw (0.8,0) arc (0:45:0.8); % Cambia el radio del arco a 0.8 para hacerlo más grande
-			\node at (1,0.3) {\Large $\theta$};
+			\draw [thick](1.5,0) arc (0:45:1.5); % Cambia el radio del arco a 0.8 para hacerlo más grande
+			\node at (1.8,0.7) {\huge $\theta$};
 		\end{tikzpicture}
 	}
 	\end{minipage}
@@ -674,11 +677,11 @@ Cabe señalar que, dado que las funciones seno y coseno solo se diferencian por 
 				enlargelimits=false,
 				width=15cm, % Ancho de la gráfica
 				height=13cm, % Altura de la gráfica
-				xlabel={\Large $\theta$},
-				ylabel={\large $f(\theta)$},
+				xlabel={\huge $\theta$},
+				ylabel={\huge $f(\theta)$},
 				xtick={-3.1416, -2.3562, -1.5708, -0.7854, 0, 0.7854, 1.5708, 2.3562, 3.1416, 3.9269, 4.7124, 5.498, 6.2832},
 				xticklabels={ $-\pi$, $-\frac{3\pi}{4}$, $-\frac{\pi}{2}$, $-\frac{\pi}{4}$, $0$, $\frac{\pi}{4}$, $\frac{\pi}{2}$, $\frac{3\pi}{4}$, $\pi$, $\frac{5\pi}{4}$, $\frac{3\pi}{2}$, $\frac{7\pi}{4}$, $2\pi$},
-				xticklabel style={font=\Large},
+				xticklabel style={font=\LARGE},
 				ytick={-2, -1, 0, 1, 2}, % Gradación de 0.5 en 0.5 en el eje y
 				ymin=-2, ymax=2,
 				xmin=-pi, xmax=2*pi,
@@ -701,11 +704,11 @@ Cabe señalar que, dado que las funciones seno y coseno solo se diferencian por 
 				enlargelimits=false,
 				width=15cm, % Ancho de la gráfica
 				height=13cm, % Altura de la gráfica
-				xlabel={\Large $\theta$},
-				ylabel={\large $f(\theta)$},
+				xlabel={\huge $\theta$},
+				ylabel={\huge $f(\theta)$},
 				xtick={-3.1416, -2.3562, -1.5708, -0.7854, 0, 0.7854, 1.5708, 2.3562, 3.1416, 3.9269, 4.7124, 5.498, 6.2832},
 				xticklabels={ $-\pi$, $-\frac{3\pi}{4}$, $-\frac{\pi}{2}$, $-\frac{\pi}{4}$, $0$, $\frac{\pi}{4}$, $\frac{\pi}{2}$, $\frac{3\pi}{4}$, $\pi$, $\frac{5\pi}{4}$, $\frac{3\pi}{2}$, $\frac{7\pi}{4}$, $2\pi$},
-				xticklabel style={font=\Large},
+				xticklabel style={font=\LARGE},
 				ytick={-2, -1, 0, 1, 2}, % Gradación de 0.5 en 0.5 en el eje y
 				ymin=-2, ymax=2,
 				xmin=-pi, xmax=2*pi,
@@ -831,7 +834,7 @@ Podemos decir entonces que en un intervalo simétrico $-L < t < L$, la gráfica 
 	\item[f)] Si $f$ es par, entonces $\int_{-a}^{a} f(t) \, dt = 2 \int_{0}^{a} f(t) \, dt$.
 	\item[g)] Si $f$ es impar, entonces $\int_{-a}^{a} f(t) \, dt = 0$.
 \end{itemize}
-En la Figura \ref{fig:areas-par-impar} podemos observar como es que se cumplen los teoremas f y g, ya que en la primera el área de la función desde $-a$ hasta $0$ es el negativo a su contraparte que se encuentra desde $0$ hasta $a$, lo que significa que el área conjunta desde $-a$ hasta $a$ se anulará dando $0$, por otra parte, la segunda imagen nos muestra que el área desde $-a$ hasta $0$ es la misma que la que hay desde $0$ hasta $a$, lo que implica que el área desde desde $-a$ hasta $a$ es lo doble de el área desde $0$ hasta $\mp a$. 
+En la Figura \ref{fig:areas-par-impar} podemos observar como es que se cumplen los teoremas f y g, ya que en la primera el área de la función desde $-a$ hasta $0$ es el negativo a su contraparte que se encuentra desde $0$ hasta $a$, lo que significa que el área conjunta desde $-a$ hasta $a$ se anulará dando $0$, por otra parte, la segunda imagen nos muestra que el área desde $-a$ hasta $0$ es la misma que la que hay desde $0$ hasta $a$, lo que implica que el área desde desde $-a$ hasta $a$ es lo doble de el área desde $0$ hasta $\pm a$. 
 \begin{figure}[H]
 	\begin{minipage}{0.5\textwidth} % Reducimos el ancho al 48%
 		\begin{tikzpicture}[scale=0.5]
@@ -840,8 +843,8 @@ En la Figura \ref{fig:areas-par-impar} podemos observar como es que se cumplen l
 				enlargelimits=false,
 				width=15cm,
 				height=7cm,
-				ylabel={\large $f(t)$},
-				xlabel={\large $t$},
+				ylabel={\huge $f(t)$},
+				xlabel={\huge $t$},
 				xticklabels=\empty, % Elimina los números en el eje x
 				yticklabels=\empty, % Elimina los números en el eje y
 				ymin=-1.5, ymax=1.5,
@@ -1065,13 +1068,45 @@ La función \( f(t) \) se dice que es \textit{suave a trozos} en el intervalo \(
 Entonces, una función continua o discontinua \( f(t) \) definida en todo el eje \( t \) se dice que es \textit{suave a trozos} si, en cualquier intervalo finito, se comporta de manera que su derivada es continua o tiene pocas discontinuidades. Esto significa que la función puede tener ciertos "saltos" o cambios bruscos en su forma, pero entre estos puntos, su comportamiento es regular y suave. Este concepto es útil para funciones periódicas, que se repiten en ciclos. Toda función \( f(t) \) suave a trozos (ya sea continua o discontinua) está acotada, lo que implica que no puede crecer indefinidamente y tiene una derivada acotada en todas partes, excepto en sus "esquinas" y puntos de discontinuidad (es decir, en los puntos donde la función cambia abruptamente o tiene saltos), donde la derivada \( f'(t) \) no existe. ~\cite{fourierTolstov}
 
 \subsection{Funciones Ortogonales}
-Las funciones ortogonales son fundamentales en el análisis de Fourier, ya que permiten descomponer funciones en términos independientes entre sí.
+En álgebra lineal, el producto escalar (también conocido como producto interno o producto punto) entre dos vectores \(\mathbf{a}\) y \(\mathbf{b}\) se basa en la proyección de un vector sobre el otro. Esto permite medir "cuánto el vector \(\mathbf{a}\) apunta en la misma dirección que el vector \(\mathbf{b}\)". Si ambos vectores apuntan en direcciones similares, el producto escalar es positivo; en cambio, si apuntan en direcciones opuestas, el producto escalar será negativo. Cuando los vectores son ortogonales, su producto escalar resulta en cero, lo cual indica que no se pueden representar uno en función del otro. \cite{algebraLinealPoole}
+
+El concepto de ortogonalidad de funciones es análogo al de perpendicularidad de vectores; es decir, funciones ortogonales proporcionan información mutuamente excluyente. Por lo tanto, se puede decir que dos funciones diferentes \(f_1(t)\) y \(f_2(t)\) son ortogonales en el intervalo \(a < t < b\) cuando su producto interno es cero:
+
+\begin{equation}\label{eq:ortogonalidad}
+	\langle f(t)_1, (t)_2 \rangle = \int_a^b f_1(t) f_2(t) \, dt = 0.
+\end{equation}
+
+En general, se dice que el conjunto de funciones de valor real $\{ \phi_0(t), \phi_1(t), \phi_2(t), \dots, \phi_n(t) \}$ es ortogonal en el intervalo $\{ a,b\}$ si \cite{matesAvanzadasZill}
+
+\begin{equation}\label{eq:ortogonalidad_formula}
+	\langle \phi_n(t), \phi_m(t) \rangle = \int_a^b \phi_n(t) \phi_m(t) \, dt = 0 , \quad m \neq n.
+\end{equation}
+
+\subsubsection{Ortogonalidad del seno y del coseno}
+
+Ahora, consideremos que tenemos conjuntos de funciones senoidales y cosenoidales recordando que $\omega_0 = \frac{2\pi}{T}$, a través del cálculo integral podemos encontrar que:
+\begin{align}
+	\int_{-T/2}^{T/2} \cos(m \omega_0 t) \, dt &= 0, \quad \text{para } m \neq 0 \\
+	\int_{-T/2}^{T/2} \sin(m \omega_0 t) \, dt &= 0, \quad \text{para todo valor de } m \\
+	\int_{-T/2}^{T/2} \cos(m \omega_0 t) \cos(n \omega_0 t) \, dt &= 
+	\begin{cases}
+		0, & m \neq n \\
+		T/2, & m = n \neq 0
+	\end{cases} \\
+	\int_{-T/2}^{T/2} \sin(m \omega_0 t) \sin(n \omega_0 t) \, dt &= 
+	\begin{cases}
+		0, & m \neq n \\
+		T/2, & m = n \neq 0
+	\end{cases} \\
+	\int_{-T/2}^{T/2} \sin(m \omega_0 t) \cos(n \omega_0 t) \, dt &= 0, \quad \text{para todo valor de } m \text{ y } n
+\end{align}
+
+Estas relaciones demuestran que el conjunto de funciones $\{1, \cos \omega_0 t, \cos 2\omega_0 t, \ldots, \cos n \omega_0 t, \ldots, \sin \omega_0 t, \sin 2\omega_0 t, \ldots, \sin n \omega_0 t, \ldots \}$ son ortogonales en el intervalo $-\frac{T}{2} < t < \frac{T}{2}$.
 
 \subsection{Serie Trigonométrica de Fourier}
 Como ya vimos anteriormente, las series de Fourier, fueron introducidas por el matemático francés Jean Baptiste Joseph Fourier con el objetivo de aproximar funciones periódicas utilizando un conjunto de funciones ortogonales como $\{1, \cos \omega_0 t, \cos 2\omega_0 t, \dots, \cos n\omega_0 t, \dots, \sin \omega_0 t, \sin 2\omega_0 t, \dots, \sin n\omega_0 t, \dots\}$ ~\cite{matesAvanzadasZill}.
 
-La idea fundamental detrás de las series de Fourier es descomponer una función periódica en términos de una suma infinita de funciones básicas, senos y cosenos, cuyas frecuencias son múltiplos de la frecuencia de la función original. Esta descomposición permite analizar las propiedades de una función o señal y facilita la síntesis de objetos o fenómenos.
-
+La idea fundamental detrás de las series de Fourier es descomponer una función periódica en términos de una suma infinita de funciones básicas, senos y cosenos, cuyas frecuencias son múltiplos de la frecuencia de la función original. La ortogonalidad de las funciones seno y coseno, usadas como "bases", es fundamental porque permite descomponer la función original en componentes que representan diferentes armónicos o frecuencias sin que estos interfieran entre sí, asegurando que cada término de la serie tenga una contribución bien definida. Esta descomposición permite analizar las propiedades de una función o señal y facilita la síntesis de objetos o fenómenos.
 
 \subsubsection{Series de Fourier de Período $T$ o de $-p$ a $p$}
 
@@ -1094,7 +1129,7 @@ donde $\omega_0 = \frac{2\pi}{T}$ es la frecuencia angular fundamental y los coe
 	a_0 = \frac{2}{T} \int_{-\frac{T}{2}}^{\frac{T}{2}} f(t) \ dt, \quad a_n = \frac{2}{T} \int_{-\frac{T}{2}}^{\frac{T}{2}} f(t) \cos(n\omega_0 t) \ dt, \quad b_n = \frac{2}{T} \int_{-\frac{T}{2}}^{\frac{T}{2}} f(t) \sin(n\omega_0 t) \ dt
 \end{equation}
 
-La ecuación \eqref{eq27} describe cómo una función periódica arbitraria puede representarse como una suma infinita de componentes sinusoidales con diferentes frecuencias. El componente de la frecuencia $\omega_n = n\omega_0$ se denomina el $n$-ésimo armónico de la función periódica. Utilizando las relaciones de ortogonalidad en las... (acá vamos a poner lo de ortogonalidad).\newline
+La ecuación \eqref{eq27} describe cómo una función periódica arbitraria puede representarse como una suma infinita de componentes sinusoidales con diferentes frecuencias. El componente de la frecuencia $\omega_n = n\omega_0$ se denomina el $n$-ésimo armónico de la función periódica, donde este $n$-ésimo componente os dice cuanto de la $n$-ésimo frecuencia está presente o aporta a la función original.\newline
 Otra forma muy común de representar una función $f(t)$ en una serie de Fourier es cuando el periodo $T$ se encuentra definido en un intervalo de $-p$ a $p$, que es completamente equivalente a cuando está definida sobre $-\frac{T}{2}$ a $\frac{T}{2}$, para este caso, la fórmula de la serie sigue siendo la misma establecida previamente en \eqref{eq27}, lo que cambia levemente es como se definen nuestros coeficientes: ~\cite{matesAvanzadasZill}
 \begin{equation}\label{eq29}
 	a_0 = \frac{1}{p} \int_{-p}^{p} f(t) \, dt, \quad a_n = \frac{1}{p} \int_{-p}^{p} f(t) \cos(n\omega_0 t) \, dt, \quad b_n = \frac{1}{p} \int_{-p}^{p} f(t) \sin(n\omega_0 t) \, dt
@@ -1208,7 +1243,7 @@ La extensión par hace que la función sea simétrica respecto al eje y (Figura 
 			ylabel={\large $f(t)$},
 			xtick={-5,-4,-3,-2,-1,0,1,2,3,4,5},
 			xticklabels={$-5L$, $-4L$, $-3L$, $-2L$, $-L$, 0, $L$, $2L$, $3L$, $4L$, $5L$},
-			xticklabel style={font=\Large},
+			xticklabel style={font=\normalsize},
 			ytick={ -1, 0, 1, 2}, % Gradación de 0.5 en 0.5 en el eje y
 			yticklabels=\empty,
 			ymin=-1, ymax=2,
@@ -1256,7 +1291,7 @@ La extensión impar hace que la función sea simétrica respecto al origen (Figu
 			ylabel={\large $f(t)$},
 			xtick={-5,-4,-3,-2,-1,0,1,2,3,4,5},
 			xticklabels={$-5L$, $-4L$, $-3L$, $-2L$, $-L$, 0, $L$, $2L$, $3L$, $4L$, $5L$},
-			xticklabel style={font=\Large},
+			xticklabel style={font=\normalsize},
 			ytick={ -2, -1, 0, 1, 2}, % Gradación de 0.5 en 0.5 en el eje y
 			yticklabels=\empty,
 			ymin=-2, ymax=2,
@@ -1310,7 +1345,7 @@ La extensión periódica replica la función en intervalos sucesivos, creando un
 			ylabel={\large $f(t)$},
 			xtick={-5,-4,-3,-2,-1,0,1,2,3,4,5},
 			xticklabels={$-5L$, $-4L$, $-3L$, $-2L$, $-L$, 0, $L$, $2L$, $3L$, $4L$, $5L$},
-			xticklabel style={font=\Large},
+			xticklabel style={font=\normalsize},
 			ytick={ -2, -1, 0, 1, 2}, % Gradación de 0.5 en 0.5 en el eje y
 			yticklabels=\empty,
 			ymin=-2, ymax=2,
@@ -1412,7 +1447,7 @@ Recordemos que otra forma en la que nos podemos encontrar la función $f(t)$ es 
 	c_n = \frac{1}{2p} \int_{-p}^{p} f(t) e^{-i n \omega_0 t} \ dt \quad c_0 = \frac{1}{2p} \int_{-p}^{p} f(t)\ dt 
 \end{equation}
 
-\subsection{Serie Compleja de Fourier de $0$ a $L$}
+\subsubsection{Serie Compleja de Fourier de $0$ a $L$}
 Así como con la serie trigonométrica, también se puede obtener una extensión de medio intervalo usando la serie exponencial compleja, con la diferencia de que solo podemos obtener la extensión de medio rango periódica \ref{fig:extencion-periodica} de una función definida en el intervalo $0$ a $L$, ya que las extensiones par e impar se obtienen unicamente con componentes trigonométricos. Esta serie tiene la misma forma de \eqref{eq45}, pero los coeficientes quedan de la siguiente forma ~\cite{fourierCinvestav}
 
 \begin{equation}\label{eq46}
@@ -1431,10 +1466,12 @@ Cuando una función dada se aproxima mediante una serie de Fourier, ya sea trigo
 			enlargelimits=false,
 			width=15cm, % Ancho de la gráfica
 			height=13cm, % Altura de la gráfica
-			xlabel=$x$,
-			ylabel={$f(x)$},
+			xlabel={ \huge $t$},
+			ylabel={ \huge $f(t)$},
 			xtick={-6.28319, -4.7123889, -3.14159, -1.5708, 0, 1.5708, 3.14159, 4.7123889, 6.28319},
+			xticklabel style={font=\Large},
 			xticklabels={$-2\pi$, $-\frac{3\pi}{2}$, $-\pi$, $-\frac{\pi}{2}$, $0$, $\frac{\pi}{2}$, $\pi$, $\frac{3\pi}{2}$, $2\pi$},
+			yticklabel style={font=\large},
 			ymin=-6, ymax=6,
 			xmin=-2*pi, xmax=2*pi,
 			samples=1500,
@@ -1505,10 +1542,12 @@ Las aplicaciones web están basadas en una arquitectura cliente-servidor, en la 
 \end{itemize}
 
 
-
-\subsection{HTML, CSS y JavaScript}
+\subsection{Componentes de las apliaciones web}
 \subsubsection{HTML}
-Explicación sobre cómo define la estructura de la aplicación web.
+HTML (HyperText Markup Language) es el lenguaje estándar fundamental para estructurar y presentar contenido en la web, siendo la base sobre la cual se construyen todas las páginas web. Su función principal es organizar el contenido de manera semántica, lo que significa que emplea etiquetas específicas para definir la estructura de los distintos elementos, como encabezados, párrafos, listas, imágenes y enlaces, permitiendo que los navegadores interpreten y muestren adecuadamente el contenido al usuario. Esta estructuración semántica facilita la accesibilidad, ya que herramientas de asistencia, como los lectores de pantalla, pueden entender y transmitir mejor la información a personas con discapacidades visuales o cognitivas, y además optimiza el SEO (Search Engine Optimization), ayudando a los motores de búsqueda a indexar y clasificar el contenido de manera más precisa y efectiva. ~\cite{HTMLMDN}
+
+\subsubsection{Canvas}
+El elemento <canvas> en HTML es una herramienta que permite dibujar gráficos, crear animaciones y renderizar imágenes en tiempo real a través de scripting, generalmente mediante JavaScript. Su funcionalidad es clave en la generación de contenido visual dinámico, ya que proporciona un espacio donde se pueden desarrollar gráficos interactivos y complejos de manera precisa y flexible. Este elemento resulta esencial en aplicaciones que requieren representaciones visuales detalladas, como la visualización de series de Fourier u otros gráficos interactivos, permitiendo a los desarrolladores mostrar datos complejos de manera clara y visualmente atractiva, adaptándose a las necesidades interactivas de cada proyecto. ~\cite{CanvasHTMLW3S}
 \subsubsection{CSS}
 Justificación para su uso en el diseño y estilo visual de la aplicación.
 \subsubsection{JavaScript}
@@ -1524,34 +1563,30 @@ Detalle de cómo se usa NodeJS para comunicarse con Maxima y realizar cálculos 
 
 \subsection{Maxima}
 \subsubsection{Qué es Maxima y por qué se usa para cálculos simbólicos}
-Explicación sobre el software Maxima y su importancia en los cálculos de Series de Fourier.
+Explicación sobre el software Maxima y su importancia en los cálculos de Series de Fourier. 
 \subsubsection{Implementación de Maxima en el servidor}
 Cómo se utiliza Maxima en el servidor junto con NodeJS para realizar cálculos matemáticos de forma eficiente.
 
 \subsection{Angular (Posible implementación futura)}
 \subsubsection{Introducción a Angular}
-Explicación básica sobre el framework Angular.
+Explicación básica sobre el framework Angular. 
 \subsubsection{Ventajas del uso de Angular para futuras versiones del proyecto}
 Justificación sobre la posibilidad de usar Angular en futuras versiones del proyecto.
 \subsubsection{Consideraciones para su implementación}
 Consideraciones técnicas y cómo Angular podría mejorar la estructura de la aplicación.
-
-\subsection{Metodologías de Desarrollo de Software}
-- \subsubsection{Desarrollo Ágil}
-Breve descripción de la metodología ágil aplicada al desarrollo de la aplicación.
-- \subsubsection{Fases del Proyecto}
-Descripción de las fases de planificación, desarrollo y pruebas que seguiste.
+.
 \subsection{Interfaz gráfica de usuario}
 Las Interfaces Gráficas de Usuario (GUI) son omnipresentes en nuestra vida cotidiana, ya sea al utilizar una computadora o un celular entre otros dispositivos. La eficacia de una GUI es crucial para determinar si un producto será competitivo o no. Un producto puede fracasar si el usuario no logra completar una acción, como una transacción económica, si no comprende la secuencia de pasos requeridos, si no encuentra fácilmente cómo realizar una acción necesaria, como hacer una compra, o si no encuentra atractivo el diseño de la aplicación. ~\cite{interfazAlbornoz}
 - \subsubsection{Principios de Usabilidad}
 Breve descripción de los principios que seguiste para garantizar una buena usabilidad de la aplicación.
+
 - \subsubsection{Diseño de la Interfaz de Usuario (UI)}
 Descripción de cómo el diseño de la interfaz facilita la interacción de los usuarios con las Series de Fourier.
 
 \subsection{Seguridad en Aplicaciones Web}
-- \subsubsection{Protección contra ataques comunes}
+\subsubsection{Certificado SSL}
 Breve descripción de las medidas tomadas para evitar ataques como la inyección de código y el cross-site scripting (XSS).
-- \subsubsection{Autenticación y manejo seguro de datos}
+\subsubsection{Protocolo HTTPS}
 Si tu aplicación maneja datos sensibles o autenticación de usuarios, menciona las técnicas utilizadas para asegurar los datos.
 
 

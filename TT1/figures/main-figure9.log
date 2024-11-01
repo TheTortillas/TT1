@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.24)  27 OCT 2024 20:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.24)  29 OCT 2024 12:48
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1495,67 +1495,61 @@ LaTeX Warning: Citation 'almira2017fourier' on page 1 undefined on input line 8
 .
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 12--13
-\OT1/cmr/m/n/12 r^^Sapidas y fiables, las series de Fourier requer^^S^^Pan un p
-roceso mucho m^^Sas
- []
-
-
-Underfull \hbox (badness 1558) in paragraph at lines 15--19
+Underfull \hbox (badness 1558) in paragraph at lines 13--17
 \OT1/cmr/m/n/12 importantes oportunidades de mejora. Las herramientas actuales,
  aunque
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--19
+Underfull \hbox (badness 10000) in paragraph at lines 13--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--19
+Underfull \hbox (badness 10000) in paragraph at lines 13--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--19
+Underfull \hbox (badness 10000) in paragraph at lines 13--17
 
  []
 
-LaTeX Info: Redefining \. on input line 19.
-LaTeX Info: Redefining \% on input line 19.
+LaTeX Info: Redefining \. on input line 17.
+LaTeX Info: Redefining \% on input line 17.
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
 
  []
 
 
-Underfull \hbox (badness 3098) in paragraph at lines 27--28
+Underfull \hbox (badness 3098) in paragraph at lines 25--26
 \OT1/cmr/m/n/12 en un intervalo o para \OT1/cmr/bx/n/12 funciones definidas a t
 rozos\OT1/cmr/m/n/12 . El
  []
 
 
-Underfull \hbox (badness 1845) in paragraph at lines 27--28
+Underfull \hbox (badness 1845) in paragraph at lines 25--26
 \OT1/cmr/m/n/12 discontinuidades o que est^^Sen definidas por partes en distint
 os
  []
 
 
-Underfull \hbox (badness 1331) in paragraph at lines 38--39
+Underfull \hbox (badness 1331) in paragraph at lines 36--37
 []\OT1/cmr/bx/n/12 Serie completa \OT1/cmr/m/n/12 para funciones peri^^Sodicas 
 en un intervalo
  []
 
-LaTeX Info: Redefining \. on input line 39.
-LaTeX Info: Redefining \% on input line 39.
+LaTeX Info: Redefining \. on input line 37.
+LaTeX Info: Redefining \% on input line 37.
 
-Underfull \hbox (badness 1043) in paragraph at lines 51--52
+Underfull \hbox (badness 1043) in paragraph at lines 49--50
 \OT1/cmr/m/n/12 el usuario podr^^Sa ingresar las funciones, definir los interva
 los y
  []
 
 
-Underfull \hbox (badness 2012) in paragraph at lines 51--52
+Underfull \hbox (badness 2012) in paragraph at lines 49--50
 \OT1/cmr/m/n/12 a usuarios sin experiencia en programaci^^Son obtener resultado
 s
  []
@@ -1889,8 +1883,7 @@ LaTeX Warning: Citation 'historia-alambert-fourier-euler' on page 11 undefined
 on input line 7.
 
 
-LaTeX Warning: Citation 'historia-alambert-fourier-euler' on page 11 undefined 
-on input line 13.
+LaTeX Warning: Citation 'weinbergerEDP' on page 11 undefined on input line 13.
 
 
 LaTeX Warning: Citation 'unal_52162' on page 12 undefined on input line 16.
@@ -2152,45 +2145,45 @@ LaTeX Warning: Citation 'fourierCinvestav' on page 19 undefined on input line 4
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Underfull \hbox (badness 4266) in paragraph at lines 479--506
+Underfull \hbox (badness 4266) in paragraph at lines 480--508
 [] \OT1/cmr/m/n/12 [ \OT1/cmr/m/sc/12 tikzpicture optimized away
  []
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Underfull \hbox (badness 4266) in paragraph at lines 509--536
+Underfull \hbox (badness 4266) in paragraph at lines 511--539
 [] \OT1/cmr/m/n/12 [ \OT1/cmr/m/sc/12 tikzpicture optimized away
  []
 
 
-Overfull \hbox (8.0676pt too wide) in paragraph at lines 478--537
+Overfull \hbox (8.0676pt too wide) in paragraph at lines 479--540
 []$[]$   $[]$ 
  []
 
 
 LaTeX Warning: Citation 'fourierCinvestav' on page 19 undefined on input line 5
-46.
+49.
 
 
 LaTeX Warning: Reference `fig:seno-diferentes-frecuencias' on page 19 undefined
- on input line 546.
+ on input line 549.
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
-LaTeX Info: Redefining \. on input line 593.
-LaTeX Info: Redefining \% on input line 593.
+LaTeX Info: Redefining \. on input line 596.
+LaTeX Info: Redefining \% on input line 596.
 
 LaTeX Warning: Citation 'fourierCinvestav' on page 20 undefined on input line 5
-94.
+97.
 
 
 LaTeX Warning: Reference `fig:frecuencia-func-circ' on page 20 undefined on inp
-ut line 600.
+ut line 603.
 
 
 LaTeX Warning: Citation 'fourierCinvestav' on page 20 undefined on input line 6
-00.
+03.
 
 \openout5 = `figures/main-figure9.dpth'.
 
@@ -2198,192 +2191,236 @@ LaTeX Warning: Citation 'fourierCinvestav' on page 20 undefined on input line 6
 
 \providecommand \oddpage@label [2]{}
 {/home/sebastian/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 603--628
+Underfull \hbox (badness 10000) in paragraph at lines 606--631
 []  \OT1/cmr/m/n/12 tikzexternal: picture has been
  []
 
 
-Underfull \hbox (badness 6542) in paragraph at lines 603--628
+Underfull \hbox (badness 6542) in paragraph at lines 606--631
 \OT1/cmr/m/n/12 externalized. This text is required
  []
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Overfull \hbox (43.54898pt too wide) in paragraph at lines 651--652
+Overfull \hbox (43.54898pt too wide) in paragraph at lines 654--655
 [][] 
  []
 
 
-Overfull \hbox (33.6749pt too wide) in paragraph at lines 602--653
+Overfull \hbox (33.6749pt too wide) in paragraph at lines 605--656
 []$[]$   $[]$ 
  []
 
 
 LaTeX Warning: Reference `fig:fase-coseno' on page 20 undefined on input line 6
-66.
+69.
 
 
 LaTeX Warning: Citation 'armonicosOpenStax' on page 20 undefined on input line 
-666.
+669.
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Underfull \hbox (badness 4266) in paragraph at lines 670--694
+Underfull \hbox (badness 4266) in paragraph at lines 673--697
 [] \OT1/cmr/m/n/12 [ \OT1/cmr/m/sc/12 tikzpicture optimized away
  []
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Underfull \hbox (badness 4266) in paragraph at lines 697--723
+Underfull \hbox (badness 4266) in paragraph at lines 700--726
 [] \OT1/cmr/m/n/12 [ \OT1/cmr/m/sc/12 tikzpicture optimized away
  []
 
 
-Overfull \hbox (12.33533pt too wide) in paragraph at lines 669--724
+Overfull \hbox (12.33533pt too wide) in paragraph at lines 672--727
 []$[]$   $[]$ 
  []
 
 
 LaTeX Warning: Citation 'matesAvanzadasZill' on page 20 undefined on input line
- 729.
+ 732.
 
-LaTeX Info: Redefining \. on input line 733.
-LaTeX Info: Redefining \% on input line 733.
+LaTeX Info: Redefining \. on input line 736.
+LaTeX Info: Redefining \% on input line 736.
 
 LaTeX Warning: Reference `fig:funcion-par' on page 21 undefined on input line 7
-35.
+38.
 
 
-LaTeX Warning: Reference `eq24' on page 21 undefined on input line 735.
+LaTeX Warning: Reference `eq24' on page 21 undefined on input line 738.
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
 LaTeX Warning: Citation 'matesAvanzadasZill' on page 21 undefined on input line
- 775.
+ 778.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 775--777
+Underfull \hbox (badness 10000) in paragraph at lines 778--780
 []\OT1/cmr/m/n/12 Ahora, decimos que una funci^^Son es impar si se cumple que:
  []
 
 
 LaTeX Warning: Reference `fig:funcion-impar' on page 21 undefined on input line
- 781.
+ 784.
 
 
-LaTeX Warning: Reference `eq25' on page 21 undefined on input line 781.
+LaTeX Warning: Reference `eq25' on page 21 undefined on input line 784.
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
 LaTeX Warning: Citation 'matesAvanzadasZill' on page 21 undefined on input line
- 824.
+ 827.
 
 
 LaTeX Warning: Reference `fig:areas-par-impar' on page 21 undefined on input li
-ne 834.
+ne 837.
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Underfull \hbox (badness 4266) in paragraph at lines 837--885
+Underfull \hbox (badness 4266) in paragraph at lines 840--888
 [] \OT1/cmr/m/n/12 [ \OT1/cmr/m/sc/12 tikzpicture optimized away
  []
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Underfull \hbox (badness 4266) in paragraph at lines 888--935
+Underfull \hbox (badness 4266) in paragraph at lines 891--938
 [] \OT1/cmr/m/n/12 [ \OT1/cmr/m/sc/12 tikzpicture optimized away
  []
 
 
-Overfull \hbox (12.33533pt too wide) in paragraph at lines 836--936
+Overfull \hbox (12.33533pt too wide) in paragraph at lines 839--939
 []$[]$   $[]$ 
  []
 
-LaTeX Info: Redefining \. on input line 939.
-LaTeX Info: Redefining \% on input line 939.
+LaTeX Info: Redefining \. on input line 942.
+LaTeX Info: Redefining \% on input line 942.
 
 LaTeX Warning: Reference `fig:smooth-func' on page 22 undefined on input line 9
-42.
+45.
 
 
-LaTeX Warning: Citation 'fourierTolstov' on page 22 undefined on input line 942
+LaTeX Warning: Citation 'fourierTolstov' on page 22 undefined on input line 945
 .
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
 LaTeX Warning: Reference `fig:funcion-suave-trozos' on page 22 undefined on inp
-ut line 981.
+ut line 984.
 
 
-LaTeX Warning: Citation 'fourierTolstov' on page 22 undefined on input line 981
+LaTeX Warning: Citation 'fourierTolstov' on page 22 undefined on input line 984
 .
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Underfull \hbox (badness 4266) in paragraph at lines 985--1018
+Underfull \hbox (badness 4266) in paragraph at lines 988--1021
 [] \OT1/cmr/m/n/12 [ \OT1/cmr/m/sc/12 tikzpicture optimized away
  []
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Underfull \hbox (badness 4266) in paragraph at lines 1021--1061
+Underfull \hbox (badness 4266) in paragraph at lines 1024--1064
 [] \OT1/cmr/m/n/12 [ \OT1/cmr/m/sc/12 tikzpicture optimized away
  []
 
 
-Overfull \hbox (12.33533pt too wide) in paragraph at lines 984--1062
+Overfull \hbox (12.33533pt too wide) in paragraph at lines 987--1065
 []$[]$   $[]$ 
  []
 
 
 LaTeX Warning: Citation 'fourierTolstov' on page 22 undefined on input line 106
-5.
+8.
 
-LaTeX Info: Redefining \. on input line 1070.
-LaTeX Info: Redefining \% on input line 1070.
 
-LaTeX Warning: Citation 'matesAvanzadasZill' on page 23 undefined on input line
+LaTeX Warning: Citation 'algebraLinealPoole' on page 22 undefined on input line
  1071.
 
+LaTeX Info: Redefining \. on input line 1072.
+LaTeX Info: Redefining \% on input line 1072.
 
-Underfull \hbox (badness 1297) in paragraph at lines 1071--1072
+LaTeX Warning: Citation 'matesAvanzadasZill' on page 23 undefined on input line
+ 1079.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1079--1080
+[]\OT1/cmr/m/n/12 En general, se dice que el conjunto de funciones de valor rea
+l
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1079--1080
+\OMS/cmsy/m/n/12 f\OML/cmm/m/it/12 ^^^[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t\OT1
+/cmr/m/n/12 )\OML/cmm/m/it/12 ; ^^^[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t\OT1/cm
+r/m/n/12 )\OML/cmm/m/it/12 ; ^^^[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr/m
+/n/12 )\OML/cmm/m/it/12 ; [] ; ^^^[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr
+/m/n/12 )\OMS/cmsy/m/n/12 g$ \OT1/cmr/m/n/12 es ortogonal en el intervalo $\OMS
+/cmsy/m/n/12 f\OML/cmm/m/it/12 a; b\OMS/cmsy/m/n/12 g$ \OT1/cmr/m/n/12 si
+ []
+
+
+Underfull \hbox (badness 3780) in paragraph at lines 1087--1088
+[]\OT1/cmr/m/n/12 Ahora, consideremos que tenemos conjuntos de funciones senoid
+ales y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1104--1105
+[]\OT1/cmr/m/n/12 Estas relaciones demuestran que el conjunto de funciones
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1104--1105
+\OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; [] ![]t; [] \OT1/cmr/m/n/
+12 2\OML/cmm/m/it/12 ![]t; [] ; [] n![]t; [] ; [] ![]t; [] \OT1/cmr/m/n/12 2\OM
+L/cmm/m/it/12 ![]t; [] ; [] n![]t; []\OMS/cmsy/m/n/12 g$ \OT1/cmr/m/n/12 son
+ []
+
+
+LaTeX Warning: Citation 'matesAvanzadasZill' on page 23 undefined on input line
+ 1107.
+
+
+Underfull \hbox (badness 1297) in paragraph at lines 1107--1108
 []\OT1/cmr/m/n/12 Como ya vimos anteriormente, las series de Fourier, fueron in
 troducidas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1071--1072
+Underfull \hbox (badness 10000) in paragraph at lines 1107--1108
 \OT1/cmr/m/n/12 como $\OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; [] 
 ![]t; [] \OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ![]t; [] ; [] n![]t; [] ; [] ![]t; [
 ] \OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ![]t; [] ; [] n![]t; [] \OMS/cmsy/m/n/12 g$
 
  []
 
+LaTeX Info: Redefining \. on input line 1108.
+LaTeX Info: Redefining \% on input line 1108.
 
-LaTeX Warning: Reference `fig:func-periodica' on page 23 undefined on input lin
-e 1078.
-
-
-LaTeX Warning: Citation 'fourierHsu' on page 23 undefined on input line 1085.
-
-
-LaTeX Warning: Reference `eq28' on page 23 undefined on input line 1091.
+LaTeX Warning: Reference `fig:func-periodica' on page 24 undefined on input lin
+e 1113.
 
 
-LaTeX Warning: Citation 'fourierHsu' on page 23 undefined on input line 1091.
+LaTeX Warning: Citation 'fourierHsu' on page 24 undefined on input line 1120.
 
 
-Overfull \hbox (12.10497pt too wide) detected at line 1095
+LaTeX Warning: Reference `eq28' on page 24 undefined on input line 1126.
+
+
+LaTeX Warning: Citation 'fourierHsu' on page 24 undefined on input line 1126.
+
+
+Overfull \hbox (12.10497pt too wide) detected at line 1130
 [][][]\OML/cmm/m/it/12 a[] \OT1/cmr/m/n/12 = [] [][] \OML/cmm/m/it/12 f\OT1/cmr
 /m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr/m/n/12 ) \OML/cmm/m/it/12 dt;  a[] \OT1/cmr
 /m/n/12 = [] [][] \OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr
@@ -2393,118 +2430,116 @@ it/12 dt
  []
 
 
-LaTeX Warning: Reference `eq27' on page 23 undefined on input line 1097.
+LaTeX Warning: Reference `eq27' on page 24 undefined on input line 1132.
 
 
-LaTeX Warning: Reference `eq27' on page 23 undefined on input line 1098.
+LaTeX Warning: Reference `eq27' on page 24 undefined on input line 1133.
 
 
-LaTeX Warning: Citation 'matesAvanzadasZill' on page 23 undefined on input line
- 1098.
+LaTeX Warning: Citation 'matesAvanzadasZill' on page 24 undefined on input line
+ 1133.
 
 
-Underfull \hbox (badness 1881) in paragraph at lines 1097--1099
+Underfull \hbox (badness 1881) in paragraph at lines 1132--1134
 []\OT1/cmr/m/n/12 La ecuaci^^Son [] describe c^^Somo una funci^^Son peri^^Sodic
 a arbitraria puede
  []
 
-LaTeX Info: Redefining \. on input line 1101.
-LaTeX Info: Redefining \% on input line 1101.
 
 LaTeX Warning: Citation 'matesAvanzadasZill' on page 24 undefined on input line
- 1103.
+ 1138.
 
+LaTeX Info: Redefining \. on input line 1139.
+LaTeX Info: Redefining \% on input line 1139.
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-LaTeX Warning: Reference `eq28' on page 24 undefined on input line 1144.
+LaTeX Warning: Reference `eq28' on page 25 undefined on input line 1179.
 
 
-LaTeX Warning: Citation 'matesAvanzadasZill' on page 24 undefined on input line
- 1149.
+LaTeX Warning: Citation 'matesAvanzadasZill' on page 25 undefined on input line
+ 1184.
 
 
-Underfull \hbox (badness 2310) in paragraph at lines 1148--1150
+Underfull \hbox (badness 2310) in paragraph at lines 1183--1185
 \OT1/cmr/m/n/12 obtenemos una funci^^Son impar  [[]], como ya vimos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1152--1154
+Underfull \hbox (badness 10000) in paragraph at lines 1187--1189
 
  []
 
 
-LaTeX Warning: Citation 'matesAvanzadasZill' on page 24 undefined on input line
- 1161.
+LaTeX Warning: Citation 'matesAvanzadasZill' on page 25 undefined on input line
+ 1196.
 
 
-Underfull \hbox (badness 1137) in paragraph at lines 1161--1162
+Underfull \hbox (badness 1137) in paragraph at lines 1196--1197
 \OT1/cmr/m/n/12 de una funci^^Son impar con una funci^^Son par produce una func
 i^^Son impar.
  []
 
-LaTeX Info: Redefining \. on input line 1167.
-LaTeX Info: Redefining \% on input line 1167.
+LaTeX Info: Redefining \. on input line 1206.
+LaTeX Info: Redefining \% on input line 1206.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1177--1178
+Underfull \hbox (badness 10000) in paragraph at lines 1212--1213
 
  []
 
 
-LaTeX Warning: Reference `eq28' on page 25 undefined on input line 1191.
-
-
-LaTeX Warning: Citation 'fourierCruzFierro' on page 25 undefined on input line 
-1195.
-
-
-LaTeX Warning: Reference `fig:serie-de-cosenos' on page 25 undefined on input l
-ine 1198.
-
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-LaTeX Info: Redefining \. on input line 1233.
-LaTeX Info: Redefining \% on input line 1233.
-
-LaTeX Warning: Reference `eq30' on page 26 undefined on input line 1233.
+LaTeX Warning: Reference `eq28' on page 26 undefined on input line 1226.
 
 
 LaTeX Warning: Citation 'fourierCruzFierro' on page 26 undefined on input line 
-1239.
+1230.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1239--1240
+LaTeX Warning: Reference `fig:serie-de-cosenos' on page 26 undefined on input l
+ine 1233.
+
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+
+LaTeX Warning: Reference `eq30' on page 26 undefined on input line 1268.
+
+LaTeX Info: Redefining \. on input line 1269.
+LaTeX Info: Redefining \% on input line 1269.
+
+LaTeX Warning: Citation 'fourierCruzFierro' on page 27 undefined on input line 
+1274.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1274--1275
 []\OT1/cmr/m/n/12 Pero los coeficientes se ver^^San afectados de la siguiente f
 orma:
  []
 
 
-LaTeX Warning: Reference `fig:serie-de-senos' on page 26 undefined on input lin
-e 1245.
+LaTeX Warning: Reference `fig:serie-de-senos' on page 27 undefined on input lin
+e 1280.
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-LaTeX Warning: Reference `eq31' on page 26 undefined on input line 1286.
+LaTeX Warning: Reference `eq31' on page 27 undefined on input line 1321.
 
 
-LaTeX Warning: Citation 'fourierCruzFierro' on page 26 undefined on input line 
-1292.
+LaTeX Warning: Citation 'fourierCruzFierro' on page 27 undefined on input line 
+1327.
 
 
-LaTeX Warning: Reference `fig:extencion-periodica' on page 26 undefined on inpu
-t line 1299.
+LaTeX Warning: Reference `fig:extencion-periodica' on page 27 undefined on inpu
+t line 1334.
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-LaTeX Warning: Citation 'fourierCruzFierro' on page 26 undefined on input line 
-1341.
+LaTeX Warning: Citation 'fourierCruzFierro' on page 27 undefined on input line 
+1376.
 
-LaTeX Info: Redefining \. on input line 1342.
-LaTeX Info: Redefining \% on input line 1342.
 
-Overfull \hbox (10.68004pt too wide) detected at line 1349
+Overfull \hbox (10.68004pt too wide) detected at line 1384
 [][][]\OML/cmm/m/it/12 a[] \OT1/cmr/m/n/12 = [] [][] \OML/cmm/m/it/12 f\OT1/cmr
 /m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr/m/n/12 ) \OML/cmm/m/it/12 dt;  a[] \OT1/cmr
 /m/n/12 = [] [][] \OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr
@@ -2513,104 +2548,127 @@ Overfull \hbox (10.68004pt too wide) detected at line 1349
 it/12 dt
  []
 
+LaTeX Info: Redefining \. on input line 1384.
+LaTeX Info: Redefining \% on input line 1384.
 
-LaTeX Warning: Reference `eq27' on page 27 undefined on input line 1352.
-
-
-LaTeX Warning: Citation 'youtubeComplexFourier' on page 27 undefined on input l
-ine 1352.
+LaTeX Warning: Reference `eq27' on page 28 undefined on input line 1387.
 
 
-LaTeX Warning: Reference `eq38' on page 27 undefined on input line 1357.
+LaTeX Warning: Citation 'youtubeComplexFourier' on page 28 undefined on input l
+ine 1387.
 
 
-LaTeX Warning: Reference `eq38' on page 27 undefined on input line 1357.
+LaTeX Warning: Reference `eq38' on page 28 undefined on input line 1392.
 
 
-LaTeX Warning: Reference `eq27' on page 27 undefined on input line 1368.
-
-LaTeX Info: Redefining \. on input line 1390.
-LaTeX Info: Redefining \% on input line 1390.
-
-LaTeX Warning: Reference `eq39' on page 28 undefined on input line 1391.
+LaTeX Warning: Reference `eq38' on page 28 undefined on input line 1392.
 
 
-LaTeX Warning: Reference `eq40' on page 28 undefined on input line 1391.
+LaTeX Warning: Reference `eq27' on page 28 undefined on input line 1403.
+
+LaTeX Info: Redefining \. on input line 1425.
+LaTeX Info: Redefining \% on input line 1425.
+
+LaTeX Warning: Reference `eq39' on page 29 undefined on input line 1426.
 
 
-LaTeX Warning: Reference `eq41' on page 28 undefined on input line 1391.
+LaTeX Warning: Reference `eq40' on page 29 undefined on input line 1426.
 
 
-LaTeX Warning: Reference `eq42' on page 28 undefined on input line 1391.
+LaTeX Warning: Reference `eq41' on page 29 undefined on input line 1426.
 
 
-LaTeX Warning: Citation 'matesAvanzadasZill' on page 28 undefined on input line
- 1391.
+LaTeX Warning: Reference `eq42' on page 29 undefined on input line 1426.
 
 
-LaTeX Warning: Reference `fig:func-periodica' on page 28 undefined on input lin
-e 1395.
+LaTeX Warning: Citation 'matesAvanzadasZill' on page 29 undefined on input line
+ 1426.
 
 
-LaTeX Warning: Citation 'fourierHsu' on page 28 undefined on input line 1395.
+LaTeX Warning: Reference `fig:func-periodica' on page 29 undefined on input lin
+e 1430.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1407--1408
+LaTeX Warning: Citation 'fourierHsu' on page 29 undefined on input line 1430.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1442--1443
 
  []
 
 
-LaTeX Warning: Reference `fig:func-periodica' on page 28 undefined on input lin
-e 1409.
+LaTeX Warning: Reference `fig:func-periodica' on page 29 undefined on input lin
+e 1444.
 
 
-LaTeX Warning: Reference `fig:extencion-periodica' on page 28 undefined on inpu
-t line 1416.
+LaTeX Warning: Reference `fig:extencion-periodica' on page 29 undefined on inpu
+t line 1451.
 
 
-LaTeX Warning: Reference `eq45' on page 28 undefined on input line 1416.
+LaTeX Warning: Reference `eq45' on page 29 undefined on input line 1451.
 
 
-LaTeX Warning: Citation 'fourierCinvestav' on page 28 undefined on input line 1
-416.
+LaTeX Warning: Citation 'fourierCinvestav' on page 29 undefined on input line 1
+451.
 
-LaTeX Info: Redefining \. on input line 1418.
-LaTeX Info: Redefining \% on input line 1418.
+LaTeX Info: Redefining \. on input line 1453.
+LaTeX Info: Redefining \% on input line 1453.
 
-LaTeX Warning: Reference `fig:gibbs' on page 29 undefined on input line 1423.
+LaTeX Warning: Reference `fig:gibbs' on page 30 undefined on input line 1458.
 
 
-LaTeX Warning: Citation 'fourierCarrillo' on page 29 undefined on input line 14
-23.
+LaTeX Warning: Citation 'fourierCarrillo' on page 30 undefined on input line 14
+58.
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-LaTeX Warning: Citation 'apliacionWebAmazon' on page 29 undefined on input line
- 1481.
+LaTeX Warning: Citation 'apliacionWebAmazon' on page 30 undefined on input line
+ 1516.
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 1483--1484
+Underfull \hbox (badness 1616) in paragraph at lines 1518--1519
 \OT1/cmr/m/n/12 Grupos de trabajo en distintas ubicaciones pueden interactuar c
 on
  []
 
-LaTeX Info: Redefining \. on input line 1488.
-LaTeX Info: Redefining \% on input line 1488.
+LaTeX Info: Redefining \. on input line 1523.
+LaTeX Info: Redefining \% on input line 1523.
 
-Underfull \hbox (badness 1024) in paragraph at lines 1489--1490
+Underfull \hbox (badness 1024) in paragraph at lines 1524--1525
 \OT1/cmr/m/n/12 nuevos usuarios de manera flexible, sin necesidad de infraestru
 ctura
  []
 
-LaTeX Info: Redefining \. on input line 1516.
-LaTeX Info: Redefining \% on input line 1516.
 
-LaTeX Warning: Citation 'interfazAlbornoz' on page 31 undefined on input line 1
-530.
+LaTeX Warning: Citation 'apliacionWebAmazon' on page 31 undefined on input line
+ 1527.
 
-LaTeX Info: Redefining \. on input line 1536.
-LaTeX Info: Redefining \% on input line 1536.
+The command '\includegraphics [width=0.9\textwidth ]{img/chapter03/ui-web-arqui
+tectura.png}' has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+
+LaTeX Warning: Citation 'uqbar-wiki-web' on page 31 undefined on input line 153
+1.
+
+
+LaTeX Warning: Citation 'uqbar-wiki-web' on page 31 undefined on input line 153
+1.
+
+
+Underfull \hbox (badness 3108) in paragraph at lines 1531--1531
+[]\OT1/cmr/m/n/12 Figura 3.20: |Diagrama de una arquitectura cliente - servidor
+. \OT1/cmr/m/it/12 Fuente:
+ []
+
+LaTeX Info: Redefining \. on input line 1548.
+LaTeX Info: Redefining \% on input line 1548.
+LaTeX Info: Redefining \. on input line 1574.
+LaTeX Info: Redefining \% on input line 1574.
+
+LaTeX Warning: Citation 'interfazAlbornoz' on page 33 undefined on input line 1
+579.
+
 )
 LaTeX Info: Redefining \. on input line 128.
 LaTeX Info: Redefining \% on input line 128.
@@ -2618,7 +2676,7 @@ LaTeX Info: Redefining \% on input line 128.
 (chapters/chapter04/chapter04.tex
 Cap\'{\i }tulo 4.
 
-LaTeX Warning: Citation 'Metodolog√≠asDeDesarrollo2015' on page 33 undefined on
+LaTeX Warning: Citation 'Metodolog√≠asDeDesarrollo2015' on page 34 undefined on
  input line 5.
 
 Missing character: There is no √ in font cmbx12!
@@ -2632,17 +2690,23 @@ The command '\includegraphics [width=0.5\textwidth ]{img/chapter04/prototipo.pn
 g}' has been optimized away. Use '/tikz/external/optimize=false' to disable thi
 s.
 
-LaTeX Warning: Citation 'Metodolog√≠asDeDesarrollo2015' on page 33 undefined on
+LaTeX Warning: Citation 'Metodolog√≠asDeDesarrollo2015' on page 34 undefined on
  input line 10.
 
 Missing character: There is no √ in font cmbx12!
 Missing character: There is no ≠ in font cmbx12!
 
-LaTeX Warning: Citation 'Metodolog√≠asDeDesarrollo2015' on page 33 undefined on
+LaTeX Warning: Citation 'Metodolog√≠asDeDesarrollo2015' on page 34 undefined on
  input line 10.
 
 Missing character: There is no √ in font cmbx12!
 Missing character: There is no ≠ in font cmbx12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+[]\OT1/cmr/m/n/12 Figura 4.1: |tapas de la metodolog^^S^^Pa por prototipos. \OT
+1/cmr/m/it/12 Fuente:
+ []
+
 
 Underfull \hbox (badness 1072) in paragraph at lines 14--17
 \OT1/cmr/m/n/12 de manera iterativa. Cada prototipo no es desechado sino que se
@@ -2918,15 +2982,15 @@ Cap\'{\i }tulo 5.
 Ap\'{e}ndice A.
 LaTeX Info: Redefining \. on input line 113.
 LaTeX Info: Redefining \% on input line 113.
-)
-LaTeX Info: Redefining \. on input line 132.
-LaTeX Info: Redefining \% on input line 132.
 
 Overfull \hbox (33.15697pt too wide) has occurred while \output is active
 \OT1/cmr/m/n/12 44 \OT1/cmr/m/sl/12 AP[]ENDICE A.  C[]ALCULO DE LOS COEFICIENTE
 S DE LA SERIE DE FOURIER
  []
 
+)
+LaTeX Info: Redefining \. on input line 132.
+LaTeX Info: Redefining \% on input line 132.
 
 LaTeX Warning: Empty bibliography on input line 137.
 
@@ -2954,19 +3018,19 @@ Package logreq Info: Writing requests to 'figures/main-figure9.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48684 strings out of 476305
- 1076451 string characters out of 5791965
- 2008837 words of memory out of 5000000
- 70049 multiletter control sequences out of 15000+600000
- 570925 words of font info for 84 fonts, out of 8000000 for 9000
+ 48694 strings out of 476305
+ 1076649 string characters out of 5791965
+ 2006837 words of memory out of 5000000
+ 70057 multiletter control sequences out of 15000+600000
+ 571739 words of font info for 86 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 105i,17n,120p,1603b,2328s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 105i,17n,120p,1734b,2328s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12
 .pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr
 12.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/c
 mr17.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm
 /cmsy10.pfb>
-Output written on figures/main-figure9.pdf (1 page, 44116 bytes).
+Output written on figures/main-figure9.pdf (1 page, 44233 bytes).
 PDF statistics:
  34 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)

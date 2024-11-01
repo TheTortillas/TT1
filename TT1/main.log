@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.24)  27 OCT 2024 21:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.24)  31 OCT 2024 21:46
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1399,7 +1399,7 @@ LaTeX Info: Redefining \% on input line 14.
  (chapters/chapter01/chapter01.aux) (chapters/chapter02/chapter02.aux) (chapter
 s/chapter03/chapter03.aux)
 (chapters/chapter04/chapter04.aux) (chapters/chapter05/chapter05.aux)
-(appendages/appendixA/appendixA.aux))
+(appendages/appendixA/appendixA.aux) (appendages/appendixB/appendixB.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 108.
@@ -1598,14 +1598,14 @@ Package spanish Warning: Replacing `OT1/cmr/bx/sc' by
 (spanish)                faked small caps on input line 2.
 
 
-Underfull \hbox (badness 7099) in paragraph at lines 19--19
+Underfull \hbox (badness 7099) in paragraph at lines 29--29
  [][] [][]\OT1/cmr/m/n/12 C^^Salculo de Serie de Fourier con Python 
  []
 
 [5
 
 ]
-Underfull \hbox (badness 3568) in paragraph at lines 60--60
+Underfull \hbox (badness 3568) in paragraph at lines 72--72
  [][] [][]\OT1/cmr/m/n/12 Ventajas del uso de Angular para futuras 
  []
 
@@ -1654,71 +1654,65 @@ LaTeX Info: Redefining \% on input line 125.
 
  (chapters/chapter01/chapter01.tex
 Cap\'{\i }tulo 1.
-
-Underfull \hbox (badness 1028) in paragraph at lines 12--13
-\OT1/cmr/m/n/12 r^^Sapidas y fiables, las series de Fourier requer^^S^^Pan un p
-roceso mucho m^^Sas
- []
-
 [1
 
 
 ]
-Underfull \hbox (badness 1558) in paragraph at lines 15--19
+Underfull \hbox (badness 1558) in paragraph at lines 13--17
 \OT1/cmr/m/n/12 importantes oportunidades de mejora. Las herramientas actuales,
  aunque
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--19
+Underfull \hbox (badness 10000) in paragraph at lines 13--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--19
+Underfull \hbox (badness 10000) in paragraph at lines 13--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--19
+Underfull \hbox (badness 10000) in paragraph at lines 13--17
 
  []
 
-LaTeX Info: Redefining \. on input line 19.
-LaTeX Info: Redefining \% on input line 19.
+LaTeX Info: Redefining \. on input line 17.
+LaTeX Info: Redefining \% on input line 17.
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
 
  []
 
 
-Underfull \hbox (badness 3098) in paragraph at lines 27--28
+Underfull \hbox (badness 3098) in paragraph at lines 25--26
 \OT1/cmr/m/n/12 en un intervalo o para \OT1/cmr/bx/sc/12 funciones definidas a 
 trozos\OT1/cmr/m/n/12 . El
  []
 
 
-Underfull \hbox (badness 1845) in paragraph at lines 27--28
+Underfull \hbox (badness 1845) in paragraph at lines 25--26
 \OT1/cmr/m/n/12 discontinuidades o que est^^Sen definidas por partes en distint
 os
  []
 
 
-Underfull \hbox (badness 1331) in paragraph at lines 38--39
+Underfull \hbox (badness 1331) in paragraph at lines 36--37
 []\OT1/cmr/bx/sc/12 Serie completa \OT1/cmr/m/n/12 para funciones peri^^Sodicas
  en un intervalo
  []
 
-LaTeX Info: Redefining \. on input line 39.
-LaTeX Info: Redefining \% on input line 39.
+LaTeX Info: Redefining \. on input line 37.
+LaTeX Info: Redefining \% on input line 37.
 [3]
-Underfull \hbox (badness 1043) in paragraph at lines 51--52
+Underfull \hbox (badness 1043) in paragraph at lines 49--50
 \OT1/cmr/m/n/12 el usuario podr^^Sa ingresar las funciones, definir los interva
 los y
  []
 
 
-Underfull \hbox (badness 2012) in paragraph at lines 51--52
+Underfull \hbox (badness 2012) in paragraph at lines 49--50
 \OT1/cmr/m/n/12 a usuarios sin experiencia en programaci^^Son obtener resultado
 s
  []
@@ -1734,277 +1728,308 @@ LaTeX Info: Redefining \% on input line 126.
 
  (chapters/chapter02/chapter02.tex
 Cap\'{\i }tulo 2.
-
-Overfull \hbox (5.95143pt too wide) in paragraph at lines 9--9
-[]|[]\OT1/cmr/bx/sc/12 SOFTWARE[]| 
- []
-
-
-Overfull \hbox (5.95143pt too wide) in paragraph at lines 13--13
-[]|[]\OT1/cmr/bx/sc/12 SOFTWARE[]| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
-[]|\OT1/cmr/m/n/12 Wolfram
- []
-
-
-Underfull \hbox (badness 4229) in paragraph at lines 19--19
-[]|\OT1/cmr/m/n/12 Se trata de un potente motor
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/cmr/m/n/12 comercial de conocimiento
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/cmr/m/n/12 computacional para c^^Salculos
- []
-
-
-Underfull \hbox (badness 1681) in paragraph at lines 19--19
-\OT1/cmr/m/n/12 matem^^Saticos y gr^^Saficos. Contiene
- []
-
-
-Underfull \hbox (badness 4366) in paragraph at lines 19--19
-\OT1/cmr/m/n/12 (Trigonom^^Setrica y compleja) as^^S^^P
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/cmr/m/n/12 como las extensiones pares e
- []
-
-
-Underfull \hbox (badness 4846) in paragraph at lines 19--19
-\OT1/cmr/m/n/12 la serie y obtener una gr^^Safica
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/cmr/m/n/12 anuales para
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/cmr/m/n/12 estudiantes, plan
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
-[]|\OT1/cmr/m/n/12 Herramienta din^^Samica para
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
-\OT1/cmr/m/n/12 construcciones geom^^Setricas y
- []
-
-
-Underfull \hbox (badness 4752) in paragraph at lines 20--20
-\OT1/cmr/m/n/12 serie o extensi^^Son trigonom^^Setrica
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
-[]|\OT1/cmr/m/n/12 Similar a Geogebra es una
- []
-
-
-Underfull \hbox (badness 1308) in paragraph at lines 21--21
-\OT1/cmr/m/n/12 calculadora gr^^Safica en l^^S^^Pnea para
- []
-
-
-Underfull \hbox (badness 1502) in paragraph at lines 21--21
-\OT1/cmr/m/n/12 modo podemos graficar cualquier
- []
-
-
-Underfull \hbox (badness 4752) in paragraph at lines 21--21
-\OT1/cmr/m/n/12 serie o extensi^^Son trigonom^^Setrica
- []
-
-
-Underfull \hbox (badness 2486) in paragraph at lines 22--22
-\OT1/cmr/m/n/12 para visualizaciones matem^^Saticas,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--22
-\OT1/cmr/m/n/12 serie ya sea trigonom^^Setrica o
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--22
-\OT1/cmr/m/n/12 exponencial y poder animar
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--22
-\OT1/cmr/m/n/12 de infinitas maneras el como
- []
-
-
-Underfull \hbox (badness 8094) in paragraph at lines 22--22
-\OT1/cmr/m/n/12 se aproxima la serie con sus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--22
-\OT1/cmr/m/n/12 coeficientes. Requiere hacer los
- []
-
-
-Underfull \hbox (badness 3872) in paragraph at lines 22--22
-\OT1/cmr/m/n/12 c^^Salculos, armar la expresi^^Son de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\OT1/cmr/m/n/12 realizar matem^^Saticas simb^^Solicas,
- []
-
-
-Underfull \hbox (badness 2452) in paragraph at lines 23--23
-\OT1/cmr/m/n/12 que incluye el c^^Salculo de series
- []
-
-
-Underfull \hbox (badness 5711) in paragraph at lines 23--23
-\OT1/cmr/m/n/12 de Fourier. A menudo se usa
- []
-
-
-Underfull \hbox (badness 2635) in paragraph at lines 23--23
-\OT1/cmr/m/n/12 en combinaci^^Son con librer^^S^^Pas de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\OT1/cmr/m/n/12 visualizaci^^Son como Matplotlib
- []
-
-
-Underfull \hbox (badness 1478) in paragraph at lines 23--23
-\OT1/cmr/m/n/12 para representar gr^^Saficamente los
- []
-
-
-Underfull \hbox (badness 3977) in paragraph at lines 23--23
-\OT1/cmr/m/n/12 resultados, pero de nuevo, esta
- []
-
-
-Underfull \hbox (badness 2573) in paragraph at lines 24--24
-[]|\OT1/cmr/m/n/12 Es un entorno de programaci^^Son
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
-\OT1/cmr/m/n/12 y visualizaci^^Son de datos, con
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
-\OT1/cmr/m/n/12 herramientas espec^^S^^Pficas para
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
-\OT1/cmr/m/n/12 series de Fourier, adem^^Sas de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
-\OT1/cmr/m/n/12 tener funciones para poder
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
-[]|\OT1/cmr/m/n/12 Desde USD\TS1/cmr/m/n/12 $\OT1/cmr/m/n/12 99
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
-\OT1/cmr/m/n/12 (aprox.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
-\OT1/cmr/m/n/12 MXN\TS1/cmr/m/n/12 $\OT1/cmr/m/n/12 1627.82)
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
-\OT1/cmr/m/n/12 anuales para
- []
-
+<img/chapter02/logo_wolfram.jpg, id=386, 534.99875pt x 367.3725pt>
+File: img/chapter02/logo_wolfram.jpg Graphic file (type jpg)
+<use img/chapter02/logo_wolfram.jpg>
+Package pdftex.def Info: img/chapter02/logo_wolfram.jpg  used on input line 11.
+
+(pdftex.def)             Requested size: 205.71342pt x 141.26225pt.
 [6
 
 
 
 
 ]
-LaTeX Info: Redefining \. on input line 26.
-LaTeX Info: Redefining \% on input line 26.
- [7]
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-|[]\OT1/cmr/bx/n/14.4 Comparativa del Funcionamiento de las
+<img/chapter02/logo_symbolab.png, id=399, 385.44pt x 385.44pt>
+File: img/chapter02/logo_symbolab.png Graphic file (type png)
+<use img/chapter02/logo_symbolab.png>
+Package pdftex.def Info: img/chapter02/logo_symbolab.png  used on input line 39
+.
+(pdftex.def)             Requested size: 123.4293pt x 123.42566pt.
+LaTeX Info: Redefining \. on input line 42.
+LaTeX Info: Redefining \% on input line 42.
+ [7 <./img/chapter02/logo_wolfram.jpg>]
+LaTeX Info: Redefining \. on input line 53.
+LaTeX Info: Redefining \% on input line 53.
+ [8 <./img/chapter02/logo_symbolab.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
+LaTeX Info: Redefining \. on input line 73.
+LaTeX Info: Redefining \% on input line 73.
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
  []
 
-LaTeX Info: Redefining \. on input line 58.
-LaTeX Info: Redefining \% on input line 58.
-[8]
 ===== Image 'figures/main-figure0' is up-to-date. ======
-<img/chapter02/wolfram_trig_series.png, id=399, 1166.3575pt x 895.345pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<img/chapter02/wolfram_trig_series.png, id=431, 1166.3575pt x 895.345pt>
 File: img/chapter02/wolfram_trig_series.png Graphic file (type png)
 <use img/chapter02/wolfram_trig_series.png>
 Package pdftex.def Info: img/chapter02/wolfram_trig_series.png  used on input l
-ine 112.
+ine 153.
 (pdftex.def)             Requested size: 370.28166pt x 284.23473pt.
 
-Underfull \hbox (badness 2653) in paragraph at lines 108--115
+Underfull \hbox (badness 2653) in paragraph at lines 149--156
 []\OT1/cmr/m/n/12 WolframAlpha nos permite calcular series de Fourier trigonom^
 ^Setricas y
  []
 
-LaTeX Info: Redefining \. on input line 116.
-LaTeX Info: Redefining \% on input line 116.
-[9 <./figures/main-figure0.pdf>]
-<img/chapter02/wolfram_complex_series.png, id=436, 1166.3575pt x 800.9925pt>
+LaTeX Info: Redefining \. on input line 156.
+LaTeX Info: Redefining \% on input line 156.
+[10]
+LaTeX Info: Redefining \. on input line 157.
+LaTeX Info: Redefining \% on input line 157.
+
+Overfull \hbox (2.31473pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 2.2.  COMPARATIVA DEL FUNCIONAMIENTO DE LAS HERRAMIENTAS \OT1/
+cmr/m/n/12 11
+ []
+
+[11 <./figures/main-figure0.pdf>]
+<img/chapter02/wolfram_complex_series.png, id=473, 1166.3575pt x 800.9925pt>
 File: img/chapter02/wolfram_complex_series.png Graphic file (type png)
 <use img/chapter02/wolfram_complex_series.png>
 Package pdftex.def Info: img/chapter02/wolfram_complex_series.png  used on inpu
-t line 119.
+t line 160.
 (pdftex.def)             Requested size: 370.28166pt x 254.28174pt.
-LaTeX Info: Redefining \. on input line 124.
-LaTeX Info: Redefining \% on input line 124.
- [10 <./img/chapter02/wolfram_trig_series.png> <./img/chapter02/wolfram_complex
-_series.png>])
+LaTeX Info: Redefining \. on input line 165.
+LaTeX Info: Redefining \% on input line 165.
+ [12 <./img/chapter02/wolfram_trig_series.png> <./img/chapter02/wolfram_complex
+_series.png>]
+Overfull \hbox (5.95143pt too wide) in paragraph at lines 181--181
+[]|[]\OT1/cmr/bx/sc/12 SOFTWARE[]| 
+ []
+
+
+Overfull \hbox (5.95143pt too wide) in paragraph at lines 185--185
+[]|[]\OT1/cmr/bx/sc/12 SOFTWARE[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
+[]|\OT1/cmr/m/n/12 Wolfram
+ []
+
+
+Underfull \hbox (badness 4229) in paragraph at lines 191--191
+[]|\OT1/cmr/m/n/12 Se trata de un potente motor
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
+\OT1/cmr/m/n/12 comercial de conocimiento
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
+\OT1/cmr/m/n/12 computacional para c^^Salculos
+ []
+
+
+Underfull \hbox (badness 1681) in paragraph at lines 191--191
+\OT1/cmr/m/n/12 matem^^Saticos y gr^^Saficos. Contiene
+ []
+
+
+Underfull \hbox (badness 4366) in paragraph at lines 191--191
+\OT1/cmr/m/n/12 (Trigonom^^Setrica y compleja) as^^S^^P
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
+\OT1/cmr/m/n/12 como las extensiones pares e
+ []
+
+
+Underfull \hbox (badness 4846) in paragraph at lines 191--191
+\OT1/cmr/m/n/12 la serie y obtener una gr^^Safica
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
+\OT1/cmr/m/n/12 anuales para
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
+\OT1/cmr/m/n/12 estudiantes, plan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--192
+[]|\OT1/cmr/m/n/12 Herramienta din^^Samica para
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--192
+\OT1/cmr/m/n/12 construcciones geom^^Setricas y
+ []
+
+
+Underfull \hbox (badness 4752) in paragraph at lines 192--192
+\OT1/cmr/m/n/12 serie o extensi^^Son trigonom^^Setrica
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--193
+[]|\OT1/cmr/m/n/12 Similar a Geogebra es una
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 193--193
+\OT1/cmr/m/n/12 calculadora gr^^Safica en l^^S^^Pnea para
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 193--193
+\OT1/cmr/m/n/12 modo podemos graficar cualquier
+ []
+
+
+Underfull \hbox (badness 4752) in paragraph at lines 193--193
+\OT1/cmr/m/n/12 serie o extensi^^Son trigonom^^Setrica
+ []
+
+
+Underfull \hbox (badness 2486) in paragraph at lines 194--194
+\OT1/cmr/m/n/12 para visualizaciones matem^^Saticas,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--194
+\OT1/cmr/m/n/12 serie ya sea trigonom^^Setrica o
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--194
+\OT1/cmr/m/n/12 exponencial y poder animar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--194
+\OT1/cmr/m/n/12 de infinitas maneras el como
+ []
+
+
+Underfull \hbox (badness 8094) in paragraph at lines 194--194
+\OT1/cmr/m/n/12 se aproxima la serie con sus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--194
+\OT1/cmr/m/n/12 coeficientes. Requiere hacer los
+ []
+
+
+Underfull \hbox (badness 3872) in paragraph at lines 194--194
+\OT1/cmr/m/n/12 c^^Salculos, armar la expresi^^Son de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--195
+\OT1/cmr/m/n/12 realizar matem^^Saticas simb^^Solicas,
+ []
+
+
+Underfull \hbox (badness 2452) in paragraph at lines 195--195
+\OT1/cmr/m/n/12 que incluye el c^^Salculo de series
+ []
+
+
+Underfull \hbox (badness 5711) in paragraph at lines 195--195
+\OT1/cmr/m/n/12 de Fourier. A menudo se usa
+ []
+
+
+Underfull \hbox (badness 2635) in paragraph at lines 195--195
+\OT1/cmr/m/n/12 en combinaci^^Son con librer^^S^^Pas de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--195
+\OT1/cmr/m/n/12 visualizaci^^Son como Matplotlib
+ []
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 195--195
+\OT1/cmr/m/n/12 para representar gr^^Saficamente los
+ []
+
+
+Underfull \hbox (badness 3977) in paragraph at lines 195--195
+\OT1/cmr/m/n/12 resultados, pero de nuevo, esta
+ []
+
+
+Underfull \hbox (badness 2573) in paragraph at lines 196--196
+[]|\OT1/cmr/m/n/12 Es un entorno de programaci^^Son
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\OT1/cmr/m/n/12 y visualizaci^^Son de datos, con
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\OT1/cmr/m/n/12 herramientas espec^^S^^Pficas para
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\OT1/cmr/m/n/12 series de Fourier, adem^^Sas de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\OT1/cmr/m/n/12 tener funciones para poder
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+[]|\OT1/cmr/m/n/12 Desde USD\TS1/cmr/m/n/12 $\OT1/cmr/m/n/12 99
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\OT1/cmr/m/n/12 (aprox.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\OT1/cmr/m/n/12 MXN\TS1/cmr/m/n/12 $\OT1/cmr/m/n/12 1627.82)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\OT1/cmr/m/n/12 anuales para
+ []
+
+LaTeX Info: Redefining \. on input line 198.
+LaTeX Info: Redefining \% on input line 198.
+
+Overfull \hbox (2.31473pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 2.2.  COMPARATIVA DEL FUNCIONAMIENTO DE LAS HERRAMIENTAS \OT1/
+cmr/m/n/12 13
+ []
+
+[13]
+LaTeX Info: Redefining \. on input line 198.
+LaTeX Info: Redefining \% on input line 198.
+ [14])
 LaTeX Info: Redefining \. on input line 127.
 LaTeX Info: Redefining \% on input line 127.
- [11]
+ [15]
 \openout2 = `chapters/chapter03/chapter03.aux'.
 
-
-(chapters/chapter03/chapter03.tex
+ (chapters/chapter03/chapter03.tex
 Cap\'{\i }tulo 3.
-[12
+[16
 
 
 
@@ -2021,10 +2046,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
 LaTeX Info: Redefining \. on input line 93.
 LaTeX Info: Redefining \% on input line 93.
-[13]
+[17]
 LaTeX Info: Redefining \. on input line 121.
 LaTeX Info: Redefining \% on input line 121.
- [14 <./figures/main-figure1.pdf>]
+ [18 <./figures/main-figure1.pdf>]
 Underfull \hbox (badness 1314) in paragraph at lines 126--127
 \OT1/cmr/m/n/12 de una cuerda puede obtenerse superponiendo modos vibratorios s
 imples
@@ -2038,28 +2063,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
 LaTeX Info: Redefining \. on input line 229.
 LaTeX Info: Redefining \% on input line 229.
-[15 <./figures/main-figure2.pdf>]
+[19 <./figures/main-figure2.pdf>]
 LaTeX Info: Redefining \. on input line 245.
 LaTeX Info: Redefining \% on input line 245.
- [16]
+ [20]
 ===== Image 'figures/main-figure3' is up-to-date. ======
 LaTeX Info: Redefining \. on input line 297.
 LaTeX Info: Redefining \% on input line 297.
-[17 <./figures/main-figure3.pdf>]
+[21 <./figures/main-figure3.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 338--339
 
  []
 
 LaTeX Info: Redefining \. on input line 339.
 LaTeX Info: Redefining \% on input line 339.
-[18]
+[22]
 Underfull \hbox (badness 10000) in paragraph at lines 347--348
 
  []
 
 LaTeX Info: Redefining \. on input line 362.
 LaTeX Info: Redefining \% on input line 362.
-[19]
+[23]
 ===== Image 'figures/main-figure4' is up-to-date. ======
 
 Overfull \hbox (13.32903pt too wide) in paragraph at lines 366--396
@@ -2074,7 +2099,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 405--407
 ===== Image 'figures/main-figure5' is up-to-date. ======
 LaTeX Info: Redefining \. on input line 471.
 LaTeX Info: Redefining \% on input line 471.
-[20 <./figures/main-figure4.pdf>]
+[24 <./figures/main-figure4.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 473--474
 
  []
@@ -2082,93 +2107,129 @@ Underfull \hbox (badness 10000) in paragraph at lines 473--474
 ===== Image 'figures/main-figure6' is up-to-date. ======
 ===== Image 'figures/main-figure7' is up-to-date. ======
 
-Overfull \hbox (8.0676pt too wide) in paragraph at lines 478--537
+Overfull \hbox (8.0676pt too wide) in paragraph at lines 479--540
 []$[]$   $[]$ 
  []
 
-LaTeX Info: Redefining \. on input line 547.
-LaTeX Info: Redefining \% on input line 547.
-[21 <./figures/main-figure5.pdf> <./figures/main-figure6.pdf> <./figures/main-f
+LaTeX Info: Redefining \. on input line 550.
+LaTeX Info: Redefining \% on input line 550.
+[25 <./figures/main-figure5.pdf> <./figures/main-figure6.pdf> <./figures/main-f
 igure7.pdf>]
 ===== Image 'figures/main-figure8' is up-to-date. ======
 ===== Image 'figures/main-figure9' is up-to-date. ======
 
-Overfull \hbox (8.93248pt too wide) in paragraph at lines 603--628
+Overfull \hbox (10.92795pt too wide) in paragraph at lines 606--631
 [][] 
  []
 
 ===== Image 'figures/main-figure10' is up-to-date. ======
 
-Overfull \hbox (33.6749pt too wide) in paragraph at lines 602--653
+Overfull \hbox (33.6749pt too wide) in paragraph at lines 605--656
 []$[]$   $[]$ 
  []
 
-LaTeX Info: Redefining \. on input line 664.
-LaTeX Info: Redefining \% on input line 664.
-[22 <./figures/main-figure8.pdf> <./figures/main-figure9.pdf> <./figures/main-f
+LaTeX Info: Redefining \. on input line 667.
+LaTeX Info: Redefining \% on input line 667.
+[26 <./figures/main-figure8.pdf> <./figures/main-figure9.pdf> <./figures/main-f
 igure10.pdf>]
 ===== Image 'figures/main-figure11' is up-to-date. ======
+
+Overfull \hbox (1.64024pt too wide) in paragraph at lines 673--697
+[][] 
+ []
+
 ===== Image 'figures/main-figure12' is up-to-date. ======
 
-Overfull \hbox (12.33533pt too wide) in paragraph at lines 669--724
+Overfull \hbox (1.64024pt too wide) in paragraph at lines 700--726
+[][] 
+ []
+
+
+Overfull \hbox (12.33533pt too wide) in paragraph at lines 672--727
 []$[]$   $[]$ 
  []
 
 ===== Image 'figures/main-figure13' is up-to-date. ======
-LaTeX Info: Redefining \. on input line 774.
-LaTeX Info: Redefining \% on input line 774.
-[23 <./figures/main-figure11.pdf> <./figures/main-figure12.pdf>]
+LaTeX Info: Redefining \. on input line 777.
+LaTeX Info: Redefining \% on input line 777.
+[27 <./figures/main-figure11.pdf> <./figures/main-figure12.pdf>]
 ===== Image 'figures/main-figure14' is up-to-date. ======
 ===== Image 'figures/main-figure15' is up-to-date. ======
 ===== Image 'figures/main-figure16' is up-to-date. ======
 
-Overfull \hbox (12.33533pt too wide) in paragraph at lines 836--936
+Overfull \hbox (12.33533pt too wide) in paragraph at lines 839--939
 []$[]$   $[]$ 
  []
 
-LaTeX Info: Redefining \. on input line 938.
-LaTeX Info: Redefining \% on input line 938.
-[24 <./figures/main-figure13.pdf> <./figures/main-figure14.pdf>]
+LaTeX Info: Redefining \. on input line 941.
+LaTeX Info: Redefining \% on input line 941.
+[28 <./figures/main-figure13.pdf> <./figures/main-figure14.pdf>]
 ===== Image 'figures/main-figure17' is up-to-date. ======
-LaTeX Info: Redefining \. on input line 982.
-LaTeX Info: Redefining \% on input line 982.
-[25 <./figures/main-figure15.pdf> <./figures/main-figure16.pdf> <./figures/main
+LaTeX Info: Redefining \. on input line 985.
+LaTeX Info: Redefining \% on input line 985.
+[29 <./figures/main-figure15.pdf> <./figures/main-figure16.pdf> <./figures/main
 -figure17.pdf>]
 ===== Image 'figures/main-figure18' is up-to-date. ======
 ===== Image 'figures/main-figure19' is up-to-date. ======
 
-Overfull \hbox (12.33533pt too wide) in paragraph at lines 984--1062
+Overfull \hbox (12.33533pt too wide) in paragraph at lines 987--1065
 []$[]$   $[]$ 
  []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1076.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1076.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1076.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1076.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1076.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1076.
+Underfull \hbox (badness 10000) in paragraph at lines 1079--1080
+[]\OT1/cmr/m/n/12 En general, se dice que el conjunto de funciones de valor rea
+l
+ []
 
 LaTeX Info: Redefining \. on input line 1080.
 LaTeX Info: Redefining \% on input line 1080.
-[26 <./figures/main-figure18.pdf> <./figures/main-figure19.pdf>]
-Overfull \hbox (12.10497pt too wide) detected at line 1095
+[30 <./figures/main-figure18.pdf> <./figures/main-figure19.pdf>]
+Underfull \hbox (badness 3780) in paragraph at lines 1087--1088
+[]\OT1/cmr/m/n/12 Ahora, consideremos que tenemos conjuntos de funciones senoid
+ales y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1104--1105
+[]\OT1/cmr/m/n/12 Estas relaciones demuestran que el conjunto de funciones
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1104--1105
+\OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; [] ![]t; [] \OT1/cmr/m/n/
+12 2\OML/cmm/m/it/12 ![]t; [] ; [] n![]t; [] ; [] ![]t; [] \OT1/cmr/m/n/12 2\OM
+L/cmm/m/it/12 ![]t; [] ; [] n![]t; []\OMS/cmsy/m/n/12 g$ \OT1/cmr/m/n/12 son
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1111.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1111.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1111.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1111.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1111.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1111.
+
+LaTeX Info: Redefining \. on input line 1117.
+LaTeX Info: Redefining \% on input line 1117.
+[31]
+Overfull \hbox (12.10497pt too wide) detected at line 1130
 [][][]\OML/cmm/m/it/12 a[] \OT1/cmr/m/n/12 = [] [][] \OML/cmm/m/it/12 f\OT1/cmr
 /m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr/m/n/12 ) \OML/cmm/m/it/12 dt;  a[] \OT1/cmr
 /m/n/12 = [] [][] \OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr
@@ -2178,52 +2239,37 @@ it/12 dt
  []
 
 
-Underfull \hbox (badness 1062) in paragraph at lines 1097--1099
+Underfull \hbox (badness 1062) in paragraph at lines 1132--1134
 []\OT1/cmr/m/n/12 La ecuaci^^Son [] describe c^^Somo una funci^^Son peri^^Sodic
 a arbitraria puede
  []
 
 ===== Image 'figures/main-figure20' is up-to-date. ======
-LaTeX Info: Redefining \. on input line 1146.
-LaTeX Info: Redefining \% on input line 1146.
-[27 <./figures/main-figure20.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1152--1154
+LaTeX Info: Redefining \. on input line 1181.
+LaTeX Info: Redefining \% on input line 1181.
+[32 <./figures/main-figure20.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1187--1189
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1177--1178
+Underfull \hbox (badness 10000) in paragraph at lines 1212--1213
 
  []
 
-LaTeX Info: Redefining \. on input line 1178.
-LaTeX Info: Redefining \% on input line 1178.
-[28]
+LaTeX Info: Redefining \. on input line 1213.
+LaTeX Info: Redefining \% on input line 1213.
+[33]
 ===== Image 'figures/main-figure21' is up-to-date. ======
-
-Overfull \hbox (4.3525pt too wide) in paragraph at lines 1200--1230
-[][] 
- []
-
-LaTeX Info: Redefining \. on input line 1237.
-LaTeX Info: Redefining \% on input line 1237.
-[29 <./figures/main-figure21.pdf>]
+LaTeX Info: Redefining \. on input line 1272.
+LaTeX Info: Redefining \% on input line 1272.
+[34 <./figures/main-figure21.pdf>]
 ===== Image 'figures/main-figure22' is up-to-date. ======
-
-Overfull \hbox (4.3525pt too wide) in paragraph at lines 1248--1283
-[][] 
- []
-
 ===== Image 'figures/main-figure23' is up-to-date. ======
-
-Overfull \hbox (4.3525pt too wide) in paragraph at lines 1302--1337
-[][] 
- []
-
-LaTeX Info: Redefining \. on input line 1341.
-LaTeX Info: Redefining \% on input line 1341.
-[30 <./figures/main-figure22.pdf>]
-Overfull \hbox (10.68004pt too wide) detected at line 1349
+LaTeX Info: Redefining \. on input line 1376.
+LaTeX Info: Redefining \% on input line 1376.
+[35 <./figures/main-figure22.pdf>]
+Overfull \hbox (10.68004pt too wide) detected at line 1384
 [][][]\OML/cmm/m/it/12 a[] \OT1/cmr/m/n/12 = [] [][] \OML/cmm/m/it/12 f\OT1/cmr
 /m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr/m/n/12 ) \OML/cmm/m/it/12 dt;  a[] \OT1/cmr
 /m/n/12 = [] [][] \OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr
@@ -2232,98 +2278,98 @@ Overfull \hbox (10.68004pt too wide) detected at line 1349
 it/12 dt
  []
 
-LaTeX Info: Redefining \. on input line 1374.
-LaTeX Info: Redefining \% on input line 1374.
-[31 <./figures/main-figure23.pdf>]
+LaTeX Info: Redefining \. on input line 1409.
+LaTeX Info: Redefining \% on input line 1409.
+[36 <./figures/main-figure23.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1394.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1394.
+(hyperref)                removing `math shift' on input line 1429.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1394.
+(hyperref)                removing `math shift' on input line 1429.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1394.
+(hyperref)                removing `math shift' on input line 1429.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1394.
+(hyperref)                removing `math shift' on input line 1429.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1394.
+(hyperref)                removing `math shift' on input line 1429.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1407--1408
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1429.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1442--1443
 
  []
 
-LaTeX Info: Redefining \. on input line 1409.
-LaTeX Info: Redefining \% on input line 1409.
-[32]
+LaTeX Info: Redefining \. on input line 1444.
+LaTeX Info: Redefining \% on input line 1444.
+[37]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1415.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1415.
+(hyperref)                removing `math shift' on input line 1450.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1415.
+(hyperref)                removing `math shift' on input line 1450.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1415.
+(hyperref)                removing `math shift' on input line 1450.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1450.
 
 ===== Image 'figures/main-figure24' is up-to-date. ======
-LaTeX Info: Redefining \. on input line 1478.
-LaTeX Info: Redefining \% on input line 1478.
-[33]
-Underfull \hbox (badness 1616) in paragraph at lines 1483--1484
+LaTeX Info: Redefining \. on input line 1515.
+LaTeX Info: Redefining \% on input line 1515.
+[38]
+Underfull \hbox (badness 1616) in paragraph at lines 1520--1521
 \OT1/cmr/m/n/12 Grupos de trabajo en distintas ubicaciones pueden interactuar c
 on
  []
 
-LaTeX Info: Redefining \. on input line 1486.
-LaTeX Info: Redefining \% on input line 1486.
-[34 <./figures/main-figure24.pdf>]
-Underfull \hbox (badness 1024) in paragraph at lines 1489--1490
+LaTeX Info: Redefining \. on input line 1523.
+LaTeX Info: Redefining \% on input line 1523.
+[39 <./figures/main-figure24.pdf>]
+Underfull \hbox (badness 1024) in paragraph at lines 1526--1527
 \OT1/cmr/m/n/12 nuevos usuarios de manera flexible, sin necesidad de infraestru
 ctura
  []
 
-<img/chapter03/ui-web-arquitectura.png, id=1110, 458.71375pt x 163.61125pt>
+<img/chapter03/ui-web-arquitectura.png, id=1159, 458.71375pt x 163.61125pt>
 File: img/chapter03/ui-web-arquitectura.png Graphic file (type png)
 <use img/chapter03/ui-web-arquitectura.png>
 Package pdftex.def Info: img/chapter03/ui-web-arquitectura.png  used on input l
-ine 1495.
+ine 1532.
 (pdftex.def)             Requested size: 370.28166pt x 132.075pt.
-LaTeX Info: Redefining \. on input line 1505.
-LaTeX Info: Redefining \% on input line 1505.
-[35 <./img/chapter03/ui-web-arquitectura.png>]
-LaTeX Info: Redefining \. on input line 1534.
-LaTeX Info: Redefining \% on input line 1534.
- [36]
-LaTeX Info: Redefining \. on input line 1552.
-LaTeX Info: Redefining \% on input line 1552.
- [37])
+LaTeX Info: Redefining \. on input line 1542.
+LaTeX Info: Redefining \% on input line 1542.
+[40 <./img/chapter03/ui-web-arquitectura.png>]
+LaTeX Info: Redefining \. on input line 1559.
+LaTeX Info: Redefining \% on input line 1559.
+ [41]
+LaTeX Info: Redefining \. on input line 1580.
+LaTeX Info: Redefining \% on input line 1580.
+ [42])
 LaTeX Info: Redefining \. on input line 128.
 LaTeX Info: Redefining \% on input line 128.
- [38]
+ [43]
 \openout2 = `chapters/chapter04/chapter04.aux'.
 
 
 (chapters/chapter04/chapter04.tex
 Cap\'{\i }tulo 4.
-<img/chapter04/prototipo.png, id=1134, 295.1025pt x 316.18124pt>
+<img/chapter04/prototipo.png, id=1187, 295.1025pt x 316.18124pt>
 File: img/chapter04/prototipo.png Graphic file (type png)
 <use img/chapter04/prototipo.png>
 Package pdftex.def Info: img/chapter04/prototipo.png  used on input line 9.
@@ -2344,7 +2390,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
  []
 
-[39
+[44
 
 
 
@@ -2406,7 +2452,7 @@ Underfull \hbox (badness 5832) in paragraph at lines 33--33
 
 LaTeX Info: Redefining \. on input line 45.
 LaTeX Info: Redefining \% on input line 45.
-[40]
+[45]
 Underfull \hbox (badness 10000) in paragraph at lines 56--56
 []|\OT1/cmr/bx/sc/12 Prioridad de
  []
@@ -2443,7 +2489,7 @@ Underfull \hbox (badness 1436) in paragraph at lines 87--88
 
 LaTeX Info: Redefining \. on input line 92.
 LaTeX Info: Redefining \% on input line 92.
-[41]
+[46]
 Underfull \hbox (badness 10000) in paragraph at lines 102--102
 []|\OT1/cmr/bx/sc/12 Prioridad de
  []
@@ -2460,7 +2506,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--125
 
 LaTeX Info: Redefining \. on input line 138.
 LaTeX Info: Redefining \% on input line 138.
-[42]
+[47]
 Underfull \hbox (badness 10000) in paragraph at lines 147--147
 []|\OT1/cmr/bx/sc/12 Prioridad de
  []
@@ -2477,7 +2523,7 @@ Underfull \hbox (badness 1460) in paragraph at lines 174--175
 
 LaTeX Info: Redefining \. on input line 183.
 LaTeX Info: Redefining \% on input line 183.
-[43]
+[48]
 Underfull \hbox (badness 10000) in paragraph at lines 193--193
 []|\OT1/cmr/bx/sc/12 Prioridad de
  []
@@ -2509,7 +2555,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 222--223
 
 LaTeX Info: Redefining \. on input line 229.
 LaTeX Info: Redefining \% on input line 229.
-[44]
+[49]
 Underfull \hbox (badness 10000) in paragraph at lines 251--251
 []|\OT1/cmr/bx/sc/12 Rendimiento y
  []
@@ -2596,13 +2642,13 @@ Overfull \hbox (40.56445pt too wide) in alignment at lines 236--272
 
 LaTeX Info: Redefining \. on input line 272.
 LaTeX Info: Redefining \% on input line 272.
-[45])
+[50])
 LaTeX Info: Redefining \. on input line 129.
 LaTeX Info: Redefining \% on input line 129.
- [46]
+ [51]
 LaTeX Info: Redefining \. on input line 129.
 LaTeX Info: Redefining \% on input line 129.
- [47]
+ [52]
 \openout2 = `chapters/chapter05/chapter05.aux'.
 
  (chapters/chapter05/chapter05.tex
@@ -2611,7 +2657,7 @@ Cap\'{\i }tulo 5.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\newline' on input line 1.
 
-) [48
+) [53
 
 
 
@@ -2621,7 +2667,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
  (appendages/appendixA/appendixA.tex
 Ap\'{e}ndice A.
-[49
+[54
 
 
 
@@ -2629,16 +2675,19 @@ Ap\'{e}ndice A.
 ]
 LaTeX Info: Redefining \. on input line 113.
 LaTeX Info: Redefining \% on input line 113.
+ [55])
+LaTeX Info: Redefining \. on input line 132.
+LaTeX Info: Redefining \% on input line 132.
 
 Overfull \hbox (33.15697pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/12 50 \OT1/cmr/m/sl/12 AP[]ENDICE A.  C[]ALCULO DE LOS COEFICIENTE
+\OT1/cmr/m/n/12 56 \OT1/cmr/m/sl/12 AP[]ENDICE A.  C[]ALCULO DE LOS COEFICIENTE
 S DE LA SERIE DE FOURIER
  []
 
-[50])
-LaTeX Info: Redefining \. on input line 132.
-LaTeX Info: Redefining \% on input line 132.
- [51]
+[56]
+\openout2 = `appendages/appendixB/appendixB.aux'.
+
+ (appendages/appendixB/appendixB.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 137--137
 []\OT1/cmr/m/n/12 Wolfram | Alpha: Computational Intelligence. \OT1/cmr/m/it/12
  Fourier
@@ -2650,7 +2699,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 137--137
 /cmr/m/n/12 . []$\OT1/cmtt/m/n/12 https : / /
  []
 
-[52
+[57
+
+
+
 
 
 
@@ -2663,16 +2715,19 @@ Underfull \hbox (badness 8151) in paragraph at lines 137--137
 
 Missing character: There is no Ã in font cmtt12!
 Missing character: There is no ­ in font cmtt12!
+LaTeX Info: Redefining \. on input line 137.
+LaTeX Info: Redefining \% on input line 137.
+[58]
 LaTeX Info: Redefining \. on input line 138.
 LaTeX Info: Redefining \% on input line 138.
-[53] (main.aux
+ [59] (main.aux
 LaTeX Info: Redefining \sptext on input line 14.
 LaTeX Info: Redefining \. on input line 14.
 LaTeX Info: Redefining \% on input line 14.
  (chapters/chapter01/chapter01.aux)
 (chapters/chapter02/chapter02.aux) (chapters/chapter03/chapter03.aux)
 (chapters/chapter04/chapter04.aux) (chapters/chapter05/chapter05.aux)
-(appendages/appendixA/appendixA.aux))
+(appendages/appendixA/appendixA.aux) (appendages/appendixB/appendixB.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
@@ -2690,13 +2745,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48834 strings out of 476305
- 1076035 string characters out of 5791965
- 2084727 words of memory out of 5000000
- 69862 multiletter control sequences out of 15000+600000
- 570533 words of font info for 82 fonts, out of 8000000 for 9000
+ 48944 strings out of 476305
+ 1079731 string characters out of 5791965
+ 2086322 words of memory out of 5000000
+ 69930 multiletter control sequences out of 15000+600000
+ 568544 words of font info for 73 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 101i,17n,117p,1571b,3259s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,17n,117p,1702b,2369s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/sebastian/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcti
 1200.pk> </home/sebastian/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi60
 0/tcrm1200.pk></home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfon
@@ -2718,9 +2773,9 @@ install/fonts/type1/public/amsfonts/cm/cmsy6.pfb></home/sebastian/.miktex/texmf
 s/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/sebastian/.miktex/tex
 mfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb></home/sebastian/.miktex/
 texmfs/install/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (63 pages, 1365221 bytes).
+Output written on main.pdf (69 pages, 1508285 bytes).
 PDF statistics:
- 1655 PDF objects out of 1728 (max. 8388607)
- 271 named destinations out of 1000 (max. 500000)
- 912 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1755 PDF objects out of 2073 (max. 8388607)
+ 303 named destinations out of 1000 (max. 500000)
+ 994 words of extra memory for PDF output out of 10000 (max. 10000000)
 
