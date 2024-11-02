@@ -2388,96 +2388,95 @@
     <bcf:citekey order="11" intorder="1">symbolabDocs</bcf:citekey>
     <bcf:citekey order="12" intorder="1">symbolabDocs</bcf:citekey>
     <bcf:citekey order="13" intorder="1">symbolabDocs</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">amazonPython</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">wolfram2024</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">GeoGebra2024</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">Desmos2024</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">Manim2024</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">Matplotlib-sympy2024</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">MathWorks2024</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">historia-alambert-fourier-euler</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">weinbergerEDP</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">unal_52162</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">demostracion-onda</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">demostracion-onda</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">demostracion-onda</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">demostracion-onda</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">bernoulli_Mechanics</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">bernoulli_Mechanics</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">springer1999Physics</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">springer1999Physics</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">springer1999Physics</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">almira2017fourier</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">demostracion-calor</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">demostracion-calor-feldman</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">historia-alambert-fourier-euler</bcf:citekey>
-    <bcf:citekey order="37" intorder="1">historia-alambert-fourier-euler</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">historia-alambert-fourier-euler</bcf:citekey>
-    <bcf:citekey order="39" intorder="1">fourierTolstov</bcf:citekey>
-    <bcf:citekey order="40" intorder="1">fourierTolstov</bcf:citekey>
-    <bcf:citekey order="41" intorder="1">fourierHsu</bcf:citekey>
-    <bcf:citekey order="42" intorder="1">fourierHsu</bcf:citekey>
-    <bcf:citekey order="43" intorder="1">fourierCinvestav</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">MathWorks2024</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">MathWorks2024</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">MathWorks2024</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">matlabIntegral</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">amazonPython</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">wolfram2024</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">GeoGebra2024</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">Desmos2024</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">Manim2024</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">Matplotlib-sympy2024</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">MathWorks2024</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">historia-alambert-fourier-euler</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">weinbergerEDP</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">unal_52162</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">demostracion-onda</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">demostracion-onda</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">demostracion-onda</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">demostracion-onda</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">bernoulli_Mechanics</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">bernoulli_Mechanics</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">springer1999Physics</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">springer1999Physics</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">springer1999Physics</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">almira2017fourier</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">demostracion-calor</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">demostracion-calor-feldman</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">historia-alambert-fourier-euler</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">historia-alambert-fourier-euler</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">historia-alambert-fourier-euler</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">fourierTolstov</bcf:citekey>
     <bcf:citekey order="44" intorder="1">fourierTolstov</bcf:citekey>
-    <bcf:citekey order="45" intorder="1">fourierTolstov</bcf:citekey>
-    <bcf:citekey order="46" intorder="1">fourierCinvestav</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">fourierHsu</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">fourierHsu</bcf:citekey>
     <bcf:citekey order="47" intorder="1">fourierCinvestav</bcf:citekey>
-    <bcf:citekey order="48" intorder="1">fourierCinvestav</bcf:citekey>
-    <bcf:citekey order="49" intorder="1">fourierCinvestav</bcf:citekey>
-    <bcf:citekey order="50" intorder="1">armonicosOpenStax</bcf:citekey>
-    <bcf:citekey order="51" intorder="1">matesAvanzadasZill</bcf:citekey>
-    <bcf:citekey order="52" intorder="1">matesAvanzadasZill</bcf:citekey>
-    <bcf:citekey order="53" intorder="1">matesAvanzadasZill</bcf:citekey>
-    <bcf:citekey order="54" intorder="1">fourierTolstov</bcf:citekey>
-    <bcf:citekey order="55" intorder="1">fourierTolstov</bcf:citekey>
-    <bcf:citekey order="56" intorder="1">fourierTolstov</bcf:citekey>
-    <bcf:citekey order="57" intorder="1">algebraLinealPoole</bcf:citekey>
-    <bcf:citekey order="58" intorder="1">matesAvanzadasZill</bcf:citekey>
-    <bcf:citekey order="59" intorder="1">matesAvanzadasZill</bcf:citekey>
-    <bcf:citekey order="60" intorder="1">fourierHsu</bcf:citekey>
-    <bcf:citekey order="61" intorder="1">fourierHsu</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">fourierTolstov</bcf:citekey>
+    <bcf:citekey order="49" intorder="1">fourierTolstov</bcf:citekey>
+    <bcf:citekey order="50" intorder="1">fourierCinvestav</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">fourierCinvestav</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">fourierCinvestav</bcf:citekey>
+    <bcf:citekey order="53" intorder="1">fourierCinvestav</bcf:citekey>
+    <bcf:citekey order="54" intorder="1">armonicosOpenStax</bcf:citekey>
+    <bcf:citekey order="55" intorder="1">matesAvanzadasZill</bcf:citekey>
+    <bcf:citekey order="56" intorder="1">matesAvanzadasZill</bcf:citekey>
+    <bcf:citekey order="57" intorder="1">matesAvanzadasZill</bcf:citekey>
+    <bcf:citekey order="58" intorder="1">fourierTolstov</bcf:citekey>
+    <bcf:citekey order="59" intorder="1">fourierTolstov</bcf:citekey>
+    <bcf:citekey order="60" intorder="1">fourierTolstov</bcf:citekey>
+    <bcf:citekey order="61" intorder="1">algebraLinealPoole</bcf:citekey>
     <bcf:citekey order="62" intorder="1">matesAvanzadasZill</bcf:citekey>
     <bcf:citekey order="63" intorder="1">matesAvanzadasZill</bcf:citekey>
-    <bcf:citekey order="64" intorder="1">matesAvanzadasZill</bcf:citekey>
-    <bcf:citekey order="65" intorder="1">matesAvanzadasZill</bcf:citekey>
-    <bcf:citekey order="66" intorder="1">fourierCruzFierro</bcf:citekey>
-    <bcf:citekey order="67" intorder="1">fourierCruzFierro</bcf:citekey>
-    <bcf:citekey order="68" intorder="1">fourierCruzFierro</bcf:citekey>
-    <bcf:citekey order="69" intorder="1">fourierCruzFierro</bcf:citekey>
-    <bcf:citekey order="70" intorder="1">youtubeComplexFourier</bcf:citekey>
-    <bcf:citekey order="71" intorder="1">matesAvanzadasZill</bcf:citekey>
-    <bcf:citekey order="72" intorder="1">fourierHsu</bcf:citekey>
-    <bcf:citekey order="73" intorder="1">fourierCinvestav</bcf:citekey>
-    <bcf:citekey order="74" intorder="1">fourierCarrillo</bcf:citekey>
-    <bcf:citekey order="75" intorder="1">apliacionWebAmazon</bcf:citekey>
-    <bcf:citekey order="76" intorder="1">apliacionWebAmazon</bcf:citekey>
-    <bcf:citekey order="77" intorder="1">uqbar-wiki-web</bcf:citekey>
-    <bcf:citekey order="78" intorder="1">uqbar-wiki-web</bcf:citekey>
-    <bcf:citekey order="79" intorder="1">HTMLMDN</bcf:citekey>
-    <bcf:citekey order="80" intorder="1">CanvasHTMLW3S</bcf:citekey>
-    <bcf:citekey order="81" intorder="1">interfazAlbornoz</bcf:citekey>
-    <bcf:citekey order="82" intorder="1">MetodologíasDeDesarrollo2015</bcf:citekey>
-    <bcf:citekey order="83" intorder="1">MetodologíasDeDesarrollo2015</bcf:citekey>
-    <bcf:citekey order="84" intorder="1">MetodologíasDeDesarrollo2015</bcf:citekey>
-  </bcf:section>
-  <!-- SORTING TEMPLATES -->
-  <bcf:sortingtemplate name="none">
-    <bcf:sort order="1">
-      <bcf:sortitem order="1">citeorder</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="2">
-      <bcf:sortitem order="1">intciteorder</bcf:sortitem>
-    </bcf:sort>
-  </bcf:sortingtemplate>
-  <!-- DATALISTS -->
-  <bcf:datalist section="0"
-                name="none/global//global/global/global"
-                type="entry"
-                sortingtemplatename="none"
-                sortingnamekeytemplatename="global"
-                labelprefix=""
-                uniquenametemplatename="global"
-                labelalphanametemplatename="global"
-                namehashtemplatename="global">
-  </bcf:datalist>
-</bcf:controlfile>
+    <bcf:citekey order="64" intorder="1">fourierHsu</bcf:citekey>
+    <bcf:citekey order="65" intorder="1">fourierHsu</bcf:citekey>
+    <bcf:citekey order="66" intorder="1">matesAvanzadasZill</bcf:citekey>
+    <bcf:citekey order="67" intorder="1">matesAvanzadasZill</bcf:citekey>
+    <bcf:citekey order="68" intorder="1">matesAvanzadasZill</bcf:citekey>
+    <bcf:citekey order="69" intorder="1">matesAvanzadasZill</bcf:citekey>
+    <bcf:citekey order="70" intorder="1">fourierCruzFierro</bcf:citekey>
+    <bcf:citekey order="71" intorder="1">fourierCruzFierro</bcf:citekey>
+    <bcf:citekey order="72" intorder="1">fourierCruzFierro</bcf:citekey>
+    <bcf:citekey order="73" intorder="1">fourierCruzFierro</bcf:citekey>
+    <bcf:citekey order="74" intorder="1">youtubeComplexFourier</bcf:citekey>
+    <bcf:citekey order="75" intorder="1">matesAvanzadasZill</bcf:citekey>
+    <bcf:citekey order="76" intorder="1">fourierHsu</bcf:citekey>
+    <bcf:citekey order="77" intorder="1">fourierCinvestav</bcf:citekey>
+    <bcf:citekey order="78" intorder="1">fourierCarrillo</bcf:citekey>
+    <bcf:citekey order="79" intorder="1">tesisHerramientasMatematicasAeljandroJimenez</bcf:citekey>
+    <bcf:citekey order="80" intorder="1">tesisHerramientasMatematicasAeljandroJimenez</bcf:citekey>
+    <bcf:citekey order="81" intorder="1">tesisHerramientasMatematicasAeljandroJimenez</bcf:citekey>
+    <bcf:citekey order="82" intorder="1">apliacionWebAmazon</bcf:citekey>
+    <bcf:citekey order="83" intorder="1">apliacionWebAmazon</bcf:citekey>
+    <bcf:citekey order="84" intorder="1">uqbar-wiki-web</bcf:citekey>
+    <bcf:citekey order="85" intorder="1">uqbar-wiki-web</bcf:citekey>
+    <bcf:citekey order="86" intorder="1">HTMLMDN</bcf:citekey>
+    <bcf:citekey order="87" intorder="1">CanvasHTMLW3S</bcf:citekey>
+    <bcf:citekey order="88" intorder="1">CSSMDN</bcf:citekey>
+    <bcf:citekey order="89" intorder="1">JavascriptMDN</bcf:citekey>
+    <bcf:citekey order="90" intorder="1">NodeJSKinsta</bcf:citekey>
+    <bcf:citekey order="91" intorder="1">NodeJSKinsta</bcf:citekey>
+    <bcf:citekey order="92" intorder="1">NodeJSKinsta</bcf:citekey>
+    <bcf:citekey order="93" intorder="1">NodeJSKinsta</bcf:citekey>
+    <bcf:citekey order="94" intorder="1">MaximaSourgeforce</bcf:citekey>
+    <bcf:citekey order="95" intorder="1">MaximaSourgeforce</bcf:citekey>
+    <bcf:citekey order="96" intorder="1">TypescriptDOCS</bcf:citekey>
+    <bcf:citekey order="97" intorder="1">TailwindCSS</bcf:citekey>
+    <bcf:citekey order="98" intorder="1">APIDazzet</bcf:citekey>
+    <bcf:citekey order="99" intorder="1">APIDazzet</bcf:citekey>
+    <bcf:citekey order="100" intorder="1">APIDazzet</bcf:citekey>
+    <bcf:citekey order="101" intorder="1">APIDazzet</bcf:citekey>
+    <bcf:citekey order="102" intorder="1">HTTPEditorialEtece</bcf:citekey>
+    <bcf:citekey order="103" intorder="1">APIDazzet</bcf:citekey>
+    <bcf:citekey order="104" intorder="1">interfazAlbornoz</bcf:citekey>
+    <bcf:citekey ord

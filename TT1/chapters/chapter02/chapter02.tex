@@ -42,8 +42,23 @@ Symbolab es una calculadora digital que ayuda a resolver problemas matemáticos,
 \end{figure}
 Symbolab se centra en la enseñanza de procedimientos matemáticos mediante explicaciones detalladas. Su interfaz es especialmente útil para estudiantes, ya que presenta guías paso a paso para temas como derivadas, integrales y ecuaciones algebraicas complejas, lo cual es ideal para el aprendizaje autodidacta. Este cuenta con una función para resolver series de Fourier en su forma trigonométrica denominada \texttt{fourier series (f), [-L, L]} ~\cite{symbolabDocs} en donde \texttt{f} es una función definida en el intervalo de \texttt{[-L, L]}. A pesar de contar con funciones para definir funciones matemáticas a trozos y funciones para hacer gráficas, no es posible unificarlas en la misma aplicación, ademas de no contar con funciones para otras series de Fourier como extensiones de medio rango o exponencial compleja, pero, al igual que en Wolfram Alpha, se pueden calcular individualmente los coeficientes con la función \texttt{integral from a to b of x}~\cite{symbolabDocs}.
 
-\subsection{Matlab}
-Python es un lenguaje de programación ampliamente utilizado en las aplicaciones web, el desarrollo de software, la ciencia de datos y el machine learning (ML). Los desarrolladores utilizan Python porque es eficiente y fácil de aprender, además de que se puede ejecutar en muchas plataformas
+\subsection{MATLAB} MATLAB es un entorno de cálculo numérico y simbólico ampliamente utilizado en ingeniería y matemáticas para el análisis de datos, el desarrollo de algoritmos y la visualización gráfica ~\cite{MathWorks2024}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{img/chapter02/logo_matlab.png}
+	\caption[Logotipo de Matlab.]{Logotipo de Matlab. \textit{Fuente: ~\cite{MathWorks2024}}}
+	\label{fig:logo-matlab}  % Etiqueta para la figura
+\end{figure}
+
+Aunque MATLAB 
+
+\begin{verbatim} fourier(f, t, n) symsum(ansin(nt) + bncos(nt), n, 1, N) coeffs(f, 'Fourier') \end{verbatim}
+
+Estas funciones permiten calcular tanto la serie trigonométrica como los coeficientes de Fourier para funciones definidas en un intervalo periódico. Además, MATLAB ofrece flexibilidad para trabajar con series de Fourier de periodo distinto a $2\pi$ mediante integración simbólica, usando la función \texttt{int} ~\cite{matlabIntegral}:
+
+\begin{verbatim} int(f, t, a, b) \end{verbatim}
+
+La función \texttt{fourier} calcula la serie compleja de Fourier, y \texttt{symsum} permite construir series personalizadas usando sumas simbólicas. Para el análisis y visualización de Fourier de señales, el paquete de procesamiento de señales en MATLAB también ofrece herramientas avanzadas como la Transformada Rápida de Fourier (FFT) para el análisis de señales discretas. A diferencia de Wolfram Alpha o Symbolab, MATLAB permite un control detallado sobre la visualización gráfica, facilitando el ajuste de parámetros y detalles en los gráficos.
 
 \subsection{Maple}
 Python es un lenguaje de programación ampliamente utilizado en las aplicaciones web, el desarrollo de software, la ciencia de datos y el machine learning (ML). Los desarrolladores utilizan Python porque es eficiente y fácil de aprender, además de que se puede ejecutar en muchas plataformas
