@@ -1,37 +1,81 @@
-%
-%\chapter{Simulator}\label{app:Simulator}
-%
-%\begin{lstlisting}[style=Matlab-editor]
-%	% Numero de terminos en la serie de Fourier
-%	N = 10; % Puedes modificar N para mejorar la aproximacion
-%	
-%	% Vector de tiempo de -pi a pi
-%	t = linspace(-pi, pi, 1000);
-%	
-%	% Funcion original x(t) = t
-%	x_original = t;
-%	
-%	% Inicializacion de la aproximacion de la serie de Fourier
-%	x_aprox = zeros(size(t));
-%	
-%	% Calculo de la serie de Fourier
-%	for n = 1:N
-%	bn = (2 / n) * (-1)^(n + 1);
-%	x_aprox = x_aprox + bn * sin(n * t);
-%	end
-%	
-%	% Grafica de la funcion original y su aproximacion
-%	figure;
-%	plot(t, x_original, 'k', 'LineWidth', 1.5); % Funcion original en negro
-%	hold on;
-%	plot(t, x_aprox, 'r', 'LineWidth', 1.5); % Aproximacion en rojo
-%	legend('Funcion original x(t)', ['Aproximacion con N = ', num2str(N), ' terminos']);
-%	xlabel('t');
-%	ylabel('x(t)');
-%	title('Serie de Fourier de x(t) = t');
-%	grid on;
-%	hold off;
-%	
-%\end{lstlisting}
-%	
-%\end{document}
+\chapter{Códigos}\label{app2:Estado-del-arte-codes}
+
+\section{Código en Matlab para graficar la serie trigonométrica}\label{app2:trig-code-matlab}
+\begin{longlisting}
+	\begin{minted}[linenos, breaklines]{matlab}
+		% Número de términos en la serie de Fourier
+		N = 10; % Puedes modificar N para mejorar la aproximación
+		
+		% Vector de tiempo de -pi a pi
+		t = linspace(-pi, pi, 1000);
+		
+		% Función original x(t) = t
+		x_original = t;
+		
+		% Inicialización de la aproximación de la serie de Fourier
+		x_aprox = zeros(size(t));
+		
+		% Cálculo de la serie de Fourier en forma trigonométrica
+		for n = 1:N
+		bn = (2 * (-1)^(n+1)) / n; % Coeficientes de seno
+		x_aprox = x_aprox + bn * sin(n * t);
+		end
+		
+		% Gráfica de la función original y su aproximación
+		figure;
+		plot(t, x_original, 'k', 'LineWidth', 1.5); % Función original en negro
+		hold on;
+		plot(t, x_aprox, 'b', 'LineWidth', 1.5); % Aproximación en azul
+		legend('Función original x(t)', ['Aproximación (Forma Trigonométrica) con N = ', num2str(N), ' términos']);
+		xlabel('t');
+		ylabel('x(t)');
+		title('Serie de Fourier (Forma Trigonométrica) de x(t) = t');
+		grid on;
+		hold off;
+		
+	\end{minted}
+	\caption{Código en matlab para calcular \ref{app1:trig-coeff}}
+\end{longlisting}
+
+\section{Código en Matlab para graficar la serie compleja}\label{app2:complex-code-matlab}
+\begin{longlisting}
+	\begin{minted}[linenos, breaklines]{matlab}
+		% Número de términos positivos y negativos en la serie de Fourier
+		N = 10; % Puedes modificar N para mejorar la aproximación
+		
+		% Vector de tiempo de -pi a pi
+		t = linspace(-pi, pi, 1000);
+		
+		% Función original x(t) = t
+		x_original = t;
+		
+		% Inicialización de la aproximación de la serie de Fourier
+		x_aprox = zeros(size(t));
+		
+		% Cálculo de la serie de Fourier en forma exponencial compleja
+		for n = -N:N
+		if n == 0
+		continue; % Saltar n = 0 para evitar división por cero
+		end
+		cn = (1i / n) * (-1)^n;
+		x_aprox = x_aprox + cn * exp(1i * n * t);
+		end
+		
+		% Tomar la parte real de la aproximación (la función original es real)
+		x_aprox_real = real(x_aprox);
+		
+		% Gráfica de la función original y su aproximación
+		figure;
+		plot(t, x_original, 'k', 'LineWidth', 1.5); % Función original en negro
+		hold on;
+		plot(t, x_aprox_real, 'b', 'LineWidth', 1.5); % Aproximación en azul
+		legend('Función original x(t)', ['Aproximación (Forma Exponencial) con N = ', num2str(N), ' términos']);
+		xlabel('t');
+		ylabel('x(t)');
+		title('Serie de Fourier (Forma Exponencial Compleja) de x(t) = t');
+		grid on;
+		hold off;
+		
+	\end{minted}
+	\caption{Ejemplo de código JavaScript.}
+\end{longlisting}

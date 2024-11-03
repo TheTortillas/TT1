@@ -1,0 +1,101 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{Documento Técnico}{\es@scroman {iii}}{chapter*.1}%
+\contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Motivación}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Planteamiento del Problema}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Justificación}{2}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Solución Propuesta}{3}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Objetivos}{4}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Objetivo General}{4}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Objetivos Específicos}{4}{subsection.1.5.2}%
+\contentsline {section}{\numberline {1.6}Metodología de la Investigación}{4}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Estructura del documento técnico}{5}{section.1.7}%
+\contentsline {chapter}{\numberline {2}Estado del Arte}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Herramientas y Tecnologías Actuales}{7}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}WolfarmAlpha}{8}{subsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1.1}Prueba Wolfram Alpha}{9}{subsubsection.2.1.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Symbolab}{10}{subsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.2.1}Prueba Symbolab}{11}{subsubsection.2.1.2.1}%
+\contentsline {subsection}{\numberline {2.1.3}MATLAB}{11}{subsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.3.1}Prueba Matlab}{12}{subsubsection.2.1.3.1}%
+\contentsline {subsection}{\numberline {2.1.4}Maple}{13}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Maxima}{13}{subsection.2.1.5}%
+\contentsline {subsection}{\numberline {2.1.6}Geogebra / Desmos}{13}{subsection.2.1.6}%
+\contentsline {subsection}{\numberline {2.1.7}Python}{13}{subsection.2.1.7}%
+\contentsline {subsubsection}{\numberline {2.1.7.1}Sympy / Matplotlib}{14}{subsubsection.2.1.7.1}%
+\contentsline {subsubsection}{\numberline {2.1.7.2}Manim}{14}{subsubsection.2.1.7.2}%
+\contentsline {section}{\numberline {2.2}Comparativa del Funcionamiento de las Herramientas}{14}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Trabajos y Proyectos Relacionados}{16}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Marco Teórico}{17}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Origen e Historia}{17}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}El problema de la cuerda oscilante}{17}{subsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.1}D’Alambert y Euler}{18}{subsubsection.3.1.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.2}Bernoulli}{20}{subsubsection.3.1.1.2}%
+\contentsline {subsection}{\numberline {3.1.2}La ecuación de calor}{21}{subsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.1}Fourier}{21}{subsubsection.3.1.2.1}%
+\contentsline {section}{\numberline {3.2}Series de Fourier}{24}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Funciones Periódicas}{24}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Frecuencia}{26}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Armónicos}{28}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Funciones Pares e Impares}{28}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Funciones suaves y funciones suaves a trozos}{30}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Funciones Ortogonales}{31}{subsection.3.2.6}%
+\contentsline {subsubsection}{\numberline {3.2.6.1}Ortogonalidad del seno y del coseno}{32}{subsubsection.3.2.6.1}%
+\contentsline {subsection}{\numberline {3.2.7}Serie Trigonométrica de Fourier}{32}{subsection.3.2.7}%
+\contentsline {subsubsection}{\numberline {3.2.7.1}Series de Fourier de Período $T$ o de $-p$ a $p$}{32}{subsubsection.3.2.7.1}%
+\contentsline {subsubsection}{\numberline {3.2.7.2}Criterios para funciones pares e impares}{34}{subsubsection.3.2.7.2}%
+\contentsline {subsection}{\numberline {3.2.8}Extensiones de Medio Intervalo}{35}{subsection.3.2.8}%
+\contentsline {subsubsection}{\numberline {3.2.8.1}Extensión Par (Serie de Cosenos)}{35}{subsubsection.3.2.8.1}%
+\contentsline {subsubsection}{\numberline {3.2.8.2}Extensión Impar (Serie de Senos)}{36}{subsubsection.3.2.8.2}%
+\contentsline {subsubsection}{\numberline {3.2.8.3}Extensión Periódica}{36}{subsubsection.3.2.8.3}%
+\contentsline {subsection}{\numberline {3.2.9}Serie Compleja de Fourier}{37}{subsection.3.2.9}%
+\contentsline {subsubsection}{\numberline {3.2.9.1}Serie Compleja de Fourier de Período $T$ o de $-p$ a $p$}{38}{subsubsection.3.2.9.1}%
+\contentsline {subsubsection}{\numberline {3.2.9.2}Serie Compleja de Fourier de $0$ a $L$}{39}{subsubsection.3.2.9.2}%
+\contentsline {subsection}{\numberline {3.2.10}Fenómeno de Gibbs}{39}{subsection.3.2.10}%
+\contentsline {section}{\numberline {3.3}Herramientas digitales para la enseñanza de Matemáticas}{40}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Aplicaciones Web}{41}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Componentes de una apliación web}{42}{subsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.1.1}HTML}{42}{subsubsection.3.4.1.1}%
+\contentsline {subsubsection}{\numberline {3.4.1.2}Canvas}{43}{subsubsection.3.4.1.2}%
+\contentsline {subsubsection}{\numberline {3.4.1.3}CSS}{43}{subsubsection.3.4.1.3}%
+\contentsline {subsubsection}{\numberline {3.4.1.4}JavaScript}{43}{subsubsection.3.4.1.4}%
+\contentsline {subsection}{\numberline {3.4.2}NodeJS}{43}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Maxima}{44}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Angular}{44}{subsection.3.4.4}%
+\contentsline {subsubsection}{\numberline {3.4.4.1}TypeScript}{45}{subsubsection.3.4.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.4.2}Tailwind CSS}{45}{subsubsection.3.4.4.2}%
+\contentsline {subsection}{\numberline {3.4.5}API}{45}{subsection.3.4.5}%
+\contentsline {subsubsection}{\numberline {3.4.5.1}Protocolo HTTP}{46}{subsubsection.3.4.5.1}%
+\contentsline {subsubsection}{\numberline {3.4.5.2}REST}{46}{subsubsection.3.4.5.2}%
+\contentsline {subsection}{\numberline {3.4.6}Interfaz gráfica de usuario}{47}{subsection.3.4.6}%
+\contentsline {subsubsection}{\numberline {3.4.6.1}Principios de Usabilidad}{47}{subsubsection.3.4.6.1}%
+\contentsline {subsection}{\numberline {3.4.7}Seguridad en Aplicaciones Web}{48}{subsection.3.4.7}%
+\contentsline {subsubsection}{\numberline {3.4.7.1}Protocolo HTTPS}{48}{subsubsection.3.4.7.1}%
+\contentsline {subsubsection}{\numberline {3.4.7.2}Certificado SSL/TLS}{49}{subsubsection.3.4.7.2}%
+\contentsline {chapter}{\numberline {4}Análisis y Diseño del Sistema}{50}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Metodología de Desarrollo}{50}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}¿Por qué prototipos para este trabajo?}{51}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}Análisis de Requerimientos}{51}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Requerimientos Funcionales}{52}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Requerimientos No Funcionales}{56}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Análisis de Riesgos}{58}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Identificación de Riesgos}{58}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Jerarquización de Riesgos}{58}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Estimación de Costos}{58}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Método de Estimación de Costos}{58}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Detalle de los Costos Estimados}{58}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}Diseño del Sistema}{58}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Arquitectura General del Sistema}{58}{subsection.4.5.1}%
+\contentsline {subsubsection}{\numberline {4.5.1.1}Arquitectura Cliente-Servidor}{58}{subsubsection.4.5.1.1}%
+\contentsline {subsubsection}{\numberline {4.5.1.2}Flujo de Datos}{58}{subsubsection.4.5.1.2}%
+\contentsline {subsection}{\numberline {4.5.2}Diseño de la Interfaz de Usuario}{58}{subsection.4.5.2}%
+\contentsline {subsubsection}{\numberline {4.5.2.1}Estructura de la Interfaz}{58}{subsubsection.4.5.2.1}%
+\contentsline {subsubsection}{\numberline {4.5.2.2}Prototipo de la Interfaz}{58}{subsubsection.4.5.2.2}%
+\contentsline {chapter}{\numberline {5}Implementación \newline (Primer Prototipo)}{59}{chapter.5}%
+\contentsline {chapter}{\numberline {A}Cálculos}{60}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}Forma Trigonométrica}{60}{section.Alph1.1}%
+\contentsline {section}{\numberline {A.2}Forma Exponencial Compleja}{61}{section.Alph1.2}%
+\contentsline {chapter}{\numberline {B}Códigos}{63}{appendix.Alph2}%
+\contentsline {section}{\numberline {B.1}Código en Matlab para graficar la serie trigonométrica}{63}{section.Alph2.1}%
+\contentsline {section}{\numberline {B.2}Código en Matlab para graficar la serie compleja}{64}{section.Alph2.2}%
+\contentsline {chapter}{Bibliograf\'{\i }a}{66}{appendix*.40}%

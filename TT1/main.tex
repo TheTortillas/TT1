@@ -6,10 +6,13 @@
 
 \documentclass{ipn}
 \usepackage{matlab-prettifier}
-%\usepackage{minted}
+\usepackage{minted}
+\usepackage{listings}
+\usepackage[spanish]{babel}
+
 %\usepackage{listings}   % Para incluir código fuente
 %\usepackage[utf8]{inputenc}
-%\usepackage{float}
+\usepackage{float}
 \usepackage{ipnstyle}
 \usepackage{lipsum}
 \usepackage{graphicx}
@@ -21,6 +24,9 @@
 \usepackage{url}
 \usepackage{amsmath}
 \usepackage{longtable}
+
+% Create a new environment for breaking code listings across pages.
+\newenvironment{longlisting}{\captionsetup{type=listing}}{}
 
 % ------------- Para las tablas
 \usepackage[utf8]{inputenc}
@@ -65,10 +71,19 @@
 \renewcommand{\arraystretch}{1.5}
 
 % Redefinir nombre de la lista de tablas en español
-\addto\captionsspanish{\renewcommand{\listtablename}{Lista de tablas}}
+\addto\captionsspanish{\renewcommand{\listtablename}{Índice de tablas}}
 
 % Redefinir nombre de los captions de las tablas en español
 \addto\captionsspanish{\renewcommand{\tablename}{Tabla}}
+
+% Redefinir nombre de los captions de los listados en español
+\addto\captionsspanish{
+	\renewcommand{\listingscaption}{Código}
+	\renewcommand{\listoflistingscaption}{Índice de códigos}
+}
+
+
+
 
 % Quitar la sangría cuando se inicia cada parrafo
 \setlength{\parindent}{0pt}
@@ -120,6 +135,7 @@
 	\tableofcontents
 	\listoffigures
 	\listoftables
+	\listoflistings
 	%\listofalgorithms
 	
 	\mainmatter
