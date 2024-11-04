@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.24)  2 NOV 2024 21:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.24)  3 NOV 2024 22:10
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1009,76 +1009,90 @@ Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
 \c@LT@chunks=\count508
 \LT@p@ftn=\toks44
 )
-(/home/sebastian/.miktex/texmfs/install/tex/latex/tools/array.sty
-Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen281
-\ar@mcellbox=\box74
-\extrarowheight=\dimen282
-\NC@list=\toks45
-\extratabsurround=\skip93
-\backup@length=\skip94
-\ar@cellbox=\box75
+(/home/sebastian/.miktex/texmfs/install/tex/latex/svg/svg.sty
+Package: svg 2020/11/26 v2.02k (include SVG pictures)
+
+(/home/sebastian/.miktex/texmfs/install/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(/home/sebastian/.miktex/texmfs/install/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2023/07/07 v3.41 KOMA-Script package (file load hooks)
+
+(/home/sebastian/.miktex/texmfs/install/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
+
+(/home/sebastian/.miktex/texmfs/install/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2023/07/07 v3.41 KOMA-Script package (logo)
+)))
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 368.
 )
-(/home/sebastian/.miktex/texmfs/install/tex/latex/colortbl/colortbl.sty
-Package: colortbl 2024/05/26 v1.0h Color table columns (DPC)
-\everycr=\toks46
-\minrowclearance=\skip95
-\rownum=\count509
+(/home/sebastian/.miktex/texmfs/install/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
-(/home/sebastian/.miktex/texmfs/install/tex/latex/pgf/frontendlayer/tikz.sty
-(/home/sebastian/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgf.sty
+\c@svg@param@lastpage=\count509
+\svg@box=\box74
+\c@svg@param@currpage=\count510
+)
+(/home/sebastian/.miktex/texmfs/install/tex/latex/transparent/transparent.sty
+Package: transparent 2022-10-27 v1.5 Transparency with color stacks
+
+(/home/sebastian/.miktex/texmfs/install/tex/latex/transparent/transparent-nomet
+adata.sty
+Package: transparent-nometadata 2022-10-27 v1.5 Transparency via pdfTeX's color
+ stack (HO)
+))
+(/home/sebastian/.miktex/texmfs/install/tex/latex/pgf/systemlayer/pgfsys.sty
 (/home/sebastian/.miktex/texmfs/install/tex/latex/pgf/utilities/pgfrcs.sty
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-commo
 n.tex
-\pgfutil@everybye=\toks47
-\pgfutil@tempdima=\dimen283
-\pgfutil@tempdimb=\dimen284
+\pgfutil@everybye=\toks45
+\pgfutil@tempdima=\dimen281
+\pgfutil@tempdimb=\dimen282
 )
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-latex
 .def
-\pgfutil@abb=\box76
+\pgfutil@abb=\box75
 )
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfrcs.code.t
 ex (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
-Package: pgf 2023-01-15 v3.1.10 (3.1.10)
-
-(/home/sebastian/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgfcore.sty
-(/home/sebastian/.miktex/texmfs/install/tex/latex/pgf/systemlayer/pgfsys.sty
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys.code
 .tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.
 tex
-\pgfkeys@pathtoks=\toks48
-\pgfkeys@temptoks=\toks49
+\pgfkeys@pathtoks=\toks46
+\pgfkeys@temptoks=\toks47
 
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeyslibrar
 yfiltered.code.tex
-\pgfkeys@tmptoks=\toks50
+\pgfkeys@tmptoks=\toks48
 ))
-\pgf@x=\dimen285
-\pgf@y=\dimen286
-\pgf@xa=\dimen287
-\pgf@ya=\dimen288
-\pgf@xb=\dimen289
-\pgf@yb=\dimen290
-\pgf@xc=\dimen291
-\pgf@yc=\dimen292
-\pgf@xd=\dimen293
-\pgf@yd=\dimen294
+\pgf@x=\dimen283
+\pgf@y=\dimen284
+\pgf@xa=\dimen285
+\pgf@ya=\dimen286
+\pgf@xb=\dimen287
+\pgf@yb=\dimen288
+\pgf@xc=\dimen289
+\pgf@yc=\dimen290
+\pgf@xd=\dimen291
+\pgf@yd=\dimen292
 \w@pgf@writea=\write6
 \r@pgf@reada=\read6
-\c@pgf@counta=\count510
-\c@pgf@countb=\count511
-\c@pgf@countc=\count512
-\c@pgf@countd=\count513
-\t@pgf@toka=\toks51
-\t@pgf@tokb=\toks52
-\t@pgf@tokc=\toks53
-\pgf@sys@id@count=\count514
+\c@pgf@counta=\count511
+\c@pgf@countb=\count512
+\c@pgf@countc=\count513
+\c@pgf@countd=\count514
+\t@pgf@toka=\toks49
+\t@pgf@tokb=\toks50
+\t@pgf@tokc=\toks51
+\pgf@sys@id@count=\count515
 
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
@@ -1096,13 +1110,34 @@ File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsyssoftp
 ath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count515
-\pgfsyssoftpath@bigbuffer@items=\count516
+\pgfsyssoftpath@smallbuffer@items=\count516
+\pgfsyssoftpath@bigbuffer@items=\count517
 )
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsysproto
 col.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
+(/home/sebastian/.miktex/texmfs/install/tex/latex/tools/array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen293
+\ar@mcellbox=\box76
+\extrarowheight=\dimen294
+\NC@list=\toks52
+\extratabsurround=\skip93
+\backup@length=\skip94
+\ar@cellbox=\box77
+)
+(/home/sebastian/.miktex/texmfs/install/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2024/05/26 v1.0h Color table columns (DPC)
+\everycr=\toks53
+\minrowclearance=\skip95
+\rownum=\count518
+)
+(/home/sebastian/.miktex/texmfs/install/tex/latex/pgf/frontendlayer/tikz.sty
+(/home/sebastian/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgf.sty
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(/home/sebastian/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgfcore.sty
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcore.code
 .tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
@@ -1113,8 +1148,8 @@ ex)
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathparser.code
 .tex
 \pgfmath@dimen=\dimen295
-\pgfmath@count=\count517
-\pgfmath@box=\box77
+\pgfmath@count=\count519
+\pgfmath@box=\box78
 \pgfmath@toks=\toks54
 \pgfmath@stack@operand=\toks55
 \pgfmath@stack@operation=\toks56
@@ -1141,7 +1176,7 @@ ntegerarithmetics.code.tex)
 ex)
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfloat.code.
 tex
-\c@pgfmathroundto@lastzeros=\count518
+\c@pgfmathroundto@lastzeros=\count520
 ))
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/math/pgfint.code.tex)
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepoint
@@ -1177,10 +1212,10 @@ File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorescope
 s.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box78
-\pgf@hbox=\box79
-\pgf@layerbox@main=\box80
-\pgf@picture@serial@count=\count519
+\pgfpic=\box79
+\pgf@hbox=\box80
+\pgf@layerbox@main=\box81
+\pgf@picture@serial@count=\count521
 )
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoregraph
 icstate.code.tex
@@ -1215,8 +1250,8 @@ File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 .code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen319
-\pgf@sys@shading@range@num=\count520
-\pgf@shadingcount=\count521
+\pgf@sys@shading@range@num=\count522
+\pgf@shadingcount=\count523
 )
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreimage
 .code.tex
@@ -1225,7 +1260,7 @@ File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreexter
 nal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box81
+\pgfexternal@startupbox=\box82
 )
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorelayer
 s.code.tex
@@ -1246,7 +1281,7 @@ File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduleshapes
 .code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box82
+\pgfnodeparttextbox=\box83
 )
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduleplot.c
 ode.tex
@@ -1283,7 +1318,7 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryplo
 thandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count522
+\pgf@plot@mark@count=\count524
 \pgfplotmarksize=\dimen324
 )
 \tikz@lastx=\dimen325
@@ -1294,23 +1329,23 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@lastmovetoy=\dimen330
 \tikzleveldistance=\dimen331
 \tikzsiblingdistance=\dimen332
-\tikz@figbox=\box83
-\tikz@figbox@bg=\box84
-\tikz@tempbox=\box85
-\tikz@tempbox@bg=\box86
-\tikztreelevel=\count523
-\tikznumberofchildren=\count524
-\tikznumberofcurrentchild=\count525
-\tikz@fig@count=\count526
+\tikz@figbox=\box84
+\tikz@figbox@bg=\box85
+\tikz@tempbox=\box86
+\tikz@tempbox@bg=\box87
+\tikztreelevel=\count525
+\tikznumberofchildren=\count526
+\tikznumberofcurrentchild=\count527
+\tikz@fig@count=\count528
 
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmodulematrix
 .code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count527
-\pgfmatrixcurrentcolumn=\count528
-\pgf@matrix@numberofcolumns=\count529
+\pgfmatrixcurrentrow=\count529
+\pgfmatrixcurrentcolumn=\count530
+\pgf@matrix@numberofcolumns=\count531
 )
-\tikz@expandcount=\count530
+\tikz@expandcount=\count532
 
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libr
 aries/tikzlibrarytopaths.code.tex
@@ -1328,8 +1363,8 @@ tex
 \t@pgfplots@tokb=\toks60
 \t@pgfplots@tokc=\toks61
 \pgfplots@tmpa=\dimen333
-\c@pgfplots@coordindex=\count531
-\c@pgfplots@scanlineindex=\count532
+\c@pgfplots@coordindex=\count533
+\c@pgfplots@scanlineindex=\count534
 
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/sys/pgfplotssysgen
 eric.code.tex))
@@ -1354,13 +1389,13 @@ lotsliststructure.code.tex)
 lotsliststructureext.code.tex)
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/liststructure/pgfp
 lotsarray.code.tex
-\c@pgfplotsarray@tmp=\count533
+\c@pgfplotsarray@tmp=\count535
 )
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/liststructure/pgfp
 lotsmatrix.code.tex)
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/numtable/pgfplotst
 ableshared.code.tex
-\c@pgfplotstable@counta=\count534
+\c@pgfplotstable@counta=\count536
 \t@pgfplotstable@a=\toks65
 )
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/liststructure/pgfp
@@ -1373,7 +1408,7 @@ y.data.code.tex))
 verb.code.tex)
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/libs/pgflibrarypgf
 plots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count535
+\c@pgfplotslibrarysurf@no=\count537
 
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/sys/pgflibrarypgfp
 lots.surfshading.pgfsys-pdftex.def)))
@@ -1410,11 +1445,11 @@ tions.code.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen336
 \pgfdecoratedinputsegmentremainingdistance=\dimen337
 \pgf@decorate@distancetomove=\dimen338
-\pgf@decorate@repeatstate=\count536
+\pgf@decorate@repeatstate=\count538
 \pgfdecorationsegmentamplitude=\dimen339
 \pgfdecorationsegmentlength=\dimen340
 )
-\tikz@lib@dec@box=\box87
+\tikz@lib@dec@box=\box88
 )
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libr
 aries/tikzlibrarydecorations.pathmorphing.code.tex
@@ -1426,7 +1461,7 @@ aries/tikzlibrarydecorations.pathreplacing.code.tex
 gflibrarydecorations.pathreplacing.code.tex))
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/libs/tikzlibrarypg
 fplots.contourlua.code.tex)
-\pgfplots@numplots=\count537
+\pgfplots@numplots=\count539
 \pgfplots@xmin@reg=\dimen341
 \pgfplots@xmax@reg=\dimen342
 \pgfplots@ymin@reg=\dimen343
@@ -1461,7 +1496,7 @@ File: pdftex.cnt 2004/11/18 v2.14 Print contoured text (HH, MH)
 aries/tikzlibraryintersections.code.tex
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryint
 ersections.code.tex
-\pgf@intersect@solutions=\count538
+\pgf@intersect@solutions=\count540
 ))
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libr
 aries/tikzlibrarydecorations.markings.code.tex
@@ -1494,7 +1529,7 @@ File: pgflibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libr
 aries/tikzlibraryspy.code.tex
 File: tikzlibraryspy.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\tikz@lib@spybox=\box88
+\tikz@lib@spybox=\box89
 )
 (/home/sebastian/.miktex/texmfs/install/tex/latex/pgf/frontendlayer/libraries/t
 ikzlibraryexternal.code.tex
@@ -1502,7 +1537,7 @@ ikzlibraryexternal.code.tex
 aries/tikzexternalshared.code.tex))
 \openout6 = `main.auxlock'.
 
-Package hyperref Info: Option `colorlinks' set `false' on input line 119.
+Package hyperref Info: Option `colorlinks' set `false' on input line 122.
 runsystem(command -v pygmentize && touch main.aex)...executed.
 
 runsystem(rm main.aex)...executed.
@@ -1512,45 +1547,45 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
  (main.aux
-LaTeX Info: Redefining \. on input line 14.
-LaTeX Info: Redefining \% on input line 14.
+LaTeX Info: Redefining \. on input line 15.
+LaTeX Info: Redefining \% on input line 15.
  (chapters/chapter01/chapter01.aux) (chapters/chapter02/chapter02.aux) (chapter
 s/chapter03/chapter03.aux)
 (chapters/chapter04/chapter04.aux) (chapters/chapter05/chapter05.aux)
 (appendages/appendixA/appendixA.aux) (appendages/appendixB/appendixB.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
 
 (/home/sebastian/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count539
+\scratchcounter=\count541
 \scratchdimen=\dimen347
-\scratchbox=\box89
-\nofMPsegments=\count540
-\nofMParguments=\count541
+\scratchbox=\box90
+\nofMPsegments=\count542
+\nofMParguments=\count543
 \everyMPshowfont=\toks66
-\MPscratchCnt=\count542
+\MPscratchCnt=\count544
 \MPscratchDim=\dimen348
-\MPnumerator=\count543
-\makeMPintoPDFobject=\count544
+\MPnumerator=\count545
+\makeMPintoPDFobject=\count546
 \everyMPtoPDFconversion=\toks67
 )
 (/home/sebastian/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.st
@@ -1603,9 +1638,9 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count545
-LaTeX Info: Redefining \. on input line 123.
-LaTeX Info: Redefining \% on input line 123.
+\c@lstlisting=\count547
+LaTeX Info: Redefining \. on input line 126.
+LaTeX Info: Redefining \% on input line 126.
 Package biblatex Info: Trying to load language 'spanish'...
 Package biblatex Info: ... file 'spanish.lbx' found.
 (/home/sebastian/.miktex/texmfs/install/tex/latex/biblatex/lbx/spanish.lbx
@@ -1619,25 +1654,26 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
-(main.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                matlabIntegral
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
-Package biblatex Info: Reference section=0 on input line 123.
-Package biblatex Info: Reference segment=0 on input line 123.
+(main.bbl)
+Package biblatex Info: Reference section=0 on input line 126.
+Package biblatex Info: Reference segment=0 on input line 126.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
- (/home/sebastian/.miktex/texmfs/install/tex/latex/caption/ltcaption.sty
+
+(/home/sebastian/.miktex/texmfs/install/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 123.
+Package hyperref Info: Link coloring OFF on input line 126.
+ ()
+
+Package svg Warning: No version of Inkscape was detected by invoking
+(svg)                `inkscape -V'
+(svg)                so the Inkscape export will fail quite sure as the
+(svg)                command is probably unknown to your OS. You could set
+(svg)                `inkscapeversion=<version>' manually but this is very
+(svg)                unlikely to work on input line 126.
 
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
@@ -1645,19 +1681,19 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 <img/EscudoIPN.png, id=6, 774.895pt x 1145.27875pt>
 File: img/EscudoIPN.png Graphic file (type png)
 <use img/EscudoIPN.png>
-Package pdftex.def Info: img/EscudoIPN.png  used on input line 126.
+Package pdftex.def Info: img/EscudoIPN.png  used on input line 129.
 (pdftex.def)             Requested size: 53.48749pt x 79.0418pt.
 <img/EscudoESCOM.png, id=8, 451.6875pt x 289.08pt>
 File: img/EscudoESCOM.png Graphic file (type png)
 <use img/EscudoESCOM.png>
-Package pdftex.def Info: img/EscudoESCOM.png  used on input line 126.
+Package pdftex.def Info: img/EscudoESCOM.png  used on input line 129.
 (pdftex.def)             Requested size: 101.6259pt x 65.04019pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 126
+LaTeX Font Info:    Trying to load font information for U+msa on input line 129
 .
 (/home/sebastian/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 126
+LaTeX Font Info:    Trying to load font information for U+msb on input line 129
 .
 
 (/home/sebastian/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
@@ -1665,23 +1701,23 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <22> not available
-(Font)              size <20.74> substituted on input line 126.
+(Font)              size <20.74> substituted on input line 129.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/sc' in size <22> not available
-(Font)              size <20.74> substituted on input line 126.
+(Font)              size <20.74> substituted on input line 129.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 126.
+(Font)              size <17.28> substituted on input line 129.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/sc' in size <16> not available
-(Font)              size <17.28> substituted on input line 126.
+(Font)              size <17.28> substituted on input line 129.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 126.
+(Font)              size <17.28> substituted on input line 129.
 
 [1
 
@@ -1698,15 +1734,15 @@ Underfull \hbox (badness 1184) in paragraph at lines 15--16
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 23--134
+Underfull \hbox (badness 10000) in paragraph at lines 23--137
 
  []
 
 [3
 
 ]
-LaTeX Info: Redefining \. on input line 134.
-LaTeX Info: Redefining \% on input line 134.
+LaTeX Info: Redefining \. on input line 137.
+LaTeX Info: Redefining \% on input line 137.
  [4
 
 ] (main.toc
@@ -1725,15 +1761,15 @@ Package spanish Warning: Replacing `OT1/cmr/bx/sc' by
 [5
 
 ]
-LaTeX Info: Redefining \sptext on input line 83.
-LaTeX Info: Redefining \. on input line 83.
-LaTeX Info: Redefining \% on input line 83.
+LaTeX Info: Redefining \sptext on input line 80.
+LaTeX Info: Redefining \. on input line 80.
+LaTeX Info: Redefining \% on input line 80.
  [6])
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
-LaTeX Info: Redefining \. on input line 136.
-LaTeX Info: Redefining \% on input line 136.
+LaTeX Info: Redefining \. on input line 139.
+LaTeX Info: Redefining \% on input line 139.
  [7] (main.lof
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
@@ -1744,8 +1780,8 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
-LaTeX Info: Redefining \. on input line 137.
-LaTeX Info: Redefining \% on input line 137.
+LaTeX Info: Redefining \. on input line 140.
+LaTeX Info: Redefining \% on input line 140.
  [9] (main.lot
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
@@ -1769,8 +1805,8 @@ ticos y
  [11
 
 ]
-LaTeX Info: Redefining \. on input line 141.
-LaTeX Info: Redefining \% on input line 141.
+LaTeX Info: Redefining \. on input line 144.
+LaTeX Info: Redefining \% on input line 144.
  [12
 
 ]
@@ -1842,11 +1878,11 @@ s
  []
 
 )
-LaTeX Info: Redefining \. on input line 142.
-LaTeX Info: Redefining \% on input line 142.
+LaTeX Info: Redefining \. on input line 145.
+LaTeX Info: Redefining \% on input line 145.
  [4]
-LaTeX Info: Redefining \. on input line 142.
-LaTeX Info: Redefining \% on input line 142.
+LaTeX Info: Redefining \. on input line 145.
+LaTeX Info: Redefining \% on input line 145.
  [5]
 \openout2 = `chapters/chapter02/chapter02.aux'.
 
@@ -1868,10 +1904,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-
-LaTeX Warning: Hyper reference `app:Estado-del-arte-coeff' on page 6 undefined 
-on input line 30.
-
 [6
 
 
@@ -1879,7 +1911,7 @@ on input line 30.
 
 ]
 ===== Image 'figures/main-figure0' is up-to-date. ======
-<img/chapter02/logo_wolfram.jpg, id=418, 534.99875pt x 367.3725pt>
+<img/chapter02/logo_wolfram.jpg, id=513, 534.99875pt x 367.3725pt>
 File: img/chapter02/logo_wolfram.jpg Graphic file (type jpg)
 <use img/chapter02/logo_wolfram.jpg>
 Package pdftex.def Info: img/chapter02/logo_wolfram.jpg  used on input line 86.
@@ -1891,13 +1923,13 @@ LaTeX Info: Redefining \% on input line 89.
 LaTeX Info: Redefining \. on input line 109.
 LaTeX Info: Redefining \% on input line 109.
  [8 <./img/chapter02/logo_wolfram.jpg>]
-<img/chapter02/wolfram_trig_series.png, id=470, 1166.3575pt x 895.345pt>
+<img/chapter02/wolfram_trig_series.png, id=565, 1166.3575pt x 895.345pt>
 File: img/chapter02/wolfram_trig_series.png Graphic file (type png)
 <use img/chapter02/wolfram_trig_series.png>
 Package pdftex.def Info: img/chapter02/wolfram_trig_series.png  used on input l
 ine 114.
 (pdftex.def)             Requested size: 411.42686pt x 315.8209pt.
-<img/chapter02/wolfram_complex_series.png, id=471, 1166.3575pt x 800.9925pt>
+<img/chapter02/wolfram_complex_series.png, id=566, 1166.3575pt x 800.9925pt>
 File: img/chapter02/wolfram_complex_series.png Graphic file (type png)
 <use img/chapter02/wolfram_complex_series.png>
 Package pdftex.def Info: img/chapter02/wolfram_complex_series.png  used on inpu
@@ -1907,7 +1939,7 @@ LaTeX Info: Redefining \. on input line 125.
 LaTeX Info: Redefining \% on input line 125.
 
 [9 <./img/chapter02/wolfram_trig_series.png>]
-<img/chapter02/logo_symbolab.png, id=478, 385.44pt x 385.44pt>
+<img/chapter02/logo_symbolab.png, id=573, 385.44pt x 385.44pt>
 File: img/chapter02/logo_symbolab.png Graphic file (type png)
 <use img/chapter02/logo_symbolab.png>
 Package pdftex.def Info: img/chapter02/logo_symbolab.png  used on input line 13
@@ -1917,13 +1949,13 @@ LaTeX Info: Redefining \. on input line 136.
 LaTeX Info: Redefining \% on input line 136.
  [10 <./img/chapter02/wolfram_complex_series.png> <./img/chapter02/logo_symbola
 b.png>]
-<img/chapter02/symbolab-trig-series.png, id=491, 1858.945pt x 967.615pt>
+<img/chapter02/symbolab-trig-series.png, id=586, 1858.945pt x 967.615pt>
 File: img/chapter02/symbolab-trig-series.png Graphic file (type png)
 <use img/chapter02/symbolab-trig-series.png>
 Package pdftex.def Info: img/chapter02/symbolab-trig-series.png  used on input 
 line 141.
 (pdftex.def)             Requested size: 411.42686pt x 214.1457pt.
-<img/chapter02/logo_matlab.png, id=493, 640.3925pt x 314.17375pt>
+<img/chapter02/logo_matlab.png, id=588, 640.3925pt x 314.17375pt>
 File: img/chapter02/logo_matlab.png Graphic file (type png)
 <use img/chapter02/logo_matlab.png>
 Package pdftex.def Info: img/chapter02/logo_matlab.png  used on input line 152.
@@ -1932,13 +1964,13 @@ Package pdftex.def Info: img/chapter02/logo_matlab.png  used on input line 152.
 LaTeX Info: Redefining \. on input line 156.
 LaTeX Info: Redefining \% on input line 156.
  [11 <./img/chapter02/symbolab-trig-series.png>]
-<img/chapter02/matlab-fourier-trig.png, id=504, 1799.72375pt x 899.36pt>
+<img/chapter02/matlab-fourier-trig.png, id=599, 1799.72375pt x 899.36pt>
 File: img/chapter02/matlab-fourier-trig.png Graphic file (type png)
 <use img/chapter02/matlab-fourier-trig.png>
 Package pdftex.def Info: img/chapter02/matlab-fourier-trig.png  used on input l
 ine 163.
 (pdftex.def)             Requested size: 411.42686pt x 205.58592pt.
-<img/chapter02/matlab-complex-series.png, id=507, 1799.72375pt x 899.36pt>
+<img/chapter02/matlab-complex-series.png, id=602, 1799.72375pt x 899.36pt>
 File: img/chapter02/matlab-complex-series.png Graphic file (type png)
 <use img/chapter02/matlab-complex-series.png>
 Package pdftex.def Info: img/chapter02/matlab-complex-series.png  used on input
@@ -1948,238 +1980,665 @@ LaTeX Info: Redefining \. on input line 174.
 LaTeX Info: Redefining \% on input line 174.
  [12 <./img/chapter02/logo_matlab.png> <./img/chapter02/matlab-fourier-trig.png
 >]
-LaTeX Info: Redefining \. on input line 188.
-LaTeX Info: Redefining \% on input line 188.
- [13 <./img/chapter02/matlab-complex-series.png>]
-Overfull \hbox (5.95143pt too wide) in paragraph at lines 199--199
+<img/chapter02/logo_maple.png, id=610, 1204.5pt x 397.485pt>
+File: img/chapter02/logo_maple.png Graphic file (type png)
+<use img/chapter02/logo_maple.png>
+Package pdftex.def Info: img/chapter02/logo_maple.png  used on input line 180.
+(pdftex.def)             Requested size: 205.71342pt x 67.88087pt.
+<img/chapter02/maple-trig-series-coeff.jpeg, id=616, 1606.0pt x 851.18pt>
+File: img/chapter02/maple-trig-series-coeff.jpeg Graphic file (type jpg)
+<use img/chapter02/maple-trig-series-coeff.jpeg>
+Package pdftex.def Info: img/chapter02/maple-trig-series-coeff.jpeg  used on in
+put line 190.
+(pdftex.def)             Requested size: 411.42686pt x 218.05458pt.
+LaTeX Info: Redefining \. on input line 193.
+LaTeX Info: Redefining \% on input line 193.
+ [13 <./img/chapter02/matlab-complex-series.png> <./img/chapter02/logo_maple.pn
+g>]
+<img/chapter02/maple-trig-graph.png, id=628, 1445.4pt x 764.8575pt>
+File: img/chapter02/maple-trig-graph.png Graphic file (type png)
+<use img/chapter02/maple-trig-graph.png>
+Package pdftex.def Info: img/chapter02/maple-trig-graph.png  used on input line
+ 198.
+(pdftex.def)             Requested size: 411.42686pt x 217.70654pt.
+<img/chapter02/maple-complex-series-coeff.jpeg, id=630, 1606.0pt x 851.18pt>
+File: img/chapter02/maple-complex-series-coeff.jpeg Graphic file (type jpg)
+<use img/chapter02/maple-complex-series-coeff.jpeg>
+Package pdftex.def Info: img/chapter02/maple-complex-series-coeff.jpeg  used on
+ input line 205.
+(pdftex.def)             Requested size: 411.42686pt x 218.05458pt.
+LaTeX Info: Redefining \. on input line 209.
+LaTeX Info: Redefining \% on input line 209.
+ [14 <./img/chapter02/maple-trig-series-coeff.jpeg> <./img/chapter02/maple-trig
+-graph.png>]
+<img/chapter02/maple-complex-graph.png, id=638, 1445.4pt x 764.10469pt>
+File: img/chapter02/maple-complex-graph.png Graphic file (type png)
+<use img/chapter02/maple-complex-graph.png>
+Package pdftex.def Info: img/chapter02/maple-complex-graph.png  used on input l
+ine 213.
+(pdftex.def)             Requested size: 411.42686pt x 217.49228pt.
+<img/chapter02/logo_maxima.png, id=641, 135.50626pt x 135.50626pt>
+File: img/chapter02/logo_maxima.png Graphic file (type png)
+<use img/chapter02/logo_maxima.png>
+Package pdftex.def Info: img/chapter02/logo_maxima.png  used on input line 223.
+
+(pdftex.def)             Requested size: 205.71342pt x 205.72144pt.
+LaTeX Info: Redefining \. on input line 226.
+LaTeX Info: Redefining \% on input line 226.
+ [15 <./img/chapter02/maple-complex-series-coeff.jpeg> <./img/chapter02/maple-c
+omplex-graph.png>]
+<img/chapter02/maxima-trig-series-coeff.jpeg, id=651, 1606.0pt x 855.195pt>
+File: img/chapter02/maxima-trig-series-coeff.jpeg Graphic file (type jpg)
+<use img/chapter02/maxima-trig-series-coeff.jpeg>
+Package pdftex.def Info: img/chapter02/maxima-trig-series-coeff.jpeg  used on i
+nput line 233.
+(pdftex.def)             Requested size: 411.42686pt x 219.08316pt.
+LaTeX Info: Redefining \. on input line 237.
+LaTeX Info: Redefining \% on input line 237.
+ [16 <./img/chapter02/logo_maxima.png>]
+<img/chapter02/maxima-trig-series-graph.png, id=658, 1442.38875pt x 767.86874pt
+>
+File: img/chapter02/maxima-trig-series-graph.png Graphic file (type png)
+<use img/chapter02/maxima-trig-series-graph.png>
+Package pdftex.def Info: img/chapter02/maxima-trig-series-graph.png  used on in
+put line 240.
+(pdftex.def)             Requested size: 411.42686pt x 219.02061pt.
+<img/chapter02/maxima-complex-series-coeff.jpeg, id=660, 1606.0pt x 851.18pt>
+File: img/chapter02/maxima-complex-series-coeff.jpeg Graphic file (type jpg)
+<use img/chapter02/maxima-complex-series-coeff.jpeg>
+Package pdftex.def Info: img/chapter02/maxima-complex-series-coeff.jpeg  used o
+n input line 249.
+(pdftex.def)             Requested size: 411.42686pt x 218.05458pt.
+LaTeX Info: Redefining \. on input line 253.
+LaTeX Info: Redefining \% on input line 253.
+ [17 <./img/chapter02/maxima-trig-series-coeff.jpeg> <./img/chapter02/maxima-tr
+ig-series-graph.png>]
+File: img/chapter02/maxima-trig-series-graph.png Graphic file (type png)
+<use img/chapter02/maxima-trig-series-graph.png>
+Package pdftex.def Info: img/chapter02/maxima-trig-series-graph.png  used on in
+put line 256.
+(pdftex.def)             Requested size: 411.42686pt x 219.02061pt.
+LaTeX Info: Redefining \. on input line 264.
+LaTeX Info: Redefining \% on input line 264.
+ [18 <./img/chapter02/maxima-complex-series-coeff.jpeg>]
+<img/chapter02/logo_geogebra.png, id=673, 1027.84pt x 1027.84pt>
+File: img/chapter02/logo_geogebra.png Graphic file (type png)
+<use img/chapter02/logo_geogebra.png>
+Package pdftex.def Info: img/chapter02/logo_geogebra.png  used on input line 26
+9.
+(pdftex.def)             Requested size: 164.56822pt x 164.56754pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 270--270
+[]\OT1/cmr/m/n/12 Figura 2.20: |Logotipo de
+ []
+
+<img/chapter02/logo_desmos.jpg, id=676, 1927.2pt x 1084.05pt>
+File: img/chapter02/logo_desmos.jpg Graphic file (type jpg)
+<use img/chapter02/logo_desmos.jpg>
+Package pdftex.def Info: img/chapter02/logo_desmos.jpg  used on input line 276.
+
+(pdftex.def)             Requested size: 246.85863pt x 138.84724pt.
+<img/chapter02/geogebra-trig-series.png, id=680, 1799.72375pt x 899.36pt>
+File: img/chapter02/geogebra-trig-series.png Graphic file (type png)
+<use img/chapter02/geogebra-trig-series.png>
+Package pdftex.def Info: img/chapter02/geogebra-trig-series.png  used on input 
+line 288.
+(pdftex.def)             Requested size: 411.42686pt x 205.58592pt.
+LaTeX Info: Redefining \. on input line 292.
+LaTeX Info: Redefining \% on input line 292.
+[19 <./img/chapter02/logo_geogebra.png> <./img/chapter02/logo_desmos.jpg>]
+<img/chapter02/desmos-trig-series-graph.png, id=689, 1806.75pt x 933.4875pt>
+File: img/chapter02/desmos-trig-series-graph.png Graphic file (type png)
+<use img/chapter02/desmos-trig-series-graph.png>
+Package pdftex.def Info: img/chapter02/desmos-trig-series-graph.png  used on in
+put line 298.
+(pdftex.def)             Requested size: 411.42686pt x 212.56104pt.
+<img/chapter02/logo_python.png, id=691, 1240.635pt x 549.05125pt>
+File: img/chapter02/logo_python.png Graphic file (type png)
+<use img/chapter02/logo_python.png>
+Package pdftex.def Info: img/chapter02/logo_python.png  used on input line 308.
+
+(pdftex.def)             Requested size: 411.42686pt x 182.07552pt.
+LaTeX Info: Redefining \. on input line 311.
+LaTeX Info: Redefining \% on input line 311.
+
+[20 <./img/chapter02/geogebra-trig-series.png> <./img/chapter02/desmos-trig-ser
+ies-graph.png>]
+<img/chapter02/python-sympy-matplotlib.png, id=701, 722.7pt x 433.62pt>
+File: img/chapter02/python-sympy-matplotlib.png Graphic file (type png)
+<use img/chapter02/python-sympy-matplotlib.png>
+Package pdftex.def Info: img/chapter02/python-sympy-matplotlib.png  used on inp
+ut line 320.
+(pdftex.def)             Requested size: 411.42686pt x 246.855pt.
+LaTeX Info: Redefining \. on input line 324.
+LaTeX Info: Redefining \% on input line 324.
+ [21 <./img/chapter02/logo_python.png>]
+<img/chapter02/manim-trig-series-graph.png, id=714, 3854.4pt x 2168.1pt>
+File: img/chapter02/manim-trig-series-graph.png Graphic file (type png)
+<use img/chapter02/manim-trig-series-graph.png>
+Package pdftex.def Info: img/chapter02/manim-trig-series-graph.png  used on inp
+ut line 332.
+(pdftex.def)             Requested size: 411.42686pt x 231.41208pt.
+LaTeX Info: Redefining \. on input line 336.
+LaTeX Info: Redefining \% on input line 336.
+ [22 <./img/chapter02/python-sympy-matplotlib.png>]
+<img/chapter02/manim-complex-series-graph.png, id=723, 3854.4pt x 2168.1pt>
+File: img/chapter02/manim-complex-series-graph.png Graphic file (type png)
+<use img/chapter02/manim-complex-series-graph.png>
+Package pdftex.def Info: img/chapter02/manim-complex-series-graph.png  used on 
+input line 339.
+(pdftex.def)             Requested size: 411.42686pt x 231.41208pt.
+
+Overfull \hbox (20.17781pt too wide) in paragraph at lines 348--348
 []|[]\OT1/cmr/bx/sc/12 SOFTWARE[]| 
  []
 
 
-Overfull \hbox (5.95143pt too wide) in paragraph at lines 203--203
+Overfull \hbox (8.45891pt too wide) in alignment at lines 346--349
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (20.17781pt too wide) in paragraph at lines 352--352
 []|[]\OT1/cmr/bx/sc/12 SOFTWARE[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
+Overfull \hbox (8.45891pt too wide) in alignment at lines 349--353
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (8.45891pt too wide) in alignment at lines 353--355
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (8.45891pt too wide) in alignment at lines 355--357
+ [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
 []|\OT1/cmr/m/n/12 Wolfram
  []
 
 
-Underfull \hbox (badness 4229) in paragraph at lines 209--209
-[]|\OT1/cmr/m/n/12 Se trata de un potente motor
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
+[]|\OT1/cmr/m/n/12 Funciones propias
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
-\OT1/cmr/m/n/12 comercial de conocimiento
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
+\OT1/cmr/m/n/12 Integrando, puede
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
-\OT1/cmr/m/n/12 computacional para c^^Salculos
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
+\OT1/cmr/m/n/12 obtener cualquier
  []
 
 
-Underfull \hbox (badness 1681) in paragraph at lines 209--209
-\OT1/cmr/m/n/12 matem^^Saticos y gr^^Saficos. Contiene
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
+[]|\OT1/cmr/m/n/12 Desde MXN
  []
 
 
-Underfull \hbox (badness 4366) in paragraph at lines 209--209
-\OT1/cmr/m/n/12 (Trigonom^^Setrica y compleja) as^^S^^P
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
+\TS1/cmr/m/n/12 $\OT1/cmr/m/n/12 1,200.00
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
-\OT1/cmr/m/n/12 como las extensiones pares e
- []
-
-
-Underfull \hbox (badness 4846) in paragraph at lines 209--209
-\OT1/cmr/m/n/12 la serie y obtener una gr^^Safica
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
 \OT1/cmr/m/n/12 anuales para
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
-\OT1/cmr/m/n/12 estudiantes, plan
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
+[]|\OT1/cmr/m/n/12 Interfaz amigable;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--210
-[]|\OT1/cmr/m/n/12 Herramienta din^^Samica para
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
+[]|\OT1/cmr/m/n/12 Puede calcular
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--210
-\OT1/cmr/m/n/12 construcciones geom^^Setricas y
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
+\OT1/cmr/m/n/12 coeficientes si
  []
 
 
-Underfull \hbox (badness 4752) in paragraph at lines 210--210
-\OT1/cmr/m/n/12 serie o extensi^^Son trigonom^^Setrica
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
+\OT1/cmr/m/n/12 integramos por
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--211
-[]|\OT1/cmr/m/n/12 Similar a Geogebra es una
+Underfull \hbox (badness 5077) in paragraph at lines 359--359
+\OT1/cmr/m/n/12 aparte; No muestra
  []
 
 
-Underfull \hbox (badness 1308) in paragraph at lines 211--211
-\OT1/cmr/m/n/12 calculadora gr^^Safica en l^^S^^Pnea para
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
+[]|\OT1/cmr/m/n/12 Planes b^^Sasicos
  []
 
 
-Underfull \hbox (badness 1502) in paragraph at lines 211--211
-\OT1/cmr/m/n/12 modo podemos graficar cualquier
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
+\OT1/cmr/m/n/12 gratuitos;
  []
 
 
-Underfull \hbox (badness 4752) in paragraph at lines 211--211
-\OT1/cmr/m/n/12 serie o extensi^^Son trigonom^^Setrica
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
+\OT1/cmr/m/n/12 suscripci^^Son
  []
 
 
-Underfull \hbox (badness 2486) in paragraph at lines 212--212
-\OT1/cmr/m/n/12 para visualizaciones matem^^Saticas,
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
+\OT1/cmr/m/n/12 mensual para
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--212
-\OT1/cmr/m/n/12 serie ya sea trigonom^^Setrica o
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
+\OT1/cmr/m/n/12 funciones
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--212
-\OT1/cmr/m/n/12 exponencial y poder animar
+Underfull \hbox (badness 10000) in paragraph at lines 360--360
+[]|\OT1/cmr/m/n/12 Potente para
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--212
-\OT1/cmr/m/n/12 de infinitas maneras el como
+Underfull \hbox (badness 10000) in paragraph at lines 360--360
+\OT1/cmr/m/n/12 realizar c^^Salculos
  []
 
 
-Underfull \hbox (badness 8094) in paragraph at lines 212--212
-\OT1/cmr/m/n/12 se aproxima la serie con sus
+Underfull \hbox (badness 10000) in paragraph at lines 360--360
+\OT1/cmr/m/n/12 y visualizaci^^Son
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--212
-\OT1/cmr/m/n/12 coeficientes. Requiere hacer los
+Underfull \hbox (badness 10000) in paragraph at lines 360--360
+[]|\OT1/cmr/m/n/12 Requiere
  []
 
 
-Underfull \hbox (badness 3872) in paragraph at lines 212--212
-\OT1/cmr/m/n/12 c^^Salculos, armar la expresi^^Son de
+Underfull \hbox (badness 3343) in paragraph at lines 360--360
+\OT1/cmr/m/n/12 de programaci^^Son en
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--213
-\OT1/cmr/m/n/12 realizar matem^^Saticas simb^^Solicas,
- []
-
-
-Underfull \hbox (badness 2452) in paragraph at lines 213--213
-\OT1/cmr/m/n/12 que incluye el c^^Salculo de series
- []
-
-
-Underfull \hbox (badness 5711) in paragraph at lines 213--213
-\OT1/cmr/m/n/12 de Fourier. A menudo se usa
- []
-
-
-Underfull \hbox (badness 2635) in paragraph at lines 213--213
-\OT1/cmr/m/n/12 en combinaci^^Son con librer^^S^^Pas de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--213
-\OT1/cmr/m/n/12 visualizaci^^Son como Matplotlib
- []
-
-
-Underfull \hbox (badness 1478) in paragraph at lines 213--213
-\OT1/cmr/m/n/12 para representar gr^^Saficamente los
- []
-
-
-Underfull \hbox (badness 3977) in paragraph at lines 213--213
-\OT1/cmr/m/n/12 resultados, pero de nuevo, esta
- []
-
-
-Underfull \hbox (badness 2573) in paragraph at lines 214--214
-[]|\OT1/cmr/m/n/12 Es un entorno de programaci^^Son
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 214--214
-\OT1/cmr/m/n/12 y visualizaci^^Son de datos, con
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 214--214
-\OT1/cmr/m/n/12 herramientas espec^^S^^Pficas para
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 214--214
-\OT1/cmr/m/n/12 series de Fourier, adem^^Sas de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 214--214
-\OT1/cmr/m/n/12 tener funciones para poder
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 214--214
+Underfull \hbox (badness 10000) in paragraph at lines 360--360
 []|\OT1/cmr/m/n/12 Desde USD\TS1/cmr/m/n/12 $\OT1/cmr/m/n/12 99
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--214
-\OT1/cmr/m/n/12 (aprox.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 214--214
-\OT1/cmr/m/n/12 MXN\TS1/cmr/m/n/12 $\OT1/cmr/m/n/12 1627.82)
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 214--214
+Underfull \hbox (badness 10000) in paragraph at lines 360--360
 \OT1/cmr/m/n/12 anuales para
  []
 
-LaTeX Info: Redefining \. on input line 216.
-LaTeX Info: Redefining \% on input line 216.
-[14]
-LaTeX Info: Redefining \. on input line 216.
-LaTeX Info: Redefining \% on input line 216.
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
+[]|\OT1/cmr/m/n/12 Puede calcular
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
+\OT1/cmr/m/n/12 cualquier coeficiente
+ []
+
+
+Underfull \hbox (badness 7963) in paragraph at lines 361--361
+\OT1/cmr/m/n/12 y graficar la serie
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
+[]|\OT1/cmr/m/n/12 Interfaz limitada
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
+\OT1/cmr/m/n/12 y menos intuitiva;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
+\OT1/cmr/m/n/12 Poco flexible al
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
+\OT1/cmr/m/n/12 usarlo; Requiere
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
+\OT1/cmr/m/n/12 conocimientos en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
+[]|\OT1/cmr/m/n/12 Planes de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
+\OT1/cmr/m/n/12 estudiantes y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
+\OT1/cmr/m/n/12 profesionales,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+[]|\OT1/cmr/m/n/12 Permite calcular
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+\OT1/cmr/m/n/12 cualquier coeficiente
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+\OT1/cmr/m/n/12 y expandirlo en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+\OT1/cmr/m/n/12 serie adem^^Sas de
+ []
+
+
+Underfull \hbox (badness 3838) in paragraph at lines 362--362
+\OT1/cmr/m/n/12 mostrar una gr^^Safica
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+\OT1/cmr/m/n/12 medianamente
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+\OT1/cmr/m/n/12 ser extremadamente
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+[]|\OT1/cmr/m/n/12 Interfaz limitada
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+\OT1/cmr/m/n/12 y menos intuitiva;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+\OT1/cmr/m/n/12 no tan popular,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+\OT1/cmr/m/n/12 menos soporte
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+\OT1/cmr/m/n/12 conocimientos en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+[]|\OT1/cmr/m/n/12 Gratuito, de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
+[]|\OT1/cmr/m/n/12 Gr^^Saficas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
+\OT1/cmr/m/n/12 extremadamente
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
+\OT1/cmr/m/n/12 din^^Samicas e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
+\OT1/cmr/m/n/12 interactivas; Puede
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
+\OT1/cmr/m/n/12 graficar cualquier
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
+[]|\OT1/cmr/m/n/12 Requiere realizar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
+\OT1/cmr/m/n/12 calcular los
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
+\OT1/cmr/m/n/12 coeficientes;
+ []
+
+
+Underfull \hbox (badness 2698) in paragraph at lines 363--363
+\OT1/cmr/m/n/12 Limitado a la serie
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
+\OT1/cmr/m/n/12 trigonom^^Setrica.;
+ []
+
+
+Underfull \hbox (badness 1990) in paragraph at lines 363--363
+\OT1/cmr/m/n/12 Pesado al hacer los
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
+[]|\OT1/cmr/m/n/12 Gratuito, de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
+[]|\OT1/cmr/m/n/12 Gr^^Saficas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
+\OT1/cmr/m/n/12 extremadamente
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
+\OT1/cmr/m/n/12 din^^Samicas e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
+\OT1/cmr/m/n/12 interactivas; Puede
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
+\OT1/cmr/m/n/12 graficar cualquier
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
+\OT1/cmr/m/n/12 serie trigonom^^Setrica;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
+[]|\OT1/cmr/m/n/12 Requiere c^^Salculos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
+\OT1/cmr/m/n/12 previos de los
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
+[]|\OT1/cmr/m/n/12 Gratuito, de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+[]|\OT1/cmr/m/n/12 Matplotlib
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+[]|\OT1/cmr/m/n/12 Permite calcular
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+\OT1/cmr/m/n/12 series exponenciales
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 365--365
+\OT1/cmr/m/n/12 y complejas, adem^^Sas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+\OT1/cmr/m/n/12 de mostrar una
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+[]|\OT1/cmr/m/n/12 Requiere
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+\OT1/cmr/m/n/12 conocimientos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+\OT1/cmr/m/n/12 de Python y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+\OT1/cmr/m/n/12 programaci^^Son
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+\OT1/cmr/m/n/12 avanzada; menos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+\OT1/cmr/m/n/12 intuitivo para
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+[]|\OT1/cmr/m/n/12 Gratuito, de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--366
+[]|\OT1/cmr/m/n/12 Puede graficar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--366
+\OT1/cmr/m/n/12 cualquier serie de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--366
+\OT1/cmr/m/n/12 Fourier mientras
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--366
+\OT1/cmr/m/n/12 conozcamos sus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--366
+\OT1/cmr/m/n/12 coeficientes y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--366
+\OT1/cmr/m/n/12 alta; requiere
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--366
+\OT1/cmr/m/n/12 conocimientos
+ []
+
+
+Underfull \hbox (badness 6063) in paragraph at lines 366--366
+\OT1/cmr/m/n/12 y Manim; Requiere
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--366
+\OT1/cmr/m/n/12 calcular la serie
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--366
+[]|\OT1/cmr/m/n/12 Gratuito, de
+ []
+
+
+Overfull \hbox (8.45891pt too wide) in alignment at lines 357--368
+ [] [] [] [] 
+ []
+
+LaTeX Info: Redefining \. on input line 368.
+LaTeX Info: Redefining \% on input line 368.
+[23 <./img/chapter02/manim-trig-series-graph.png> <./img/chapter02/manim-comple
+x-series-graph.png>]
+LaTeX Info: Redefining \. on input line 368.
+LaTeX Info: Redefining \% on input line 368.
+ [24])
+LaTeX Info: Redefining \. on input line 146.
+LaTeX Info: Redefining \% on input line 146.
 
 Overfull \hbox (2.31473pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/12 2.2.  COMPARATIVA DEL FUNCIONAMIENTO DE LAS HERRAMIENTAS \OT1/
-cmr/m/n/12 15
+cmr/m/n/12 25
  []
 
-[15])
-LaTeX Info: Redefining \. on input line 143.
-LaTeX Info: Redefining \% on input line 143.
- [16]
+[25]
 \openout2 = `chapters/chapter03/chapter03.aux'.
 
  (chapters/chapter03/chapter03.tex
 Cap\'{\i }tulo 3.
-[17
+[26
 
 
 
@@ -2196,10 +2655,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
 LaTeX Info: Redefining \. on input line 93.
 LaTeX Info: Redefining \% on input line 93.
-[18]
+[27]
 LaTeX Info: Redefining \. on input line 121.
 LaTeX Info: Redefining \% on input line 121.
- [19 <./figures/main-figure1.pdf>]
+ [28 <./figures/main-figure1.pdf>]
 Underfull \hbox (badness 1314) in paragraph at lines 126--127
 \OT1/cmr/m/n/12 de una cuerda puede obtenerse superponiendo modos vibratorios s
 imples
@@ -2213,28 +2672,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
 LaTeX Info: Redefining \. on input line 229.
 LaTeX Info: Redefining \% on input line 229.
-[20 <./figures/main-figure2.pdf>]
+[29 <./figures/main-figure2.pdf>]
 LaTeX Info: Redefining \. on input line 245.
 LaTeX Info: Redefining \% on input line 245.
- [21]
+ [30]
 ===== Image 'figures/main-figure3' is up-to-date. ======
 LaTeX Info: Redefining \. on input line 297.
 LaTeX Info: Redefining \% on input line 297.
-[22 <./figures/main-figure3.pdf>]
+[31 <./figures/main-figure3.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 338--339
 
  []
 
 LaTeX Info: Redefining \. on input line 339.
 LaTeX Info: Redefining \% on input line 339.
-[23]
+[32]
 Underfull \hbox (badness 10000) in paragraph at lines 347--348
 
  []
 
 LaTeX Info: Redefining \. on input line 362.
 LaTeX Info: Redefining \% on input line 362.
-[24]
+[33]
 ===== Image 'figures/main-figure4' is up-to-date. ======
 
 Overfull \hbox (13.32903pt too wide) in paragraph at lines 366--396
@@ -2249,7 +2708,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 405--407
 ===== Image 'figures/main-figure5' is up-to-date. ======
 LaTeX Info: Redefining \. on input line 471.
 LaTeX Info: Redefining \% on input line 471.
-[25 <./figures/main-figure4.pdf>]
+[34 <./figures/main-figure4.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 473--474
 
  []
@@ -2263,7 +2722,7 @@ Overfull \hbox (8.0676pt too wide) in paragraph at lines 479--540
 
 LaTeX Info: Redefining \. on input line 550.
 LaTeX Info: Redefining \% on input line 550.
-[26 <./figures/main-figure5.pdf> <./figures/main-figure6.pdf> <./figures/main-f
+[35 <./figures/main-figure5.pdf> <./figures/main-figure6.pdf> <./figures/main-f
 igure7.pdf>]
 ===== Image 'figures/main-figure8' is up-to-date. ======
 ===== Image 'figures/main-figure9' is up-to-date. ======
@@ -2280,7 +2739,7 @@ Overfull \hbox (33.6749pt too wide) in paragraph at lines 605--656
 
 LaTeX Info: Redefining \. on input line 667.
 LaTeX Info: Redefining \% on input line 667.
-[27 <./figures/main-figure8.pdf> <./figures/main-figure9.pdf> <./figures/main-f
+[36 <./figures/main-figure8.pdf> <./figures/main-figure9.pdf> <./figures/main-f
 igure10.pdf>]
 ===== Image 'figures/main-figure11' is up-to-date. ======
 
@@ -2302,7 +2761,7 @@ Overfull \hbox (12.33533pt too wide) in paragraph at lines 672--727
 ===== Image 'figures/main-figure13' is up-to-date. ======
 LaTeX Info: Redefining \. on input line 777.
 LaTeX Info: Redefining \% on input line 777.
-[28 <./figures/main-figure11.pdf> <./figures/main-figure12.pdf>]
+[37 <./figures/main-figure11.pdf> <./figures/main-figure12.pdf>]
 ===== Image 'figures/main-figure14' is up-to-date. ======
 ===== Image 'figures/main-figure15' is up-to-date. ======
 ===== Image 'figures/main-figure16' is up-to-date. ======
@@ -2313,11 +2772,11 @@ Overfull \hbox (12.33533pt too wide) in paragraph at lines 839--939
 
 LaTeX Info: Redefining \. on input line 941.
 LaTeX Info: Redefining \% on input line 941.
-[29 <./figures/main-figure13.pdf> <./figures/main-figure14.pdf>]
+[38 <./figures/main-figure13.pdf> <./figures/main-figure14.pdf>]
 ===== Image 'figures/main-figure17' is up-to-date. ======
 LaTeX Info: Redefining \. on input line 985.
 LaTeX Info: Redefining \% on input line 985.
-[30 <./figures/main-figure15.pdf> <./figures/main-figure16.pdf> <./figures/main
+[39 <./figures/main-figure15.pdf> <./figures/main-figure16.pdf> <./figures/main
 -figure17.pdf>]
 ===== Image 'figures/main-figure18' is up-to-date. ======
 ===== Image 'figures/main-figure19' is up-to-date. ======
@@ -2334,7 +2793,7 @@ l
 
 LaTeX Info: Redefining \. on input line 1080.
 LaTeX Info: Redefining \% on input line 1080.
-[31 <./figures/main-figure18.pdf> <./figures/main-figure19.pdf>]
+[40 <./figures/main-figure18.pdf> <./figures/main-figure19.pdf>]
 Underfull \hbox (badness 3780) in paragraph at lines 1087--1088
 []\OT1/cmr/m/n/12 Ahora, consideremos que tenemos conjuntos de funciones senoid
 ales y
@@ -2378,7 +2837,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 LaTeX Info: Redefining \. on input line 1117.
 LaTeX Info: Redefining \% on input line 1117.
-[32]
+[41]
 Overfull \hbox (12.10497pt too wide) detected at line 1130
 [][][]\OML/cmm/m/it/12 a[] \OT1/cmr/m/n/12 = [] [][] \OML/cmm/m/it/12 f\OT1/cmr
 /m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr/m/n/12 ) \OML/cmm/m/it/12 dt;  a[] \OT1/cmr
@@ -2397,7 +2856,7 @@ a arbitraria puede
 ===== Image 'figures/main-figure20' is up-to-date. ======
 LaTeX Info: Redefining \. on input line 1181.
 LaTeX Info: Redefining \% on input line 1181.
-[33 <./figures/main-figure20.pdf>]
+[42 <./figures/main-figure20.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 1187--1189
 
  []
@@ -2409,16 +2868,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 1212--1213
 
 LaTeX Info: Redefining \. on input line 1213.
 LaTeX Info: Redefining \% on input line 1213.
-[34]
+[43]
 ===== Image 'figures/main-figure21' is up-to-date. ======
 LaTeX Info: Redefining \. on input line 1272.
 LaTeX Info: Redefining \% on input line 1272.
-[35 <./figures/main-figure21.pdf>]
+[44 <./figures/main-figure21.pdf>]
 ===== Image 'figures/main-figure22' is up-to-date. ======
 ===== Image 'figures/main-figure23' is up-to-date. ======
 LaTeX Info: Redefining \. on input line 1376.
 LaTeX Info: Redefining \% on input line 1376.
-[36 <./figures/main-figure22.pdf>]
+[45 <./figures/main-figure22.pdf>]
 Overfull \hbox (10.68004pt too wide) detected at line 1384
 [][][]\OML/cmm/m/it/12 a[] \OT1/cmr/m/n/12 = [] [][] \OML/cmm/m/it/12 f\OT1/cmr
 /m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr/m/n/12 ) \OML/cmm/m/it/12 dt;  a[] \OT1/cmr
@@ -2430,7 +2889,7 @@ it/12 dt
 
 LaTeX Info: Redefining \. on input line 1409.
 LaTeX Info: Redefining \% on input line 1409.
-[37 <./figures/main-figure23.pdf>]
+[46 <./figures/main-figure23.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1429.
@@ -2462,7 +2921,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1442--1443
 
 LaTeX Info: Redefining \. on input line 1444.
 LaTeX Info: Redefining \% on input line 1444.
-[38]
+[47]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1450.
@@ -2482,14 +2941,20 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 ===== Image 'figures/main-figure24' is up-to-date. ======
 LaTeX Info: Redefining \. on input line 1515.
 LaTeX Info: Redefining \% on input line 1515.
-[39]
+[48]
 Underfull \hbox (badness 10000) in paragraph at lines 1517--1519
 
  []
 
 LaTeX Info: Redefining \. on input line 1520.
 LaTeX Info: Redefining \% on input line 1520.
-[40 <./figures/main-figure24.pdf>]
+
+Overfull \hbox (33.22702pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 3.3.  HERRAMIENTAS DIGITALES PARA LA ENSE[]NANZA DE MATEM[]ATI
+CAS \OT1/cmr/m/n/12 49
+ []
+
+[49 <./figures/main-figure24.pdf>]
 Underfull \hbox (badness 1616) in paragraph at lines 1526--1527
 \OT1/cmr/m/n/12 Grupos de trabajo en distintas ubicaciones pueden interactuar c
 on
@@ -2501,7 +2966,7 @@ Underfull \hbox (badness 1024) in paragraph at lines 1532--1533
 ctura
  []
 
-<img/chapter03/ui-web-arquitectura.png, id=1202, 458.71375pt x 163.61125pt>
+<img/chapter03/ui-web-arquitectura.png, id=1398, 458.71375pt x 163.61125pt>
 File: img/chapter03/ui-web-arquitectura.png Graphic file (type png)
 <use img/chapter03/ui-web-arquitectura.png>
 Package pdftex.def Info: img/chapter03/ui-web-arquitectura.png  used on input l
@@ -2512,11 +2977,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Info: Redefining \. on input line 1546.
 LaTeX Info: Redefining \% on input line 1546.
-[41]
+[50]
 LaTeX Info: Redefining \. on input line 1555.
 LaTeX Info: Redefining \% on input line 1555.
- [42 <./img/chapter03/ui-web-arquitectura.png>]
-<img/chapter03/node-architecture.png, id=1221, 1027.84pt x 578.16pt>
+ [51 <./img/chapter03/ui-web-arquitectura.png>]
+<img/chapter03/node-architecture.png, id=1417, 1027.84pt x 578.16pt>
 File: img/chapter03/node-architecture.png Graphic file (type png)
 <use img/chapter03/node-architecture.png>
 Package pdftex.def Info: img/chapter03/node-architecture.png  used on input lin
@@ -2524,10 +2989,10 @@ e 1572.
 (pdftex.def)             Requested size: 329.14275pt x 185.13849pt.
 LaTeX Info: Redefining \. on input line 1576.
 LaTeX Info: Redefining \% on input line 1576.
- [43]
+ [52]
 LaTeX Info: Redefining \. on input line 1599.
 LaTeX Info: Redefining \% on input line 1599.
- [44 <./img/chapter03/node-architecture.png>]
+ [53 <./img/chapter03/node-architecture.png>]
 Underfull \hbox (badness 2662) in paragraph at lines 1601--1602
 []\OT1/cmr/m/n/12 TypeScript es un superset de JavaScript que a~nade tipado est
 ^^Satico y
@@ -2551,7 +3016,7 @@ Underfull \hbox (badness 2035) in paragraph at lines 1605--1606
 un sistema de
  []
 
-<img/chapter03/API-architecture.jpg, id=1247, 752.8125pt x 338.76563pt>
+<img/chapter03/API-architecture.jpg, id=1441, 752.8125pt x 338.76563pt>
 File: img/chapter03/API-architecture.jpg Graphic file (type jpg)
 <use img/chapter03/API-architecture.jpg>
 Package pdftex.def Info: img/chapter03/API-architecture.jpg  used on input line
@@ -2559,10 +3024,10 @@ Package pdftex.def Info: img/chapter03/API-architecture.jpg  used on input line
 (pdftex.def)             Requested size: 329.14275pt x 148.11655pt.
 LaTeX Info: Redefining \. on input line 1615.
 LaTeX Info: Redefining \% on input line 1615.
-[45]
+[54]
 LaTeX Info: Redefining \. on input line 1627.
 LaTeX Info: Redefining \% on input line 1627.
- [46 <./img/chapter03/API-architecture.jpg>]
+ [55 <./img/chapter03/API-architecture.jpg>]
 Underfull \hbox (badness 1337) in paragraph at lines 1636--1637
 []\OT1/cmr/bx/sc/12 Consistencia y est^^Sandares. \OT1/cmr/m/n/12 Las aplicacio
 nes deben de seguir los
@@ -2570,7 +3035,7 @@ nes deben de seguir los
 
 LaTeX Info: Redefining \. on input line 1642.
 LaTeX Info: Redefining \% on input line 1642.
-[47]
+[56]
 Underfull \hbox (badness 1742) in paragraph at lines 1644--1645
 []\OT1/cmr/bx/sc/12 Dise~no est^^Setico y minimalista. \OT1/cmr/m/n/12 La aplia
 ci^^Son no debe de tener
@@ -2584,15 +3049,15 @@ Underfull \hbox (badness 1342) in paragraph at lines 1655--1656
 
 LaTeX Info: Redefining \. on input line 1661.
 LaTeX Info: Redefining \% on input line 1661.
-[48])
-LaTeX Info: Redefining \. on input line 144.
-LaTeX Info: Redefining \% on input line 144.
- [49]
+[57])
+LaTeX Info: Redefining \. on input line 147.
+LaTeX Info: Redefining \% on input line 147.
+ [58]
 \openout2 = `chapters/chapter04/chapter04.aux'.
 
  (chapters/chapter04/chapter04.tex
 Cap\'{\i }tulo 4.
-<img/chapter04/prototipo.png, id=1302, 295.1025pt x 316.18124pt>
+<img/chapter04/prototipo.png, id=1496, 295.1025pt x 316.18124pt>
 File: img/chapter04/prototipo.png Graphic file (type png)
 <use img/chapter04/prototipo.png>
 Package pdftex.def Info: img/chapter04/prototipo.png  used on input line 9.
@@ -2613,7 +3078,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
  []
 
-[50
+[59
 
 
 
@@ -2675,7 +3140,7 @@ Underfull \hbox (badness 5832) in paragraph at lines 33--33
 
 LaTeX Info: Redefining \. on input line 45.
 LaTeX Info: Redefining \% on input line 45.
-[51]
+[60]
 Underfull \hbox (badness 10000) in paragraph at lines 56--56
 []|\OT1/cmr/bx/sc/12 Prioridad de
  []
@@ -2712,7 +3177,7 @@ Underfull \hbox (badness 1436) in paragraph at lines 87--88
 
 LaTeX Info: Redefining \. on input line 92.
 LaTeX Info: Redefining \% on input line 92.
-[52]
+[61]
 Underfull \hbox (badness 10000) in paragraph at lines 102--102
 []|\OT1/cmr/bx/sc/12 Prioridad de
  []
@@ -2729,7 +3194,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--125
 
 LaTeX Info: Redefining \. on input line 138.
 LaTeX Info: Redefining \% on input line 138.
-[53]
+[62]
 Underfull \hbox (badness 10000) in paragraph at lines 147--147
 []|\OT1/cmr/bx/sc/12 Prioridad de
  []
@@ -2746,7 +3211,7 @@ Underfull \hbox (badness 1460) in paragraph at lines 174--175
 
 LaTeX Info: Redefining \. on input line 183.
 LaTeX Info: Redefining \% on input line 183.
-[54]
+[63]
 Underfull \hbox (badness 10000) in paragraph at lines 193--193
 []|\OT1/cmr/bx/sc/12 Prioridad de
  []
@@ -2778,7 +3243,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 222--223
 
 LaTeX Info: Redefining \. on input line 229.
 LaTeX Info: Redefining \% on input line 229.
-[55]
+[64]
 Underfull \hbox (badness 10000) in paragraph at lines 251--251
 []|\OT1/cmr/bx/sc/12 Rendimiento y
  []
@@ -2865,13 +3330,13 @@ Overfull \hbox (40.56445pt too wide) in alignment at lines 236--272
 
 LaTeX Info: Redefining \. on input line 272.
 LaTeX Info: Redefining \% on input line 272.
-[56])
-LaTeX Info: Redefining \. on input line 145.
-LaTeX Info: Redefining \% on input line 145.
- [57]
-LaTeX Info: Redefining \. on input line 145.
-LaTeX Info: Redefining \% on input line 145.
- [58]
+[65])
+LaTeX Info: Redefining \. on input line 148.
+LaTeX Info: Redefining \% on input line 148.
+ [66]
+LaTeX Info: Redefining \. on input line 148.
+LaTeX Info: Redefining \% on input line 148.
+ [67]
 \openout2 = `chapters/chapter05/chapter05.aux'.
 
  (chapters/chapter05/chapter05.tex
@@ -2880,7 +3345,7 @@ Cap\'{\i }tulo 5.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\newline' on input line 1.
 
-) [59
+) [68
 
 
 
@@ -2890,7 +3355,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
  (appendages/appendixA/appendixA.tex
 Ap\'{e}ndice A.
-[60
+[69
 
 
 
@@ -2898,10 +3363,10 @@ Ap\'{e}ndice A.
 ]
 LaTeX Info: Redefining \. on input line 115.
 LaTeX Info: Redefining \% on input line 115.
- [61])
-LaTeX Info: Redefining \. on input line 148.
-LaTeX Info: Redefining \% on input line 148.
- [62]
+ [70])
+LaTeX Info: Redefining \. on input line 151.
+LaTeX Info: Redefining \% on input line 151.
+ [71]
 \openout2 = `appendages/appendixB/appendixB.aux'.
 
  (appendages/appendixB/appendixB.tex
@@ -2909,75 +3374,323 @@ Ap\'{e}ndice B.
 \openout3 = `main.pyg'.
 
 (_minted-main/default.pygstyle)
-(_minted-main/C9F86087883A6CCF408560C28B819970729616B55BC37F12F938F36E56113BA7.
+(_minted-main/A9000A49F2EA1A3FC532472D1B7C6DDF729616B55BC37F12F938F36E56113BA7.
 pygtex
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 15.
- [63
+ [72
 
 
 
 
 ])
 Package hyperref Info: bookmark level for unknown listing defaults to 0 on inpu
-t line 37.
+t line 36.
 \openout3 = `main.pyg'.
 
 
-(_minted-main/63883718B7CF20F2C8A558B67F95582E729616B55BC37F12F938F36E56113BA7.
+(_minted-main/16016E94C4A71F7DEEFB040665DCBC13729616B55BC37F12F938F36E56113BA7.
 pygtex
 LaTeX Info: Redefining \. on input line 30.
 LaTeX Info: Redefining \% on input line 30.
- [64]))
-LaTeX Info: Redefining \. on input line 149.
-LaTeX Info: Redefining \% on input line 149.
- [65]
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
+
+Overfull \hbox (55.01881pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 B.2.  C[]ODIGO EN MATLAB PARA GRAFICAR LA SERIE DE FOURIER COM
+PLEJA \OT1/cmr/m/n/12 73
+ []
+
+[73])
+\openout3 = `main.pyg'.
+
+
+(_minted-main/D3793D41243694E5668E8D1D9A788387EC54AC137378CB14BB3564386F564849.
+pygtex
+LaTeX Info: Redefining \. on input line 28.
+LaTeX Info: Redefining \% on input line 28.
+ [74])
+Underfull \hbox (badness 1092) in paragraph at lines 142--142
+[]\OT1/cmr/m/n/12 C^^Sodigo 3: |C^^Sodigo en Maple para calcular y graficar la 
+serie de Fourier
+ []
+
+\openout3 = `main.pyg'.
+
+
+(_minted-main/DBE292EB1DACE8F6FCB97C15F19524D4EC54AC137378CB14BB3564386F564849.
+pygtex
+LaTeX Info: Redefining \. on input line 5.
+LaTeX Info: Redefining \% on input line 5.
+
+Overfull \hbox (27.77731pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 B.3.  C[]ODIGO EN MAPLE PARA LA SERIE DE FOURIER TRIGONOM[]ETR
+ICA \OT1/cmr/m/n/12 75
+ []
+
+[75]
+LaTeX Info: Redefining \. on input line 44.
+LaTeX Info: Redefining \% on input line 44.
+ [76])
+\openout3 = `main.pyg'.
+
+
+(_minted-main/F25E09F2F5F5346752D93ED97246D9708EF27FAE920C65D7B903E741E9673588.
+pygtex
+LaTeX Info: Redefining \. on input line 18.
+LaTeX Info: Redefining \% on input line 18.
+
+Overfull \hbox (37.06886pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 B.5.  C[]ODIGO EN MAXIMA PARA LA SERIE DE FOURIER TRIGONOM[]ET
+RICA \OT1/cmr/m/n/12 77
+ []
+
+[77])
+LaTeX Info: Redefining \. on input line 263.
+LaTeX Info: Redefining \% on input line 263.
+ [78]
+\openout3 = `main.pyg'.
+
+
+(_minted-main/F25E09F2F5F5346752D93ED97246D9708EF27FAE920C65D7B903E741E9673588.
+pygtex
+LaTeX Info: Redefining \. on input line 38.
+LaTeX Info: Redefining \% on input line 38.
+ [79])
+Underfull \hbox (badness 3568) in paragraph at lines 324--324
+|[]\OT1/cmr/bx/sc/17.28 C^^Sodigo en Python usando matplotlib
+ []
+
+
+Underfull \hbox (badness 7397) in paragraph at lines 324--324
+\OT1/cmr/bx/sc/17.28 y sympy para la serie de Fourier
+ []
+
+\openout3 = `main.pyg'.
+
+
+(_minted-main/87FD278DEA63FC927CED883BEF6A302D541C68F80C6A6F06151AFD63BAE50EBC.
+pygtex
+LaTeX Info: Redefining \. on input line 18.
+LaTeX Info: Redefining \% on input line 18.
+ [80])
+\openout3 = `main.pyg'.
+
+
+(_minted-main/AAF94705FE282DC6E86CD21CD703E333541C68F80C6A6F06151AFD63BAE50EBC.
+pygtex
+LaTeX Info: Redefining \. on input line 5.
+LaTeX Info: Redefining \% on input line 5.
+
+Overfull \hbox (230.07701pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 B.7.  C[]ODIGO EN PYTHON USANDO MATPLOTLIB Y SYMPY PARA LA SER
+IE DE FOURIER TRIGONOM[]ETRICA \OT1/cmr/m/n/12 81
+ []
+
+[81]
+LaTeX Info: Redefining \. on input line 36.
+LaTeX Info: Redefining \% on input line 36.
+ [82])
+\openout3 = `main.pyg'.
+
+
+(_minted-main/C9DAB9ACF02F561A61F15103811F2808541C68F80C6A6F06151AFD63BAE50EBC.
+pygtex
+Underfull \hbox (badness 4416) in paragraph at lines 1--1
+[] []\OT1/cmr/bx/sc/12 C^^Sodigo en Python usando manim para la serie de Fourie
+r
+ []
+
+LaTeX Info: Redefining \. on input line 31.
+LaTeX Info: Redefining \% on input line 31.
+
+Overfull \hbox (181.53862pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 B.8.  C[]ODIGO EN PYTHON USANDO MATPLOTLIB Y SYMPY PARA LA SER
+IE DE FOURIER COMPLEJA \OT1/cmr/m/n/12 83
+ []
+
+[83]
+Overfull \hbox (20.82335pt too wide) in paragraph at lines 59--59
+\OT1/cmtt/m/n/12 font_size[]=[][]15[])[].[]next_to(ejes[].[]x_axis[].[]n2p(x),D
+OWN[]*[][]0.4[]) 
+ []
+
+
+Overfull \hbox (125.7984pt too wide) in paragraph at lines 61--61
+\OT1/cmtt/m/n/12 font_size[]=[][]15[])[].[]next_to(ejes[].[]x_axis[].[]n2p(x),D
+OWN[]*[][]0.4[])[].[]shift(LEFT[]*[][]0.05[])|  
+ []
+
+LaTeX Info: Redefining \. on input line 64.
+LaTeX Info: Redefining \% on input line 64.
+[84]
+Overfull \hbox (20.82335pt too wide) in paragraph at lines 67--67
+\OT1/cmtt/m/n/12 font_size[]=[][]15[])[].[]next_to(ejes[].[]y_axis[].[]n2p(x),L
+EFT[]*[][]0.4[]) 
+ []
+
+
+Overfull \hbox (125.7984pt too wide) in paragraph at lines 69--69
+\OT1/cmtt/m/n/12 font_size[]=[][]15[])[].[]next_to(ejes[].[]y_axis[].[]n2p(x),L
+EFT[]*[][]0.4[])[].[]shift(LEFT[]*[][]0.05[])|  
+ []
+
+LaTeX Info: Redefining \. on input line 100.
+LaTeX Info: Redefining \% on input line 100.
+
+Overfull \hbox (181.53862pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 B.8.  C[]ODIGO EN PYTHON USANDO MATPLOTLIB Y SYMPY PARA LA SER
+IE DE FOURIER COMPLEJA \OT1/cmr/m/n/12 85
+ []
+
+[85]
+Overfull \hbox (64.04837pt too wide) in paragraph at lines 112--112
+\OT1/cmtt/m/n/12 ejes[].[]get_x_axis_label([]"t"[])[].[]next_to(ejes[].[]x_axis
+[].[]get_end(), 
+ []
+
+
+Overfull \hbox (82.57338pt too wide) in paragraph at lines 113--113
+\OT1/cmtt/m/n/12 ejes[].[]get_y_axis_label([]"f(t)"[])[].[]next_to(ejes[].[]y_a
+xis[].[]get_end(), 
+ []
+
+LaTeX Info: Redefining \. on input line 136.
+LaTeX Info: Redefining \% on input line 136.
+[86]
+LaTeX Info: Redefining \. on input line 176.
+LaTeX Info: Redefining \% on input line 176.
+
+Overfull \hbox (181.53862pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 B.8.  C[]ODIGO EN PYTHON USANDO MATPLOTLIB Y SYMPY PARA LA SER
+IE DE FOURIER COMPLEJA \OT1/cmr/m/n/12 87
+ []
+
+[87])
+\openout3 = `main.pyg'.
+
+
+(_minted-main/2DA61D8783027ACE82C4917F3379AE2D541C68F80C6A6F06151AFD63BAE50EBC.
+pygtex
+LaTeX Info: Redefining \. on input line 34.
+LaTeX Info: Redefining \% on input line 34.
+ [88]
+Overfull \hbox (20.82335pt too wide) in paragraph at lines 62--62
+\OT1/cmtt/m/n/12 font_size[]=[][]15[])[].[]next_to(ejes[].[]x_axis[].[]n2p(x),D
+OWN[]*[][]0.4[]) 
+ []
+
+
+Overfull \hbox (125.7984pt too wide) in paragraph at lines 64--64
+\OT1/cmtt/m/n/12 font_size[]=[][]15[])[].[]next_to(ejes[].[]x_axis[].[]n2p(x),D
+OWN[]*[][]0.4[])[].[]shift(LEFT[]*[][]0.05[])|  
+ []
+
+LaTeX Info: Redefining \. on input line 67.
+LaTeX Info: Redefining \% on input line 67.
+
+Overfull \hbox (181.53862pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 B.8.  C[]ODIGO EN PYTHON USANDO MATPLOTLIB Y SYMPY PARA LA SER
+IE DE FOURIER COMPLEJA \OT1/cmr/m/n/12 89
+ []
+
+[89]
+Overfull \hbox (20.82335pt too wide) in paragraph at lines 70--70
+\OT1/cmtt/m/n/12 font_size[]=[][]15[])[].[]next_to(ejes[].[]y_axis[].[]n2p(x),L
+EFT[]*[][]0.4[]) 
+ []
+
+
+Overfull \hbox (125.7984pt too wide) in paragraph at lines 72--72
+\OT1/cmtt/m/n/12 font_size[]=[][]15[])[].[]next_to(ejes[].[]y_axis[].[]n2p(x),L
+EFT[]*[][]0.4[])[].[]shift(LEFT[]*[][]0.05[])|  
+ []
+
+LaTeX Info: Redefining \. on input line 103.
+LaTeX Info: Redefining \% on input line 103.
+[90]
+Overfull \hbox (64.04837pt too wide) in paragraph at lines 112--112
+\OT1/cmtt/m/n/12 ejes[].[]get_x_axis_label([]"t"[])[].[]next_to(ejes[].[]x_axis
+[].[]get_end(), 
+ []
+
+
+Overfull \hbox (82.57338pt too wide) in paragraph at lines 113--113
+\OT1/cmtt/m/n/12 ejes[].[]get_y_axis_label([]"f(t)"[])[].[]next_to(ejes[].[]y_a
+xis[].[]get_end(), 
+ []
+
+LaTeX Info: Redefining \. on input line 139.
+LaTeX Info: Redefining \% on input line 139.
+
+Overfull \hbox (181.53862pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 B.8.  C[]ODIGO EN PYTHON USANDO MATPLOTLIB Y SYMPY PARA LA SER
+IE DE FOURIER COMPLEJA \OT1/cmr/m/n/12 91
+ []
+
+[91]
+LaTeX Info: Redefining \. on input line 177.
+LaTeX Info: Redefining \% on input line 177.
+ [92]))
+LaTeX Info: Redefining \. on input line 152.
+LaTeX Info: Redefining \% on input line 152.
+
+Overfull \hbox (181.53862pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 B.8.  C[]ODIGO EN PYTHON USANDO MATPLOTLIB Y SYMPY PARA LA SER
+IE DE FOURIER COMPLEJA \OT1/cmr/m/n/12 93
+ []
+
+[93]
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
 []\OT1/cmr/m/n/12 Wolfram | Alpha: Computational Intelligence. \OT1/cmr/m/it/12
  Fourier
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
-[]\OT1/cmr/m/n/12 Ettore Messina. \OT1/cmr/m/it/12 Fourier Series in Python\OT1
-/cmr/m/n/12 . []$\OT1/cmtt/m/n/12 https : / /
+Underfull \hbox (badness 1275) in paragraph at lines 156--156
+[]\OT1/cmr/m/n/12 Engineering Maplesoft - Software for Mathematics Online Learn
+ing.
  []
 
-[66
+[94
 
 
 
 
 ]
-Underfull \hbox (badness 8151) in paragraph at lines 153--153
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
+[]\OT1/cmr/m/n/12 Ettore Messina. \OT1/cmr/m/it/12 Fourier Series in Python\OT1
+/cmr/m/n/12 . []$\OT1/cmtt/m/n/12 https : / /
+ []
+
+
+Underfull \hbox (badness 8151) in paragraph at lines 156--156
 []\OT1/cmr/m/n/12 G. P. Tolstov. \OT1/cmr/m/it/12 Fourier Series\OT1/cmr/m/n/12
  . Prentice-Hall, Inc., 1962. \OT1/cmr/m/sc/12 isbn\OT1/cmr/m/n/12 :
  []
 
 Missing character: There is no Ã in font cmtt12!
 Missing character: There is no ­ in font cmtt12!
+LaTeX Info: Redefining \. on input line 156.
+LaTeX Info: Redefining \% on input line 156.
+[95]
 LaTeX Font Info:    Trying to load font information for U+lasy on input line 15
-3.
-(/home/sebastian/.miktex/texmfs/install/tex/latex/base/ulasy.fd
+6.
+ (/home/sebastian/.miktex/texmfs/install/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Info: Redefining \. on input line 153.
-LaTeX Info: Redefining \% on input line 153.
- [67]
-Underfull \hbox (badness 1215) in paragraph at lines 153--153
+Underfull \hbox (badness 1215) in paragraph at lines 156--156
 []\OT1/cmr/m/n/12 W3Schools.com. \OT1/cmr/m/it/12 CSS: Cascading Style Sheets |
  MDN\OT1/cmr/m/n/12 . []$\OT1/cmtt/m/n/12 https : / /
  []
 
-LaTeX Info: Redefining \. on input line 153.
-LaTeX Info: Redefining \% on input line 153.
-[68]
-LaTeX Info: Redefining \. on input line 154.
-LaTeX Info: Redefining \% on input line 154.
- [69] (main.aux
-LaTeX Info: Redefining \sptext on input line 14.
-LaTeX Info: Redefining \. on input line 14.
-LaTeX Info: Redefining \% on input line 14.
+LaTeX Info: Redefining \. on input line 156.
+LaTeX Info: Redefining \% on input line 156.
+[96]
+LaTeX Info: Redefining \. on input line 157.
+LaTeX Info: Redefining \% on input line 157.
+ [97] (main.aux
+LaTeX Info: Redefining \sptext on input line 15.
+LaTeX Info: Redefining \. on input line 15.
+LaTeX Info: Redefining \% on input line 15.
  (chapters/chapter01/chapter01.aux)
 (chapters/chapter02/chapter02.aux) (chapters/chapter03/chapter03.aux)
 (chapters/chapter04/chapter04.aux) (chapters/chapter05/chapter05.aux)
@@ -3009,13 +3722,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52137 strings out of 476305
- 1152702 string characters out of 5791965
- 2202684 words of memory out of 5000000
- 73007 multiletter control sequences out of 15000+600000
+ 53307 strings out of 476305
+ 1184580 string characters out of 5791965
+ 2253264 words of memory out of 5000000
+ 74053 multiletter control sequences out of 15000+600000
  569940 words of font info for 80 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 101i,17n,117p,1702b,2382s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,17n,117p,1702b,2409s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/sebastian/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcti
 1200.pk> </home/sebastian/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi60
 0/tcrm1200.pk></home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfon
@@ -3039,9 +3752,9 @@ exmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/sebastian/.miktex
 /texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb></home/sebastian/.mik
 tex/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt12.pfb></home/sebastian/.
 miktex/texmfs/install/fonts/type1/public/amsfonts/latxfont/lasy10.pfb>
-Output written on main.pdf (81 pages, 2119918 bytes).
+Output written on main.pdf (109 pages, 4223218 bytes).
 PDF statistics:
- 1928 PDF objects out of 2073 (max. 8388607)
- 345 named destinations out of 1000 (max. 500000)
- 1008 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2276 PDF objects out of 2487 (max. 8388607)
+ 415 named destinations out of 1000 (max. 500000)
+ 1181 words of extra memory for PDF output out of 10000 (max. 10000000)
 

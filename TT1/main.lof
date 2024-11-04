@@ -11,31 +11,49 @@
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Logotipo de Matlab.}}{12}{figure.caption.12}%
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Graficación de una serie trigonométrica de Fourier en Matlab}}{12}{figure.caption.13}%
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Graficación de una serie compleja de Fourier en Matlab}}{13}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Logotipo de Maple.}}{13}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Cálculos de coeficientes trigonométricos de Fourier en Maple}}{14}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Grafica de la serie de Fourier trigonométrica en Maple}}{14}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Cálculo del coeficiente complejo de Fourier en Maple}}{15}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Grafica de la serie de Fourier compleja en Maple}}{15}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Logotipo de Maxima.}}{16}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Cálculos de coeficientes trigonométricos de Fourier en Maxima}}{17}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Grafica de la serie de Fourier trigonométrica en Maxima}}{17}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Cálculos de coeficientes compleja de Fourier en Maxima}}{18}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Grafica de la serie de Fourier compleja en Maxima}}{18}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Logotipo de Geogebra.}}{19}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Logotipo de Desmos.}}{19}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Gráfica de la serie trigonométrica de Fourier en Geogebra}}{20}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.23}{\ignorespaces Gráfica de la serie trigonométrica de Fourier en Geogebra}}{20}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.24}{\ignorespaces Logo de Python}}{21}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.25}{\ignorespaces Gráfica de la serie trigonométrica y/o exponencial de Fourier en Python con Sympy y Matplotlib}}{22}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.26}{\ignorespaces Gráfica de la serie trigonométrica de Fourier en Python con Manim}}{23}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.27}{\ignorespaces Gráfica de la serie compleja de Fourier en Python con Manim}}{23}{figure.caption.31}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Ilustración del problema de la cuerda vibrante.}}{19}{figure.caption.15}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Ilustración de 3 armónicos y sus nodos de la cuerda al vibrar.}}{20}{figure.caption.16}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Ilustración del problema de transferencia de calor en una barra de longitud $\ell $. }}{22}{figure.caption.17}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Gráfica de una función periódica $f(t)$ con periodo $T$.}}{25}{figure.caption.18}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Gráfica del área bajo la curva de $f(t)$ entre los intervalos desde $a$ hasta $a + T$ y desde $b$ hasta $b + T$. }}{26}{figure.caption.19}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Gráfica de las funciones trigonométricas $sin(t)$ y $cos(t)$. }}{26}{figure.caption.20}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Función $sin(t)$ con diferentes frecuencias}}{27}{figure.caption.21}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Relación de la frecuencia angular entre la función $sin(t)$ con el circulo unitario.}}{27}{figure.caption.22}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Una función coseno y la misma función coseno desplazada hacia la izquierda por un ángulo $\varphi $.}}{28}{figure.caption.23}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Ejemplo de una función par}}{29}{figure.caption.24}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Ejemplo de una función impar}}{29}{figure.caption.25}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Comprobación de los teoremas f y g de funciones pares e impares }}{30}{figure.caption.26}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Ejemplo de una función suave}}{30}{figure.caption.27}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Ejemplo de una función suave a trozos completamente continua y una función a tozos con discontinuidades (saltos).}}{31}{figure.caption.28}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Gráfica de una función periódica \( f(t) \) con periodo \( T \), repitiéndose en intervalos de \( T, 2T, \) y \( 3T \).}}{33}{figure.caption.29}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Extensión par en cosenos de una función $f(t)$}}{35}{figure.caption.30}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Extensión impar en senos de una función $f(t)$}}{36}{figure.caption.31}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Extensión periódica de medio rango de una función $f(t)$}}{37}{figure.caption.32}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Aproximación de una función $f(t) = x$ con $-\pi < x < \pi $ en sus 50 primeros armónicos}}{40}{figure.caption.33}%
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Diagrama de una arquitectura cliente - servidor}}{42}{figure.caption.34}%
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Cómo procesa node.js las peticiones entrantes utilizando el bucle de eventos}}{44}{figure.caption.35}%
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Arquitectura general de una API.}}{46}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Ilustración del problema de la cuerda vibrante.}}{28}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Ilustración de 3 armónicos y sus nodos de la cuerda al vibrar.}}{29}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Ilustración del problema de transferencia de calor en una barra de longitud $\ell $. }}{31}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Gráfica de una función periódica $f(t)$ con periodo $T$.}}{34}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Gráfica del área bajo la curva de $f(t)$ entre los intervalos desde $a$ hasta $a + T$ y desde $b$ hasta $b + T$. }}{35}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Gráfica de las funciones trigonométricas $sin(t)$ y $cos(t)$. }}{35}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Función $sin(t)$ con diferentes frecuencias}}{36}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Relación de la frecuencia angular entre la función $sin(t)$ con el circulo unitario.}}{36}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Una función coseno y la misma función coseno desplazada hacia la izquierda por un ángulo $\varphi $.}}{37}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Ejemplo de una función par}}{38}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Ejemplo de una función impar}}{38}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Comprobación de los teoremas f y g de funciones pares e impares }}{39}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Ejemplo de una función suave}}{39}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Ejemplo de una función suave a trozos completamente continua y una función a tozos con discontinuidades (saltos).}}{40}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Gráfica de una función periódica \( f(t) \) con periodo \( T \), repitiéndose en intervalos de \( T, 2T, \) y \( 3T \).}}{42}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Extensión par en cosenos de una función $f(t)$}}{44}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Extensión impar en senos de una función $f(t)$}}{45}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Extensión periódica de medio rango de una función $f(t)$}}{46}{figure.caption.49}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Aproximación de una función $f(t) = x$ con $-\pi < x < \pi $ en sus 50 primeros armónicos}}{49}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Diagrama de una arquitectura cliente - servidor}}{51}{figure.caption.51}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Cómo procesa node.js las peticiones entrantes utilizando el bucle de eventos}}{53}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Arquitectura general de una API.}}{55}{figure.caption.53}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Etapas de la metodología por prototipos.}}{50}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Etapas de la metodología por prototipos.}}{59}{figure.caption.54}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

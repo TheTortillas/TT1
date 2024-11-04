@@ -1,17 +1,16 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'main.blg'
-[59] biber:340> INFO - === sáb nov  2, 2024, 16:45:09
-[71] Biber.pm:420> INFO - Reading 'main.bcf'
-[131] Biber.pm:994> INFO - Found 48 citekeys in bib section 0
-[141] Biber.pm:4463> INFO - Processing section 0
-[148] Biber.pm:4654> INFO - Looking for bibtex file './references.bib' for section 0
-[150] bibtex.pm:1713> INFO - LaTeX decoding ...
-[178] bibtex.pm:1519> INFO - Found BibTeX data source './references.bib'
-[350] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[350] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[350] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'es-ES'
-[366] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[376] bbl.pm:779> INFO - Output to main.bbl
-[376] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_Fc6p/33e59b5ca9ec342068223d604c3f8d55_22347.utf8, line 398, warning: 12 characters of junk seen at toplevel
-[376] Biber.pm:131> WARN - I didn't find a database entry for 'matlabIntegral' (section 0)
-[376] Biber.pm:133> INFO - WARNINGS: 2
+[45] biber:340> INFO - === dom nov  3, 2024, 21:30:10
+[56] Biber.pm:420> INFO - Reading 'main.bcf'
+[117] Biber.pm:994> INFO - Found 51 citekeys in bib section 0
+[126] Biber.pm:4463> INFO - Processing section 0
+[134] Biber.pm:4654> INFO - Looking for bibtex file './references.bib' for section 0
+[135] bibtex.pm:1713> INFO - LaTeX decoding ...
+[165] bibtex.pm:1519> INFO - Found BibTeX data source './references.bib'
+[342] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[342] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[342] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[362] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[373] bbl.pm:779> INFO - Output to main.bbl
+[373] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_ALyr/33e59b5ca9ec342068223d604c3f8d55_19586.utf8, line 433, warning: 12 characters of junk seen at toplevel
+[373] Biber.pm:133> INFO - WARNINGS: 1

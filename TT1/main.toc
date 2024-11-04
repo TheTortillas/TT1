@@ -19,83 +19,96 @@
 \contentsline {subsection}{\numberline {2.1.3}MATLAB}{11}{subsection.2.1.3}%
 \contentsline {subsubsection}{\numberline {2.1.3.1}Prueba Matlab}{12}{subsubsection.2.1.3.1}%
 \contentsline {subsection}{\numberline {2.1.4}Maple}{13}{subsection.2.1.4}%
-\contentsline {subsection}{\numberline {2.1.5}Maxima}{13}{subsection.2.1.5}%
-\contentsline {subsection}{\numberline {2.1.6}Geogebra / Desmos}{13}{subsection.2.1.6}%
-\contentsline {subsection}{\numberline {2.1.7}Python}{13}{subsection.2.1.7}%
-\contentsline {subsubsection}{\numberline {2.1.7.1}Sympy / Matplotlib}{14}{subsubsection.2.1.7.1}%
-\contentsline {subsubsection}{\numberline {2.1.7.2}Manim}{14}{subsubsection.2.1.7.2}%
-\contentsline {section}{\numberline {2.2}Comparativa del Funcionamiento de las Herramientas}{14}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Trabajos y Proyectos Relacionados}{16}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Marco Teórico}{17}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Origen e Historia}{17}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}El problema de la cuerda oscilante}{17}{subsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.1.1}D’Alambert y Euler}{18}{subsubsection.3.1.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.1.2}Bernoulli}{20}{subsubsection.3.1.1.2}%
-\contentsline {subsection}{\numberline {3.1.2}La ecuación de calor}{21}{subsection.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.1.2.1}Fourier}{21}{subsubsection.3.1.2.1}%
-\contentsline {section}{\numberline {3.2}Series de Fourier}{24}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Funciones Periódicas}{24}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Frecuencia}{26}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Armónicos}{28}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Funciones Pares e Impares}{28}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Funciones suaves y funciones suaves a trozos}{30}{subsection.3.2.5}%
-\contentsline {subsection}{\numberline {3.2.6}Funciones Ortogonales}{31}{subsection.3.2.6}%
-\contentsline {subsubsection}{\numberline {3.2.6.1}Ortogonalidad del seno y del coseno}{32}{subsubsection.3.2.6.1}%
-\contentsline {subsection}{\numberline {3.2.7}Serie Trigonométrica de Fourier}{32}{subsection.3.2.7}%
-\contentsline {subsubsection}{\numberline {3.2.7.1}Series de Fourier de Período $T$ o de $-p$ a $p$}{32}{subsubsection.3.2.7.1}%
-\contentsline {subsubsection}{\numberline {3.2.7.2}Criterios para funciones pares e impares}{34}{subsubsection.3.2.7.2}%
-\contentsline {subsection}{\numberline {3.2.8}Extensiones de Medio Intervalo}{35}{subsection.3.2.8}%
-\contentsline {subsubsection}{\numberline {3.2.8.1}Extensión Par (Serie de Cosenos)}{35}{subsubsection.3.2.8.1}%
-\contentsline {subsubsection}{\numberline {3.2.8.2}Extensión Impar (Serie de Senos)}{36}{subsubsection.3.2.8.2}%
-\contentsline {subsubsection}{\numberline {3.2.8.3}Extensión Periódica}{36}{subsubsection.3.2.8.3}%
-\contentsline {subsection}{\numberline {3.2.9}Serie Compleja de Fourier}{37}{subsection.3.2.9}%
-\contentsline {subsubsection}{\numberline {3.2.9.1}Serie Compleja de Fourier de Período $T$ o de $-p$ a $p$}{38}{subsubsection.3.2.9.1}%
-\contentsline {subsubsection}{\numberline {3.2.9.2}Serie Compleja de Fourier de $0$ a $L$}{39}{subsubsection.3.2.9.2}%
-\contentsline {subsection}{\numberline {3.2.10}Fenómeno de Gibbs}{39}{subsection.3.2.10}%
-\contentsline {section}{\numberline {3.3}Herramientas digitales para la enseñanza de Matemáticas}{40}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Aplicaciones Web}{41}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Componentes de una apliación web}{42}{subsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.1.1}HTML}{42}{subsubsection.3.4.1.1}%
-\contentsline {subsubsection}{\numberline {3.4.1.2}Canvas}{43}{subsubsection.3.4.1.2}%
-\contentsline {subsubsection}{\numberline {3.4.1.3}CSS}{43}{subsubsection.3.4.1.3}%
-\contentsline {subsubsection}{\numberline {3.4.1.4}JavaScript}{43}{subsubsection.3.4.1.4}%
-\contentsline {subsection}{\numberline {3.4.2}NodeJS}{43}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Maxima}{44}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}Angular}{44}{subsection.3.4.4}%
-\contentsline {subsubsection}{\numberline {3.4.4.1}TypeScript}{45}{subsubsection.3.4.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.4.2}Tailwind CSS}{45}{subsubsection.3.4.4.2}%
-\contentsline {subsection}{\numberline {3.4.5}API}{45}{subsection.3.4.5}%
-\contentsline {subsubsection}{\numberline {3.4.5.1}Protocolo HTTP}{46}{subsubsection.3.4.5.1}%
-\contentsline {subsubsection}{\numberline {3.4.5.2}REST}{46}{subsubsection.3.4.5.2}%
-\contentsline {subsection}{\numberline {3.4.6}Interfaz gráfica de usuario}{47}{subsection.3.4.6}%
-\contentsline {subsubsection}{\numberline {3.4.6.1}Principios de Usabilidad}{47}{subsubsection.3.4.6.1}%
-\contentsline {subsection}{\numberline {3.4.7}Seguridad en Aplicaciones Web}{48}{subsection.3.4.7}%
-\contentsline {subsubsection}{\numberline {3.4.7.1}Protocolo HTTPS}{48}{subsubsection.3.4.7.1}%
-\contentsline {subsubsection}{\numberline {3.4.7.2}Certificado SSL/TLS}{49}{subsubsection.3.4.7.2}%
-\contentsline {chapter}{\numberline {4}Análisis y Diseño del Sistema}{50}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Metodología de Desarrollo}{50}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}¿Por qué prototipos para este trabajo?}{51}{subsection.4.1.1}%
-\contentsline {section}{\numberline {4.2}Análisis de Requerimientos}{51}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Requerimientos Funcionales}{52}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Requerimientos No Funcionales}{56}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}Análisis de Riesgos}{58}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Identificación de Riesgos}{58}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Jerarquización de Riesgos}{58}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Estimación de Costos}{58}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Método de Estimación de Costos}{58}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Detalle de los Costos Estimados}{58}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}Diseño del Sistema}{58}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Arquitectura General del Sistema}{58}{subsection.4.5.1}%
-\contentsline {subsubsection}{\numberline {4.5.1.1}Arquitectura Cliente-Servidor}{58}{subsubsection.4.5.1.1}%
-\contentsline {subsubsection}{\numberline {4.5.1.2}Flujo de Datos}{58}{subsubsection.4.5.1.2}%
-\contentsline {subsection}{\numberline {4.5.2}Diseño de la Interfaz de Usuario}{58}{subsection.4.5.2}%
-\contentsline {subsubsection}{\numberline {4.5.2.1}Estructura de la Interfaz}{58}{subsubsection.4.5.2.1}%
-\contentsline {subsubsection}{\numberline {4.5.2.2}Prototipo de la Interfaz}{58}{subsubsection.4.5.2.2}%
-\contentsline {chapter}{\numberline {5}Implementación \newline (Primer Prototipo)}{59}{chapter.5}%
-\contentsline {chapter}{\numberline {A}Cálculos}{60}{appendix.Alph1}%
-\contentsline {section}{\numberline {A.1}Forma Trigonométrica}{60}{section.Alph1.1}%
-\contentsline {section}{\numberline {A.2}Forma Exponencial Compleja}{61}{section.Alph1.2}%
-\contentsline {chapter}{\numberline {B}Códigos}{63}{appendix.Alph2}%
-\contentsline {section}{\numberline {B.1}Código en Matlab para graficar la serie trigonométrica}{63}{section.Alph2.1}%
-\contentsline {section}{\numberline {B.2}Código en Matlab para graficar la serie compleja}{64}{section.Alph2.2}%
-\contentsline {chapter}{Bibliograf\'{\i }a}{66}{appendix*.40}%
+\contentsline {subsubsection}{\numberline {2.1.4.1}Prueba Maple}{14}{subsubsection.2.1.4.1}%
+\contentsline {subsection}{\numberline {2.1.5}Maxima}{15}{subsection.2.1.5}%
+\contentsline {subsubsection}{\numberline {2.1.5.1}Prueba Maxima}{16}{subsubsection.2.1.5.1}%
+\contentsline {subsection}{\numberline {2.1.6}Geogebra / Desmos}{18}{subsection.2.1.6}%
+\contentsline {subsubsection}{\numberline {2.1.6.1}Prueba Geogebra}{19}{subsubsection.2.1.6.1}%
+\contentsline {subsubsection}{\numberline {2.1.6.2}Prueba Desmos}{20}{subsubsection.2.1.6.2}%
+\contentsline {subsection}{\numberline {2.1.7}Python}{21}{subsection.2.1.7}%
+\contentsline {subsubsection}{\numberline {2.1.7.1}Sympy / Matplotlib}{21}{subsubsection.2.1.7.1}%
+\contentsline {subsubsection}{\numberline {2.1.7.2}Prueba Python con Sympy y Matplotlib}{21}{subsubsection.2.1.7.2}%
+\contentsline {subsubsection}{\numberline {2.1.7.3}Manim}{22}{subsubsection.2.1.7.3}%
+\contentsline {subsubsection}{\numberline {2.1.7.4}Prueba Python con Manim}{22}{subsubsection.2.1.7.4}%
+\contentsline {section}{\numberline {2.2}Comparativa del Funcionamiento de las Herramientas}{24}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Marco Teórico}{26}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Origen e Historia}{26}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}El problema de la cuerda oscilante}{26}{subsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.1}D’Alambert y Euler}{27}{subsubsection.3.1.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.2}Bernoulli}{29}{subsubsection.3.1.1.2}%
+\contentsline {subsection}{\numberline {3.1.2}La ecuación de calor}{30}{subsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.1}Fourier}{30}{subsubsection.3.1.2.1}%
+\contentsline {section}{\numberline {3.2}Series de Fourier}{33}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Funciones Periódicas}{33}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Frecuencia}{35}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Armónicos}{37}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Funciones Pares e Impares}{37}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Funciones suaves y funciones suaves a trozos}{39}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Funciones Ortogonales}{40}{subsection.3.2.6}%
+\contentsline {subsubsection}{\numberline {3.2.6.1}Ortogonalidad del seno y del coseno}{41}{subsubsection.3.2.6.1}%
+\contentsline {subsection}{\numberline {3.2.7}Serie Trigonométrica de Fourier}{41}{subsection.3.2.7}%
+\contentsline {subsubsection}{\numberline {3.2.7.1}Series de Fourier de Período $T$ o de $-p$ a $p$}{41}{subsubsection.3.2.7.1}%
+\contentsline {subsubsection}{\numberline {3.2.7.2}Criterios para funciones pares e impares}{43}{subsubsection.3.2.7.2}%
+\contentsline {subsection}{\numberline {3.2.8}Extensiones de Medio Intervalo}{44}{subsection.3.2.8}%
+\contentsline {subsubsection}{\numberline {3.2.8.1}Extensión Par (Serie de Cosenos)}{44}{subsubsection.3.2.8.1}%
+\contentsline {subsubsection}{\numberline {3.2.8.2}Extensión Impar (Serie de Senos)}{45}{subsubsection.3.2.8.2}%
+\contentsline {subsubsection}{\numberline {3.2.8.3}Extensión Periódica}{45}{subsubsection.3.2.8.3}%
+\contentsline {subsection}{\numberline {3.2.9}Serie Compleja de Fourier}{46}{subsection.3.2.9}%
+\contentsline {subsubsection}{\numberline {3.2.9.1}Serie Compleja de Fourier de Período $T$ o de $-p$ a $p$}{47}{subsubsection.3.2.9.1}%
+\contentsline {subsubsection}{\numberline {3.2.9.2}Serie Compleja de Fourier de $0$ a $L$}{48}{subsubsection.3.2.9.2}%
+\contentsline {subsection}{\numberline {3.2.10}Fenómeno de Gibbs}{48}{subsection.3.2.10}%
+\contentsline {section}{\numberline {3.3}Herramientas digitales para la enseñanza de Matemáticas}{49}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Aplicaciones Web}{50}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Componentes de una apliación web}{51}{subsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.1.1}HTML}{51}{subsubsection.3.4.1.1}%
+\contentsline {subsubsection}{\numberline {3.4.1.2}Canvas}{52}{subsubsection.3.4.1.2}%
+\contentsline {subsubsection}{\numberline {3.4.1.3}CSS}{52}{subsubsection.3.4.1.3}%
+\contentsline {subsubsection}{\numberline {3.4.1.4}JavaScript}{52}{subsubsection.3.4.1.4}%
+\contentsline {subsection}{\numberline {3.4.2}NodeJS}{52}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Maxima}{53}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Angular}{53}{subsection.3.4.4}%
+\contentsline {subsubsection}{\numberline {3.4.4.1}TypeScript}{54}{subsubsection.3.4.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.4.2}Tailwind CSS}{54}{subsubsection.3.4.4.2}%
+\contentsline {subsection}{\numberline {3.4.5}API}{54}{subsection.3.4.5}%
+\contentsline {subsubsection}{\numberline {3.4.5.1}Protocolo HTTP}{55}{subsubsection.3.4.5.1}%
+\contentsline {subsubsection}{\numberline {3.4.5.2}REST}{55}{subsubsection.3.4.5.2}%
+\contentsline {subsection}{\numberline {3.4.6}Interfaz gráfica de usuario}{56}{subsection.3.4.6}%
+\contentsline {subsubsection}{\numberline {3.4.6.1}Principios de Usabilidad}{56}{subsubsection.3.4.6.1}%
+\contentsline {subsection}{\numberline {3.4.7}Seguridad en Aplicaciones Web}{57}{subsection.3.4.7}%
+\contentsline {subsubsection}{\numberline {3.4.7.1}Protocolo HTTPS}{57}{subsubsection.3.4.7.1}%
+\contentsline {subsubsection}{\numberline {3.4.7.2}Certificado SSL/TLS}{58}{subsubsection.3.4.7.2}%
+\contentsline {chapter}{\numberline {4}Análisis y Diseño del Sistema}{59}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Metodología de Desarrollo}{59}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}¿Por qué prototipos para este trabajo?}{60}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}Análisis de Requerimientos}{60}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Requerimientos Funcionales}{61}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Requerimientos No Funcionales}{65}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Análisis de Riesgos}{67}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Identificación de Riesgos}{67}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Jerarquización de Riesgos}{67}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Estimación de Costos}{67}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Método de Estimación de Costos}{67}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Detalle de los Costos Estimados}{67}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}Diseño del Sistema}{67}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Arquitectura General del Sistema}{67}{subsection.4.5.1}%
+\contentsline {subsubsection}{\numberline {4.5.1.1}Arquitectura Cliente-Servidor}{67}{subsubsection.4.5.1.1}%
+\contentsline {subsubsection}{\numberline {4.5.1.2}Flujo de Datos}{67}{subsubsection.4.5.1.2}%
+\contentsline {subsection}{\numberline {4.5.2}Diseño de la Interfaz de Usuario}{67}{subsection.4.5.2}%
+\contentsline {subsubsection}{\numberline {4.5.2.1}Estructura de la Interfaz}{67}{subsubsection.4.5.2.1}%
+\contentsline {subsubsection}{\numberline {4.5.2.2}Prototipo de la Interfaz}{67}{subsubsection.4.5.2.2}%
+\contentsline {chapter}{\numberline {5}Implementación \newline (Primer Prototipo)}{68}{chapter.5}%
+\contentsline {chapter}{\numberline {A}Cálculos}{69}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}Forma Trigonométrica}{69}{section.Alph1.1}%
+\contentsline {section}{\numberline {A.2}Forma Exponencial Compleja}{70}{section.Alph1.2}%
+\contentsline {chapter}{\numberline {B}Códigos}{72}{appendix.Alph2}%
+\contentsline {section}{\numberline {B.1}Código en Matlab para graficar la serie de Fourier trigonométrica}{72}{section.Alph2.1}%
+\contentsline {section}{\numberline {B.2}Código en Matlab para graficar la serie de Fourier compleja}{73}{section.Alph2.2}%
+\contentsline {section}{\numberline {B.3}Código en Maple para la serie de Fourier trigonométrica}{74}{section.Alph2.3}%
+\contentsline {section}{\numberline {B.4}Código en Maple para la serie de Fourier Compleja}{76}{section.Alph2.4}%
+\contentsline {section}{\numberline {B.5}Código en Maxima para la serie de Fourier trigonométrica}{77}{section.Alph2.5}%
+\contentsline {section}{\numberline {B.6}Código en Maxima para la serie de Fourier compleja}{79}{section.Alph2.6}%
+\contentsline {section}{\numberline {B.7}Código en Python usando matplotlib y sympy para la serie de Fourier trigonométrica}{80}{section.Alph2.7}%
+\contentsline {section}{\numberline {B.8}Código en Python usando matplotlib y sympy para la serie de Fourier compleja}{82}{section.Alph2.8}%
+\contentsline {paragraph}{Código en Python usando manim para la serie de Fourier trigonométrica}{83}{paragraph*.63}%
+\contentsline {paragraph}{Código en Python usando Manim para la serie de Fourier compleja}{88}{paragraph*.65}%
+\contentsline {chapter}{Bibliograf\'{\i }a}{94}{appendix*.67}%

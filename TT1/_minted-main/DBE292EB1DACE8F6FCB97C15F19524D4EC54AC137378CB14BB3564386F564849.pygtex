@@ -1,0 +1,58 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{+w}{		}\PYG{c+c1}{\PYGZsh{} Declaramos n como entero}
+\PYG{+w}{		}\PYG{n+nf}{assume}\PYG{p}{(}\PYG{n}{n}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{integer}\PYG{p}{);}
+\PYG{+w}{		}
+\PYG{+w}{		}\PYG{c+c1}{\PYGZsh{} Definimos la función}
+\PYG{+w}{		}\PYG{n}{func}\PYG{+w}{ }\PYG{o}{:=}\PYG{+w}{ }\PYG{n}{x}\PYG{p}{;}
+\PYG{+w}{		}
+\PYG{+w}{		}\PYG{c+c1}{\PYGZsh{} Periodo de la serie de Fourier}
+\PYG{+w}{		}\PYG{n+nb+bp}{T}\PYG{+w}{ }\PYG{o}{:=}\PYG{+w}{ }\PYG{l+m}{2}\PYG{o}{*}\PYG{n}{Pi}\PYG{p}{;}
+\PYG{+w}{		}
+\PYG{+w}{		}\PYG{c+c1}{\PYGZsh{} Núcleos de las series de Fourier}
+\PYG{+w}{		}\PYG{n}{series\PYGZus{}cosine\PYGZus{}core}\PYG{+w}{ }\PYG{o}{:=}\PYG{+w}{ }\PYG{n+nf}{cos}\PYG{p}{(}\PYG{n}{n}\PYG{o}{*}\PYG{n}{Pi}\PYG{o}{*}\PYG{n}{x}\PYG{o}{/}\PYG{p}{(}\PYG{n+nb+bp}{T}\PYG{o}{/}\PYG{l+m}{2}\PYG{p}{));}
+\PYG{+w}{		}\PYG{n}{series\PYGZus{}sine\PYGZus{}core}\PYG{+w}{ }\PYG{o}{:=}\PYG{+w}{ }\PYG{n+nf}{sin}\PYG{p}{(}\PYG{n}{n}\PYG{o}{*}\PYG{n}{Pi}\PYG{o}{*}\PYG{n}{x}\PYG{o}{/}\PYG{p}{(}\PYG{n+nb+bp}{T}\PYG{o}{/}\PYG{l+m}{2}\PYG{p}{));}
+\PYG{+w}{		}
+\PYG{+w}{		}\PYG{c+c1}{\PYGZsh{} Coeficientes de Fourier}
+\PYG{+w}{		}\PYG{n}{a0}\PYG{+w}{ }\PYG{o}{:=}\PYG{+w}{ }\PYG{p}{(}\PYG{l+m}{1}\PYG{o}{/}\PYG{p}{(}\PYG{n+nb+bp}{T}\PYG{o}{/}\PYG{l+m}{2}\PYG{p}{))}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n+nf}{int}\PYG{p}{(}\PYG{n}{func}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{x}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{n+nb+bp}{T}\PYG{o}{/}\PYG{l+m}{2}\PYG{n}{..T}\PYG{o}{/}\PYG{l+m}{2}\PYG{p}{);}
+\PYG{+w}{		}\PYG{n}{an}\PYG{+w}{ }\PYG{o}{:=}\PYG{+w}{ }\PYG{p}{(}\PYG{l+m}{1}\PYG{o}{/}\PYG{p}{(}\PYG{n+nb+bp}{T}\PYG{o}{/}\PYG{l+m}{2}\PYG{p}{))}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n+nf}{int}\PYG{p}{(}\PYG{n}{func}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{series\PYGZus{}cosine\PYGZus{}core}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{x}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{n+nb+bp}{T}\PYG{o}{/}\PYG{l+m}{2}\PYG{n}{..T}\PYG{o}{/}\PYG{l+m}{2}\PYG{p}{);}
+\PYG{+w}{		}\PYG{n}{bn}\PYG{+w}{ }\PYG{o}{:=}\PYG{+w}{ }\PYG{p}{(}\PYG{l+m}{1}\PYG{o}{/}\PYG{p}{(}\PYG{n+nb+bp}{T}\PYG{o}{/}\PYG{l+m}{2}\PYG{p}{))}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n+nf}{int}\PYG{p}{(}\PYG{n}{func}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{series\PYGZus{}sine\PYGZus{}core}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{x}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{n+nb+bp}{T}\PYG{o}{/}\PYG{l+m}{2}\PYG{n}{..T}\PYG{o}{/}\PYG{l+m}{2}\PYG{p}{);}
+\PYG{+w}{		}
+\PYG{+w}{		}\PYG{c+c1}{\PYGZsh{} Simplificamos los coeficientes}
+\PYG{+w}{		}\PYG{n}{a0\PYGZus{}simp}\PYG{+w}{ }\PYG{o}{:=}\PYG{+w}{ }\PYG{n+nf}{simplify}\PYG{p}{(}\PYG{n}{a0}\PYG{p}{);}
+\PYG{+w}{		}\PYG{n}{an\PYGZus{}simp}\PYG{+w}{ }\PYG{o}{:=}\PYG{+w}{ }\PYG{n+nf}{simplify}\PYG{p}{(}\PYG{n}{an}\PYG{p}{);}
+\PYG{+w}{		}\PYG{n}{bn\PYGZus{}simp}\PYG{+w}{ }\PYG{o}{:=}\PYG{+w}{ }\PYG{n+nf}{simplify}\PYG{p}{(}\PYG{n}{bn}\PYG{p}{);}
+\PYG{+w}{		}
+\PYG{+w}{		}\PYG{c+c1}{\PYGZsh{} Factorizamos los coeficientes}
+\PYG{+w}{		}\PYG{n}{Coeff\PYGZus{}A0}\PYG{+w}{ }\PYG{o}{:=}\PYG{+w}{ }\PYG{n+nf}{factor}\PYG{p}{(}\PYG{n}{a0\PYGZus{}simp}\PYG{p}{);}
+\PYG{+w}{		}\PYG{n}{Coeff\PYGZus{}An}\PYG{+w}{ }\PYG{o}{:=}\PYG{+w}{ }\PYG{n+nf}{factor}\PYG{p}{(}\PYG{n}{an\PYGZus{}simp}\PYG{p}{);}
+\PYG{+w}{		}\PYG{n}{Coeff\PYGZus{}Bn}\PYG{+w}{ }\PYG{o}{:=}\PYG{+w}{ }\PYG{n+nf}{factor}\PYG{p}{(}\PYG{n}{bn\PYGZus{}simp}\PYG{p}{);}
+\PYG{+w}{		}
+\PYG{+w}{		}\PYG{c+c1}{\PYGZsh{} Definimos el rango de n positivo y negativo}
+\PYG{+w}{		}\PYG{n}{n1}\PYG{+w}{ }\PYG{o}{:=}\PYG{+w}{ }\PYG{l+m}{1}\PYG{p}{;}
+\PYG{+w}{		}\PYG{n}{n2}\PYG{+w}{ }\PYG{o}{:=}\PYG{+w}{ }\PYG{l+m}{5}\PYG{p}{;}
+\PYG{+w}{		}
+\PYG{+w}{		}\PYG{c+c1}{\PYGZsh{} Creamos la lista de An}
+\PYG{+w}{		}\PYG{n}{lista\PYGZus{}An}\PYG{+w}{ }\PYG{o}{:=}\PYG{+w}{ }\PYG{p}{[}\PYG{n+nf}{seq}\PYG{p}{(}\PYG{n+nf}{simplify}\PYG{p}{(}\PYG{n+nf}{subs}\PYG{p}{(}\PYG{n}{n}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{i}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{Coeff\PYGZus{}An}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{series\PYGZus{}cosine\PYGZus{}core}\PYG{p}{)),}\PYG{+w}{ }\PYG{n}{i}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{n1..n2}\PYG{p}{)];}
+\PYG{+w}{		}
+\PYG{+w}{		}\PYG{c+c1}{\PYGZsh{} Creamos la lista de Bn}
+\PYG{+w}{		}\PYG{n}{lista\PYGZus{}Bn}\PYG{+w}{ }\PYG{o}{:=}\PYG{+w}{ }\PYG{p}{[}\PYG{n+nf}{seq}\PYG{p}{(}\PYG{n+nf}{simplify}\PYG{p}{(}\PYG{n+nf}{subs}\PYG{p}{(}\PYG{n}{n}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{i}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{Coeff\PYGZus{}Bn}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{series\PYGZus{}sine\PYGZus{}core}\PYG{p}{)),}\PYG{+w}{ }\PYG{n}{i}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{n1..n2}\PYG{p}{)];}
+\PYG{+w}{		}
+\PYG{+w}{		}\PYG{c+c1}{\PYGZsh{} Sumamos los coeficientes An y Bn}
+\PYG{+w}{		}\PYG{n}{lista\PYGZus{}completa}\PYG{+w}{ }\PYG{o}{:=}\PYG{+w}{ }\PYG{n}{lista\PYGZus{}An}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{lista\PYGZus{}Bn}\PYG{p}{;}
+\PYG{+w}{		}
+\PYG{+w}{		}\PYG{c+c1}{\PYGZsh{} Crear la serie final añadiendo A0 al principio de la lista completa}
+\PYG{+w}{		}\PYG{n}{serie\PYGZus{}final}\PYG{+w}{ }\PYG{o}{:=}\PYG{+w}{ }\PYG{p}{[}\PYG{n}{Coeff\PYGZus{}A0}\PYG{o}{/}\PYG{l+m}{2}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{lista\PYGZus{}completa}\PYG{p}{];}
+\PYG{+w}{		}\PYG{n}{serie\PYGZus{}final}\PYG{+w}{ }\PYG{o}{:=}\PYG{+w}{ }\PYG{n+nf}{simplify}\PYG{p}{(}\PYG{n}{lista\PYGZus{}completa}\PYG{p}{);}
+\PYG{+w}{		}
+\PYG{+w}{		}\PYG{c+c1}{\PYGZsh{} Factorizamos la serie final}
+\PYG{+w}{		}\PYG{n}{serie\PYGZus{}factor}\PYG{+w}{ }\PYG{o}{:=}\PYG{+w}{ }\PYG{n+nf}{factor}\PYG{p}{(}\PYG{n}{serie\PYGZus{}final}\PYG{p}{);}
+\PYG{+w}{		}
+\PYG{+w}{		}\PYG{c+c1}{\PYGZsh{} Suma de todos los coeficientes en una sola variable}
+\PYG{+w}{		}\PYG{n}{serie\PYGZus{}funcion}\PYG{+w}{ }\PYG{o}{:=}\PYG{+w}{ }\PYG{n}{Coeff\PYGZus{}A0}\PYG{o}{/}\PYG{l+m}{2}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n+nf}{add}\PYG{p}{(}\PYG{n}{lista\PYGZus{}An}\PYG{p}{[}\PYG{n}{i}\PYG{p}{],}\PYG{+w}{ }\PYG{n}{i}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m}{1}\PYG{+w}{ }\PYG{n}{..}\PYG{+w}{ }\PYG{n+nf}{nops}\PYG{p}{(}\PYG{n}{lista\PYGZus{}An}\PYG{p}{))}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n+nf}{add}\PYG{p}{(}\PYG{n}{lista\PYGZus{}Bn}\PYG{p}{[}\PYG{n}{i}\PYG{p}{],}\PYG{+w}{ }\PYG{n}{i}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m}{1}\PYG{+w}{ }\PYG{n}{..}\PYG{+w}{ }\PYG{n+nf}{nops}\PYG{p}{(}\PYG{n}{lista\PYGZus{}Bn}\PYG{p}{));}
+\PYG{+w}{		}
+\PYG{+w}{		}\PYG{c+c1}{\PYGZsh{} Simplificamos la expresión para obtener la forma más compacta}
+\PYG{+w}{		}\PYG{n}{serie\PYGZus{}funcion\PYGZus{}simplificada}\PYG{+w}{ }\PYG{o}{:=}\PYG{+w}{ }\PYG{n+nf}{simplify}\PYG{p}{(}\PYG{n}{serie\PYGZus{}funcion}\PYG{p}{);}
+\PYG{+w}{		}
+\PYG{+w}{		}\PYG{c+c1}{\PYGZsh{} Graficamos la función y la serie aproximada}
+\PYG{+w}{		}\PYG{n+nf}{plot}\PYG{p}{([}\PYG{n}{func}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{serie\PYGZus{}funcion\PYGZus{}simplificada}\PYG{p}{],}\PYG{+w}{ }\PYG{n}{x}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{n+nb+bp}{T}\PYG{o}{/}\PYG{l+m}{2}\PYG{n}{..T}\PYG{o}{/}\PYG{l+m}{2}\PYG{p}{);}\PYG{+w}{	}
+\end{Verbatim}
