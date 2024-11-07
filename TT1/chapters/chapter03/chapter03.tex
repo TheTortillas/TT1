@@ -1,7 +1,7 @@
 \chapter{Marco Teórico}\label{ch:Marco Teórico}
-En este capítulo se presentará la teoría fundamental necesaria para el desarrollo de nuestra calculadora de series de Fourier. Comenzaremos explorando la historia y evolución de las series de Fourier, se detallarán las fórmulas matemáticas necesarias para comprender la descomposición de funciones periódicas en sumas de senos y cosenos, resaltando los conceptos de coeficientes de Fourier. Además, se analizarán las tecnologías que emplearemos en la implementación del proyecto, para asegurar un rendimiento óptimo en los cálculos y visualización de resultados.
+En este capítulo se presentará la teoría necesaria para el desarrollo de nuestra calculadora de series de Fourier. Comenzaremos explorando la historia y evolución de las series de Fourier, se detallarán las fórmulas matemáticas para comprender la descomposición de funciones periódicas en sumas de senos y cosenos, resaltando los conceptos de coeficientes de Fourier. Además, se presentan las tecnologías necesarias para la elaboración del proyecto.
 
-\section{Origen e Historia}
+\section{Origen e historia de las series de Fourier}
 Uno de los problemas del que se ocuparon los matemáticos del siglo XVIII es el que se conoce con el nombre del \textit{problema de la cuerda vibrante}. Este problema fue estudiado por D’Alambert y Euler (usando el método de propagación de las ondas) y un poco más tarde, concretamente en 1753, por Daniel Bernoulli. La solución dada por este difería de la proporcionada por los anteriores y consistió básicamente en expresar la solución del problema como superposición (en general infinita) de ondas sencillas. 
 
 Las ideas de Bernoulli fueron aplicadas y perfeccionadas por Fourier, en 1807, en el estudio de problemas relacionados con la conducción del calor. Quedaron plasmadas por escrito en el libro clásico \emph{Théorie analytique de la chaleur}, publicado en 1822. Los razonamientos realizados por Fourier en este libro plantearon de manera inmediata numerosas controversias y cuestiones que han tenido una influencia significativa en la historia de la Matemática ~\cite{historia-alambert-fourier-euler}.
@@ -658,12 +658,9 @@ La frecuencia angular se mide comúnmente en radianes por segundo (\( \text{rad/
 \end{figure}
 
 \subsection{Armónicos}
-La función periódica más simple, y la de mayor importancia para las aplicaciones, es
+La función periódica de mayor importancia es:
 \begin{equation}
-	\begin{split}
-		f(t) = A \sin(\omega_0 t + \varphi) \\
-		f(t) = A \cos(\omega_0 t + \varphi) 
-	\end{split}
+	f(t) = A \sin(\omega_0 t + \varphi) \quad \text{o} \quad f(t) = A \cos(\omega_0 t + \varphi)
 \end{equation}
 
 Cabe señalar que, dado que las funciones seno y coseno solo se diferencian por un deslizamiento de fase, este movimiento podría modelarse usando la función coseno o la función seno, en donde \(A\), \(\omega_0\), y \(\varphi\) son constantes. En una función armónica, la \textit{amplitud} \(A\) representa el valor máximo de la oscilación. La \textit{frecuencia angular} \(\omega_0\) determina la rapidez con la que se realiza la oscilación y viene dada por $\frac{2\pi}{T}$, recordando que $T$ es el periodo de la función, y la \textit{fase inicial} \(\varphi\) indica el desplazamiento de la función en el tiempo al inicio de la observación, es decir, indica con que desfase comienza. \ref{fig:fase-coseno} ~\cite{armonicosOpenStax}. 
@@ -729,7 +726,7 @@ Cabe señalar que, dado que las funciones seno y coseno solo se diferencian por 
 \end{figure}
 
 \subsection{Funciones Pares e Impares}
-Más adelante se verá como es que la paridad o imparidad de una función $f(t)$ muchas veces puede ahorrar diversos cálculos, comenzamos definiendo que una función es par si se cumple que: ~\cite{matesAvanzadasZill}
+Más adelante se verá como es que el hecho de que una función $f(t)$  sea par o impar puede ahorrar diversos cálculos, comenzamos definiendo que una función es par si se cumple que: ~\cite{matesAvanzadasZill}
 
 \begin{equation} \label{eq24}
 	f(t) = f(-t) , \quad -L < t < L
@@ -771,12 +768,11 @@ En la Figura \ref{fig:funcion-par} se muestra un ejemplo de una función para en
 			\addplot[guinda, ultra thick] {(x^2 - 2)};
 		\end{axis}
 	\end{tikzpicture}
-	\caption[Ejemplo de una función par]{Ejemplo de una función par. \textit{Fuente: Elaboración propia}}
+	\caption[Función $f(t) = t^{2}$, una función par.]{Función $f(t) = t^{2}$, una función par. \textit{Fuente: Elaboración propia}}
 	\label{fig:funcion-par}  % Etiqueta para la figura
 \end{figure}
 
 Ahora, decimos que una función es impar si se cumple que: ~\cite{matesAvanzadasZill}
-esquina
 \begin{equation} \label{eq25}
 	f(t) = - f(t) , \quad -L < t < L
 \end{equation}
@@ -821,10 +817,10 @@ En la Figura \ref{fig:funcion-impar} se muestra un ejemplo de una función para 
 			\addplot[guinda, ultra thick] {(x^3)};
 		\end{axis}
 	\end{tikzpicture}
-	\caption[Ejemplo de una función impar]{Ejemplo de una función impar. \textit{Fuente: Elaboración propia}}
+	\caption[Función $f(t) = t^{3}$, una función impar]{Función $f(t) = t^{3}$, una función impar. \textit{Fuente: Elaboración propia}}
 	\label{fig:funcion-impar}  % Etiqueta para la figura
 \end{figure}
-Podemos decir entonces que en un intervalo simétrico $-L < t < L$, la gráfica de una función par tiene simetría respecto al eje y, mientras que la gráfica de una función impar tiene simetría en relación con el origen. ADemás, las funciones pares e impares culpen con los siguientes teoremas ~\cite{matesAvanzadasZill}:
+Podemos decir entonces que en un intervalo simétrico $-L < t < L$, la gráfica de una función par tiene simetría respecto al eje y, mientras que la gráfica de una función impar tiene simetría en relación con el origen. Además, las funciones pares e impares culpen con los siguientes teoremas ~\cite{matesAvanzadasZill}:
 \begin{itemize}
 	\item[a)] El producto de dos funciones pares es par.
 	\item[b)] El producto de dos funciones impares es par.
@@ -936,7 +932,7 @@ En la Figura \ref{fig:areas-par-impar} podemos observar como es que se cumplen l
 			\end{axis}
 		\end{tikzpicture}
 	\end{minipage}
-	\caption[Comprobación de los teoremas f y g de funciones pares e impares ]{Comprobación de los teoremas f y g de funciones pares e impares \textit{Fuente: Elaboración propia}}
+	\caption[Ejemplo de los teoremas f y g de funciones pares e impares ]{Ejemplo de los teoremas f y g de funciones pares e impares \textit{Fuente: Elaboración propia}}
 	\label{fig:areas-par-impar}  % Etiqueta para la figura
 \end{figure}
 
@@ -1108,7 +1104,7 @@ Como ya vimos anteriormente, las series de Fourier, fueron introducidas por el m
 
 La idea fundamental detrás de las series de Fourier es descomponer una función periódica en términos de una suma infinita de funciones básicas, senos y cosenos, cuyas frecuencias son múltiplos de la frecuencia de la función original. La ortogonalidad de las funciones seno y coseno, usadas como "bases", es fundamental porque permite descomponer la función original en componentes que representan diferentes armónicos o frecuencias sin que estos interfieran entre sí, asegurando que cada término de la serie tenga una contribución bien definida. Esta descomposición permite analizar las propiedades de una función o señal y facilita la síntesis de objetos o fenómenos.
 
-\subsubsection{Series de Fourier de Período $T$ o de $-p$ a $p$}
+\subsubsection{Series de Fourier de una función con período $T$}
 
 Si $f(t)$ es una función periódica de periodo $T$ \ref{fig:func-periodica}, se puede expresar mediante una serie trigonométrica como:
 
@@ -1166,8 +1162,8 @@ donde también cambia un poco como se define nuestra frecuencia fundamental $\om
 			\addplot[guinda, ultra thick, domain=5:3, dashed] {( x-4 )};
 			
 			\draw[<->, ultra thick, red, dashdotted] (axis cs:-1,-1.5) -- (axis cs:1,-1.5)node[midway, below, black] {\large $\textbf{{$T$}}$};
-			\draw[<->, ultra thick, red, dashdotted] (axis cs:-3,-2.5) -- (axis cs:3,-2.5)node[midway, below, black] {\large $\textbf{{$2T$}}$};
-			\draw[<->, ultra thick, red, dashdotted] (axis cs:-5,-3.5) -- (axis cs:5,-3.5)node[midway, below, black] {\large $\textbf{{$3T$}}$};
+			\draw[<->, ultra thick, red, dashdotted] (axis cs:-3,-2.5) -- (axis cs:3,-2.5)node[midway, below, black] {\large $\textbf{{$3T$}}$};
+			\draw[<->, ultra thick, red, dashdotted] (axis cs:-5,-3.5) -- (axis cs:5,-3.5)node[midway, below, black] {\large $\textbf{{$5T$}}$};
 			
 		\end{axis}
 	\end{tikzpicture}
@@ -1227,7 +1223,7 @@ donde los coeficientes de Fourier cuando se mantienen igual \ref{eq28}, solo es 
 
 
 \subsection{Extensiones de Medio Intervalo}
-En la sección anterior observamos que para desarrollar una función $f(t)$ en una serie de Fourier debía estar declarada en un intervalo simétrico $-\frac{T}{2}$, $\frac{T}{2}$, sin embargo, en muchos casos nos interesa representar una función definida solamente para $0 < x < L$ mediante una serie trigonométrica estas se conocen como \textit{extensiones de medio rango}, entonces se está en libertad de asumir cuál será el comportamiento de la serie para este intervalo, recordando que  $\omega_0 = \frac{2\pi}{T} = \frac{\pi}{L}$ es la frecuencia angular fundamental. De aquí existen 3 posibilidades, asumir que la función es par, impar o periódica ~\cite{fourierCruzFierro}. 
+En la sección anterior observamos que para desarrollar una función $f(t)$ en una serie de Fourier debía estar declarada en un intervalo simétrico $-\frac{T}{2}$, $\frac{T}{2}$, sin embargo, en muchos casos nos interesa representar una función definida para $0 < x < T$, es decir, comenzando en 0, mediante una serie trigonométrica estas, se conocen como \textit{extensiones de medio rango}, recordando que  $\omega_0 = \frac{2\pi}{T}$ es la frecuencia angular fundamental. De aquí existen 3 posibilidades, asumir que la función a expandir en serie de Fourier es par, impar o periódica ~\cite{fourierCruzFierro}. 
 
 \subsubsection{Extensión Par (Serie de Cosenos)}
 La extensión par hace que la función sea simétrica respecto al eje y (Figura \ref{fig:serie-de-cosenos}), permitiendo extender el análisis a un intervalo completo de manera simétrica.
@@ -1242,7 +1238,7 @@ La extensión par hace que la función sea simétrica respecto al eje y (Figura 
 			xlabel={\Large $t$},
 			ylabel={\large $f(t)$},
 			xtick={-5,-4,-3,-2,-1,0,1,2,3,4,5},
-			xticklabels={$-5L$, $-4L$, $-3L$, $-2L$, $-L$, 0, $L$, $2L$, $3L$, $4L$, $5L$},
+			xticklabels={$-5T$, $-4T$, $-3T$, $-2T$, $-T$, 0, $T$, $2T$, $3T$, $4T$, $5T$},
 			xticklabel style={font=\normalsize},
 			ytick={ -1, 0, 1, 2}, % Gradación de 0.5 en 0.5 en el eje y
 			yticklabels=\empty,
@@ -1259,7 +1255,7 @@ La extensión par hace que la función sea simétrica respecto al eje y (Figura 
 			\addplot[guinda, ultra thick, domain=3:1, dashed] {( (x-2)^2  )};
 			\addplot[guinda, ultra thick, domain=5:3, dashed] {( (x-4)^2 )};
 			
-			\addplot[black, mark=*, mark size=3pt, only marks] coordinates {(-5,0) (-4,0) (-3,0) (-2,0) (-1,0) (0,0) (1,0) (2,0) (3,0) (4,0) (5,0)};
+%			\addplot[black, mark=*, mark size=3pt, only marks] coordinates {(-5,0) (-4,0) (-3,0) (-2,0) (-1,0) (0,0) (1,0) (2,0) (3,0) (4,0) (5,0)};
 		\end{axis}
 	\end{tikzpicture}
 		\caption[Extensión par en cosenos de una función $f(t)$]{Extensión par en cosenos de una función $f(t)$. \textit{Fuente: Elaboración propia}}
@@ -1273,7 +1269,7 @@ Para la extensión par, la serie de Fourier se define de la misma manera que cua
 
 Pero los coeficientes se verán afectados de la siguiente forma: ~\cite{fourierCruzFierro}
 \begin{equation}\label{eq33}
-	a_0 = \frac{2}{L} \int_{0}^{L} f(t) \, dt, \quad a_n = \frac{2}{L} \int_{0}^{L} f(t) \cos(n\omega_0 t) \, dt, \quad 
+	a_0 = \frac{2}{T} \int_{0}^{T} f(t) \, dt, \quad a_n = \frac{2}{T} \int_{0}^{T} f(t) \cos(n\omega_0 t) \, dt, \quad 
 \end{equation}
 
 \subsubsection{Extensión Impar (Serie de Senos)}
@@ -1290,7 +1286,7 @@ La extensión impar hace que la función sea simétrica respecto al origen (Figu
 			xlabel={\Large $t$},
 			ylabel={\large $f(t)$},
 			xtick={-5,-4,-3,-2,-1,0,1,2,3,4,5},
-			xticklabels={$-5L$, $-4L$, $-3L$, $-2L$, $-L$, 0, $L$, $2L$, $3L$, $4L$, $5L$},
+			xticklabels={$-5T$, $-4T$, $-3T$, $-2T$, $-T$, 0, $T$, $2T$, $3T$, $4T$, $5T$},
 			xticklabel style={font=\normalsize},
 			ytick={ -2, -1, 0, 1, 2}, % Gradación de 0.5 en 0.5 en el eje y
 			yticklabels=\empty,
@@ -1312,7 +1308,7 @@ La extensión impar hace que la función sea simétrica respecto al origen (Figu
 			\addplot[guinda, ultra thick, domain=3:4, dashed] {( -(x-4)^2  )};
 			\addplot[guinda, ultra thick, domain=4:5, dashed] {( (x-4)^2 )};
 			
-			\addplot[black, mark=*, mark size=3pt, only marks] coordinates {(-5,0) (-4,0) (-3,0) (-2,0) (-1,0) (0,0) (1,0) (2,0) (3,0) (4,0) (5,0)};
+			%\addplot[black, mark=*, mark size=3pt, only marks] coordinates {(-5,0) (-4,0) (-3,0) (-2,0) (-1,0) (0,0) (1,0) (2,0) (3,0) (4,0) (5,0)};
 		\end{axis}
 	\end{tikzpicture}
 	\caption[Extensión impar en senos de una función $f(t)$]{Extensión impar en cosenos de una función $f(t)$. \textit{Fuente: Elaboración propia}}
@@ -1326,7 +1322,7 @@ Para la extensión impar, la serie de Fourier se define de la misma manera que c
 
 Pero el coeficiente se verá afectado de la siguiente forma: ~\cite{fourierCruzFierro}
 \begin{equation}\label{eq35}
-	b_n = \frac{2}{L} \int_{-0}^{L} f(t) \cos(n\omega_0 t) \, dt \quad 
+	b_n = \frac{2}{T} \int_{0}^{T} f(t) \cos(n\omega_0 t) \, dt \quad 
 \end{equation}
 
 
@@ -1344,7 +1340,7 @@ La extensión periódica replica la función en intervalos sucesivos, creando un
 			xlabel={\Large $t$},
 			ylabel={\large $f(t)$},
 			xtick={-5,-4,-3,-2,-1,0,1,2,3,4,5},
-			xticklabels={$-5L$, $-4L$, $-3L$, $-2L$, $-L$, 0, $L$, $2L$, $3L$, $4L$, $5L$},
+			xticklabels={$-5T$, $-4T$, $-3T$, $-2T$, $-T$, 0, $T$, $2T$, $3T$, $4T$, $5T$},
 			xticklabel style={font=\normalsize},
 			ytick={ -2, -1, 0, 1, 2}, % Gradación de 0.5 en 0.5 en el eje y
 			yticklabels=\empty,
@@ -1366,21 +1362,21 @@ La extensión periódica replica la función en intervalos sucesivos, creando un
 			\addplot[guinda, ultra thick, domain=3:4, dashed] {( (x-3)^2  )};
 			\addplot[guinda, ultra thick, domain=4:5, dashed] {( (x-4)^2 )};
 			
-			\addplot[black, mark=*, mark size=3pt, only marks] coordinates {(-5,0.5) (-4,0.5) (-3,0.5) (-2,0.5) (-1,0.5) (0,0.5) (1,0.5) (2,0.5) (3,0.5) (4,0.5) (5,0.5)};
+			%\addplot[black, mark=*, mark size=3pt, only marks] coordinates {(-5,0.5) (-4,0.5) (-3,0.5) (-2,0.5) (-1,0.5) (0,0.5) (1,0.5) (2,0.5) (3,0.5) (4,0.5) (5,0.5)};
 		\end{axis}
 	\end{tikzpicture}
 	
 	\caption[Extensión periódica de medio rango de una función $f(t)$]{Extensión periódica de medio rango de una función $f(t)$. \textit{Fuente: Elaboración propia}}
 	\label{fig:extencion-periodica} 
 \end{figure}
-Para la extensión periódica, al no ser par ni impar, requerirá de los 3 coeficientes, y a diferencia de las extensiones par e impar, en esta tanto la serie como el calculo de los coeficientes tomarán una forma ligeramente diferente: ~\cite{fourierCruzFierro}
+Para la extensión periódica, al no ser par ni impar, requerirá de los 3 coeficientes, y a diferencia de las extensiones par e impar: ~\cite{fourierCruzFierro}
 \begin{equation}\label{eq36}
-	f(t) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[a_n \cos(2n\omega_0 t) + b_n \sin(2n\omega_0 t)\right],
+	f(t) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[a_n \cos(n\omega_0 t) + b_n \sin(n\omega_0 t)\right],
 \end{equation}
 
 
 \begin{equation}\label{eq37}
-	a_0 = \frac{2}{L} \int_{0}^{L} f(t) \, dt, \quad a_n = \frac{2}{L} \int_{0}^{L} f(t) \cos(2n\omega_0 t) \, dt, \quad b_n = \frac{2}{L} \int_{0}^{L} f(t) \sin(2n\omega_0 t) \, dt
+	a_0 = \frac{2}{T} \int_{0}^{T} f(t) \, dt, \quad a_n = \frac{2}{T} \int_{0}^{T} f(t) \cos(2n\omega_0 t) \, dt, \quad b_n = \frac{2}{T} \int_{0}^{T} f(t) \sin(n\omega_0 t) \, dt
 \end{equation}
 
 \subsection{Serie Compleja de Fourier}
@@ -1426,7 +1422,7 @@ donde $c_0 = \frac{1}{2} a_0$, $c_n = \frac{1}{2} (a_n - i b_n)$ y $c_{-n} = \fr
 Puesto que los subíndices de coeficientes y exponentes se encuentran en el rango de todo el conjunto de enteros no negativos… $-3, -2, -1, 0, 1, 2, 3, \dots$, podemos escribir los resultados de \eqref{eq39}, \eqref{eq40}, \eqref{eq41} y \eqref{eq42} de manera más compacta al sumar tanto enteros negativos como no negativos. En otras palabras, es posible utilizar \textit{una} suma y \textit{una} integral que defina todos los coeficientes $c_0$, $c_n$ y $c_{-n}$. ~\cite{matesAvanzadasZill}
 
 
-\subsubsection{Serie Compleja de Fourier de Período $T$ o de $-p$ a $p$}
+\subsubsection{Serie Compleja de Fourier de una función con período $T$}
 Si $f(t)$ es una función periódica de periodo $T$ \ref{fig:func-periodica}, se puede expresar mediante una serie exponencial compleja como: ~\cite{fourierHsu}
 \begin{equation}\label{eq45}
 	f(t) = c_0 + \sum_{\substack{n=-\infty \\ n \neq 0}}^{\infty} c_n e^{i n \omega_0 t}
@@ -1447,11 +1443,11 @@ Recordemos que otra forma en la que nos podemos encontrar la función $f(t)$ es 
 	c_n = \frac{1}{2p} \int_{-p}^{p} f(t) e^{-i n \omega_0 t} \ dt \quad c_0 = \frac{1}{2p} \int_{-p}^{p} f(t)\ dt 
 \end{equation}
 
-\subsubsection{Serie Compleja de Fourier de $0$ a $L$}
-Así como con la serie trigonométrica, también se puede obtener una extensión de medio intervalo usando la serie exponencial compleja, con la diferencia de que solo podemos obtener la extensión de medio rango periódica \ref{fig:extencion-periodica} de una función definida en el intervalo $0$ a $L$, ya que las extensiones par e impar se obtienen unicamente con componentes trigonométricos. Esta serie tiene la misma forma de \eqref{eq45}, pero los coeficientes quedan de la siguiente forma ~\cite{fourierCinvestav}
+\subsubsection{Serie Compleja de Fourier de $0$ a $T$}
+Así como con la serie trigonométrica, también se puede obtener una extensión de medio intervalo usando la serie exponencial compleja, con la diferencia de que solo podemos obtener la extensión de medio rango periódica \ref{fig:extencion-periodica} de una función definida en el intervalo $0$ a $T$, ya que las extensiones par e impar se obtienen unicamente con componentes trigonométricos. Esta serie tiene la misma forma de \eqref{eq45}, pero los coeficientes quedan de la siguiente forma ~\cite{fourierCinvestav}
 
 \begin{equation}\label{eq46}
-	c_n = \frac{1}{L} \int_{0}^{L} f(t) e^{-i n \omega_0 t} \ dt \quad c_0 = \frac{1}{L} \int_{0}^{L} f(t)\ dt 
+	c_n = \frac{1}{T} \int_{0}^{T} f(t) e^{-i n \omega_0 t} \ dt \quad c_0 = \frac{1}{T} \int_{0}^{T} f(t)\ dt 
 \end{equation}
 
 \subsection{Fenómeno de Gibbs}
@@ -1509,15 +1505,15 @@ Cuando una función dada se aproxima mediante una serie de Fourier, ya sea trigo
 		\spy on (spypoint) in node [fill=white] at (spyviewer);
 	\end{tikzpicture}
 	
-	\caption[Aproximación de una función $f(t) = x$ con $-\pi < x < \pi$ en sus 50 primeros armónicos]{Aproximación de una función $f(t) = x$ con $-\pi < x < \pi$ en sus 50 primeros armónicos. \textit{Fuente: Elaboración propia}}
+	\caption[Aproximación de una función $f(t) = t$ con $-\pi < xt < \pi$ en sus 50 primeros armónicos]{Aproximación de una función $f(t) = t$ con $-\pi < t < \pi$ en sus 50 primeros armónicos. \textit{Fuente: Elaboración propia}}
 	\label{fig:gibbs} 
 \end{figure}
 
-\section{Herramientas digitales para la enseñanza de Matemáticas}
-La educación básica sirve como fundamento para una vasta cantidad de conocimientos que luego benefician a los profesionales de un país en constante crecimiento y desarrollo. Este entorno demanda cada vez mayor preparación y dominio de saberes, debido a los continuos avances tecnológicos y científicos. En este contexto, las matemáticas se destacan como una ciencia presente en todos los aspectos de la vida diaria y, por lo tanto, una parte esencial de cualquier área del conocimiento, ya sea como objeto de estudio o como herramienta de verificación ~\cite{tesisHerramientasMatematicasAeljandroJimenez}.\newline
-Desafortunadamente, nuestra sociedad enfrenta un sistema educativo decadente y permisivo que prioriza más la cobertura y la gratuidad que el desarrollo de conocimientos prácticos para la vida de los jóvenes. Esta situación ha provocado que los estudiantes se desmotiven y adopten una actitud de facilismo, lo que obliga a los docentes a utilizar los medios tecnológicos disponibles para acercar el conocimiento a un gran número de alumnos. Sin embargo, aunque los estudiantes están motivados por los componentes tecnológicos, a menudo hacen un mal uso de ellos o no los conocen ~\cite{tesisHerramientasMatematicasAeljandroJimenez}.\newline
-
-En la compresión del lenguaje matemático, no basta con saber el algoritmo de memoria, se necesita que el estudiante contextualice la información y la aplique efectivamente en una situación problema, lo que evidentemente, no se puede lograr con tan solo la información, es necesario, que, mediante el uso adecuado de las TIC, el concepto matemático abstracto se formalice y materialice ~\cite{tesisHerramientasMatematicasAeljandroJimenez}. 
+%\section{Herramientas digitales para la enseñanza de Matemáticas}
+%La educación básica sirve como fundamento para una vasta cantidad de conocimientos que luego benefician a los profesionales de un país en constante crecimiento y desarrollo. Este entorno demanda cada vez mayor preparación y dominio de saberes, debido a los continuos avances tecnológicos y científicos. En este contexto, las matemáticas se destacan como una ciencia presente en todos los aspectos de la vida diaria y, por lo tanto, una parte esencial de cualquier área del conocimiento, ya sea como objeto de estudio o como herramienta de verificación ~\cite{tesisHerramientasMatematicasAeljandroJimenez}.\newline
+%Desafortunadamente, nuestra sociedad enfrenta un sistema educativo decadente y permisivo que prioriza más la cobertura y la gratuidad que el desarrollo de conocimientos prácticos para la vida de los jóvenes. Esta situación ha provocado que los estudiantes se desmotiven y adopten una actitud de facilismo, lo que obliga a los docentes a utilizar los medios tecnológicos disponibles para acercar el conocimiento a un gran número de alumnos. Sin embargo, aunque los estudiantes están motivados por los componentes tecnológicos, a menudo hacen un mal uso de ellos o no los conocen ~\cite{tesisHerramientasMatematicasAeljandroJimenez}.\newline
+%
+%En la compresión del lenguaje matemático, no basta con saber el algoritmo de memoria, se necesita que el estudiante contextualice la información y la aplique efectivamente en una situación problema, lo que evidentemente, no se puede lograr con tan solo la información, es necesario, que, mediante el uso adecuado de las TIC, el concepto matemático abstracto se formalice y materialice ~\cite{tesisHerramientasMatematicasAeljandroJimenez}. 
 
 \section{Aplicaciones Web}
 Una aplicación web es un software que se ejecuta desde un navegador web, como Google Chrome o Firefox. Estas aplicaciones no necesitan instalarse para poder ser utilizadas, ya que al ejecutarse sobre el navegador solo requiere de conexión a una red de internet, sino que se ejecutan en un servidor y se transmiten a través de Internet al navegador de nuestro dispositivo.

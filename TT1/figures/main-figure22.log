@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.24)  29 OCT 2024 12:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.24)  7 NOV 2024 12:24
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -174,166 +174,141 @@ Package: listings 2024/03/11 1.10a (Carsten Heinz)
 \jayDepth@mlpr=\skip53
 \sectionRuleOffset@mlpr=\skip54
 \toks@mlpr=\toks25
-) (ipnstyle.sty
-Package: ipnstyle 2023/09/30 Custom IPN LaTeX style
-(/home/sebastian/.miktex/texmfs/install/tex/latex/standalone/standalone.sty
-Package: standalone 2022/10/10 v1.3b Package to include TeX sub-files with prea
-mbles
-(/home/sebastian/.miktex/texmfs/install/tex/latex/tools/shellesc.sty
-Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
-Package shellesc Info: Unrestricted shell escape enabled on input line 75.
-) (/home/sebastian/.miktex/texmfs/install/tex/latex/currfile/currfile.sty
-Package: currfile 2024/03/14 v1.0 Provides the file path elements of the curren
-t input file
+) (/home/sebastian/.miktex/texmfs/install/tex/latex/minted/minted.sty
+Package: minted 2023/12/18 v2.9 Yet another Pygments shim for LaTeX
 (/home/sebastian/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 (/home/sebastian/.miktex/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 ) (/home/sebastian/.miktex/texmfs/install/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)) (/home/sebastian/.miktex/texmfs/install/tex/latex/filehook/filehook.sty
-Package: filehook 2022/10/25 v0.8b Hooks for input files
-(/home/sebastian/.miktex/texmfs/install/tex/latex/filehook/filehook-2020.sty
-Package: filehook-2020 2022/10/25 v0.8b Hooks for input files
-))
-\c@currfiledepth=\count281
-) (/home/sebastian/.miktex/texmfs/install/tex/latex/gincltex/gincltex.sty (/hom
-e/sebastian/.miktex/texmfs/install/tex/latex/svn-prov/svn-prov.sty
-Package: svn-prov 2010/04/24 v3.1862 Package Date/Version from SVN Keywords
+)) (/home/sebastian/.miktex/texmfs/install/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2024/05/16 v1.7.0 fvextra - extensions and patches for fancyvr
+b
+(/home/sebastian/.miktex/texmfs/install/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count281
+) (/home/sebastian/.miktex/texmfs/install/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
+\FV@CodeLineNo=\count282
+\FV@InFile=\read2
+\FV@TabBox=\box56
+\c@FancyVerbLine=\count283
+\FV@StepNumber=\count284
+\FV@OutFile=\write3
+) (/home/sebastian/.miktex/texmfs/install/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+) (/home/sebastian/.miktex/texmfs/install/tex/latex/lineno/lineno.sty
+Package: lineno 2023/05/20 line numbers on paragraphs v5.3
+\linenopenalty=\count285
+\output=\toks26
+\linenoprevgraf=\count286
+\linenumbersep=\dimen174
+\linenumberwidth=\dimen175
+\c@linenumber=\count287
+\c@pagewiselinenumber=\count288
+\c@LN@truepage=\count289
+\c@internallinenumber=\count290
+\c@internallinenumbers=\count291
+\quotelinenumbersep=\dimen176
+\bframerule=\dimen177
+\bframesep=\dimen178
+\bframebox=\box57
+LaTeX Info: Redefining \\ on input line 3180.
 )
-Package: gincltex 2011/09/04 v0.3 Include external LaTeX files like graphics
-\gincltex@box=\box56
-) (/home/sebastian/.miktex/texmfs/install/tex/latex/filemod/filemod-expmin.sty
-Package: filemod-expmin 2011/09/19 v1.2 Get and compare file modification times
- (expandable; minimal)
-))
-(/home/sebastian/.miktex/texmfs/install/tex/latex/algorithmicx/algpseudocode.st
-y
-Package: algpseudocode 
-(/home/sebastian/.miktex/texmfs/install/tex/latex/base/ifthen.sty
+\c@FancyVerbWriteLine=\count292
+\c@FancyVerbBufferIndex=\count293
+\c@FancyVerbBufferLength=\count294
+\c@FancyVerbBufferLine=\count295
+\c@FV@oldbufferlength=\count296
+\c@FV@TrueTabGroupLevel=\count297
+\c@FV@TrueTabCounter=\count298
+\FV@TabBox@Group=\box58
+\FV@TmpLength=\skip55
+\c@FV@HighlightLinesStart=\count299
+\c@FV@HighlightLinesStop=\count300
+\FV@LoopCount=\count301
+\FV@NCharsBox=\box59
+\FV@BreakIndent=\dimen179
+\FV@BreakIndentNChars=\count302
+\FV@BreakSymbolSepLeft=\dimen180
+\FV@BreakSymbolSepLeftNChars=\count303
+\FV@BreakSymbolSepRight=\dimen181
+\FV@BreakSymbolSepRightNChars=\count304
+\FV@BreakSymbolIndentLeft=\dimen182
+\FV@BreakSymbolIndentLeftNChars=\count305
+\FV@BreakSymbolIndentRight=\dimen183
+\FV@BreakSymbolIndentRightNChars=\count306
+\c@FancyVerbLineBreakLast=\count307
+\FV@LineBox=\box60
+\FV@LineIndentBox=\box61
+\c@FV@BreakBufferDepth=\count308
+\FV@LineWidth=\dimen184
+) (/home/sebastian/.miktex/texmfs/install/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (/home/sebastian/.miktex/texmfs/install/tex/latex/tools/shellesc.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+) (/home/sebastian/.miktex/texmfs/install/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
-(/home/sebastian/.miktex/texmfs/install/tex/latex/algorithmicx/algorithmicx.sty
-Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
-Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count282
-\c@ALG@rem=\count283
-\c@ALG@nested=\count284
-\ALG@tlm=\skip55
-\ALG@thistlm=\skip56
-\c@ALG@Lnr=\count285
-\c@ALG@blocknr=\count286
-\c@ALG@storecount=\count287
-\c@ALG@tmpcounter=\count288
-\ALG@tmplength=\skip57
+(/home/sebastian/.miktex/texmfs/install/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
-Document Style - pseudocode environments for use with the `algorithmicx' style
-) (/home/sebastian/.miktex/texmfs/install/tex/latex/algorithms/algorithm.sty
-Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
-nment
-(/home/sebastian/.miktex/texmfs/install/tex/latex/float/float.sty
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/home/sebastian/.miktex/texmfs/install/tex/generic/catchfile/catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)) (/home/sebastian/.miktex/texmfs/install/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+runsystem(uname -s > "figures/main-figure22.w18")...executed.
+
+(figures/main-figure22.w18)
+runsystem(rm -- "figures/main-figure22.w18")...executed.
+
+) (/home/sebastian/.miktex/texmfs/install/tex/latex/xstring/xstring.sty (/home/
+sebastian/.miktex/texmfs/install/tex/generic/xstring/xstring.tex
+\xs_counta=\count309
+\xs_countb=\count310
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+) (/home/sebastian/.miktex/texmfs/install/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip56
+\fb@frw=\dimen185
+\fb@frh=\dimen186
+\FrameRule=\dimen187
+\FrameSep=\dimen188
+) (/home/sebastian/.miktex/texmfs/install/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count289
-\float@exts=\toks26
-\float@box=\box57
-\@float@everytoks=\toks27
-\@floatcapt=\box58
+\c@float@type=\count311
+\float@exts=\toks27
+\float@box=\box62
+\@float@everytoks=\toks28
+\@floatcapt=\box63
 )
-\@float@every@algorithm=\toks28
-\c@algorithm=\count290
-) (/home/sebastian/.miktex/texmfs/install/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2023/05/13 v2.17o AMS math features
-\@mathmargin=\skip58
-For additional information on amsmath, use the `?' option.
-(/home/sebastian/.miktex/texmfs/install/tex/latex/amsmath/amstext.sty
-Package: amstext 2021/08/26 v2.01 AMS text
-(/home/sebastian/.miktex/texmfs/install/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks29
-\ex@=\dimen174
-)) (/home/sebastian/.miktex/texmfs/install/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen175
-) (/home/sebastian/.miktex/texmfs/install/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2022/04/08 v2.04 operator names
-)
-\inf@bad=\count291
-LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count292
-\leftroot@=\count293
-LaTeX Info: Redefining \overline on input line 399.
-LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count294
-\DOTSCASE@=\count295
-LaTeX Info: Redefining \ldots on input line 496.
-LaTeX Info: Redefining \dots on input line 499.
-LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box59
-\strutbox@=\box60
-LaTeX Info: Redefining \big on input line 722.
-LaTeX Info: Redefining \Big on input line 723.
-LaTeX Info: Redefining \bigg on input line 724.
-LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen176
-LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count296
-LaTeX Info: Redefining \bmod on input line 905.
-LaTeX Info: Redefining \pmod on input line 910.
-LaTeX Info: Redefining \smash on input line 940.
-LaTeX Info: Redefining \relbar on input line 970.
-LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count297
-\dotsspace@=\muskip16
-\c@parentequation=\count298
-\dspbrk@lvl=\count299
-\tag@help=\toks30
-\row@=\count300
-\column@=\count301
-\maxfields@=\count302
-\andhelp@=\toks31
-\eqnshift@=\dimen177
-\alignsep@=\dimen178
-\tagshift@=\dimen179
-\tagwidth@=\dimen180
-\totwidth@=\dimen181
-\lineht@=\dimen182
-\@envbody=\toks32
-\multlinegap=\skip59
-\multlinetaggap=\skip60
-\mathdisplay@stack=\toks33
-LaTeX Info: Redefining \[ on input line 2953.
-LaTeX Info: Redefining \] on input line 2954.
-) (/home/sebastian/.miktex/texmfs/install/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup4
-\symAMSb=\mathgroup5
-LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
-LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-) (/home/sebastian/.miktex/texmfs/install/tex/latex/amscls/amsthm.sty
-Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks34
-\thm@bodyfont=\toks35
-\thm@headfont=\toks36
-\thm@notefont=\toks37
-\thm@headpunct=\toks38
-\thm@preskip=\skip61
-\thm@postskip=\skip62
-\thm@headsep=\skip63
-\dth@everypar=\toks39
-) (/home/sebastian/.miktex/texmfs/install/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
-) (/home/sebastian/.miktex/texmfs/install/tex/latex/cancel/cancel.sty
-Package: cancel 2013/04/12 v2.2 Cancel math terms
+\minted@appexistsfile=\read3
+\minted@bgbox=\box64
+\minted@code=\write4
+\c@minted@FancyVerbLineTemp=\count312
+\c@minted@pygmentizecounter=\count313
+\@float@every@listing=\toks29
+\c@listing=\count314
 ) (/home/sebastian/.miktex/texmfs/install/tex/generic/babel/babel.sty
 Package: babel 2024/04/20 v24.4 The Babel package
-\babel@savecnt=\count303
-\U@D=\dimen183
+\babel@savecnt=\count315
+\U@D=\dimen189
 \l@unhyphenated=\language1
 (/home/sebastian/.miktex/texmfs/install/tex/generic/babel/txtbabel.def)
-\bbl@readstream=\read2
-\bbl@dirlevel=\count304
+\bbl@readstream=\read4
+\bbl@dirlevel=\count316
 *************************************
 * Local config file bblopts.cfg used
 *
@@ -349,8 +324,8 @@ Package babel Warning: No hyphenation patterns were preloaded for
 (babel)                rebuild the format. Now I will use the patterns
 (babel)                preloaded for \language=0 instead on input line 51.
 
-\es@quottoks=\toks40
-\es@quotdepth=\count305
+\es@quottoks=\toks30
+\es@quotdepth=\count317
 Package babel Info: Making " an active character on input line 570.
 Package babel Info: Making . an active character on input line 675.
 Package babel Info: Making < an active character on input line 722.
@@ -360,19 +335,150 @@ Package babel Info: Making > an active character on input line 722.
 sh.tex
 Package babel Info: Importing font and identification data for spanish
 (babel)             from babel-es.ini. Reported on input line 11.
+) (ipnstyle.sty
+Package: ipnstyle 2023/09/30 Custom IPN LaTeX style
+(/home/sebastian/.miktex/texmfs/install/tex/latex/standalone/standalone.sty
+Package: standalone 2022/10/10 v1.3b Package to include TeX sub-files with prea
+mbles
+(/home/sebastian/.miktex/texmfs/install/tex/latex/currfile/currfile.sty
+Package: currfile 2024/03/14 v1.0 Provides the file path elements of the curren
+t input file
+(/home/sebastian/.miktex/texmfs/install/tex/latex/filehook/filehook.sty
+Package: filehook 2022/10/25 v0.8b Hooks for input files
+(/home/sebastian/.miktex/texmfs/install/tex/latex/filehook/filehook-2020.sty
+Package: filehook-2020 2022/10/25 v0.8b Hooks for input files
+))
+\c@currfiledepth=\count318
+) (/home/sebastian/.miktex/texmfs/install/tex/latex/gincltex/gincltex.sty (/hom
+e/sebastian/.miktex/texmfs/install/tex/latex/svn-prov/svn-prov.sty
+Package: svn-prov 2010/04/24 v3.1862 Package Date/Version from SVN Keywords
+)
+Package: gincltex 2011/09/04 v0.3 Include external LaTeX files like graphics
+\gincltex@box=\box65
+) (/home/sebastian/.miktex/texmfs/install/tex/latex/filemod/filemod-expmin.sty
+Package: filemod-expmin 2011/09/19 v1.2 Get and compare file modification times
+ (expandable; minimal)
+))
+(/home/sebastian/.miktex/texmfs/install/tex/latex/algorithmicx/algpseudocode.st
+y
+Package: algpseudocode 
+
+(/home/sebastian/.miktex/texmfs/install/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count319
+\c@ALG@rem=\count320
+\c@ALG@nested=\count321
+\ALG@tlm=\skip57
+\ALG@thistlm=\skip58
+\c@ALG@Lnr=\count322
+\c@ALG@blocknr=\count323
+\c@ALG@storecount=\count324
+\c@ALG@tmpcounter=\count325
+\ALG@tmplength=\skip59
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/home/sebastian/.miktex/texmfs/install/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+\@float@every@algorithm=\toks31
+\c@algorithm=\count326
+) (/home/sebastian/.miktex/texmfs/install/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip60
+For additional information on amsmath, use the `?' option.
+(/home/sebastian/.miktex/texmfs/install/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+(/home/sebastian/.miktex/texmfs/install/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks32
+\ex@=\dimen190
+)) (/home/sebastian/.miktex/texmfs/install/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen191
+) (/home/sebastian/.miktex/texmfs/install/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count327
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count328
+\leftroot@=\count329
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count330
+\DOTSCASE@=\count331
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box66
+\strutbox@=\box67
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen192
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count332
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count333
+\dotsspace@=\muskip16
+\c@parentequation=\count334
+\dspbrk@lvl=\count335
+\tag@help=\toks33
+\row@=\count336
+\column@=\count337
+\maxfields@=\count338
+\andhelp@=\toks34
+\eqnshift@=\dimen193
+\alignsep@=\dimen194
+\tagshift@=\dimen195
+\tagwidth@=\dimen196
+\totwidth@=\dimen197
+\lineht@=\dimen198
+\@envbody=\toks35
+\multlinegap=\skip61
+\multlinetaggap=\skip62
+\mathdisplay@stack=\toks36
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+\linenoamsmath@ams@eqpen=\count339
+(/home/sebastian/.miktex/texmfs/install/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+) (/home/sebastian/.miktex/texmfs/install/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks37
+\thm@bodyfont=\toks38
+\thm@headfont=\toks39
+\thm@notefont=\toks40
+\thm@headpunct=\toks41
+\thm@preskip=\skip63
+\thm@postskip=\skip64
+\thm@headsep=\skip65
+\dth@everypar=\toks42
+) (/home/sebastian/.miktex/texmfs/install/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+) (/home/sebastian/.miktex/texmfs/install/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
 ) (/home/sebastian/.miktex/texmfs/install/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
-(/home/sebastian/.miktex/texmfs/install/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count306
-)
-\csq@reset=\count307
-\csq@gtype=\count308
-\csq@glevel=\count309
-\csq@qlevel=\count310
-\csq@maxlvl=\count311
-\csq@tshold=\count312
-\csq@ltx@everypar=\toks41
+\csq@reset=\count340
+\csq@gtype=\count341
+\csq@glevel=\count342
+\csq@qlevel=\count343
+\csq@maxlvl=\count344
+\csq@tshold=\count345
+\csq@ltx@everypar=\toks43
 (/home/sebastian/.miktex/texmfs/install/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
 )
@@ -382,81 +488,72 @@ Package csquotes Info: ... configuration file loaded successfully.
 File: csquotes.cfg 
 )) (/home/sebastian/.miktex/texmfs/install/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
-(/home/sebastian/.miktex/texmfs/install/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-(/home/sebastian/.miktex/texmfs/install/tex/generic/infwarerr/infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-) (/home/sebastian/.miktex/texmfs/install/tex/latex/logreq/logreq.sty
+(/home/sebastian/.miktex/texmfs/install/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count313
+\lrq@indent=\count346
 (/home/sebastian/.miktex/texmfs/install/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (/home/sebastian/.miktex/texmfs/install/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count314
-\c@listtotal=\count315
-\c@listcount=\count316
-\c@liststart=\count317
-\c@liststop=\count318
-\c@citecount=\count319
-\c@citetotal=\count320
-\c@multicitecount=\count321
-\c@multicitetotal=\count322
-\c@instcount=\count323
-\c@maxnames=\count324
-\c@minnames=\count325
-\c@maxitems=\count326
-\c@minitems=\count327
-\c@citecounter=\count328
-\c@maxcitecounter=\count329
-\c@savedcitecounter=\count330
-\c@uniquelist=\count331
-\c@uniquename=\count332
-\c@refsection=\count333
-\c@refsegment=\count334
-\c@maxextratitle=\count335
-\c@maxextratitleyear=\count336
-\c@maxextraname=\count337
-\c@maxextradate=\count338
-\c@maxextraalpha=\count339
-\c@abbrvpenalty=\count340
-\c@highnamepenalty=\count341
-\c@lownamepenalty=\count342
-\c@maxparens=\count343
-\c@parenlevel=\count344
-\blx@tempcnta=\count345
-\blx@tempcntb=\count346
-\blx@tempcntc=\count347
-\c@blx@maxsection=\count348
-\blx@maxsegment@0=\count349
-\blx@notetype=\count350
-\blx@parenlevel@text=\count351
-\blx@parenlevel@foot=\count352
-\blx@sectionciteorder@0=\count353
-\blx@sectionciteorderinternal@0=\count354
-\blx@entrysetcounter=\count355
-\blx@biblioinstance=\count356
-\labelnumberwidth=\skip64
-\labelalphawidth=\skip65
-\biblabelsep=\skip66
-\bibitemsep=\skip67
-\bibnamesep=\skip68
-\bibinitsep=\skip69
-\bibparsep=\skip70
-\bibhang=\skip71
-\blx@bcfin=\read3
-\blx@bcfout=\write3
+\c@tabx@nest=\count347
+\c@listtotal=\count348
+\c@listcount=\count349
+\c@liststart=\count350
+\c@liststop=\count351
+\c@citecount=\count352
+\c@citetotal=\count353
+\c@multicitecount=\count354
+\c@multicitetotal=\count355
+\c@instcount=\count356
+\c@maxnames=\count357
+\c@minnames=\count358
+\c@maxitems=\count359
+\c@minitems=\count360
+\c@citecounter=\count361
+\c@maxcitecounter=\count362
+\c@savedcitecounter=\count363
+\c@uniquelist=\count364
+\c@uniquename=\count365
+\c@refsection=\count366
+\c@refsegment=\count367
+\c@maxextratitle=\count368
+\c@maxextratitleyear=\count369
+\c@maxextraname=\count370
+\c@maxextradate=\count371
+\c@maxextraalpha=\count372
+\c@abbrvpenalty=\count373
+\c@highnamepenalty=\count374
+\c@lownamepenalty=\count375
+\c@maxparens=\count376
+\c@parenlevel=\count377
+\blx@tempcnta=\count378
+\blx@tempcntb=\count379
+\blx@tempcntc=\count380
+\c@blx@maxsection=\count381
+\blx@maxsegment@0=\count382
+\blx@notetype=\count383
+\blx@parenlevel@text=\count384
+\blx@parenlevel@foot=\count385
+\blx@sectionciteorder@0=\count386
+\blx@sectionciteorderinternal@0=\count387
+\blx@entrysetcounter=\count388
+\blx@biblioinstance=\count389
+\labelnumberwidth=\skip66
+\labelalphawidth=\skip67
+\biblabelsep=\skip68
+\bibitemsep=\skip69
+\bibnamesep=\skip70
+\bibinitsep=\skip71
+\bibparsep=\skip72
+\bibhang=\skip73
+\blx@bcfin=\read5
+\blx@bcfout=\write5
 \blx@langwohyphens=\language2
-\c@mincomprange=\count357
-\c@maxcomprange=\count358
-\c@mincompwidth=\count359
+\c@mincomprange=\count390
+\c@maxcomprange=\count391
+\c@mincompwidth=\count392
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 (/home/sebastian/.miktex/texmfs/install/tex/latex/biblatex/blx-dm.def
@@ -466,88 +563,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric-comp.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count360
-\c@savedafterword=\count361
-\c@annotator=\count362
-\c@savedannotator=\count363
-\c@author=\count364
-\c@savedauthor=\count365
-\c@bookauthor=\count366
-\c@savedbookauthor=\count367
-\c@commentator=\count368
-\c@savedcommentator=\count369
-\c@editor=\count370
-\c@savededitor=\count371
-\c@editora=\count372
-\c@savededitora=\count373
-\c@editorb=\count374
-\c@savededitorb=\count375
-\c@editorc=\count376
-\c@savededitorc=\count377
-\c@foreword=\count378
-\c@savedforeword=\count379
-\c@holder=\count380
-\c@savedholder=\count381
-\c@introduction=\count382
-\c@savedintroduction=\count383
-\c@namea=\count384
-\c@savednamea=\count385
-\c@nameb=\count386
-\c@savednameb=\count387
-\c@namec=\count388
-\c@savednamec=\count389
-\c@translator=\count390
-\c@savedtranslator=\count391
-\c@shortauthor=\count392
-\c@savedshortauthor=\count393
-\c@shorteditor=\count394
-\c@savedshorteditor=\count395
-\c@labelname=\count396
-\c@savedlabelname=\count397
-\c@institution=\count398
-\c@savedinstitution=\count399
-\c@lista=\count400
-\c@savedlista=\count401
-\c@listb=\count402
-\c@savedlistb=\count403
-\c@listc=\count404
-\c@savedlistc=\count405
-\c@listd=\count406
-\c@savedlistd=\count407
-\c@liste=\count408
-\c@savedliste=\count409
-\c@listf=\count410
-\c@savedlistf=\count411
-\c@location=\count412
-\c@savedlocation=\count413
-\c@organization=\count414
-\c@savedorganization=\count415
-\c@origlocation=\count416
-\c@savedoriglocation=\count417
-\c@origpublisher=\count418
-\c@savedorigpublisher=\count419
-\c@publisher=\count420
-\c@savedpublisher=\count421
-\c@language=\count422
-\c@savedlanguage=\count423
-\c@origlanguage=\count424
-\c@savedoriglanguage=\count425
-\c@pageref=\count426
-\c@savedpageref=\count427
-\shorthandwidth=\skip72
-\shortjournalwidth=\skip73
-\shortserieswidth=\skip74
-\shorttitlewidth=\skip75
-\shortauthorwidth=\skip76
-\shorteditorwidth=\skip77
-\locallabelnumberwidth=\skip78
-\locallabelalphawidth=\skip79
-\localshorthandwidth=\skip80
-\localshortjournalwidth=\skip81
-\localshortserieswidth=\skip82
-\localshorttitlewidth=\skip83
-\localshortauthorwidth=\skip84
-\localshorteditorwidth=\skip85
+\c@afterword=\count393
+\c@savedafterword=\count394
+\c@annotator=\count395
+\c@savedannotator=\count396
+\c@author=\count397
+\c@savedauthor=\count398
+\c@bookauthor=\count399
+\c@savedbookauthor=\count400
+\c@commentator=\count401
+\c@savedcommentator=\count402
+\c@editor=\count403
+\c@savededitor=\count404
+\c@editora=\count405
+\c@savededitora=\count406
+\c@editorb=\count407
+\c@savededitorb=\count408
+\c@editorc=\count409
+\c@savededitorc=\count410
+\c@foreword=\count411
+\c@savedforeword=\count412
+\c@holder=\count413
+\c@savedholder=\count414
+\c@introduction=\count415
+\c@savedintroduction=\count416
+\c@namea=\count417
+\c@savednamea=\count418
+\c@nameb=\count419
+\c@savednameb=\count420
+\c@namec=\count421
+\c@savednamec=\count422
+\c@translator=\count423
+\c@savedtranslator=\count424
+\c@shortauthor=\count425
+\c@savedshortauthor=\count426
+\c@shorteditor=\count427
+\c@savedshorteditor=\count428
+\c@labelname=\count429
+\c@savedlabelname=\count430
+\c@institution=\count431
+\c@savedinstitution=\count432
+\c@lista=\count433
+\c@savedlista=\count434
+\c@listb=\count435
+\c@savedlistb=\count436
+\c@listc=\count437
+\c@savedlistc=\count438
+\c@listd=\count439
+\c@savedlistd=\count440
+\c@liste=\count441
+\c@savedliste=\count442
+\c@listf=\count443
+\c@savedlistf=\count444
+\c@location=\count445
+\c@savedlocation=\count446
+\c@organization=\count447
+\c@savedorganization=\count448
+\c@origlocation=\count449
+\c@savedoriglocation=\count450
+\c@origpublisher=\count451
+\c@savedorigpublisher=\count452
+\c@publisher=\count453
+\c@savedpublisher=\count454
+\c@language=\count455
+\c@savedlanguage=\count456
+\c@origlanguage=\count457
+\c@savedoriglanguage=\count458
+\c@pageref=\count459
+\c@savedpageref=\count460
+\shorthandwidth=\skip74
+\shortjournalwidth=\skip75
+\shortserieswidth=\skip76
+\shorttitlewidth=\skip77
+\shortauthorwidth=\skip78
+\shorteditorwidth=\skip79
+\locallabelnumberwidth=\skip80
+\locallabelalphawidth=\skip81
+\localshorthandwidth=\skip82
+\localshortjournalwidth=\skip83
+\localshortserieswidth=\skip84
+\localshorttitlewidth=\skip85
+\localshortauthorwidth=\skip86
+\localshorteditorwidth=\skip87
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 (/home/sebastian/.miktex/texmfs/install/tex/latex/biblatex/blx-compat.def
@@ -557,19 +654,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 (/home/sebastian/.miktex/texmfs/install/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
-\c@textcitecount=\count428
-\c@textcitetotal=\count429
-\c@textcitemaxnames=\count430
-\c@biburlbigbreakpenalty=\count431
-\c@biburlbreakpenalty=\count432
-\c@biburlnumpenalty=\count433
-\c@biburlucpenalty=\count434
-\c@biburllcpenalty=\count435
+\c@textcitecount=\count461
+\c@textcitetotal=\count462
+\c@textcitemaxnames=\count463
+\c@biburlbigbreakpenalty=\count464
+\c@biburlbreakpenalty=\count465
+\c@biburlnumpenalty=\count466
+\c@biburlucpenalty=\count467
+\c@biburllcpenalty=\count468
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count436
+\c@smartand=\count469
 )
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
@@ -584,18 +681,18 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 (/home/sebastian/.miktex/texmfs/install/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count437
-\c@bbx:relatedtotal=\count438
+\c@bbx:relatedcount=\count470
+\c@bbx:relatedtotal=\count471
 )))
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
 (/home/sebastian/.miktex/texmfs/install/tex/latex/biblatex/cbx/numeric-comp.cbx
 File: numeric-comp.cbx 2024/03/21 v3.20 biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count439
-\c@cbx@tempcntb=\count440
-\c@cbx@tempcntc=\count441
-\c@cbx@tempcntd=\count442
+\c@cbx@tempcnta=\count472
+\c@cbx@tempcntb=\count473
+\c@cbx@tempcntc=\count474
+\c@cbx@tempcntd=\count475
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -621,8 +718,8 @@ Package: expl3 2024-04-11 L3 programming layer (loader)
 (/home/sebastian/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.de
 f
 File: l3backend-pdftex.def 2024-04-11 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count443
-\l__pdf_internal_box=\box61
+\l__color_backend_stack_int=\count476
+\l__pdf_internal_box=\box68
 ))
 Package biblatex Info: ... and expl3
 (biblatex)             2024-04-11 L3 programming layer (loader) 
@@ -635,62 +732,62 @@ Package: xparse 2024-03-14 L3 Experimental document command parser
 Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
 )) (/home/sebastian/.miktex/texmfs/install/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen184
-\lightrulewidth=\dimen185
-\cmidrulewidth=\dimen186
-\belowrulesep=\dimen187
-\belowbottomsep=\dimen188
-\aboverulesep=\dimen189
-\abovetopsep=\dimen190
-\cmidrulesep=\dimen191
-\cmidrulekern=\dimen192
-\defaultaddspace=\dimen193
-\@cmidla=\count444
-\@cmidlb=\count445
-\@aboverulesep=\dimen194
-\@belowrulesep=\dimen195
-\@thisruleclass=\count446
-\@lastruleclass=\count447
-\@thisrulewidth=\dimen196
+\heavyrulewidth=\dimen199
+\lightrulewidth=\dimen256
+\cmidrulewidth=\dimen257
+\belowrulesep=\dimen258
+\belowbottomsep=\dimen259
+\aboverulesep=\dimen260
+\abovetopsep=\dimen261
+\cmidrulesep=\dimen262
+\cmidrulekern=\dimen263
+\defaultaddspace=\dimen264
+\@cmidla=\count477
+\@cmidlb=\count478
+\@aboverulesep=\dimen265
+\@belowrulesep=\dimen266
+\@thisruleclass=\count479
+\@lastruleclass=\count480
+\@thisrulewidth=\dimen267
 )
-\c@definition=\count448
-\c@theorem=\count449
-\c@corollary=\count450
-\c@lemma=\count451
+\c@definition=\count481
+\c@theorem=\count482
+\c@corollary=\count483
+\c@lemma=\count484
 ) (/home/sebastian/.miktex/texmfs/install/tex/latex/lipsum/lipsum.sty
 (/home/sebastian/.miktex/texmfs/install/tex/latex/l3packages/l3keys2e/l3keys2e.
 sty
 Package: l3keys2e 2024-03-14 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count452
-\l__lipsum_a_int=\count453
-\l__lipsum_b_int=\count454
+\g__lipsum_par_int=\count485
+\l__lipsum_a_int=\count486
+\l__lipsum_b_int=\count487
 (/home/sebastian/.miktex/texmfs/install/tex/latex/lipsum/lipsum.ltd.tex)) (/hom
 e/sebastian/.miktex/texmfs/install/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 (/home/sebastian/.miktex/texmfs/install/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen197
-\captionmargin=\dimen198
-\caption@leftmargin=\dimen199
-\caption@rightmargin=\dimen256
-\caption@width=\dimen257
-\caption@indent=\dimen258
-\caption@parindent=\dimen259
-\caption@hangindent=\dimen260
+\caption@tempdima=\dimen268
+\captionmargin=\dimen269
+\caption@leftmargin=\dimen270
+\caption@rightmargin=\dimen271
+\caption@width=\dimen272
+\caption@indent=\dimen273
+\caption@parindent=\dimen274
+\caption@hangindent=\dimen275
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count455
-\c@continuedfloat=\count456
+\c@caption@flags=\count488
+\c@continuedfloat=\count489
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 ) (/home/sebastian/.miktex/texmfs/install/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count457
+\c@subfigure=\count490
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count458
+\c@subtable=\count491
 ) (/home/sebastian/.miktex/texmfs/install/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
 (/home/sebastian/.miktex/texmfs/install/tex/latex/hyperref/hyperref.sty
@@ -714,11 +811,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ng.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count459
+\c@section@level=\count492
 )
-\@linkdim=\dimen261
-\Hy@linkcounter=\count460
-\Hy@pagecounter=\count461
+\@linkdim=\dimen276
+\Hy@linkcounter=\count493
+\Hy@pagecounter=\count494
 (/home/sebastian/.miktex/texmfs/install/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -726,7 +823,7 @@ Now handling font encoding PD1 ...
 ) (/home/sebastian/.miktex/texmfs/install/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count462
+\Hy@SavedSpaceFactor=\count495
 (/home/sebastian/.miktex/texmfs/install/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -739,18 +836,18 @@ Package hyperref Info: Plain pages OFF on input line 4194.
 Package hyperref Info: Backreferencing OFF on input line 4199.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4446.
-\c@Hy@tempcnt=\count463
+\c@Hy@tempcnt=\count496
 LaTeX Info: Redefining \url on input line 4784.
-\XeTeXLinkMargin=\dimen262
+\XeTeXLinkMargin=\dimen277
 (/home/sebastian/.miktex/texmfs/install/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 (/home/sebastian/.miktex/texmfs/install/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count464
-\Field@Width=\dimen263
-\Fld@charsize=\dimen264
+\Fld@menulength=\count497
+\Field@Width=\dimen278
+\Fld@charsize=\dimen279
 Package hyperref Info: Hyper figures OFF on input line 6063.
 Package hyperref Info: Link nesting OFF on input line 6068.
 Package hyperref Info: Hyper index ON on input line 6071.
@@ -762,9 +859,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6093.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count465
-\c@Item=\count466
-\c@Hfootnote=\count467
+\Hy@abspage=\count498
+\c@Item=\count499
+\c@Hfootnote=\count500
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 (/home/sebastian/.miktex/texmfs/install/tex/latex/hyperref/hpdftex.def
@@ -774,8 +871,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count468
-\c@bookmark@seq@number=\count469
+\Fld@listcount=\count501
+\c@bookmark@seq@number=\count502
 
 (/home/sebastian/.miktex/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck
 .sty
@@ -788,63 +885,75 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip86
+\Hy@SectionHShift=\skip88
 ) (/home/sebastian/.miktex/texmfs/install/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
 )
-\BKM@id=\count470
+\BKM@id=\count503
 )) (/home/sebastian/.miktex/texmfs/install/tex/latex/tools/longtable.sty
 Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
-\LTleft=\skip87
-\LTright=\skip88
-\LTpre=\skip89
-\LTpost=\skip90
-\LTchunksize=\count471
-\LTcapwidth=\dimen265
-\LT@head=\box62
-\LT@firsthead=\box63
-\LT@foot=\box64
-\LT@lastfoot=\box65
-\LT@gbox=\box66
-\LT@cols=\count472
-\LT@rows=\count473
-\c@LT@tables=\count474
-\c@LT@chunks=\count475
-\LT@p@ftn=\toks42
-) (/home/sebastian/.miktex/texmfs/install/tex/latex/tools/array.sty
-Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen266
-\ar@mcellbox=\box67
-\extrarowheight=\dimen267
-\NC@list=\toks43
-\extratabsurround=\skip91
-\backup@length=\skip92
-\ar@cellbox=\box68
-) (/home/sebastian/.miktex/texmfs/install/tex/latex/colortbl/colortbl.sty
-Package: colortbl 2024/05/26 v1.0h Color table columns (DPC)
-\everycr=\toks44
-\minrowclearance=\skip93
-\rownum=\count476
-) (/home/sebastian/.miktex/texmfs/install/tex/latex/pgf/frontendlayer/tikz.sty 
-(/home/sebastian/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgf.sty (/home
-/sebastian/.miktex/texmfs/install/tex/latex/pgf/utilities/pgfrcs.sty
+\LTleft=\skip89
+\LTright=\skip90
+\LTpre=\skip91
+\LTpost=\skip92
+\LTchunksize=\count504
+\LTcapwidth=\dimen280
+\LT@head=\box69
+\LT@firsthead=\box70
+\LT@foot=\box71
+\LT@lastfoot=\box72
+\LT@gbox=\box73
+\LT@cols=\count505
+\LT@rows=\count506
+\c@LT@tables=\count507
+\c@LT@chunks=\count508
+\LT@p@ftn=\toks44
+) (/home/sebastian/.miktex/texmfs/install/tex/latex/svg/svg.sty
+Package: svg 2020/11/26 v2.02k (include SVG pictures)
+(/home/sebastian/.miktex/texmfs/install/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+(/home/sebastian/.miktex/texmfs/install/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2023/07/07 v3.41 KOMA-Script package (file load hooks)
+
+(/home/sebastian/.miktex/texmfs/install/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
+
+(/home/sebastian/.miktex/texmfs/install/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2023/07/07 v3.41 KOMA-Script package (logo)
+)))
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 368.
+) (/home/sebastian/.miktex/texmfs/install/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\c@svg@param@lastpage=\count509
+\svg@box=\box74
+\c@svg@param@currpage=\count510
+) (/home/sebastian/.miktex/texmfs/install/tex/latex/transparent/transparent.sty
+Package: transparent 2022-10-27 v1.5 Transparency with color stacks
+
+(/home/sebastian/.miktex/texmfs/install/tex/latex/transparent/transparent-nomet
+adata.sty
+Package: transparent-nometadata 2022-10-27 v1.5 Transparency via pdfTeX's color
+ stack (HO)
+)) (/home/sebastian/.miktex/texmfs/install/tex/latex/pgf/systemlayer/pgfsys.sty
+(/home/sebastian/.miktex/texmfs/install/tex/latex/pgf/utilities/pgfrcs.sty
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-commo
 n.tex
 \pgfutil@everybye=\toks45
-\pgfutil@tempdima=\dimen268
-\pgfutil@tempdimb=\dimen269
+\pgfutil@tempdima=\dimen281
+\pgfutil@tempdimb=\dimen282
 )
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-latex
 .def
-\pgfutil@abb=\box69
+\pgfutil@abb=\box75
 )
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfrcs.code.t
 ex (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
-Package: pgf 2023-01-15 v3.1.10 (3.1.10)
-(/home/sebastian/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgfcore.sty (/
-home/sebastian/.miktex/texmfs/install/tex/latex/pgf/systemlayer/pgfsys.sty
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys.code
 .tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
@@ -858,26 +967,26 @@ tex
 yfiltered.code.tex
 \pgfkeys@tmptoks=\toks48
 ))
-\pgf@x=\dimen270
-\pgf@y=\dimen271
-\pgf@xa=\dimen272
-\pgf@ya=\dimen273
-\pgf@xb=\dimen274
-\pgf@yb=\dimen275
-\pgf@xc=\dimen276
-\pgf@yc=\dimen277
-\pgf@xd=\dimen278
-\pgf@yd=\dimen279
-\w@pgf@writea=\write4
-\r@pgf@reada=\read4
-\c@pgf@counta=\count477
-\c@pgf@countb=\count478
-\c@pgf@countc=\count479
-\c@pgf@countd=\count480
+\pgf@x=\dimen283
+\pgf@y=\dimen284
+\pgf@xa=\dimen285
+\pgf@ya=\dimen286
+\pgf@xb=\dimen287
+\pgf@yb=\dimen288
+\pgf@xc=\dimen289
+\pgf@yc=\dimen290
+\pgf@xd=\dimen291
+\pgf@yd=\dimen292
+\w@pgf@writea=\write6
+\r@pgf@reada=\read6
+\c@pgf@counta=\count511
+\c@pgf@countb=\count512
+\c@pgf@countc=\count513
+\c@pgf@countd=\count514
 \t@pgf@toka=\toks49
 \t@pgf@tokb=\toks50
 \t@pgf@tokc=\toks51
-\pgf@sys@id@count=\count481
+\pgf@sys@id@count=\count515
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
@@ -894,13 +1003,30 @@ File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsyssoftp
 ath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count482
-\pgfsyssoftpath@bigbuffer@items=\count483
+\pgfsyssoftpath@smallbuffer@items=\count516
+\pgfsyssoftpath@bigbuffer@items=\count517
 )
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsysproto
 col.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))
+)) (/home/sebastian/.miktex/texmfs/install/tex/latex/tools/array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen293
+\ar@mcellbox=\box76
+\extrarowheight=\dimen294
+\NC@list=\toks52
+\extratabsurround=\skip93
+\backup@length=\skip94
+\ar@cellbox=\box77
+) (/home/sebastian/.miktex/texmfs/install/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2024/05/26 v1.0h Color table columns (DPC)
+\everycr=\toks53
+\minrowclearance=\skip95
+\rownum=\count518
+) (/home/sebastian/.miktex/texmfs/install/tex/latex/pgf/frontendlayer/tikz.sty 
+(/home/sebastian/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgf.sty
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+(/home/sebastian/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgfcore.sty
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcore.code
 .tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
@@ -909,12 +1035,12 @@ Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 ex)
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathparser.code
 .tex
-\pgfmath@dimen=\dimen280
-\pgfmath@count=\count484
-\pgfmath@box=\box70
-\pgfmath@toks=\toks52
-\pgfmath@stack@operand=\toks53
-\pgfmath@stack@operation=\toks54
+\pgfmath@dimen=\dimen295
+\pgfmath@count=\count519
+\pgfmath@box=\box78
+\pgfmath@toks=\toks54
+\pgfmath@stack@operand=\toks55
+\pgfmath@stack@operation=\toks56
 )
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.c
 ode.tex)
@@ -938,58 +1064,58 @@ ntegerarithmetics.code.tex)
 ex)
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfloat.code.
 tex
-\c@pgfmathroundto@lastzeros=\count485
+\c@pgfmathroundto@lastzeros=\count520
 )) (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/math/pgfint.code.tex
 )
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepoint
 s.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen281
-\pgf@picmaxx=\dimen282
-\pgf@picminy=\dimen283
-\pgf@picmaxy=\dimen284
-\pgf@pathminx=\dimen285
-\pgf@pathmaxx=\dimen286
-\pgf@pathminy=\dimen287
-\pgf@pathmaxy=\dimen288
-\pgf@xx=\dimen289
-\pgf@xy=\dimen290
-\pgf@yx=\dimen291
-\pgf@yy=\dimen292
-\pgf@zx=\dimen293
-\pgf@zy=\dimen294
+\pgf@picminx=\dimen296
+\pgf@picmaxx=\dimen297
+\pgf@picminy=\dimen298
+\pgf@picmaxy=\dimen299
+\pgf@pathminx=\dimen300
+\pgf@pathmaxx=\dimen301
+\pgf@pathminy=\dimen302
+\pgf@pathmaxy=\dimen303
+\pgf@xx=\dimen304
+\pgf@xy=\dimen305
+\pgf@yx=\dimen306
+\pgf@yy=\dimen307
+\pgf@zx=\dimen308
+\pgf@zy=\dimen309
 )
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathc
 onstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen295
-\pgf@path@lasty=\dimen296
+\pgf@path@lastx=\dimen310
+\pgf@path@lasty=\dimen311
 )
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathu
 sage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen297
-\pgf@shorten@start@additional=\dimen298
+\pgf@shorten@end@additional=\dimen312
+\pgf@shorten@start@additional=\dimen313
 )
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorescope
 s.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box71
-\pgf@hbox=\box72
-\pgf@layerbox@main=\box73
-\pgf@picture@serial@count=\count486
+\pgfpic=\box79
+\pgf@hbox=\box80
+\pgf@layerbox@main=\box81
+\pgf@picture@serial@count=\count521
 )
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoregraph
 icstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen299
+\pgflinewidth=\dimen314
 )
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretrans
 formations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen300
-\pgf@pt@y=\dimen301
-\pgf@pt@temp=\dimen302
+\pgf@pt@x=\dimen315
+\pgf@pt@y=\dimen316
+\pgf@pt@temp=\dimen317
 )
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorequick
 .code.tex
@@ -1006,14 +1132,14 @@ File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorearrow
 s.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen303
+\pgfarrowsep=\dimen318
 )
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreshade
 .code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen304
-\pgf@sys@shading@range@num=\count487
-\pgf@shadingcount=\count488
+\pgf@max=\dimen319
+\pgf@sys@shading@range@num=\count522
+\pgf@shadingcount=\count523
 )
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreimage
 .code.tex
@@ -1022,7 +1148,7 @@ File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreexter
 nal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box74
+\pgfexternal@startupbox=\box82
 )
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorelayer
 s.code.tex
@@ -1043,7 +1169,7 @@ File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduleshapes
 .code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box75
+\pgfnodeparttextbox=\box83
 )
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduleplot.c
 ode.tex
@@ -1052,8 +1178,8 @@ File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/home/sebastian/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-ver
 sion-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen305
-\pgf@nodesepend=\dimen306
+\pgf@nodesepstart=\dimen320
+\pgf@nodesepend=\dimen321
 )
 (/home/sebastian/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-ver
 sion-1-18.sty
@@ -1066,10 +1192,10 @@ home/sebastian/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex))
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/utilities/pgffor.code.t
 ex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen307
-\pgffor@skip=\dimen308
-\pgffor@stack=\toks55
-\pgffor@toks=\toks56
+\pgffor@iter=\dimen322
+\pgffor@skip=\dimen323
+\pgffor@stack=\toks57
+\pgffor@toks=\toks58
 ))
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/tikz
 .code.tex
@@ -1078,34 +1204,34 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryplo
 thandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count489
-\pgfplotmarksize=\dimen309
+\pgf@plot@mark@count=\count524
+\pgfplotmarksize=\dimen324
 )
-\tikz@lastx=\dimen310
-\tikz@lasty=\dimen311
-\tikz@lastxsaved=\dimen312
-\tikz@lastysaved=\dimen313
-\tikz@lastmovetox=\dimen314
-\tikz@lastmovetoy=\dimen315
-\tikzleveldistance=\dimen316
-\tikzsiblingdistance=\dimen317
-\tikz@figbox=\box76
-\tikz@figbox@bg=\box77
-\tikz@tempbox=\box78
-\tikz@tempbox@bg=\box79
-\tikztreelevel=\count490
-\tikznumberofchildren=\count491
-\tikznumberofcurrentchild=\count492
-\tikz@fig@count=\count493
+\tikz@lastx=\dimen325
+\tikz@lasty=\dimen326
+\tikz@lastxsaved=\dimen327
+\tikz@lastysaved=\dimen328
+\tikz@lastmovetox=\dimen329
+\tikz@lastmovetoy=\dimen330
+\tikzleveldistance=\dimen331
+\tikzsiblingdistance=\dimen332
+\tikz@figbox=\box84
+\tikz@figbox@bg=\box85
+\tikz@tempbox=\box86
+\tikz@tempbox@bg=\box87
+\tikztreelevel=\count525
+\tikznumberofchildren=\count526
+\tikznumberofcurrentchild=\count527
+\tikz@fig@count=\count528
 
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmodulematrix
 .code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count494
-\pgfmatrixcurrentcolumn=\count495
-\pgf@matrix@numberofcolumns=\count496
+\pgfmatrixcurrentrow=\count529
+\pgfmatrixcurrentcolumn=\count530
+\pgf@matrix@numberofcolumns=\count531
 )
-\tikz@expandcount=\count497
+\tikz@expandcount=\count532
 
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libr
 aries/tikzlibrarytopaths.code.tex
@@ -1117,12 +1243,12 @@ Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/pgfplots.code.tex
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/pgfplotscore.code.
 tex
-\t@pgfplots@toka=\toks57
-\t@pgfplots@tokb=\toks58
-\t@pgfplots@tokc=\toks59
-\pgfplots@tmpa=\dimen318
-\c@pgfplots@coordindex=\count498
-\c@pgfplots@scanlineindex=\count499
+\t@pgfplots@toka=\toks59
+\t@pgfplots@tokb=\toks60
+\t@pgfplots@tokc=\toks61
+\pgfplots@tmpa=\dimen333
+\c@pgfplots@coordindex=\count533
+\c@pgfplots@scanlineindex=\count534
 
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/sys/pgfplotssysgen
 eric.code.tex))
@@ -1133,9 +1259,9 @@ plotsoldpgfsupp_loader.code.tex
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryfpu
 .code.tex)
 Package pgfplots: loading complementary utilities for your pgf version...
-\t@pgf@toka=\toks60
-\t@pgf@tokb=\toks61
-\t@pgf@tokc=\toks62
+\t@pgf@toka=\toks62
+\t@pgf@tokb=\toks63
+\t@pgf@tokc=\toks64
 
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/oldpgfcompatib/pgf
 plotsoldpgfsupp_pgfutil-common-lists.tex))
@@ -1147,14 +1273,14 @@ lotsliststructure.code.tex)
 lotsliststructureext.code.tex)
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/liststructure/pgfp
 lotsarray.code.tex
-\c@pgfplotsarray@tmp=\count500
+\c@pgfplotsarray@tmp=\count535
 )
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/liststructure/pgfp
 lotsmatrix.code.tex)
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/numtable/pgfplotst
 ableshared.code.tex
-\c@pgfplotstable@counta=\count501
-\t@pgfplotstable@a=\toks63
+\c@pgfplotstable@counta=\count536
+\t@pgfplotstable@a=\toks65
 )
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/liststructure/pgfp
 lotsdeque.code.tex)
@@ -1166,7 +1292,7 @@ y.data.code.tex))
 verb.code.tex)
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/libs/pgflibrarypgf
 plots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count502
+\c@pgfplotslibrarysurf@no=\count537
 
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/sys/pgflibrarypgfp
 lots.surfshading.pgfsys-pdftex.def)))
@@ -1198,16 +1324,16 @@ e.tex)
 aries/tikzlibrarydecorations.code.tex
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduledecora
 tions.code.tex
-\pgfdecoratedcompleteddistance=\dimen319
-\pgfdecoratedremainingdistance=\dimen320
-\pgfdecoratedinputsegmentcompleteddistance=\dimen321
-\pgfdecoratedinputsegmentremainingdistance=\dimen322
-\pgf@decorate@distancetomove=\dimen323
-\pgf@decorate@repeatstate=\count503
-\pgfdecorationsegmentamplitude=\dimen324
-\pgfdecorationsegmentlength=\dimen325
+\pgfdecoratedcompleteddistance=\dimen334
+\pgfdecoratedremainingdistance=\dimen335
+\pgfdecoratedinputsegmentcompleteddistance=\dimen336
+\pgfdecoratedinputsegmentremainingdistance=\dimen337
+\pgf@decorate@distancetomove=\dimen338
+\pgf@decorate@repeatstate=\count538
+\pgfdecorationsegmentamplitude=\dimen339
+\pgfdecorationsegmentlength=\dimen340
 )
-\tikz@lib@dec@box=\box80
+\tikz@lib@dec@box=\box88
 )
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libr
 aries/tikzlibrarydecorations.pathmorphing.code.tex
@@ -1219,13 +1345,13 @@ aries/tikzlibrarydecorations.pathreplacing.code.tex
 gflibrarydecorations.pathreplacing.code.tex))
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/libs/tikzlibrarypg
 fplots.contourlua.code.tex)
-\pgfplots@numplots=\count504
-\pgfplots@xmin@reg=\dimen326
-\pgfplots@xmax@reg=\dimen327
-\pgfplots@ymin@reg=\dimen328
-\pgfplots@ymax@reg=\dimen329
-\pgfplots@zmin@reg=\dimen330
-\pgfplots@zmax@reg=\dimen331
+\pgfplots@numplots=\count539
+\pgfplots@xmin@reg=\dimen341
+\pgfplots@xmax@reg=\dimen342
+\pgfplots@ymin@reg=\dimen343
+\pgfplots@ymax@reg=\dimen344
+\pgfplots@zmin@reg=\dimen345
+\pgfplots@zmax@reg=\dimen346
 )
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libr
 aries/tikzlibraryplotmarks.code.tex
@@ -1238,7 +1364,7 @@ File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 Package: physics 
 ) (/home/sebastian/.miktex/texmfs/install/tex/latex/contour/contour.sty
 Package: contour 2004/11/18 v2.14 Print contoured text (HH, MH)
-\con@length=\skip94
+\con@length=\skip96
 Loading configuration file `contour.cfg'.
 (/home/sebastian/.miktex/texmfs/install/tex/latex/contour/contour.cfg
 File: contour.cfg 2004/11/18 v2.14 Print contoured text (HH, MH)
@@ -1251,7 +1377,7 @@ File: pdftex.cnt 2004/11/18 v2.14 Print contoured text (HH, MH)
 aries/tikzlibraryintersections.code.tex
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryint
 ersections.code.tex
-\pgf@intersect@solutions=\count505
+\pgf@intersect@solutions=\count540
 ))
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libr
 aries/tikzlibrarydecorations.markings.code.tex
@@ -1284,7 +1410,7 @@ File: pgflibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libr
 aries/tikzlibraryspy.code.tex
 File: tikzlibraryspy.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\tikz@lib@spybox=\box81
+\tikz@lib@spybox=\box89
 )
 (/home/sebastian/.miktex/texmfs/install/tex/latex/pgf/frontendlayer/libraries/t
 ikzlibraryexternal.code.tex
@@ -1292,47 +1418,47 @@ ikzlibraryexternal.code.tex
 aries/tikzexternalshared.code.tex))
 No auxiliary output files.
 
-\w@pgfexternal@auxout=\write5
+\w@pgfexternal@auxout=\write7
 Package TikZ externalization: calling \geometry{driver=none} during externaliza
 tion.
 
-Package hyperref Info: Option `colorlinks' set `false' on input line 104.
+Package hyperref Info: Option `colorlinks' set `false' on input line 122.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
 No file figures/main-figure22.aux.
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
 (/home/sebastian/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count506
-\scratchdimen=\dimen332
-\scratchbox=\box82
-\nofMPsegments=\count507
-\nofMParguments=\count508
-\everyMPshowfont=\toks64
-\MPscratchCnt=\count509
-\MPscratchDim=\dimen333
-\MPnumerator=\count510
-\makeMPintoPDFobject=\count511
-\everyMPtoPDFconversion=\toks65
+\scratchcounter=\count541
+\scratchdimen=\dimen347
+\scratchbox=\box90
+\nofMPsegments=\count542
+\nofMParguments=\count543
+\everyMPshowfont=\toks66
+\MPscratchCnt=\count544
+\MPscratchDim=\dimen348
+\MPnumerator=\count545
+\makeMPintoPDFobject=\count546
+\everyMPtoPDFconversion=\toks67
 )
 (/home/sebastian/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.st
 y
@@ -1382,9 +1508,9 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count512
-LaTeX Info: Redefining \. on input line 108.
-LaTeX Info: Redefining \% on input line 108.
+\c@lstlisting=\count547
+LaTeX Info: Redefining \. on input line 126.
+LaTeX Info: Redefining \% on input line 126.
 Package biblatex Info: Trying to load language 'spanish'...
 Package biblatex Info: ... file 'spanish.lbx' found.
 (/home/sebastian/.miktex/texmfs/install/tex/latex/biblatex/lbx/spanish.lbx
@@ -1396,8 +1522,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'figures/main-figure22.bbl' not found.
 No file figures/main-figure22.bbl.
-Package biblatex Info: Reference section=0 on input line 108.
-Package biblatex Info: Reference segment=0 on input line 108.
+Package biblatex Info: Reference section=0 on input line 126.
+Package biblatex Info: Reference segment=0 on input line 126.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
@@ -1406,83 +1532,96 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 \providecommand\hyper@newdestlabel[2]{}
-Package hyperref Info: Link coloring OFF on input line 108.
+Package hyperref Info: Link coloring OFF on input line 126.
 \providecommand\BKM@entry[2]{}
+()
+
+Package svg Warning: No version of Inkscape was detected by invoking
+(svg)                `inkscape -V'
+(svg)                so the Inkscape export will fail quite sure as the
+(svg)                command is probably unknown to your OS. You could set
+(svg)                `inkscapeversion=<version>' manually but this is very
+(svg)                unlikely to work on input line 126.
+
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 The command '\includegraphics [width=\linewidth ]{img/EscudoIPN.png}' has been 
 optimized away. Use '/tikz/external/optimize=false' to disable this.
 
-Overfull \hbox (51.47867pt too wide) in paragraph at lines 111--111
+Overfull \hbox (51.47867pt too wide) in paragraph at lines 129--129
  \OT1/cmr/m/sc/12 \includegraphics 
  []
 
 
-Overfull \hbox (4.35225pt too wide) in paragraph at lines 111--111
+Overfull \hbox (4.35225pt too wide) in paragraph at lines 129--129
  \OT1/cmr/m/sc/12 optimized 
  []
 
 
-Overfull \hbox (14.64552pt too wide) in paragraph at lines 111--111
+Overfull \hbox (14.64552pt too wide) in paragraph at lines 129--129
  \OT1/cmr/m/sc/12 contribute 
  []
 
 
-Overfull \hbox (2.59224pt too wide) in paragraph at lines 111--111
+Overfull \hbox (2.59224pt too wide) in paragraph at lines 129--129
  \OT1/cmr/m/sc/12 exported 
  []
 
 The command '\includegraphics [width=1.9\linewidth ]{img/EscudoESCOM.png}' has 
 been optimized away. Use '/tikz/external/optimize=false' to disable this.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 111
+LaTeX Font Info:    Trying to load font information for U+msa on input line 129
 .
 (/home/sebastian/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 111
+LaTeX Font Info:    Trying to load font information for U+msb on input line 129
 .
 (/home/sebastian/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <22> not available
-(Font)              size <20.74> substituted on input line 111.
+(Font)              size <20.74> substituted on input line 129.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/sc' in size <22> not available
-(Font)              size <20.74> substituted on input line 111.
+(Font)              size <20.74> substituted on input line 129.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 111.
+(Font)              size <17.28> substituted on input line 129.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/sc' in size <16> not available
-(Font)              size <17.28> substituted on input line 111.
+(Font)              size <17.28> substituted on input line 129.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 111.
+(Font)              size <17.28> substituted on input line 129.
 
 (frontmatter/technical_document/technical_document.tex
+
+LaTeX Warning: Citation 'MaximaSourgeforce' on page 3 undefined on input line 1
+1.
+
+
 Underfull \hbox (badness 1184) in paragraph at lines 15--16
 []\OT1/cmr/m/n/12 La aplicaci^^Son pretende ser de utilidad como herramienta de
  apoyo para
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 23--119
+Underfull \hbox (badness 10000) in paragraph at lines 23--137
 
  []
 
-LaTeX Info: Redefining \. on input line 119.
-LaTeX Info: Redefining \% on input line 119.
+LaTeX Info: Redefining \. on input line 137.
+LaTeX Info: Redefining \% on input line 137.
 No file figures/main-figure22.toc.
 No file figures/main-figure22.lof.
 No file figures/main-figure22.lot.
-LaTeX Info: Redefining \. on input line 125.
-LaTeX Info: Redefining \% on input line 125.
+No file figures/main-figure22.lol.
 \providecommand\hyper@newdestlabel[2]{}
 (chapters/chapter01/chapter01.tex
 Cap\'{\i }tulo 1.
@@ -1555,354 +1694,938 @@ s
  []
 
 )
-LaTeX Info: Redefining \. on input line 126.
-LaTeX Info: Redefining \% on input line 126.
-LaTeX Info: Redefining \. on input line 126.
-LaTeX Info: Redefining \% on input line 126.
+LaTeX Info: Redefining \. on input line 145.
+LaTeX Info: Redefining \% on input line 145.
+LaTeX Info: Redefining \. on input line 145.
+LaTeX Info: Redefining \% on input line 145.
 \providecommand\hyper@newdestlabel[2]{}
 (chapters/chapter02/chapter02.tex
 Cap\'{\i }tulo 2.
 
-Overfull \hbox (5.95143pt too wide) in paragraph at lines 9--9
+Underfull \hbox (badness 1072) in paragraph at lines 2--3
+\OT1/cmr/m/n/12 revisar^^San diversas plataformas de uso com^^Sun que permiten 
+realizar estos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+LaTeX Warning: Hyper reference `app1:Estado-del-arte-coeff' on page 6 undefined
+ on input line 30.
+
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+
+LaTeX Warning: Hyper reference `app1:Estado-del-arte-coeff' on page 7 undefined
+ on input line 71.
+
+
+LaTeX Warning: Hyper reference `app1:Estado-del-arte-coeff' on page 7 undefined
+ on input line 71.
+
+
+LaTeX Warning: Reference `fig:fourier-estado-del-arte' on page 7 undefined on i
+nput line 77.
+
+
+LaTeX Warning: Citation 'wolframMatemathica' on page 7 undefined on input line 
+83.
+
+The command '\includegraphics [width=0.5\textwidth ]{img/chapter02/logo_wolfram
+.jpg}' has been optimized away. Use '/tikz/external/optimize=false' to disable 
+this.
+
+LaTeX Warning: Citation 'wolframMatemathica' on page 7 undefined on input line 
+87.
+
+
+LaTeX Warning: Citation 'wolframMatemathica' on page 7 undefined on input line 
+87.
+
+
+LaTeX Warning: Citation 'wolfram2024' on page 7 undefined on input line 90.
+
+
+LaTeX Warning: Citation 'wolframMatemathicaPiecewise' on page 7 undefined on in
+put line 101.
+
+
+LaTeX Warning: Citation 'wolframMatemathica' on page 7 undefined on input line 
+101.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+\OT1/cmr/m/n/12 Estas funciones nos permiten obtener expansi^^Son de la serie d
+e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+\OT1/cmr/m/n/12 Fourier, ya sea compleja, trigonom^^Setrica, en senos o cosenos
+ de
+ []
+
+
+Underfull \hbox (badness 5302) in paragraph at lines 101--102
+\OT1/cmr/m/n/12 una funci^^Son \OT1/cmtt/m/n/12 exp \OT1/cmr/m/n/12 con periodo
+ de $2\OML/cmm/m/it/12 ^^Y$ \OT1/cmr/m/n/12 donde esta puede ser de un
+ []
+
+
+Underfull \hbox (badness 2903) in paragraph at lines 101--102
+\OT1/cmr/m/n/12 solo trozo o definida a varios trozos, para esto se usar^^S^^Pa
+ la funci^^Son
+ []
+
+
+Overfull \hbox (4.53146pt too wide) in paragraph at lines 101--102
+\OT1/cmtt/m/n/12 Piecewise[val1,cond1,val2,cond2,...] \OT1/cmr/m/n/12 [[]],
+ []
+
+LaTeX Info: Redefining \. on input line 102.
+LaTeX Info: Redefining \% on input line 102.
+
+LaTeX Warning: Citation 'wolframMatemathicaPiecewise' on page 8 undefined on in
+put line 108.
+
+
+Underfull \hbox (badness 4217) in paragraph at lines 107--109
+\OT1/cmr/m/n/12 Podemos observar que las funciones propias de Wolfram Alpha par
+a
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 107--109
+\OT1/cmr/m/n/12 problemas que impliquen series de Fourier limitan el periodo en
+ el que
+ []
+
+
+Underfull \hbox (badness 2426) in paragraph at lines 107--109
+\OT1/cmr/m/n/12 las funciones matem^^Saticas son definidas, limit^^Sandolo en $
+2\OML/cmm/m/it/12 ^^Y$\OT1/cmr/m/n/12 , para estos
+ []
+
+
+LaTeX Warning: Hyper reference `app1:trig-coeff' on page 8 undefined on input l
+ine 111.
+
+The command '\includegraphics [width=1\textwidth ]{img/chapter02/wolfram_trig_s
+eries.png}' has been optimized away. Use '/tikz/external/optimize=false' to dis
+able this.
+The command '\includegraphics [width=1\textwidth ]{img/chapter02/wolfram_comple
+x_series.png}' has been optimized away. Use '/tikz/external/optimize=false' to 
+disable this.
+LaTeX Info: Redefining \. on input line 126.
+LaTeX Info: Redefining \% on input line 126.
+
+LaTeX Warning: Citation 'symbolabDocs' on page 9 undefined on input line 128.
+
+The command '\includegraphics [width=0.3\textwidth ]{img/chapter02/logo_symbola
+b.png}' has been optimized away. Use '/tikz/external/optimize=false' to disable
+ this.
+
+LaTeX Warning: Citation 'symbolabDocs' on page 9 undefined on input line 132.
+
+
+LaTeX Warning: Citation 'symbolabDocs' on page 9 undefined on input line 132.
+
+
+LaTeX Warning: Citation 'symbolabDocs' on page 9 undefined on input line 135.
+
+
+LaTeX Warning: Citation 'symbolabDocs' on page 9 undefined on input line 135.
+
+
+LaTeX Warning: Hyper reference `app1:trig-coeff' on page 9 undefined on input l
+ine 138.
+
+The command '\includegraphics [width=1\textwidth ]{img/chapter02/symbolab-trig-
+series.png}' has been optimized away. Use '/tikz/external/optimize=false' to di
+sable this.
+
+LaTeX Warning: Citation 'MathWorks2024' on page 9 undefined on input line 148.
+
+LaTeX Info: Redefining \. on input line 149.
+LaTeX Info: Redefining \% on input line 149.
+The command '\includegraphics [width=0.5\textwidth ]{img/chapter02/logo_matlab.
+png}' has been optimized away. Use '/tikz/external/optimize=false' to disable t
+his.
+
+LaTeX Warning: Citation 'MathWorks2024' on page 10 undefined on input line 153.
+
+
+
+LaTeX Warning: Citation 'MathWorks2024' on page 10 undefined on input line 153.
+
+
+
+LaTeX Warning: Hyper reference `app2:trig-code-matlab' on page 10 undefined on 
+input line 160.
+
+
+LaTeX Warning: Reference `fig:matlab-trig-series' on page 10 undefined on input
+ line 160.
+
+The command '\includegraphics [width=1\textwidth ]{img/chapter02/matlab-fourier
+-trig.png}' has been optimized away. Use '/tikz/external/optimize=false' to dis
+able this.
+
+LaTeX Warning: Hyper reference `app2:complex-code-matlab' on page 10 undefined 
+on input line 167.
+
+
+LaTeX Warning: Reference `fig:matlab-complex-series' on page 10 undefined on in
+put line 167.
+
+The command '\includegraphics [width=1\textwidth ]{img/chapter02/matlab-complex
+-series.png}' has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+
+LaTeX Warning: Citation 'maple2024' on page 10 undefined on input line 177.
+
+The command '\includegraphics [width=0.5\textwidth ]{img/chapter02/logo_maple.p
+ng}' has been optimized away. Use '/tikz/external/optimize=false' to disable th
+is.
+
+LaTeX Warning: Citation 'maple2024' on page 10 undefined on input line 181.
+
+
+LaTeX Warning: Citation 'maple2024' on page 10 undefined on input line 181.
+
+LaTeX Info: Redefining \. on input line 183.
+LaTeX Info: Redefining \% on input line 183.
+
+LaTeX Warning: Citation 'mapleFourier' on page 11 undefined on input line 184.
+
+
+LaTeX Warning: Hyper reference `app2:trig-code-maple' on page 11 undefined on i
+nput line 187.
+
+
+LaTeX Warning: Reference `fig:maple-trig-series' on page 11 undefined on input 
+line 187.
+
+The command '\includegraphics [width=1\textwidth ]{img/chapter02/maple-trig-ser
+ies-coeff.jpeg}' has been optimized away. Use '/tikz/external/optimize=false' t
+o disable this.
+
+LaTeX Warning: Hyper reference `app2:trig-code-maple' on page 11 undefined on i
+nput line 195.
+
+
+LaTeX Warning: Reference `fig:maple-trig-series-graph' on page 11 undefined on 
+input line 195.
+
+The command '\includegraphics [width=1\textwidth ]{img/chapter02/maple-trig-gra
+ph.png}' has been optimized away. Use '/tikz/external/optimize=false' to disabl
+e this.
+
+LaTeX Warning: Hyper reference `app2:complex-code-maple' on page 11 undefined o
+n input line 202.
+
+The command '\includegraphics [width=1\textwidth ]{img/chapter02/maple-complex-
+series-coeff.jpeg}' has been optimized away. Use '/tikz/external/optimize=false
+' to disable this.
+
+LaTeX Warning: Hyper reference `app2:trig-code-maple' on page 11 undefined on i
+nput line 210.
+
+
+LaTeX Warning: Reference `fig:maple-trig-series-graph' on page 11 undefined on 
+input line 210.
+
+The command '\includegraphics [width=1\textwidth ]{img/chapter02/maple-complex-
+graph.png}' has been optimized away. Use '/tikz/external/optimize=false' to dis
+able this.
+
+LaTeX Warning: Reference `fig:maple-trig-series-graph' on page 11 undefined on 
+input line 217.
+
+LaTeX Info: Redefining \. on input line 218.
+LaTeX Info: Redefining \% on input line 218.
+
+LaTeX Warning: Citation 'MaximaSourgeforce' on page 12 undefined on input line 
+220.
+
+The command '\includegraphics [width=0.5\textwidth ]{img/chapter02/logo_maxima.
+png}' has been optimized away. Use '/tikz/external/optimize=false' to disable t
+his.
+
+LaTeX Warning: Citation 'MaximaSourgeforce' on page 12 undefined on input line 
+224.
+
+
+LaTeX Warning: Citation 'MaximaSourgeforce' on page 12 undefined on input line 
+224.
+
+
+LaTeX Warning: Hyper reference `app2:trig-code-maxima' on page 12 undefined on 
+input line 230.
+
+
+LaTeX Warning: Reference `fig:maple-trig-series' on page 12 undefined on input 
+line 230.
+
+The command '\includegraphics [width=1\textwidth ]{img/chapter02/maxima-trig-se
+ries-coeff.jpeg}' has been optimized away. Use '/tikz/external/optimize=false' 
+to disable this.
+The command '\includegraphics [width=1\textwidth ]{img/chapter02/maxima-trig-se
+ries-graph.png}' has been optimized away. Use '/tikz/external/optimize=false' t
+o disable this.
+
+LaTeX Warning: Hyper reference `app2:complex-code-maxima' on page 12 undefined 
+on input line 245.
+
+The command '\includegraphics [width=1\textwidth ]{img/chapter02/maxima-complex
+-series-coeff.jpeg}' has been optimized away. Use '/tikz/external/optimize=fals
+e' to disable this.
+LaTeX Info: Redefining \. on input line 252.
+LaTeX Info: Redefining \% on input line 252.
+The command '\includegraphics [width=1\textwidth ]{img/chapter02/maxima-trig-se
+ries-graph.png}' has been optimized away. Use '/tikz/external/optimize=false' t
+o disable this.
+
+LaTeX Warning: Citation 'GeoGebra2024' on page 13 undefined on input line 263.
+
+
+LaTeX Warning: Citation 'Desmos2024' on page 13 undefined on input line 263.
+
+The command '\includegraphics [width=\textwidth ]{img/chapter02/logo_geogebra.p
+ng}' has been optimized away. Use '/tikz/external/optimize=false' to disable th
+is.
+
+LaTeX Warning: Citation 'wolframMatemathica' on page 13 undefined on input line
+ 270.
+
+
+LaTeX Warning: Citation 'wolframMatemathica' on page 13 undefined on input line
+ 270.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 270--270
+[]\OT1/cmr/m/n/12 Figura 2.20: |Logotipo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 270--270
+\OT1/cmr/m/n/12 de Geogebra. \OT1/cmr/m/it/12 Fuente:
+ []
+
+The command '\includegraphics [width=\textwidth ]{img/chapter02/logo_desmos.jpg
+}' has been optimized away. Use '/tikz/external/optimize=false' to disable this
+.
+
+LaTeX Warning: Citation 'Desmos2024' on page 13 undefined on input line 277.
+
+
+LaTeX Warning: Citation 'Desmos2024' on page 13 undefined on input line 277.
+
+
+Underfull \hbox (badness 3375) in paragraph at lines 277--277
+[]\OT1/cmr/m/n/12 Figura 2.21: |Logotipo de Desmos. \OT1/cmr/m/it/12 Fuente:
+ []
+
+
+LaTeX Warning: Reference `app1:trig-coeff' on page 13 undefined on input line 2
+82.
+
+The command '\includegraphics [width=1\textwidth ]{img/chapter02/geogebra-trig-
+series.png}' has been optimized away. Use '/tikz/external/optimize=false' to di
+sable this.
+LaTeX Info: Redefining \. on input line 291.
+LaTeX Info: Redefining \% on input line 291.
+The command '\includegraphics [width=1\textwidth ]{img/chapter02/desmos-trig-se
+ries-graph.png}' has been optimized away. Use '/tikz/external/optimize=false' t
+o disable this.
+
+LaTeX Warning: Citation 'amazonPython' on page 14 undefined on input line 305.
+
+The command '\includegraphics [width=\textwidth ]{img/chapter02/logo_python.png
+}' has been optimized away. Use '/tikz/external/optimize=false' to disable this
+.
+
+LaTeX Warning: Citation 'sympy2024' on page 14 undefined on input line 315.
+
+
+LaTeX Warning: Citation 'matplotlib2024' on page 14 undefined on input line 315
+.
+
+LaTeX Info: Redefining \. on input line 316.
+LaTeX Info: Redefining \% on input line 316.
+
+LaTeX Warning: Hyper reference `app2:complex-code-python-matplotlib-sympy' on p
+age 15 undefined on input line 317.
+
+The command '\includegraphics [width=1\textwidth ]{img/chapter02/python-sympy-m
+atplotlib.png}' has been optimized away. Use '/tikz/external/optimize=false' to
+ disable this.
+
+LaTeX Warning: Hyper reference `app2:complex-code-python-matplotlib-sympy' on p
+age 15 undefined on input line 324.
+
+
+LaTeX Warning: Reference `fig:python-matplotlib-sympy-trig-series' on page 15 u
+ndefined on input line 324.
+
+
+LaTeX Warning: Citation 'Manim2024' on page 15 undefined on input line 327.
+
+
+LaTeX Warning: Hyper reference `app2:trig-code-python-manim' on page 15 undefin
+ed on input line 329.
+
+The command '\includegraphics [width=1\textwidth ]{img/chapter02/manim-trig-ser
+ies-graph.png}' has been optimized away. Use '/tikz/external/optimize=false' to
+ disable this.
+
+LaTeX Warning: Hyper reference `app2:complex-code-python-manim' on page 15 unde
+fined on input line 336.
+
+The command '\includegraphics [width=1\textwidth ]{img/chapter02/manim-complex-
+series-graph.png}' has been optimized away. Use '/tikz/external/optimize=false'
+ to disable this.
+LaTeX Info: Redefining \. on input line 343.
+LaTeX Info: Redefining \% on input line 343.
+
+Overfull \hbox (20.17781pt too wide) in paragraph at lines 348--348
 []|[]\OT1/cmr/bx/n/12 SOFTWARE[]| 
  []
 
 
-Overfull \hbox (5.95143pt too wide) in paragraph at lines 13--13
+Overfull \hbox (8.45891pt too wide) in alignment at lines 346--349
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (20.17781pt too wide) in paragraph at lines 352--352
 []|[]\OT1/cmr/bx/n/12 SOFTWARE[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
+Overfull \hbox (8.45891pt too wide) in alignment at lines 349--353
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (8.45891pt too wide) in alignment at lines 353--355
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (8.45891pt too wide) in alignment at lines 355--357
+ [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
 []|\OT1/cmr/m/n/12 Wolfram
  []
 
 
-LaTeX Warning: Citation 'wolfram2024' on page 6 undefined on input line 19.
-
-
-Underfull \hbox (badness 4229) in paragraph at lines 19--19
-[]|\OT1/cmr/m/n/12 Se trata de un potente motor
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
+[]|\OT1/cmr/m/n/12 Funciones propias
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/cmr/m/n/12 comercial de conocimiento
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
+\OT1/cmr/m/n/12 Integrando, puede
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/cmr/m/n/12 computacional para c^^Salculos
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
+\OT1/cmr/m/n/12 obtener cualquier
  []
 
 
-Underfull \hbox (badness 1681) in paragraph at lines 19--19
-\OT1/cmr/m/n/12 matem^^Saticos y gr^^Saficos. Contiene
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
+[]|\OT1/cmr/m/n/12 Desde MXN
  []
 
 
-Underfull \hbox (badness 4366) in paragraph at lines 19--19
-\OT1/cmr/m/n/12 (Trigonom^^Setrica y compleja) as^^S^^P
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
+\TS1/cmr/m/n/12 $\OT1/cmr/m/n/12 1,200.00
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/cmr/m/n/12 como las extensiones pares e
- []
-
-
-Underfull \hbox (badness 4846) in paragraph at lines 19--19
-\OT1/cmr/m/n/12 la serie y obtener una gr^^Safica
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
 \OT1/cmr/m/n/12 anuales para
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/cmr/m/n/12 estudiantes, plan
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
+[]|\OT1/cmr/m/n/12 Interfaz amigable;
  []
 
 
-LaTeX Warning: Citation 'GeoGebra2024' on page 6 undefined on input line 20.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
-[]|\OT1/cmr/m/n/12 Herramienta din^^Samica para
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
+[]|\OT1/cmr/m/n/12 Puede calcular
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
-\OT1/cmr/m/n/12 construcciones geom^^Setricas y
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
+\OT1/cmr/m/n/12 coeficientes si
  []
 
 
-Underfull \hbox (badness 4752) in paragraph at lines 20--20
-\OT1/cmr/m/n/12 serie o extensi^^Son trigonom^^Setrica
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
+\OT1/cmr/m/n/12 integramos por
  []
 
 
-Underfull \hbox (badness 7869) in paragraph at lines 20--20
-\OT1/cmr/m/n/12 y poder ver como cambia la
+Underfull \hbox (badness 5077) in paragraph at lines 359--359
+\OT1/cmr/m/n/12 aparte; No muestra
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
-\OT1/cmr/m/n/12 serie conforme a~nadimos m^^Sas
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
+[]|\OT1/cmr/m/n/12 Planes b^^Sasicos
  []
 
 
-LaTeX Warning: Citation 'Desmos2024' on page 6 undefined on input line 21.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
-[]|\OT1/cmr/m/n/12 Similar a Geogebra es una
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
+\OT1/cmr/m/n/12 gratuitos;
  []
 
 
-Underfull \hbox (badness 1308) in paragraph at lines 21--21
-\OT1/cmr/m/n/12 calculadora gr^^Safica en l^^S^^Pnea para
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
+\OT1/cmr/m/n/12 suscripci^^Son
  []
 
 
-Underfull \hbox (badness 1502) in paragraph at lines 21--21
-\OT1/cmr/m/n/12 modo podemos graficar cualquier
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
+\OT1/cmr/m/n/12 mensual para
  []
 
 
-Underfull \hbox (badness 4752) in paragraph at lines 21--21
-\OT1/cmr/m/n/12 serie o extensi^^Son trigonom^^Setrica
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
+\OT1/cmr/m/n/12 funciones
  []
 
 
-LaTeX Warning: Citation 'Manim2024' on page 6 undefined on input line 22.
-
-
-Underfull \hbox (badness 2486) in paragraph at lines 22--22
-\OT1/cmr/m/n/12 para visualizaciones matem^^Saticas,
+Underfull \hbox (badness 10000) in paragraph at lines 360--360
+[]|\OT1/cmr/m/n/12 Potente para
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--22
-\OT1/cmr/m/n/12 serie ya sea trigonom^^Setrica o
+Underfull \hbox (badness 10000) in paragraph at lines 360--360
+\OT1/cmr/m/n/12 realizar c^^Salculos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--22
-\OT1/cmr/m/n/12 exponencial y poder animar
+Underfull \hbox (badness 10000) in paragraph at lines 360--360
+\OT1/cmr/m/n/12 y visualizaci^^Son
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--22
-\OT1/cmr/m/n/12 de infinitas maneras el como
+Underfull \hbox (badness 10000) in paragraph at lines 360--360
+[]|\OT1/cmr/m/n/12 Requiere
  []
 
 
-Underfull \hbox (badness 8094) in paragraph at lines 22--22
-\OT1/cmr/m/n/12 se aproxima la serie con sus
+Underfull \hbox (badness 3343) in paragraph at lines 360--360
+\OT1/cmr/m/n/12 de programaci^^Son en
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--22
-\OT1/cmr/m/n/12 coeficientes. Requiere hacer los
- []
-
-
-Underfull \hbox (badness 3872) in paragraph at lines 22--22
-\OT1/cmr/m/n/12 c^^Salculos, armar la expresi^^Son de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--22
-\OT1/cmr/m/n/12 Python, programaci^^Son orientada
- []
-
-
-LaTeX Warning: Citation 'Matplotlib-sympy2024' on page 6 undefined on input lin
-e 23.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-[]|\OT1/cmr/m/n/12 Es una biblioteca de Python
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\OT1/cmr/m/n/12 para realizar matem^^Saticas
- []
-
-
-Underfull \hbox (badness 1735) in paragraph at lines 23--23
-\OT1/cmr/m/n/12 de series de Fourier. A menudo
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\OT1/cmr/m/n/12 se usa en combinaci^^Son con
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\OT1/cmr/m/n/12 librer^^S^^Pas de visualizaci^^Son como
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\OT1/cmr/m/n/12 Matplotlib para representar
- []
-
-
-Underfull \hbox (badness 2409) in paragraph at lines 23--23
-\OT1/cmr/m/n/12 gr^^Saficamente los resultados, pero
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\OT1/cmr/m/n/12 de nuevo, esta combinaci^^Son
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\OT1/cmr/m/n/12 requiere conocimientos de
- []
-
-
-Overfull \hbox (29.62433pt too wide) in paragraph at lines 23--23
-\OT1/cmr/m/n/12 programaci^^Son. [[]]| 
- []
-
-
-LaTeX Warning: Citation 'MathWorks2024' on page 6 undefined on input line 24.
-
-
-Underfull \hbox (badness 2573) in paragraph at lines 24--24
-[]|\OT1/cmr/m/n/12 Es un entorno de programaci^^Son
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
-\OT1/cmr/m/n/12 y visualizaci^^Son de datos, con
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
-\OT1/cmr/m/n/12 herramientas espec^^S^^Pficas para
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
-\OT1/cmr/m/n/12 series de Fourier, adem^^Sas de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
-\OT1/cmr/m/n/12 tener funciones para poder
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
+Underfull \hbox (badness 10000) in paragraph at lines 360--360
 []|\OT1/cmr/m/n/12 Desde USD\TS1/cmr/m/n/12 $\OT1/cmr/m/n/12 99
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
-\OT1/cmr/m/n/12 (aprox.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
-\OT1/cmr/m/n/12 MXN\TS1/cmr/m/n/12 $\OT1/cmr/m/n/12 1627.82)
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
+Underfull \hbox (badness 10000) in paragraph at lines 360--360
 \OT1/cmr/m/n/12 anuales para
  []
 
-LaTeX Info: Redefining \. on input line 26.
-LaTeX Info: Redefining \% on input line 26.
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-|[]\OT1/cmr/bx/n/14.4 Comparativa del Funcionamiento de las
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
+[]|\OT1/cmr/m/n/12 Puede calcular
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
-
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
+\OT1/cmr/m/n/12 cualquier coeficiente
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
-
+Underfull \hbox (badness 7963) in paragraph at lines 361--361
+\OT1/cmr/m/n/12 y graficar la serie
  []
 
 
-LaTeX Warning: Hyper reference `app:Estado-del-arte-coeff' on page 8 undefined 
-on input line 36.
-
-LaTeX Info: Redefining \. on input line 41.
-LaTeX Info: Redefining \% on input line 41.
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-LaTeX Warning: Hyper reference `app:Estado-del-arte-coeff' on page 9 undefined 
-on input line 99.
-
-
-LaTeX Warning: Hyper reference `app:Estado-del-arte-coeff' on page 9 undefined 
-on input line 99.
-
-
-LaTeX Warning: Hyper reference `fig:fourier-estado-del-arte' on page 9 undefine
-d on input line 105.
-
-The command '\includegraphics [width=0.9\textwidth ]{img/chapter02/wolfram_trig
-_series.png}' has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-Underfull \hbox (badness 2653) in paragraph at lines 108--115
-[]\OT1/cmr/m/n/12 WolframAlpha nos permite calcular series de Fourier trigonom^
-^Setricas y
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
+[]|\OT1/cmr/m/n/12 Interfaz limitada
  []
 
-The command '\includegraphics [width=0.9\textwidth ]{img/chapter02/wolfram_comp
-lex_series.png}' has been optimized away. Use '/tikz/external/optimize=false' t
-o disable this.
-LaTeX Info: Redefining \. on input line 124.
-LaTeX Info: Redefining \% on input line 124.
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
+\OT1/cmr/m/n/12 y menos intuitiva;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
+\OT1/cmr/m/n/12 Poco flexible al
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
+\OT1/cmr/m/n/12 usarlo; Requiere
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
+\OT1/cmr/m/n/12 conocimientos en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
+[]|\OT1/cmr/m/n/12 Planes de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
+\OT1/cmr/m/n/12 estudiantes y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
+\OT1/cmr/m/n/12 profesionales,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+[]|\OT1/cmr/m/n/12 Permite calcular
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+\OT1/cmr/m/n/12 cualquier coeficiente
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+\OT1/cmr/m/n/12 y expandirlo en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+\OT1/cmr/m/n/12 serie adem^^Sas de
+ []
+
+
+Underfull \hbox (badness 3838) in paragraph at lines 362--362
+\OT1/cmr/m/n/12 mostrar una gr^^Safica
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+\OT1/cmr/m/n/12 medianamente
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+\OT1/cmr/m/n/12 ser extremadamente
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+[]|\OT1/cmr/m/n/12 Interfaz limitada
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+\OT1/cmr/m/n/12 y menos intuitiva;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+\OT1/cmr/m/n/12 no tan popular,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+\OT1/cmr/m/n/12 menos soporte
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+\OT1/cmr/m/n/12 conocimientos en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+[]|\OT1/cmr/m/n/12 Gratuito, de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
+[]|\OT1/cmr/m/n/12 Gr^^Saficas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
+\OT1/cmr/m/n/12 extremadamente
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
+\OT1/cmr/m/n/12 din^^Samicas e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
+\OT1/cmr/m/n/12 interactivas; Puede
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
+\OT1/cmr/m/n/12 graficar cualquier
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
+[]|\OT1/cmr/m/n/12 Requiere realizar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
+\OT1/cmr/m/n/12 calcular los
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
+\OT1/cmr/m/n/12 coeficientes;
+ []
+
+
+Underfull \hbox (badness 2698) in paragraph at lines 363--363
+\OT1/cmr/m/n/12 Limitado a la serie
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
+\OT1/cmr/m/n/12 trigonom^^Setrica.;
+ []
+
+
+Underfull \hbox (badness 1990) in paragraph at lines 363--363
+\OT1/cmr/m/n/12 Pesado al hacer los
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
+[]|\OT1/cmr/m/n/12 Gratuito, de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
+[]|\OT1/cmr/m/n/12 Gr^^Saficas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
+\OT1/cmr/m/n/12 extremadamente
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
+\OT1/cmr/m/n/12 din^^Samicas e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
+\OT1/cmr/m/n/12 interactivas; Puede
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
+\OT1/cmr/m/n/12 graficar cualquier
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
+\OT1/cmr/m/n/12 serie trigonom^^Setrica;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
+[]|\OT1/cmr/m/n/12 Requiere c^^Salculos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
+\OT1/cmr/m/n/12 previos de los
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
+[]|\OT1/cmr/m/n/12 Gratuito, de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+[]|\OT1/cmr/m/n/12 Matplotlib
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+[]|\OT1/cmr/m/n/12 Permite calcular
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+\OT1/cmr/m/n/12 series exponenciales
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 365--365
+\OT1/cmr/m/n/12 y complejas, adem^^Sas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+\OT1/cmr/m/n/12 de mostrar una
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+[]|\OT1/cmr/m/n/12 Requiere
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+\OT1/cmr/m/n/12 conocimientos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+\OT1/cmr/m/n/12 de Python y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+\OT1/cmr/m/n/12 programaci^^Son
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+\OT1/cmr/m/n/12 avanzada; menos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+\OT1/cmr/m/n/12 intuitivo para
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+[]|\OT1/cmr/m/n/12 Gratuito, de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--366
+[]|\OT1/cmr/m/n/12 Puede graficar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--366
+\OT1/cmr/m/n/12 cualquier serie de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--366
+\OT1/cmr/m/n/12 Fourier mientras
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--366
+\OT1/cmr/m/n/12 conozcamos sus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--366
+\OT1/cmr/m/n/12 coeficientes y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--366
+\OT1/cmr/m/n/12 alta; requiere
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--366
+\OT1/cmr/m/n/12 conocimientos
+ []
+
+
+Underfull \hbox (badness 6063) in paragraph at lines 366--366
+\OT1/cmr/m/n/12 y Manim; Requiere
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--366
+\OT1/cmr/m/n/12 calcular la serie
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--366
+[]|\OT1/cmr/m/n/12 Gratuito, de
+ []
+
+
+Overfull \hbox (8.45891pt too wide) in alignment at lines 357--368
+ [] [] [] [] 
+ []
+
+LaTeX Info: Redefining \. on input line 368.
+LaTeX Info: Redefining \% on input line 368.
+LaTeX Info: Redefining \. on input line 371.
+LaTeX Info: Redefining \% on input line 371.
+
+Overfull \hbox (2.31473pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 2.2.  COMPARATIVA DEL FUNCIONAMIENTO DE LAS HERRAMIENTAS \OT1/
+cmr/m/n/12 17
+ []
+
 )
-LaTeX Info: Redefining \. on input line 127.
-LaTeX Info: Redefining \% on input line 127.
+LaTeX Info: Redefining \. on input line 146.
+LaTeX Info: Redefining \% on input line 146.
 \providecommand\hyper@newdestlabel[2]{}
 (chapters/chapter03/chapter03.tex
 Cap\'{\i }tulo 3.
 
-LaTeX Warning: Citation 'historia-alambert-fourier-euler' on page 11 undefined 
+LaTeX Warning: Citation 'historia-alambert-fourier-euler' on page 19 undefined 
 on input line 7.
 
 
-LaTeX Warning: Citation 'weinbergerEDP' on page 11 undefined on input line 13.
+LaTeX Warning: Citation 'weinbergerEDP' on page 19 undefined on input line 13.
 
 
-LaTeX Warning: Citation 'unal_52162' on page 12 undefined on input line 16.
+LaTeX Warning: Citation 'unal_52162' on page 20 undefined on input line 16.
 
 
-LaTeX Warning: Reference `fig:cuerda-vibrante' on page 12 undefined on input li
+LaTeX Warning: Reference `fig:cuerda-vibrante' on page 20 undefined on input li
 ne 41.
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-LaTeX Warning: Citation 'demostracion-onda' on page 12 undefined on input line 
+LaTeX Warning: Citation 'demostracion-onda' on page 20 undefined on input line 
 76.
 
 
-LaTeX Warning: Reference `eq2' on page 12 undefined on input line 82.
+LaTeX Warning: Reference `eq2' on page 20 undefined on input line 82.
 
 
-LaTeX Warning: Citation 'demostracion-onda' on page 12 undefined on input line 
+LaTeX Warning: Citation 'demostracion-onda' on page 20 undefined on input line 
 82.
 
 LaTeX Info: Redefining \. on input line 86.
@@ -1913,22 +2636,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--89
  []
 
 
-LaTeX Warning: Reference `fig:cuerda-vibrante' on page 13 undefined on input li
+LaTeX Warning: Reference `fig:cuerda-vibrante' on page 21 undefined on input li
 ne 91.
 
 
-LaTeX Warning: Reference `eq1' on page 13 undefined on input line 92.
+LaTeX Warning: Reference `eq1' on page 21 undefined on input line 92.
 
 
-LaTeX Warning: Citation 'demostracion-onda' on page 13 undefined on input line 
+LaTeX Warning: Citation 'demostracion-onda' on page 21 undefined on input line 
 97.
 
 
-LaTeX Warning: Citation 'demostracion-onda' on page 13 undefined on input line 
+LaTeX Warning: Citation 'demostracion-onda' on page 21 undefined on input line 
 103.
 
 
-LaTeX Warning: Citation 'bernoulli_Mechanics' on page 13 undefined on input lin
+LaTeX Warning: Citation 'bernoulli_Mechanics' on page 21 undefined on input lin
 e 117.
 
 
@@ -1945,17 +2668,17 @@ nclu^^S^^Pa,
  []
 
 
-LaTeX Warning: Reference `eq1' on page 13 undefined on input line 120.
+LaTeX Warning: Reference `eq1' on page 21 undefined on input line 120.
 
 
-LaTeX Warning: Citation 'bernoulli_Mechanics' on page 13 undefined on input lin
+LaTeX Warning: Citation 'bernoulli_Mechanics' on page 21 undefined on input lin
 e 120.
 
 
-LaTeX Warning: Reference `eq1' on page 13 undefined on input line 120.
+LaTeX Warning: Reference `eq1' on page 21 undefined on input line 120.
 
 
-LaTeX Warning: Citation 'springer1999Physics' on page 13 undefined on input lin
+LaTeX Warning: Citation 'springer1999Physics' on page 21 undefined on input lin
 e 120.
 
 
@@ -1967,7 +2690,7 @@ ta a la de
 LaTeX Info: Redefining \. on input line 122.
 LaTeX Info: Redefining \% on input line 122.
 
-LaTeX Warning: Reference `fig:armonicos_cuerda' on page 14 undefined on input l
+LaTeX Warning: Reference `fig:armonicos_cuerda' on page 22 undefined on input l
 ine 126.
 
 
@@ -1984,17 +2707,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 224--225
  []
 
 
-LaTeX Warning: Citation 'springer1999Physics' on page 14 undefined on input lin
+LaTeX Warning: Citation 'springer1999Physics' on page 22 undefined on input lin
 e 227.
 
 
-LaTeX Warning: Citation 'springer1999Physics' on page 14 undefined on input lin
+LaTeX Warning: Citation 'springer1999Physics' on page 22 undefined on input lin
 e 228.
 
 LaTeX Info: Redefining \. on input line 229.
 LaTeX Info: Redefining \% on input line 229.
 
-LaTeX Warning: Citation 'almira2017fourier' on page 15 undefined on input line 
+LaTeX Warning: Citation 'almira2017fourier' on page 23 undefined on input line 
 232.
 
 LaTeX Info: Redefining \. on input line 254.
@@ -2002,24 +2725,24 @@ LaTeX Info: Redefining \% on input line 254.
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-LaTeX Warning: Reference `eq12' on page 16 undefined on input line 294.
+LaTeX Warning: Reference `eq12' on page 24 undefined on input line 294.
 
 
-LaTeX Warning: Citation 'demostracion-calor' on page 16 undefined on input line
+LaTeX Warning: Citation 'demostracion-calor' on page 24 undefined on input line
  303.
 
 
-LaTeX Warning: Citation 'demostracion-calor-feldman' on page 16 undefined on in
+LaTeX Warning: Citation 'demostracion-calor-feldman' on page 24 undefined on in
 put line 311.
 
 
-LaTeX Warning: Reference `eq13' on page 16 undefined on input line 311.
+LaTeX Warning: Reference `eq13' on page 24 undefined on input line 311.
 
 
-LaTeX Warning: Reference `eq15' on page 16 undefined on input line 311.
+LaTeX Warning: Reference `eq15' on page 24 undefined on input line 311.
 
 
-LaTeX Warning: Reference `eq15' on page 16 undefined on input line 311.
+LaTeX Warning: Reference `eq15' on page 24 undefined on input line 311.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 311--312
@@ -2027,30 +2750,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 311--312
  []
 
 
-LaTeX Warning: Reference `eq16' on page 16 undefined on input line 319.
+LaTeX Warning: Reference `eq16' on page 24 undefined on input line 319.
 
 LaTeX Info: Redefining \. on input line 320.
 LaTeX Info: Redefining \% on input line 320.
 
-LaTeX Warning: Reference `eq16' on page 17 undefined on input line 321.
+LaTeX Warning: Reference `eq16' on page 25 undefined on input line 321.
 
 
-LaTeX Warning: Reference `eq16' on page 17 undefined on input line 321.
+LaTeX Warning: Reference `eq16' on page 25 undefined on input line 321.
 
 
-LaTeX Warning: Reference `eq9' on page 17 undefined on input line 330.
+LaTeX Warning: Reference `eq9' on page 25 undefined on input line 330.
 
 
-LaTeX Warning: Reference `eq1' on page 17 undefined on input line 330.
+LaTeX Warning: Reference `eq1' on page 25 undefined on input line 330.
 
 
-LaTeX Warning: Reference `eq12' on page 17 undefined on input line 330.
+LaTeX Warning: Reference `eq12' on page 25 undefined on input line 330.
 
 
-LaTeX Warning: Reference `eq18' on page 17 undefined on input line 338.
+LaTeX Warning: Reference `eq18' on page 25 undefined on input line 338.
 
 
-LaTeX Warning: Reference `eq17' on page 17 undefined on input line 338.
+LaTeX Warning: Reference `eq17' on page 25 undefined on input line 338.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 338--339
@@ -2058,15 +2781,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 338--339
  []
 
 
-LaTeX Warning: Citation 'historia-alambert-fourier-euler' on page 17 undefined 
+LaTeX Warning: Citation 'historia-alambert-fourier-euler' on page 25 undefined 
 on input line 340.
 
 
-LaTeX Warning: Citation 'historia-alambert-fourier-euler' on page 17 undefined 
+LaTeX Warning: Citation 'historia-alambert-fourier-euler' on page 25 undefined 
 on input line 342.
 
 
-LaTeX Warning: Citation 'historia-alambert-fourier-euler' on page 17 undefined 
+LaTeX Warning: Citation 'historia-alambert-fourier-euler' on page 25 undefined 
 on input line 344.
 
 
@@ -2077,33 +2800,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 347--348
 LaTeX Info: Redefining \. on input line 348.
 LaTeX Info: Redefining \% on input line 348.
 
-LaTeX Warning: Citation 'fourierTolstov' on page 18 undefined on input line 358
+LaTeX Warning: Citation 'fourierTolstov' on page 26 undefined on input line 358
 .
 
 
-LaTeX Warning: Citation 'fourierTolstov' on page 18 undefined on input line 360
+LaTeX Warning: Citation 'fourierTolstov' on page 26 undefined on input line 360
 .
 
 
-LaTeX Warning: Reference `fig:funcion-periodica' on page 18 undefined on input 
+LaTeX Warning: Reference `fig:funcion-periodica' on page 26 undefined on input 
 line 362.
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-LaTeX Warning: Citation 'fourierHsu' on page 18 undefined on input line 400.
+LaTeX Warning: Citation 'fourierHsu' on page 26 undefined on input line 400.
 
 
-LaTeX Warning: Reference `eq19' on page 18 undefined on input line 406.
+LaTeX Warning: Reference `eq19' on page 26 undefined on input line 406.
 
 
-LaTeX Warning: Citation 'fourierHsu' on page 18 undefined on input line 406.
+LaTeX Warning: Citation 'fourierHsu' on page 26 undefined on input line 406.
 
 
-LaTeX Warning: Reference `eq19' on page 18 undefined on input line 406.
+LaTeX Warning: Reference `eq19' on page 26 undefined on input line 406.
 
 
-LaTeX Warning: Citation 'fourierCinvestav' on page 18 undefined on input line 4
+LaTeX Warning: Citation 'fourierCinvestav' on page 26 undefined on input line 4
 06.
 
 
@@ -2114,17 +2837,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 405--407
 LaTeX Info: Redefining \. on input line 411.
 LaTeX Info: Redefining \% on input line 411.
 
-LaTeX Warning: Citation 'fourierTolstov' on page 19 undefined on input line 418
+LaTeX Warning: Citation 'fourierTolstov' on page 27 undefined on input line 418
 .
 
 
-LaTeX Warning: Reference `fig:area-periodica' on page 19 undefined on input lin
+LaTeX Warning: Reference `fig:area-periodica' on page 27 undefined on input lin
 e 418.
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-LaTeX Warning: Citation 'fourierTolstov' on page 19 undefined on input line 473
+LaTeX Warning: Citation 'fourierTolstov' on page 27 undefined on input line 473
 .
 
 
@@ -2133,13 +2856,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 473--474
  []
 
 
-LaTeX Warning: Reference `fig:sen-cos' on page 19 undefined on input line 475.
+LaTeX Warning: Reference `fig:sen-cos' on page 27 undefined on input line 475.
 
 
-LaTeX Warning: Reference `eq19' on page 19 undefined on input line 475.
+LaTeX Warning: Reference `eq19' on page 27 undefined on input line 475.
 
 
-LaTeX Warning: Citation 'fourierCinvestav' on page 19 undefined on input line 4
+LaTeX Warning: Citation 'fourierCinvestav' on page 27 undefined on input line 4
 75.
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
@@ -2162,11 +2885,11 @@ Overfull \hbox (8.0676pt too wide) in paragraph at lines 479--540
  []
 
 
-LaTeX Warning: Citation 'fourierCinvestav' on page 19 undefined on input line 5
+LaTeX Warning: Citation 'fourierCinvestav' on page 27 undefined on input line 5
 49.
 
 
-LaTeX Warning: Reference `fig:seno-diferentes-frecuencias' on page 19 undefined
+LaTeX Warning: Reference `fig:seno-diferentes-frecuencias' on page 27 undefined
  on input line 549.
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
@@ -2174,15 +2897,15 @@ isable this.
 LaTeX Info: Redefining \. on input line 596.
 LaTeX Info: Redefining \% on input line 596.
 
-LaTeX Warning: Citation 'fourierCinvestav' on page 20 undefined on input line 5
+LaTeX Warning: Citation 'fourierCinvestav' on page 28 undefined on input line 5
 97.
 
 
-LaTeX Warning: Reference `fig:frecuencia-func-circ' on page 20 undefined on inp
+LaTeX Warning: Reference `fig:frecuencia-func-circ' on page 28 undefined on inp
 ut line 603.
 
 
-LaTeX Warning: Citation 'fourierCinvestav' on page 20 undefined on input line 6
+LaTeX Warning: Citation 'fourierCinvestav' on page 28 undefined on input line 6
 03.
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
@@ -2205,153 +2928,153 @@ Overfull \hbox (33.6749pt too wide) in paragraph at lines 605--656
  []
 
 
-LaTeX Warning: Reference `fig:fase-coseno' on page 20 undefined on input line 6
-69.
+LaTeX Warning: Reference `fig:fase-coseno' on page 28 undefined on input line 6
+66.
 
 
-LaTeX Warning: Citation 'armonicosOpenStax' on page 20 undefined on input line 
-669.
+LaTeX Warning: Citation 'armonicosOpenStax' on page 28 undefined on input line 
+666.
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Underfull \hbox (badness 4266) in paragraph at lines 673--697
+Underfull \hbox (badness 4266) in paragraph at lines 670--694
 [] \OT1/cmr/m/n/12 [ \OT1/cmr/m/sc/12 tikzpicture optimized away
  []
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Underfull \hbox (badness 4266) in paragraph at lines 700--726
+Underfull \hbox (badness 4266) in paragraph at lines 697--723
 [] \OT1/cmr/m/n/12 [ \OT1/cmr/m/sc/12 tikzpicture optimized away
  []
 
 
-Overfull \hbox (12.33533pt too wide) in paragraph at lines 672--727
+Overfull \hbox (12.33533pt too wide) in paragraph at lines 669--724
 []$[]$   $[]$ 
  []
 
 
-LaTeX Warning: Citation 'matesAvanzadasZill' on page 20 undefined on input line
- 732.
-
-LaTeX Info: Redefining \. on input line 736.
-LaTeX Info: Redefining \% on input line 736.
-
-LaTeX Warning: Reference `fig:funcion-par' on page 21 undefined on input line 7
-38.
+LaTeX Warning: Citation 'matesAvanzadasZill' on page 28 undefined on input line
+ 729.
 
 
-LaTeX Warning: Reference `eq24' on page 21 undefined on input line 738.
+LaTeX Warning: Reference `fig:funcion-par' on page 28 undefined on input line 7
+35.
+
+
+LaTeX Warning: Reference `eq24' on page 28 undefined on input line 735.
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
+LaTeX Info: Redefining \. on input line 773.
+LaTeX Info: Redefining \% on input line 773.
 
-LaTeX Warning: Citation 'matesAvanzadasZill' on page 21 undefined on input line
- 778.
+LaTeX Warning: Citation 'matesAvanzadasZill' on page 29 undefined on input line
+ 775.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 778--780
+Underfull \hbox (badness 10000) in paragraph at lines 775--776
 []\OT1/cmr/m/n/12 Ahora, decimos que una funci^^Son es impar si se cumple que:
  []
 
 
-LaTeX Warning: Reference `fig:funcion-impar' on page 21 undefined on input line
- 784.
+LaTeX Warning: Reference `fig:funcion-impar' on page 29 undefined on input line
+ 780.
 
 
-LaTeX Warning: Reference `eq25' on page 21 undefined on input line 784.
-
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-LaTeX Warning: Citation 'matesAvanzadasZill' on page 21 undefined on input line
- 827.
-
-
-LaTeX Warning: Reference `fig:areas-par-impar' on page 21 undefined on input li
-ne 837.
+LaTeX Warning: Reference `eq25' on page 29 undefined on input line 780.
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Underfull \hbox (badness 4266) in paragraph at lines 840--888
+LaTeX Warning: Citation 'matesAvanzadasZill' on page 29 undefined on input line
+ 823.
+
+
+LaTeX Warning: Reference `fig:areas-par-impar' on page 29 undefined on input li
+ne 833.
+
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+
+Underfull \hbox (badness 4266) in paragraph at lines 836--884
 [] \OT1/cmr/m/n/12 [ \OT1/cmr/m/sc/12 tikzpicture optimized away
  []
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Underfull \hbox (badness 4266) in paragraph at lines 891--938
+Underfull \hbox (badness 4266) in paragraph at lines 887--934
 [] \OT1/cmr/m/n/12 [ \OT1/cmr/m/sc/12 tikzpicture optimized away
  []
 
 
-Overfull \hbox (12.33533pt too wide) in paragraph at lines 839--939
+Overfull \hbox (12.33533pt too wide) in paragraph at lines 835--935
 []$[]$   $[]$ 
  []
 
-LaTeX Info: Redefining \. on input line 942.
-LaTeX Info: Redefining \% on input line 942.
+LaTeX Info: Redefining \. on input line 938.
+LaTeX Info: Redefining \% on input line 938.
 
-LaTeX Warning: Reference `fig:smooth-func' on page 22 undefined on input line 9
-45.
+LaTeX Warning: Reference `fig:smooth-func' on page 30 undefined on input line 9
+41.
 
 
-LaTeX Warning: Citation 'fourierTolstov' on page 22 undefined on input line 945
+LaTeX Warning: Citation 'fourierTolstov' on page 30 undefined on input line 941
 .
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-LaTeX Warning: Reference `fig:funcion-suave-trozos' on page 22 undefined on inp
-ut line 984.
+LaTeX Warning: Reference `fig:funcion-suave-trozos' on page 30 undefined on inp
+ut line 980.
 
 
-LaTeX Warning: Citation 'fourierTolstov' on page 22 undefined on input line 984
+LaTeX Warning: Citation 'fourierTolstov' on page 30 undefined on input line 980
 .
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Underfull \hbox (badness 4266) in paragraph at lines 988--1021
+Underfull \hbox (badness 4266) in paragraph at lines 984--1017
 [] \OT1/cmr/m/n/12 [ \OT1/cmr/m/sc/12 tikzpicture optimized away
  []
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Underfull \hbox (badness 4266) in paragraph at lines 1024--1064
+Underfull \hbox (badness 4266) in paragraph at lines 1020--1060
 [] \OT1/cmr/m/n/12 [ \OT1/cmr/m/sc/12 tikzpicture optimized away
  []
 
 
-Overfull \hbox (12.33533pt too wide) in paragraph at lines 987--1065
+Overfull \hbox (12.33533pt too wide) in paragraph at lines 983--1061
 []$[]$   $[]$ 
  []
 
 
-LaTeX Warning: Citation 'fourierTolstov' on page 22 undefined on input line 106
-8.
+LaTeX Warning: Citation 'fourierTolstov' on page 30 undefined on input line 106
+4.
 
 
-LaTeX Warning: Citation 'algebraLinealPoole' on page 22 undefined on input line
- 1071.
+LaTeX Warning: Citation 'algebraLinealPoole' on page 30 undefined on input line
+ 1067.
 
-LaTeX Info: Redefining \. on input line 1072.
-LaTeX Info: Redefining \% on input line 1072.
+LaTeX Info: Redefining \. on input line 1068.
+LaTeX Info: Redefining \% on input line 1068.
 
-LaTeX Warning: Citation 'matesAvanzadasZill' on page 23 undefined on input line
- 1079.
+LaTeX Warning: Citation 'matesAvanzadasZill' on page 31 undefined on input line
+ 1075.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1079--1080
+Underfull \hbox (badness 10000) in paragraph at lines 1075--1076
 []\OT1/cmr/m/n/12 En general, se dice que el conjunto de funciones de valor rea
 l
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1079--1080
+Underfull \hbox (badness 10000) in paragraph at lines 1075--1076
 \OMS/cmsy/m/n/12 f\OML/cmm/m/it/12 ^^^[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t\OT1
 /cmr/m/n/12 )\OML/cmm/m/it/12 ; ^^^[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t\OT1/cm
 r/m/n/12 )\OML/cmm/m/it/12 ; ^^^[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr/m
@@ -2361,58 +3084,58 @@ r/m/n/12 )\OML/cmm/m/it/12 ; ^^^[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr/m
  []
 
 
-Underfull \hbox (badness 3780) in paragraph at lines 1087--1088
+Underfull \hbox (badness 3780) in paragraph at lines 1083--1084
 []\OT1/cmr/m/n/12 Ahora, consideremos que tenemos conjuntos de funciones senoid
 ales y
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1104--1105
+Underfull \hbox (badness 10000) in paragraph at lines 1100--1101
 []\OT1/cmr/m/n/12 Estas relaciones demuestran que el conjunto de funciones
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1104--1105
+Underfull \hbox (badness 10000) in paragraph at lines 1100--1101
 \OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; [] ![]t; [] \OT1/cmr/m/n/
 12 2\OML/cmm/m/it/12 ![]t; [] ; [] n![]t; [] ; [] ![]t; [] \OT1/cmr/m/n/12 2\OM
 L/cmm/m/it/12 ![]t; [] ; [] n![]t; []\OMS/cmsy/m/n/12 g$ \OT1/cmr/m/n/12 son
  []
 
 
-LaTeX Warning: Citation 'matesAvanzadasZill' on page 23 undefined on input line
- 1107.
+LaTeX Warning: Citation 'matesAvanzadasZill' on page 31 undefined on input line
+ 1103.
 
 
-Underfull \hbox (badness 1297) in paragraph at lines 1107--1108
+Underfull \hbox (badness 1297) in paragraph at lines 1103--1104
 []\OT1/cmr/m/n/12 Como ya vimos anteriormente, las series de Fourier, fueron in
 troducidas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1107--1108
+Underfull \hbox (badness 10000) in paragraph at lines 1103--1104
 \OT1/cmr/m/n/12 como $\OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; [] 
 ![]t; [] \OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ![]t; [] ; [] n![]t; [] ; [] ![]t; [
 ] \OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ![]t; [] ; [] n![]t; [] \OMS/cmsy/m/n/12 g$
 
  []
 
-LaTeX Info: Redefining \. on input line 1108.
-LaTeX Info: Redefining \% on input line 1108.
+LaTeX Info: Redefining \. on input line 1104.
+LaTeX Info: Redefining \% on input line 1104.
 
-LaTeX Warning: Reference `fig:func-periodica' on page 24 undefined on input lin
-e 1113.
-
-
-LaTeX Warning: Citation 'fourierHsu' on page 24 undefined on input line 1120.
+LaTeX Warning: Reference `fig:func-periodica' on page 32 undefined on input lin
+e 1109.
 
 
-LaTeX Warning: Reference `eq28' on page 24 undefined on input line 1126.
+LaTeX Warning: Citation 'fourierHsu' on page 32 undefined on input line 1116.
 
 
-LaTeX Warning: Citation 'fourierHsu' on page 24 undefined on input line 1126.
+LaTeX Warning: Reference `eq28' on page 32 undefined on input line 1122.
 
 
-Overfull \hbox (12.10497pt too wide) detected at line 1130
+LaTeX Warning: Citation 'fourierHsu' on page 32 undefined on input line 1122.
+
+
+Overfull \hbox (12.10497pt too wide) detected at line 1126
 [][][]\OML/cmm/m/it/12 a[] \OT1/cmr/m/n/12 = [] [][] \OML/cmm/m/it/12 f\OT1/cmr
 /m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr/m/n/12 ) \OML/cmm/m/it/12 dt;  a[] \OT1/cmr
 /m/n/12 = [] [][] \OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr
@@ -2422,120 +3145,120 @@ it/12 dt
  []
 
 
-LaTeX Warning: Reference `eq27' on page 24 undefined on input line 1132.
+LaTeX Warning: Reference `eq27' on page 32 undefined on input line 1128.
 
 
-LaTeX Warning: Reference `eq27' on page 24 undefined on input line 1133.
+LaTeX Warning: Reference `eq27' on page 32 undefined on input line 1129.
 
 
-LaTeX Warning: Citation 'matesAvanzadasZill' on page 24 undefined on input line
- 1133.
+LaTeX Warning: Citation 'matesAvanzadasZill' on page 32 undefined on input line
+ 1129.
 
 
-Underfull \hbox (badness 1881) in paragraph at lines 1132--1134
+Underfull \hbox (badness 1881) in paragraph at lines 1128--1130
 []\OT1/cmr/m/n/12 La ecuaci^^Son [] describe c^^Somo una funci^^Son peri^^Sodic
 a arbitraria puede
  []
 
 
-LaTeX Warning: Citation 'matesAvanzadasZill' on page 24 undefined on input line
- 1138.
+LaTeX Warning: Citation 'matesAvanzadasZill' on page 32 undefined on input line
+ 1134.
 
-LaTeX Info: Redefining \. on input line 1139.
-LaTeX Info: Redefining \% on input line 1139.
+LaTeX Info: Redefining \. on input line 1135.
+LaTeX Info: Redefining \% on input line 1135.
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-LaTeX Warning: Reference `eq28' on page 25 undefined on input line 1179.
+LaTeX Warning: Reference `eq28' on page 33 undefined on input line 1175.
 
 
-LaTeX Warning: Citation 'matesAvanzadasZill' on page 25 undefined on input line
- 1184.
+LaTeX Warning: Citation 'matesAvanzadasZill' on page 33 undefined on input line
+ 1180.
 
 
-Underfull \hbox (badness 2310) in paragraph at lines 1183--1185
+Underfull \hbox (badness 2310) in paragraph at lines 1179--1181
 \OT1/cmr/m/n/12 obtenemos una funci^^Son impar  [[]], como ya vimos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1187--1189
+Underfull \hbox (badness 10000) in paragraph at lines 1183--1185
 
  []
 
 
-LaTeX Warning: Citation 'matesAvanzadasZill' on page 25 undefined on input line
- 1196.
+LaTeX Warning: Citation 'matesAvanzadasZill' on page 33 undefined on input line
+ 1192.
 
 
-Underfull \hbox (badness 1137) in paragraph at lines 1196--1197
+Underfull \hbox (badness 1137) in paragraph at lines 1192--1193
 \OT1/cmr/m/n/12 de una funci^^Son impar con una funci^^Son par produce una func
 i^^Son impar.
  []
 
-LaTeX Info: Redefining \. on input line 1206.
-LaTeX Info: Redefining \% on input line 1206.
+LaTeX Info: Redefining \. on input line 1202.
+LaTeX Info: Redefining \% on input line 1202.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1212--1213
+Underfull \hbox (badness 10000) in paragraph at lines 1208--1209
 
  []
 
 
-LaTeX Warning: Reference `eq28' on page 26 undefined on input line 1226.
+LaTeX Warning: Reference `eq28' on page 34 undefined on input line 1222.
 
 
-LaTeX Warning: Citation 'fourierCruzFierro' on page 26 undefined on input line 
-1230.
+LaTeX Warning: Citation 'fourierCruzFierro' on page 34 undefined on input line 
+1226.
 
 
-LaTeX Warning: Reference `fig:serie-de-cosenos' on page 26 undefined on input l
-ine 1233.
+LaTeX Warning: Reference `fig:serie-de-cosenos' on page 34 undefined on input l
+ine 1229.
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-LaTeX Warning: Reference `eq30' on page 26 undefined on input line 1268.
+LaTeX Warning: Reference `eq30' on page 34 undefined on input line 1264.
 
-LaTeX Info: Redefining \. on input line 1269.
-LaTeX Info: Redefining \% on input line 1269.
+LaTeX Info: Redefining \. on input line 1265.
+LaTeX Info: Redefining \% on input line 1265.
 
-LaTeX Warning: Citation 'fourierCruzFierro' on page 27 undefined on input line 
-1274.
+LaTeX Warning: Citation 'fourierCruzFierro' on page 35 undefined on input line 
+1270.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1274--1275
+Underfull \hbox (badness 10000) in paragraph at lines 1270--1271
 []\OT1/cmr/m/n/12 Pero los coeficientes se ver^^San afectados de la siguiente f
 orma:
  []
 
 
-LaTeX Warning: Reference `fig:serie-de-senos' on page 27 undefined on input lin
-e 1280.
+LaTeX Warning: Reference `fig:serie-de-senos' on page 35 undefined on input lin
+e 1276.
 
-\openout5 = `figures/main-figure22.dpth'.
+\openout7 = `figures/main-figure22.dpth'.
 
-[27
+[35
 
 \providecommand \oddpage@label [2]{}
 {/home/sebastian/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}]
 
-LaTeX Warning: Reference `eq31' on page 27 undefined on input line 1321.
+LaTeX Warning: Reference `eq31' on page 35 undefined on input line 1317.
 
 
-LaTeX Warning: Citation 'fourierCruzFierro' on page 27 undefined on input line 
-1327.
+LaTeX Warning: Citation 'fourierCruzFierro' on page 35 undefined on input line 
+1323.
 
 
-LaTeX Warning: Reference `fig:extencion-periodica' on page 27 undefined on inpu
-t line 1334.
+LaTeX Warning: Reference `fig:extencion-periodica' on page 35 undefined on inpu
+t line 1330.
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-LaTeX Warning: Citation 'fourierCruzFierro' on page 27 undefined on input line 
-1376.
+LaTeX Warning: Citation 'fourierCruzFierro' on page 35 undefined on input line 
+1372.
 
 
-Overfull \hbox (10.68004pt too wide) detected at line 1384
+Overfull \hbox (10.68004pt too wide) detected at line 1380
 [][][]\OML/cmm/m/it/12 a[] \OT1/cmr/m/n/12 = [] [][] \OML/cmm/m/it/12 f\OT1/cmr
 /m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr/m/n/12 ) \OML/cmm/m/it/12 dt;  a[] \OT1/cmr
 /m/n/12 = [] [][] \OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr
@@ -2544,135 +3267,301 @@ Overfull \hbox (10.68004pt too wide) detected at line 1384
 it/12 dt
  []
 
-LaTeX Info: Redefining \. on input line 1384.
-LaTeX Info: Redefining \% on input line 1384.
+LaTeX Info: Redefining \. on input line 1380.
+LaTeX Info: Redefining \% on input line 1380.
 
-LaTeX Warning: Reference `eq27' on page 28 undefined on input line 1387.
-
-
-LaTeX Warning: Citation 'youtubeComplexFourier' on page 28 undefined on input l
-ine 1387.
+LaTeX Warning: Reference `eq27' on page 36 undefined on input line 1383.
 
 
-LaTeX Warning: Reference `eq38' on page 28 undefined on input line 1392.
+LaTeX Warning: Citation 'youtubeComplexFourier' on page 36 undefined on input l
+ine 1383.
 
 
-LaTeX Warning: Reference `eq38' on page 28 undefined on input line 1392.
+LaTeX Warning: Reference `eq38' on page 36 undefined on input line 1388.
 
 
-LaTeX Warning: Reference `eq27' on page 28 undefined on input line 1403.
-
-LaTeX Info: Redefining \. on input line 1425.
-LaTeX Info: Redefining \% on input line 1425.
-
-LaTeX Warning: Reference `eq39' on page 29 undefined on input line 1426.
+LaTeX Warning: Reference `eq38' on page 36 undefined on input line 1388.
 
 
-LaTeX Warning: Reference `eq40' on page 29 undefined on input line 1426.
+LaTeX Warning: Reference `eq27' on page 36 undefined on input line 1399.
+
+LaTeX Info: Redefining \. on input line 1421.
+LaTeX Info: Redefining \% on input line 1421.
+
+LaTeX Warning: Reference `eq39' on page 37 undefined on input line 1422.
 
 
-LaTeX Warning: Reference `eq41' on page 29 undefined on input line 1426.
+LaTeX Warning: Reference `eq40' on page 37 undefined on input line 1422.
 
 
-LaTeX Warning: Reference `eq42' on page 29 undefined on input line 1426.
+LaTeX Warning: Reference `eq41' on page 37 undefined on input line 1422.
 
 
-LaTeX Warning: Citation 'matesAvanzadasZill' on page 29 undefined on input line
- 1426.
+LaTeX Warning: Reference `eq42' on page 37 undefined on input line 1422.
 
 
-LaTeX Warning: Reference `fig:func-periodica' on page 29 undefined on input lin
-e 1430.
+LaTeX Warning: Citation 'matesAvanzadasZill' on page 37 undefined on input line
+ 1422.
 
 
-LaTeX Warning: Citation 'fourierHsu' on page 29 undefined on input line 1430.
+LaTeX Warning: Reference `fig:func-periodica' on page 37 undefined on input lin
+e 1426.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1442--1443
+LaTeX Warning: Citation 'fourierHsu' on page 37 undefined on input line 1426.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1438--1439
 
  []
 
 
-LaTeX Warning: Reference `fig:func-periodica' on page 29 undefined on input lin
-e 1444.
+LaTeX Warning: Reference `fig:func-periodica' on page 37 undefined on input lin
+e 1440.
 
 
-LaTeX Warning: Reference `fig:extencion-periodica' on page 29 undefined on inpu
-t line 1451.
+LaTeX Warning: Reference `fig:extencion-periodica' on page 37 undefined on inpu
+t line 1447.
 
 
-LaTeX Warning: Reference `eq45' on page 29 undefined on input line 1451.
+LaTeX Warning: Reference `eq45' on page 37 undefined on input line 1447.
 
 
-LaTeX Warning: Citation 'fourierCinvestav' on page 29 undefined on input line 1
-451.
+LaTeX Warning: Citation 'fourierCinvestav' on page 37 undefined on input line 1
+447.
 
-LaTeX Info: Redefining \. on input line 1453.
-LaTeX Info: Redefining \% on input line 1453.
+LaTeX Info: Redefining \. on input line 1449.
+LaTeX Info: Redefining \% on input line 1449.
 
-LaTeX Warning: Reference `fig:gibbs' on page 30 undefined on input line 1458.
+LaTeX Warning: Reference `fig:gibbs' on page 38 undefined on input line 1454.
 
 
-LaTeX Warning: Citation 'fourierCarrillo' on page 30 undefined on input line 14
-58.
+LaTeX Warning: Citation 'fourierCarrillo' on page 38 undefined on input line 14
+54.
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-LaTeX Warning: Citation 'apliacionWebAmazon' on page 30 undefined on input line
- 1516.
+LaTeX Warning: Citation 'tesisHerramientasMatematicasAeljandroJimenez' on page 
+38 undefined on input line 1513.
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 1518--1519
+LaTeX Warning: Citation 'tesisHerramientasMatematicasAeljandroJimenez' on page 
+38 undefined on input line 1514.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1513--1515
+
+ []
+
+
+LaTeX Warning: Citation 'tesisHerramientasMatematicasAeljandroJimenez' on page 
+38 undefined on input line 1516.
+
+
+LaTeX Warning: Citation 'apliacionWebAmazon' on page 38 undefined on input line
+ 1520.
+
+LaTeX Info: Redefining \. on input line 1521.
+LaTeX Info: Redefining \% on input line 1521.
+
+Underfull \hbox (badness 1616) in paragraph at lines 1522--1523
 \OT1/cmr/m/n/12 Grupos de trabajo en distintas ubicaciones pueden interactuar c
 on
  []
 
-LaTeX Info: Redefining \. on input line 1523.
-LaTeX Info: Redefining \% on input line 1523.
 
-Underfull \hbox (badness 1024) in paragraph at lines 1524--1525
+Underfull \hbox (badness 1024) in paragraph at lines 1528--1529
 \OT1/cmr/m/n/12 nuevos usuarios de manera flexible, sin necesidad de infraestru
 ctura
  []
 
 
-LaTeX Warning: Citation 'apliacionWebAmazon' on page 31 undefined on input line
- 1527.
+LaTeX Warning: Citation 'apliacionWebAmazon' on page 39 undefined on input line
+ 1531.
 
 The command '\includegraphics [width=0.9\textwidth ]{img/chapter03/ui-web-arqui
 tectura.png}' has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-LaTeX Warning: Citation 'uqbar-wiki-web' on page 31 undefined on input line 153
-1.
+LaTeX Warning: Citation 'uqbar-wiki-web' on page 39 undefined on input line 153
+5.
 
 
-LaTeX Warning: Citation 'uqbar-wiki-web' on page 31 undefined on input line 153
-1.
+LaTeX Warning: Citation 'uqbar-wiki-web' on page 39 undefined on input line 153
+5.
 
 
-Underfull \hbox (badness 3108) in paragraph at lines 1531--1531
+Underfull \hbox (badness 3108) in paragraph at lines 1535--1535
 []\OT1/cmr/m/n/12 Figura 3.20: |Diagrama de una arquitectura cliente - servidor
 . \OT1/cmr/m/it/12 Fuente:
  []
 
-LaTeX Info: Redefining \. on input line 1548.
-LaTeX Info: Redefining \% on input line 1548.
-LaTeX Info: Redefining \. on input line 1574.
-LaTeX Info: Redefining \% on input line 1574.
+LaTeX Info: Redefining \. on input line 1542.
+LaTeX Info: Redefining \% on input line 1542.
 
-LaTeX Warning: Citation 'interfazAlbornoz' on page 33 undefined on input line 1
-579.
+LaTeX Warning: Citation 'HTMLMDN' on page 40 undefined on input line 1549.
+
+
+LaTeX Warning: Citation 'CanvasHTMLW3S' on page 40 undefined on input line 1552
+.
+
+
+LaTeX Warning: Citation 'CSSMDN' on page 40 undefined on input line 1556.
+
+LaTeX Info: Redefining \. on input line 1557.
+LaTeX Info: Redefining \% on input line 1557.
+
+LaTeX Warning: Citation 'JavascriptMDN' on page 41 undefined on input line 1559
+.
+
+
+LaTeX Warning: Citation 'NodeJSKinsta' on page 41 undefined on input line 1564.
+
+
+The command '\includegraphics [width=0.8\textwidth ]{img/chapter03/node-archite
+cture.png}' has been optimized away. Use '/tikz/external/optimize=false' to dis
+able this.
+
+LaTeX Warning: Citation 'NodeJSKinsta' on page 41 undefined on input line 1569.
+
+
+
+LaTeX Warning: Citation 'NodeJSKinsta' on page 41 undefined on input line 1569.
+
+
+
+LaTeX Warning: Reference `fig:nodejs_arqui' on page 41 undefined on input line 
+1572.
+
+
+LaTeX Warning: Citation 'NodeJSKinsta' on page 41 undefined on input line 1572.
+
+
+
+LaTeX Warning: Citation 'MaximaSourgeforce' on page 41 undefined on input line 
+1583.
+
+
+LaTeX Warning: Citation 'MaximaSourgeforce' on page 41 undefined on input line 
+1584.
+
+LaTeX Info: Redefining \. on input line 1589.
+LaTeX Info: Redefining \% on input line 1589.
+
+LaTeX Warning: Citation 'TypescriptDOCS' on page 42 undefined on input line 159
+7.
+
+
+Underfull \hbox (badness 2662) in paragraph at lines 1597--1598
+[]\OT1/cmr/m/n/12 TypeScript es un superset de JavaScript que a~nade tipado est
+^^Satico y
+ []
+
+
+Underfull \hbox (badness 2707) in paragraph at lines 1597--1598
+\OT1/cmr/m/n/12 caracter^^S^^Psticas avanzadas al lenguaje de programaci^^Son. 
+Desarrollado por
+ []
+
+
+LaTeX Warning: Citation 'TailwindCSS' on page 42 undefined on input line 1601.
+
+
+Underfull \hbox (badness 1189) in paragraph at lines 1601--1602
+\OT1/cmr/m/n/12 sin necesidad de escribir CSS personalizado. Esto facilita la c
+reaci^^Son de
+ []
+
+
+Underfull \hbox (badness 2035) in paragraph at lines 1601--1602
+\OT1/cmr/m/n/12 caracter^^S^^Psticas como el modo oscuro, dise~nos flexibles y 
+un sistema de
+ []
+
+LaTeX Info: Redefining \. on input line 1602.
+LaTeX Info: Redefining \% on input line 1602.
+
+LaTeX Warning: Citation 'APIDazzet' on page 43 undefined on input line 1604.
+
+The command '\includegraphics [width=0.8\textwidth ]{img/chapter03/API-architec
+ture.jpg}' has been optimized away. Use '/tikz/external/optimize=false' to disa
+ble this.
+
+LaTeX Warning: Citation 'APIDazzet' on page 43 undefined on input line 1608.
+
+
+LaTeX Warning: Citation 'APIDazzet' on page 43 undefined on input line 1608.
+
+
+LaTeX Warning: Citation 'APIDazzet' on page 43 undefined on input line 1611.
+
+
+LaTeX Warning: Citation 'HTTPEditorialEtece' on page 43 undefined on input line
+ 1614.
+
+LaTeX Info: Redefining \. on input line 1618.
+LaTeX Info: Redefining \% on input line 1618.
+
+LaTeX Warning: Citation 'APIDazzet' on page 44 undefined on input line 1619.
+
+
+LaTeX Warning: Citation 'interfazAlbornoz' on page 44 undefined on input line 1
+622.
+
+
+LaTeX Warning: Citation 'usabilidadJakob' on page 44 undefined on input line 16
+24.
+
+
+LaTeX Warning: Citation 'usabilidadJakob' on page 44 undefined on input line 16
+25.
+
+LaTeX Info: Redefining \. on input line 1631.
+LaTeX Info: Redefining \% on input line 1631.
+
+Underfull \hbox (badness 1337) in paragraph at lines 1632--1633
+[]\OT1/cmr/bx/n/12 Consistencia y est^^Sandares. \OT1/cmr/m/n/12 Las aplicacion
+es deben de seguir los
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 1640--1641
+[]\OT1/cmr/bx/n/12 Dise~no est^^Setico y minimalista. \OT1/cmr/m/n/12 La apliac
+i^^Son no debe de tener
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 1651--1652
+\OT1/cmr/m/n/12 confidencialidad y disponibilidad de los datos manejados, as^^S
+^^P como para
+ []
+
+LaTeX Info: Redefining \. on input line 1653.
+LaTeX Info: Redefining \% on input line 1653.
+
+LaTeX Warning: Citation 'RFC2818' on page 46 undefined on input line 1654.
+
+
+LaTeX Warning: Citation 'HTTPS-SSL' on page 46 undefined on input line 1654.
+
+
+LaTeX Warning: Citation 'HTTPS-SSL' on page 46 undefined on input line 1655.
+
+
+LaTeX Warning: Citation 'HTTPS-SSL' on page 46 undefined on input line 1656.
+
+
+LaTeX Warning: Citation 'SSL-TLS' on page 46 undefined on input line 1659.
 
 )
-LaTeX Info: Redefining \. on input line 128.
-LaTeX Info: Redefining \% on input line 128.
+LaTeX Info: Redefining \. on input line 147.
+LaTeX Info: Redefining \% on input line 147.
 \providecommand\hyper@newdestlabel[2]{}
 (chapters/chapter04/chapter04.tex
 Cap\'{\i }tulo 4.
 
-LaTeX Warning: Citation 'Metodolog√≠asDeDesarrollo2015' on page 34 undefined on
+LaTeX Warning: Citation 'Metodolog√≠asDeDesarrollo2015' on page 47 undefined on
  input line 5.
 
 Missing character: There is no √ in font cmbx12!
@@ -2686,13 +3575,13 @@ The command '\includegraphics [width=0.5\textwidth ]{img/chapter04/prototipo.pn
 g}' has been optimized away. Use '/tikz/external/optimize=false' to disable thi
 s.
 
-LaTeX Warning: Citation 'Metodolog√≠asDeDesarrollo2015' on page 34 undefined on
+LaTeX Warning: Citation 'Metodolog√≠asDeDesarrollo2015' on page 47 undefined on
  input line 10.
 
 Missing character: There is no √ in font cmbx12!
 Missing character: There is no ≠ in font cmbx12!
 
-LaTeX Warning: Citation 'Metodolog√≠asDeDesarrollo2015' on page 34 undefined on
+LaTeX Warning: Citation 'Metodolog√≠asDeDesarrollo2015' on page 47 undefined on
  input line 10.
 
 Missing character: There is no √ in font cmbx12!
@@ -2967,8 +3856,8 @@ Overfull \hbox (40.56445pt too wide) in alignment at lines 236--272
 LaTeX Info: Redefining \. on input line 272.
 LaTeX Info: Redefining \% on input line 272.
 )
-LaTeX Info: Redefining \. on input line 129.
-LaTeX Info: Redefining \% on input line 129.
+LaTeX Info: Redefining \. on input line 148.
+LaTeX Info: Redefining \% on input line 148.
 \providecommand\hyper@newdestlabel[2]{}
 (chapters/chapter05/chapter05.tex
 Cap\'{\i }tulo 5.
@@ -2976,19 +3865,281 @@ Cap\'{\i }tulo 5.
 \providecommand\hyper@newdestlabel[2]{}
 (appendages/appendixA/appendixA.tex
 Ap\'{e}ndice A.
-LaTeX Info: Redefining \. on input line 113.
-LaTeX Info: Redefining \% on input line 113.
+LaTeX Info: Redefining \. on input line 115.
+LaTeX Info: Redefining \% on input line 115.
+)
+LaTeX Info: Redefining \. on input line 151.
+LaTeX Info: Redefining \% on input line 151.
+\providecommand\hyper@newdestlabel[2]{}
+(appendages/appendixB/appendixB.tex
+Ap\'{e}ndice B.
+Package hyperref Info: bookmark level for unknown listing defaults to 0 on inpu
+t line 36.
 
-Overfull \hbox (33.15697pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/12 44 \OT1/cmr/m/sl/12 AP[]ENDICE A.  C[]ALCULO DE LOS COEFICIENTE
-S DE LA SERIE DE FOURIER
+LaTeX Warning: Reference `app1:trig-coeff' on page 60 undefined on input line 3
+6.
+
+
+LaTeX Warning: Reference `app1:trig-coeff' on page 60 undefined on input line 3
+6.
+
+LaTeX Info: Redefining \. on input line 73.
+LaTeX Info: Redefining \% on input line 73.
+
+LaTeX Warning: Reference `app1:complex-coeff' on page 61 undefined on input lin
+e 79.
+
+
+LaTeX Warning: Reference `app1:complex-coeff' on page 61 undefined on input lin
+e 79.
+
+LaTeX Info: Redefining \. on input line 114.
+LaTeX Info: Redefining \% on input line 114.
+
+Overfull \hbox (27.77731pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 B.3.  C[]ODIGO EN MAPLE PARA LA SERIE DE FOURIER TRIGONOM[]ETR
+ICA \OT1/cmr/m/n/12 61
  []
 
-)
-LaTeX Info: Redefining \. on input line 132.
-LaTeX Info: Redefining \% on input line 132.
 
-LaTeX Warning: Empty bibliography on input line 137.
+LaTeX Warning: Reference `app1:trig-coeff' on page 62 undefined on input line 1
+42.
+
+
+LaTeX Warning: Reference `app1:trig-coeff' on page 62 undefined on input line 1
+42.
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 142--142
+[]\OT1/cmr/m/n/12 C^^Sodigo 3: |C^^Sodigo en Maple para calcular y graficar la 
+serie de Fourier
+ []
+
+LaTeX Info: Redefining \. on input line 152.
+LaTeX Info: Redefining \% on input line 152.
+LaTeX Info: Redefining \. on input line 191.
+LaTeX Info: Redefining \% on input line 191.
+
+LaTeX Warning: Reference `app1:complex-coeff' on page 64 undefined on input lin
+e 206.
+
+
+LaTeX Warning: Reference `app1:complex-coeff' on page 64 undefined on input lin
+e 206.
+
+LaTeX Info: Redefining \. on input line 229.
+LaTeX Info: Redefining \% on input line 229.
+
+LaTeX Warning: Reference `app1:trig-coeff' on page 65 undefined on input line 2
+63.
+
+
+LaTeX Warning: Reference `app1:trig-coeff' on page 65 undefined on input line 2
+63.
+
+LaTeX Info: Redefining \. on input line 273.
+LaTeX Info: Redefining \% on input line 273.
+
+Overfull \hbox (37.06886pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 B.5.  C[]ODIGO EN MAXIMA PARA LA SERIE DE FOURIER TRIGONOM[]ET
+RICA \OT1/cmr/m/n/12 65
+ []
+
+LaTeX Info: Redefining \. on input line 310.
+LaTeX Info: Redefining \% on input line 310.
+
+LaTeX Warning: Reference `app1:complex-coeff' on page 67 undefined on input lin
+e 320.
+
+
+LaTeX Warning: Reference `app1:complex-coeff' on page 67 undefined on input lin
+e 320.
+
+
+Underfull \hbox (badness 3568) in paragraph at lines 324--324
+|[]\OT1/cmr/bx/sc/17.28 C^^Sodigo en Python usando matplotlib
+ []
+
+
+Underfull \hbox (badness 7397) in paragraph at lines 324--324
+\OT1/cmr/bx/sc/17.28 y sympy para la serie de Fourier
+ []
+
+LaTeX Info: Redefining \. on input line 346.
+LaTeX Info: Redefining \% on input line 346.
+
+Overfull \hbox (230.07701pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 B.7.  C[]ODIGO EN PYTHON USANDO MATPLOTLIB Y SYMPY PARA LA SER
+IE DE FOURIER TRIGONOM[]ETRICA \OT1/cmr/m/n/12 67
+ []
+
+
+LaTeX Warning: Reference `app1:trig-coeff' on page 68 undefined on input line 3
+73.
+
+
+LaTeX Warning: Reference `app1:trig-coeff' on page 68 undefined on input line 3
+73.
+
+LaTeX Info: Redefining \. on input line 384.
+LaTeX Info: Redefining \% on input line 384.
+LaTeX Info: Redefining \. on input line 418.
+LaTeX Info: Redefining \% on input line 418.
+
+Overfull \hbox (181.53862pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 B.8.  C[]ODIGO EN PYTHON USANDO MATPLOTLIB Y SYMPY PARA LA SER
+IE DE FOURIER COMPLEJA \OT1/cmr/m/n/12 69
+ []
+
+
+LaTeX Warning: Reference `app1:complex-coeff' on page 70 undefined on input lin
+e 424.
+
+
+LaTeX Warning: Reference `app1:complex-coeff' on page 70 undefined on input lin
+e 424.
+
+
+Underfull \hbox (badness 4416) in paragraph at lines 430--430
+[] []\OT1/cmr/bx/n/12 C^^Sodigo en Python usando manim para la serie de Fourier
+
+ []
+
+LaTeX Info: Redefining \. on input line 466.
+LaTeX Info: Redefining \% on input line 466.
+
+Overfull \hbox (20.82335pt too wide) in paragraph at lines 488--488
+\OT1/cmtt/m/n/12 font_size=15).next_to(ejes.x_axis.n2p(x),DOWN*0.4) 
+ []
+
+
+Overfull \hbox (125.7984pt too wide) in paragraph at lines 490--490
+\OT1/cmtt/m/n/12 font_size=15).next_to(ejes.x_axis.n2p(x),DOWN*0.4).shift(LEFT*
+0.05)|  
+ []
+
+
+Overfull \hbox (20.82335pt too wide) in paragraph at lines 496--496
+\OT1/cmtt/m/n/12 font_size=15).next_to(ejes.y_axis.n2p(x),LEFT*0.4) 
+ []
+
+LaTeX Info: Redefining \. on input line 498.
+LaTeX Info: Redefining \% on input line 498.
+
+Overfull \hbox (181.53862pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 B.8.  C[]ODIGO EN PYTHON USANDO MATPLOTLIB Y SYMPY PARA LA SER
+IE DE FOURIER COMPLEJA \OT1/cmr/m/n/12 71
+ []
+
+
+Overfull \hbox (125.7984pt too wide) in paragraph at lines 498--498
+\OT1/cmtt/m/n/12 font_size=15).next_to(ejes.y_axis.n2p(x),LEFT*0.4).shift(LEFT*
+0.05)|  
+ []
+
+LaTeX Info: Redefining \. on input line 534.
+LaTeX Info: Redefining \% on input line 534.
+
+Overfull \hbox (64.04837pt too wide) in paragraph at lines 541--541
+\OT1/cmtt/m/n/12 ejes.get_x_axis_label("t").next_to(ejes.x_axis.get_end(), 
+ []
+
+
+Overfull \hbox (82.57338pt too wide) in paragraph at lines 542--542
+\OT1/cmtt/m/n/12 ejes.get_y_axis_label("f(t)").next_to(ejes.y_axis.get_end(), 
+ []
+
+LaTeX Info: Redefining \. on input line 569.
+LaTeX Info: Redefining \% on input line 569.
+
+Overfull \hbox (181.53862pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 B.8.  C[]ODIGO EN PYTHON USANDO MATPLOTLIB Y SYMPY PARA LA SER
+IE DE FOURIER COMPLEJA \OT1/cmr/m/n/12 73
+ []
+
+LaTeX Info: Redefining \. on input line 608.
+LaTeX Info: Redefining \% on input line 608.
+
+LaTeX Warning: Reference `app1:trig-coeff' on page 75 undefined on input line 6
+12.
+
+
+LaTeX Warning: Reference `app1:trig-coeff' on page 75 undefined on input line 6
+12.
+
+LaTeX Info: Redefining \. on input line 655.
+LaTeX Info: Redefining \% on input line 655.
+
+Overfull \hbox (181.53862pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 B.8.  C[]ODIGO EN PYTHON USANDO MATPLOTLIB Y SYMPY PARA LA SER
+IE DE FOURIER COMPLEJA \OT1/cmr/m/n/12 75
+ []
+
+
+Overfull \hbox (20.82335pt too wide) in paragraph at lines 679--679
+\OT1/cmtt/m/n/12 font_size=15).next_to(ejes.x_axis.n2p(x),DOWN*0.4) 
+ []
+
+
+Overfull \hbox (125.7984pt too wide) in paragraph at lines 681--681
+\OT1/cmtt/m/n/12 font_size=15).next_to(ejes.x_axis.n2p(x),DOWN*0.4).shift(LEFT*
+0.05)|  
+ []
+
+
+Overfull \hbox (20.82335pt too wide) in paragraph at lines 687--687
+\OT1/cmtt/m/n/12 font_size=15).next_to(ejes.y_axis.n2p(x),LEFT*0.4) 
+ []
+
+LaTeX Info: Redefining \. on input line 688.
+LaTeX Info: Redefining \% on input line 688.
+
+Overfull \hbox (125.7984pt too wide) in paragraph at lines 689--689
+\OT1/cmtt/m/n/12 font_size=15).next_to(ejes.y_axis.n2p(x),LEFT*0.4).shift(LEFT*
+0.05)|  
+ []
+
+LaTeX Info: Redefining \. on input line 723.
+LaTeX Info: Redefining \% on input line 723.
+
+Overfull \hbox (181.53862pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 B.8.  C[]ODIGO EN PYTHON USANDO MATPLOTLIB Y SYMPY PARA LA SER
+IE DE FOURIER COMPLEJA \OT1/cmr/m/n/12 77
+ []
+
+
+Overfull \hbox (64.04837pt too wide) in paragraph at lines 729--729
+\OT1/cmtt/m/n/12 ejes.get_x_axis_label("t").next_to(ejes.x_axis.get_end(), 
+ []
+
+
+Overfull \hbox (82.57338pt too wide) in paragraph at lines 730--730
+\OT1/cmtt/m/n/12 ejes.get_y_axis_label("f(t)").next_to(ejes.y_axis.get_end(), 
+ []
+
+LaTeX Info: Redefining \. on input line 759.
+LaTeX Info: Redefining \% on input line 759.
+LaTeX Info: Redefining \. on input line 797.
+LaTeX Info: Redefining \% on input line 797.
+
+Overfull \hbox (181.53862pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 B.8.  C[]ODIGO EN PYTHON USANDO MATPLOTLIB Y SYMPY PARA LA SER
+IE DE FOURIER COMPLEJA \OT1/cmr/m/n/12 79
+ []
+
+
+LaTeX Warning: Reference `app1:trig-coeff' on page 80 undefined on input line 8
+02.
+
+
+LaTeX Warning: Reference `app1:trig-coeff' on page 80 undefined on input line 8
+02.
+
+)
+LaTeX Info: Redefining \. on input line 152.
+LaTeX Info: Redefining \% on input line 152.
+
+LaTeX Warning: Empty bibliography on input line 156.
 
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -3014,18 +4165,18 @@ Package logreq Info: Writing requests to 'figures/main-figure22.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48691 strings out of 476305
- 1076631 string characters out of 5791965
- 2307992 words of memory out of 5000000
- 70052 multiletter control sequences out of 15000+600000
- 572164 words of font info for 88 fonts, out of 8000000 for 9000
+ 52512 strings out of 476305
+ 1163092 string characters out of 5791965
+ 2459403 words of memory out of 5000000
+ 73783 multiletter control sequences out of 15000+600000
+ 573455 words of font info for 94 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 105i,17n,120p,1734b,2250s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 105i,17n,120p,1734b,2251s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12
 .pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr
 12.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/c
 msy10.pfb>
-Output written on figures/main-figure22.pdf (1 page, 61581 bytes).
+Output written on figures/main-figure22.pdf (1 page, 60797 bytes).
 PDF statistics:
  29 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
