@@ -37,217 +37,375 @@ A continuación, se muestra una tabla comparativa de ventajas/desventajas de uti
 	\rowcolor{white} \caption{Ventajas/Desventajas de la metodología de Prototipos Evolutivos} \label{tabla:Ventajas-Desventajas-Prototipos} \\
 \end{longtable}
 
-\subsection{¿Por qué prototipos para este trabajo?}
-Está perrona
-
 \section{Análisis de Requerimientos}
-Los requerimientos funcionales y no funcionales descritos en este documento son fundamentales para el desarrollo y éxito de la aplicación web de cálculo y visualización de Series de Fourier. Estos requerimientos definen no solo las funcionalidades que la aplicación debe cumplir, sino también las expectativas de rendimiento, seguridad y usabilidad. A través de su análisis, se asegura que el sistema propuesto sea capaz de resolver la problemática planteada de manera eficaz, proporcionando a los usuarios una herramienta confiable y eficiente para el análisis de series matemáticas.
+El análisis de requerimientos tiene la finalidad de establecer las bases del proyecto, ya que permiten conocer si realmente se está entendiendo la problemática principal que se está tratando para garantizar que la solución propuesta es ideal para dar una solución fiable. 
+Con esto en mente, partimos de los resultados de la encuesta y la investigación realizada en el estado del arte \ref{ch:Estado del Arte}, se han considerado los requerimientos que se detallan a continuación.
 \subsection{Requerimientos Funcionales}
-Los requerimientos funcionales de un sistema describen lo que el sistema debe hacer. Describen las interacciones entre el sistema y su ambiente, en forma independiente a su implementación. El ambiente incluye al usuario y cualquier otro sistema externo con el cual interactúa el sistema.
+Los requerimientos funcionales describen lo que el sistema debe hacer, es decir, las funcionalidades o tareas específicas que debe realizar para cumplir su propósito. A continuación, se muestran en las siguientes tablas los requerimientos funcionales para el desarrollo del sistema cuyo proposito es calcular y graficar series de Fourier.
 
 % Requerimiento 1
 \begin{longtable}{|m{3.5cm}|m{9.5cm}|}
 	\hline
-	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{Ingreso de Funciones Matemáticas} \\
+	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{Entrada para la función $f$} \\
 	\hline
+	\endfirsthead
+	\multicolumn{2}{c}{{\tablename\ \thetable{} -- continuación}} \\
+	\hline
+	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{Entrada para la función $f$} \\
+	\hline
+	\endhead
+	\hline \multicolumn{2}{r}{{Continúa en la siguiente página}} \\
+	\endfoot
+	\hline
+	\endlastfoot
 	
 	\textbf{Identificador} & RF1 \\
 	\hline
 	\textbf{Prioridad de desarrollo} & Alta \\
 	\hline
-	\textbf{Entrada} & Funciones matemáticas ingresadas por el usuario usando MathQuill \\
+	\textbf{Entrada} & Función \( f \) ingresada por el usuario, ya sea en términos de $x$ o de $t$, en formato de notación matemática, como una sola función o como una función a trozos incluyendo los intervalos de \(t\) o $x$. \\
 	\hline
-	\textbf{Salida} & Funciones ingresadas en formato compatible con Maxima \\
+	\textbf{Salida} & Captura y representación de la función ingresada en notación matemática en la interfaz. \\
 	\hline
-	\textbf{Descripción} & El usuario debe poder ingresar funciones matemáticas definidas en un solo trozo o en múltiples trozos usando una notación matemática intuitiva. Debe soportar funciones trigonométricas, polinomios, exponenciales y cualquier otra función que Maxima pueda interpretar. \\
+	\textbf{Descripción} & El sistema permitirá al usuario ingresar una función \( f \), en un campo de entrada fácil de entender. Proporcionar botones de añadir (\scalebox{0.8}{\faIcon{plus-circle}}) y quitar (\scalebox{0.8}{\faIcon{minus-circle}}) para agregar o eliminar trozos de la función sin necesidad de preguntar explícitamente si es una función a trozos. \\
 	\hline
-	\textbf{Precondición} & El usuario debe estar en el área de ingreso de funciones. \\
+	\textbf{Precondición} & El usuario debe estar en la interfaz de entrada de función. \\
 	\hline
-	\textbf{Postcondición} & Las funciones son ingresadas correctamente y listas para su procesamiento. \\
+	\textbf{Postcondición} & La función ingresada se mostrará en notación matemática y estará lista para validación y procesamiento. \\
 	\hline
-	\rowcolor{white} \caption{Requerimiento funcional No. 1} \label{tabla:RF1} \\
 \end{longtable}
-
+\caption{Requerimiento funcional No. 1} \label{tabla:RF1}
+\vspace{0.5cm}
 
 % Requerimiento 2
 \begin{longtable}{|m{3.5cm}|m{9.5cm}|}
 	\hline
-	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{Selección de Parámetros} \\
+	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{Teclado con fin} \\
 	\hline
+	\endfirsthead
+	\multicolumn{2}{c}{{\tablename\ \thetable{} -- continuación}} \\
+	\hline
+	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{Teclado con fin} \\
+	\hline
+	\endhead
+	\hline \multicolumn{2}{r}{{Continúa en la siguiente página}} \\
+	\endfoot
+	\hline
+	\endlastfoot
+	
 	\textbf{Identificador} & RF2 \\
 	\hline
-	\textbf{Prioridad de desarrollo} & Alta \\
+	\textbf{Prioridad de desarrollo} & Media \\
 	\hline
-	\textbf{Entrada} & Parámetros seleccionados por el usuario (tipo de serie, período T) \\
+	\textbf{Entrada} & Interacción del usuario con el teclado en pantalla para ingresar funciones y símbolos matemáticos como $sin()$, $cos()$, $sinh()$, $cosh()$, $exp()$, exponentes y fracciones. \\
 	\hline
-	\textbf{Salida} & Parámetros listos para el cálculo de coeficientes \\
+	\textbf{Salida} & Función correctamente ingresada en notación matemática en la interfaz de usuario, utilizando los símbolos seleccionados del teclado en pantalla. \\
 	\hline
-	\textbf{Descripción} & Los usuarios deben poder seleccionar entre las diferentes representaciones de Series de Fourier y especificar el período T de la función, ya sea de -T/2 a T/2 o de 0 a T. \\
+	\textbf{Descripción} & La interfaz debe mostrar un teclado en pantalla que incluya funciones matemáticas y símbolos comunes, tales como funciones trigonométricas ($sin()$, $cos()$), hiperbólicas ($cos()$, $sinh()$), exponenciales ($exp()$), operaciones de potencia y fracciones. Esto permitirá al usuario ingresar funciones de manera precisa y eficiente. \\
 	\hline
-	\textbf{Precondición} & El usuario debe haber ingresado una función matemática y estar en el área de selección de parámetros. \\
+	\textbf{Precondición} & El usuario debe tener acceso a la interfaz de entrada de funciones con el teclado en pantalla activado. \\
 	\hline
-	\textbf{Postcondición} & Los parámetros seleccionados están listos para el cálculo de coeficientes. \\
+	\textbf{Postcondición} & La función ingresada aparece en el campo de entrada en notación matemática, lista para su procesamiento. \\
 	\hline
-	\rowcolor{white} \caption{Requerimiento funcional No. 2} \label{tabla:RF2} \\
 \end{longtable}
-
+\captionof{table}{Requerimiento funcional No. 2} \label{tabla:RF2}
+\vspace{0.5cm}
 
 % Requerimiento 3
 \begin{longtable}{|m{3.5cm}|m{9.5cm}|}
 	\hline
-	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{Cálculo de Coeficientes} \\
+	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{tipo de función} \\
 	\hline
+	\endfirsthead
+	\multicolumn{2}{c}{{\tablename\ \thetable{} -- continuación}} \\
+	\hline
+	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{tipo de función} \\
+	\hline
+	\endhead
+	\hline \multicolumn{2}{r}{{Continúa en la siguiente página}} \\
+	\endfoot
+	\hline
+	\endlastfoot
+	
 	\textbf{Identificador} & RF3 \\
 	\hline
-	\textbf{Prioridad de desarrollo} & Alta \\
+	\textbf{Prioridad de desarrollo} & Media \\
 	\hline
-	\textbf{Entrada} & Función matemática y parámetros seleccionados por el usuario \\
+	\textbf{Entrada} & El usuario selecciona el tipo de serie a utilizar entre opciones de serie trigonométrica o serie exponencial compleja. Si selecciona la serie trigonométrica, puede optar por extensiones periódicas de rango completo o de medio rango (extensión par usando serie de cosenos o extensión impar usando serie de senos). \\
 	\hline
-	\textbf{Salida} & Coeficientes de la serie de Fourier calculados \\
+	\textbf{Salida} & El tipo de serie y extensión seleccionados quedan registrados y configurados en la interfaz, listos para el cálculo de la serie correspondiente. \\
 	\hline
-	\textbf{Descripción} & La aplicación debe calcular automáticamente los coeficientes de la serie de Fourier según la función ingresada y los parámetros especificados, enviando la información a Maxima y recibiendo los resultados. \\
+	\textbf{Descripción} & El sistema permite al usuario seleccionar entre opciones de series de Fourier: serie trigonométrica o serie exponencial compleja. Para la serie trigonométrica, el usuario puede elegir entre una extensión periódica de rango completo (opción por defecto) o una extensión de medio rango (par o impar), con la condición de que la función comience en \( t = 0 \) para las extensiones de medio rango. Si para estas no se selecciona una extensión impar o par, automáticamente se tomará la extensión periódica que incluye senos y cosenos. \\
 	\hline
-	\textbf{Precondición} & El usuario debe haber ingresado una función y seleccionado los parámetros necesarios. \\
+	\textbf{Precondición} & El usuario debe estar en la interfaz de selección de series de Fourier y tener una función cargada para análisis de serie. \\
 	\hline
-	\textbf{Postcondición} & Los coeficientes de la serie de Fourier se calculan y se devuelven al sistema. \\
+	\textbf{Postcondición} & El tipo de serie y la extensión seleccionada quedan configurados y visibles en la interfaz para su validación y procesamiento. \\
 	\hline
-	\rowcolor{white} \caption{Requerimiento funcional No. 3} \label{tabla:RF3} \\
 \end{longtable}
-
+\caption{Requerimiento funcional No. 3} \label{tabla:RF3}
+\vspace{0.5cm}
 
 % Requerimiento 4
 \begin{longtable}{|m{3.5cm}|m{9.5cm}|}
 	\hline
-	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{Interactividad en la Gráfica} \\
+	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{Catálogo} \\
 	\hline
+	\endfirsthead
+	\multicolumn{2}{c}{{\tablename\ \thetable{} -- continuación}} \\
+	\hline
+	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{Catálogo} \\
+	\hline
+	\endhead
+	\hline \multicolumn{2}{r}{{Continúa en la siguiente página}} \\
+	\endfoot
+	\hline
+	\endlastfoot
+	
 	\textbf{Identificador} & RF4 \\
 	\hline
-	\textbf{Prioridad de desarrollo} & Media \\
+	\textbf{Prioridad de desarrollo} & Alta \\
 	\hline
-	\textbf{Entrada} & Control del usuario sobre la gráfica (acercar, alejar, cantidad de términos n) \\
+	\textbf{Entrada} & Función ingresada por el usuario en el campo de entrada de funciones. \\
 	\hline
-	\textbf{Salida} & Gráfica interactiva modificada según la selección del usuario \\
+	\textbf{Salida} & Mensaje de notificación en la interfaz si la función ingresada es inválida para el cálculo de la Serie de Fourier. \\
 	\hline
-	\textbf{Descripción} & El usuario debe poder acercar, alejar y desplazar la gráfica, así como seleccionar la cantidad de términos n de la suma parcial a visualizar. \\
+	\textbf{Descripción} & El sistema debe contar con un catálogo de funciones no válidas para el cálculo de Series de Fourier, (como \( \ln(t) \), $csc(t)$). Si el usuario ingresa una función inválida, el sistema debe informarle y evitar el proceso de cálculo, asegurando que solo funciones compatibles continúen al procesamiento. \\
 	\hline
-	\textbf{Precondición} & El usuario debe haber ingresado la función y los parámetros. \\
+	\textbf{Precondición} & El usuario ha ingresado una función para la validación previa al cálculo de la Serie de Fourier. \\
 	\hline
-	\textbf{Postcondición} & La gráfica es ajustada interactivamente según la entrada del usuario. \\
+	\textbf{Postcondición} & La función es verificada y, en caso de ser inválida, el sistema notifica al usuario y bloquea el cálculo de la Serie de Fourier para dicha función. \\
 	\hline
-	\rowcolor{white} \caption{Requerimiento funcional No. 4} \label{tabla:RF4} \\
 \end{longtable}
+\caption{Requerimiento funcional No. 4} \label{tabla:RF4}
+\vspace{0.5cm}
+
 
 % Requerimiento 5
 \begin{longtable}{|m{3.5cm}|m{9.5cm}|}
 	\hline
-	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{Visualización de las Gráficas} \\
+	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{parseo ida} \\
 	\hline
+	\endfirsthead
+	\multicolumn{2}{c}{{\tablename\ \thetable{} -- continuación}} \\
+	\hline
+	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{parseo ida} \\
+	\hline
+	\endhead
+	\hline \multicolumn{2}{r}{{Continúa en la siguiente página}} \\
+	\endfoot
+	\hline
+	\endlastfoot
+	
 	\textbf{Identificador} & RF5 \\
 	\hline
 	\textbf{Prioridad de desarrollo} & Alta \\
 	\hline
-	\textbf{Entrada} & Función original y términos de la Serie de Fourier \\
+	\textbf{Entrada} & Expresión matemática ingresada por el usuario en formato de notación matemática (LaTeX). \\
 	\hline
-	\textbf{Salida} & Gráficas de la función original y las sumas parciales de la Serie de Fourier \\
+	\textbf{Salida} & Expresión convertida a un formato compatible para procesamiento matemático en el backend, enviada mediante una solicitud en formato JSON. \\
 	\hline
-	\textbf{Descripción} & El usuario debe poder visualizar la gráfica de la función original y las sumas parciales de la Serie de Fourier en un lienzo canvas, que se actualizará en tiempo real a medida que se agregan o quitan términos. \\
+	\textbf{Descripción} & El sistema debe interpretar y convertir las entradas matemáticas en notación LaTeX a un formato compatible con el motor de cálculo. Los datos convertidos se envían al backend a través de una solicitud para su procesamiento. \\
 	\hline
-	\textbf{Precondición} & El usuario debe haber ingresado la función y los parámetros necesarios. \\
+	\textbf{Precondición} & El usuario ha ingresado una expresión matemática en la interfaz. \\
 	\hline
-	\textbf{Postcondición} & La gráfica se actualiza en tiempo real según los términos seleccionados. \\
+	\textbf{Postcondición} & La expresión se encuentra en el backend en un formato adecuado para su procesamiento y evaluación matemática. \\
 	\hline
-	\rowcolor{white} \caption{Requerimiento funcional No. 5} \label{tabla:RF5} \\
 \end{longtable}
-
+\caption{Requerimiento funcional No. 5} \label{tabla:RF5}
+\vspace{0.5cm}
 
 % Requerimiento 6
 \begin{longtable}{|m{3.5cm}|m{9.5cm}|}
 	\hline
-	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{Visualización de resultados} \\
+	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{Nombre del requerimiento} \\
 	\hline
+	\endfirsthead
+	\multicolumn{2}{c}{{\tablename\ \thetable{} -- continuación}} \\
+	\hline
+	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{Nombre del requerimiento} \\
+	\hline
+	\endhead
+	\hline \multicolumn{2}{r}{{Continúa en la siguiente página}} \\
+	\endfoot
+	\hline
+	\endlastfoot
+	
 	\textbf{Identificador} & RF6 \\
 	\hline
 	\textbf{Prioridad de desarrollo} & Alta \\
 	\hline
-	\textbf{Entrada} & Función matemática y parámetros seleccionados \\
+	\textbf{Entrada} & Función ingresada por el usuario y configuraciones para el cálculo de la Serie de Fourier, como el número de términos deseado en la expansión. \\
 	\hline
-	\textbf{Salida} & Expresión matemática de la serie de Fourier y coeficientes individuales \\
+	\textbf{Salida} & Serie de Fourier generada, con los coeficientes calculados \( a_0 \), \( a_n \), \( b_n \) o \( c_n \), y expansión de la serie hasta el número especificado de términos. \\
 	\hline
-	\textbf{Descripción} & La aplicación debe mostrar la serie de Fourier y los valores individuales de los coeficientes en notación matemática, utilizando MathQuill. \\
+	\textbf{Descripción} & El sistema utiliza un motor de cálculo simbólico en el backend para resolver los integrales necesarios, calcular los coeficientes de Fourier \( a_0 \), \( a_n \), \( b_n \) o \( c_n \), y generar la expansión de la Serie de Fourier hasta 50 términos. \\
 	\hline
-	\textbf{Precondición} & El usuario debe haber ingresado la función y los parámetros necesarios. \\
+	\textbf{Precondición} & El usuario ha ingresado una función válida y configurado los parámetros para el cálculo de la Serie de Fourier. \\
 	\hline
-	\textbf{Postcondición} & Se muestran la serie de Fourier y los coeficientes en notación matemática. \\
+	\textbf{Postcondición} & La Serie de Fourier calculada y sus coeficientes se encuentran disponibles en la interfaz para visualización y análisis. \\
 	\hline
-	\rowcolor{white} \caption{Requerimiento funcional No. 6} \label{tabla:RF6} \\
 \end{longtable}
-
+\caption{Requerimiento funcional No. 6} \label{tabla:RF6}
+\vspace{0.5cm}
 
 % Requerimiento 7
 \begin{longtable}{|m{3.5cm}|m{9.5cm}|}
 	\hline
-	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{Manejo de Errores} \\
+	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{Nombre del requerimiento} \\
 	\hline
+	\endfirsthead
+	\multicolumn{2}{c}{{\tablename\ \thetable{} -- continuación}} \\
+	\hline
+	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{Nombre del requerimiento} \\
+	\hline
+	\endhead
+	\hline \multicolumn{2}{r}{{Continúa en la siguiente página}} \\
+	\endfoot
+	\hline
+	\endlastfoot
+	
 	\textbf{Identificador} & RF7 \\
 	\hline
 	\textbf{Prioridad de desarrollo} & Media \\
 	\hline
-	\textbf{Entrada} & Función ingresada por el usuario, parámetros seleccionados \\
+	\textbf{Entrada} & Solicitud de recuperación de resultados generados por el cálculo de la Serie de Fourier, en formato JSON. \\
 	\hline
-	\textbf{Salida} & Mensajes de error claros en caso de problemas con la función o los parámetros \\
+	\textbf{Salida} & Resultados del cálculo, convertidos para visualización gráfica y en formato LaTeX para mostrar expresiones matemáticas en la interfaz. \\
 	\hline
-	\textbf{Descripción} & La aplicación debe detectar errores en la entrada de funciones o parámetros no válidos y mostrar mensajes de error claros. También debe notificar si las integrales no convergen o si Maxima no puede procesar la función. \\
+	\textbf{Descripción} & El sistema enviará los resultados del cálculo al frontend a través de una solicitud en formato JSON. La interfaz de usuario debe interpretar estos resultados y convertirlos a un formato adecuado para graficación y a formato LaTeX para mostrar las expresiones matemáticas en notación visual. \\
 	\hline
-	\textbf{Precondición} & El usuario ha ingresado una función o parámetros y ha intentado procesar los datos. \\
+	\textbf{Precondición} & Los resultados de los cálculos de la Serie de Fourier están listos para su recuperación y visualización en el frontend. \\
 	\hline
-	\textbf{Postcondición} & Se muestra un mensaje de error claro si ocurre algún problema. \\
+	\textbf{Postcondición} & Los resultados se muestran en la interfaz de usuario en formato gráfico y en notación matemática (LaTeX) para una interpretación visual y análisis claros. \\
 	\hline
-	\rowcolor{white} \caption{Requerimiento funcional No. 7} \label{tabla:RF7} \\
 \end{longtable}
-
+\caption{Requerimiento funcional No. 7} \label{tabla:RF7}
+\vspace{0.5cm}
 
 % Requerimiento 8
 \begin{longtable}{|m{3.5cm}|m{9.5cm}|}
 	\hline
-	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{Optimización de Resultados} \\
+	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{gráficas} \\
 	\hline
+	\endfirsthead
+	\multicolumn{2}{c}{{\tablename\ \thetable{} -- continuación}} \\
+	\hline
+	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{gráficas} \\
+	\hline
+	\endhead
+	\hline \multicolumn{2}{r}{{Continúa en la siguiente página}} \\
+	\endfoot
+	\hline
+	\endlastfoot
+	
 	\textbf{Identificador} & RF8 \\
 	\hline
-	\textbf{Prioridad de desarrollo} & Baja \\
+	\textbf{Prioridad de desarrollo} & Alta \\
 	\hline
-	\textbf{Entrada} & Parámetros y resultados de coeficientes previos \\
+	\textbf{Entrada} & La función original \( f \) y su aproximación de Serie de Fourier, así como el número de términos especificado por el usuario. \\
 	\hline
-	\textbf{Salida} & Optimización de cálculo y presentación de resultados mejorada \\
+	\textbf{Salida} & Gráfica interactiva en la interfaz que muestra tanto la función original como su aproximación mediante Serie de Fourier. \\
 	\hline
-	\textbf{Descripción} & La aplicación debe optimizar el cálculo de los coeficientes para mejorar el rendimiento y la experiencia del usuario, manejando grandes cantidades de términos de manera eficiente. \\
+	\textbf{Descripción} & El sistema debe graficar la función original \( f \) y su aproximación mediante la Serie de Fourier en una interfaz gráfica interactiva. El usuario podrá ajustar el número de términos de la serie mediante un control deslizante, y contará con herramientas para hacer zoom, panear e interactuar en tiempo real con la gráfica. La representación gráfica debe ser eficiente y de alto rendimiento para asegurar una experiencia de usuario fluida. \\
 	\hline
-	\textbf{Precondición} & El usuario ha ingresado parámetros complejos o grandes cantidades de términos. \\
+	\textbf{Precondición} & El usuario ha ingresado la función y solicitado la visualización gráfica de su aproximación mediante Serie de Fourier. \\
 	\hline
-	\textbf{Postcondición} & Los resultados optimizados se calculan y presentan rápidamente. \\
+	\textbf{Postcondición} & La gráfica interactiva de la función y su aproximación de Fourier se encuentra visible y responde a las interacciones del usuario. \\
 	\hline
-	\rowcolor{white} \caption{Requerimiento funcional No. 8} \label{tabla:RF8} \\
 \end{longtable}
+\caption{Requerimiento funcional No. 8} \label{tabla:RF8}
+\vspace{0.5cm}
+
+% Requerimiento 9
+\begin{longtable}{|m{3.5cm}|m{9.5cm}|}
+	\hline
+	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{resultados} \\
+	\hline
+	\endfirsthead
+	\multicolumn{2}{c}{{\tablename\ \thetable{} -- continuación}} \\
+	\hline
+	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{resultados} \\
+	\hline
+	\endhead
+	\hline \multicolumn{2}{r}{{Continúa en la siguiente página}} \\
+	\endfoot
+	\hline
+	\endlastfoot
+	
+	\textbf{Identificador} & RF9 \\
+	\hline
+	\textbf{Prioridad de desarrollo} & Media \\
+	\hline
+	\textbf{Entrada} & Coeficientes calculados \( a_0 \), \( a_n \), \( b_n \), \( c_n \), y la expresión completa de la Serie de Fourier para la función \( f(t) \). \\
+	\hline
+	\textbf{Salida} & Visualización clara y legible de los coeficientes calculados, la función original \( f(t) \), y la expansión de la Serie de Fourier. \\
+	\hline
+	\textbf{Descripción} & El sistema debe mostrar los coeficientes \( a_0 \), \( a_n \), \( b_n \) y \( c_n \), junto con la función original \( f \) y su expansión en Series de Fourier $f = \sum$. Las expresiones matemáticas deben presentarse de manera clara y legible, permitiendo al usuario comprender y revisar los cálculos y resultados de forma efectiva. \\
+	\hline
+	\textbf{Precondición} & Los coeficientes de la Serie de Fourier y la expansión han sido calculados y están listos para su visualización. \\
+	\hline
+	\textbf{Postcondición} & Las expresiones matemáticas se muestran de manera clara en la interfaz, facilitando la interpretación y revisión de los resultados por parte del usuario. \\
+	\hline
+\end{longtable}
+\caption{Requerimiento funcional No. 9} \label{tabla:RF9}
+\vspace{0.5cm}
+
+% Requerimiento 10
+\begin{longtable}{|m{3.5cm}|m{9.5cm}|}
+	\hline
+	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{Nombre del requerimiento} \\
+	\hline
+	\endfirsthead
+	\multicolumn{2}{c}{{\tablename\ \thetable{} -- continuación}} \\
+	\hline
+	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{Nombre del requerimiento} \\
+	\hline
+	\endhead
+	\hline \multicolumn{2}{r}{{Continúa en la siguiente página}} \\
+	\endfoot
+	\hline
+	\endlastfoot
+	
+	\textbf{Identificador} & RF10 \\
+	\hline
+	\textbf{Prioridad de desarrollo} & Media \\
+	\hline
+	\textbf{Entrada} & Interacciones del usuario, como el ingreso de valores en el sistema o ajustes en el número de términos de la Serie de Fourier. \\
+	\hline
+	\textbf{Salida} & Mensajes de error claros en caso de entradas no válidas o errores de cálculo, y retroalimentación visual inmediata en la interfaz cuando se ajusta el número de términos o se interactúa con la gráfica. \\
+	\hline
+	\textbf{Descripción} & El sistema debe ofrecer mensajes de error informativos cuando el usuario ingrese datos no válidos o se produzcan errores de cálculo, mejorando la comprensión del usuario sobre la naturaleza del problema.\\
+	\hline
+	\textbf{Precondición} & El usuario está interactuando con la interfaz de la Serie de Fourier, ya sea ingresando valores o manipulando la gráfica. \\
+	\hline
+	\textbf{Postcondición} & El usuario recibe mensajes de error informativos y retroalimentación visual en tiempo real, lo cual facilita una interacción más eficiente y comprensible con el sistema. \\
+	\hline
+\end{longtable}
+\caption{Requerimiento funcional No. 10} \label{tabla:RF10}
+\vspace{0.5cm}
+
+
 
 
 \subsection{Requerimientos No Funcionales}
-Los requerimientos no funcionales describen una restricción sobre el sistema que limita nuestras elecciones en la construcción de una solución al problema. Describen atributos sólo del sistema o del ambiente del sistema que no están relacionados directamente con los requisitos funcionales. Los requisitos no funcionales incluyen restricciones cuantitativas, tipo de plataforma.
+Los requerimientos funcionales definen cómo debe funcionar el sistema, estableciendo estándares de calidad como rendimiento, seguridad, usabilidad, escalabilidad, y eficiencia.
 
 %Tabla de no funcionales
 \begin{longtable}{|m{5cm}|m{10cm}|}
 	\hline
 	\rowcolor{black!75} \color{white}\textbf{Nombre} & \color{white}\textbf{Descripción} \\
 	\hline
-%	\rowcolor{black!75}
-%	\head {Nombre} & \head {Descripción} \\ \hline
-%	\endfirsthead
-%	\multicolumn{2}{c}{{\tablename\ \thetable{} -- continuación}} \\
-%	\rowcolor{black!75}
-%	\head {Nombre} & \head {Descripción}\\ \hline
-%	\endhead
-%	\hline \multicolumn{2}{r}{{Continúa en la siguiente página}} \\
-%	\endfoot
-%	\hline
-%	\endlastfoot
+	\rowcolor{black!75}
+	\head {Nombre} & \head {Descripción} \\ \hline
+	\endfirsthead
+	\multicolumn{2}{c}{{\tablename\ \thetable{} -- continuación}} \\
+	\rowcolor{black!75}
+	\head {Nombre} & \head {Descripción}\\ \hline
+	\endhead
+	\hline \multicolumn{2}{r}{{Continúa en la siguiente página}} \\
+	\endfoot
+	\hline
+	\endlastfoot
 	\textbf{Rendimiento y Escalabilidad} & El sistema debe calcular los coeficientes de Fourier en un tiempo razonable, incluso para funciones con múltiples trozos o con un alto número de términos en la serie. La visualización gráfica debe ser fluida y responsiva, incluso al agregar o quitar muchos términos de la serie. Las interacciones en el lienzo canvas deben realizarse sin latencia perceptible. \\
 	\hline
 	\textbf{Interfaz de Usuario Amigable e Intuitiva} & La interfaz debe ser intuitiva y fácil de usar, con botones y controles claramente identificados. Los mensajes de error y advertencia deben ser comprensibles, evitando el uso de jerga técnica complicada. La notación matemática debe ser clara y precisa, usando MathQuill para entradas y visualización de resultados. \\
@@ -268,14 +426,53 @@ Los requerimientos no funcionales describen una restricción sobre el sistema qu
 %	\hline
 %	\textbf{Compatibilidad con Carga Asíncrona} & La comunicación entre el frontend y el backend debe ser asíncrona para no bloquear la interfaz de usuario. Las llamadas a Maxima deben ser gestionadas de manera eficiente para evitar cuellos de botella. \\
 %	\hline
-	\rowcolor{white} \caption{Tabla de requerimientos no funcionales} \label{tabla:RNF} \\
+	%\rowcolor{white} \caption{Tabla de requerimientos no funcionales} \label{tabla:RNF} \\
 \end{longtable}
-
+\caption{Tabla de requerimientos no funcionales} \label{tabla:RNF}
+\vspace{0.5cm}
 
 
 
 \section{Análisis de Riesgos}
-\subsection{Identificación de Riesgos}
+En la gestión de proyectos, los riesgos representan cualquier evento o condición incierta que, si ocurre, puede afectar negativamente los objetivos del proyecto. Identificar y gestionar estos riesgos es crucial para minimizar su impacto y asegurar el éxito del proyecto. 
+\subsection{Matriz de riesgos}
+La matriz de riesgos es una herramienta clave en la gestión de proyectos, ya que permite evaluar y visualizar la gravedad y probabilidad de los riesgos que pueden afectar su éxito. Clasifica los riesgos según sus consecuencias (de "bajo" a "grave") y su frecuencia de ocurrencia (de "raro" a "casi seguro"). Al organizar estos factores en una matriz de cinco por cinco, es más fácil identificar los riesgos más críticos y priorizar las acciones correctivas. Los colores de la matriz van del verde (bajo riesgo) al rojo (alto riesgo), lo que proporciona una representación visual clara de la urgencia y el impacto de cada riesgo identificado \ref{tabla:matriz_riesgos}.
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|>{\centering\arraybackslash}m{4cm}|c|c|c|c|c|}
+		\hline
+		\rowcolor{black!75} \color{white} {\textbf{Consecuencias}} & \multicolumn{5}{c|}{ \color{white} \textbf{Probabilidad}} \\ \cline{2-6}
+		\cellcolor{white} & \textbf{Casi seguro} & \textbf{Probable} & \textbf{Posible} & \textbf{Improbable} & \textbf{Raro} \\ \hline
+		\textbf{Grave} & \cellcolor{red!80}Extremo & \cellcolor{red!80}Extremo & \cellcolor{red!80}Extremo & \cellcolor{orange!80}Alto & \cellcolor{yellow!60}Medio \\ \hline
+		\textbf{Mayor} & \cellcolor{red!80}Extremo & \cellcolor{red!80}Extremo & \cellcolor{orange!80}Alto & \cellcolor{yellow!60}Medio & \cellcolor{yellow!60}Medio \\ \hline
+		\textbf{Moderado} & \cellcolor{red!80}Extremo & \cellcolor{orange!80}Alto & \cellcolor{yellow!60}Medio & \cellcolor{yellow!60}Medio & \cellcolor{green!60}Bajo \\ \hline
+		\textbf{Menor} & \cellcolor{orange!80}Alto & \cellcolor{yellow!60}Medio & \cellcolor{yellow!60}Medio & \cellcolor{green!60}Bajo & \cellcolor{green!60}Bajo \\ \hline
+		\textbf{Bajo} & \cellcolor{yellow!60}Medio & \cellcolor{yellow!60}Medio & \cellcolor{green!60}Bajo & \cellcolor{green!60}Bajo & \cellcolor{green!60}Bajo \\ \hline
+	\end{tabular}
+	\caption[Matriz de clasificación de riesgos.]{Matriz de clasificación de riesgos. \textit{Fuente: Elaboración propia}}
+	\label{tabla:matriz_riesgos}
+\end{table}
+
+
+\subsection{Identificación y jerarquización de riesgos}
+Para poder comenzar con el análisis de riesgos pertinente, comenzamos identificación los riesgos que pueden ocurrir y, por lo tanto, afectar la correcta ejecución del proyecto, además de su jerarquización en base a su semáforo.
+
+
+\begin{longtable}{|m{1.5cm}|m{5.3cm}|m{3cm}|m{2cm}|m{2cm}|}
+	\rowcolor{black!75} \color{white} \textbf{ID Riesgo} & \color{white} \textbf{Descripción} & \color{white} \textbf{Probabilidad} & \color{white} \textbf{Impacto} & \color{white} \textbf{Semáforo} \\ \hline
+	\textbf{R1} & Incapacidad temporal para continuar el proyecto debido a una enfermedad u otra causa que afecte la salud o disponibilidad. & Posible & Grave & \cellcolor{red!80} \\ \hline
+	\textbf{R2} & Mala gestión del tiempo y actividades a  lo largo del desarrollo del proyecto. & Posible & Mayor & \cellcolor{orange!80} \\ \hline
+	\textbf{R3} & Mala elección de tecnologías para el desarrollo del proyecto & Posible & Mayor & \cellcolor{orange!80} \\ \hline
+	\textbf{R4} & Falta de claridad o mal planteamiento de los requerimientos & Posible & Mayor & \cellcolor{orange!80} \\ \hline
+	\textbf{R5} & No cumplir con los objetivos del proyecto & Posible & Mayor & \cellcolor{red!80} \\ \hline
+	\textbf{R6} & Falta de conocimientos para realizar actividades relacionadas al proyecto. & Medio & Grave &  \cellcolor{yellow!60} \\ \hline
+	\textbf{R6} & Sobrecarga de y proyectos académicos & Probable & Mayor &  \cellcolor{red!80}  \\ \hline
+	\textbf{R7} & Sobrecarga de y proyectos académicos & Probable & Mayor &  \cellcolor{red!80}  \\ \hline
+	\rowcolor{white} \caption{Tabla de identificación de riesgos} \label{tabla:riesgos} \\
+	
+\end{longtable}
+
 \subsection{Jerarquización de Riesgos}
 
 \section{Estimación de Costos}

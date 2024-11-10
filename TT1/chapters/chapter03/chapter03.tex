@@ -1517,24 +1517,14 @@ Cuando una función dada se aproxima mediante una serie de Fourier, ya sea trigo
 
 \section{Aplicaciones Web}
 Una aplicación web es un software que se ejecuta desde un navegador web, como Google Chrome o Firefox. Estas aplicaciones no necesitan instalarse para poder ser utilizadas, ya que al ejecutarse sobre el navegador solo requiere de conexión a una red de internet, sino que se ejecutan en un servidor y se transmiten a través de Internet al navegador de nuestro dispositivo.
-Las aplicaciones en línea ofrecen numerosas ventajas, y prácticamente todas las grandes compañías las incorporan en sus propuestas para los usuarios ~\cite{apliacionWebAmazon}. Algunas de las ventajas de las apliaciones web son;
-\begin{itemize}
-	\item \textbf{Accesibilidad}: Las aplicaciones web pueden ser accedidas desde cualquier navegador y desde una variedad de dispositivos personales y empresariales. Grupos de trabajo en distintas ubicaciones pueden interactuar con documentos compartidos, sistemas de gestión de contenidos y otros servicios empresariales a través de aplicaciones web basadas en suscripciones.
-	
-	\item \textbf{Desarrollo eficiente}: El desarrollo de aplicaciones web es relativamente sencillo y rentable para las empresas, permitiendo a equipos pequeños realizar ciclos de desarrollo cortos. Esto hace que las aplicaciones web sean una forma eficiente y asequible de desarrollar software. Además, dado que la misma versión de la aplicación funciona en todos los navegadores y dispositivos modernos, no es necesario crear múltiples versiones para diversas plataformas.
-	
-	\item \textbf{Simplicidad para el usuario}: Los usuarios no necesitan descargar las aplicaciones web, lo cual facilita su acceso sin ocupar espacio en el disco duro o requerir mantenimiento. Las aplicaciones web reciben actualizaciones de software y seguridad de forma automática, lo que garantiza que siempre estén actualizadas y reduce el riesgo de vulnerabilidades de seguridad.
-	
-	\item \textbf{Escalabilidad}: Las empresas que emplean aplicaciones web pueden añadir nuevos usuarios de manera flexible, sin necesidad de infraestructura adicional ni hardware costoso. Además, la mayoría de los datos de las aplicaciones web se almacenan en la nube, evitando así la inversión en capacidad de almacenamiento adicional para ejecutar las aplicaciones.
-\end{itemize}
-
 Las aplicaciones web están basadas en una arquitectura cliente-servidor, en la cual el código se divide en dos partes: scripts del lado del cliente y scripts del lado del servidor ~\cite{apliacionWebAmazon}.\newline 
+
 \begin{figure}[h]
 	\centering	 
 	\includegraphics[width=0.9\textwidth]{img/chapter03/ui-web-arquitectura.png}
 	\caption[Diagrama de una arquitectura cliente - servidor]{Diagrama de una arquitectura cliente - servidor. \textit{Fuente: ~\cite{uqbar-wiki-web}}}
 	\label{fig:cliente-servidor}  % Etiqueta para la figura
-\end{figure}
+\end{figure}qu
 
 
 \begin{itemize}	
@@ -1544,16 +1534,17 @@ Las aplicaciones web están basadas en una arquitectura cliente-servidor, en la 
 \end{itemize}
 
 
-\subsection{Componentes de una apliación web}
+\subsection{Frontend}
+
+
 \subsubsection{HTML}
 HTML son las siglas en inglés de lenguaje de etiquetas de hipertexto (HyperText Markup Language) es el lenguaje estándar fundamental para estructurar y presentar contenido en la web, siendo la base sobre la cual se construyen todas las páginas web. Su función principal es organizar el contenido de manera semántica, lo que significa que emplea etiquetas específicas para definir la estructura de los distintos elementos, como encabezados, párrafos, listas, imágenes y enlaces, permitiendo que los navegadores interpreten y muestren adecuadamente el contenido al usuario. Esta estructuración semántica facilita la accesibilidad, ya que herramientas de asistencia, como los lectores de pantalla, pueden entender y transmitir mejor la información a personas con discapacidades visuales o cognitivas, y además optimiza el SEO (Search Engine Optimization), ayudando a los motores de búsqueda a indexar y clasificar el contenido de manera más precisa y efectiva. ~\cite{HTMLMDN}
-
-\subsubsection{Canvas}
-El elemento \texttt{<canvas>} en HTML es una herramienta que permite dibujar gráficos, crear animaciones y renderizar imágenes en tiempo real a través de scripting. El elemento \texttt{<canvas>} es sólo un contenedor de gráficos. Es necesario usar JavaScript para crear los gráficos. Canvas cuenta con varios métodos para dibujar trazados, cuadros, círculos, texto así como agregar imágenes. Canvas también es compatible con todos los principales navegadores ~\cite{CanvasHTMLW3S}.  
 
 \subsubsection{CSS}
 CSS son las siglas en inglés de hojas de estilo en cascada (Cascading Style Sheets) es básicamente un lenguaje que maneja el diseño y presentación de una aplicación web, es decir, cómo lucen cuando un usuario las visita. Funciona junto con el lenguaje HTML que se encarga del contenido básico de los sitios. Se les denomina hojas de estilo “en cascada” porque se puede tener varias y una de ellas con las propiedades heredadas (o en cascada) de otras.
 En general, una plantilla básica resulta suficiente para el funcionamiento de una aplicación web. Sin embargo, si se desea dar una apariencia llamativa para el usuario, se necesita implementar CSS yq eu ayudará a maximizar el impacto del contenido del sitio ~\cite{CSSMDN}.  
+
+\subsection{Backend}
 
 \subsubsection{JavaScript}
 JavaScript es un lenguaje de programación que permite brindar interactividad a las aplicaciones web. Desde actualizar fuentes de redes sociales a mostrar animaciones y mapas interactivos, las funciones de JavaScript pueden mejorar la experiencia del usuario de un sitio web. Como lenguaje de scripting del lado del servidor, se trata de una de las principales tecnologías de la World Wide Web. Por ejemplo, al navegar por Internet, en cualquier momento en el que vea un carrusel de imágenes, un menú desplegable “click-to-show” (clic para mostrar), o cambien de manera dinámica los elementos de color en una página web, estará viendo los efectos de JavaScript ~\cite{JavascriptMDN}.
@@ -1658,7 +1649,9 @@ HTTPS se diferencia de HTTP al agregar cifrado, autenticación e integridad al p
 \subsubsection{Certificado SSL/TLS}
 El certificado SSL (Secure Sockets Layer) es una pieza clave para establecer una conexión segura entre el servidor y el cliente. Este establece un enlace cifrado entre un servidor y un cliente. Esto permite que información confidencial, como los datos de la tarjeta de crédito, se transmita de forma segura a través de Internet.El certificado contiene una clave pública que autentica la identidad del sitio web y permite la transferencia de datos cifrados mediante criptografía asimétrica o de clave pública. La clave privada correspondiente se mantiene en secreto en el servidor ~\cite{SSL-TLS}.
 
-
+\subsection{Graficos y visualización de datos}
+\subsubsection{Canvas}
+El elemento \texttt{<canvas>} en HTML es una herramienta que permite dibujar gráficos, crear animaciones y renderizar imágenes en tiempo real a través de scripting. El elemento \texttt{<canvas>} es sólo un contenedor de gráficos. Es necesario usar JavaScript para crear los gráficos. Canvas cuenta con varios métodos para dibujar trazados, cuadros, círculos, texto así como agregar imágenes. Canvas también es compatible con todos los principales navegadores ~\cite{CanvasHTMLW3S}.  s
 %
 %
 %\section{Recommendations and future work}

@@ -50,8 +50,8 @@
 \contentsline {figure}{\numberline {3.18}{\ignorespaces Extensión periódica de medio rango de una función $f(t)$}}{46}{figure.caption.49}%
 \contentsline {figure}{\numberline {3.19}{\ignorespaces Aproximación de una función $f(t) = t$ con $-\pi < xt < \pi $ en sus 50 primeros armónicos}}{49}{figure.caption.50}%
 \contentsline {figure}{\numberline {3.20}{\ignorespaces Diagrama de una arquitectura cliente - servidor}}{50}{figure.caption.51}%
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Cómo procesa node.js las peticiones entrantes utilizando el bucle de eventos}}{52}{figure.caption.52}%
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Arquitectura general de una API.}}{54}{figure.caption.53}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Cómo procesa node.js las peticiones entrantes utilizando el bucle de eventos}}{51}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Arquitectura general de una API.}}{53}{figure.caption.53}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Etapas de la metodología por prototipos.}}{58}{figure.caption.54}%
 \addvspace {10\p@ }
