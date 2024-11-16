@@ -1,4 +1,4 @@
-\chapter{Análisis y Diseño del Sistema}\label{ch:Análisis y diseño del sistema}
+\chapter{Análisis del sistema}\label{ch:Análisis y diseño del sistema}
 En este capítulo se evaluaron los datos del marco teórico para seleccionar los componentes más adecuados para el proyecto. También se realizó un análisis detallado de los requerimientos y riesgos asociados al desarrollo del sistema, asegurando un diseño eficiente y viable para su implementación.
 
 \section{Metodología de Desarrollo}
@@ -11,31 +11,16 @@ La metodología a usar	La metodología propuesta para el desarrollo del proyecto
 	\label{fig:prototpios-metodología}  % Etiqueta para la figura
 \end{figure}
 
-El uso de prototipos evolutivos permite abordar los requerimientos del sistema de manera iterativa. Cada prototipo no es desechado sino que se refina progresivamente hasta obtener una versión completa del sistema. Esto asegura que el producto final no solo cumpla con los requisitos establecidos inicialmente, sino también con las expectativas del cliente o usuario. \newline \newline
-La retroalimentación temprana que se recibe desde las primeras etapas del proyecto es invaluable para identificar mejoras y posibles problemas antes de que se conviertan en obstáculos mayores. Esto permite un ahorro significativo de tiempo y recursos, ya que se pueden realizar correcciones antes de que los problemas se propaguen en el ciclo de desarrollo. \newline \newline
-A continuación, se muestra una tabla comparativa de ventajas/desventajas de utilizar esta metodología.
-\begin{longtable}{|m{6.5cm}|m{6.5cm}|}
-	\hline
-	\rowcolor{black!75} \color{white}\textbf{Ventajas} & \color{white}\textbf{Desventajas} \\
-	\hline
-	Permite obtener retroalimentación temprana y frecuente del cliente, lo que ayuda a ajustar los requerimientos de manera rápida. &
-	Puede generar una dependencia excesiva de los prototipos, llevando a malentendidos sobre la funcionalidad final del producto. \\
-	\hline
-	Facilita la detección temprana de errores o problemas de diseño, lo que reduce costos de desarrollo en fases posteriores. &
-	Requiere recursos adicionales (tiempo y esfuerzo) para desarrollar y revisar los prototipos. \\
-	\hline
-	Mejora la comprensión de los requisitos por parte del equipo de desarrollo y el cliente, reduciendo malentendidos. &
-	Si no se maneja adecuadamente, puede desviar el proyecto del alcance original, añadiendo características no planificadas (creeping scope). \\
-	\hline
-	Aumenta la satisfacción del cliente al ver un producto tangible en las primeras fases del desarrollo. &
-	El prototipo puede ser confundido con el producto final, lo que puede generar expectativas irreales respecto a tiempos y calidad. \\
-	\hline
-	Fomenta la iteración y mejora continua del producto, asegurando que se ajuste mejor a las necesidades reales del cliente. &
-	El uso excesivo de prototipos puede ralentizar el desarrollo del producto final si las iteraciones no están bien gestionadas. \\
-	
-	\hline
-	\rowcolor{white} \caption{Ventajas/Desventajas de la metodología de Prototipos Evolutivos} \label{tabla:Ventajas-Desventajas-Prototipos} \\
-\end{longtable}
+El uso de prototipos permite abordar los requerimientos del sistema de manera iterativa. Cada prototipo no es desechado sino que se mejora progresivamente hasta obtener una versión completa del sistema. Esto asegura que el producto final no solo cumpla con los requisitos establecidos inicialmente, sino también con las expectativas del cliente o usuario. \newline 
+La retroalimentación temprana que se recibe desde las primeras etapas del proyecto es invaluable para identificar mejoras y posibles problemas antes de que se conviertan en obstáculos mayores. Esto permite un ahorro significativo de tiempo y recursos, ya que se pueden realizar correcciones antes de que los problemas se propaguen en el ciclo de desarrollo. Algunas de las principales ventajas de usar esta metodología son: \newline 
+\begin{itemize}
+	\item Permite obtener retroalimentación temprana y frecuente del cliente, lo que ayuda a ajustar los requerimientos de manera rápida.
+	\item Facilita la detección temprana de errores o problemas de diseño, lo que reduce costos de desarrollo en fases posteriores.
+	\item Mejora la comprensión de los requisitos por parte del equipo de desarrollo y el cliente, reduciendo malentendidos.
+	\item Aumenta la satisfacción del cliente al ver un producto tangible en las primeras fases del desarrollo.
+	\item Fomenta la iteración y mejora continua del producto, asegurando que se ajuste mejor a las necesidades reales del cliente.
+\end{itemize}
+
 
 \section{Análisis de Requerimientos}
 El análisis de requerimientos tiene la finalidad de establecer las bases del proyecto, ya que permiten conocer si realmente se está entendiendo la problemática principal que se está tratando para garantizar que la solución propuesta es ideal para dar una solución fiable. 
@@ -200,11 +185,11 @@ Los requerimientos funcionales describen lo que el sistema debe hacer, es decir,
 	\hline
 	\textbf{Prioridad de desarrollo} & Alta \\
 	\hline
-	\textbf{Entrada} & Expresión matemática ingresada por el usuario en formato de notación matemática (LaTeX). \\
+	\textbf{Entrada} & Expresión matemática ingresada por el usuario en formato de notación matemática (\LaTeX). \\
 	\hline
 	\textbf{Salida} & Expresión convertida a un formato compatible para procesamiento matemático en el backend, enviada mediante una solicitud en formato JSON. \\
 	\hline
-	\textbf{Descripción} & El sistema debe interpretar y convertir las entradas matemáticas en notación LaTeX a un formato compatible con el motor de cálculo. Los datos convertidos se envían al backend a través de una solicitud para su procesamiento. \\
+	\textbf{Descripción} & El sistema debe interpretar y convertir las entradas matemáticas en notación \LaTeX~ a un formato compatible con el motor de cálculo. Los datos convertidos se envían al backend a través de una solicitud para su procesamiento. \\
 	\hline
 	\textbf{Precondición} & El usuario ha ingresado una expresión matemática en la interfaz. \\
 	\hline
@@ -270,13 +255,13 @@ Los requerimientos funcionales describen lo que el sistema debe hacer, es decir,
 	\hline
 	\textbf{Entrada} & Solicitud de recuperación de resultados generados por el cálculo de la Serie de Fourier, en formato JSON. \\
 	\hline
-	\textbf{Salida} & Resultados del cálculo, convertidos para visualización gráfica y en formato LaTeX para mostrar expresiones matemáticas en la interfaz. \\
+	\textbf{Salida} & Resultados del cálculo, convertidos para visualización gráfica y en formato \LaTeX~ para mostrar expresiones matemáticas en la interfaz. \\
 	\hline
-	\textbf{Descripción} & El sistema enviará los resultados del cálculo al frontend a través de una solicitud en formato JSON. La interfaz de usuario debe interpretar estos resultados y convertirlos a un formato adecuado para graficación y a formato LaTeX para mostrar las expresiones matemáticas en notación visual. \\
+	\textbf{Descripción} & El sistema enviará los resultados del cálculo al frontend a través de una solicitud en formato JSON. La interfaz de usuario debe interpretar estos resultados y convertirlos a un formato adecuado para graficación y a formato \LaTeX~ para mostrar las expresiones matemáticas en notación visual. \\
 	\hline
 	\textbf{Precondición} & Los resultados de los cálculos de la Serie de Fourier están listos para su recuperación y visualización en el frontend. \\
 	\hline
-	\textbf{Postcondición} & Los resultados se muestran en la interfaz de usuario en formato gráfico y en notación matemática (LaTeX) para una interpretación visual y análisis claros. \\
+	\textbf{Postcondición} & Los resultados se muestran en la interfaz de usuario en formato gráfico y en notación matemática (\LaTeX) para una interpretación visual y análisis claros. \\
 	\hline
 \end{longtable}
 \caption{Requerimiento funcional No. 7} \label{tabla:RF7}
@@ -391,9 +376,7 @@ Los requerimientos funcionales describen lo que el sistema debe hacer, es decir,
 Los requerimientos funcionales definen cómo debe funcionar el sistema, estableciendo estándares de calidad como rendimiento, seguridad, usabilidad, escalabilidad, y eficiencia.
 
 %Tabla de no funcionales
-\begin{longtable}{|m{5cm}|m{10cm}|}
-	\hline
-	\rowcolor{black!75} \color{white}\textbf{Nombre} & \color{white}\textbf{Descripción} \\
+\begin{longtable}{|m{5cm}|m{8.5cm}|}
 	\hline
 	\rowcolor{black!75}
 	\head {Nombre} & \head {Descripción} \\ \hline
@@ -406,19 +389,25 @@ Los requerimientos funcionales definen cómo debe funcionar el sistema, establec
 	\endfoot
 	\hline
 	\endlastfoot
-	\textbf{Rendimiento y Escalabilidad} & El sistema debe calcular los coeficientes de Fourier en un tiempo razonable, incluso para funciones con múltiples trozos o con un alto número de términos en la serie. La visualización gráfica debe ser fluida y responsiva, incluso al agregar o quitar muchos términos de la serie. Las interacciones en el lienzo canvas deben realizarse sin latencia perceptible. \\
+	\textbf{Rendimiento} & El sistema debe calcular los coeficientes de Fourier en un tiempo razonable, incluso para funciones con múltiples trozos o con un alto número de términos en la serie. La visualización gráfica debe ser fluida y responsiva, incluso al agregar o quitar muchos términos de la serie. Las interacciones en el lienzo canvas deben realizarse sin latencia perceptible. \\
 	\hline
-	\textbf{Interfaz de Usuario Amigable e Intuitiva} & La interfaz debe ser intuitiva y fácil de usar, con botones y controles claramente identificados. Los mensajes de error y advertencia deben ser comprensibles, evitando el uso de jerga técnica complicada. La notación matemática debe ser clara y precisa, usando MathQuill para entradas y visualización de resultados. \\
+	
+	\textbf{Escalabilidad} & El sistema debe calcular los coeficientes de Fourier en un tiempo razonable, incluso para funciones con múltiples trozos o con un alto número de términos en la serie. La visualización gráfica debe ser fluida y responsiva, incluso al agregar o quitar muchos términos de la serie. Las interacciones en el lienzo canvas deben realizarse sin latencia perceptible. \\
 	\hline
-	\textbf{Manejo de la Concurrencia} & La aplicación debe soportar múltiples usuarios concurrentes enviando cálculos al backend sin generar bloqueos ni conflictos en las llamadas a Maxima. \\
+	
+	\textbf{Usabilidad} & La interfaz debe ser intuitiva y fácil de usar, con botones y controles claramente identificados. Los mensajes de error y advertencia deben ser comprensibles, evitando el uso de jerga técnica complicada. La notación matemática debe ser clara, precisa y visualmente agradable. \\
 	\hline
-	\textbf{Portabilidad y Compatibilidad} & La aplicación debe ser compatible con los principales navegadores modernos (Chrome, Firefox, Edge). Aunque no es recomendable usar la aplicación en dispositivos móviles, el diseño debe ser responsivo para ajustarse a diferentes tamaños de pantalla, incluidos dispositivos móviles y tabletas. \\
+	
+	\textbf{Compatibilidad} & La aplicación debe ser compatible con los principales navegadores modernos (Chrome, Firefox, Edge). Aunque no es recomendable usar la aplicación en dispositivos móviles, el diseño debe ser responsivo para ajustarse a diferentes tamaños de pantalla, incluidos dispositivos móviles y tabletas. \\
 	\hline
-	\textbf{Modularidad y Extensibilidad del Código} & El frontend debe estar diseñado para facilitar la migración a frameworks como Angular en el futuro. El código debe ser modular y seguir buenas prácticas de desarrollo para facilitar la adición de nuevas características. Aunque el sistema no requiere una base de datos en su versión actual, el backend debe ser fácilmente extensible para permitir el almacenamiento de sesiones o configuraciones del usuario en el futuro. \\
+	
+%	\textbf{Modularidad y Extensibilidad del Código} & El frontend debe estar diseñado para facilitar la migración a frameworks como Angular en el futuro. El código debe ser modular y seguir buenas prácticas de desarrollo para facilitar la adición de nuevas características. Aunque el sistema no requiere una base de datos en su versión actual, el backend debe ser fácilmente extensible para permitir el almacenamiento de sesiones o configuraciones del usuario en el futuro. \\
+%	\hline
+	
+	\textbf{Mantenibilidad} & La aplicación debe tener una guía de usuario clara para explicar cómo ingresar funciones, seleccionar series y usar la interfaz. El código debe estar bien documentado para que futuros desarrolladores puedan entender la lógica y estructura de la aplicación fácilmente. \\
 	\hline
-	\textbf{Seguridad de la Aplicación} & Las peticiones a la API deben estar protegidas contra inyecciones de código. Implementar seguridad básica en el backend para evitar solicitudes maliciosas o repetitivas que puedan afectar el rendimiento del servicio. \\
-	\hline
-	\textbf{Mantenibilidad de Código} & La aplicación debe tener una guía de usuario clara para explicar cómo ingresar funciones, seleccionar series y usar la interfaz. El código debe estar bien documentado para que futuros desarrolladores puedan entender la lógica y estructura de la aplicación fácilmente. \\
+	
+	\textbf{Seguridad} & Todas las comunicaciones entre el frontend y el backend deben estar cifradas (HTTPS). \\
 	\hline
 %	\textbf{Tiempo de Respuesta del Sistema} & El tiempo de respuesta del servidor para calcular coeficientes de Fourier no debe exceder los 5 segundos en condiciones normales. La gráfica debe actualizarse en menos de 500 ms para proporcionar una experiencia interactiva y sin latencia. \\
 %	\hline
@@ -440,7 +429,7 @@ La matriz de riesgos es una herramienta clave en la gestión de proyectos, ya qu
 
 \begin{table}[H]
 	\centering
-	\begin{tabular}{|>{\centering\arraybackslash}m{4cm}|c|c|c|c|c|}
+	\begin{tabular}{|>{\centering\arraybackslash}m{2.5cm}|c|c|c|c|c|}
 		\hline
 		\rowcolor{black!75} \color{white} {\textbf{Consecuencias}} & \multicolumn{5}{c|}{ \color{white} \textbf{Probabilidad}} \\ \cline{2-6}
 		\cellcolor{white} & \textbf{Casi seguro} & \textbf{Probable} & \textbf{Posible} & \textbf{Improbable} & \textbf{Raro} \\ \hline
@@ -458,32 +447,379 @@ La matriz de riesgos es una herramienta clave en la gestión de proyectos, ya qu
 \subsection{Identificación y jerarquización de riesgos}
 Para poder comenzar con el análisis de riesgos pertinente, comenzamos identificación los riesgos que pueden ocurrir y, por lo tanto, afectar la correcta ejecución del proyecto, además de su jerarquización en base a su semáforo.
 
-
-\begin{longtable}{|m{1.5cm}|m{5.3cm}|m{3cm}|m{2cm}|m{2cm}|}
-	\rowcolor{black!75} \color{white} \textbf{ID Riesgo} & \color{white} \textbf{Descripción} & \color{white} \textbf{Probabilidad} & \color{white} \textbf{Impacto} & \color{white} \textbf{Semáforo} \\ \hline
-	\textbf{R1} & Incapacidad temporal para continuar el proyecto debido a una enfermedad u otra causa que afecte la salud o disponibilidad. & Posible & Grave & \cellcolor{red!80} \\ \hline
-	\textbf{R2} & Mala gestión del tiempo y actividades a  lo largo del desarrollo del proyecto. & Posible & Mayor & \cellcolor{orange!80} \\ \hline
-	\textbf{R3} & Mala elección de tecnologías para el desarrollo del proyecto & Posible & Mayor & \cellcolor{orange!80} \\ \hline
-	\textbf{R4} & Falta de claridad o mal planteamiento de los requerimientos & Posible & Mayor & \cellcolor{orange!80} \\ \hline
-	\textbf{R5} & No cumplir con los objetivos del proyecto & Posible & Mayor & \cellcolor{red!80} \\ \hline
-	\textbf{R6} & Falta de conocimientos para realizar actividades relacionadas al proyecto. & Medio & Grave &  \cellcolor{yellow!60} \\ \hline
-	\textbf{R6} & Sobrecarga de y proyectos académicos & Probable & Mayor &  \cellcolor{red!80}  \\ \hline
-	\textbf{R7} & Sobrecarga de y proyectos académicos & Probable & Mayor &  \cellcolor{red!80}  \\ \hline
-	\rowcolor{white} \caption{Tabla de identificación de riesgos} \label{tabla:riesgos} \\
+\begin{longtable}{|m{1.5cm}|m{4.5cm}|c|c|c|}
+	\hline
+	\rowcolor{black!75} \color{white} \textbf{ID Riesgo} & \color{white} \textbf{Descripción} & \color{white} \textbf{Probabilidad} & \color{white} \textbf{Impacto} & \color{white} \textbf{Semáforo} \\ 
+	\hline
+	\endfirsthead
+	\multicolumn{5}{c}{{\tablename\ \thetable{} -- continuación}} \\
+	\hline
+	\rowcolor{black!75} \color{white} \textbf{ID Riesgo} & \color{white} \textbf{Descripción} & \color{white} \textbf{Probabilidad} & \color{white} \textbf{Impacto} & \color{white} \textbf{Semáforo} \\ 
+	\hline
+	\endhead
+	\hline \multicolumn{5}{r}{{Continúa en la siguiente página}} \\
+	\endfoot
+	\hline
+	\endlastfoot
 	
+	\textbf{R1} & Incapacidad temporal para continuar el proyecto debido a una enfermedad u otra causa que afecte la salud o disponibilidad. & Posible & Grave & \cellcolor{red!80} \\ 
+	\hline
+	\textbf{R2} & No cumplir con los objetivos del proyecto & Posible & Mayor & \cellcolor{red!80} \\ 
+	\hline
+	\textbf{R3} & Sobrecarga de proyectos académicos & Probable & Mayor & \cellcolor{red!80} \\ 
+	\hline
+	\textbf{R4} & Mala gestión del tiempo y actividades a lo largo del desarrollo del proyecto. & Posible & Mayor & \cellcolor{orange!80} \\ 
+	\hline
+	\textbf{R5} & Mala elección de tecnologías para el desarrollo del proyecto & Posible & Mayor & \cellcolor{orange!80} \\ 
+	\hline
+	\textbf{R6} & Falta de claridad o mal planteamiento de los requerimientos & Posible & Mayor & \cellcolor{orange!80} \\ 
+	\hline
+	\textbf{R7} & Atraso en la Entrega de Prototipos. & Posible & Mayor & \cellcolor{orange!80} \\ 
+	\hline
+	\textbf{R8} & Falta de conocimientos para realizar actividades relacionadas al proyecto. & Posible & Menor & \cellcolor{yellow!60} \\ 
+	\hline
+	\textbf{R9} & Aumento de la complejidad del proyecto. & Posible & Moderado & \cellcolor{yellow!60} \\ 
+	\hline
 \end{longtable}
+\caption{Tabla de identificación de riesgos jerarquizada.} \label{tabla:riesgos}
+\vspace{0.5cm}
 
-\subsection{Jerarquización de Riesgos}
+Una vez se tienen identificados y jerarquizados todos los riesgos, se procede a hacer un análisis individual de cada uno.
+
+\begin{longtable}{|m{2.5cm}|m{11cm}|}
+	\hline
+	\rowcolor{black!75} \multicolumn{2}{|c|}{\color{white}\textbf{Hoja de información de riesgo}} \\ 
+	\hline
+	\endfirsthead
+	\multicolumn{2}{c}{{\tablename\ \thetable{} -- continuación}} \\
+	\hline
+	\rowcolor{black!75} \multicolumn{2}{|c|}{\color{white}\textbf{Hoja de información de riesgo}} \\ 
+	\hline
+	\endhead
+	\hline \multicolumn{2}{r}{{Continúa en la siguiente página}} \\
+	\endfoot
+	\hline
+	\endlastfoot
+	
+	\textbf{Riesgo ID:} & R1 \\ \hline
+	\textbf{Fecha:} & 10/11/2024 \\ \hline
+	\textbf{Probabilidad:} & Posible \\ \hline
+	\textbf{Impacto:} & Grave \\ \hline
+	\textbf{Descripción:} & Incapacidad temporal para continuar el proyecto debido a enfermedad u otra causa que afecte mi salud o disponibilidad, como único miembro del equipo. \\ \hline
+	\textbf{Tipo de Riesgo:} & Rendimiento del equipo (individual). \\ \hline
+	\textbf{Contexto:} & 
+	\begin{itemize}
+		\item \textbf{Sub-Condición 1:} Si me enfermo o enfrento una incapacidad, todo el trabajo del proyecto se detiene, ya que no hay otros miembros para continuar las actividades.
+		\item \textbf{Sub-Condición 2:} La duración de la incapacidad es incierta, lo cual podría impactar significativamente el progreso del proyecto.
+	\end{itemize} \\ \hline
+	\textbf{Mitigación / Monitoreo:} &
+	\begin{itemize}
+		\item \textbf{Aceptar:} Reconocer el riesgo de interrupción en caso de incapacidad y comunicar el estado de avance a las partes interesadas regularmente.
+		\item \textbf{Minimizar impacto:} Llevar un registro detallado y documentado del proyecto para que cualquier avance pueda ser retomado sin dificultades en caso de una pausa temporal.
+	\end{itemize} \\ \hline
+	\textbf{Plan de contingencia} & Documentar todas las actividades y avances detalladamente, manteniendo versiones de respaldo en la nube para asegurar que el proyecto pueda retomarse rápidamente tras cualquier interrupción. Informar a las partes interesadas sobre el progreso y posibles pausas debido a mi disponibilidad. \\ \hline
+	\textbf{Estado Actual:} & En evaluación \\ \hline
+\end{longtable}
+\caption{Hoja de información de riesgo - R1} \label{tabla:R1}
+\vspace{0.5cm}
+
+\begin{longtable}{|m{2.5cm}|m{11cm}|}
+	\hline
+	\rowcolor{black!75} \multicolumn{2}{|c|}{\color{white}\textbf{Hoja de información de riesgo}} \\ 
+	\hline
+	\endfirsthead
+	\multicolumn{2}{c}{{\tablename\ \thetable{} -- continuación}} \\
+	\hline
+	\rowcolor{black!75} \multicolumn{2}{|c|}{\color{white}\textbf{Hoja de información de riesgo}} \\ 
+	\hline
+	\endhead
+	\hline \multicolumn{2}{r}{{Continúa en la siguiente página}} \\
+	\endfoot
+	\hline
+	\endlastfoot
+	
+	\textbf{Riesgo ID:} & R2 \\ \hline
+	\textbf{Fecha:} & 10/11/2024 \\ \hline
+	\textbf{Probabilidad:} & Posible \\ \hline
+	\textbf{Impacto:} & Mayor \\ \hline
+	\textbf{Descripción:} & No cumplir con los objetivos del proyecto debido a retrasos o falta de recursos. \\ \hline
+	\textbf{Tipo de Riesgo:} & Cumplimiento de objetivos. \\ \hline
+	\textbf{Contexto:} & 
+	\begin{itemize}
+		\item \textbf{Sub-Condición 1:} Los plazos del proyecto son ajustados y cualquier retraso podría afectar el logro de los objetivos establecidos.
+		\item \textbf{Sub-Condición 2:} La falta de una adecuada organización podría impedir la finalización de algunas actividades clave.
+	\end{itemize} \\ \hline
+	\textbf{Mitigación / Monitoreo:} &
+	\begin{itemize}
+		\item \textbf{Aceptar:} Aceptar el riesgo pero monitorear constantemente el avance del proyecto para detectar retrasos a tiempo.
+		\item \textbf{Planificar metas intermedias:} Establecer metas de corto plazo para asegurar el progreso constante y mantener el enfoque en los objetivos principales.
+	\end{itemize} \\ \hline
+	\textbf{Plan de contingencia} & Revisar y ajustar el plan de trabajo regularmente para priorizar las tareas críticas. Identificar actividades que puedan ser simplificadas o pospuestas si el tiempo o los recursos se vuelven limitados. \\ \hline
+	\textbf{Estado Actual:} & En fase de planificación \\ \hline
+\end{longtable}
+\caption{Hoja de información de riesgo - R2} \label{tabla:R2}
+\vspace{0.5cm}
+
+\begin{longtable}{|m{3cm}|m{10.5cm}|}
+	\hline
+	\rowcolor{black!75} \multicolumn{2}{|c|}{\color{white}\textbf{Hoja de información de riesgo}} \\ 
+	\hline
+	\endfirsthead
+	\multicolumn{2}{c}{{\tablename\ \thetable{} -- continuación}} \\
+	\hline
+	\rowcolor{black!75} \multicolumn{2}{|c|}{\color{white}\textbf{Hoja de información de riesgo}} \\ 
+	\hline
+	\endhead
+	\hline \multicolumn{2}{r}{{Continúa en la siguiente página}} \\
+	\endfoot
+	\hline
+	\endlastfoot
+	
+	\textbf{Riesgo ID:} & R3 \\ \hline
+	\textbf{Fecha:} & 02/03/24 \\ \hline
+	\textbf{Probabilidad:} & Probable \\ \hline
+	\textbf{Impacto:} & Mayor \\ \hline
+	\textbf{Descripción:} & Sobrecarga de proyectos académicos que pueda limitar el tiempo dedicado al proyecto actual. \\ \hline
+	\textbf{Tipo de Riesgo:} & Gestión de tiempo y recursos. \\ \hline
+	\textbf{Contexto:} & 
+	\begin{itemize}
+		\item \textbf{Sub-Condición 1:} La carga académica en otras asignaturas o actividades podría restar tiempo al desarrollo del proyecto.
+		\item \textbf{Sub-Condición 2:} Las fechas de entrega de otros proyectos coinciden con los periodos importantes de este proyecto, aumentando el riesgo de retrasos.
+	\end{itemize} \\ \hline
+	\textbf{Mitigación / Monitoreo:} &
+	\begin{itemize}
+		\item \textbf{Planificación anticipada:} Organizar un calendario de trabajo que contemple todas las responsabilidades y anticiparse a los períodos de alta carga académica.
+		\item \textbf{Distribución de tareas:} Dividir el proyecto en tareas más pequeñas y alcanzables para avanzar gradualmente, incluso en semanas de alta demanda.
+	\end{itemize} \\ \hline
+	\textbf{Plan de contingencia} & Identificar tareas del proyecto que puedan realizarse en paralelo con otras responsabilidades académicas, aprovechando momentos libres o períodos de menor carga. De ser posible, simplificar ciertos entregables para adaptarlos a la disponibilidad de tiempo. \\ \hline
+	\textbf{Estado Actual:} & En fase de planificación \\ \hline
+\end{longtable}
+\caption{Hoja de información de riesgo - R3} \label{tabla:R3}
+\vspace{0.5cm}
+
+\begin{longtable}{|m{3cm}|m{10.5cm}|}
+	\hline
+	\rowcolor{black!75} \multicolumn{2}{|c|}{\color{white}\textbf{Hoja de información de riesgo}} \\ 
+	\hline
+	\endfirsthead
+	\multicolumn{2}{c}{{\tablename\ \thetable{} -- continuación}} \\
+	\hline
+	\rowcolor{black!75} \multicolumn{2}{|c|}{\color{white}\textbf{Hoja de información de riesgo}} \\ 
+	\hline
+	\endhead
+	\hline \multicolumn{2}{r}{{Continúa en la siguiente página}} \\
+	\endfoot
+	\hline
+	\endlastfoot
+	
+	\textbf{Riesgo ID:} & R4 \\ \hline
+	\textbf{Fecha:} & 02/03/24 \\ \hline
+	\textbf{Probabilidad:} & Posible \\ \hline
+	\textbf{Impacto:} & Mayor \\ \hline
+	\textbf{Descripción:} & Mala gestión del tiempo y actividades a lo largo del desarrollo del proyecto. \\ \hline
+	\textbf{Tipo de Riesgo:} & Organización y planificación. \\ \hline
+	\textbf{Contexto:} & 
+	\begin{itemize}
+		\item \textbf{Sub-Condición 1:} La falta de planificación detallada podría llevar a demoras en la ejecución de tareas críticas.
+		\item \textbf{Sub-Condición 2:} La pérdida de enfoque en las prioridades del proyecto podría afectar la calidad y cumplimiento de los objetivos.
+	\end{itemize} \\ \hline
+	\textbf{Mitigación / Monitoreo:} &
+	\begin{itemize}
+		\item \textbf{Establecer prioridades claras:} Definir las tareas más importantes y enfocarse en completarlas primero.
+		\item \textbf{Monitoreo semanal:} Revisar semanalmente el progreso y ajustar las actividades según los avances logrados.
+	\end{itemize} \\ \hline
+	\textbf{Plan de contingencia} & En caso de identificar retrasos, reasignar tiempos y simplificar tareas menos prioritarias para asegurar que los entregables principales se completen dentro de los plazos definidos. \\ \hline
+	\textbf{Estado Actual:} & En implementación de estrategia de monitoreo \\ \hline
+\end{longtable}
+\caption{Hoja de información de riesgo - R4} \label{tabla:R4}
+\vspace{0.5cm}
+
+\begin{longtable}{|m{3cm}|m{10.5cm}|}
+	\hline
+	\rowcolor{black!75} \multicolumn{2}{|c|}{\color{white}\textbf{Hoja de información de riesgo}} \\ 
+	\hline
+	\endfirsthead
+	\multicolumn{2}{c}{{\tablename\ \thetable{} -- continuación}} \\
+	\hline
+	\rowcolor{black!75} \multicolumn{2}{|c|}{\color{white}\textbf{Hoja de información de riesgo}} \\ 
+	\hline
+	\endhead
+	\hline \multicolumn{2}{r}{{Continúa en la siguiente página}} \\
+	\endfoot
+	\hline
+	\endlastfoot
+	
+	\textbf{Riesgo ID:} & R5 \\ \hline
+	\textbf{Fecha:} & 02/03/24 \\ \hline
+	\textbf{Probabilidad:} & Posible \\ \hline
+	\textbf{Impacto:} & Mayor \\ \hline
+	\textbf{Descripción:} & Mala elección de tecnologías para el desarrollo del proyecto, lo que podría afectar su funcionalidad o escalabilidad. \\ \hline
+	\textbf{Tipo de Riesgo:} & Selección de tecnologías. \\ \hline
+	\textbf{Contexto:} & 
+	\begin{itemize}
+		\item \textbf{Sub-Condición 1:} La elección de una tecnología inadecuada podría generar dificultades en el desarrollo o falta de soporte.
+		\item \textbf{Sub-Condición 2:} Cambiar de tecnología a mitad del proyecto podría ocasionar retrasos y pérdida de avances.
+	\end{itemize} \\ \hline
+	\textbf{Mitigación / Monitoreo:} &
+	\begin{itemize}
+		\item \textbf{Investigación previa:} Evaluar diferentes tecnologías antes de iniciar el proyecto y seleccionar la que mejor se adapte a los requerimientos.
+		\item \textbf{Pruebas iniciales:} Realizar pruebas tempranas para verificar la compatibilidad y funcionalidad de las tecnologías seleccionadas.
+	\end{itemize} \\ \hline
+	\textbf{Plan de contingencia} & En caso de identificar problemas críticos con la tecnología elegida, evaluar la viabilidad de migrar a una alternativa o de implementar soluciones temporales que permitan continuar con el desarrollo hasta que se resuelva el inconveniente. \\ \hline
+	\textbf{Estado Actual:} & En proceso de evaluación tecnológica \\ \hline
+\end{longtable}
+\caption{Hoja de información de riesgo - R5} \label{tabla:R5}
+\vspace{0.5cm}
+
+\begin{longtable}{|m{3cm}|m{10.5cm}|}
+	\hline
+	\rowcolor{black!75} \multicolumn{2}{|c|}{\color{white}\textbf{Hoja de información de riesgo}} \\ 
+	\hline
+	\endfirsthead
+	\multicolumn{2}{c}{{\tablename\ \thetable{} -- continuación}} \\
+	\hline
+	\rowcolor{black!75} \multicolumn{2}{|c|}{\color{white}\textbf{Hoja de información de riesgo}} \\ 
+	\hline
+	\endhead
+	\hline \multicolumn{2}{r}{{Continúa en la siguiente página}} \\
+	\endfoot
+	\hline
+	\endlastfoot
+	
+	\textbf{Riesgo ID:} & R6 \\ \hline
+	\textbf{Fecha:} & 02/03/24 \\ \hline
+	\textbf{Probabilidad:} & Posible \\ \hline
+	\textbf{Impacto:} & Mayor \\ \hline
+	\textbf{Descripción:} & Falta de claridad o mal planteamiento de los requerimientos, lo que podría afectar el desarrollo adecuado del proyecto. \\ \hline
+	\textbf{Tipo de Riesgo:} & Definición de requerimientos. \\ \hline
+	\textbf{Contexto:} & 
+	\begin{itemize}
+		\item \textbf{Sub-Condición 1:} La ambigüedad en los requerimientos podría generar retrabajo o desvíos en el desarrollo.
+		\item \textbf{Sub-Condición 2:} Cambios constantes en los requerimientos afectan la estabilidad del proyecto.
+	\end{itemize} \\ \hline
+	\textbf{Mitigación / Monitoreo:} &
+	\begin{itemize}
+		\item \textbf{Revisión exhaustiva:} Revisar los requerimientos con las partes interesadas para asegurar comprensión y claridad antes de comenzar el desarrollo.
+		\item \textbf{Documentación detallada:} Mantener una documentación clara y detallada de cada requerimiento, incluyendo su justificación y alcance.
+	\end{itemize} \\ \hline
+	\textbf{Plan de contingencia} & En caso de identificar ambigüedades o cambios en los requerimientos, realizar una reunión de revisión para redefinir los objetivos y ajustar el enfoque del proyecto, minimizando el impacto en los avances previos. \\ \hline
+	\textbf{Estado Actual:} & En revisión de requerimientos \\ \hline
+\end{longtable}
+\caption{Hoja de información de riesgo - R6} \label{tabla:R6}
+\vspace{0.5cm}
+
+\begin{longtable}{|m{3cm}|m{10.5cm}|}
+	\hline
+	\rowcolor{black!75} \multicolumn{2}{|c|}{\color{white}\textbf{Hoja de información de riesgo}} \\ 
+	\hline
+	\endfirsthead
+	\multicolumn{2}{c}{{\tablename\ \thetable{} -- continuación}} \\
+	\hline
+	\rowcolor{black!75} \multicolumn{2}{|c|}{\color{white}\textbf{Hoja de información de riesgo}} \\ 
+	\hline
+	\endhead
+	\hline \multicolumn{2}{r}{{Continúa en la siguiente página}} \\
+	\endfoot
+	\hline
+	\endlastfoot
+	
+	\textbf{Riesgo ID:} & R7 \\ \hline
+	\textbf{Fecha:} & 02/03/24 \\ \hline
+	\textbf{Probabilidad:} & Posible \\ \hline
+	\textbf{Impacto:} & Mayor \\ \hline
+	\textbf{Descripción:} & Atraso en la entrega de prototipos que pueda afectar la evaluación del proyecto. \\ \hline
+	\textbf{Tipo de Riesgo:} & Gestión de entregas. \\ \hline
+	\textbf{Contexto:} & 
+	\begin{itemize}
+		\item \textbf{Sub-Condición 1:} La falta de tiempo para completar los prototipos puede retrasar su entrega para revisión y comentarios.
+		\item \textbf{Sub-Condición 2:} Los prototipos son esenciales para evaluar el avance y realizar ajustes en etapas tempranas.
+	\end{itemize} \\ \hline
+	\textbf{Mitigación / Monitoreo:} &
+	\begin{itemize}
+		\item \textbf{Definición de entregas parciales:} Establecer entregables parciales que permitan verificar el avance y corregir posibles desvíos.
+		\item \textbf{Monitoreo constante:} Evaluar semanalmente el progreso en los prototipos para asegurar que los plazos se cumplen.
+	\end{itemize} \\ \hline
+	\textbf{Plan de contingencia} & Si se anticipa un retraso en la entrega de prototipos, priorizar las funcionalidades clave para desarrollar una versión preliminar. Esto permite realizar pruebas básicas y obtener retroalimentación, mientras se completan las secciones faltantes. \\ \hline
+	\textbf{Estado Actual:} & En fase de desarrollo de prototipos \\ \hline
+\end{longtable}
+\caption{Hoja de información de riesgo - R7} \label{tabla:R7}
+\vspace{0.5cm}
+
+\begin{longtable}{|m{3cm}|m{10.5cm}|}
+	\hline
+	\rowcolor{black!75} \multicolumn{2}{|c|}{\color{white}\textbf{Hoja de información de riesgo}} \\ 
+	\hline
+	\endfirsthead
+	\multicolumn{2}{c}{{\tablename\ \thetable{} -- continuación}} \\
+	\hline
+	\rowcolor{black!75} \multicolumn{2}{|c|}{\color{white}\textbf{Hoja de información de riesgo}} \\ 
+	\hline
+	\endhead
+	\hline \multicolumn{2}{r}{{Continúa en la siguiente página}} \\
+	\endfoot
+	\hline
+	\endlastfoot
+	
+	\textbf{Riesgo ID:} & R8 \\ \hline
+	\textbf{Fecha:} & 02/03/24 \\ \hline
+	\textbf{Probabilidad:} & Posible \\ \hline
+	\textbf{Impacto:} & Menor \\ \hline
+	\textbf{Descripción:} & Falta de conocimientos para realizar actividades específicas del proyecto, lo cual podría afectar la calidad o retrasar el desarrollo. \\ \hline
+	\textbf{Tipo de Riesgo:} & Competencias técnicas. \\ \hline
+	\textbf{Contexto:} & 
+	\begin{itemize}
+		\item \textbf{Sub-Condición 1:} La falta de experiencia en ciertas tecnologías o metodologías podría complicar la ejecución de ciertas tareas.
+		\item \textbf{Sub-Condición 2:} Aprender nuevas habilidades durante el proyecto podría demorar su avance.
+	\end{itemize} \\ \hline
+	\textbf{Mitigación / Monitoreo:} &
+	\begin{itemize}
+		\item \textbf{Capacitación anticipada:} Identificar áreas de mejora y capacitarse en estas áreas antes de iniciar tareas específicas.
+		\item \textbf{Consultas puntuales:} Buscar apoyo de expertos o recursos en línea para resolver dudas específicas rápidamente.
+	\end{itemize} \\ \hline
+	\textbf{Plan de contingencia} & En caso de enfrentar dificultades técnicas, priorizar el autoaprendizaje mediante recursos de aprendizaje en línea. Además, evaluar la posibilidad de simplificar ciertas funcionalidades para evitar demoras. \\ \hline
+	\textbf{Estado Actual:} & Identificación de áreas de mejora técnica \\ \hline
+\end{longtable}
+\caption{Hoja de información de riesgo - R8} \label{tabla:R8}
+\vspace{0.5cm}
+
+\begin{longtable}{|m{3cm}|m{10.5cm}|}
+	\hline
+	\rowcolor{black!75} \multicolumn{2}{|c|}{\color{white}\textbf{Hoja de información de riesgo}} \\ 
+	\hline
+	\endfirsthead
+	\multicolumn{2}{c}{{\tablename\ \thetable{} -- continuación}} \\
+	\hline
+	\rowcolor{black!75} \multicolumn{2}{|c|}{\color{white}\textbf{Hoja de información de riesgo}} \\ 
+	\hline
+	\endhead
+	\hline \multicolumn{2}{r}{{Continúa en la siguiente página}} \\
+	\endfoot
+	\hline
+	\endlastfoot
+	
+	\textbf{Riesgo ID:} & R9 \\ \hline
+	\textbf{Fecha:} & 02/03/24 \\ \hline
+	\textbf{Probabilidad:} & Posible \\ \hline
+	\textbf{Impacto:} & Moderado \\ \hline
+	\textbf{Descripción:} & Aumento de la complejidad del proyecto, lo cual podría requerir más tiempo o recursos de lo inicialmente planificado. \\ \hline
+	\textbf{Tipo de Riesgo:} & Complejidad del proyecto. \\ \hline
+	\textbf{Contexto:} & 
+	\begin{itemize}
+		\item \textbf{Sub-Condición 1:} La ampliación del alcance o de los requisitos puede hacer que el proyecto sea más complejo de lo previsto.
+		\item \textbf{Sub-Condición 2:} La complejidad adicional podría requerir ajustes en el diseño y la implementación.
+	\end{itemize} \\ \hline
+	\textbf{Mitigación / Monitoreo:} &
+	\begin{itemize}
+		\item \textbf{Control de alcance:} Revisar regularmente el alcance para evitar la adición de requisitos que aumenten la complejidad.
+		\item \textbf{Evaluación de impacto:} Analizar los posibles efectos de cualquier cambio en el diseño antes de su implementación.
+	\end{itemize} \\ \hline
+	\textbf{Plan de contingencia} & Si la complejidad del proyecto aumenta, evaluar y priorizar las funcionalidades esenciales. Considerar implementar las funciones adicionales en fases posteriores si es necesario para cumplir con los objetivos iniciales en el tiempo previsto. \\ \hline
+	\textbf{Estado Actual:} & En monitoreo de alcance y requisitos \\ \hline
+\end{longtable}
+\caption{Hoja de información de riesgo - R9} \label{tabla:R9}
+\vspace{0.5cm}
 
 \section{Estimación de Costos}
 \subsection{Método de Estimación de Costos}
 \subsection{Detalle de los Costos Estimados}
 
-\section{Diseño del Sistema}
-\subsection{Arquitectura General del Sistema}
-\subsubsection{Arquitectura Cliente-Servidor}
-\subsubsection{Flujo de Datos}
-
-\subsection{Diseño de la Interfaz de Usuario}
-\subsubsection{Estructura de la Interfaz}
-\subsubsection{Prototipo de la Interfaz}

@@ -287,7 +287,7 @@ y esta debe satisfacer las siguientes condiciones:
 		\draw[<-] (0,0.1) -- (-0.5,1.5) node[left] {$u(0,t)=0$};
 		\draw[<-] (6,0.1) -- (6.5,1.5) node[right] {$u(\ell,t)=0$};
 	\end{tikzpicture}
- 	\caption[Ilustración del problema de transferencia de calor en una barra de longitud $\ell$.  ]{ Ilustración del problema de transferencia de calor en una barra de longitud $\pi$.  \textit{ Fuente: Elaboración propia} }
+ 	\caption[Ilustración del problema de transferencia de calor en una barra de longitud $\ell$.  ]{ Ilustración del problema de transferencia de calor en una barra de longitud $\ell$.  \textit{ Fuente: Elaboración propia} }
 	\label{fig:barra-pi}  % Etiqueta para la figura
 \end{figure}
 
@@ -1369,14 +1369,14 @@ La extensión periódica replica la función en intervalos sucesivos, creando un
 	\caption[Extensión periódica de medio rango de una función $f(t)$]{Extensión periódica de medio rango de una función $f(t)$. \textit{Fuente: Elaboración propia}}
 	\label{fig:extencion-periodica} 
 \end{figure}
-Para la extensión periódica, al no ser par ni impar, requerirá de los 3 coeficientes, y a diferencia de las extensiones par e impar: ~\cite{fourierCruzFierro}
+Para la extensión periódica, al no ser par ni impar, requerirá de los 3 coeficientes, la única diferencia es que estos se calculan añadiendo un 2 al argumento del seno y el coseno, lo que permitirá que la extensión de medio rango ahora sea puramente periódica: ~\cite{fourierCruzFierro}
 \begin{equation}\label{eq36}
-	f(t) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[a_n \cos(n\omega_0 t) + b_n \sin(n\omega_0 t)\right],
+	f(t) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[a_n \cos(2n\omega_0 t) + b_n \sin(2n\omega_0 t)\right],
 \end{equation}
 
 
 \begin{equation}\label{eq37}
-	a_0 = \frac{2}{T} \int_{0}^{T} f(t) \, dt, \quad a_n = \frac{2}{T} \int_{0}^{T} f(t) \cos(2n\omega_0 t) \, dt, \quad b_n = \frac{2}{T} \int_{0}^{T} f(t) \sin(n\omega_0 t) \, dt
+	a_0 = \frac{2}{T} \int_{0}^{T} f(t) \, dt, \quad a_n = \frac{2}{T} \int_{0}^{T} f(t) \cos(2n\omega_0 t) \, dt, \quad b_n = \frac{2}{T} \int_{0}^{T} f(t) \sin(2n\omega_0 t) \, dt
 \end{equation}
 
 \subsection{Serie Compleja de Fourier}
@@ -1516,42 +1516,129 @@ Cuando una función dada se aproxima mediante una serie de Fourier, ya sea trigo
 %En la compresión del lenguaje matemático, no basta con saber el algoritmo de memoria, se necesita que el estudiante contextualice la información y la aplique efectivamente en una situación problema, lo que evidentemente, no se puede lograr con tan solo la información, es necesario, que, mediante el uso adecuado de las TIC, el concepto matemático abstracto se formalice y materialice ~\cite{tesisHerramientasMatematicasAeljandroJimenez}. 
 
 \section{Aplicaciones Web}
-Una aplicación web es un software que se ejecuta desde un navegador web, como Google Chrome o Firefox. Estas aplicaciones no necesitan instalarse para poder ser utilizadas, ya que al ejecutarse sobre el navegador solo requiere de conexión a una red de internet, sino que se ejecutan en un servidor y se transmiten a través de Internet al navegador de nuestro dispositivo.
-Las aplicaciones web están basadas en una arquitectura cliente-servidor, en la cual el código se divide en dos partes: scripts del lado del cliente y scripts del lado del servidor ~\cite{apliacionWebAmazon}.\newline 
+Una aplicación web es un software que se ejecuta desde un navegador web, como Google Chrome o Firefox. Estas aplicaciones no necesitan instalarse para poder ser utilizadas, ya que al ejecutarse sobre el navegador solo requieren una conexión a una red de internet. Las aplicaciones web están basadas en una arquitectura cliente-servidor (véase la imagen \ref{fig:cliente-servidor}), en la cual el código se divide en dos partes: scripts del lado del cliente y scripts del lado del servidor ~\cite{apliacionWebAmazon}. Estos dos elementos también se conocen como frontend y backend.
 
 \begin{figure}[h]
 	\centering	 
 	\includegraphics[width=0.9\textwidth]{img/chapter03/ui-web-arquitectura.png}
 	\caption[Diagrama de una arquitectura cliente - servidor]{Diagrama de una arquitectura cliente - servidor. \textit{Fuente: ~\cite{uqbar-wiki-web}}}
 	\label{fig:cliente-servidor}  % Etiqueta para la figura
-\end{figure}qu
-
-
-\begin{itemize}	
-	\item \textbf{Arquitectura del lado del cliente:} El script del lado del cliente se encarga de gestionar la funcionalidad de la interfaz de usuario, que incluye elementos como botones y menús desplegables. Cuando el usuario final accede a la aplicación web mediante un enlace, el navegador carga el script del lado del cliente y renderiza tanto los elementos visuales como el texto necesario para la interacción con el usuario. Por ejemplo, el usuario puede visualizar contenidos, reproducir videos o completar la información de un formulario de contacto. Acciones como hacer clic en el botón de enviar se envían al servidor como solicitudes del cliente.
-	
-	\item \textbf{Arquitectura del lado del servidor:} El script del lado del servidor se encarga del procesamiento de la información. Este servidor gestiona las solicitudes realizadas por el cliente y devuelve una respuesta. Estas solicitudes pueden incluir acciones como la obtención de datos adicionales, la edición de datos o el almacenamiento de nuevos datos. Por ejemplo, si el usuario hace clic en un botón de “Leer más”, el servidor le envía contenido adicional. Si hace clic en “Enviar”, el servidor guarda los datos del usuario en una base de datos. En ciertos casos, el servidor completa la solicitud generando y enviando una página HTML completa al cliente, lo cual se denomina renderizado del lado del servidor.
-\end{itemize}
+\end{figure}
 
 
 \subsection{Frontend}
-
-
-\subsubsection{HTML}
-HTML son las siglas en inglés de lenguaje de etiquetas de hipertexto (HyperText Markup Language) es el lenguaje estándar fundamental para estructurar y presentar contenido en la web, siendo la base sobre la cual se construyen todas las páginas web. Su función principal es organizar el contenido de manera semántica, lo que significa que emplea etiquetas específicas para definir la estructura de los distintos elementos, como encabezados, párrafos, listas, imágenes y enlaces, permitiendo que los navegadores interpreten y muestren adecuadamente el contenido al usuario. Esta estructuración semántica facilita la accesibilidad, ya que herramientas de asistencia, como los lectores de pantalla, pueden entender y transmitir mejor la información a personas con discapacidades visuales o cognitivas, y además optimiza el SEO (Search Engine Optimization), ayudando a los motores de búsqueda a indexar y clasificar el contenido de manera más precisa y efectiva. ~\cite{HTMLMDN}
-
-\subsubsection{CSS}
-CSS son las siglas en inglés de hojas de estilo en cascada (Cascading Style Sheets) es básicamente un lenguaje que maneja el diseño y presentación de una aplicación web, es decir, cómo lucen cuando un usuario las visita. Funciona junto con el lenguaje HTML que se encarga del contenido básico de los sitios. Se les denomina hojas de estilo “en cascada” porque se puede tener varias y una de ellas con las propiedades heredadas (o en cascada) de otras.
-En general, una plantilla básica resulta suficiente para el funcionamiento de una aplicación web. Sin embargo, si se desea dar una apariencia llamativa para el usuario, se necesita implementar CSS yq eu ayudará a maximizar el impacto del contenido del sitio ~\cite{CSSMDN}.  
+El frontend corresponde a la parte del cliente, el cual se encarga de gestionar la funcionalidad de la interfaz de usuario. Cuando el usuario final accede a la aplicación web mediante un enlace, el navegador carga el script del lado del cliente y renderiza tanto los elementos visuales como el texto necesario para la interacción con el usuario. ~\cite{apliacionWebAmazon}.
 
 \subsection{Backend}
+El backend corresponde a la parte del lado del servidor, esta se encarga la lógica de la apliación. Este servidor gestiona las solicitudes realizadas por el cliente y devuelve una respuesta. Estas solicitudes pueden incluir acciones como la obtención de datos adicionales, la edición de datos o el almacenamiento de nuevos datos.  ~\cite{apliacionWebAmazon}.
+ 
+
+\subsection{Tecnologías base de las aplicaciones web}
+El desarrollo de aplicaciones web se sustenta en un conjunto de tecnologías fundamentales que permiten crear, diseñar y gestionar tanto el frontend como el backend de dichas aplicaciones. Las 3 tecnologías fundamentales de cualquier apliación web son 3: HTML, CSS y JavaScript.
+
+\subsubsection{HTML}
+HTML es el acrónimo de inglés de lenguaje de etiquetas de hipertexto (HyperText Markup Language) es el lenguaje estándar fundamental para estructurar y presentar contenido en la web, siendo la base sobre la cual se construyen todas las páginas web. Su función principal es organizar el contenido de manera semántica, es decir, emplea etiquetas específicas para definir la estructura de los distintos elementos, como encabezados, párrafos, listas, imágenes y enlaces, permitiendo que los navegadores interpreten y muestren adecuadamente el contenido al usuario ~\cite{HTMLMDN}.
+
+\subsubsection{CSS}
+CSS es el acrónimo de inglés de hojas de estilo en cascada (Cascading Style Sheets) es básicamente un lenguaje que maneja el diseño y presentación de una aplicación web, es decir, cómo lucen cuando un usuario las visita. Funciona junto con el lenguaje HTML que se encarga del contenido básico de los sitios. Se les denomina hojas de estilo “en cascada” porque se puede tener varias y una de ellas con las propiedades heredadas (o en cascada) de otras ~\cite{CSSMDN}.  
 
 \subsubsection{JavaScript}
-JavaScript es un lenguaje de programación que permite brindar interactividad a las aplicaciones web. Desde actualizar fuentes de redes sociales a mostrar animaciones y mapas interactivos, las funciones de JavaScript pueden mejorar la experiencia del usuario de un sitio web. Como lenguaje de scripting del lado del servidor, se trata de una de las principales tecnologías de la World Wide Web. Por ejemplo, al navegar por Internet, en cualquier momento en el que vea un carrusel de imágenes, un menú desplegable “click-to-show” (clic para mostrar), o cambien de manera dinámica los elementos de color en una página web, estará viendo los efectos de JavaScript ~\cite{JavascriptMDN}.
+JavaScript es un lenguaje de programación que permite brindar interactividad a las aplicaciones web. Desde actualizar fuentes de redes sociales a mostrar animaciones y mapas interactivos, las funciones de JavaScript pueden mejorar la experiencia del usuario de un sitio web. Además, JavaScript funciona como lenguaje de scripting del lado del servidor a través de entornos de ejecución ~\cite{JavascriptMDN}.
 
+\section{API}
+API es el acrónimo de inglés de Application Programming Interface (interconexión de programación de aplicaciones), se trata de un softwarae  que permite que sistemas separados compartan información entre sí, actuando como un puente que conecta conecta a la aplicación que envía la solicitud (cliente) con un servidor que le proporciona una respuesta~\cite{APIDazzet}. 
 
+\subsection{API Rest}
+Las API de REST (Representational State Transfer o Transferencia del Estado de representación, por su acrónimo del inglés) siguen un conjunto de reglas que hacen que este tipo de API sea mucho más fácil de trabajar; en el núcleo, una API de REST requiere URLs que respondan a las solicitudes HTTP con un elemento de datos o un recurso. Estos datos regularmente están formateados en el marcado de Javascript (JSON en inglés, o Notación de Objetos Javascript). 
 
-\subsection{NodeJS}
+\subsection{Protocolo HTTP}
+El HTTP, que viene del acrónimo de inglés de Protocolo de Transferencia de Hiper Texto (HyperText Transfer Protocol) es el protocolo esencial para la transmisión de información en la World Wide Web, facilitando la comunicación entre servidores, clientes y proxies mediante un lenguaje común que opera principalmente a través de los puertos 80 y 8080. Al ser un protocolo sin estado, no guarda registro de interacciones anteriores, pero utiliza cookies para almacenar información de visitas previas en el cliente. Su funcionamiento se basa en un esquema de petición-respuesta, permitiendo una comunicación eficiente y flexible entre el usuario (como navegadores o rastreadores web) y los servidores web ~\cite{HTTPEditorialEtece}.
+
+\subsubsection{Métodos de petición HTTP}
+HTTP define un conjunto de métodos de petición para indicar la acción que se desea realizar para un recurso determinado. Aunque estos también pueden ser sustantivos, estos métodos de solicitud a veces son llamados HTTP verbs ~\cite{HTTP-metodos-MDN}. los códigos de respuesta son 9:
+\begin{itemize}
+	\item \textbf{GET}: El método GET solicita una representación de un recurso específico. Las peticiones que usan el método GET sólo deben recuperar datos.
+	
+	\item \textbf{HEAD}: El método HEAD pide una respuesta idéntica a la de una petición GET, pero sin el cuerpo de la respuesta.
+	
+	\item \textbf{POST}: El método POST se utiliza para enviar una entidad a un recurso en específico, causando a menudo un cambio en el estado o efectos secundarios en el servidor.
+	
+	\item \textbf{PUT}: El método PUT reemplaza todas las representaciones actuales del recurso de destino con la carga útil de la petición.
+	
+	\item \textbf{DELETE}: El método DELETE borra un recurso en específico.
+	
+	\item \textbf{CONNECT}: El método CONNECT establece un túnel hacia el servidor identificado por el recurso.
+	
+	\item \textbf{OPTIONS}: El método OPTIONS es utilizado para describir las opciones de comunicación para el recurso de destino.
+	
+	\item \textbf{TRACE}: El método TRACE realiza una prueba de bucle de retorno de mensaje a lo largo de la ruta al recurso de destino.
+	
+	\item \textbf{PATCH}: El método PATCH es utilizado para aplicar modificaciones parciales a un recurso.
+\end{itemize}
+
+\subsubsection{Códigos de estado de respuesta HTTP}
+Los códigos de estado de respuesta HTTP indican si se ha completado satisfactoriamente una solicitud HTTP específica ~\cite{HTTP-codigos-MDN}. Las respuestas se agrupan en cinco clases:
+\begin{itemize}
+	\item \textbf{Respuestas informativas (100–199)}
+%	\begin{itemize}
+%		\item \textbf{100 Continue}: El cliente puede continuar con su solicitud.
+%		\item \textbf{101 Switching Protocols}: El servidor acepta cambiar el protocolo según lo solicitado.
+%		\item \textbf{102 Processing}: El servidor ha recibido y está procesando la solicitud, pero aún no hay respuesta disponible.
+%	\end{itemize}
+	
+	\item \textbf{Respuestas satisfactorias (200–299)}
+%	\begin{itemize}
+%		\item \textbf{200 OK}: La solicitud fue exitosa.
+%		\item \textbf{201 Created}: La solicitud fue exitosa y se creó un nuevo recurso.
+%		\item \textbf{202 Accepted}: La solicitud ha sido aceptada para procesamiento, pero aún no se ha completado.
+%		\item \textbf{203 Non-Authoritative Information}: La información devuelta es de una fuente secundaria.
+%		\item \textbf{204 No Content}: La solicitud fue exitosa, pero no hay contenido para enviar en la respuesta.
+%		\item \textbf{205 Reset Content}: Instruye al cliente a restablecer el documento que envió esta solicitud.
+%		\item \textbf{206 Partial Content}: Respuesta a una solicitud de rango, indicando que se devuelve solo parte del recurso.
+%	\end{itemize}
+	
+	\item \textbf{Redirecciones (300–399)}
+%	\begin{itemize}
+%		\item \textbf{300 Multiple Choices}: Hay varias opciones para el recurso solicitado.
+%		\item \textbf{301 Moved Permanently}: El recurso solicitado ha sido movido permanentemente.
+%		\item \textbf{302 Found}: El recurso solicitado se encuentra temporalmente en otra ubicación.
+%		\item \textbf{303 See Other}: El cliente debe realizar una solicitud GET a otro URI.
+%		\item \textbf{304 Not Modified}: No se ha modificado el recurso desde la última solicitud.
+%		\item \textbf{307 Temporary Redirect}: El recurso solicitado se encuentra temporalmente en otra ubicación (sin cambiar el método HTTP).
+%		\item \textbf{308 Permanent Redirect}: El recurso solicitado ha sido movido permanentemente (sin cambiar el método HTTP).
+%	\end{itemize}
+	
+	\item \textbf{Errores de los clientes (400–499)}
+%	\begin{itemize}
+%		\item \textbf{400 Bad Request}: La solicitud tiene una sintaxis incorrecta.
+%		\item \textbf{401 Unauthorized}: La autenticación es necesaria para completar la solicitud.
+%		\item \textbf{403 Forbidden}: El servidor entiende la solicitud, pero se niega a autorizarla.
+%		\item \textbf{404 Not Found}: El recurso solicitado no se pudo encontrar.
+%		\item \textbf{405 Method Not Allowed}: El método HTTP no es permitido para el recurso solicitado.
+%		\item \textbf{406 Not Acceptable}: El servidor no puede generar una respuesta en el formato solicitado.
+%		\item \textbf{408 Request Timeout}: El servidor agotó el tiempo de espera para la solicitud.
+%		\item \textbf{409 Conflict}: Conflicto con el estado actual del recurso.
+%		\item \textbf{410 Gone}: El recurso solicitado ya no está disponible y no lo estará nuevamente.
+%	\end{itemize}
+	
+	\item \textbf{Errores de los servidores (500–599)}
+%	\begin{itemize}
+%		\item \textbf{500 Internal Server Error}: Se produjo un error inesperado en el servidor.
+%		\item \textbf{501 Not Implemented}: El servidor no reconoce el método o carece de la capacidad para completarlo.
+%		\item \textbf{502 Bad Gateway}: El servidor, actuando como puerta de enlace, recibió una respuesta inválida.
+%		\item \textbf{503 Service Unavailable}: El servidor no está disponible temporalmente (sobrecargado o en mantenimiento).
+%		\item \textbf{504 Gateway Timeout}: El servidor, actuando como puerta de enlace, no recibió una respuesta oportuna.
+%		\item \textbf{505 HTTP Version Not Supported}: El servidor no admite la versión de HTTP utilizada en la solicitud.
+%	\end{itemize}
+\end{itemize}
+
+\subsection{Tecnologías base para las APIs}
+La programación de servicios y microservicios REST simplifica el desarrollo y mantenimiento de aplicaciones web. Sin embargo, su desarrollo y testeo puede resultar incómodo, siempre y cuando, claro está, no se disponga de las herramientas necesarias para el desarrollo de APIs.
+
+\subsubsection{Desarrollo de APIs}
+Aunque es perfectamente posible realizar el desarrollo de APIs desde cero, sea cual sea el lenguaje elegido, es conveniente partir de frameworks o plantillas. En algunos casos, serán específicos para el desarrollo de APIs. La lista es interminable y existen para prácticamente todos los lenguajes. 
+
+\subsubsection{NodeJS}
 Node.js es un entorno de ejecución de un solo hilo, de código abierto y multiplataforma diseñado para desarrollar aplicaciones de red y del lado del servidor rápidas y escalables de JavaScript (de ahí su terminación en .js haciendo alusión al lenguaje JavaScript). Está escrito en C/C++ y Javascript y emplea una arquitectura de E/S basada en eventos y sin bloqueos, lo que la vuelve eficaz y apropiada para aplicaciones en tiempo real ~\cite{NodeJSKinsta}. 
 
 \begin{figure}[H]
@@ -1561,57 +1648,74 @@ Node.js es un entorno de ejecución de un solo hilo, de código abierto y multip
 	\label{fig:nodejs_arqui}  % Etiqueta para la figura
 \end{figure}
 Node.js utiliza una arquitectura de “Single Threaded Event Loop” \ref{fig:nodejs_arqui} que maneja múltiples solicitudes mediante un único bucle de eventos y un pool de hilos limitado para operaciones de E/S bloqueantes. A diferencia del modelo multihilo de lenguajes como Java, donde cada solicitud se asigna a un hilo individual del pool, Node.js coloca las solicitudes entrantes en una cola y las procesa de manera no bloqueante, asignando hilos del pool de trabajadores solo cuando es necesario. Esta arquitectura reduce el consumo de recursos y memoria, permitiendo una ejecución más rápida de tareas ligeras y haciendo que Node.js sea ideal para aplicaciones en tiempo real. Sin embargo, para tareas que requieren un procesamiento intensivo de datos, los lenguajes multihilo como Java son más adecuados ~\cite{NodeJSKinsta}.
+Gracias a su arquitectura, bibliotecas propias de NodeJS como lo es ExpressJS y su amplia demanda en la industria, hacen a NodeJS una gran opción para desarrollar una API.
 
- 
-%\subsubsection{Introducción a NodeJS}
-%Explicación básica sobre NodeJS.
-%\subsubsection{Ventajas del uso de NodeJS para aplicaciones web}
-%Descripción de por qué se eligió NodeJS para la parte del servidor.
-%\subsubsection{Integración de NodeJS con Maxima}
-%Detalle de cómo se usa NodeJS para comunicarse con Maxima y realizar cálculos matemáticos.
+
+\subsubsection{Prueba de APIs}
+Las herramientas para testear o probar una API son fundamentales para garantizar su máximo desempeño una vez esta sea desplegada. Es importante realizar pruebas de porque garantizan que la comunicación de los datos entre sistemas de software sea precisa. Además, esto ayuda a prevenir inconsistencias de datos o interpretaciones erróneas. Los desarrolladores de API están trabajando en nuevas funciones, mejoras, así como corrección de errores, en consecuencia, las APIs suelen sufrir cambios. Las pruebas de API no solo evalúan las nuevas funcionalidades, sino también aseguran que los nuevos cambios no estén afectando las existentes ~\cite{Postman-QAlified}.
+
+\subsubsection{Postman}
+Es una de las herramientas más utilizadas para probar y desarrollar APIs. Permite realizar solicitudes HTTP de manera sencilla y visualizar las respuestas para verificar su precisión. Postman soporta pruebas automatizadas mediante scripts, lo que facilita la validación de la funcionalidad y el rendimiento de la API en diferentes escenarios ~\cite{Postman-QAlified}. 
+
+
+\section{Seguridad en apliaciones web}
+La seguridad en aplicaciones web es fundamental para proteger la integridad, confidencialidad y disponibilidad de los datos manejados, así como para garantizar la confianza de los usuarios. Algunas medidas que se implementan en una aplicación web para implementar dicha seguridad son las siguientes.
+
+\subsubsection{Protocolo HTTPS}
+El protocolo de transferencia de hipertexto seguro, por sus siglas en inglés, (HyperText Transfer Protocol Secure) es una versión segura del protocolo HTTP que utiliza el SSL\slash TLS para cifrado y autenticación. HTTPS está especificado por RFC 2818~\cite{RFC2818} y utiliza el puerto 443 o el 8443 de forma predeterminada en lugar del puerto 80/8080 de HTTP ~\cite{HTTPS-SSL}. \newline
+HTTPS se diferencia de HTTP al agregar cifrado, autenticación e integridad al protocolo original. Mediante SSL/TLS, HTTPS cifra los datos para protegerlos de interceptaciones y ataques de intermediarios, utilizando criptografía de clave pública para establecer una conexión segura entre el servidor y el navegador. Además, HTTPS autentica la identidad del servidor mediante certificados digitales emitidos por autoridades de certificación confiables, garantizando que los documentos provienen de una fuente legítima. También asegura la integridad de los datos mediante firmas digitales que verifican que el contenido no ha sido alterado durante la transmisión. Estas mejoras hacen que HTTPS sea un protocolo mucho más seguro para navegar y realizar transacciones en la web en comparación con HTTP ~\cite{HTTPS-SSL}, además de volverse un estándar oara cualquier sitio web, ya sea que este intercambie o no datos sensibles con los usuarios.
+
+\subsubsection{Certificado SSL/TLS}
+El certificado SSL (Secure Sockets Layer) es una pieza clave para establecer una conexión segura entre el servidor y el cliente. Este establece un enlace cifrado entre un servidor y un cliente. Esto permite que información confidencial se transmita de forma segura a través de Internet.El certificado contiene una clave pública que autentica la identidad del sitio web y permite la transferencia de datos cifrados mediante criptografía asimétrica o de clave pública. La clave privada correspondiente se mantiene en secreto en el servidor ~\cite{SSL-TLS}.
+
+\subsection{CORS}
+CORS (Cross-Origin Resource Sharing) es un mecanismo de seguridad usado en los navegadores web que permite a un servidor indicar qué dominios pueden acceder a sus recursos. Por defecto, debido a la política de seguridad del mismo origen, los navegadores restringen las solicitudes HTTP realizadas desde scripts a un dominio diferente al de la página que los ejecuta. CORS agrega encabezados HTTP que indican a los navegadores que permitan a una aplicación web ejecutarse en un origen y acceder a recursos de otro origen diferente. Este tipo de acción se denomina una solicitud HTTP de origen cruzado ~\cite{CORS}.
+
+\section{Frameworks}
+Los frameworks son un conjunto de herramientas, estilos y bibliotecas dispuestas a través de una estructura o esqueleto base, para el desarrollo de aplicaciones web más escalables y sencillas de mantener. Son ampliamente utilizados puesto que permiten acelerar el trabajo, reducir los errores, fomentar la colaboración, y obtener un resultado de más calidad. Consiguiendo así que cualquier proceso de trabajo sea más rápido y eficaz, manteniendo la misma calidad. De este modo, gracias a los frameworks web, es posible ahorrar grandes cantidades de tiempo y costes.
+
+\subsection{Angular}
+Angular es un Framework de JavaScript de código abierto escrito en TypeScript. Su objetivo principal es desarrollar aplicaciones de una sola página. Google se encarga del mantenimiento y constantes actualizaciones de mejoras para este framework ~\cite{AngularDOCS}. Angular es un framework popular debido a su arquitectura basada en componentes, que permite la reutilización de código y facilita el mantenimiento de aplicaciones grandes y complejas. Además, su potente sistema de enlazado de datos bidireccional (two-way data binding) sincroniza automáticamente la interfaz de usuario con los datos subyacentes, mejorando la experiencia del usuario y la eficiencia en el desarrollo ~\cite{AngularDOCS}.
+
+
+\subsubsection{TypeScript}
+TypeScript es un superset de JavaScript que añade tipado estático y características avanzadas al lenguaje de programación. Desarrollado por Microsoft, TypeScript se compila a JavaScript, lo que permite utilizar sus funcionalidades en cualquier entorno que soporte JavaScript. Al incorporar tipos estáticos, TypeScript facilita la detección temprana de errores durante el desarrollo, mejora la legibilidad del código y facilita el mantenimiento de proyectos a gran escala. Además, ofrece soporte para programación orientada a objetos y otras mejoras que potencian la productividad y la robustez de las aplicaciones web~\cite{TypescriptDOCS}.
+
+
+\subsubsection{Tailwind CSS}
+Tailwind CSS es un framework de CSS  que permite a construir interfaces de usuario personalizadas de manera rápida y eficiente. A diferencia de los frameworks tradicionales que proporcionan componentes predefinidos, Tailwind ofrece clases de utilidad que pueden combinarse directamente en el HTML sin necesidad de escribir CSS personalizado. Esto facilita la creación de diseños responsivos y altamente personalizables, promoviendo la consistencia y reduciendo la cantidad de código CSS necesario~\cite{TailwindCSS}.
+
+\section{Sistema de álgebra computacional}
+Un Sistema de Álgebra Computacional (CAS acrónimo del inglés Computer Algebra System) es un software que facilita las operaciones matemáticas y el cálculo simbólico, es decir, cálculos matemáticos usando valores simbólicos (variables y expresiones) en lugar de valores numéricos ~\cite{MaximaSourgeforce}.
 
 \subsection{Maxima}
 Maxima es un Sistema de Álgebra Computacional (CAS, por sus siglas en inglés: Computer Algebra System) diseñado en Lisp, de código abierto diseñado para realizar manipulaciones simbólicas y numéricas de expresiones matemáticas. Originalmente desarrollado a partir de una versión de Macsyma del MIT en 1982, Maxima ha evolucionado gracias a la contribución de una comunidad de desarrolladores y usuarios que continúan mejorándolo y ampliando sus capacidades ~\cite{MaximaSourgeforce}.  \newline
 Se destaca por ser muy rápido y ligero, lo que permite realizar manipulaciones simbólicas y numéricas de manera eficiente, incluyendo simplificación, derivadas, integrales y resolución de ecuaciones algebraicas y diferenciales. Además, maneja operaciones avanzadas con matrices y vectores, genera gráficos bidimensionales y tridimensionales, y ofrece un lenguaje de programación propio para automatizar cálculos y crear scripts personalizados ~\cite{MaximaSourgeforce}. 
-%\subsubsection{Qué es Maxima y por qué se usa para cálculos simbólicos}
-%Explicación sobre el software Maxima y su importancia en los cálculos de Series de Fourier. 
-%\subsubsection{Implementación de Maxima en el servidor}
-%Cómo se utiliza Maxima en el servidor junto con NodeJS para realizar cálculos matemáticos de forma eficiente.
 
-\subsection{Angular}
-Angular es un Framework de JavaScript de código abierto escrito en TypeScript. Su objetivo principal es desarrollar aplicaciones de una sola página. Google se encarga del mantenimiento y constantes actualizaciones de mejoras para este framework.
-En el ámbito del desarrollo de software, un framework se define como una estructura de soporte tanto conceptual como tecnológica, compuesta generalmente por artefactos o módulos de software específicos. Estos componentes sirven como base para la organización y creación de aplicaciones.
-En otras palabras, un framework actúa como una plantilla o esquema fundamentado en tecnología que simplifica significativamente el trabajo. De este modo, se minimizan los posibles errores de programación.
-Así, un framework es un conjunto de herramientas y módulos reutilizables para distintos proyectos, lo que facilita el desarrollo en diversos aspectos, mejorando el tiempo de ejecución, el esfuerzo requerido y la organización general del proceso.
+\section{Gráficos en aplicaciones web}
+Los gráficos en las aplicaciones web se vuelven necesarios cuando hay que representar visualmente datos y mejorar la interacción del usuario. A través de gráficos, es posible mostrar información compleja de manera intuitiva, facilitando el análisis y la comprensión de los datos por parte de los usuarios. Los gráficos también permiten crear visualizaciones interactivas que enriquecen la experiencia de usuario, proporcionando funciones como zoom, desplazamiento, y selección de datos en tiempo real. Existen diversas herramientas y bibliotecas que permiten generar gráficos avanzados y personalizables para una amplia variedad de aplicaciones web.
 
-\subsubsection{TypeScript}
-TypeScript es un superset de JavaScript que añade tipado estático y características avanzadas al lenguaje de programación. Desarrollado por Microsoft, TypeScript se compila a JavaScript, lo que permite utilizar sus funcionalidades en cualquier entorno que soporte JavaScript. Al incorporar tipos estáticos, TypeScript facilita la detección temprana de errores durante el desarrollo, mejora la legibilidad del código y facilita el mantenimiento de proyectos a gran escala. Además, ofrece soporte para programación orientada a objetos y otras mejoras que potencian la productividad y la robustez de las aplicaciones web. Gracias a estas ventajas, TypeScript se ha convertido en una herramienta popular en el desarrollo de aplicaciones modernas, complementando y extendiendo las capacidades de JavaScript ~\cite{TypescriptDOCS}.
+\subsection{Canvas}
+El elemento \texttt{<canvas>} es una etiqueta de HTML que permite dibujar gráficos, crear animaciones y renderizar imágenes en tiempo real a través de scripting. El elemento \texttt{<canvas>} es sólo un contenedor de gráficos. Es necesario usar JavaScript para crear los gráficos. Canvas cuenta con varios métodos para dibujar trazados, cuadros, círculos, texto así como agregar imágenes. Canvas también es compatible con todos los principales navegadores ~\cite{CanvasHTMLW3S}.  
 
+\section{Representación y captura de funciones matemáticas en sitios web}
+Cuando se trata de visualizar elementos que incluyen notación matemática como fórmulas y expresiones algebraicas, es importante utilizar herramientas que permitan renderizar estas expresiones de manera que sea compatible en distintos navegadores, además de facilitar al usuario poder interpretarlos. Esto ayuda a comunicar conceptos complejos de forma clara y accesible, especialmente en aplicaciones educativas o científicas o financieras. Para ello, existen bibliotecas, que permiten tanto la captura como la visualización de fórmulas matemáticas, facilitando la interacción y manipulación de expresiones directamente en el navegador.
 
-\subsubsection{Tailwind CSS}
-Tailwind CSS es un framework de CSS  que permite a construir interfaces de usuario personalizadas de manera rápida y eficiente. A diferencia de los frameworks tradicionales que proporcionan componentes predefinidos, Tailwind ofrece clases de utilidad que pueden combinarse directamente en el HTML sin necesidad de escribir CSS personalizado. Esto facilita la creación de diseños responsivos y altamente personalizables, promoviendo la consistencia y reduciendo la cantidad de código CSS necesario. Además, Tailwind incluye características como el modo oscuro, diseños flexibles y un sistema de personalización extensivo que permite adaptar el framework a las necesidades específicas de cada proyecto~\cite{TailwindCSS}.
+\subsection{MathQuill}
+MathQuill es un editor de fórmulas de código abierto para la Web mantenido por Mary Stufflebeam y Han Seoul-Oh. Este editor funciona como una biblioteca que importa módulos necesarios para generar un campo de entrada para el usuario, en donde puede escribir expresiones matemáticas de forma que la notación matemática se mantenga lo mejor posible, ya que usa Latex para mostrar los valores ingresados ~\cite{mathquill}. 
 
-\subsection{API}
-Una API, por sus siglas en ingles de interfaz de programación de aplicaciones (application programming interface), es un conjunto de definiciones y protocolos que se utiliza para desarrollar e integrar los sistemas de software de las aplicaciones. Al compartir únicamente la información necesaria y ocultar detalles internos, las API mejoran la seguridad del sistema ~\cite{APIDazzet}. 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{img/chapter03/API-architecture.jpg}
-	\caption[Arquitectura general de una API.]{Arquitectura general de una API.\textit{Fuente: ~\cite{APIDazzet}}}
-	\label{fig:api_arqui}  % Etiqueta para la figura
-\end{figure}
-Suele considerarse como el contrato entre el usuario y el  proveedor de información, en el cual se establece el contenido que se necesita por parte del consumidor (la llamada) y el que requiere el productor (la respuesta). Se puede considerar la API como el mediador entre los usuarios o clientes y los recursos o servicios web que quieren obtener. Con ellas, las empresas pueden compartir recursos e información mientras conservan la seguridad, el control y la autenticación, lo cual les permite definir los accesos de cada usuario~\cite{APIDazzet}. 
+\subsection{MathJax}
+MathJax es un motor de visualización en JavaScript para notación matemática en LaTeX, que facilita la inclusión de expresiones matemáticas en aplicaciones web sin necesidad de instalar plugins o software adicional. Permite fórmulas en diversos formatos y genera resultados en HTML, CSS o SVG, lo cual asegura que las matemáticas sean textuales y, por tanto, indexables y accesibles en motores de búsqueda ~\cite{mathjax}.
 
-\subsubsection{Protocolo HTTP}
-El HTTP, que viene de las siglas en inglés de Protocolo de Transferencia de Hiper Texto (HyperText Transfer Protocol) es el protocolo esencial para la transmisión de información en la World Wide Web, facilitando la comunicación entre servidores, clientes y proxies mediante un lenguaje común. Establecido en 1999 por el World Wide Web Consortium y la Internet Engineering Task Force, define las reglas de sintaxis y semántica para las peticiones y respuestas, operando principalmente a través de los puertos 80 y 8080. Al ser un protocolo sin estado, no guarda registro de interacciones anteriores, pero utiliza cookies para almacenar información de visitas previas en el cliente. Su funcionamiento se basa en un esquema de petición-respuesta, permitiendo una comunicación eficiente y flexible entre el usuario (como navegadores o rastreadores web) y los servidores web ~\cite{HTTPEditorialEtece}.
+\section{Parsing}
+El parsing o parseo es un proceso que implica que un programa analice una cadena de texto, divida sus elementos y extraiga información de utilidad de la misma. Una aplicación del parsing, es el de leer una cadena en determinado lenguaje para convertirlo o entregar una equivalencia del mismo en otro lenguaje.
 
-\subsubsection{REST}
-REST significa Representational State Transfer, este no es un protocolo ni un estándar, sino un conjunto de restricciones vinculadas a la arquitectura. REST define un conjunto de funciones como GET, PUT, DELETE, etc. que los clientes pueden usar para acceder a los datos del servidor. Los clientes y servidores intercambian datos utilizando el protocolo HTTP.
+\subsection{text2max}
+Se trata de una biblioteca de código abierto desarrollada por André Storhaug, un estudiante de doctorado en Ciencias de la Computación en la Universidad Noruega de Ciencia y Tecnología (NTNU) ~\cite{Parser-tex2maxima}. Esta biblioteca está desarrollada en Javascript y permite hacer el proceso de parseo entre la sintaxis de \LaTeX a el lenguaje del CAS Maxima.
 
-La característica principal de las API REST es la falta de estado (statelessness). Esto significa que los servidores no guardan los datos del cliente entre las solicitudes. Las solicitudes del cliente al servidor son similares a las URL que escribes en tu navegador para visitar un sitio web. La respuesta del servidor es solo datos en formato plano, sin la representación gráfica típica de una página web~\cite{APIDazzet}.
-
-\subsection{Interfaz gráfica de usuario}
-Las Interfaces Gráficas de Usuario (GUI) son omnipresentes en nuestra vida cotidiana, ya sea al utilizar una computadora o un celular entre otros dispositivos. La eficacia de una GUI es crucial para determinar si un producto será competitivo o no. Un producto puede fracasar si el usuario no logra completar una acción, como una transacción económica, si no comprende la secuencia de pasos requeridos, si no encuentra fácilmente cómo realizar una acción necesaria, como hacer una compra, o si no encuentra atractivo el diseño de la aplicación. ~\cite{interfazAlbornoz}
-\subsubsection{Principios de Usabilidad}
+\section{Interfaz gráfica de usuario}
+Las Interfaces Gráficas de Usuario (GUI) son omnipresentes en nuestra vida cotidiana, ya sea al utilizar una computadora o un celular entre otros dispositivos. La eficacia de una GUI es crucial para determinar si un producto será competitivo o no. Un producto puede fracasar si el usuario no logra completar una acción, como una transacción económica, si no comprende la secuencia de pasos requeridos, si no encuentra fácilmente cómo realizar una acción necesaria, como hacer una compra, o si no encuentra atractivo el diseño de la aplicación ~\cite{interfazAlbornoz}.
+\subsection{Principios de Usabilidad}
 Los principios de usabilidad web son la base de cualquier página web para que sea “user friendly”. O lo que es lo mismo, es un tipo de diseño centrado en el usuario para conseguir mejorar la experiencia del mismo. La usabilidad se refiere a la facilidad con la que los usuarios interactúan con una herramienta con el fin de lograr un propósito específico. Así pues, la usabilidad web indica hasta qué punto un sitio web resulta sencillo de utilizar. Esto significa que para que una apliación web ~\cite{usabilidadJakob}. \newline
 Los principios de usabilidad, son diez fundamentos que facilitan el diseño de productos más aceptados por los usuarios al enfocarse en sus necesidades y comportamientos~\cite{usabilidadJakob}:
 \begin{enumerate}
@@ -1625,7 +1729,7 @@ Los principios de usabilidad, son diez fundamentos que facilitan el diseño de p
 	\item \textbf{Prevención de errores.} La apliación debe de prevenir cualquier posible error que el usuario pueda cometer, y encaso de que este cometa uno, debe de disponer de diversas herramientas para corregirlo, limitar caracteres o entradas no validas por el sistema es un ejemplo de esto.
 	
 	\item \textbf{Reconocer antes que recordar.} La apliación debe ayudar al usuario a no tener que memorizar acciones u objetos para que pueda usarla fácilmente, usar botones asignados y personalizados para acciones especificas es un ejemplo de esto.
-	 
+	
 	\item \textbf{Flexibilidad y eficiencia de uso.} La apliación debe de de estar preparada para recibir a todo tipo de usuarios, si alguien inexperto en el sitio o en el tema del mismo se pueden brindar ayudas como ventanas con mensajes o tutoriales. 
 	
 	\item \textbf{Diseño estético y minimalista.} La apliación no debe de tener información innecesaria que distraiga al usuario y perturbe su experiencia al usarla.
@@ -1638,20 +1742,19 @@ Los principios de usabilidad, son diez fundamentos que facilitan el diseño de p
 El cumplir con estos principios de usabilidad ayudan a que el sitio cuente con un trafico más recurrente, es decir, aumentamos las posibilidades de que un usuario, después de utilizar la apliación, la vuelva a usar en un futuro, así como que más personas la usen, demás de que se disminuye el porcentaje de rebote, que no es otra cosa que conseguir que el tiempo de estancia del usuario en la aplicación sea más alto y que explore mas partes del sitio.
 
 
-\subsection{Seguridad en Aplicaciones Web}
-La seguridad en aplicaciones web es fundamental para proteger la integridad, confidencialidad y disponibilidad de los datos manejados, así como para garantizar la confianza de los usuarios. Algunas medidas que se implementan en una aplicación web para implementar dicha seguridad son las siguientes.
+ 
+%\subsubsection{Introducción a NodeJS}
+%Explicación básica sobre NodeJS.
+%\subsubsection{Ventajas del uso de NodeJS para aplicaciones web}
+%Descripción de por qué se eligió NodeJS para la parte del servidor.
+%\subsubsection{Integración de NodeJS con Maxima}
+%Detalle de cómo se usa NodeJS para comunicarse con Maxima y realizar cálculos matemáticos.
 
-\subsubsection{Protocolo HTTPS}
-El protocolo de transferencia de hipertexto seguro, por sus siglas en inglés, (HyperText Transfer Protocol Secure) es una versión segura del protocolo HTTP que utiliza el SSL\slash TLS para cifrado y autenticación. HTTPS está especificado por RFC 2818~\cite{RFC2818} y utiliza el puerto 443 o el 8443 de forma predeterminada en lugar del puerto 80/8080 de HTTP ~\cite{HTTPS-SSL}. \newline
-El protocolo HTTPS hace posible que los usuarios del sitio web transmitan datos confidenciales como números de tarjetas de crédito, información bancaria y credenciales de inicio de sesión de forma segura a través de Internet. Por esta razón, HTTPS es especialmente importante para asegurar actividades en línea como compras, banca y trabajo remoto. Sin embargo, HTTPS se está convirtiendo rápidamente en el protocolo estándar para cualquier sitio web, ya sea que este intercambie o no datos confidenciales con los usuarios ~\cite{HTTPS-SSL}.\newline
-HTTPS se diferencia de HTTP al agregar cifrado, autenticación e integridad al protocolo original. Mediante SSL/TLS, HTTPS cifra los datos para protegerlos de interceptaciones y ataques de intermediarios, utilizando criptografía de clave pública para establecer una conexión segura entre el servidor y el navegador. Además, HTTPS autentica la identidad del servidor mediante certificados digitales emitidos por autoridades de certificación confiables, garantizando que los documentos provienen de una fuente legítima. También asegura la integridad de los datos mediante firmas digitales que verifican que el contenido no ha sido alterado durante la transmisión. Estas mejoras hacen que HTTPS sea un protocolo mucho más seguro para navegar y realizar transacciones en la web en comparación con HTTP ~\cite{HTTPS-SSL}.
+%\subsubsection{Qué es Maxima y por qué se usa para cálculos simbólicos}
+%Explicación sobre el software Maxima y su importancia en los cálculos de Series de Fourier. 
+%\subsubsection{Implementación de Maxima en el servidor}
+%Cómo se utiliza Maxima en el servidor junto con NodeJS para realizar cálculos matemáticos de forma eficiente.
 
-\subsubsection{Certificado SSL/TLS}
-El certificado SSL (Secure Sockets Layer) es una pieza clave para establecer una conexión segura entre el servidor y el cliente. Este establece un enlace cifrado entre un servidor y un cliente. Esto permite que información confidencial, como los datos de la tarjeta de crédito, se transmita de forma segura a través de Internet.El certificado contiene una clave pública que autentica la identidad del sitio web y permite la transferencia de datos cifrados mediante criptografía asimétrica o de clave pública. La clave privada correspondiente se mantiene en secreto en el servidor ~\cite{SSL-TLS}.
-
-\subsection{Graficos y visualización de datos}
-\subsubsection{Canvas}
-El elemento \texttt{<canvas>} en HTML es una herramienta que permite dibujar gráficos, crear animaciones y renderizar imágenes en tiempo real a través de scripting. El elemento \texttt{<canvas>} es sólo un contenedor de gráficos. Es necesario usar JavaScript para crear los gráficos. Canvas cuenta con varios métodos para dibujar trazados, cuadros, círculos, texto así como agregar imágenes. Canvas también es compatible con todos los principales navegadores ~\cite{CanvasHTMLW3S}.  s
 %
 %
 %\section{Recommendations and future work}
