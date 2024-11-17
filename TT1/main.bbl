@@ -859,12 +859,64 @@
       \field{title}{Fundamentos del Análisis de Fourier}
       \field{year}{2003}
     \endentry
+    \entry{repositorioFourierARG}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=f6fcf93d4ac56fd1909a98c5cc9b49ce}{%
+           family={Ingeniería\bibnamedelimb Eléctrica\bibnamedelimb y\bibnamedelimb de\bibnamedelima computadoras},
+           familyi={I\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim y\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim c\bibinitperiod},
+           given={UNIVERSIDAD\bibnamedelimb NACIONAL\bibnamedelimb DEL\bibnamedelimb SUR\bibnamedelima Dto.},
+           giveni={U\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim D\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{f6fcf93d4ac56fd1909a98c5cc9b49ce}
+      \strng{fullhash}{f6fcf93d4ac56fd1909a98c5cc9b49ce}
+      \strng{fullhashraw}{f6fcf93d4ac56fd1909a98c5cc9b49ce}
+      \strng{bibnamehash}{f6fcf93d4ac56fd1909a98c5cc9b49ce}
+      \strng{authorbibnamehash}{f6fcf93d4ac56fd1909a98c5cc9b49ce}
+      \strng{authornamehash}{f6fcf93d4ac56fd1909a98c5cc9b49ce}
+      \strng{authorfullhash}{f6fcf93d4ac56fd1909a98c5cc9b49ce}
+      \strng{authorfullhashraw}{f6fcf93d4ac56fd1909a98c5cc9b49ce}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://lcr.uns.edu.ar/fvc/series_de_fourier.htm}}
+      \field{note}{Accedido: 16 Noviembre, 2024}
+      \field{title}{S. y T. de Fourier}
+      \field{year}{2019}
+    \endentry
+    \entry{ProphetFacebook}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=4fcc1275079b16c3ce777b617e896d64}{%
+           family={Shankar},
+           familyi={S\bibinitperiod},
+           given={Gowri},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{4fcc1275079b16c3ce777b617e896d64}
+      \strng{fullhash}{4fcc1275079b16c3ce777b617e896d64}
+      \strng{fullhashraw}{4fcc1275079b16c3ce777b617e896d64}
+      \strng{bibnamehash}{4fcc1275079b16c3ce777b617e896d64}
+      \strng{authorbibnamehash}{4fcc1275079b16c3ce777b617e896d64}
+      \strng{authornamehash}{4fcc1275079b16c3ce777b617e896d64}
+      \strng{authorfullhash}{4fcc1275079b16c3ce777b617e896d64}
+      \strng{authorfullhashraw}{4fcc1275079b16c3ce777b617e896d64}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://gowrishankar.info/blog/fourier-series-as-a-function-of-approximation-for-seasonality-modeling-exploring-facebook-prophets-architecture/}}
+      \field{note}{Accedido: 16 Noviembre, 2024}
+      \field{title}{Fourier Series as a Function of Approximation for Seasonality Modeling - Exploring Facebook Prophet's Architecture}
+      \field{year}{2021}
+    \endentry
     \entry{apliacionWebAmazon}{misc}{}{}
       \list{organization}{1}{%
         {Amazon Web Services, Inc.}%
       }
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://aws.amazon.com/es/what-is/web-application/}}
       \field{note}{Accedido: 27 Octubre, 2024}
@@ -875,8 +927,8 @@
       \list{organization}{1}{%
         {uqbar-wiki}%
       }
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://wiki.uqbar.org/wiki/articles/ui-web-intro-arquitectura.html}}
       \field{note}{Accedido: 29 Octubre, 2024}
@@ -900,8 +952,8 @@
       \strng{authorfullhash}{3ea55c6971b673b2279b8381df63591d}
       \strng{authorfullhashraw}{3ea55c6971b673b2279b8381df63591d}
       \field{extraname}{1}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://www.w3schools.com/graphics/canvas_intro.asp}}
@@ -923,8 +975,8 @@
       \strng{authorfullhash}{d1b8966a9412346f177b467bc9807f87}
       \strng{authorfullhashraw}{d1b8966a9412346f177b467bc9807f87}
       \field{extraname}{1}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://developer.mozilla.org/en-US/docs/Web/HTML}}
@@ -948,8 +1000,8 @@
       \strng{authorfullhash}{3ea55c6971b673b2279b8381df63591d}
       \strng{authorfullhashraw}{3ea55c6971b673b2279b8381df63591d}
       \field{extraname}{2}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://developer.mozilla.org/en-US/docs/Web/JavaScript}}
@@ -970,8 +1022,8 @@
       \strng{authornamehash}{e4ededa71ede7bd440178fc649ce6805}
       \strng{authorfullhash}{e4ededa71ede7bd440178fc649ce6805}
       \strng{authorfullhashraw}{e4ededa71ede7bd440178fc649ce6805}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://dazzet.co/que-es/api/}}
@@ -994,8 +1046,8 @@
       \strng{authornamehash}{95eff8a042e96d8b33d63b597bc8cdaf}
       \strng{authorfullhash}{95eff8a042e96d8b33d63b597bc8cdaf}
       \strng{authorfullhashraw}{95eff8a042e96d8b33d63b597bc8cdaf}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://concepto.de/http/}}
@@ -1019,8 +1071,8 @@
       \strng{authorfullhash}{3ea55c6971b673b2279b8381df63591d}
       \strng{authorfullhashraw}{3ea55c6971b673b2279b8381df63591d}
       \field{extraname}{3}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://developer.mozilla.org/es/docs/Web/HTTP/Methods}}
@@ -1044,8 +1096,8 @@
       \strng{authorfullhash}{3ea55c6971b673b2279b8381df63591d}
       \strng{authorfullhashraw}{3ea55c6971b673b2279b8381df63591d}
       \field{extraname}{4}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://developer.mozilla.org/es/docs/Web/HTTP/Status}}

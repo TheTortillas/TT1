@@ -27,7 +27,7 @@ Esta comparación servirá para identificar las capacidades, ventajas y limitaci
 	\end{itemize}
 \end{itemize}
 
-(Los calculos para llegar a estos coeficientes se encuentran desarrollados en el \hyperref[app1:Estado-del-arte-coeff]{Apendice A} .) 
+(Los calculos para llegar a estos coeficientes se encuentran desarrollados en el \hyperref[app2:Estado-del-arte-coeff]{Apéndice B} .) 
 
 \begin{figure}[h]
 	\centering
@@ -68,7 +68,7 @@ Esta comparación servirá para identificar las capacidades, ventajas y limitaci
 			
 		\end{axis}
 	\end{tikzpicture}
-	\caption{Gráfica de los coeficientes de Fourier calculados en el \hyperref[app1:Estado-del-arte-coeff]{Apendice A}  \textit{Fuente: Elaboración propia}}
+	\caption{Gráfica de los coeficientes de Fourier calculados en el \hyperref[app2:Estado-del-arte-coeff]{Apéndice B}  \textit{Fuente: Elaboración propia}}
 	
 	\label{fig:fourier-estado-del-arte}  % Etiqueta para la figura
 \end{figure}
@@ -108,7 +108,7 @@ Estas funciones nos permiten calcular el \texttt{n}-ésimo coeficiente de la ser
 Podemos observar que las funciones propias de Wolfram Alpha para problemas que impliquen series de Fourier limitan el periodo en el que las funciones matemáticas son definidas, limitándolo en $2\pi$, para estos casos se podría resolver el coeficiente directamente usando la función de \texttt{Integrate[f,{x,xmin,xmax}]}~\cite{wolframMatemathicaPiecewise} para calcular individualmente cada coeficiente, ya sea $a_0, a_n$ y $b_n$ para las series trigonométricas o $c_0$ y $c_n$ para la serie compleja, pero así no nos proporciona la pequeña gráfica que si nos da al usar las funciones para expandir la serie, además de que la gráfica que se proporciona no es interactiva, y si quieremos verla con más detalle debemos pagar su suscripción.
 
 \subsubsection{Prueba Wolfram Alpha}
-Para nuestra primer prueba, calcularemos la serie de Fourier trigonométrica de la función calculada en el  \hyperref[app1:trig-coeff]{Apendice A}, para hacerlo usaremos la función \texttt{FourierTrigSeries(exp, t, n)} de WolframAlpha, que nos permite calcular la serie trigonométrica de Fourier de la función \texttt{exp} respecto a la variable \texttt{t} obteniendo la serie hasta el término \texttt{n}.
+Para nuestra primer prueba, calcularemos la serie de Fourier trigonométrica de la función calculada en el  \hyperref[app2:trig-coeff]{Apéndice B}, para hacerlo usaremos la función \texttt{FourierTrigSeries(exp, t, n)} de WolframAlpha, que nos permite calcular la serie trigonométrica de Fourier de la función \texttt{exp} respecto a la variable \texttt{t} obteniendo la serie hasta el término \texttt{n}.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{img/chapter02/wolfram_trig_series.png}
@@ -135,7 +135,7 @@ Symbolab es una calculadora digital que ayuda a resolver problemas matemáticos,
 Symbolab se centra en la enseñanza de procedimientos matemáticos mediante explicaciones detalladas. Su interfaz es especialmente útil para estudiantes, ya que presenta guías paso a paso para temas como derivadas, integrales y ecuaciones algebraicas complejas, lo cual es ideal para el aprendizaje autodidacta. Este cuenta con una función para resolver series de Fourier en su forma trigonométrica denominada \texttt{fourier series (f), [-L, L]} ~\cite{symbolabDocs} en donde \texttt{f} es una función definida en el intervalo de \texttt{[-L, L]}. A pesar de contar con funciones para definir funciones matemáticas a trozos y funciones para hacer gráficas, no es posible unificarlas en la misma aplicación, ademas de no contar con funciones para otras series de Fourier como extensiones de medio rango o exponencial compleja, pero, al igual que en Wolfram Alpha, se pueden calcular individualmente los coeficientes con la función \texttt{integral from a to b of x}~\cite{symbolabDocs}.
 
 \subsubsection{Prueba Symbolab}
-Para nuestra siguiente prueba, calcularemos la serie de Fourier trigonométrica de de la función calculada en el \hyperref[app1:trig-coeff]{Apendice A}, para hacerlo usaremos la función \texttt{fourier series (f), [-L, L]} de Symbolab, que nos permite calcular la serie trigonométrica de Fourier de la función \texttt{f} respecto a la variable obteniendo desde el intervalo \texttt{-L} a \texttt{L}.
+Para nuestra siguiente prueba, calcularemos la serie de Fourier trigonométrica de de la función calculada en el \hyperref[app2:trig-coeff]{Apéndice B}, para hacerlo usaremos la función \texttt{fourier series (f), [-L, L]} de Symbolab, que nos permite calcular la serie trigonométrica de Fourier de la función \texttt{f} respecto a la variable obteniendo desde el intervalo \texttt{-L} a \texttt{L}.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{img/chapter02/symbolab-trig-series.png}
@@ -157,14 +157,14 @@ MATLAB es un entorno de programación y un lenguaje de alto nivel comercial ampl
 A pesar de que MATLAB cuenta con funciones especiales para el análisis de Fourier como la transformada de Fourier (\texttt{fourier(f)}) o la Transformada rápida de Fourier (\texttt{fft(f)}) no cuenta con funciones especificas para series de Fourier, sin embargo, podemos definir nuestros coeficientes para hacer el gráfico de ambas series.
 
 \subsubsection{Prueba Matlab}
-Para la prueba con Matlab, primero ejecutaremos el código en \hyperref[app2:trig-code-matlab]{Apendice B}, que nos graficará la serie de Fourier a partir de sus coeficientes trigonométricos \ref{fig:matlab-trig-series}. 
+Para la prueba con Matlab, primero ejecutaremos el código en \hyperref[app3:trig-code-matlab]{Apéndice C}, que nos graficará la serie de Fourier a partir de sus coeficientes trigonométricos \ref{fig:matlab-trig-series}. 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{img/chapter02/matlab-fourier-trig.png}
 	\caption{Graficación de una serie trigonométrica de Fourier en Matlab}
 	\label{fig:matlab-trig-series}  % Etiqueta para la figura
 \end{figure}
-Ahora usamos el código en \hyperref[app2:complex-code-matlab]{Apendice B} para graficar la misma serie pero ahora usando su coefciente complejo \ref{fig:matlab-complex-series}.
+Ahora usamos el código en \hyperref[app3:complex-code-matlab]{Apéndice C} para graficar la misma serie pero ahora usando su coefciente complejo \ref{fig:matlab-complex-series}.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{img/chapter02/matlab-complex-series.png}
@@ -184,7 +184,7 @@ Maple, desarrollado por Maplesoft, es un Sistema de Álgebra Computacional comer
 Si bien este CAS cuenta con funciones dedicadas al calculo de series de Fourier, estás vienen definidas en paquetes desarrollados por la comunidad de Maplesoft ~\cite{mapleFourier}, así que resulta más eficiente y conveniente usar las funciones de integración (\texttt{int(f, x = a..b)} calcula simbólicamente la integral de \texttt{f}, que depende de la variable \texttt{x} desde el punto \texttt{a} hasta el \texttt{b}) para calcular los coeficientes, y para expandir series (\texttt{seq(m, n = a..b)} en donde \texttt{m} es la función a sumar,sobre la variable \texttt{n} desde el punto \texttt{a} hasta el \texttt{b}) las funciones de expansión, además de poder declarar una función a trozos con la función \texttt{piecewise(cond-1, f-1, cond-2, f-2, ..., cond-n, f-n, f-otherwise)}.
 
 \subsubsection{Prueba Maple}
-Para la prueba con Maple, primero ejecutaremos el código en \hyperref[app2:trig-code-maple]{Apendice B}, que, primeramente, calculará los coeficientes de la serie trigonométrica \ref{fig:maple-trig-series}. 
+Para la prueba con Maple, primero ejecutaremos el código en \hyperref[app3:trig-code-maple]{Apéndice C}, que, primeramente, calculará los coeficientes de la serie trigonométrica \ref{fig:maple-trig-series}. 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{img/chapter02/maple-trig-series-coeff.jpeg}
@@ -192,14 +192,15 @@ Para la prueba con Maple, primero ejecutaremos el código en \hyperref[app2:trig
 	\label{fig:maple-trig-series}  % Etiqueta para la figura
 \end{figure}
 
-Posteriormente, este código nos dará una gráfica estática con los valores que le establecimos \hyperref[app2:trig-code-maple]{Apendice B} \ref{fig:maple-trig-series-graph}. 
+
+Posteriormente, este código nos dará una gráfica estática con los valores que le establecimos \hyperref[app3:trig-code-maple]{Apéndice C} \ref{fig:maple-trig-series-graph}. 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{img/chapter02/maple-trig-graph.png}
 	\caption{Grafica de la serie de Fourier trigonométrica en Maple}
 	\label{fig:maple-trig-series-graph}  % Etiqueta para la figura
 \end{figure}
-Podemos ver que puede resolver la serie trigonométrica sin problema alguno, ahora veamos la misma función pero desarrollada en una serie exponencial compleja  \hyperref[app2:complex-code-maple]{Apendice B}.
+Podemos ver que puede resolver la serie trigonométrica sin problema alguno, ahora veamos la misma función pero desarrollada en una serie exponencial compleja  \hyperref[app3:complex-code-maple]{Apéndice C}.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{img/chapter02/maple-complex-series-coeff.jpeg}
@@ -207,7 +208,7 @@ Podemos ver que puede resolver la serie trigonométrica sin problema alguno, aho
 	\label{fig:maple-complex-series}  % Etiqueta para la figura
 \end{figure}
 
-De igual modo, este código nos dará una gráfica estática con los valores que le establecimos \hyperref[app2:trig-code-maple]{Apendice B} \ref{fig:maple-trig-series-graph}. 
+De igual modo, este código nos dará una gráfica estática con los valores que le establecimos \hyperref[app3:trig-code-maple]{Apéndice C} \ref{fig:maple-trig-series-graph}. 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{img/chapter02/maple-complex-graph.png}
@@ -227,7 +228,7 @@ Maxima es un Sistema de Álgebra Computacional de código abierto y gratuito, de
 Si bien, este CAS al igual que Maple, cuenta con módulo que importa funciones especiales para el análisis de Fourier, este si es propio de Maxima. Sin embargo, igual que en Maple, resulta más practico trabajar con las funciones propias de Maxima para integrar (\texttt{integrate (expr, x, a, b)} Calcula simbólicamente la integral de \texttt{expr} con límites en \texttt{a} y \texttt{b} ) así como su función para expandir una función en serie (\texttt{makelist(expr, i, i\_min, i\_max, step)} Genera una lista evaluando \texttt{expr} para cada valor de \texttt{i} desde \texttt{i\_min} hasta \texttt{i\_max}, incrementando \texttt{i} en \texttt{step} en cada iteración). 
 
 \subsubsection{Prueba Maxima}
-Para la prueba con Maxima, ejecutaremos el código en \hyperref[app2:trig-code-maxima]{Apendice B}, que primero calculará los coeficientes de la serie trigonométrica \ref{fig:maple-trig-series}. 
+Para la prueba con Maxima, ejecutaremos el código en \hyperref[app3:trig-code-maxima]{Apéndice C}, que primero calculará los coeficientes de la serie trigonométrica \ref{fig:maple-trig-series}. 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{img/chapter02/maxima-trig-series-coeff.jpeg}
@@ -242,7 +243,7 @@ Posteriormente, este código nos dará una gráfica dinámica con los valores qu
 	\label{fig:maxima-trig-series-graph}  % Etiqueta para la figura
 \end{figure}
 
-Podemos ver que sin problema alguno se construye la gráfica, ahora, probemos haciendo el problema de la misma función pero para la serie compleja  \hyperref[app2:complex-code-maxima]{Apendice B}. 
+Podemos ver que sin problema alguno se construye la gráfica, ahora, probemos haciendo el problema de la misma función pero para la serie compleja  \hyperref[app3:complex-code-maxima]{Apéndice C}. 
 
 \begin{figure}[H]
 	\centering
@@ -277,7 +278,7 @@ GeoGebra y Desmos son dos herramientas educativas digitales, gratuitas y de cód
 	\label{fig:logo-desmos}
 \end{figure}
 
-Si bien, no tienen funciones especificas para el análisis de Fourier, ambas pueden hacer las gráficas de sumas correspondientes a los coeficientes. A continuación mostraremos la gráfica de la serie de Fourier de \ref{app1:trig-coeff} con ambas herramientas.
+Si bien, no tienen funciones especificas para el análisis de Fourier, ambas pueden hacer las gráficas de sumas correspondientes a los coeficientes. A continuación mostraremos la gráfica de la serie de Fourier de \ref{app2:trig-coeff} con ambas herramientas.
 
 \subsubsection{Prueba Geogebra}
 Para la prueba con Geogebra, crearemos un slider desde 1 hasta el valor que querramos con la única condición de que este de saltos de 1 en 1, es decir, sea un slider de números enteros, también usamos la función de \texttt{Suma(Expresión, Variable, Valor Inicial, Valor Final)} en donde \texttt{Expresión} será la función de la serie, \texttt{Variable} es el n-ésimo termino en la serie, \texttt{Valor Inicial} será 1 y   \texttt{Valor Final} será el valor que toma el slider.
@@ -312,26 +313,26 @@ La versatilidad de python permiten que se creen bibliotecas para todo tipo de ta
 \subsubsection{Sympy / Matplotlib}
 SymPy y Matplotlib son dos bibliotecas de Python utilizadas en el dentro de las matemáticas y la visualización de datos. SymPy es una biblioteca de matemáticas simbólicas que permite realizar manipulaciones algebraicas, resolver ecuaciones, derivar e integrar funciones ~\cite{sympy2024}. Por otro lado, Matplotlib es una biblioteca de visualización que permite crear gráficos estáticos, interactivos y animados ~\cite{matplotlib2024}. Al combinar SymPy con Matplotlib, es posible pueden realizar cálculos simbólicos complejos y representar visualmente los resultados de manera clara y efectiva. 
 \subsubsection{Prueba Python con Sympy y Matplotlib}
-Para este caso, utilizaremos las funciones de integración numérica de Sympy para calcular los coeficientes de la serie trigonométrica y usando las funciones de graficación de Matplotlib, crearemos un gráfico para visualizar la función original con su aproximación de Fourier, para esto usamos el código en \hyperref[app2:complex-code-python-matplotlib-sympy]{Apendice B}. 
+Para este caso, utilizaremos las funciones de integración numérica de Sympy para calcular los coeficientes de la serie trigonométrica y usando las funciones de graficación de Matplotlib, crearemos un gráfico para visualizar la función original con su aproximación de Fourier, para esto usamos el código en \hyperref[app3:complex-code-python-matplotlib-sympy]{Apéndice C}. 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{img/chapter02/python-sympy-matplotlib.png}
 	\caption{Gráfica de la serie trigonométrica y/o exponencial de Fourier en Python con Sympy y Matplotlib}
 	\label{fig:python-matplotlib-sympy-trig-series}  % Etiqueta para la figura
 \end{figure}
-Ahora, si hacemos unos cambios en el código para que calcule el coeficiente de la serie exponencial compleja \hyperref[app2:complex-code-python-matplotlib-sympy], obtendremos exactamente la misma gráfica en \ref{fig:python-matplotlib-sympy-trig-series}, notando que Sympy es capaz de simplificar la parte imaginaria de la serie exponencial compleja para poder ver la parte real resultante en la gráfica.
+Ahora, si hacemos unos cambios en el código para que calcule el coeficiente de la serie exponencial compleja \hyperref[app3:complex-code-python-matplotlib-sympy], obtendremos exactamente la misma gráfica en \ref{fig:python-matplotlib-sympy-trig-series}, notando que Sympy es capaz de simplificar la parte imaginaria de la serie exponencial compleja para poder ver la parte real resultante en la gráfica.
 
 \subsubsection{Manim}
 Manim es una biblioteca de Python de código abierto diseñada para la creación de animaciones matemáticas de alta calidad. Desarrollada inicialmente por Grant Sanderson para su canal de YouTube "3Blue1Brown", Manim permite crear animaciones dinámicas y precisas de manera intuitiva y atractiva. La herramienta ofrece un control detallado sobre cada aspecto de la animación~\cite{Manim2024}.
 \subsubsection{Prueba Python con Manim}
-Para poder usar a manim, debemos definir toda la expresión de la serie trigonométrica y usar las funciones que nos ofrece manim para hacer la animación como se detalla en el código en \hyperref[app2:trig-code-python-manim]{Apendice B}.
+Para poder usar a manim, debemos definir toda la expresión de la serie trigonométrica y usar las funciones que nos ofrece manim para hacer la animación como se detalla en el código en \hyperref[app3:trig-code-python-manim]{Apéndice C}.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{img/chapter02/manim-trig-series-graph.jpg}
 	\caption{Gráfica de la serie trigonométrica de Fourier en Python con Manim}
 	\label{fig:python-manim-trig-series}  % Etiqueta para la figura
 \end{figure}
-Ahora, ejecutamos el código en \hyperref[app2:complex-code-python-manim]{Apendice B} para la serie compleja y obtenemos la siguiente salida.
+Ahora, ejecutamos el código en \hyperref[app3:complex-code-python-manim]{Apéndice C} para la serie compleja y obtenemos la siguiente salida.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{img/chapter02/manim-complex-series-graph.jpg}

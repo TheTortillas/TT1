@@ -10,13 +10,60 @@ Las series de Fourier, desde su concepción por Jean-Baptiste Joseph Fourier a p
 Este amplio espectro de aplicaciones destaca la importancia crítica de las series de Fourier no solo en la investigación avanzada, sino también en la formación académica de futuros ingenieros y científicos. Sin embargo, a pesar de su prevalencia en el currículo educativo, la implementación práctica de este análisis en entornos de aprendizaje a menudo revela áreas de oportunidad dentro de las herramientas disponibles, lo que impacta directamente en la eficacia con la que los estudiantes pueden aplicar y profundizar su comprensión de estos conceptos esenciales. La necesidad de una herramienta más eficiente, como se mencionó en la motivación, es crucial para superar estos desafíos y mejorar la experiencia educativa y profesional en el análisis de series de Fourier.
 
 \section{Justificación}
-A pesar de la indiscutible importancia del análisis de Fourier en diversas áreas de la ciencia y la ingeniería, el acceso a herramientas que integren de manera eficiente el cálculo y la visualización de las series de Fourier aún presenta importantes oportunidades de mejora. Las herramientas actuales, aunque avanzadas y robustas, suelen fragmentar el proceso, obligando a los usuarios a utilizar distintos programas o plataformas para realizar los cálculos y la representación gráfica de los resultados. Esta división entre herramientas de cálculo y visualización añade una capa de complejidad y tiempo, especialmente para aquellos usuarios que, además de realizar cálculos precisos, requieren visualizar los resultados de manera rápida y efectiva.\\\\
-En este contexto, surge la propuesta de desarrollar un prototipo de aplicación web que combine ambas funcionalidades en una sola interfaz, facilitando el proceso de resolver y graficar las series de Fourier de manera práctica, intuitiva y accesible desde cualquier dispositivo con acceso a Internet. La creación de una plataforma que integre estos aspectos tiene el potencial de mejorar significativamente la experiencia del usuario al permitirle resolver ecuaciones y obtener representaciones gráficas de las series de Fourier en un solo entorno, eliminando la necesidad de conocimientos técnicos avanzados o el uso de múltiples herramientas. \\\\
-El desarrollo de esta aplicación tiene el potencial de ser un aporte valioso para diversas comunidades, como estudiantes, ingenieros y profesionales del área de las ciencias exactas, que requieren manipular y visualizar series de Fourier en sus trabajos. La integración de funcionalidades de cálculo simbólico con visualización gráfica interactiva permitirá un mayor grado de experimentación y aprendizaje, reduciendo el tiempo y esfuerzo necesarios para comprender y analizar las transformaciones de Fourier. \\\\
-Además, este proyecto representa una oportunidad para integrar y aplicar los conocimientos y habilidades adquiridos a lo largo de mi formación en ingeniería en sistemas. Al abordar aspectos de programación, de matemáticas avanzadas y principios de ingeniería de software, este trabajo terminal no solo me permite abordar una necesidad práctica, sino que también sirve como un medio para demostrar la capacidad de aplicar teoría y técnicas de ingeniería en un contexto real. 
+El análisis de Fourier es fundamental en áreas como la ciencia, la física y la ingeniería, a pesar de esto, el acceso a herramientas que combinen eficientemente el cálculo y la visualización de series de Fourier sigue siendo limitado. Actualmente, hay herramientas que independientemente ayudan a resolver y comprobar algunos problemas pero, ciertos problemas resaltan el valor de esta herramienta ya que los usuarios deben recurrir a múltiples plataformas, lo que añade complejidad y tiempo al proceso, especialmente para aquellos que necesitan resultados rápidos y visualizaciones claras.
+
+Por ello, este proyecto propone el desarrollo de una aplicación web que integre el cálculo simbólico y la representación gráfica interactiva en una sola plataforma. Esto permitirá a estudiantes, ingenieros y profesionales realizar cálculos y visualizar resultados de manera práctica, rápida e intuitiva, sin requerir conocimientos técnicos avanzados o el uso de herramientas separadas. 
+
+\subsection{Encuesta}
+Para validar aún mas la relevancia del proyecto, se realizó una encuesta dirigida a estudiantes de ingeniería de diferentes planteles universitarios (véase \hyperref[app1:Encuesta]{Apéndice A}). Los resultados permitieron identificar los principales retos y necesidades al trabajar con asignaturas de matemáticas avanzadas, particularmente con el análisis de Fourier:
+
+A continuación, se presentan los resultados más destacados de la encuesta, organizados por categorías clave. Cada punto incluye el porcentaje de participantes que seleccionaron dicha opción, proporcionando una visión clara de las preferencias y necesidades de los encuestados.
+\begin{itemize}
+	\item \textbf{Dificultades en asignaturas de matemáticas:} 
+	Los encuestados señalaron como principales desafíos:
+	\begin{itemize}
+		\item Tener la certeza de que sus resultados son correctos (52.4\%).
+		\item Entender que es lo que están haciendo (51.2\%).
+		\item Resolver muchos ejercicios en periodos cortos de tiempo (46.3\%).
+		\item Comprender los conceptos abstractos (46.3\%).
+	\end{itemize}
+	
+	\item \textbf{Uso de software de cálculo y graficación:} 
+	La mayoría de los participantes ha utilizado herramientas como \textit{Geogebra} (72\%) y \textit{Symbolab} (53.7\%) las cuales están diseñadas específicamente para ser didácticas y accesibles en el aprendizaje y enseñanza de matemáticas, proporcionando interfaces intuitivas y funcionalidades orientadas a la educación, mientras que herramientas como \textit{MATLAB} (5\%) aunque potentes, están más enfocadas a aplicaciones técnicas avanzadas y tienen una curva de aprendizaje más pronunciada, por lo tanto, son menos populares entre los estudiantes.
+	
+	\item \textbf{Características esenciales en herramientas digitales:} 
+	Los encuestados destacaron la importancia de:
+	\begin{itemize}
+		\item Resoluciones paso a paso de los problemas (86.6\%).
+		\item Interfaces fáciles e intuitivas (69.5\%).
+		\item Visualización gráfica interactiva (62.2\%).
+	\end{itemize}
+	
+	\item \textbf{Perspectiva sobre las series de Fourier:}
+	\begin{itemize}
+		\item El 60\% de los encuestados indicó haber trabajado con problemas relacionados con análisis de Fourier. Dentro de este grupo, los principales retos identificados fueron:
+		\begin{itemize}
+			\item Dificultad para interpretar sus resultados, una vez llegaban al resultado no sabían que significaba o que hacer con él (56\%).
+			\item Los problemas a resolver se tornaban demasiado largos (48\%).
+			\item No tuvieron acceso en su momento a herramientas para la resolución de este tipo de problemas (44\%).
+			\item No entendieron el proposito de las series de Fourier (40\%).
+		\end{itemize}
+		\item El 40\% de los encuestados no ha trabajado con Fourier, pero al ver una demostración visual, destacaron que desearían una herramienta que:
+		\begin{itemize}
+			\item Explique paso a paso los procesos (78.1\%).
+			\item Permita ``jugar'' y manipular gráficas interactivas (68.8\%).
+			\item Sea fácil de usar (53.1\%).
+			\item Sea accesible incluso para quienes no conocen Fourier (46.9\%).
+		\end{itemize}
+	\end{itemize}
+	
+	\item \textbf{Importancia de la visualización gráfica:} Ante la pregunta \textit{“¿En qué medida crees que la visualización gráfica interactiva te ayuda a comprender los conceptos?”}, el 56\% de los encuestados calificó con un 10 esta característica, mientras que el 34\% otorgó una puntuación de entre 8 y 9.
+\end{itemize}
+
+Los resultados de esta encuesta confirman la falta de una herramienta para los alumnos, que no solo resuelva problemas matemáticos, sino que integre gráficos interactivos y explicaciones de los resultados facilitar el aprendizaje y la comprensión de las series de Fourier.
 
 \section{Solución Propuesta}
-La solución que se plantea en este proyecto es el desarrollo de una aplicación web que permita el cálculo y graficación de series de Fourier de manera integrada, eficiente y accesible, cubriendo la brecha existente en las herramientas actuales, que tienden a separar el cálculo matemático de la visualización gráfica en una sola interfaz. La solución propuesta unificará el calculo de los resultados con la graficación interactiva de las mismas en una sola plataforma, diseñada para ser simple de usar, práctica y accesible desde cualquier navegador web, para usuarios que deseen analizar y visualizar series de Fourier, eliminando la necesidad de usar múltiples programas para resolver y graficar las series de Fourier. \\\\
+La solución que se plantea en este proyecto es el desarrollo de una aplicación web que permita el cálculo y graficación de series de Fourier de manera integrada, eficiente e intuitiva, cubriendo la brecha existente en las herramientas actuales, que tienden a separar el cálculo matemático de la visualización gráfica en una sola interfaz. La solución propuesta unificará el calculo de los resultados con la graficación interactiva de las mismas en una sola plataforma, diseñada para ser simple de usar, práctica y accesible desde cualquier navegador web, para usuarios que deseen analizar y visualizar series de Fourier, eliminando el problema de usar múltiples programas para resolver y graficar las series de Fourier. \\\\
 La aplicación web contará con las siguientes características clave:
 \begin{itemize}
 	\item \textbf{Cálculo automático de series de Fourier para diferentes tipos de funciones:}

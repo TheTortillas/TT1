@@ -1,144 +1,110 @@
-\chapter{Cálculos}\label{app1:Estado-del-arte-coeff}
+\chapter{Encuesta}\label{app1:Encuesta}
 
-Dada la función \( f(x) = x \), vamos a calcular los coeficientes correspondientes a su serie de Fourier en el intervalo \([- \pi, \pi]\).
+\section{Datos Generales}
+Estas preguntas contienen las características generales de los participantes, con el propósito de contextualizar los resultados obtenidos.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{img/appendixA/1_roles_dentro_de_escuela.png}
+	\caption[Roles de los encuestados.]{Roles de los encuestados. \textit{Fuente: Elaboración propia}}
+	\label{fig:app1_cantidad_encuestados}  % Etiqueta para la figura
+\end{figure}
 
-\section{Forma Trigonométrica}\label{app1:trig-coeff}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{img/appendixA/2_escuelas_encuestadas.png}
+	\caption[Cantidad de personas encuestadas por escuela]{Cantidad de personas encuestadas por escuela \textit{Fuente: Elaboración propia}}
+	\label{fig:app1_escuelas_encuestadas}  % Etiqueta para la figura
+\end{figure}
 
-La serie trigonométrica de Fourier para una función \( f(x) \) está dada por la siguiente expresión:
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{img/appendixA/3_dificil_en_mates.png}
+	\caption[Cantidad de personas encuestadas por escuela]{Cantidad de personas encuestadas por escuela \textit{Fuente: Elaboración propia}}
+	\label{fig:app1_dificultad_en_mates}  % Etiqueta para la figura
+\end{figure}
 
-\[
-f(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left( a_n \cos(n \omega_0 x) + b_n \sin(n \omega_0 x) \right)
-\]
-
-Donde los coeficientes \( a_0 \), \( a_n \) y \( b_n \) se definen como:
-
-\[
-a_0 = \frac{2}{T} \int_{-T/2}^{T/2} f(x) \, dx
-\]
-
-\[
-a_n = \frac{2}{T} \int_{-T/2}^{T/2} f(x) \cos(n \omega_0 x) \, dx
-\]
-
-\[
-b_n = \frac{2}{T} \int_{-T/2}^{T/2} f(x) \sin(n \omega_0 x) \, dx
-\]
-
-Donde \( \omega_0 = \frac{2\pi}{T} \), y en este caso, \( T = 2\pi \), por lo que \( \omega_0 = 1 \).
-
-Calculamos cada uno de los coeficientes para \( f(x) = x \):
-
-- El coeficiente \( a_0 \) es:
-
-\[
-a_0 = \frac{2}{2\pi} \int_{-\pi}^{\pi} x \, dx = \frac{1}{\pi} \left[ \frac{x^2}{2} \right]_{-\pi}^{\pi} = \frac{1}{\pi} \left( \frac{\pi^2}{2} - \frac{(-\pi)^2}{2} \right) = 0
-\]
-
-Por lo tanto, \( a_0 = 0 \).
-
-- El coeficiente \( a_n \) es:
-
-Dado que \( x \cos(n x) \) es una función impar, ya que \( x \) es impar y \( \cos(n x) \) es par, su integral en un intervalo simétrico es cero:
-
-\[
-a_n = \frac{1}{\pi} \int_{-\pi}^{\pi} x \cos(n x) \, dx = 0
-\]
-
-- El coeficiente \( b_n \) es:
-
-Dado que \( x \sin(n x) \) es una función par (producto de dos funciones impares), podemos calcular:
-
-\[
-b_n = \frac{1}{\pi} \int_{-\pi}^{\pi} x \sin(n x) \, dx = \frac{2}{\pi} \int_{0}^{\pi} x \sin(n x) \, dx
-\]
-
-Aplicamos integración por partes, tomando \( u = x \) y \( dv = \sin(n x) \, dx \), lo que nos da \( du = dx \) y \( v = -\frac{1}{n} \cos(n x) \). Entonces:
-
-\[
-\int_{0}^{\pi} x \sin(n x) \, dx = -\frac{x}{n} \cos(n x) \bigg|_{0}^{\pi} + \frac{1}{n} \int_{0}^{\pi} \cos(n x) \, dx
-\]
-
-Evaluamos el primer término:
-
-\[
--\frac{\pi}{n} \cos(n \pi) + 0 = -\frac{\pi}{n} (-1)^n
-\]
-
-La integral restante es:
-
-\[
-\frac{1}{n} \int_{0}^{\pi} \cos(n x) \, dx = \frac{1}{n} \left[ \frac{\sin(n x)}{n} \right]_0^{\pi} = \frac{1}{n^2} (0 - 0) = 0
-\]
-
-Por lo tanto, el coeficiente \( b_n \) es:
-
-\[
-b_n = \frac{2}{\pi} \left( -\frac{\pi}{n} (-1)^n \right) = \frac{2 (-1)^{n+1}}{n}
-\]
-
-Entonces, la serie trigonométrica de Fourier para \( f(x) = x \) es:
-
-\[
-f(x) = 2 \sum_{n=1}^{\infty} \frac{(-1)^{n+1}}{n} \sin(n x)
-\]
-
-\section{Forma Exponencial Compleja}\label{app1:complex-coeff}
-
-La serie exponencial compleja de Fourier está dada por la siguiente expresión:
-
-\[
-f(x) = \sum_{n=-\infty}^{\infty} c_n e^{i n \omega_0 x}
-\]
-
-Donde los coeficientes \( c_n \) se definen como:
-
-\[
-c_n = \frac{1}{T} \int_{-T/2}^{T/2} f(x) e^{-i n \omega_0 x} \, dx
-\]
-
-Calculamos el coeficiente \( c_n \) para \( n \neq 0 \):
-
-\[
-c_n = \frac{1}{2\pi} \int_{-\pi}^{\pi} x e^{-i n x} \, dx
-\]
-
-Aplicamos integración por partes con \( u = x \) y \( dv = e^{-i n x} \, dx \), obteniendo \( du = dx \) y \( v = \frac{e^{-i n x}}{-i n} \). Entonces:
-
-\[
-c_n = \frac{1}{2\pi} \left( \left[ x \frac{e^{-i n x}}{-i n} \right]_{-\pi}^{\pi} - \int_{-\pi}^{\pi} \frac{e^{-i n x}}{-i n} dx \right)
-\]
-
-El primer término es:
-
-\[
-\left[ x \frac{e^{-i n x}}{-i n} \right]_{-\pi}^{\pi} = \frac{\pi e^{-i n \pi} - (-\pi) e^{i n \pi}}{-i n} = \frac{2 \pi (-1)^n}{-i n}
-\]
-
-El segundo término es cero, ya que:
-
-\[
-\int_{-\pi}^{\pi} e^{-i n x} dx = 0
-\]
-
-Por lo tanto:
-
-\[
-c_n = \frac{1}{2\pi} \left( \frac{2 \pi (-1)^n}{-i n} \right) = \frac{i (-1)^n}{n}
-\]
-
-Para \( n = 0 \):
-
-\[
-c_0 = \frac{1}{2\pi} \int_{-\pi}^{\pi} x \, dx = 0
-\]
-
-Así que la serie exponencial compleja de Fourier para \( f(x) = x \) es:
-
-\[
-f(x) = \sum_{\substack{n=-\infty \\ n \neq 0}}^{\infty} \frac{i (-1)^n}{n} e^{i n x}
-\]
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{img/appendixA/4_software_para_mates.png}
+	\caption[Cantidad de personas encuestadas por escuela]{Cantidad de personas encuestadas por escuela \textit{Fuente: Elaboración propia}}
+	\label{fig:app1_software_para_mates}  % Etiqueta para la figura
+\end{figure}
 
 
-Ambas representaciones son equivalentes y proporcionan la expansión de Fourier correcta para la función dada.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{img/appendixA/5_caracteristicas_para_app_mates.png}
+	\caption[Características que consideran necesarias en recursos digitales para matemáticas.]{Características que consideran necesarias en recursos digitales para matemáticas. \textit{Fuente: Elaboración propia}}
+	\label{fig:app1_caracteristicas_para_app_mates}  % Etiqueta para la figura
+\end{figure}
 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{img/appendixA/6_Fourier_Filtro.png}
+	\caption[Cantidad de alumnos encuestados que han trabajado con problemas de análisis de Fourier.]{Cantidad de alumnos encuestados que han trabajado con problemas de análisis de Fourier.\textit{Fuente: Elaboración propia}}
+	\label{fig:app1_Fourier_Filtro}  % Etiqueta para la figura
+\end{figure}
+
+\newpage
+\section{Participantes con experiencia en Fourier}
+Se muestran las respuestas de los participantes que han trabajado previamente con problemas relacionados con series de Fourier, destacando las dificultades encontradas y sus preferencias en herramientas.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{img/appendixA/7_problemas_Fourier.png}
+	\caption[Problemas que han tenido al trabajar con problemas sobre series de Fourier.]{Problemas que han tenido al trabajar con problemas sobre series de Fourier.\textit{Fuente: Elaboración propia}}
+	\label{fig:app1_problemas_Fourier}  % Etiqueta para la figura
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{img/appendixA/8_herramientas_para_Fourier.png}
+	\caption[Problemas que han tenido al trabajar con problemas sobre series de Fourier.]{Problemas que han tenido al trabajar con problemas sobre series de Fourier.\textit{Fuente: Elaboración propia}}
+	\label{fig:app1_herramientas_para_Fourier}  % Etiqueta para la figura
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{img/appendixA/9_grado_de_ayuda_Fourier.png}
+	\caption[Problemas que han tenido al trabajar con problemas sobre series de Fourier.]{Problemas que han tenido al trabajar con problemas sobre series de Fourier.\textit{Fuente: Elaboración propia}}
+	\label{fig:app1_grado_de_ayuda_Fourier}  % Etiqueta para la figura
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{img/appendixA/10_cosas_utiles_App_Fourier.png}
+	\caption[Problemas que han tenido al trabajar con problemas sobre series de Fourier.]{Problemas que han tenido al trabajar con problemas sobre series de Fourier.\textit{Fuente: Elaboración propia}}
+	\label{fig:app1_cosas_utiles_App_Fourier}  % Etiqueta para la figura
+\end{figure}
+
+\newpage
+\section{Participantes sin experiencia en Fourier}
+Se muestran las respuestas de los participantes que no tienen experiencia previa con series de Fourier, incluyendo sus expectativas y preferencias para una herramienta digital que facilite el aprendizaje.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{img/appendixA/7_dificultad_video_Foruier.png}
+	\caption[Problemas que han tenido al trabajar con problemas sobre series de Fourier.]{Problemas que han tenido al trabajar con problemas sobre series de Fourier.\textit{Fuente: Elaboración propia}}
+	\label{fig:app1_dificultad_video_Foruier}  % Etiqueta para la figura
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{img/appendixA/8_cosas_deberie_tener.png}
+	\caption[Problemas que han tenido al trabajar con problemas sobre series de Fourier.]{Problemas que han tenido al trabajar con problemas sobre series de Fourier.\textit{Fuente: Elaboración propia}}
+	\label{fig:app1_cosas_deberie_tener}  % Etiqueta para la figura
+\end{figure}
+
+
+\newpage
+\section{Opinión sobre la utilidad de herramientas digitales}
+Se muestran las respuestas de ambos grupos sobre la percepción de la utilidad de una herramienta digital interactiva para resolver y visualizar series de Fourier, así como su valoración de la visualización gráfica.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{img/appendixA/11_importancia_interactividad.png}
+	\caption[Problemas que han tenido al trabajar con problemas sobre series de Fourier.]{Problemas que han tenido al trabajar con problemas sobre series de Fourier.\textit{Fuente: Elaboración propia}}
+	\label{fig:app1_importancia_interactividad}  % Etiqueta para la figura
+\end{figure}
 

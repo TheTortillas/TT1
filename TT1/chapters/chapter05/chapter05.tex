@@ -191,9 +191,9 @@ La estructura de la clase principal \texttt{ClientRequest} y sus relaciones es l
 
 En donde la clase principal \textbf{ClientRequest} tiene los siguientes atributos:
 \begin{itemize}
-	\item \texttt{variable}: La variable independiente de la función (\texttt{String}).
-	\item \texttt{seriesType}: El tipo de Serie de Fourier (\texttt{String}). Por ejemplo, \texttt{trigonometric} o \texttt{complex}.
-	\item \texttt{extensionType}: Define si es una extensión par, impar o periódica (\texttt{String}). Por ejemplo, \texttt{odd} o \texttt{even}.
+	\item \texttt{variable}: La variable independiente de la función (\texttt{String}) que puede ser \texttt{x} o  \texttt{t}.
+	\item \texttt{seriesType}: El tipo de Serie de Fourier (\texttt{String}) que puede ser \texttt{trigonometric} o \texttt{complex}.
+	\item \texttt{extensionType}: Define si es una extensión par, impar o periódica (\texttt{String}) donde los valores pueden ser \texttt{odd}, \texttt{even} o \texttt{periodic}.
 	\item \texttt{function}: Lista de objetos \texttt{FunctionPiece} que representan los trozos de la función (\texttt{List<FunctionPiece>}).
 \end{itemize}
 

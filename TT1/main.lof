@@ -2,67 +2,81 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Gráfica de los coeficientes de Fourier calculados en el \hyperref [app1:Estado-del-arte-coeff]{Apendice A} \textit {Fuente: Elaboración propia}}}{6}{figure.caption.6}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Logotipo de WolframAlpha.}}{7}{figure.caption.7}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Calculo de una serie trigonométrica de Fourier en WolframAlpha}}{8}{figure.caption.8}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Calculo de una serie trigonométrica de Fourier en WolframAlpha}}{9}{figure.caption.9}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Logotipo de Symbolab.}}{9}{figure.caption.10}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Calculo de una serie trigonométrica de Fourier en Symbolab}}{10}{figure.caption.11}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Logotipo de Matlab.}}{10}{figure.caption.12}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Graficación de una serie trigonométrica de Fourier en Matlab}}{11}{figure.caption.13}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Graficación de una serie compleja de Fourier en Matlab}}{11}{figure.caption.14}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Logotipo de Maple.}}{12}{figure.caption.15}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Cálculos de coeficientes trigonométricos de Fourier en Maple}}{13}{figure.caption.16}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Grafica de la serie de Fourier trigonométrica en Maple}}{13}{figure.caption.17}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Cálculo del coeficiente complejo de Fourier en Maple}}{14}{figure.caption.18}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Grafica de la serie de Fourier compleja en Maple}}{14}{figure.caption.19}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Logotipo de Maxima.}}{15}{figure.caption.20}%
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Cálculos de coeficientes trigonométricos de Fourier en Maxima}}{15}{figure.caption.21}%
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Grafica de la serie de Fourier trigonométrica en Maxima}}{16}{figure.caption.22}%
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Cálculos de coeficientes compleja de Fourier en Maxima}}{16}{figure.caption.23}%
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Grafica de la serie de Fourier compleja en Maxima}}{17}{figure.caption.24}%
-\contentsline {figure}{\numberline {2.20}{\ignorespaces Logotipo de Geogebra.}}{17}{figure.caption.25}%
-\contentsline {figure}{\numberline {2.21}{\ignorespaces Logotipo de Desmos.}}{18}{figure.caption.26}%
-\contentsline {figure}{\numberline {2.22}{\ignorespaces Gráfica de la serie trigonométrica de Fourier en Geogebra}}{18}{figure.caption.27}%
-\contentsline {figure}{\numberline {2.23}{\ignorespaces Gráfica de la serie trigonométrica de Fourier en Geogebra}}{19}{figure.caption.28}%
-\contentsline {figure}{\numberline {2.24}{\ignorespaces Logo de Python}}{19}{figure.caption.29}%
-\contentsline {figure}{\numberline {2.25}{\ignorespaces Gráfica de la serie trigonométrica y/o exponencial de Fourier en Python con Sympy y Matplotlib}}{20}{figure.caption.30}%
-\contentsline {figure}{\numberline {2.26}{\ignorespaces Gráfica de la serie trigonométrica de Fourier en Python con Manim}}{21}{figure.caption.31}%
-\contentsline {figure}{\numberline {2.27}{\ignorespaces Gráfica de la serie compleja de Fourier en Python con Manim}}{21}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Gráfica de los coeficientes de Fourier calculados en el \hyperref [app2:Estado-del-arte-coeff]{Apéndice B} \textit {Fuente: Elaboración propia}}}{7}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Logotipo de WolframAlpha.}}{8}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Calculo de una serie trigonométrica de Fourier en WolframAlpha}}{9}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Calculo de una serie trigonométrica de Fourier en WolframAlpha}}{10}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Logotipo de Symbolab.}}{10}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Calculo de una serie trigonométrica de Fourier en Symbolab}}{11}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Logotipo de Matlab.}}{11}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Graficación de una serie trigonométrica de Fourier en Matlab}}{12}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Graficación de una serie compleja de Fourier en Matlab}}{12}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Logotipo de Maple.}}{13}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Cálculos de coeficientes trigonométricos de Fourier en Maple}}{14}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Grafica de la serie de Fourier trigonométrica en Maple}}{14}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Cálculo del coeficiente complejo de Fourier en Maple}}{15}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Grafica de la serie de Fourier compleja en Maple}}{15}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Logotipo de Maxima.}}{16}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Cálculos de coeficientes trigonométricos de Fourier en Maxima}}{16}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Grafica de la serie de Fourier trigonométrica en Maxima}}{17}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Cálculos de coeficientes compleja de Fourier en Maxima}}{17}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Grafica de la serie de Fourier compleja en Maxima}}{18}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Logotipo de Geogebra.}}{18}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Logotipo de Desmos.}}{19}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Gráfica de la serie trigonométrica de Fourier en Geogebra}}{19}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.23}{\ignorespaces Gráfica de la serie trigonométrica de Fourier en Geogebra}}{20}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.24}{\ignorespaces Logo de Python}}{20}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.25}{\ignorespaces Gráfica de la serie trigonométrica y/o exponencial de Fourier en Python con Sympy y Matplotlib}}{21}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.26}{\ignorespaces Gráfica de la serie trigonométrica de Fourier en Python con Manim}}{22}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.27}{\ignorespaces Gráfica de la serie compleja de Fourier en Python con Manim}}{22}{figure.caption.32}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Ilustración del problema de la cuerda vibrante.}}{27}{figure.caption.33}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Ilustración de 3 armónicos y sus nodos de la cuerda al vibrar.}}{28}{figure.caption.34}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Ilustración del problema de transferencia de calor en una barra de longitud $\ell $. }}{30}{figure.caption.35}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Gráfica de una función periódica $f(t)$ con periodo $T$.}}{33}{figure.caption.36}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Gráfica del área bajo la curva de $f(t)$ entre los intervalos desde $a$ hasta $a + T$ y desde $b$ hasta $b + T$. }}{34}{figure.caption.37}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Gráfica de las funciones trigonométricas $sin(t)$ y $cos(t)$. }}{34}{figure.caption.38}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Función $sin(t)$ con diferentes frecuencias}}{35}{figure.caption.39}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Relación de la frecuencia angular entre la función $sin(t)$ con el circulo unitario.}}{35}{figure.caption.40}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Una función coseno y la misma función coseno desplazada hacia la izquierda por un ángulo $\varphi $.}}{36}{figure.caption.41}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Función $f(t) = t^{2}$, una función par.}}{37}{figure.caption.42}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Función $f(t) = t^{3}$, una función impar}}{37}{figure.caption.43}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Ejemplo de los teoremas f y g de funciones pares e impares }}{38}{figure.caption.44}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Ejemplo de una función suave}}{38}{figure.caption.45}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Ejemplo de una función suave a trozos completamente continua y una función a tozos con discontinuidades (saltos).}}{39}{figure.caption.46}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Gráfica de una función periódica \( f(t) \) con periodo \( T \), repitiéndose en intervalos de \( T, 2T, \) y \( 3T \).}}{41}{figure.caption.47}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Extensión par en cosenos de una función $f(t)$}}{43}{figure.caption.48}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Extensión impar en senos de una función $f(t)$}}{44}{figure.caption.49}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Extensión periódica de medio rango de una función $f(t)$}}{45}{figure.caption.50}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Aproximación de una función $f(t) = t$ con $-\pi < xt < \pi $ en sus 50 primeros armónicos}}{48}{figure.caption.51}%
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Diagrama de una arquitectura cliente - servidor}}{49}{figure.caption.52}%
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Cómo procesa node.js las peticiones entrantes utilizando el bucle de eventos}}{52}{figure.caption.53}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Ilustración del problema de la cuerda vibrante.}}{28}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Ilustración de 3 armónicos y sus nodos de la cuerda al vibrar.}}{29}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Ilustración del problema de transferencia de calor en una barra de longitud $\ell $. }}{31}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Gráfica de una función periódica $f(t)$ con periodo $T$.}}{34}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Gráfica del área bajo la curva de $f(t)$ entre los intervalos desde $a$ hasta $a + T$ y desde $b$ hasta $b + T$. }}{35}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Gráfica de las funciones trigonométricas $sin(t)$ y $cos(t)$. }}{35}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Función $sin(t)$ con diferentes frecuencias}}{36}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Relación de la frecuencia angular entre la función $sin(t)$ con el circulo unitario.}}{36}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Una función coseno y la misma función coseno desplazada hacia la izquierda por un ángulo $\varphi $.}}{37}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Función $f(t) = t^{2}$, una función par.}}{38}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Función $f(t) = t^{3}$, una función impar}}{38}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Ejemplo de los teoremas f y g de funciones pares e impares }}{39}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Ejemplo de una función suave}}{39}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Ejemplo de una función suave a trozos completamente continua y una función a tozos con discontinuidades (saltos).}}{40}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Gráfica de una función periódica \( f(t) \) con periodo \( T \), repitiéndose en intervalos de \( T, 2T, \) y \( 3T \).}}{42}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Extensión par en cosenos de una función $f(t)$}}{44}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Extensión impar en senos de una función $f(t)$}}{45}{figure.caption.49}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Extensión periódica de medio rango de una función $f(t)$}}{46}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Aproximación de una función $f(t) = t$ con $-\pi < xt < \pi $ en sus 50 primeros armónicos}}{49}{figure.caption.51}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Diagrama de una arquitectura cliente - servidor}}{51}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Cómo procesa node.js las peticiones entrantes utilizando el bucle de eventos}}{55}{figure.caption.53}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Etapas de la metodología por prototipos.}}{59}{figure.caption.54}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Etapas de la metodología por prototipos.}}{62}{figure.caption.54}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Diagrama de arquitectura del sistema.}}{83}{figure.caption.56}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Diagrama de Secuencia 1.}}{86}{figure.caption.57}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Diagrama de Secuencia 2.}}{87}{figure.caption.58}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Diagrama de Secuencia 3.}}{88}{figure.caption.59}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Diagrama de Secuencia 4.}}{89}{figure.caption.60}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Diagrama de Secuencia 5.}}{90}{figure.caption.61}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Diagrama de clases del JSON del cliente.}}{91}{figure.caption.62}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Diagrama de clases del JSON del servidor.}}{92}{figure.caption.63}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Diagrama general de casos de uso del sistema}}{94}{figure.caption.64}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Diagrama de arquitectura del sistema.}}{85}{figure.caption.56}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Diagrama de Secuencia 1.}}{88}{figure.caption.57}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Diagrama de Secuencia 2.}}{89}{figure.caption.58}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Diagrama de Secuencia 3.}}{90}{figure.caption.59}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Diagrama de Secuencia 4.}}{91}{figure.caption.60}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Diagrama de Secuencia 5.}}{92}{figure.caption.61}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Diagrama de clases del JSON del cliente.}}{93}{figure.caption.62}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Diagrama de clases del JSON del servidor.}}{94}{figure.caption.63}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Diagrama general de casos de uso del sistema}}{96}{figure.caption.64}%
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Roles de los encuestados.}}{98}{figure.caption.65}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Cantidad de personas encuestadas por escuela}}{98}{figure.caption.66}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Cantidad de personas encuestadas por escuela}}{99}{figure.caption.67}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Cantidad de personas encuestadas por escuela}}{99}{figure.caption.68}%
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Características que consideran necesarias en recursos digitales para matemáticas.}}{100}{figure.caption.69}%
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Cantidad de alumnos encuestados que han trabajado con problemas de análisis de Fourier.}}{100}{figure.caption.70}%
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Problemas que han tenido al trabajar con problemas sobre series de Fourier.}}{101}{figure.caption.71}%
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Problemas que han tenido al trabajar con problemas sobre series de Fourier.}}{101}{figure.caption.72}%
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Problemas que han tenido al trabajar con problemas sobre series de Fourier.}}{102}{figure.caption.73}%
+\contentsline {figure}{\numberline {A.10}{\ignorespaces Problemas que han tenido al trabajar con problemas sobre series de Fourier.}}{102}{figure.caption.74}%
+\contentsline {figure}{\numberline {A.11}{\ignorespaces Problemas que han tenido al trabajar con problemas sobre series de Fourier.}}{103}{figure.caption.75}%
+\contentsline {figure}{\numberline {A.12}{\ignorespaces Problemas que han tenido al trabajar con problemas sobre series de Fourier.}}{103}{figure.caption.76}%
+\contentsline {figure}{\numberline {A.13}{\ignorespaces Problemas que han tenido al trabajar con problemas sobre series de Fourier.}}{104}{figure.caption.77}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
