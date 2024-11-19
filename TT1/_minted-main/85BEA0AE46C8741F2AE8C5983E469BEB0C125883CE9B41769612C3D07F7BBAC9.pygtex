@@ -1,0 +1,26 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{// Importa la librería TeX2Max.}
+\PYG{k+kd}{const}\PYG{+w}{ }\PYG{n+nx}{TeX2Max}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nx}{require}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}tex2max\PYGZsq{}}\PYG{p}{);}
+
+\PYG{c+c1}{// Crea una instancia de TeX2Max con las siguientes opciones de configuración.}
+\PYG{k+kd}{const}\PYG{+w}{ }\PYG{n+nx}{converter}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{o+ow}{new}\PYG{+w}{ }\PYG{n+nx}{TeX2Max}\PYG{p}{(\PYGZob{}}
+\PYG{+w}{	}\PYG{n+nx}{onlySingleVariables}\PYG{o}{:}\PYG{+w}{ }\PYG{k+kc}{false}\PYG{p}{,}\PYG{+w}{         }\PYG{c+c1}{// Permite nombres de variables complejas.}
+\PYG{+w}{	}\PYG{n+nx}{handleEquation}\PYG{o}{:}\PYG{+w}{ }\PYG{k+kc}{true}\PYG{p}{,}\PYG{+w}{               }\PYG{c+c1}{// No permite que Maxima resuelva ecuaciones algebraicas.}
+\PYG{+w}{	}\PYG{n+nx}{addTimesSign}\PYG{o}{:}\PYG{+w}{ }\PYG{k+kc}{true}\PYG{p}{,}\PYG{+w}{                 }\PYG{c+c1}{// Añade signos de multiplicación donde se implique multiplicación.}
+\PYG{+w}{	}\PYG{n+nx}{disallowDecimalPoints}\PYG{o}{:}\PYG{+w}{ }\PYG{k+kc}{false}\PYG{p}{,}\PYG{+w}{       }\PYG{c+c1}{// Permite el uso de puntos decimales en los números.}
+\PYG{+w}{	}\PYG{n+nx}{disallowllowDecimalCommas}\PYG{o}{:}\PYG{+w}{ }\PYG{k+kc}{false}\PYG{p}{,}\PYG{+w}{   }\PYG{c+c1}{// Permite el uso de comas decimales en los números.}
+\PYG{+w}{	}\PYG{n+nx}{onlyGreekName}\PYG{o}{:}\PYG{+w}{ }\PYG{k+kc}{false}\PYG{p}{,}\PYG{+w}{               }\PYG{c+c1}{// No convierte letras griegas a nombres.}
+\PYG{+w}{	}\PYG{n+nx}{onlyGreekSymbol}\PYG{o}{:}\PYG{+w}{ }\PYG{k+kc}{false}\PYG{p}{,}\PYG{+w}{             }\PYG{c+c1}{// No convierte letras griegas a símbolos.}
+\PYG{+w}{	}\PYG{n+nx}{debugging}\PYG{o}{:}\PYG{+w}{ }\PYG{k+kc}{false}\PYG{+w}{                    }\PYG{c+c1}{// No produce información de depuración.}
+\PYG{p}{\PYGZcb{});}
+\PYG{c+c1}{// Configuración del convertidor con opciones personalizadas.}
+
+\PYG{c+c1}{// Define una cadena LaTeX}
+\PYG{k+kd}{const}\PYG{+w}{ }\PYG{n+nx}{latexInput}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}\PYGZbs{}\PYGZbs{}frac\PYGZob{}\PYGZbs{}\PYGZbs{}left ( x\PYGZca{}\PYGZob{}a\PYGZcb{} \PYGZbs{}\PYGZbs{}right )\PYGZbs{}\PYGZbs{}left ( x+y \PYGZbs{}\PYGZbs{}right )\PYGZca{}\PYGZob{}90\PYGZcb{}\PYGZcb{}\PYGZob{}2\PYGZca{}\PYGZob{}25 \PYGZbs{}\PYGZbs{}cdot x  \PYGZbs{}\PYGZbs{}cdot \PYGZbs{}\PYGZbs{}pi\PYGZcb{}\PYGZcb{}\PYGZdq{}}\PYG{p}{;}
+
+\PYG{c+c1}{// Convierte la cadena LaTeX a código Maxima usando el método \PYGZsq{}toMaxima\PYGZsq{}.}
+\PYG{k+kd}{const}\PYG{+w}{ }\PYG{n+nx}{maximaOutput}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nx}{converter}\PYG{p}{.}\PYG{n+nx}{toMaxima}\PYG{p}{(}\PYG{n+nx}{latexInput}\PYG{p}{);}
+
+\PYG{c+c1}{// Imprime el resultado convertido a Maxima en la consola.}
+\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{n+nx}{maximaOutput}\PYG{p}{);}
+\end{Verbatim}

@@ -1,0 +1,56 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cp}{\PYGZlt{}!DOCTYPE html\PYGZgt{}}
+\PYG{p}{\PYGZlt{}}\PYG{n+nt}{html} \PYG{n+na}{lang}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}en\PYGZdq{}}\PYG{p}{\PYGZgt{}}
+\PYG{p}{\PYGZlt{}}\PYG{n+nt}{head}\PYG{p}{\PYGZgt{}}
+\PYG{p}{\PYGZlt{}}\PYG{n+nt}{meta} \PYG{n+na}{charset}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}UTF\PYGZhy{}8\PYGZdq{}} \PYG{p}{/\PYGZgt{}}
+\PYG{p}{\PYGZlt{}}\PYG{n+nt}{meta} \PYG{n+na}{name}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}viewport\PYGZdq{}} \PYG{n+na}{content}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}width=device\PYGZhy{}width, initial\PYGZhy{}scale=1.0\PYGZdq{}} \PYG{p}{/\PYGZgt{}}
+
+\PYG{c+cm}{\PYGZlt{}!\PYGZhy{}\PYGZhy{} Estilos necesarios para MathQuill \PYGZhy{}\PYGZhy{}\PYGZgt{}}
+\PYG{p}{\PYGZlt{}}\PYG{n+nt}{link} \PYG{n+na}{rel}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}stylesheet\PYGZdq{}} \PYG{n+na}{href}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}styles.css\PYGZdq{}} \PYG{p}{/\PYGZgt{}}
+\PYG{p}{\PYGZlt{}}\PYG{n+nt}{link} \PYG{n+na}{rel}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}stylesheet\PYGZdq{}} \PYG{n+na}{href}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}./src/mathquill\PYGZhy{}0.10.1/mathquill.css\PYGZdq{}} \PYG{p}{/\PYGZgt{}}
+
+\PYG{c+cm}{\PYGZlt{}!\PYGZhy{}\PYGZhy{} Cargar jQuery, ya que MathQuill depende de esta librería \PYGZhy{}\PYGZhy{}\PYGZgt{}}
+\PYG{p}{\PYGZlt{}}\PYG{n+nt}{script} \PYG{n+na}{src}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js\PYGZdq{}}\PYG{p}{\PYGZgt{}\PYGZlt{}/}\PYG{n+nt}{script}\PYG{p}{\PYGZgt{}}
+
+\PYG{c+cm}{\PYGZlt{}!\PYGZhy{}\PYGZhy{} Cargar el archivo JavaScript principal de MathQuill \PYGZhy{}\PYGZhy{}\PYGZgt{}}
+\PYG{p}{\PYGZlt{}}\PYG{n+nt}{script} \PYG{n+na}{src}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}./src/mathquill\PYGZhy{}0.10.1/mathquill.js\PYGZdq{}}\PYG{p}{\PYGZgt{}\PYGZlt{}/}\PYG{n+nt}{script}\PYG{p}{\PYGZgt{}}
+
+\PYG{p}{\PYGZlt{}}\PYG{n+nt}{title}\PYG{p}{\PYGZgt{}}MathQuill Input\PYG{p}{\PYGZlt{}/}\PYG{n+nt}{title}\PYG{p}{\PYGZgt{}}
+\PYG{p}{\PYGZlt{}/}\PYG{n+nt}{head}\PYG{p}{\PYGZgt{}}
+\PYG{p}{\PYGZlt{}}\PYG{n+nt}{body}\PYG{p}{\PYGZgt{}}
+\PYG{p}{\PYGZlt{}}\PYG{n+nt}{div} \PYG{n+na}{class}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}container\PYGZdq{}}\PYG{p}{\PYGZgt{}}
+\PYG{p}{\PYGZlt{}}\PYG{n+nt}{h1}\PYG{p}{\PYGZgt{}}Ingrese una ecuación\PYG{p}{\PYGZlt{}/}\PYG{n+nt}{h1}\PYG{p}{\PYGZgt{}}
+
+\PYG{c+cm}{\PYGZlt{}!\PYGZhy{}\PYGZhy{} Campo donde se integrará MathQuill \PYGZhy{}\PYGZhy{}\PYGZgt{}}
+\PYG{p}{\PYGZlt{}}\PYG{n+nt}{div} \PYG{n+na}{id}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}math\PYGZhy{}field\PYGZdq{}} \PYG{n+na}{class}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}math\PYGZhy{}field\PYGZdq{}}\PYG{p}{\PYGZgt{}\PYGZlt{}/}\PYG{n+nt}{div}\PYG{p}{\PYGZgt{}}
+
+\PYG{c+cm}{\PYGZlt{}!\PYGZhy{}\PYGZhy{} Sección para mostrar el LaTeX generado \PYGZhy{}\PYGZhy{}\PYGZgt{}}
+\PYG{p}{\PYGZlt{}}\PYG{n+nt}{p} \PYG{n+na}{class}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}latex\PYGZhy{}text\PYGZdq{}}\PYG{p}{\PYGZgt{}}LaTeX generado:\PYG{p}{\PYGZlt{}/}\PYG{n+nt}{p}\PYG{p}{\PYGZgt{}}
+\PYG{p}{\PYGZlt{}}\PYG{n+nt}{div} \PYG{n+na}{id}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}latex\PYGZhy{}output\PYGZdq{}} \PYG{n+na}{class}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}latex\PYGZhy{}output\PYGZdq{}}\PYG{p}{\PYGZgt{}\PYGZlt{}/}\PYG{n+nt}{div}\PYG{p}{\PYGZgt{}}
+\PYG{p}{\PYGZlt{}/}\PYG{n+nt}{div}\PYG{p}{\PYGZgt{}}
+
+\PYG{p}{\PYGZlt{}}\PYG{n+nt}{script}\PYG{p}{\PYGZgt{}}
+\PYG{c+c1}{// Inicializar la interfaz de MathQuill}
+\PYG{k+kd}{const}\PYG{+w}{ }\PYG{n+nx}{MQ}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nx}{MathQuill}\PYG{p}{.}\PYG{n+nx}{getInterface}\PYG{p}{(}\PYG{l+m+mf}{2}\PYG{p}{);}\PYG{+w}{ }\PYG{c+c1}{// Obtener la versión 2 de la interfaz}
+
+\PYG{c+c1}{// Referencia al contenedor del campo MathQuill}
+\PYG{k+kd}{const}\PYG{+w}{ }\PYG{n+nx}{mathFieldSpan}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nb}{document}\PYG{p}{.}\PYG{n+nx}{getElementById}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}math\PYGZhy{}field\PYGZdq{}}\PYG{p}{);}
+
+\PYG{c+c1}{// Referencia al contenedor donde se mostrará el LaTeX generado}
+\PYG{k+kd}{const}\PYG{+w}{ }\PYG{n+nx}{latexOutput}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nb}{document}\PYG{p}{.}\PYG{n+nx}{getElementById}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}latex\PYGZhy{}output\PYGZdq{}}\PYG{p}{);}
+
+\PYG{c+c1}{// Crear el campo MathQuill dentro del contenedor}
+\PYG{k+kd}{const}\PYG{+w}{ }\PYG{n+nx}{mathField}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nx}{MQ}\PYG{p}{.}\PYG{n+nx}{MathField}\PYG{p}{(}\PYG{n+nx}{mathFieldSpan}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{	}\PYG{n+nx}{spaceBehavesLikeTab}\PYG{o}{:}\PYG{+w}{ }\PYG{k+kc}{true}\PYG{p}{,}\PYG{+w}{ }\PYG{c+c1}{// Presionar espacio actúa como tabulación}
+\PYG{+w}{	}\PYG{n+nx}{handlers}\PYG{o}{:}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{		}\PYG{c+c1}{// Controlador de eventos cuando se edita el campo}
+\PYG{+w}{		}\PYG{n+nx}{edit}\PYG{o}{:}\PYG{+w}{ }\PYG{k+kd}{function}\PYG{+w}{ }\PYG{p}{()}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{			}\PYG{k+kd}{const}\PYG{+w}{ }\PYG{n+nx}{enteredMath}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nx}{mathField}\PYG{p}{.}\PYG{n+nx}{latex}\PYG{p}{();}\PYG{+w}{ }\PYG{c+c1}{// Obtener el contenido en formato LaTeX}
+\PYG{+w}{			}\PYG{n+nx}{latexOutput}\PYG{p}{.}\PYG{n+nx}{textContent}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nx}{enteredMath}\PYG{p}{;}\PYG{+w}{ }\PYG{c+c1}{// Mostrar el LaTeX generado}
+\PYG{+w}{		}\PYG{p}{\PYGZcb{},}
+\PYG{+w}{	}\PYG{p}{\PYGZcb{},}
+\PYG{p}{\PYGZcb{});}
+\PYG{p}{\PYGZlt{}/}\PYG{n+nt}{script}\PYG{p}{\PYGZgt{}}
+\PYG{p}{\PYGZlt{}/}\PYG{n+nt}{body}\PYG{p}{\PYGZgt{}}
+\PYG{p}{\PYGZlt{}/}\PYG{n+nt}{html}\PYG{p}{\PYGZgt{}}
+\end{Verbatim}

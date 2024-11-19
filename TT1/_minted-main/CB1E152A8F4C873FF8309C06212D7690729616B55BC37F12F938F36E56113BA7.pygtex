@@ -1,0 +1,37 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c}{\PYGZpc{} Número de términos positivos y negativos en la serie de Fourier}
+\PYG{n}{N}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m+mi}{10}\PYG{p}{;}\PYG{+w}{ }\PYG{c}{\PYGZpc{} Puedes modificar N para mejorar la aproximación}
+
+\PYG{c}{\PYGZpc{} Vector de tiempo de \PYGZhy{}pi a pi}
+\PYG{n}{t}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n+nb}{linspace}\PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{n+nb}{pi}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nb}{pi}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{1000}\PYG{p}{);}
+
+\PYG{c}{\PYGZpc{} Función original x(t) = t}
+\PYG{n}{x\PYGZus{}original}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{t}\PYG{p}{;}
+
+\PYG{c}{\PYGZpc{} Inicialización de la aproximación de la serie de Fourier}
+\PYG{n}{x\PYGZus{}aprox}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n+nb}{zeros}\PYG{p}{(}\PYG{n+nb}{size}\PYG{p}{(}\PYG{n}{t}\PYG{p}{));}
+
+\PYG{c}{\PYGZpc{} Cálculo de la serie de Fourier en forma exponencial compleja}
+\PYG{k}{for}\PYG{+w}{ }\PYG{n}{n}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{n}{N}\PYG{p}{:}\PYG{n}{N}
+\PYG{k}{if}\PYG{+w}{ }\PYG{n}{n}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+m+mi}{0}
+\PYG{k}{continue}\PYG{p}{;}\PYG{+w}{ }\PYG{c}{\PYGZpc{} Saltar n = 0 para evitar división por cero}
+\PYG{k}{end}
+\PYG{n}{cn}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{p}{(}1\PYG{n+nb}{i}\PYG{+w}{ }\PYG{o}{/}\PYG{+w}{ }\PYG{n}{n}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{)}\PYGZca{}\PYG{n}{n}\PYG{p}{;}
+\PYG{n}{x\PYGZus{}aprox}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{x\PYGZus{}aprox}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{cn}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n+nb}{exp}\PYG{p}{(}1\PYG{n+nb}{i}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{n}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{t}\PYG{p}{);}
+\PYG{k}{end}
+
+\PYG{c}{\PYGZpc{} Tomar la parte real de la aproximación (la función original es real)}
+\PYG{n}{x\PYGZus{}aprox\PYGZus{}real}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n+nb}{real}\PYG{p}{(}\PYG{n}{x\PYGZus{}aprox}\PYG{p}{);}
+
+\PYG{c}{\PYGZpc{} Gráfica de la función original y su aproximación}
+\PYG{n+nb}{figure}\PYG{p}{;}
+\PYG{n+nb}{plot}\PYG{p}{(}\PYG{n}{t}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{x\PYGZus{}original}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZsq{}k\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZsq{}LineWidth\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mf}{1.5}\PYG{p}{);}\PYG{+w}{ }\PYG{c}{\PYGZpc{} Función original en negro}
+\PYG{n+nb}{hold}\PYG{+w}{ }\PYG{n}{on}\PYG{p}{;}
+\PYG{n+nb}{plot}\PYG{p}{(}\PYG{n}{t}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{x\PYGZus{}aprox\PYGZus{}real}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZsq{}b\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZsq{}LineWidth\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mf}{1.5}\PYG{p}{);}\PYG{+w}{ }\PYG{c}{\PYGZpc{} Aproximación en azul}
+\PYG{n+nb}{legend}\PYG{p}{(}\PYG{l+s}{\PYGZsq{}Función original x(t)\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{[}\PYG{l+s}{\PYGZsq{}Aproximación (Forma Exponencial) con N = \PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nb}{num2str}\PYG{p}{(}\PYG{n}{N}\PYG{p}{),}\PYG{+w}{ }\PYG{l+s}{\PYGZsq{} términos\PYGZsq{}}\PYG{p}{]);}
+\PYG{n+nb}{xlabel}\PYG{p}{(}\PYG{l+s}{\PYGZsq{}t\PYGZsq{}}\PYG{p}{);}
+\PYG{n+nb}{ylabel}\PYG{p}{(}\PYG{l+s}{\PYGZsq{}x(t)\PYGZsq{}}\PYG{p}{);}
+\PYG{n+nb}{title}\PYG{p}{(}\PYG{l+s}{\PYGZsq{}Serie de Fourier (Forma Exponencial Compleja) de x(t) = t\PYGZsq{}}\PYG{p}{);}
+\PYG{n}{grid}\PYG{+w}{ }\PYG{l+s}{on}\PYG{p}{;}
+\PYG{n}{hold}\PYG{+w}{ }\PYG{l+s}{off}\PYG{p}{;}\PYG{+w}{	}
+\end{Verbatim}

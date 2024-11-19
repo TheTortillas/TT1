@@ -884,7 +884,7 @@
       \field{howpublished}{\url{http://lcr.uns.edu.ar/fvc/series_de_fourier.htm}}
       \field{note}{Accedido: 16 Noviembre, 2024}
       \field{title}{S. y T. de Fourier}
-      \field{year}{2019}
+      \field{year}{201P}
     \endentry
     \entry{ProphetFacebook}{misc}{}{}
       \name{author}{1}{}{%
@@ -1406,6 +1406,28 @@
       \field{howpublished}{\url{https://github.com/KQMATH/tex2max}}
       \field{note}{Accedido: 13 Noviembre, 2024}
       \field{title}{GitHub - KQMATH/tex2max: :books: JavaScript library for converting LaTeX math into Maxima code}
+    \endentry
+    \entry{microsoft_azure}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://azure.microsoft.com/}}
+      \field{note}{ÚAccedido: 27 Octubre, 2024}
+      \field{title}{Microsoft Azure}
     \endentry
     \entry{interfazAlbornoz}{misc}{}{}
       \name{author}{1}{}{%

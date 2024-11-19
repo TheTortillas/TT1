@@ -70,7 +70,7 @@ Los requerimientos funcionales describen lo que el sistema debe hacer, es decir,
 	\endfirsthead
 	\multicolumn{2}{c}{{\tablename\ \thetable{} -- continuación}} \\
 	\hline
-	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{Teclado con fin} \\
+	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{Teclado en pantalla para entrada de funciones} \\
 	\hline
 	\endhead
 	\hline \multicolumn{2}{r}{{Continúa en la siguiente página}} \\
@@ -104,7 +104,7 @@ Los requerimientos funcionales describen lo que el sistema debe hacer, es decir,
 	\endfirsthead
 	\multicolumn{2}{c}{{\tablename\ \thetable{} -- continuación}} \\
 	\hline
-	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{tipo de función} \\
+	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{Selección del tipo de serie de Fourier} \\
 	\hline
 	\endhead
 	\hline \multicolumn{2}{r}{{Continúa en la siguiente página}} \\
@@ -138,7 +138,7 @@ Los requerimientos funcionales describen lo que el sistema debe hacer, es decir,
 	\endfirsthead
 	\multicolumn{2}{c}{{\tablename\ \thetable{} -- continuación}} \\
 	\hline
-	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{Catálogo} \\
+	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{Validación de funciones compatibles} \\
 	\hline
 	\endhead
 	\hline \multicolumn{2}{r}{{Continúa en la siguiente página}} \\
@@ -173,7 +173,7 @@ Los requerimientos funcionales describen lo que el sistema debe hacer, es decir,
 	\endfirsthead
 	\multicolumn{2}{c}{{\tablename\ \thetable{} -- continuación}} \\
 	\hline
-	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{parseo ida} \\
+	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{Parseo de entrada de funciones para procesamiento} \\
 	\hline
 	\endhead
 	\hline \multicolumn{2}{r}{{Continúa en la siguiente página}} \\
@@ -207,7 +207,7 @@ Los requerimientos funcionales describen lo que el sistema debe hacer, es decir,
 	\endfirsthead
 	\multicolumn{2}{c}{{\tablename\ \thetable{} -- continuación}} \\
 	\hline
-	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{Nombre del requerimiento} \\
+	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{Cálculo de coeficientes y expansión de la Serie de Fourier} \\
 	\hline
 	\endhead
 	\hline \multicolumn{2}{r}{{Continúa en la siguiente página}} \\
@@ -241,7 +241,7 @@ Los requerimientos funcionales describen lo que el sistema debe hacer, es decir,
 	\endfirsthead
 	\multicolumn{2}{c}{{\tablename\ \thetable{} -- continuación}} \\
 	\hline
-	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{Nombre del requerimiento} \\
+	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{Recuperación de resultados para visualización} \\
 	\hline
 	\endhead
 	\hline \multicolumn{2}{r}{{Continúa en la siguiente página}} \\
@@ -275,7 +275,7 @@ Los requerimientos funcionales describen lo que el sistema debe hacer, es decir,
 	\endfirsthead
 	\multicolumn{2}{c}{{\tablename\ \thetable{} -- continuación}} \\
 	\hline
-	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{gráficas} \\
+	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{Gráfica interactiva de la función y su aproximación} \\
 	\hline
 	\endhead
 	\hline \multicolumn{2}{r}{{Continúa en la siguiente página}} \\
@@ -309,7 +309,7 @@ Los requerimientos funcionales describen lo que el sistema debe hacer, es decir,
 	\endfirsthead
 	\multicolumn{2}{c}{{\tablename\ \thetable{} -- continuación}} \\
 	\hline
-	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{resultados} \\
+	\rowcolor{black!75} \color{white}\textbf{Requerimiento} & \color{white}\textbf{Visualización de coeficientes y expansión de la Serie de Fourier} \\
 	\hline
 	\endhead
 	\hline \multicolumn{2}{r}{{Continúa en la siguiente página}} \\
@@ -784,7 +784,175 @@ Una vez se tienen identificados y jerarquizados todos los riesgos, se procede a 
 \caption{Hoja de información de riesgo - R9} \label{tabla:R9}
 \vspace{0.5cm}
 
-\section{Estimación de Costos}
-\subsection{Método de Estimación de Costos}
-\subsection{Detalle de los Costos Estimados}
+\section{Estudio de factibilidad}
+El estudio de factibilidad sirbe para evaluar si el proyecto puede llevarse a cabo de manera exitosa considerando aspectos operativos, tecnológicos y económicos en el tiempo establecido que son 12 meses. Este análisis asegura que los recursos disponibles sean suficientes y que el proyecto sea viable en todos los sentidos.
+
+\subsection{Factibilidad operativa}
+
+Analiza si el proyecto cumple con las necesidades de los usuarios finales y si las operaciones requeridas pueden ser ejecutadas de manera eficiente dentro del entorno previsto.
+
+% Tabla con configuración específica
+\begingroup
+\setlength{\tabcolsep}{3pt} % Espacio entre columnas
+\renewcommand{\arraystretch}{1.2} % Espaciado entre filas
+
+\begin{longtable}{|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{1cm}|>{\centering\arraybackslash}p{1.5cm}|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{1.5cm}|>{\centering\arraybackslash}p{1.5cm}|>{\centering\arraybackslash}p{1cm}|>{\centering\arraybackslash}p{2cm}|}
+	\hline
+	\rowcolor{black!75} \color{white} \textbf{Mes} & \color{white} \textbf{Días} & \color{white} \textbf{Fin de semana} & \color{white} \textbf{Días no laborales} & \color{white} \textbf{Días hábiles} & \color{white} \textbf{Horas de trabajo por día (media)} &\color{white} \textbf{Horas totales} & \color{white} \textbf{Días laborales (8 horas al día)} \\ 
+	\hline
+	\endfirsthead
+	
+	\multicolumn{8}{c}{{\tablename\ \thetable{} -- continuación}} \\
+	\hline
+	\rowcolor{black!75} \textbf{Mes} & \textbf{Días} & \textbf{Fin de semana} & \textbf{Días no laborales} & \textbf{Días hábiles} & \textbf{Horas de trabajo por día (promedio)} & \textbf{Horas totales} & \textbf{Días laborales (8 horas al día)} \\ 
+	\hline
+	\endhead
+	
+	\hline \multicolumn{8}{r}{{Continúa en la siguiente página}} \\ 
+	\endfoot
+	
+	\hline
+	\endlastfoot
+	
+	Agosto 2024 & 31 & 10 & 16 & 5  & 4 & 		20  & 2.5 \\ \hline
+	Septiembre 2024 & 30 & 9  & 1  & 20 & 4 & 	80  & 10    \\ \hline
+	Octubre 2024 & 31 & 8  & 1  & 22 & 4 & 		88  & 11  \\ \hline
+	Noviembre 2024 & 30 & 9  & 2  & 19 & 4 & 	76  & 9.5 \\ \hline
+	Diciembre 2024 & 31 & 9  & 7  & 15 & 4 & 	60  & 7.5 \\ \hline
+	Enero 2025 & 31 & 8  & 3  & 20 & 4 & 		80  & 10    \\ \hline
+	Febrero 2025 & 28 & 8  & 1  & 19 & 4 & 		76  & 9.5 \\ \hline
+	Marzo 2025 & 31 & 10 & 1  & 20 & 4 & 		80  & 10    \\ \hline
+	Abril 2025 & 30 & 8  & 7  & 15 & 4 & 		60  & 7.5 \\ \hline
+	Mayo 2025 & 31 & 9  & 3  & 19 & 4 & 		76  & 9.5 \\ \hline
+	Junio 2025 & 30 & 4  & 0  & 26 & 4 & 		104  & 13  \\ \hline
+	\textbf{Total de días laborales} &  &  &  &  &  &  & \textbf{100} \\ \hline
+	
+\end{longtable}
+\caption{Tiempo de ejecución para el proyecto} \label{tabla:tiempo_proyecto}
+\vspace{0.5cm}
+\endgroup
+La tabla muestra la distribución del tiempo disponible para el desarrollo del proyecto, considerando los días totales de cada mes, fines de semana, días no laborales, y días hábiles con sus respectivas horas promedio de trabajo. Se estima un total de 100 días laborales efectivos (considerando jornadas de 8 horas), lo cual proporciona una visión clara del tiempo real disponible para cumplir con las tareas del proyecto.
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|>{\centering\arraybackslash}m{2.5cm}|>{\centering\arraybackslash}m{3cm}|c|c|}
+		\hline
+		\rowcolor{black!75} \color{white} \textbf{Cantidad} & \color{white} \textbf{Rol} & \color{white} \textbf{Descripción} & \color{white} \textbf{Sueldo x Mes} & \color{white} \textbf{Subtotal} \\ 
+		\hline
+		1 & Full Stack Developer & Desarrollo de frontend y backend, integración de APIs y diseño de bases de datos & \$18,000 & \$18,000 \\ 
+		\hline
+		\multicolumn{4}{r|}{\textbf{Subtotal del proyecto}} & \textbf{\$20,000} \\ 
+		\hline
+		\multicolumn{4}{r|}{\textbf{Ajuste por día}} & \textbf{\$666} \\ 
+		\hline
+		\multicolumn{4}{r|}{\textbf{Total}} & \textbf{\$66,666} \\ 
+		\hline
+	\end{tabular}
+	\caption{Factibilidad tecnológica de software.}
+	\label{tab:costos_roles}
+\end{table}
+
+
+
+El valor del salario es un promedio obtenido de ofertas laborales para dicho puesto en las páginas CompuTrabajo, Talentmx, y LinkedIn a la fecha del 10 de noviembre de 2024. Estos salarios pueden cambiar de acuerdo con las fechas consultadas y al mercado versátil global.
+
+\subsection{Factibilidad tecnológica}
+
+Evalúa la disponibilidad y adecuación de las tecnologías necesarias para desarrollar y ejecutar el proyecto, asegurando que los recursos tecnológicos sean compatibles con los requisitos del sistema.
+
+\begingroup
+\setlength{\tabcolsep}{4pt} % Espacio entre columnas
+\renewcommand{\arraystretch}{1.2} % Espaciado entre filas
+
+\begin{longtable}{|c|c|>{\centering\arraybackslash}m{5cm}|c|c|}
+	\hline
+	\rowcolor{black!75} \color{white}\textbf{Cantidad} & \color{white}\textbf{Tecnología} & \color{white}\textbf{Descripción} & \color{white}\textbf{Costo} & \color{white}\textbf{Subtotal} \\ 
+	\hline
+	\endfirsthead
+	
+	\multicolumn{5}{c}{{\tablename\ \thetable{} -- continuación}} \\
+	\hline
+	\rowcolor{black!75} \color{white}\textbf{Cantidad} & \color{white}\textbf{Componente} & \color{white}\textbf{Descripción} & \color{white}\textbf{Costo} & \color{white}\textbf{Subtotal} \\ 
+	\hline
+	\endhead
+	
+	\hline \multicolumn{5}{r}{{Continúa en la siguiente página}} \\ 
+	\endfoot
+	
+	\hline
+	\endlastfoot
+	
+	1 & Microsoft Azure & Suscripción a Azure para alojamiento del proyecto durante 6 meses (\$500/mes) para alojar la aplicación y garantizar su disponibilidad. & MXN\$500 & MXN\$3000 \\ 
+	\hline
+	\textbf{Total} & \multicolumn{3}{r|}{\textbf{MXN\$3,000}} & \textbf{MXN\$3,000} \\ 
+	\hline
+\end{longtable}
+\caption{Factibilidad tecnológica de software.}
+\label{tab:factibiliad_software}
+\endgroup
+
+
+\begingroup
+\setlength{\tabcolsep}{8pt} % Espacio entre columnas
+\renewcommand{\arraystretch}{1.2} % Espaciado entre filas
+
+\begin{longtable}{|c|c|}
+	\hline
+	\rowcolor{black!75} \color{white}\textbf{Servicio} & \color{white}\textbf{Costo} \\ 
+	\hline
+	\endfirsthead
+	
+	\multicolumn{2}{c}{{\tablename\ \thetable{} -- continuación}} \\
+	\hline
+	\rowcolor{black!75} \color{white}\textbf{Servicio} & \color{white}\textbf{Costo} \\ 
+	\hline
+	\endhead
+	
+	\hline \multicolumn{2}{r}{{Continúa en la siguiente página}} \\ 
+	\endfoot
+	
+	\hline
+	\endlastfoot
+	
+	Luz & \$2,700 MXN \\ 
+	\hline
+	Agua & \$1,200 MXN \\ 
+	\hline
+	Internet & \$2,400 MXN \\ 
+	\hline
+	Transporte & \$1,500 MXN \\ 
+	\hline
+	Alimentos & \$6,600 MXN \\ 
+	\hline
+	\textbf{Total} & \textbf{\$14,400 MXN} \\ 
+	\hline
+\end{longtable}
+\caption{Factibilidad tecnológica en otros gastos.}
+\label{tab:factibiliad_otros}
+\endgroup
+
+Para obtener el total de la factibilidad tecnológica se debe sumar el total de la tabla \ref{tab:factibiliad_software} con la tabla \ref{tab:factibiliad_otros}, lo que nos da:
+
+\begin{align}
+	\textit{Total de factibilidad tecnológica} &= \textit{(software)} + \textit{(otros)} \notag \\
+	\textit{Total de factibilidad tecnológica} &= \textit{MXN\$2,400} + \textit{MXN\$14,400} \notag
+\end{align}
+
+Por lo tanto:
+\begin{equation}
+	\textit{Total de factibilidad tecnológica} = \textit{MXN\$17,400}
+\end{equation}
+\subsection{Factibilidad económica}
+
+Para obtener la factibilidad económica, es decir, el total del proyecto es necesario sumar la factibilidad operativa junto con la tecnológica.
+
+\begin{align}
+	\textit{Total de factibilidad económica} &= \textit{(Factibilidad operativa)} + \textit{(Factibilidad tecnológica)} \notag \\
+	\textit{Total de factibilidad económica} &= \textit{MXN\$66,666} + \textit{MXN\$17,400} \notag
+\end{align}
+
+Por lo tanto:
+\begin{equation}
+	\textit{Total de factibilidad económica} = \textit{MXN\$84,066}
+\end{equation}
 

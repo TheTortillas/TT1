@@ -1,0 +1,184 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} Importamos todas la funciones de manim}
+\PYG{k+kn}{from} \PYG{n+nn}{manim} \PYG{k+kn}{import} \PYG{o}{*}
+
+\PYG{c+c1}{\PYGZsh{} Creamos una escena}
+\PYG{k}{class} \PYG{n+nc}{Prueba}\PYG{p}{(}\PYG{n}{Scene}\PYG{p}{):}
+\PYG{k}{def} \PYG{n+nf}{construct}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+
+\PYG{c+c1}{\PYGZsh{}Definimos un color de fondo para todo el lienzo}
+\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{camera}\PYG{o}{.}\PYG{n}{background\PYGZus{}color} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}\PYGZsh{}212121\PYGZdq{}}
+
+\PYG{n}{x\PYGZus{}labels} \PYG{o}{=} \PYG{p}{[}
+\PYG{l+s+s2}{\PYGZdq{}\PYGZhy{}3}\PYG{l+s+se}{\PYGZbs{}\PYGZbs{}}\PYG{l+s+s2}{pi\PYGZdq{}}\PYG{p}{,}                \PYG{c+c1}{\PYGZsh{}   \PYGZhy{}3pi}
+\PYG{l+s+s2}{\PYGZdq{}\PYGZhy{}}\PYG{l+s+se}{\PYGZbs{}\PYGZbs{}}\PYG{l+s+s2}{frac\PYGZob{}5}\PYG{l+s+se}{\PYGZbs{}\PYGZbs{}}\PYG{l+s+s2}{pi\PYGZcb{}}\PYG{l+s+si}{\PYGZob{}2\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,}     \PYG{c+c1}{\PYGZsh{}  \PYGZhy{}5pi/2}
+\PYG{l+s+s2}{\PYGZdq{}\PYGZhy{}2}\PYG{l+s+se}{\PYGZbs{}\PYGZbs{}}\PYG{l+s+s2}{pi\PYGZdq{}}\PYG{p}{,}                \PYG{c+c1}{\PYGZsh{}   \PYGZhy{}2pi}
+\PYG{l+s+s2}{\PYGZdq{}\PYGZhy{}}\PYG{l+s+se}{\PYGZbs{}\PYGZbs{}}\PYG{l+s+s2}{frac\PYGZob{}3}\PYG{l+s+se}{\PYGZbs{}\PYGZbs{}}\PYG{l+s+s2}{pi\PYGZcb{}}\PYG{l+s+si}{\PYGZob{}2\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,}     \PYG{c+c1}{\PYGZsh{}  \PYGZhy{}3pi/2}
+\PYG{l+s+s2}{\PYGZdq{}\PYGZhy{}}\PYG{l+s+se}{\PYGZbs{}\PYGZbs{}}\PYG{l+s+s2}{pi\PYGZdq{}}\PYG{p}{,}                 \PYG{c+c1}{\PYGZsh{}   \PYGZhy{}pi}
+\PYG{l+s+s2}{\PYGZdq{}\PYGZhy{}}\PYG{l+s+se}{\PYGZbs{}\PYGZbs{}}\PYG{l+s+s2}{frac\PYGZob{}}\PYG{l+s+se}{\PYGZbs{}\PYGZbs{}}\PYG{l+s+s2}{pi\PYGZcb{}}\PYG{l+s+si}{\PYGZob{}2\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,}      \PYG{c+c1}{\PYGZsh{}   \PYGZhy{}pi/2}
+\PYG{l+s+s2}{\PYGZdq{}0\PYGZdq{}}\PYG{p}{,}                     \PYG{c+c1}{\PYGZsh{}   Blank}
+\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+se}{\PYGZbs{}\PYGZbs{}}\PYG{l+s+s2}{frac\PYGZob{}}\PYG{l+s+se}{\PYGZbs{}\PYGZbs{}}\PYG{l+s+s2}{pi\PYGZcb{}}\PYG{l+s+si}{\PYGZob{}2\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,}       \PYG{c+c1}{\PYGZsh{}     pi/2}
+\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+se}{\PYGZbs{}\PYGZbs{}}\PYG{l+s+s2}{pi\PYGZdq{}}\PYG{p}{,}                  \PYG{c+c1}{\PYGZsh{}     pi}
+\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+se}{\PYGZbs{}\PYGZbs{}}\PYG{l+s+s2}{frac\PYGZob{}3}\PYG{l+s+se}{\PYGZbs{}\PYGZbs{}}\PYG{l+s+s2}{pi\PYGZcb{}}\PYG{l+s+si}{\PYGZob{}2\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,}      \PYG{c+c1}{\PYGZsh{}     3pi/2}
+\PYG{l+s+s2}{\PYGZdq{}2}\PYG{l+s+se}{\PYGZbs{}\PYGZbs{}}\PYG{l+s+s2}{pi\PYGZdq{}}\PYG{p}{,}                 \PYG{c+c1}{\PYGZsh{}    2pi}
+\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+se}{\PYGZbs{}\PYGZbs{}}\PYG{l+s+s2}{frac\PYGZob{}5}\PYG{l+s+se}{\PYGZbs{}\PYGZbs{}}\PYG{l+s+s2}{pi\PYGZcb{}}\PYG{l+s+si}{\PYGZob{}2\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,}      \PYG{c+c1}{\PYGZsh{}     5pi/2}
+\PYG{l+s+s2}{\PYGZdq{}3}\PYG{l+s+se}{\PYGZbs{}\PYGZbs{}}\PYG{l+s+s2}{pi\PYGZdq{}}                  \PYG{c+c1}{\PYGZsh{}    3pi}
+\PYG{p}{]}
+
+\PYG{n}{y\PYGZus{}labels} \PYG{o}{=} \PYG{p}{[}
+\PYG{l+s+s2}{\PYGZdq{}\PYGZhy{}}\PYG{l+s+se}{\PYGZbs{}\PYGZbs{}}\PYG{l+s+s2}{frac\PYGZob{}3}\PYG{l+s+se}{\PYGZbs{}\PYGZbs{}}\PYG{l+s+s2}{pi\PYGZcb{}}\PYG{l+s+si}{\PYGZob{}2\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,}     \PYG{c+c1}{\PYGZsh{}  \PYGZhy{}3pi/2}
+\PYG{l+s+s2}{\PYGZdq{}\PYGZhy{}}\PYG{l+s+se}{\PYGZbs{}\PYGZbs{}}\PYG{l+s+s2}{pi\PYGZdq{}}\PYG{p}{,}                 \PYG{c+c1}{\PYGZsh{}   \PYGZhy{}pi}
+\PYG{l+s+s2}{\PYGZdq{}\PYGZhy{}}\PYG{l+s+se}{\PYGZbs{}\PYGZbs{}}\PYG{l+s+s2}{frac\PYGZob{}}\PYG{l+s+se}{\PYGZbs{}\PYGZbs{}}\PYG{l+s+s2}{pi\PYGZcb{}}\PYG{l+s+si}{\PYGZob{}2\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,}      \PYG{c+c1}{\PYGZsh{}   \PYGZhy{}pi/2}
+\PYG{l+s+s2}{\PYGZdq{}0\PYGZdq{}}\PYG{p}{,}                     \PYG{c+c1}{\PYGZsh{}   Blank}
+\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+se}{\PYGZbs{}\PYGZbs{}}\PYG{l+s+s2}{frac\PYGZob{}}\PYG{l+s+se}{\PYGZbs{}\PYGZbs{}}\PYG{l+s+s2}{pi\PYGZcb{}}\PYG{l+s+si}{\PYGZob{}2\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,}       \PYG{c+c1}{\PYGZsh{}     pi/2}
+\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+se}{\PYGZbs{}\PYGZbs{}}\PYG{l+s+s2}{pi\PYGZdq{}}\PYG{p}{,}                  \PYG{c+c1}{\PYGZsh{}     pi}
+\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+se}{\PYGZbs{}\PYGZbs{}}\PYG{l+s+s2}{frac\PYGZob{}3}\PYG{l+s+se}{\PYGZbs{}\PYGZbs{}}\PYG{l+s+s2}{pi\PYGZcb{}}\PYG{l+s+si}{\PYGZob{}2\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}      \PYG{c+c1}{\PYGZsh{}     3pi/2}
+
+\PYG{p}{]}
+
+
+\PYG{c+c1}{\PYGZsh{} Creamos los ejes}
+\PYG{n}{ejes}\PYG{o}{=}\PYG{n}{Axes}\PYG{p}{(}
+\PYG{n}{x\PYGZus{}range} \PYG{o}{=} \PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{3}\PYG{o}{*}\PYG{n}{PI}\PYG{p}{,} \PYG{l+m+mi}{3}\PYG{o}{*}\PYG{n}{PI}\PYG{p}{,} \PYG{n}{PI}\PYG{p}{),} \PYG{c+c1}{\PYGZsh{} Rango del eje x (inicio, fin, de cuanto en cuanto avanza)}
+\PYG{n}{x\PYGZus{}length}\PYG{o}{=}\PYG{p}{(}\PYG{l+m+mi}{6}\PYG{p}{),}       \PYG{c+c1}{\PYGZsh{} Tamaño del eje x}
+\PYG{n}{y\PYGZus{}range} \PYG{o}{=} \PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{3}\PYG{o}{*}\PYG{n}{PI}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{3}\PYG{o}{*}\PYG{n}{PI}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{n}{PI}\PYG{p}{),} \PYG{c+c1}{\PYGZsh{} Rango del eje y (inicio, fin, de cuanto en cuanto avanza)}
+\PYG{n}{y\PYGZus{}length}\PYG{o}{=}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{),}       \PYG{c+c1}{\PYGZsh{} Tamaño del eje y}
+
+\PYG{c+c1}{\PYGZsh{} Configuramos los ejes.}
+\PYG{n}{axis\PYGZus{}config}\PYG{o}{=}\PYG{p}{\PYGZob{}}
+	\PYG{l+s+s2}{\PYGZdq{}include\PYGZus{}numbers\PYGZdq{}}\PYG{p}{:} \PYG{k+kc}{False}\PYG{p}{,}        \PYG{c+c1}{\PYGZsh{} Los ejes se numerarán}
+	\PYG{l+s+s2}{\PYGZdq{}font\PYGZus{}size\PYGZdq{}}\PYG{p}{:} \PYG{l+m+mi}{13}\PYG{p}{,}                \PYG{c+c1}{\PYGZsh{} Tamaño de los números}
+	\PYG{l+s+s2}{\PYGZdq{}tip\PYGZus{}width\PYGZdq{}}\PYG{p}{:} \PYG{l+m+mf}{0.05}\PYG{p}{,}              \PYG{c+c1}{\PYGZsh{} Ancho de la punta}
+	\PYG{l+s+s2}{\PYGZdq{}tip\PYGZus{}height\PYGZdq{}}\PYG{p}{:} \PYG{l+m+mf}{0.03}\PYG{p}{,}             \PYG{c+c1}{\PYGZsh{} Alto de la punta}
+	\PYG{l+s+s2}{\PYGZdq{}tick\PYGZus{}size\PYGZdq{}}\PYG{p}{:}\PYG{l+m+mf}{0.06}\PYG{p}{,}               \PYG{c+c1}{\PYGZsh{} Tamaño de las lineas de los ejes}
+	\PYG{l+s+s2}{\PYGZdq{}color\PYGZdq{}}\PYG{p}{:} \PYG{n}{WHITE}\PYG{p}{,}                 \PYG{c+c1}{\PYGZsh{} Color de los ejes}
+	\PYG{l+s+s2}{\PYGZdq{}stroke\PYGZus{}width\PYGZdq{}}\PYG{p}{:} \PYG{l+m+mi}{1}\PYG{p}{,}              \PYG{c+c1}{\PYGZsh{} Grosor de los ejes}
+	\PYG{l+s+s2}{\PYGZdq{}line\PYGZus{}to\PYGZus{}number\PYGZus{}buff\PYGZdq{}}\PYG{p}{:} \PYG{n}{SMALL\PYGZus{}BUFF} \PYG{c+c1}{\PYGZsh{} Espacio entre las lineas y los números}
+\PYG{p}{\PYGZcb{}}
+\PYG{p}{)}
+
+
+\PYG{n}{x\PYGZus{}tex\PYGZus{}lables} \PYG{o}{=} \PYG{n}{VGroup}\PYG{p}{(}\PYG{o}{*}\PYG{p}{[}
+\PYG{n}{MathTex}\PYG{p}{(}\PYG{n}{t}\PYG{p}{,} \PYG{n}{font\PYGZus{}size}\PYG{o}{=}\PYG{l+m+mi}{15}\PYG{p}{)}\PYG{o}{.}\PYG{n}{next\PYGZus{}to}\PYG{p}{(}\PYG{n}{ejes}\PYG{o}{.}\PYG{n}{x\PYGZus{}axis}\PYG{o}{.}\PYG{n}{n2p}\PYG{p}{(}\PYG{n}{x}\PYG{p}{),}\PYG{n}{DOWN}\PYG{o}{*}\PYG{l+m+mf}{0.4}\PYG{p}{)} \PYG{k}{if} \PYG{n}{x} \PYG{o}{\PYGZgt{}=} \PYG{l+m+mi}{0} \PYG{k}{else}
+\PYG{c+c1}{\PYGZsh{} Shift pi\PYGZlt{}0 labels to left}
+\PYG{n}{MathTex}\PYG{p}{(}\PYG{n}{t}\PYG{p}{,} \PYG{n}{font\PYGZus{}size}\PYG{o}{=}\PYG{l+m+mi}{15}\PYG{p}{)}\PYG{o}{.}\PYG{n}{next\PYGZus{}to}\PYG{p}{(}\PYG{n}{ejes}\PYG{o}{.}\PYG{n}{x\PYGZus{}axis}\PYG{o}{.}\PYG{n}{n2p}\PYG{p}{(}\PYG{n}{x}\PYG{p}{),}\PYG{n}{DOWN}\PYG{o}{*}\PYG{l+m+mf}{0.4}\PYG{p}{)}\PYG{o}{.}\PYG{n}{shift}\PYG{p}{(}\PYG{n}{LEFT}\PYG{o}{*}\PYG{l+m+mf}{0.05}\PYG{p}{)}
+\PYG{k}{for} \PYG{n}{t}\PYG{p}{,}\PYG{n}{x} \PYG{o+ow}{in} \PYG{n+nb}{zip}\PYG{p}{(}\PYG{n}{x\PYGZus{}labels}\PYG{p}{,}\PYG{n}{np}\PYG{o}{.}\PYG{n}{arange}\PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{3}\PYG{o}{*}\PYG{n}{PI}\PYG{p}{,} \PYG{l+m+mi}{3}\PYG{o}{*}\PYG{n}{PI}\PYG{o}{+}\PYG{n}{PI}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{n}{PI}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{))} \PYG{k}{if} \PYG{n}{t} \PYG{o}{!=} \PYG{l+s+s2}{\PYGZdq{}0\PYGZdq{}}
+\PYG{c+c1}{\PYGZsh{} Ignore 0 value}
+\PYG{p}{])}
+
+\PYG{n}{y\PYGZus{}tex\PYGZus{}lables} \PYG{o}{=} \PYG{n}{VGroup}\PYG{p}{(}\PYG{o}{*}\PYG{p}{[}
+\PYG{n}{MathTex}\PYG{p}{(}\PYG{n}{t}\PYG{p}{,} \PYG{n}{font\PYGZus{}size}\PYG{o}{=}\PYG{l+m+mi}{15}\PYG{p}{)}\PYG{o}{.}\PYG{n}{next\PYGZus{}to}\PYG{p}{(}\PYG{n}{ejes}\PYG{o}{.}\PYG{n}{y\PYGZus{}axis}\PYG{o}{.}\PYG{n}{n2p}\PYG{p}{(}\PYG{n}{x}\PYG{p}{),}\PYG{n}{LEFT}\PYG{o}{*}\PYG{l+m+mf}{0.4}\PYG{p}{)} \PYG{k}{if} \PYG{n}{x} \PYG{o}{\PYGZgt{}=} \PYG{l+m+mi}{0} \PYG{k}{else}
+\PYG{c+c1}{\PYGZsh{} Shift pi\PYGZlt{}0 labels to left}
+\PYG{n}{MathTex}\PYG{p}{(}\PYG{n}{t}\PYG{p}{,} \PYG{n}{font\PYGZus{}size}\PYG{o}{=}\PYG{l+m+mi}{15}\PYG{p}{)}\PYG{o}{.}\PYG{n}{next\PYGZus{}to}\PYG{p}{(}\PYG{n}{ejes}\PYG{o}{.}\PYG{n}{y\PYGZus{}axis}\PYG{o}{.}\PYG{n}{n2p}\PYG{p}{(}\PYG{n}{x}\PYG{p}{),}\PYG{n}{LEFT}\PYG{o}{*}\PYG{l+m+mf}{0.4}\PYG{p}{)}\PYG{o}{.}\PYG{n}{shift}\PYG{p}{(}\PYG{n}{LEFT}\PYG{o}{*}\PYG{l+m+mf}{0.05}\PYG{p}{)}
+\PYG{k}{for} \PYG{n}{t}\PYG{p}{,}\PYG{n}{x} \PYG{o+ow}{in} \PYG{n+nb}{zip}\PYG{p}{(}\PYG{n}{y\PYGZus{}labels}\PYG{p}{,}\PYG{n}{np}\PYG{o}{.}\PYG{n}{arange}\PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{3}\PYG{o}{*}\PYG{n}{PI}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{3}\PYG{o}{*}\PYG{n}{PI}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{o}{+}\PYG{n}{PI}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{n}{PI}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{))} \PYG{k}{if} \PYG{n}{t} \PYG{o}{!=} \PYG{l+s+s2}{\PYGZdq{}0\PYGZdq{}}
+\PYG{c+c1}{\PYGZsh{} Ignore 0 value}
+\PYG{p}{])}
+
+\PYG{c+c1}{\PYGZsh{} Creamos el plano de números}
+\PYG{n}{plano\PYGZus{}numeros} \PYG{o}{=} \PYG{n}{NumberPlane}\PYG{p}{(}
+\PYG{n}{x\PYGZus{}range} \PYG{o}{=} \PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{3}\PYG{o}{*}\PYG{n}{PI}\PYG{p}{,} \PYG{l+m+mi}{3}\PYG{o}{*}\PYG{n}{PI}\PYG{p}{,} \PYG{n}{PI}\PYG{p}{),} \PYG{c+c1}{\PYGZsh{} Rango del eje x (inicio, fin, de cuanto en cuanto avanza)}
+\PYG{n}{x\PYGZus{}length}\PYG{o}{=}\PYG{p}{(}\PYG{l+m+mi}{6}\PYG{p}{),}       \PYG{c+c1}{\PYGZsh{} Tamaño del eje x}
+\PYG{n}{y\PYGZus{}range} \PYG{o}{=} \PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{3}\PYG{o}{*}\PYG{n}{PI}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{3}\PYG{o}{*}\PYG{n}{PI}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{n}{PI}\PYG{p}{),} \PYG{c+c1}{\PYGZsh{} Rango del eje y (inicio, fin, de cuanto en cuanto avanza)}
+\PYG{n}{y\PYGZus{}length}\PYG{o}{=}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{),}       \PYG{c+c1}{\PYGZsh{} Tamaño del eje y}
+\PYG{n}{faded\PYGZus{}line\PYGZus{}ratio}\PYG{o}{=}\PYG{l+m+mi}{2}\PYG{p}{,}     \PYG{c+c1}{\PYGZsh{} Dentro de cada recuadro de unidad, habrá dos de un color mas opaco}
+
+\PYG{c+c1}{\PYGZsh{} Configuración de los ejes}
+\PYG{n}{axis\PYGZus{}config}\PYG{o}{=}\PYG{p}{\PYGZob{}}
+	\PYG{l+s+s2}{\PYGZdq{}include\PYGZus{}numbers\PYGZdq{}}\PYG{p}{:} \PYG{k+kc}{False}\PYG{p}{,}   \PYG{c+c1}{\PYGZsh{} Los ejes no se numerarán}
+	\PYG{l+s+s2}{\PYGZdq{}tip\PYGZus{}width\PYGZdq{}}\PYG{p}{:} \PYG{l+m+mf}{0.05}\PYG{p}{,}
+	\PYG{l+s+s2}{\PYGZdq{}tip\PYGZus{}height\PYGZdq{}}\PYG{p}{:} \PYG{l+m+mf}{0.03}\PYG{p}{,}
+	\PYG{l+s+s2}{\PYGZdq{}tick\PYGZus{}size\PYGZdq{}}\PYG{p}{:} \PYG{l+m+mf}{0.06}\PYG{p}{,}
+	\PYG{l+s+s2}{\PYGZdq{}color\PYGZdq{}}\PYG{p}{:} \PYG{n}{WHITE}
+\PYG{p}{\PYGZcb{},}
+
+\PYG{c+c1}{\PYGZsh{} COnfiguración del plano}
+\PYG{n}{background\PYGZus{}line\PYGZus{}style}\PYG{o}{=}\PYG{p}{\PYGZob{}}
+	\PYG{l+s+s2}{\PYGZdq{}stroke\PYGZus{}color\PYGZdq{}}\PYG{p}{:} \PYG{n}{TEAL}\PYG{p}{,}   \PYG{c+c1}{\PYGZsh{} Color de las líneas del plano}
+	\PYG{l+s+s2}{\PYGZdq{}stroke\PYGZus{}width\PYGZdq{}}\PYG{p}{:} \PYG{l+m+mi}{1}\PYG{p}{,}      \PYG{c+c1}{\PYGZsh{} Grosor de las líneas}
+	\PYG{l+s+s2}{\PYGZdq{}stroke\PYGZus{}opacity\PYGZdq{}}\PYG{p}{:} \PYG{l+m+mf}{0.6}   \PYG{c+c1}{\PYGZsh{} Opacidad de las líneas}
+\PYG{p}{\PYGZcb{}}
+\PYG{p}{)}\PYG{o}{.}\PYG{n}{set\PYGZus{}z\PYGZus{}index}\PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{} Título en la parte superior}
+\PYG{n}{titulo} \PYG{o}{=} \PYG{n}{Text}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Serie de Fourier compleja de:\PYGZdq{}}\PYG{p}{,} \PYG{n}{font\PYGZus{}size}\PYG{o}{=}\PYG{l+m+mi}{32}\PYG{p}{)}
+\PYG{n}{fun} \PYG{o}{=} \PYG{n}{MathTex}\PYG{p}{(}\PYG{l+s+sa}{r}\PYG{l+s+s2}{\PYGZdq{}f(t)= t, \PYGZhy{}\PYGZbs{}pi \PYGZlt{} t \PYGZlt{} \PYGZbs{}pi\PYGZdq{}}\PYG{p}{,} \PYG{n}{font\PYGZus{}size}\PYG{o}{=}\PYG{l+m+mi}{32}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{} Agrupamos ambos textos en un solo grupo y lo posicionamos en la parte superior}
+\PYG{n}{titulo}\PYG{o}{.}\PYG{n}{next\PYGZus{}to}\PYG{p}{(}\PYG{n}{fun}\PYG{p}{,} \PYG{n}{UP}\PYG{p}{)}
+\PYG{n}{encabezado} \PYG{o}{=} \PYG{n}{VGroup}\PYG{p}{(}\PYG{n}{titulo}\PYG{p}{,} \PYG{n}{fun}\PYG{p}{)}
+\PYG{n}{encabezado}\PYG{o}{.}\PYG{n}{to\PYGZus{}edge}\PYG{p}{(}\PYG{n}{UP}\PYG{p}{)}\PYG{o}{.}\PYG{n}{set\PYGZus{}z\PYGZus{}index}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{} Etiquetas de ejes}
+\PYG{n}{eje\PYGZus{}x} \PYG{o}{=} \PYG{n}{ejes}\PYG{o}{.}\PYG{n}{get\PYGZus{}x\PYGZus{}axis\PYGZus{}label}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}t\PYGZdq{}}\PYG{p}{)}\PYG{o}{.}\PYG{n}{next\PYGZus{}to}\PYG{p}{(}\PYG{n}{ejes}\PYG{o}{.}\PYG{n}{x\PYGZus{}axis}\PYG{o}{.}\PYG{n}{get\PYGZus{}end}\PYG{p}{(),} \PYG{n}{UP}\PYG{o}{*}\PYG{l+m+mf}{0.1}\PYG{p}{)}\PYG{o}{.}\PYG{n}{scale}\PYG{p}{(}\PYG{l+m+mf}{0.45}\PYG{p}{)}\PYG{o}{.}\PYG{n}{set\PYGZus{}color}\PYG{p}{(}\PYG{n}{WHITE}\PYG{p}{)}
+\PYG{n}{eje\PYGZus{}y} \PYG{o}{=} \PYG{n}{ejes}\PYG{o}{.}\PYG{n}{get\PYGZus{}y\PYGZus{}axis\PYGZus{}label}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}f(t)\PYGZdq{}}\PYG{p}{)}\PYG{o}{.}\PYG{n}{next\PYGZus{}to}\PYG{p}{(}\PYG{n}{ejes}\PYG{o}{.}\PYG{n}{y\PYGZus{}axis}\PYG{o}{.}\PYG{n}{get\PYGZus{}end}\PYG{p}{(),} \PYG{n}{RIGHT}\PYG{o}{*}\PYG{l+m+mf}{0.1}\PYG{p}{)}\PYG{o}{.}\PYG{n}{scale}\PYG{p}{(}\PYG{l+m+mf}{0.45}\PYG{p}{)}\PYG{o}{.}\PYG{n}{set\PYGZus{}color}\PYG{p}{(}\PYG{n}{WHITE}\PYG{p}{)}
+
+\PYG{n}{ejes\PYGZus{}etiquetas} \PYG{o}{=} \PYG{n}{VGroup}\PYG{p}{(}\PYG{n}{eje\PYGZus{}x}\PYG{p}{,} \PYG{n}{eje\PYGZus{}y}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{} Función f(t) en la parte inferior}
+\PYG{n}{funcion\PYGZus{}label} \PYG{o}{=} \PYG{n}{MathTex}\PYG{p}{(}
+\PYG{l+s+sa}{r}\PYG{l+s+s2}{\PYGZdq{}f(t)= i\PYGZbs{}sum\PYGZus{}\PYGZob{}n=\PYGZhy{}\PYGZbs{}infty\PYGZcb{}\PYGZca{}\PYGZob{}\PYGZbs{}infty\PYGZcb{}\PYGZbs{}left( \PYGZbs{}frac\PYGZob{}(\PYGZhy{}1)\PYGZca{}}\PYG{l+s+si}{\PYGZob{}n\PYGZcb{}}\PYG{l+s+s2}{\PYGZcb{}}\PYG{l+s+si}{\PYGZob{}n\PYGZcb{}}\PYG{l+s+s2}{ e\PYGZca{}\PYGZob{}i n t\PYGZcb{}  \PYGZbs{}right)\PYGZdq{}}\PYG{p}{,}
+\PYG{n}{font\PYGZus{}size}\PYG{o}{=}\PYG{l+m+mi}{24}
+\PYG{p}{)}
+\PYG{c+c1}{\PYGZsh{}funcion\PYGZus{}label.set\PYGZus{}color\PYGZus{}by\PYGZus{}tex(\PYGZdq{}n\PYGZdq{}, YELLOW)}
+\PYG{n}{funcion\PYGZus{}label}\PYG{o}{.}\PYG{n}{next\PYGZus{}to}\PYG{p}{(}\PYG{n}{ejes}\PYG{p}{,} \PYG{n}{DOWN}\PYG{o}{*}\PYG{l+m+mf}{2.4}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{} Usando dos rectangulos creamos una ventana para dibujar dentro todo nuestro plano}
+\PYG{n}{rec1} \PYG{o}{=} \PYG{n}{Rectangle}\PYG{p}{(}\PYG{n}{height}\PYG{o}{=}\PYG{l+m+mi}{80}\PYG{p}{,} \PYG{n}{width}\PYG{o}{=}\PYG{l+m+mi}{40}\PYG{p}{)}
+\PYG{n}{rec2} \PYG{o}{=} \PYG{n}{Rectangle}\PYG{p}{(}\PYG{n}{height}\PYG{o}{=}\PYG{l+m+mf}{3.8}\PYG{p}{,} \PYG{n}{width}\PYG{o}{=}\PYG{l+m+mf}{6.6}\PYG{p}{)}
+\PYG{n}{ventana} \PYG{o}{=} \PYG{n}{Cutout}\PYG{p}{(}\PYG{n}{rec1}\PYG{p}{,} \PYG{n}{rec2}\PYG{p}{,} \PYG{n}{fill\PYGZus{}opacity}\PYG{o}{=}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{n}{color}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}\PYGZsh{}212121\PYGZdq{}}\PYG{p}{,} \PYG{n}{stroke\PYGZus{}color}\PYG{o}{=}\PYG{n}{RED}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{} Creamos un contador n para mostrar la cantidad de terminos que se añaden a la suma}
+\PYG{n}{i\PYGZus{}value\PYGZus{}text} \PYG{o}{=} \PYG{n}{Text}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}n = 0\PYGZdq{}}\PYG{p}{,} \PYG{n}{color}\PYG{o}{=}\PYG{n}{WHITE}\PYG{p}{,} \PYG{n}{font\PYGZus{}size}\PYG{o}{=}\PYG{l+m+mi}{16}\PYG{p}{)}
+\PYG{n}{i\PYGZus{}value\PYGZus{}text}\PYG{o}{.}\PYG{n}{next\PYGZus{}to}\PYG{p}{(}\PYG{n}{funcion\PYGZus{}label}\PYG{p}{,} \PYG{n}{DOWN}\PYG{p}{)}
+
+
+\PYG{c+c1}{\PYGZsh{} Defininimos la función serie compleja}
+\PYG{k}{def} \PYG{n+nf}{funcion\PYGZus{}Serie\PYGZus{}Compleja}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{x}\PYG{p}{,} \PYG{n}{i}\PYG{p}{):}
+\PYG{c+c1}{\PYGZsh{} Inicialmente valdrá 0}
+\PYG{n}{val}\PYG{o}{=}\PYG{l+m+mi}{0}
+
+\PYG{c+c1}{\PYGZsh{} Como el coeficience c0 no es indeterminado, lo calculamos aparte}
+\PYG{n}{c0} \PYG{o}{=} \PYG{l+m+mi}{0}
+
+\PYG{c+c1}{\PYGZsh{} En cada iteración sumará un elemento k positivo y uno negativo}
+\PYG{k}{for} \PYG{n}{k} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{n}{i}\PYG{o}{+}\PYG{l+m+mi}{1}\PYG{p}{):}
+\PYG{k}{try}\PYG{p}{:}
+
+\PYG{n}{val} \PYG{o}{+=}  \PYG{p}{(((}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{)}\PYG{o}{**}\PYG{p}{(}\PYG{n}{k}\PYG{p}{))} \PYG{o}{/} \PYG{n}{k}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{np}\PYG{o}{.}\PYG{n}{exp}\PYG{p}{(}\PYG{n+nb}{complex}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{p}{(}\PYG{n}{k} \PYG{o}{*} \PYG{n}{x}\PYG{p}{))))}
+\PYG{n}{val} \PYG{o}{+=}  \PYG{p}{(((}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{)}\PYG{o}{**}\PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{n}{k}\PYG{p}{))} \PYG{o}{/} \PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{n}{k}\PYG{p}{))} \PYG{o}{*} \PYG{p}{(}\PYG{n}{np}\PYG{o}{.}\PYG{n}{exp}\PYG{p}{(}\PYG{n+nb}{complex}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{p}{(} \PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{n}{k}\PYG{p}{)} \PYG{o}{*} \PYG{n}{x}\PYG{p}{))))}
+
+\PYG{c+c1}{\PYGZsh{} Si algún termino es indeterminado se sumará un 0}
+\PYG{k}{except} \PYG{n+ne}{ZeroDivisionError}\PYG{p}{:}
+\PYG{n}{val} \PYG{o}{+=} \PYG{l+m+mi}{0}
+
+\PYG{c+c1}{\PYGZsh{} EL valor de la suma será multiplicado por su coeficiente}
+\PYG{k}{return}  \PYG{n+nb}{complex}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{)} \PYG{o}{*} \PYG{n}{val} \PYG{o}{+} \PYG{n}{c0}
+
+\PYG{c+c1}{\PYGZsh{} Creamos la función a graficar en el intervalo establecido}
+\PYG{n}{func\PYGZus{}Original}\PYG{o}{=}\PYG{n}{ejes}\PYG{o}{.}\PYG{n}{plot}\PYG{p}{(}
+\PYG{k}{lambda} \PYG{n}{x}\PYG{p}{:} \PYG{n}{x}\PYG{p}{,} \PYG{n}{x\PYGZus{}range}\PYG{o}{=}\PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{n}{PI}\PYG{p}{,}\PYG{n}{PI}\PYG{p}{),} \PYG{n}{color}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}\PYGZsh{}d7da63\PYGZdq{}}\PYG{p}{,}
+\PYG{p}{)}
+
+\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{play}\PYG{p}{(}\PYG{n}{Write}\PYG{p}{(}\PYG{n}{encabezado}\PYG{p}{))}
+\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{play}\PYG{p}{(}\PYG{n}{Create}\PYG{p}{(}\PYG{n}{ventana}\PYG{p}{))}
+\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{play}\PYG{p}{(}\PYG{n}{Create}\PYG{p}{(}\PYG{n}{ejes}\PYG{p}{),} \PYG{n}{Create}\PYG{p}{(}\PYG{n}{plano\PYGZus{}numeros}\PYG{p}{),} \PYG{n}{Create}\PYG{p}{(}\PYG{n}{x\PYGZus{}tex\PYGZus{}lables}\PYG{p}{),} \PYG{n}{Create}\PYG{p}{(}\PYG{n}{y\PYGZus{}tex\PYGZus{}lables}\PYG{p}{))}
+\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{play}\PYG{p}{(}\PYG{n}{Write}\PYG{p}{(}\PYG{n}{ejes\PYGZus{}etiquetas}\PYG{p}{))}
+\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{play}\PYG{p}{(}\PYG{n}{Create}\PYG{p}{(}\PYG{n}{func\PYGZus{}Original}\PYG{p}{))}
+
+
+\PYG{c+c1}{\PYGZsh{} Se crean las aproximaciones en la Serie}
+\PYG{k}{for} \PYG{n}{j} \PYG{o+ow}{in} \PYG{n+nb}{range} \PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{l+m+mi}{6}\PYG{p}{):}
+\PYG{n}{i\PYGZus{}value\PYGZus{}text}\PYG{o}{.}\PYG{n}{set\PYGZus{}text}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}n = }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{j}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{fsC\PYGZus{}0}\PYG{o}{=}\PYG{n}{ejes}\PYG{o}{.}\PYG{n}{plot}\PYG{p}{(}
+\PYG{k}{lambda} \PYG{n}{x}\PYG{p}{:} \PYG{n}{funcion\PYGZus{}Serie\PYGZus{}Compleja}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{x}\PYG{p}{,} \PYG{n}{j}\PYG{p}{),} \PYG{n}{x\PYGZus{}range}\PYG{o}{=}\PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{3}\PYG{o}{*}\PYG{n}{np}\PYG{o}{.}\PYG{n}{pi}\PYG{p}{,}\PYG{l+m+mi}{3}\PYG{o}{*}\PYG{n}{np}\PYG{o}{.}\PYG{n}{pi}\PYG{p}{),} \PYG{n}{color}\PYG{o}{=}\PYG{n}{BLUE}\PYG{p}{,} \PYG{n}{stroke\PYGZus{}width} \PYG{o}{=} \PYG{l+m+mf}{2.5}
+\PYG{p}{)}
+\PYG{k}{if} \PYG{n}{j}\PYG{o}{==}\PYG{l+m+mi}{0}\PYG{p}{:}
+\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{play}\PYG{p}{(}\PYG{n}{Create}\PYG{p}{(}\PYG{n}{fsC\PYGZus{}0}\PYG{p}{),} \PYG{n}{Write}\PYG{p}{(}\PYG{n}{funcion\PYGZus{}label}\PYG{p}{),} \PYG{n}{Write}\PYG{p}{(}\PYG{n}{i\PYGZus{}value\PYGZus{}text}\PYG{p}{))}
+\PYG{n}{old\PYGZus{}graph}\PYG{o}{=}\PYG{n}{fsC\PYGZus{}0}
+\PYG{k}{else}\PYG{p}{:}
+\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{play}\PYG{p}{(}\PYG{n}{Transform}\PYG{p}{(}\PYG{n}{old\PYGZus{}graph}\PYG{p}{,} \PYG{n}{fsC\PYGZus{}0}\PYG{p}{),} \PYG{n}{Transform}\PYG{p}{(}\PYG{n}{i\PYGZus{}value\PYGZus{}text}\PYG{p}{,} \PYG{n}{Text}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}n = }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{j}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,} \PYG{n}{color}\PYG{o}{=}\PYG{n}{WHITE}\PYG{p}{,} \PYG{n}{font\PYGZus{}size}\PYG{o}{=}\PYG{l+m+mi}{16}\PYG{p}{)}\PYG{o}{.}\PYG{n}{next\PYGZus{}to}\PYG{p}{(}\PYG{n}{funcion\PYGZus{}label}\PYG{p}{,} \PYG{n}{DOWN}\PYG{p}{)))}
+
+\PYG{n}{plano} \PYG{o}{=} \PYG{n}{VGroup}\PYG{p}{(}\PYG{n}{encabezado}\PYG{p}{,} \PYG{n}{ejes}\PYG{p}{,} \PYG{n}{ejes\PYGZus{}etiquetas}\PYG{p}{,} \PYG{n}{ventana}\PYG{p}{,} \PYG{n}{func\PYGZus{}Original}\PYG{p}{,} \PYG{n}{old\PYGZus{}graph}\PYG{p}{)}
+\PYG{n}{plano}\PYG{o}{.}\PYG{n}{move\PYGZus{}to}\PYG{p}{(}\PYG{n}{ORIGIN}\PYG{p}{)}
+\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{wait}\PYG{p}{(}\PYG{l+m+mi}{2}\PYG{p}{)}
+\end{Verbatim}

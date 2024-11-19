@@ -1,0 +1,56 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cm}{/* Función a trozos */}
+\PYG{n+nl}{func}\PYG{+w}{ }\PYG{p}{:}\PYG{+w}{ }\PYG{n}{matrix}\PYG{p}{([}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{],}\PYG{+w}{ }\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{3}\PYG{p}{],}\PYG{+w}{ }\PYG{p}{[}\PYG{l+m+mi}{\PYGZhy{}1}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{3}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{5}\PYG{p}{]);}
+
+\PYG{c+cm}{/* Obtenemos la cantidad de trozos */}
+\PYG{n+nl}{pieces}\PYG{p}{:}\PYG{+w}{ }\PYG{n}{length}\PYG{p}{(}\PYG{n}{func}\PYG{p}{);}
+
+\PYG{c+cm}{/* Obtenemos a \PYGZhy{}T/2 y T/2 */}
+\PYG{n+nl}{inicio}\PYG{p}{:}\PYG{+w}{ }\PYG{n}{func}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{][}\PYG{l+m+mi}{2}\PYG{p}{];}
+\PYG{n+nl}{fin}\PYG{p}{:}\PYG{+w}{ }\PYG{n}{func}\PYG{p}{[}\PYG{n}{length}\PYG{p}{(}\PYG{n}{func}\PYG{p}{)][}\PYG{l+m+mi}{3}\PYG{p}{];}
+
+\PYG{n}{declare}\PYG{p}{(}\PYG{n}{n}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{integer}\PYG{p}{);}
+
+\PYG{c+cm}{/* Calcular el periodo */}
+\PYG{n+nl}{T}\PYG{p}{:}\PYG{+w}{ }\PYG{n}{fin}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n}{inicio}\PYG{p}{;}
+
+\PYG{c+cm}{/* Núcleo de los coeficientes */}
+\PYG{n+nl}{series\PYGZus{}cosine\PYGZus{}core}\PYG{p}{:}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{cos}\PYG{p}{((}\PYG{n}{n}\PYG{o}{*\PYGZpc{}}\PYG{n}{pi}\PYG{o}{*}\PYG{n}{x}\PYG{p}{)}\PYG{o}{/}\PYG{p}{((}\PYG{n}{T}\PYG{p}{))));}
+\PYG{n+nl}{series\PYGZus{}sine\PYGZus{}core}\PYG{p}{:}\PYG{+w}{ }\PYG{n}{sin}\PYG{p}{((}\PYG{n}{n}\PYG{o}{*\PYGZpc{}}\PYG{n}{pi}\PYG{o}{*}\PYG{n}{x}\PYG{p}{)}\PYG{o}{/}\PYG{p}{((}\PYG{n}{T}\PYG{p}{)));}
+
+\PYG{c+cm}{/* Núcleo de los coeficientes para extensión periódica */}
+\PYG{c+cm}{/*series\PYGZus{}cosine\PYGZus{}core: (cos((n*\PYGZpc{}pi*x)/((T/2))));}
+\PYG{c+cm}{series\PYGZus{}sine\PYGZus{}core: sin((n*\PYGZpc{}pi*x)/((T/2)));*/}
+
+\PYG{n+nl}{a0\PYGZus{}acum}\PYG{p}{:}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{n+nl}{an\PYGZus{}acum}\PYG{p}{:}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{n+nl}{bn\PYGZus{}acum}\PYG{p}{:}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+
+\PYG{k}{for}\PYG{+w}{ }\PYG{n}{i}\PYG{o}{:}\PYG{l+m+mi}{1}\PYG{+w}{ }\PYG{n}{thru}\PYG{+w}{ }\PYG{n}{pieces}\PYG{+w}{ }\PYG{k}{do}
+\PYG{p}{(}
+\PYG{n+nl}{trozo}\PYG{p}{:}\PYG{+w}{ }\PYG{n}{func}\PYG{p}{[}\PYG{n}{i}\PYG{p}{],}
+\PYG{n+nl}{piece\PYGZus{}func}\PYG{p}{:}\PYG{+w}{ }\PYG{n}{trozo}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{],}
+\PYG{n+nl}{start}\PYG{p}{:}\PYG{+w}{ }\PYG{n}{trozo}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{],}
+\PYG{n+nl}{end}\PYG{p}{:}\PYG{+w}{ }\PYG{n}{trozo}\PYG{p}{[}\PYG{l+m+mi}{3}\PYG{p}{],}
+
+\PYG{n+nl}{a0}\PYG{p}{:}\PYG{+w}{ }\PYG{p}{(}\PYG{l+m+mi}{2}\PYG{o}{/}\PYG{p}{(}\PYG{n}{T}\PYG{p}{))}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{integrate}\PYG{p}{((}\PYG{n}{piece\PYGZus{}func}\PYG{p}{),}\PYG{+w}{ }\PYG{n}{x}\PYG{+w}{ }\PYG{p}{,(}\PYG{n}{start}\PYG{p}{),}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{end}\PYG{p}{)),}
+\PYG{n+nl}{an}\PYG{p}{:}\PYG{+w}{ }\PYG{p}{(}\PYG{l+m+mi}{2}\PYG{o}{/}\PYG{p}{(}\PYG{n}{T}\PYG{p}{))}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{integrate}\PYG{p}{((}\PYG{n}{piece\PYGZus{}func}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{series\PYGZus{}cosine\PYGZus{}core}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{x}\PYG{+w}{ }\PYG{p}{,(}\PYG{n}{start}\PYG{p}{),}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{end}\PYG{p}{)),}
+\PYG{n+nl}{bn}\PYG{p}{:}\PYG{+w}{ }\PYG{p}{(}\PYG{l+m+mi}{2}\PYG{o}{/}\PYG{p}{(}\PYG{n}{T}\PYG{p}{))}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{integrate}\PYG{p}{((}\PYG{n}{piece\PYGZus{}func}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{series\PYGZus{}sine\PYGZus{}core}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{x}\PYG{+w}{ }\PYG{p}{,(}\PYG{n}{start}\PYG{p}{),}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{end}\PYG{p}{)),}
+
+\PYG{n+nl}{a0\PYGZus{}acum}\PYG{p}{:}\PYG{+w}{ }\PYG{n}{a0}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{a0\PYGZus{}acum}\PYG{p}{,}
+\PYG{n+nl}{an\PYGZus{}acum}\PYG{p}{:}\PYG{+w}{ }\PYG{n}{an}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{an\PYGZus{}acum}\PYG{p}{,}
+\PYG{n+nl}{bn\PYGZus{}acum}\PYG{p}{:}\PYG{+w}{ }\PYG{n}{bn}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{bn\PYGZus{}acum}
+\PYG{p}{)}\PYG{n}{\PYGZdl{}}
+
+\PYG{n+nl}{a0\PYGZus{}simp}\PYG{p}{:}\PYG{+w}{ }\PYG{n}{ratsimp}\PYG{p}{(}\PYG{n}{a0\PYGZus{}acum}\PYG{p}{);}
+\PYG{n+nl}{an\PYGZus{}simp}\PYG{p}{:}\PYG{+w}{ }\PYG{n}{ratsimp}\PYG{p}{(}\PYG{n}{an\PYGZus{}acum}\PYG{p}{);}
+\PYG{n+nl}{bn\PYGZus{}simp}\PYG{p}{:}\PYG{+w}{ }\PYG{n}{ratsimp}\PYG{p}{(}\PYG{n}{bn\PYGZus{}acum}\PYG{p}{);}
+
+\PYG{n+nl}{Coeff\PYGZus{}A0}\PYG{p}{:}\PYG{+w}{ }\PYG{n}{factor}\PYG{p}{(}\PYG{n}{a0\PYGZus{}simp}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{);}
+\PYG{n+nl}{Coeff\PYGZus{}An}\PYG{p}{:}\PYG{+w}{ }\PYG{n}{factor}\PYG{p}{(}\PYG{n}{an\PYGZus{}simp}\PYG{p}{);}
+\PYG{n+nl}{Coeff\PYGZus{}Bn}\PYG{p}{:}\PYG{+w}{ }\PYG{n}{factor}\PYG{p}{(}\PYG{n}{bn\PYGZus{}simp}\PYG{p}{);}
+
+\PYG{n}{tex}\PYG{p}{(}\PYG{n}{Coeff\PYGZus{}A0}\PYG{p}{);}
+\PYG{n}{tex}\PYG{p}{(}\PYG{n}{Coeff\PYGZus{}An}\PYG{p}{);}
+\PYG{n}{kill}\PYG{p}{(}\PYG{n}{all}\PYG{p}{);}
+\end{Verbatim}

@@ -1,0 +1,66 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{// Configuración del canvas y variables iniciales}
+\PYG{k+kd}{const}\PYG{+w}{ }\PYG{n+nx}{canvas}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nb}{document}\PYG{p}{.}\PYG{n+nx}{getElementById}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}canvas\PYGZdq{}}\PYG{p}{);}
+\PYG{k+kd}{const}\PYG{+w}{ }\PYG{n+nx}{ctx}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nx}{canvas}\PYG{p}{.}\PYG{n+nx}{getContext}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}2d\PYGZdq{}}\PYG{p}{);}
+\PYG{k+kd}{let}\PYG{+w}{ }\PYG{n+nx}{width}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nx}{canvas}\PYG{p}{.}\PYG{n+nx}{width}\PYG{p}{;}
+\PYG{k+kd}{let}\PYG{+w}{ }\PYG{n+nx}{height}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nx}{canvas}\PYG{p}{.}\PYG{n+nx}{height}\PYG{p}{;}
+\PYG{k+kd}{let}\PYG{+w}{ }\PYG{n+nx}{unit}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mf}{75}\PYG{p}{;}\PYG{+w}{ }\PYG{c+c1}{// Escala de unidad en el plano}
+\PYG{k+kd}{let}\PYG{+w}{ }\PYG{n+nx}{offsetX}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mf}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{offsetY}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mf}{0}\PYG{p}{;}
+
+\PYG{k+kd}{let}\PYG{+w}{ }\PYG{n+nx}{origin}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{\PYGZob{}}\PYG{+w}{ }\PYG{n+nx}{x}\PYG{o}{:}\PYG{+w}{ }\PYG{n+nx}{width}\PYG{+w}{ }\PYG{o}{/}\PYG{+w}{ }\PYG{l+m+mf}{2}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{y}\PYG{o}{:}\PYG{+w}{ }\PYG{n+nx}{height}\PYG{+w}{ }\PYG{o}{/}\PYG{+w}{ }\PYG{l+m+mf}{2}\PYG{+w}{ }\PYG{p}{\PYGZcb{};}
+
+\PYG{k+kd}{function}\PYG{+w}{ }\PYG{n+nx}{drawScreen}\PYG{p}{()}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{	}\PYG{n+nx}{ctx}\PYG{p}{.}\PYG{n+nx}{clearRect}\PYG{p}{(}\PYG{l+m+mf}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mf}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{width}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{height}\PYG{p}{);}
+\PYG{+w}{	}
+\PYG{+w}{	}\PYG{c+c1}{// Ejes X e Y}
+\PYG{+w}{	}\PYG{k+kd}{const}\PYG{+w}{ }\PYG{n+nx}{XAxis}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{\PYGZob{}}\PYG{+w}{ }\PYG{n+nx}{start}\PYG{o}{:}\PYG{+w}{ }\PYG{p}{\PYGZob{}}\PYG{+w}{ }\PYG{n+nx}{x}\PYG{o}{:}\PYG{+w}{ }\PYG{l+m+mf}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{y}\PYG{o}{:}\PYG{+w}{ }\PYG{n+nx}{height}\PYG{+w}{ }\PYG{o}{/}\PYG{+w}{ }\PYG{l+m+mf}{2}\PYG{+w}{ }\PYG{p}{\PYGZcb{},}\PYG{+w}{ }\PYG{n+nx}{end}\PYG{o}{:}\PYG{+w}{ }\PYG{p}{\PYGZob{}}\PYG{+w}{ }\PYG{n+nx}{x}\PYG{o}{:}\PYG{+w}{ }\PYG{n+nx}{width}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{y}\PYG{o}{:}\PYG{+w}{ }\PYG{n+nx}{height}\PYG{+w}{ }\PYG{o}{/}\PYG{+w}{ }\PYG{l+m+mf}{2}\PYG{+w}{ }\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{p}{\PYGZcb{};}
+\PYG{+w}{	}\PYG{k+kd}{const}\PYG{+w}{ }\PYG{n+nx}{YAxis}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{\PYGZob{}}\PYG{+w}{ }\PYG{n+nx}{start}\PYG{o}{:}\PYG{+w}{ }\PYG{p}{\PYGZob{}}\PYG{+w}{ }\PYG{n+nx}{x}\PYG{o}{:}\PYG{+w}{ }\PYG{n+nx}{width}\PYG{+w}{ }\PYG{o}{/}\PYG{+w}{ }\PYG{l+m+mf}{2}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{y}\PYG{o}{:}\PYG{+w}{ }\PYG{l+m+mf}{0}\PYG{+w}{ }\PYG{p}{\PYGZcb{},}\PYG{+w}{ }\PYG{n+nx}{end}\PYG{o}{:}\PYG{+w}{ }\PYG{p}{\PYGZob{}}\PYG{+w}{ }\PYG{n+nx}{x}\PYG{o}{:}\PYG{+w}{ }\PYG{n+nx}{width}\PYG{+w}{ }\PYG{o}{/}\PYG{+w}{ }\PYG{l+m+mf}{2}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{y}\PYG{o}{:}\PYG{+w}{ }\PYG{n+nx}{height}\PYG{+w}{ }\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{p}{\PYGZcb{};}
+\PYG{+w}{	}
+\PYG{+w}{	}\PYG{n+nx}{origin}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{\PYGZob{}}\PYG{+w}{ }\PYG{n+nx}{x}\PYG{o}{:}\PYG{+w}{ }\PYG{n+nx}{width}\PYG{+w}{ }\PYG{o}{/}\PYG{+w}{ }\PYG{l+m+mf}{2}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{y}\PYG{o}{:}\PYG{+w}{ }\PYG{n+nx}{height}\PYG{+w}{ }\PYG{o}{/}\PYG{+w}{ }\PYG{l+m+mf}{2}\PYG{+w}{ }\PYG{p}{\PYGZcb{};}
+\PYG{+w}{	}
+\PYG{+w}{	}\PYG{c+c1}{// Dibujar ejes}
+\PYG{+w}{	}\PYG{n+nx}{drawAxes}\PYG{p}{(}\PYG{n+nx}{XAxis}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{YAxis}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}\PYGZsh{}90DCB5\PYGZdq{}}\PYG{p}{);}
+\PYG{+w}{	}\PYG{n+nx}{drawGrid}\PYG{p}{(}\PYG{n+nx}{origin}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{XAxis}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{YAxis}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{unit}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}\PYGZsh{}6BBCAC\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}\PYGZsh{}EBEBEB\PYGZdq{}}\PYG{p}{);}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{k+kd}{function}\PYG{+w}{ }\PYG{n+nx}{drawAxes}\PYG{p}{(}\PYG{n+nx}{XAxis}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{YAxis}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{axisColor}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{	}\PYG{n+nx}{ctx}\PYG{p}{.}\PYG{n+nx}{beginPath}\PYG{p}{();}
+\PYG{+w}{	}\PYG{n+nx}{ctx}\PYG{p}{.}\PYG{n+nx}{moveTo}\PYG{p}{(}\PYG{n+nx}{XAxis}\PYG{p}{.}\PYG{n+nx}{start}\PYG{p}{.}\PYG{n+nx}{x}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{XAxis}\PYG{p}{.}\PYG{n+nx}{start}\PYG{p}{.}\PYG{n+nx}{y}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n+nx}{offsetY}\PYG{p}{);}
+\PYG{+w}{	}\PYG{n+nx}{ctx}\PYG{p}{.}\PYG{n+nx}{lineTo}\PYG{p}{(}\PYG{n+nx}{XAxis}\PYG{p}{.}\PYG{n+nx}{end}\PYG{p}{.}\PYG{n+nx}{x}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{XAxis}\PYG{p}{.}\PYG{n+nx}{end}\PYG{p}{.}\PYG{n+nx}{y}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n+nx}{offsetY}\PYG{p}{);}
+\PYG{+w}{	}\PYG{n+nx}{ctx}\PYG{p}{.}\PYG{n+nx}{moveTo}\PYG{p}{(}\PYG{n+nx}{YAxis}\PYG{p}{.}\PYG{n+nx}{start}\PYG{p}{.}\PYG{n+nx}{x}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n+nx}{offsetX}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{YAxis}\PYG{p}{.}\PYG{n+nx}{start}\PYG{p}{.}\PYG{n+nx}{y}\PYG{p}{);}
+\PYG{+w}{	}\PYG{n+nx}{ctx}\PYG{p}{.}\PYG{n+nx}{lineTo}\PYG{p}{(}\PYG{n+nx}{YAxis}\PYG{p}{.}\PYG{n+nx}{end}\PYG{p}{.}\PYG{n+nx}{x}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n+nx}{offsetX}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{YAxis}\PYG{p}{.}\PYG{n+nx}{end}\PYG{p}{.}\PYG{n+nx}{y}\PYG{p}{);}
+\PYG{+w}{	}\PYG{n+nx}{ctx}\PYG{p}{.}\PYG{n+nx}{strokeStyle}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nx}{axisColor}\PYG{p}{;}
+\PYG{+w}{	}\PYG{n+nx}{ctx}\PYG{p}{.}\PYG{n+nx}{lineWidth}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mf}{1}\PYG{p}{;}
+\PYG{+w}{	}\PYG{n+nx}{ctx}\PYG{p}{.}\PYG{n+nx}{stroke}\PYG{p}{();}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{k+kd}{function}\PYG{+w}{ }\PYG{n+nx}{drawGrid}\PYG{p}{(}\PYG{n+nx}{origin}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{XAxis}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{YAxis}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{unit}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{gridColor}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{fontColor}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{	}\PYG{n+nx}{ctx}\PYG{p}{.}\PYG{n+nx}{strokeStyle}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nx}{gridColor}\PYG{p}{;}
+\PYG{+w}{	}\PYG{n+nx}{ctx}\PYG{p}{.}\PYG{n+nx}{fillStyle}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nx}{fontColor}\PYG{p}{;}
+\PYG{+w}{	}
+\PYG{+w}{	}\PYG{k}{for}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kd}{let}\PYG{+w}{ }\PYG{n+nx}{i}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{1000}\PYG{p}{;}\PYG{+w}{ }\PYG{n+nx}{i}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{l+m+mf}{1000}\PYG{p}{;}\PYG{+w}{ }\PYG{n+nx}{i}\PYG{o}{++}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{		}\PYG{k+kd}{const}\PYG{+w}{ }\PYG{n+nx}{x}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nx}{origin}\PYG{p}{.}\PYG{n+nx}{x}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n+nx}{unit}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n+nx}{i}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n+nx}{offsetX}\PYG{p}{;}
+\PYG{+w}{		}\PYG{k+kd}{const}\PYG{+w}{ }\PYG{n+nx}{y}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nx}{origin}\PYG{p}{.}\PYG{n+nx}{y}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n+nx}{unit}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n+nx}{i}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n+nx}{offsetY}\PYG{p}{;}
+\PYG{+w}{		}
+\PYG{+w}{		}\PYG{c+c1}{// Líneas verticales}
+\PYG{+w}{		}\PYG{n+nx}{ctx}\PYG{p}{.}\PYG{n+nx}{beginPath}\PYG{p}{();}
+\PYG{+w}{		}\PYG{n+nx}{ctx}\PYG{p}{.}\PYG{n+nx}{moveTo}\PYG{p}{(}\PYG{n+nx}{x}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{YAxis}\PYG{p}{.}\PYG{n+nx}{start}\PYG{p}{.}\PYG{n+nx}{y}\PYG{p}{);}
+\PYG{+w}{		}\PYG{n+nx}{ctx}\PYG{p}{.}\PYG{n+nx}{lineTo}\PYG{p}{(}\PYG{n+nx}{x}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{YAxis}\PYG{p}{.}\PYG{n+nx}{end}\PYG{p}{.}\PYG{n+nx}{y}\PYG{p}{);}
+\PYG{+w}{		}\PYG{n+nx}{ctx}\PYG{p}{.}\PYG{n+nx}{lineWidth}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{(}\PYG{n+nx}{i}\PYG{+w}{ }\PYG{o}{\PYGZpc{}}\PYG{+w}{ }\PYG{l+m+mf}{5}\PYG{+w}{ }\PYG{o}{===}\PYG{+w}{ }\PYG{l+m+mf}{0}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{?}\PYG{+w}{ }\PYG{l+m+mf}{1}\PYG{+w}{ }\PYG{o}{:}\PYG{+w}{ }\PYG{l+m+mf}{0.25}\PYG{p}{;}
+\PYG{+w}{		}\PYG{n+nx}{ctx}\PYG{p}{.}\PYG{n+nx}{stroke}\PYG{p}{();}
+\PYG{+w}{		}
+\PYG{+w}{		}\PYG{c+c1}{// Líneas horizontales}
+\PYG{+w}{		}\PYG{n+nx}{ctx}\PYG{p}{.}\PYG{n+nx}{beginPath}\PYG{p}{();}
+\PYG{+w}{		}\PYG{n+nx}{ctx}\PYG{p}{.}\PYG{n+nx}{moveTo}\PYG{p}{(}\PYG{n+nx}{XAxis}\PYG{p}{.}\PYG{n+nx}{start}\PYG{p}{.}\PYG{n+nx}{x}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{y}\PYG{p}{);}
+\PYG{+w}{		}\PYG{n+nx}{ctx}\PYG{p}{.}\PYG{n+nx}{lineTo}\PYG{p}{(}\PYG{n+nx}{XAxis}\PYG{p}{.}\PYG{n+nx}{end}\PYG{p}{.}\PYG{n+nx}{x}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{y}\PYG{p}{);}
+\PYG{+w}{		}\PYG{n+nx}{ctx}\PYG{p}{.}\PYG{n+nx}{lineWidth}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{(}\PYG{n+nx}{i}\PYG{+w}{ }\PYG{o}{\PYGZpc{}}\PYG{+w}{ }\PYG{l+m+mf}{5}\PYG{+w}{ }\PYG{o}{===}\PYG{+w}{ }\PYG{l+m+mf}{0}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{?}\PYG{+w}{ }\PYG{l+m+mf}{1}\PYG{+w}{ }\PYG{o}{:}\PYG{+w}{ }\PYG{l+m+mf}{0.25}\PYG{p}{;}
+\PYG{+w}{		}\PYG{n+nx}{ctx}\PYG{p}{.}\PYG{n+nx}{stroke}\PYG{p}{();}
+\PYG{+w}{		}
+\PYG{+w}{		}\PYG{c+c1}{// Etiquetas en los ejes}
+\PYG{+w}{		}\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n+nx}{i}\PYG{+w}{ }\PYG{o}{\PYGZpc{}}\PYG{+w}{ }\PYG{l+m+mf}{5}\PYG{+w}{ }\PYG{o}{===}\PYG{+w}{ }\PYG{l+m+mf}{0}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{			}\PYG{n+nx}{ctx}\PYG{p}{.}\PYG{n+nx}{fillText}\PYG{p}{(}\PYG{n+nx}{i}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{x}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{origin}\PYG{p}{.}\PYG{n+nx}{y}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n+nx}{offsetY}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{l+m+mf}{15}\PYG{p}{);}\PYG{+w}{ }\PYG{c+c1}{// Eje X}
+\PYG{+w}{			}\PYG{n+nx}{ctx}\PYG{p}{.}\PYG{n+nx}{fillText}\PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{n+nx}{i}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{origin}\PYG{p}{.}\PYG{n+nx}{x}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n+nx}{offsetX}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{y}\PYG{p}{);}\PYG{+w}{ }\PYG{c+c1}{// Eje Y}
+\PYG{+w}{		}\PYG{p}{\PYGZcb{}}
+\PYG{+w}{	}\PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

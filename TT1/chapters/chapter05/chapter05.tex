@@ -274,11 +274,28 @@ En la figura \ref{fig:Diagrama_casos_de_uso} se presenta el diagrama de casos de
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{img/chapter04/DCU.pdf}
-	\caption[Diagrama general de casos de uso del sistema]{Diagrama general de casos de uso del sistema. \textit{Fuente: \textit{Elaboración propia}}}
+	\caption[Diagrama general de casos de uso del sistema.]{Diagrama general de casos de uso del sistema. \textit{Fuente: \textit{Elaboración propia}}}
 	\label{fig:Diagrama_casos_de_uso}
 \end{figure}
 El flujo del diagrama inicia con el ingreso de la función y la validación de esta. Opcionalmente, el usuario puede configurar extensiones de medio rango si la serie seleccionada es trigonométrica. Posteriormente, se calcula la Serie de Fourier, y el usuario puede visualizar los resultados numéricos de los coeficientes o interactuar con la gráfica generada.
 
+\section{Diseño de la interfaz de usuario}
+El diseño de las interfaces de usuario proporciona una representación visual clara de las funcionalidades principales del sistema. A continuación, se presentan los mockups de las dos interfaces principales: la interfaz de ingreso de datos y la interfaz de gráficos interactivos.
+\subsection{Interfaz de ingreso de datos}
+Esta interfaz permite al usuario ingresar la función a la cual se le calculará su serie de Fourier, configurar los intervalos de cada sección de la función en caso de añadir más trozos a la misma, además de visualizar la función. Podrá seleccionar si la serie será trigonométrica o exponencial y si es trigonométrica podrá seleccionar sis e trata de una expansión de medio rango.  Además, incluye un teclado en pantalla para facilitar la entrada de funciones matemáticas.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{img/chapter04/mockup_datos.png}
+	\caption[Interfaz de ingreso de datos.]{Interfaz de ingreso de datos. \textit{Fuente: \textit{Elaboración propia}}}
+	\label{fig:mockup_datos}
+\end{figure}
 
-\section{Diseño de la Interfaz de Usuario}
-\subsection{Estructura de la Interfaz}
+\subsection{Interfaz de gráficos interactivos}
+En esta interfaz, el usuario puede visualizar e interactuar con la gráfica de la función original y su aproximación mediante la Serie de Fourier. Incluye herramientas como un control deslizante para ajustar el número de términos de la serie y opciones para hacer zoom o mover la gráfica. Además de visualizar el resultado en notación matemática.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{img/chapter04/mockup_grafica.png}
+	\caption[Interfaz de ingreso de graficación.]{interfaz de ingreso de graficación. \textit{Fuente: \textit{Elaboración propia}}}
+	\label{fig:mockup_grafica}
+\end{figure}
+

@@ -1,0 +1,23 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kd}{function}\PYG{+w}{ }\PYG{n+nx}{drawFunction}\PYG{p}{(}\PYG{n+nx}{mathFunction}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{color}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{	}\PYG{k+kd}{let}\PYG{+w}{ }\PYG{n+nx}{previousX}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k+kc}{undefined}\PYG{p}{;}
+\PYG{+w}{	}\PYG{k+kd}{let}\PYG{+w}{ }\PYG{n+nx}{previousY}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k+kc}{undefined}\PYG{p}{;}
+\PYG{+w}{	}
+\PYG{+w}{	}\PYG{k}{for}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kd}{let}\PYG{+w}{ }\PYG{n+nx}{px}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mf}{0}\PYG{p}{;}\PYG{+w}{ }\PYG{n+nx}{px}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{n+nx}{width}\PYG{p}{;}\PYG{+w}{ }\PYG{n+nx}{px}\PYG{o}{++}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{		}\PYG{k+kd}{const}\PYG{+w}{ }\PYG{n+nx}{x}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{(((}\PYG{n+nx}{px}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n+nx}{offsetX}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{/}\PYG{+w}{ }\PYG{n+nx}{unit}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{p}{((}\PYG{n+nx}{width}\PYG{+w}{ }\PYG{o}{/}\PYG{+w}{ }\PYG{n+nx}{unit}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{/}\PYG{+w}{ }\PYG{l+m+mf}{2}\PYG{p}{));}
+\PYG{+w}{		}\PYG{k+kd}{const}\PYG{+w}{ }\PYG{n+nx}{y}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nx}{mathFunction}\PYG{p}{(}\PYG{n+nx}{x}\PYG{p}{);}
+\PYG{+w}{		}
+\PYG{+w}{		}\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n+nx}{previousX}\PYG{+w}{ }\PYG{o}{!==}\PYG{+w}{ }\PYG{k+kc}{undefined}\PYG{+w}{ }\PYG{o}{\PYGZam{}\PYGZam{}}\PYG{+w}{ }\PYG{n+nx}{previousY}\PYG{+w}{ }\PYG{o}{!==}\PYG{+w}{ }\PYG{k+kc}{undefined}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{			}\PYG{n+nx}{ctx}\PYG{p}{.}\PYG{n+nx}{strokeStyle}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nx}{color}\PYG{p}{;}
+\PYG{+w}{			}\PYG{n+nx}{ctx}\PYG{p}{.}\PYG{n+nx}{beginPath}\PYG{p}{();}
+\PYG{+w}{			}\PYG{n+nx}{ctx}\PYG{p}{.}\PYG{n+nx}{moveTo}\PYG{p}{(}\PYG{n+nx}{previousX}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{previousY}\PYG{p}{);}
+\PYG{+w}{			}\PYG{n+nx}{ctx}\PYG{p}{.}\PYG{n+nx}{lineTo}\PYG{p}{(}\PYG{n+nx}{origin}\PYG{p}{.}\PYG{n+nx}{x}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n+nx}{offsetX}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n+nx}{unit}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n+nx}{x}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{origin}\PYG{p}{.}\PYG{n+nx}{y}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n+nx}{offsetY}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n+nx}{unit}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n+nx}{y}\PYG{p}{);}
+\PYG{+w}{			}\PYG{n+nx}{ctx}\PYG{p}{.}\PYG{n+nx}{lineWidth}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mf}{2}\PYG{p}{;}
+\PYG{+w}{			}\PYG{n+nx}{ctx}\PYG{p}{.}\PYG{n+nx}{stroke}\PYG{p}{();}
+\PYG{+w}{		}\PYG{p}{\PYGZcb{}}
+\PYG{+w}{		}
+\PYG{+w}{		}\PYG{n+nx}{previousX}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nx}{origin}\PYG{p}{.}\PYG{n+nx}{x}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n+nx}{offsetX}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n+nx}{unit}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n+nx}{x}\PYG{p}{;}
+\PYG{+w}{		}\PYG{n+nx}{previousY}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nx}{origin}\PYG{p}{.}\PYG{n+nx}{y}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n+nx}{offsetY}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n+nx}{unit}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n+nx}{y}\PYG{p}{;}
+\PYG{+w}{	}\PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

@@ -2,36 +2,36 @@
 
 \section{Código en Matlab para graficar la serie de Fourier trigonométrica}\label{app3:trig-code-matlab}
 \begin{longlisting}
-	\begin{minted}[linenos, breaklines]{matlab}
-		% Número de términos en la serie de Fourier
-		N = 10; % Puedes modificar N para mejorar la aproximación
+	\begin{minted}[fontsize=\small, linenos, breaklines]{matlab}
+% Número de términos en la serie de Fourier
+N = 10; % Puedes modificar N para mejorar la aproximación
 		
-		% Vector de tiempo de -pi a pi
-		t = linspace(-pi, pi, 1000);
+% Vector de tiempo de -pi a pi
+t = linspace(-pi, pi, 1000);
 		
-		% Función original x(t) = t
-		x_original = t;
+% Función original x(t) = t
+x_original = t;
 		
-		% Inicialización de la aproximación de la serie de Fourier
-		x_aprox = zeros(size(t));
+% Inicialización de la aproximación de la serie de Fourier
+x_aprox = zeros(size(t));
 		
-		% Cálculo de la serie de Fourier en forma trigonométrica
-		for n = 1:N
-		bn = (2 * (-1)^(n+1)) / n; % Coeficientes de seno
-		x_aprox = x_aprox + bn * sin(n * t);
-		end
-		
-		% Gráfica de la función original y su aproximación
-		figure;
-		plot(t, x_original, 'k', 'LineWidth', 1.5); % Función original en negro
-		hold on;
-		plot(t, x_aprox, 'b', 'LineWidth', 1.5); % Aproximación en azul
-		legend('Función original x(t)', ['Aproximación (Forma Trigonométrica) con N = ', num2str(N), ' términos']);
-		xlabel('t');
-		ylabel('x(t)');
-		title('Serie de Fourier (Forma Trigonométrica) de x(t) = t');
-		grid on;
-		hold off;		
+% Cálculo de la serie de Fourier en forma trigonométrica
+for n = 1:N
+bn = (2 * (-1)^(n+1)) / n; % Coeficientes de seno
+x_aprox = x_aprox + bn * sin(n * t);
+end
+
+% Gráfica de la función original y su aproximación
+figure;
+plot(t, x_original, 'k', 'LineWidth', 1.5); % Función original en negro
+hold on;
+plot(t, x_aprox, 'b', 'LineWidth', 1.5); % Aproximación en azul
+legend('Función original x(t)', ['Aproximación (Forma Trigonométrica) con N = ', num2str(N), ' términos']);
+xlabel('t');
+ylabel('x(t)');
+title('Serie de Fourier (Forma Trigonométrica) de x(t) = t');
+grid on;
+hold off;		
 	\end{minted}
 		\caption[Código en Matlab para graficar la serie de Fourier trigonométrica de \ref{app2:trig-coeff}.] {Código en Matlab para graficar la serie de Fourier trigonométrica de \ref{app2:trig-coeff}. \textit{Fuente: Elaboración propia}} 
 
@@ -39,105 +39,104 @@
 
 \section{Código en Matlab para graficar la serie de Fourier compleja}\label{app3:complex-code-matlab}
 \begin{longlisting}
-	\begin{minted}[linenos, breaklines]{matlab}
-		% Número de términos positivos y negativos en la serie de Fourier
-		N = 10; % Puedes modificar N para mejorar la aproximación
-		
-		% Vector de tiempo de -pi a pi
-		t = linspace(-pi, pi, 1000);
-		
-		% Función original x(t) = t
-		x_original = t;
-		
-		% Inicialización de la aproximación de la serie de Fourier
-		x_aprox = zeros(size(t));
-		
-		% Cálculo de la serie de Fourier en forma exponencial compleja
-		for n = -N:N
-		if n == 0
-		continue; % Saltar n = 0 para evitar división por cero
-		end
-		cn = (1i / n) * (-1)^n;
-		x_aprox = x_aprox + cn * exp(1i * n * t);
-		end
-		
-		% Tomar la parte real de la aproximación (la función original es real)
-		x_aprox_real = real(x_aprox);
-		
-		% Gráfica de la función original y su aproximación
-		figure;
-		plot(t, x_original, 'k', 'LineWidth', 1.5); % Función original en negro
-		hold on;
-		plot(t, x_aprox_real, 'b', 'LineWidth', 1.5); % Aproximación en azul
-		legend('Función original x(t)', ['Aproximación (Forma Exponencial) con N = ', num2str(N), ' términos']);
-		xlabel('t');
-		ylabel('x(t)');
-		title('Serie de Fourier (Forma Exponencial Compleja) de x(t) = t');
-		grid on;
-		hold off;	
+	\begin{minted}[fontsize=\small, linenos, breaklines]{matlab}
+% Número de términos positivos y negativos en la serie de Fourier
+N = 10; % Puedes modificar N para mejorar la aproximación
+
+% Vector de tiempo de -pi a pi
+t = linspace(-pi, pi, 1000);
+
+% Función original x(t) = t
+x_original = t;
+
+% Inicialización de la aproximación de la serie de Fourier
+x_aprox = zeros(size(t));
+
+% Cálculo de la serie de Fourier en forma exponencial compleja
+for n = -N:N
+if n == 0
+continue; % Saltar n = 0 para evitar división por cero
+end
+cn = (1i / n) * (-1)^n;
+x_aprox = x_aprox + cn * exp(1i * n * t);
+end
+
+% Tomar la parte real de la aproximación (la función original es real)
+x_aprox_real = real(x_aprox);
+
+% Gráfica de la función original y su aproximación
+figure;
+plot(t, x_original, 'k', 'LineWidth', 1.5); % Función original en negro
+hold on;
+plot(t, x_aprox_real, 'b', 'LineWidth', 1.5); % Aproximación en azul
+legend('Función original x(t)', ['Aproximación (Forma Exponencial) con N = ', num2str(N), ' términos']);
+xlabel('t');
+ylabel('x(t)');
+title('Serie de Fourier (Forma Exponencial Compleja) de x(t) = t');
+grid on;
+hold off;	
 	\end{minted}
 	\caption[Código en Matlab para graficar la serie de Fourier compleja de \ref{app2:complex-coeff}.] {Código en Matlab para graficar la serie de Fourier trigonométrica de \ref{app2:complex-coeff}. \textit{Fuente: Elaboración propia}} 
 \end{longlisting}
 
 \section{Código en Maple para la serie de Fourier trigonométrica}\label{app3:trig-code-maple}
 \begin{longlisting}
-	\begin{minted}[linenos, breaklines]{r}
-		# Declaramos n como entero
-		assume(n, integer);
-		
-		# Definimos la función
-		func := x;
-	
-		# Periodo de la serie de Fourier
-		T := 2*Pi;
-		
-		# Núcleos de las series de Fourier
-		series_cosine_core := cos(n*Pi*x/(T/2));
-		series_sine_core := sin(n*Pi*x/(T/2));
-		
-		# Coeficientes de Fourier
-		a0 := (1/(T/2)) * int(func, x = -T/2..T/2);
-		an := (1/(T/2)) * int(func * series_cosine_core, x = -T/2..T/2);
-		bn := (1/(T/2)) * int(func * series_sine_core, x = -T/2..T/2);
-		
-		# Simplificamos los coeficientes
-		a0_simp := simplify(a0);
-		an_simp := simplify(an);
-		bn_simp := simplify(bn);
-		
-		# Factorizamos los coeficientes
-		Coeff_A0 := factor(a0_simp);
-		Coeff_An := factor(an_simp);
-		Coeff_Bn := factor(bn_simp);
-		
-		# Definimos el rango de n positivo y negativo
-		n1 := 1;
-		n2 := 5;
-		
-		# Creamos la lista de An
-		lista_An := [seq(simplify(subs(n = i, Coeff_An * series_cosine_core)), i = n1..n2)];
-		
-		# Creamos la lista de Bn
-		lista_Bn := [seq(simplify(subs(n = i, Coeff_Bn * series_sine_core)), i = n1..n2)];
-		
-		# Sumamos los coeficientes An y Bn
-		lista_completa := lista_An, lista_Bn;
-		
-		# Crear la serie final añadiendo A0 al principio de la lista completa
-		serie_final := [Coeff_A0/2, lista_completa];
-		serie_final := simplify(lista_completa);
-		
-		# Factorizamos la serie final
-		serie_factor := factor(serie_final);
-		
-		# Suma de todos los coeficientes en una sola variable
-		serie_funcion := Coeff_A0/2 + add(lista_An[i], i = 1 .. nops(lista_An)) + add(lista_Bn[i], i = 1 .. nops(lista_Bn));
-		
-		# Simplificamos la expresión para obtener la forma más compacta
-		serie_funcion_simplificada := simplify(serie_funcion);
-		
-		# Graficamos la función y la serie aproximada
-		plot([func, serie_funcion_simplificada], x = -T/2..T/2);	
+	\begin{minted}[fontsize=\small, linenos, breaklines]{r}
+# Declaramos n como entero
+assume(n, integer);
+
+# Definimos la función
+func := x;
+# Periodo de la serie de Fourier
+T := 2*Pi;
+
+# Núcleos de las series de Fourier
+series_cosine_core := cos(n*Pi*x/(T/2));
+series_sine_core := sin(n*Pi*x/(T/2));
+
+# Coeficientes de Fourier
+a0 := (1/(T/2)) * int(func, x = -T/2..T/2);
+an := (1/(T/2)) * int(func * series_cosine_core, x = -T/2..T/2);
+bn := (1/(T/2)) * int(func * series_sine_core, x = -T/2..T/2);
+
+# Simplificamos los coeficientes
+a0_simp := simplify(a0);
+an_simp := simplify(an);
+bn_simp := simplify(bn);
+
+# Factorizamos los coeficientes
+Coeff_A0 := factor(a0_simp);
+Coeff_An := factor(an_simp);
+Coeff_Bn := factor(bn_simp);
+
+# Definimos el rango de n positivo y negativo
+n1 := 1;
+n2 := 5;
+
+# Creamos la lista de An
+lista_An := [seq(simplify(subs(n = i, Coeff_An * series_cosine_core)), i = n1..n2)];
+
+# Creamos la lista de Bn
+lista_Bn := [seq(simplify(subs(n = i, Coeff_Bn * series_sine_core)), i = n1..n2)];
+
+# Sumamos los coeficientes An y Bn
+lista_completa := lista_An, lista_Bn;
+
+# Crear la serie final añadiendo A0 al principio de la lista completa
+serie_final := [Coeff_A0/2, lista_completa];
+serie_final := simplify(lista_completa);
+
+# Factorizamos la serie final
+serie_factor := factor(serie_final);
+
+# Suma de todos los coeficientes en una sola variable
+serie_funcion := Coeff_A0/2 + add(lista_An[i], i = 1 .. nops(lista_An)) + add(lista_Bn[i], i = 1 .. nops(lista_Bn));
+
+# Simplificamos la expresión para obtener la forma más compacta
+serie_funcion_simplificada := simplify(serie_funcion);
+
+# Graficamos la función y la serie aproximada
+plot([func, serie_funcion_simplificada], x = -T/2..T/2);	
 	\end{minted}
 	\caption[Código en Maple para calcular y graficar la serie de Fourier trigonométrica de \ref{app2:trig-coeff}.] {Código en Maple para calcular y graficar la serie de Fourier trigonométrica de \ref{app2:trig-coeff}. \textit{Fuente: Elaboración propia}} 
 \end{longlisting}
@@ -145,63 +144,63 @@
 
 \section{Código en Maple para la serie de Fourier Compleja}\label{app3:complex-code-maple}
 \begin{longlisting}
-	\begin{minted}[linenos, breaklines]{r}
-		# Declaramos n como entero
-		assume(n, integer);
-		
-		# Definimos la función
-		func := x;
-		
-		# Periodo de la serie de Fourier
-		T := 2*Pi;
-		
-		# Núcleos de las series de Fourier
-		series_cosine_core := cos(n*Pi*x/(T/2));
-		series_sine_core := sin(n*Pi*x/(T/2));
-		
-		# Coeficientes de Fourier
-		a0 := (1/(T/2)) * int(func, x = -T/2..T/2);
-		an := (1/(T/2)) * int(func * series_cosine_core, x = -T/2..T/2);
-		bn := (1/(T/2)) * int(func * series_sine_core, x = -T/2..T/2);
-		
-		# Simplificamos los coeficientes
-		a0_simp := simplify(a0);
-		an_simp := simplify(an);
-		bn_simp := simplify(bn);
-		
-		# Factorizamos los coeficientes
-		Coeff_A0 := factor(a0_simp);
-		Coeff_An := factor(an_simp);
-		Coeff_Bn := factor(bn_simp);
-		
-		# Definimos el rango de n positivo y negativo
-		n1 := 1;
-		n2 := 5;
-		
-		# Creamos la lista de An
-		lista_An := [seq(simplify(subs(n = i, Coeff_An * series_cosine_core)), i = n1..n2)];
-		
-		# Creamos la lista de Bn
-		lista_Bn := [seq(simplify(subs(n = i, Coeff_Bn * series_sine_core)), i = n1..n2)];
-		
-		# Sumamos los coeficientes An y Bn
-		lista_completa := lista_An, lista_Bn;
-		
-		# Crear la serie final añadiendo A0 al principio de la lista completa
-		serie_final := [Coeff_A0/2, lista_completa];
-		serie_final := simplify(lista_completa);
-		
-		# Factorizamos la serie final
-		serie_factor := factor(serie_final);
-		
-		# Suma de todos los coeficientes en una sola variable
-		serie_funcion := Coeff_A0/2 + add(lista_An[i], i = 1 .. nops(lista_An)) + add(lista_Bn[i], i = 1 .. nops(lista_Bn));
-		
-		# Simplificamos la expresión para obtener la forma más compacta
-		serie_funcion_simplificada := simplify(serie_funcion);
-		
-		# Graficamos la función y la serie aproximada
-		plot([func, serie_funcion_simplificada], x = -T/2..T/2);	
+	\begin{minted}[fontsize=\small,linenos, breaklines]{r}
+# Declaramos n como entero
+assume(n, integer);
+
+# Definimos la función
+func := x;
+
+# Periodo de la serie de Fourier
+T := 2*Pi;
+
+# Núcleos de las series de Fourier
+series_cosine_core := cos(n*Pi*x/(T/2));
+series_sine_core := sin(n*Pi*x/(T/2));
+
+# Coeficientes de Fourier
+a0 := (1/(T/2)) * int(func, x = -T/2..T/2);
+an := (1/(T/2)) * int(func * series_cosine_core, x = -T/2..T/2);
+bn := (1/(T/2)) * int(func * series_sine_core, x = -T/2..T/2);
+
+# Simplificamos los coeficientes
+a0_simp := simplify(a0);
+an_simp := simplify(an);
+bn_simp := simplify(bn);
+
+# Factorizamos los coeficientes
+Coeff_A0 := factor(a0_simp);
+Coeff_An := factor(an_simp);
+Coeff_Bn := factor(bn_simp);
+
+# Definimos el rango de n positivo y negativo
+n1 := 1;
+n2 := 5;
+
+# Creamos la lista de An
+lista_An := [seq(simplify(subs(n = i, Coeff_An * series_cosine_core)), i = n1..n2)];
+
+# Creamos la lista de Bn
+lista_Bn := [seq(simplify(subs(n = i, Coeff_Bn * series_sine_core)), i = n1..n2)];
+
+# Sumamos los coeficientes An y Bn
+lista_completa := lista_An, lista_Bn;
+
+# Crear la serie final añadiendo A0 al principio de la lista completa
+serie_final := [Coeff_A0/2, lista_completa];
+serie_final := simplify(lista_completa);
+
+# Factorizamos la serie final
+serie_factor := factor(serie_final);
+
+# Suma de todos los coeficientes en una sola variable
+serie_funcion := Coeff_A0/2 + add(lista_An[i], i = 1 .. nops(lista_An)) + add(lista_Bn[i], i = 1 .. nops(lista_Bn));
+
+# Simplificamos la expresión para obtener la forma más compacta
+serie_funcion_simplificada := simplify(serie_funcion);
+
+# Graficamos la función y la serie aproximada
+plot([func, serie_funcion_simplificada], x = -T/2..T/2);	
 	\end{minted}
 	\caption[Código en Maple para calcular y graficar la serie de Fourier compleja de \ref{app2:complex-coeff}.] {Código en Maple para calcular y graficar la serie de Fourier compleja de \ref{app2:complex-coeff}. \textit{Fuente: Elaboración propia}} 
 \end{longlisting}
@@ -209,56 +208,56 @@
 
 \section{Código en Maxima para la serie de Fourier trigonométrica}\label{app3:trig-code-maxima}
 \begin{longlisting}
-	\begin{minted}[linenos, breaklines]{c}
-		declare(n, integer);
-		func: x;
-		/*func: ((3*x**3)-2*x+3);*/
-		T: 2*%pi;
-		series_cosine_core: cos((n*%pi*x)/((T/2)));
-		series_sine_core: sin((n*%pi*x)/((T/2)));
-		
-		a0: (1/(T/2)) * integrate((func), x ,-(T/2), (T/2));
-		an: (1/(T/2)) * integrate((func) * series_cosine_core, x ,-(T/2), (T/2));
-		bn: (1/(T/2)) * integrate((func) * series_sine_core, x ,-(T/2), (T/2));
-		
-		a0_simp: ratsimp(a0);
-		an_simp: ratsimp(an);
-		bn_simp: ratsimp(bn);
-		
-		Coeff_A0: factor(a0_simp);
-		Coeff_An: factor(an_simp);
-		Coeff_Bn: factor(bn_simp);
-		
-		/* Definimos el rango de n positivo y negativo */
-		n1 : 1;
-		n2 : 10;
-		
-		/* Creamos la lista de An */
-		lista_An : makelist(subst(n=i, Coeff_An * series_cosine_core), i, n1, n2);
-		
-		/* Creamos la lista de Bn */
-		lista_Bn : makelist(subst(n=i, Coeff_Bn * series_sine_core), i, n1, n2);
-		
-		/* Sumamos los coeficientes An + Bn */
-		lista_completa : lista_An + lista_Bn;
-		
-		/* Crear la serie final añadiendo A0 al principio de la lista completa */
-		/*serie_final: cons(Coeff_A0/2, lista_completa);*/
-		
-		serie_final: ratsimp(lista_completa);
-		
-		serie_factor: factor(serie_final);
-		
-		/* Suma de todos los coeficientes en una sola variable */
-		serie_funcion : Coeff_A0/2 + sum(lista_An[i], i, 1, length(lista_An)) + sum(lista_Bn[i], i, 1, length(lista_Bn));
-		
-		/* Simplificamos la expresión para obtener la forma más compacta */
-		serie_funcion_simplificada : ratsimp(serie_funcion);
-		
-		/* Graficamos la expresión */
-		plot2d([func, serie_funcion_simplificada], [x, -T/2, T/2]);
-		
-		kill(all);	
+	\begin{minted}[fontsize=\small, linenos, breaklines]{c}
+declare(n, integer);
+func: x;
+/*func: ((3*x**3)-2*x+3);*/
+T: 2*%pi;
+series_cosine_core: cos((n*%pi*x)/((T/2)));
+series_sine_core: sin((n*%pi*x)/((T/2)));
+
+a0: (1/(T/2)) * integrate((func), x ,-(T/2), (T/2));
+an: (1/(T/2)) * integrate((func) * series_cosine_core, x ,-(T/2), (T/2));
+bn: (1/(T/2)) * integrate((func) * series_sine_core, x ,-(T/2), (T/2));
+
+a0_simp: ratsimp(a0);
+an_simp: ratsimp(an);
+bn_simp: ratsimp(bn);
+
+Coeff_A0: factor(a0_simp);
+Coeff_An: factor(an_simp);
+Coeff_Bn: factor(bn_simp);
+
+/* Definimos el rango de n positivo y negativo */
+n1 : 1;
+n2 : 10;
+
+/* Creamos la lista de An */
+lista_An : makelist(subst(n=i, Coeff_An * series_cosine_core), i, n1, n2);
+
+/* Creamos la lista de Bn */
+lista_Bn : makelist(subst(n=i, Coeff_Bn * series_sine_core), i, n1, n2);
+
+/* Sumamos los coeficientes An + Bn */
+lista_completa : lista_An + lista_Bn;
+
+/* Crear la serie final añadiendo A0 al principio de la lista completa */
+/*serie_final: cons(Coeff_A0/2, lista_completa);*/
+
+serie_final: ratsimp(lista_completa);
+
+serie_factor: factor(serie_final);
+
+/* Suma de todos los coeficientes en una sola variable */
+serie_funcion : Coeff_A0/2 + sum(lista_An[i], i, 1, length(lista_An)) + sum(lista_Bn[i], i, 1, length(lista_Bn));
+
+/* Simplificamos la expresión para obtener la forma más compacta */
+serie_funcion_simplificada : ratsimp(serie_funcion);
+
+/* Graficamos la expresión */
+plot2d([func, serie_funcion_simplificada], [x, -T/2, T/2]);
+
+kill(all);	
 	\end{minted}
 	\caption[Código en Maxima para calcular y graficar la serie de Fourier trigonométrica de \ref{app2:trig-coeff}.] {Código en Maxima para calcular y graficar la serie de Fourier trigonométrica de \ref{app2:trig-coeff}. \textit{Fuente: Elaboración propia}} 
 \end{longlisting}
@@ -266,56 +265,56 @@
 
 \section{Código en Maxima para la serie de Fourier compleja}\label{app3:complex-code-maxima}
 \begin{longlisting}
-	\begin{minted}[linenos, breaklines]{c}
-		declare(n, integer);
-		func: x;
-		/*func: ((3*x**3)-2*x+3);*/
-		T: 2*%pi;
-		series_cosine_core: cos((n*%pi*x)/((T/2)));
-		series_sine_core: sin((n*%pi*x)/((T/2)));
-		
-		a0: (1/(T/2)) * integrate((func), x ,-(T/2), (T/2));
-		an: (1/(T/2)) * integrate((func) * series_cosine_core, x ,-(T/2), (T/2));
-		bn: (1/(T/2)) * integrate((func) * series_sine_core, x ,-(T/2), (T/2));
-		
-		a0_simp: ratsimp(a0);
-		an_simp: ratsimp(an);
-		bn_simp: ratsimp(bn);
-		
-		Coeff_A0: factor(a0_simp);
-		Coeff_An: factor(an_simp);
-		Coeff_Bn: factor(bn_simp);
-		
-		/* Definimos el rango de n positivo y negativo */
-		n1 : 1;
-		n2 : 10;
-		
-		/* Creamos la lista de An */
-		lista_An : makelist(subst(n=i, Coeff_An * series_cosine_core), i, n1, n2);
-		
-		/* Creamos la lista de Bn */
-		lista_Bn : makelist(subst(n=i, Coeff_Bn * series_sine_core), i, n1, n2);
-		
-		/* Sumamos los coeficientes An + Bn */
-		lista_completa : lista_An + lista_Bn;
-		
-		/* Crear la serie final añadiendo A0 al principio de la lista completa */
-		/*serie_final: cons(Coeff_A0/2, lista_completa);*/
-		
-		serie_final: ratsimp(lista_completa);
-		
-		serie_factor: factor(serie_final);
-		
-		/* Suma de todos los coeficientes en una sola variable */
-		serie_funcion : Coeff_A0/2 + sum(lista_An[i], i, 1, length(lista_An)) + sum(lista_Bn[i], i, 1, length(lista_Bn));
-		
-		/* Simplificamos la expresión para obtener la forma más compacta */
-		serie_funcion_simplificada : ratsimp(serie_funcion);
-		
-		/* Graficamos la expresión */
-		plot2d([func, serie_funcion_simplificada], [x, -T/2, T/2]);
-		
-		kill(all);	
+	\begin{minted}[fontsize=\small, linenos, breaklines]{c}
+declare(n, integer);
+func: x;
+/*func: ((3*x**3)-2*x+3);*/
+T: 2*%pi;
+series_cosine_core: cos((n*%pi*x)/((T/2)));
+series_sine_core: sin((n*%pi*x)/((T/2)));
+
+a0: (1/(T/2)) * integrate((func), x ,-(T/2), (T/2));
+an: (1/(T/2)) * integrate((func) * series_cosine_core, x ,-(T/2), (T/2));
+bn: (1/(T/2)) * integrate((func) * series_sine_core, x ,-(T/2), (T/2));
+
+a0_simp: ratsimp(a0);
+an_simp: ratsimp(an);
+bn_simp: ratsimp(bn);
+
+Coeff_A0: factor(a0_simp);
+Coeff_An: factor(an_simp);
+Coeff_Bn: factor(bn_simp);
+
+/* Definimos el rango de n positivo y negativo */
+n1 : 1;
+n2 : 10;
+
+/* Creamos la lista de An */
+lista_An : makelist(subst(n=i, Coeff_An * series_cosine_core), i, n1, n2);
+
+/* Creamos la lista de Bn */
+lista_Bn : makelist(subst(n=i, Coeff_Bn * series_sine_core), i, n1, n2);
+
+/* Sumamos los coeficientes An + Bn */
+lista_completa : lista_An + lista_Bn;
+
+/* Crear la serie final añadiendo A0 al principio de la lista completa */
+/*serie_final: cons(Coeff_A0/2, lista_completa);*/
+
+serie_final: ratsimp(lista_completa);
+
+serie_factor: factor(serie_final);
+
+/* Suma de todos los coeficientes en una sola variable */
+serie_funcion : Coeff_A0/2 + sum(lista_An[i], i, 1, length(lista_An)) + sum(lista_Bn[i], i, 1, length(lista_Bn));
+
+/* Simplificamos la expresión para obtener la forma más compacta */
+serie_funcion_simplificada : ratsimp(serie_funcion);
+
+/* Graficamos la expresión */
+plot2d([func, serie_funcion_simplificada], [x, -T/2, T/2]);
+
+kill(all);	
 	\end{minted}
 	\caption[Código en Maxima para calcular y graficar la serie de Fourier compleja de \ref{app2:complex-coeff}.] {Código en Maxima para calcular y graficar la serie de Fourier compleja de \ref{app2:complex-coeff}. \textit{Fuente: Elaboración propia}} 
 \end{longlisting}
@@ -323,52 +322,52 @@
 
 \section{Código en Python usando matplotlib y sympy para la serie de Fourier trigonométrica}\label{app3:trig-code-python-matplotlib-sympy}
 \begin{longlisting}
-	\begin{minted}[linenos, breaklines]{python}
-	import numpy as np
-	import matplotlib.pyplot as plt
-	import sympy as sp
-	
-	# Definimos las variables simbólicas
-	x = sp.symbols('x')
-	
-	# Pedimos al usuario que ingrese la función
-	user_function = input("Ingresa la función a aproximar (en términos de x, por ejemplo: sin(x), cos(x), x**2, etc.): ")
-	function = sp.sympify(user_function)
-	
-	# Definimos el intervalo y el número de términos de la serie de Fourier
-	L = np.pi  # Longitud del intervalo
-	N = 10  # Número de términos en la serie de Fourier
-	
-	# Calculamos los coeficientes a0, an, bn
-	a0 = (1 / (2 * L)) * sp.integrate(function, (x, -L, L))
-	an = lambda n: (1 / L) * sp.integrate(function * sp.cos(n * np.pi * x / L), (x, -L, L))
-	bn = lambda n: (1 / L) * sp.integrate(function * sp.sin(n * np.pi * x / L), (x, -L, L))
-	
-	# Calculamos la serie de Fourier
-	t = np.linspace(-L, L, 1000)
-	fourier_series = a0.evalf()
-	
-	for n in range(1, N + 1):
-	fourier_series += an(n).evalf() * np.cos(n * np.pi * t / L) + bn(n).evalf() * np.sin(n * np.pi * t / L)
-	
-	# Convertimos la función original a una función NumPy para graficar
-	f_original = sp.lambdify(x, function, modules='numpy')
-	
-	# Graficamos la función original y su serie de Fourier
-	plt.figure(figsize=(10, 6))
-	plt.plot(t, f_original(t), label='Función Original', color='red', linewidth=2)
-	plt.plot(t, fourier_series, label='Serie de Fourier (N=10)', color='blue', linestyle='--')
-	plt.title('Aproximación de una Función con Serie de Fourier')
-	plt.xlabel('x')
-	plt.ylabel('Amplitud')
-	plt.axhline(0, color='black', linewidth=0.5, linestyle='--')
-	plt.axvline(0, color='black', linewidth=0.5, linestyle='-')
-	plt.grid()
-	plt.legend()
-	
-	# Guarda la gráfica como archivo
-	plt.savefig('serie_fourier.png')
-	print("La gráfica se ha guardado como 'serie_fourier.png'.")
+	\begin{minted}[fontsize=\small, linenos, breaklines]{python}
+import numpy as np
+import matplotlib.pyplot as plt
+import sympy as sp
+
+# Definimos las variables simbólicas
+x = sp.symbols('x')
+
+# Pedimos al usuario que ingrese la función
+user_function = input("Ingresa la función a aproximar (en términos de x, por ejemplo: sin(x), cos(x), x**2, etc.): ")
+function = sp.sympify(user_function)
+
+# Definimos el intervalo y el número de términos de la serie de Fourier
+L = np.pi  # Longitud del intervalo
+N = 10  # Número de términos en la serie de Fourier
+
+# Calculamos los coeficientes a0, an, bn
+a0 = (1 / (2 * L)) * sp.integrate(function, (x, -L, L))
+an = lambda n: (1 / L) * sp.integrate(function * sp.cos(n * np.pi * x / L), (x, -L, L))
+bn = lambda n: (1 / L) * sp.integrate(function * sp.sin(n * np.pi * x / L), (x, -L, L))
+
+# Calculamos la serie de Fourier
+t = np.linspace(-L, L, 1000)
+fourier_series = a0.evalf()
+
+for n in range(1, N + 1):
+fourier_series += an(n).evalf() * np.cos(n * np.pi * t / L) + bn(n).evalf() * np.sin(n * np.pi * t / L)
+
+# Convertimos la función original a una función NumPy para graficar
+f_original = sp.lambdify(x, function, modules='numpy')
+
+# Graficamos la función original y su serie de Fourier
+plt.figure(figsize=(10, 6))
+plt.plot(t, f_original(t), label='Función Original', color='red', linewidth=2)
+plt.plot(t, fourier_series, label='Serie de Fourier (N=10)', color='blue', linestyle='--')
+plt.title('Aproximación de una Función con Serie de Fourier')
+plt.xlabel('x')
+plt.ylabel('Amplitud')
+plt.axhline(0, color='black', linewidth=0.5, linestyle='--')
+plt.axvline(0, color='black', linewidth=0.5, linestyle='-')
+plt.grid()
+plt.legend()
+
+# Guarda la gráfica como archivo
+plt.savefig('serie_fourier.png')
+print("La gráfica se ha guardado como 'serie_fourier.png'.")
 	\end{minted}
 	\caption[Código en Pyhton con matplotlib y sympy para graficar la serie de Fourier trigonométrica de \ref{app2:trig-coeff}.] {Código en Pyhton con matplotlib y sympy para graficar la serie de Fourier trigonométrica de \ref{app2:trig-coeff}. \textit{Fuente: Elaboración propia}} 
 \end{longlisting}
@@ -376,429 +375,945 @@
 
 \section{Código en Python usando matplotlib y sympy para la serie de Fourier compleja}\label{app3:complex-code-python-matplotlib-sympy}
 \begin{longlisting}
-	\begin{minted}[linenos, breaklines]{python}
-	import numpy as np
-	import matplotlib.pyplot as plt
-	import sympy as sp
-	
-	# Definimos las variables simbólicas
-	x = sp.symbols('x')
-	
-	# Pedimos al usuario que ingrese la función
-	user_function = input("Ingresa la función a aproximar (en términos de x, por ejemplo: sin(x), cos(x), x**2, etc.): ")
-	function = sp.sympify(user_function)
-	
-	# Definimos el intervalo y el número de términos de la serie de Fourier
-	L = np.pi  # Longitud del intervalo
-	N = 10  # Número de términos en la serie de Fourier
-	
-	# Calculamos los coeficientes cn para la serie de Fourier en su forma exponencial compleja
-	cn = lambda n: (1 / (2 * L)) * sp.integrate(function * sp.exp(-1j * n * sp.pi * x / L), (x, -L, L))
-	
-	# Calculamos la serie de Fourier en su forma exponencial compleja
-	t = np.linspace(-L, L, 1000)
-	fourier_series_complex = 0
-	
-	for n in range(-N, N + 1):
-	fourier_series_complex += cn(n).evalf() * np.exp(1j * n * np.pi * t / L)
-	
-	# Convertimos la función original a una función NumPy para graficar
-	f_original = sp.lambdify(x, function, modules='numpy')
-	
-	# Graficamos la función original y su serie de Fourier
-	plt.figure(figsize=(10, 6))
-	plt.plot(t, f_original(t), label='Función Original', color='red', linewidth=2)
-	plt.plot(t, fourier_series_complex.real, label='Serie de Fourier Compleja (N=10)', color='blue', linestyle='--')
-	plt.title('Aproximación de una Función con Serie de Fourier Compleja')
-	plt.xlabel('x')
-	plt.ylabel('Amplitud')
-	plt.axhline(0, color='black', linewidth=0.5, linestyle='--')
-	plt.axvline(0, color='black', linewidth=0.5, linestyle='-')
-	plt.grid()
-	plt.legend()
-	
-	# Guarda la gráfica como archivo
-	plt.savefig('serie_fourier_compleja.png')
-	print("La gráfica se ha guardado como 'serie_fourier_compleja.png'.")
+	\begin{minted}[fontsize=\small, linenos, breaklines]{python}
+import numpy as np
+import matplotlib.pyplot as plt
+import sympy as sp
+
+# Definimos las variables simbólicas
+x = sp.symbols('x')
+
+# Pedimos al usuario que ingrese la función
+user_function = input("Ingresa la función a aproximar (en términos de x, por ejemplo: sin(x), cos(x), x**2, etc.): ")
+function = sp.sympify(user_function)
+
+# Definimos el intervalo y el número de términos de la serie de Fourier
+L = np.pi  # Longitud del intervalo
+N = 10  # Número de términos en la serie de Fourier
+
+# Calculamos los coeficientes cn para la serie de Fourier en su forma exponencial compleja
+cn = lambda n: (1 / (2 * L)) * sp.integrate(function * sp.exp(-1j * n * sp.pi * x / L), (x, -L, L))
+
+# Calculamos la serie de Fourier en su forma exponencial compleja
+t = np.linspace(-L, L, 1000)
+fourier_series_complex = 0
+
+for n in range(-N, N + 1):
+fourier_series_complex += cn(n).evalf() * np.exp(1j * n * np.pi * t / L)
+
+# Convertimos la función original a una función NumPy para graficar
+f_original = sp.lambdify(x, function, modules='numpy')
+
+# Graficamos la función original y su serie de Fourier
+plt.figure(figsize=(10, 6))
+plt.plot(t, f_original(t), label='Función Original', color='red', linewidth=2)
+plt.plot(t, fourier_series_complex.real, label='Serie de Fourier Compleja (N=10)', color='blue', linestyle='--')
+plt.title('Aproximación de una Función con Serie de Fourier Compleja')
+plt.xlabel('x')
+plt.ylabel('Amplitud')
+plt.axhline(0, color='black', linewidth=0.5, linestyle='--')
+plt.axvline(0, color='black', linewidth=0.5, linestyle='-')
+plt.grid()
+plt.legend()
+
+# Guarda la gráfica como archivo
+plt.savefig('serie_fourier_compleja.png')
+print("La gráfica se ha guardado como 'serie_fourier_compleja.png'.")
 	\end{minted}
 	\caption[Código en Pyhton con matplotlib y sympy para calcular y graficar la serie de Fourier compleja de \ref{app2:complex-coeff}.] {Código en Pyhton con matplotlib y sympy para calcular y graficar la serie de Fourier compleja de \ref{app2:complex-coeff}. \textit{Fuente: Elaboración propia}} 
 \end{longlisting}
 
 
-\paragraph{Código en Python usando manim para la serie de Fourier trigonométrica} \label{app3:trig-code-python-manim}
+\section{Código en Python usando manim para la serie de Fourier trigonométrica} \label{app3:trig-code-python-manim}
 \begin{longlisting}
-	\begin{minted}[linenos, breaklines]{python}
-		# Importamos todas la funciones de manim
-		from manim import *
+	\begin{minted}[fontsize=\small, linenos, breaklines]{python}
+# Importamos todas la funciones de manim
+from manim import *
+
+# Creamos una escena
+class Prueba(Scene):
+def construct(self):
+
+#Definimos un color de fondo para todo el lienzo
+self.camera.background_color = "#212121" 
+
+x_labels = [
+"-3\\pi",                #   -3pi
+"-\\frac{5\\pi}{2}",     #  -5pi/2
+"-2\\pi",                #   -2pi
+"-\\frac{3\\pi}{2}",     #  -3pi/2
+"-\\pi",                 #   -pi
+"-\\frac{\\pi}{2}",      #   -pi/2
+"0",                     #   Blank
+"\\frac{\\pi}{2}",       #     pi/2
+"\\pi",                  #     pi
+"\\frac{3\\pi}{2}",      #     3pi/2
+"2\\pi",                 #    2pi
+"\\frac{5\\pi}{2}",      #     5pi/2
+"3\\pi"                  #    3pi
+]
+
+y_labels = [
+"-\\frac{3\\pi}{2}",     #  -3pi/2
+"-\\pi",                 #   -pi
+"-\\frac{\\pi}{2}",      #   -pi/2
+"0",                     #   Blank
+"\\frac{\\pi}{2}",       #     pi/2
+"\\pi",                  #     pi
+"\\frac{3\\pi}{2}"      #     3pi/2	
+]
+
+# Creamos los ejes
+ejes=Axes(
+x_range = (-3*PI, 3*PI, PI), # Rango del eje x (inicio, fin, de cuanto en cuanto avanza)
+x_length=(6),       # Tamaño del eje x
+y_range = (-3*PI/2, 3*PI/2, PI), # Rango del eje y (inicio, fin, de cuanto en cuanto avanza)
+y_length=(3),       # Tamaño del eje y
 		
-		# Creamos una escena
-		class Prueba(Scene):
-		def construct(self):
+# Configuramos los ejes.
+axis_config={
+	"include_numbers": False,        # Los ejes se numerarán
+	"font_size": 13,                # Tamaño de los números
+	"tip_width": 0.05,              # Ancho de la punta
+	"tip_height": 0.03,             # Alto de la punta
+	"tick_size":0.06,               # Tamaño de las lineas de los ejes
+	"color": WHITE,                 # Color de los ejes
+	"stroke_width": 1,              # Grosor de los ejes
+	"line_to_number_buff": SMALL_BUFF # Espacio entre las lineas y los números
+	}       
+)
 		
-		#Definimos un color de fondo para todo el lienzo
-		self.camera.background_color = "#212121" 
+x_tex_lables = VGroup(*[
+MathTex(t, font_size=15).next_to(ejes.x_axis.n2p(x),DOWN*0.4) if x >= 0 else
+# Shift pi<0 labels to left
+MathTex(t, font_size=15).next_to(ejes.x_axis.n2p(x),DOWN*0.4).shift(LEFT*0.05)
+for t,x in zip(x_labels,np.arange(-3*PI, 3*PI+PI/2, PI/2)) if t != "0"
+# Ignore 0 value
+])
+
+y_tex_lables = VGroup(*[
+MathTex(t, font_size=15).next_to(ejes.y_axis.n2p(x),LEFT*0.4) if x >= 0 else
+# Shift pi<0 labels to left
+MathTex(t, font_size=15).next_to(ejes.y_axis.n2p(x),LEFT*0.4).shift(LEFT*0.05)
+for t,x in zip(y_labels,np.arange(-3*PI/2, 3*PI/2+PI/2, PI/2)) if t != "0"
+# Ignore 0 value
+])
+
+# Creamos el plano de números
+plano_numeros = NumberPlane(
+x_range = (-3*PI, 3*PI, PI), # Rango del eje x (inicio, fin, de cuanto en cuanto avanza)
+x_length=(6),       # Tamaño del eje x
+y_range = (-3*PI/2, 3*PI/2, PI), # Rango del eje y (inicio, fin, de cuanto en cuanto avanza)
+y_length=(3),       # Tamaño del eje y
+faded_line_ratio=2,     # Dentro de cada recuadro de unidad, habrá dos de un color mas opaco
+
+# Configuración de los ejes
+axis_config={
+	"include_numbers": False,   # Los ejes no se numerarán
+	"tip_width": 0.05, 
+	"tip_height": 0.03, 
+	"tick_size": 0.06, 
+	"color": WHITE
+},
 		
-		x_labels = [
-		"-3\\pi",                #   -3pi
-		"-\\frac{5\\pi}{2}",     #  -5pi/2
-		"-2\\pi",                #   -2pi
-		"-\\frac{3\\pi}{2}",     #  -3pi/2
-		"-\\pi",                 #   -pi
-		"-\\frac{\\pi}{2}",      #   -pi/2
-		"0",                     #   Blank
-		"\\frac{\\pi}{2}",       #     pi/2
-		"\\pi",                  #     pi
-		"\\frac{3\\pi}{2}",      #     3pi/2
-		"2\\pi",                 #    2pi
-		"\\frac{5\\pi}{2}",      #     5pi/2
-		"3\\pi"                  #    3pi
-		]
+# Configuración del plano
+background_line_style={
+	"stroke_color": TEAL,   # Color de las líneas del plano
+	"stroke_width": 1,      # Grosor de las líneas
+	"stroke_opacity": 0.6   # Opacidad de las líneas
+	}
+).set_z_index(-1)
 		
-		y_labels = [
-		"-\\frac{3\\pi}{2}",     #  -3pi/2
-		"-\\pi",                 #   -pi
-		"-\\frac{\\pi}{2}",      #   -pi/2
-		"0",                     #   Blank
-		"\\frac{\\pi}{2}",       #     pi/2
-		"\\pi",                  #     pi
-		"\\frac{3\\pi}{2}"      #     3pi/2	
-		]
-		
-		# Creamos los ejes
-		ejes=Axes(
-		x_range = (-3*PI, 3*PI, PI), # Rango del eje x (inicio, fin, de cuanto en cuanto avanza)
-		x_length=(6),       # Tamaño del eje x
-		y_range = (-3*PI/2, 3*PI/2, PI), # Rango del eje y (inicio, fin, de cuanto en cuanto avanza)
-		y_length=(3),       # Tamaño del eje y
-		
-		# Configuramos los ejes.
-		axis_config={
-			"include_numbers": False,        # Los ejes se numerarán
-			"font_size": 13,                # Tamaño de los números
-			"tip_width": 0.05,              # Ancho de la punta
-			"tip_height": 0.03,             # Alto de la punta
-			"tick_size":0.06,               # Tamaño de las lineas de los ejes
-			"color": WHITE,                 # Color de los ejes
-			"stroke_width": 1,              # Grosor de los ejes
-			"line_to_number_buff": SMALL_BUFF # Espacio entre las lineas y los números
-		}       
-		)
-		
-		x_tex_lables = VGroup(*[
-		MathTex(t, font_size=15).next_to(ejes.x_axis.n2p(x),DOWN*0.4) if x >= 0 else
-		# Shift pi<0 labels to left
-		MathTex(t, font_size=15).next_to(ejes.x_axis.n2p(x),DOWN*0.4).shift(LEFT*0.05)
-		for t,x in zip(x_labels,np.arange(-3*PI, 3*PI+PI/2, PI/2)) if t != "0"
-		# Ignore 0 value
-		])
-		
-		y_tex_lables = VGroup(*[
-		MathTex(t, font_size=15).next_to(ejes.y_axis.n2p(x),LEFT*0.4) if x >= 0 else
-		# Shift pi<0 labels to left
-		MathTex(t, font_size=15).next_to(ejes.y_axis.n2p(x),LEFT*0.4).shift(LEFT*0.05)
-		for t,x in zip(y_labels,np.arange(-3*PI/2, 3*PI/2+PI/2, PI/2)) if t != "0"
-		# Ignore 0 value
-		])
-		
-		# Creamos el plano de números
-		plano_numeros = NumberPlane(
-		x_range = (-3*PI, 3*PI, PI), # Rango del eje x (inicio, fin, de cuanto en cuanto avanza)
-		x_length=(6),       # Tamaño del eje x
-		y_range = (-3*PI/2, 3*PI/2, PI), # Rango del eje y (inicio, fin, de cuanto en cuanto avanza)
-		y_length=(3),       # Tamaño del eje y
-		faded_line_ratio=2,     # Dentro de cada recuadro de unidad, habrá dos de un color mas opaco
-		
-		# Configuración de los ejes
-		axis_config={
-			"include_numbers": False,   # Los ejes no se numerarán
-			"tip_width": 0.05, 
-			"tip_height": 0.03, 
-			"tick_size": 0.06, 
-			"color": WHITE
-		},
-		
-		# Configuración del plano
-		background_line_style={
-			"stroke_color": TEAL,   # Color de las líneas del plano
-			"stroke_width": 1,      # Grosor de las líneas
-			"stroke_opacity": 0.6   # Opacidad de las líneas
-		}
-		).set_z_index(-1)
-		
-		#ejes.height = 6
-		#ejes.width = 9
-		
-		# Título en la parte superior
-		titulo = Text("Serie de Fourier Trigonométrica de:", font_size=32)
-		fun = MathTex(r"f(t)= t, -\pi <t< \pi", font_size=25)
-		
-		# Agrupamos ambos textos en un solo grupo y lo posicionamos en la parte superior
-		titulo.next_to(fun, UP)
-		encabezado = VGroup(titulo, fun)
-		encabezado.to_edge(UP).set_z_index(1)
-		
-		# Etiquetas de ejes
-		eje_x = ejes.get_x_axis_label("t").next_to(ejes.x_axis.get_end(), UP*0.1).scale(0.45).set_color(WHITE)
-		eje_y = ejes.get_y_axis_label("f(t)").next_to(ejes.y_axis.get_end(), RIGHT*0.1).scale(0.45).set_color(WHITE)
-		
-		ejes_etiquetas = VGroup(eje_x, eje_y)
-		
-		# Función f(t) en la parte inferior
-		funcion_label = MathTex(
-		r"f(t)={-2}\sum_{n=1}^{\infty}\left [ \frac{(-1)^{n}}{n} \sin(nt) \right ]",
-		font_size=24
-		)
-		#funcion_label.set_color_by_tex("n", YELLOW)
-		funcion_label.next_to(ejes, DOWN*1.5)
-		
-		# Usando dos rectangulos creamos una ventana para dibujar dentro todo nuestro plano
-		rec1 = Rectangle(height=80, width=40)
-		rec2 = Rectangle(height=3.5, width=6.6)
-		ventana = Cutout(rec1, rec2, fill_opacity=1, color="#212121", stroke_color=RED)
-		
-		# Creamos un contador n para mostrar la cantidad de terminos que se añaden a la suma
-		i_value_text = Text("n = 0", color=WHITE, font_size=16)
-		i_value_text.next_to(funcion_label, DOWN)
-		
-		# Creamos la función a graficar en el intervalo establecido
-		func_Original=ejes.plot(
-		lambda x: x, x_range=(-PI,PI), color="#d7da63",
-		)
-		
-		# Defininimos la función serie compleja
-		def funcion_Serie_Trig(self, x, i):
-		# Inicialmente valdrá 0 
-		val=0
-		
-		# El coeficiente a0 es 0
-		a0 = 0
-		
-		# En cada iteración sumará un elemento k positivo y uno negativo
-		for k in range(1,i+1):
-		try:
-		val += (((-1)**(k)) / k) * np.sin(k * x)
-		
-		# Si algún termino es indeterminado se sumará un 0
-		except ZeroDivisionError:
-		val += 0 
-		
-		# EL valor de la suma será multiplicado por su coeficiente    
-		return a0 - (2) * val
-		
-		self.play(Write(encabezado))
-		self.play(Create(ventana))
-		self.play(Create(ejes), Create(plano_numeros), Create(x_tex_lables), Create(y_tex_lables))
-		self.play(Write(ejes_etiquetas))
-		self.play(Create(func_Original))
-		self.wait(3)
-		
-		
-		# Se crean las aproximaciones en la Serie
-		for j in range (0,6):
-		i_value_text.set_text(f"n = {j}")
-		fsC_0=ejes.plot(
-		lambda x: funcion_Serie_Trig(self, x, j), x_range=(-3*PI,3*PI), color=BLUE, stroke_width = 2.5
-		)
-		if j==0:
-		self.play(Create(fsC_0), Write(funcion_label), Write(i_value_text))
-		old_graph=fsC_0
-		else:
-		self.play(Transform(old_graph, fsC_0), Transform(i_value_text, Text(f"n = {j}", color=WHITE, font_size=16).next_to(funcion_label, DOWN)))
-		
-		plano = VGroup(encabezado, ejes, ejes_etiquetas, ventana, func_Original, old_graph)
-		plano.move_to(ORIGIN)
-		self.wait(2)
+#ejes.height = 6
+#ejes.width = 9
+
+# Título en la parte superior
+titulo = Text("Serie de Fourier Trigonométrica de:", font_size=32)
+fun = MathTex(r"f(t)= t, -\pi <t< \pi", font_size=25)
+
+# Agrupamos ambos textos en un solo grupo y lo posicionamos en la parte superior
+titulo.next_to(fun, UP)
+encabezado = VGroup(titulo, fun)
+encabezado.to_edge(UP).set_z_index(1)
+
+# Etiquetas de ejes
+eje_x = ejes.get_x_axis_label("t").next_to(ejes.x_axis.get_end(), UP*0.1).scale(0.45).set_color(WHITE)
+eje_y = ejes.get_y_axis_label("f(t)").next_to(ejes.y_axis.get_end(), RIGHT*0.1).scale(0.45).set_color(WHITE)
+
+ejes_etiquetas = VGroup(eje_x, eje_y)
+
+# Función f(t) en la parte inferior
+funcion_label = MathTex(
+r"f(t)={-2}\sum_{n=1}^{\infty}\left [ \frac{(-1)^{n}}{n} \sin(nt) \right ]",
+font_size=24
+)
+#funcion_label.set_color_by_tex("n", YELLOW)
+funcion_label.next_to(ejes, DOWN*1.5)
+
+# Usando dos rectangulos creamos una ventana para dibujar dentro todo nuestro plano
+rec1 = Rectangle(height=80, width=40)
+rec2 = Rectangle(height=3.5, width=6.6)
+ventana = Cutout(rec1, rec2, fill_opacity=1, color="#212121", stroke_color=RED)
+
+# Creamos un contador n para mostrar la cantidad de terminos que se añaden a la suma
+i_value_text = Text("n = 0", color=WHITE, font_size=16)
+i_value_text.next_to(funcion_label, DOWN)
+
+# Creamos la función a graficar en el intervalo establecido
+func_Original=ejes.plot(
+lambda x: x, x_range=(-PI,PI), color="#d7da63",
+)
+
+# Defininimos la función serie compleja
+def funcion_Serie_Trig(self, x, i):
+# Inicialmente valdrá 0 
+val=0
+
+# El coeficiente a0 es 0
+a0 = 0
+
+# En cada iteración sumará un elemento k positivo y uno negativo
+for k in range(1,i+1):
+try:
+val += (((-1)**(k)) / k) * np.sin(k * x)
+
+# Si algún termino es indeterminado se sumará un 0
+except ZeroDivisionError:
+val += 0 
+
+# EL valor de la suma será multiplicado por su coeficiente    
+return a0 - (2) * val
+
+self.play(Write(encabezado))
+self.play(Create(ventana))
+self.play(Create(ejes), Create(plano_numeros), Create(x_tex_lables), Create(y_tex_lables))
+self.play(Write(ejes_etiquetas))
+self.play(Create(func_Original))
+self.wait(3)
+
+
+# Se crean las aproximaciones en la Serie
+for j in range (0,6):
+i_value_text.set_text(f"n = {j}")
+fsC_0=ejes.plot(
+lambda x: funcion_Serie_Trig(self, x, j), x_range=(-3*PI,3*PI), color=BLUE, stroke_width = 2.5
+)
+if j==0:
+self.play(Create(fsC_0), Write(funcion_label), Write(i_value_text))
+old_graph=fsC_0
+else:
+self.play(Transform(old_graph, fsC_0), Transform(i_value_text, Text(f"n = {j}", color=WHITE, font_size=16).next_to(funcion_label, DOWN)))
+
+plano = VGroup(encabezado, ejes, ejes_etiquetas, ventana, func_Original, old_graph)
+plano.move_to(ORIGIN)
+self.wait(2)
 	\end{minted}
 	\caption[Código en Pyhton con Manim para graficar la serie de Fourier trigonométrica de \ref{app2:trig-coeff}.] {Código en Pyhton con Manim para graficar la serie de Fourier trigonométrica de \ref{app2:trig-coeff}. \textit{Fuente: Elaboración propia}} 
 \end{longlisting}
 
 
-\paragraph{Código en Python usando Manim para la serie de Fourier compleja} \label{app3:complex-code-python-manim}
+\section{Código en Python usando Manim para la serie de Fourier compleja} \label{app3:complex-code-python-manim}
 \begin{longlisting}
-	\begin{minted}[linenos, breaklines]{python}
-		# Importamos todas la funciones de manim
-		from manim import *
-		
-		# Creamos una escena
-		class Prueba(Scene):
-		def construct(self):
-		
-		#Definimos un color de fondo para todo el lienzo
-		self.camera.background_color = "#212121" 
-		
-		x_labels = [
-		"-3\\pi",                #   -3pi
-		"-\\frac{5\\pi}{2}",     #  -5pi/2
-		"-2\\pi",                #   -2pi
-		"-\\frac{3\\pi}{2}",     #  -3pi/2
-		"-\\pi",                 #   -pi
-		"-\\frac{\\pi}{2}",      #   -pi/2
-		"0",                     #   Blank
-		"\\frac{\\pi}{2}",       #     pi/2
-		"\\pi",                  #     pi
-		"\\frac{3\\pi}{2}",      #     3pi/2
-		"2\\pi",                 #    2pi
-		"\\frac{5\\pi}{2}",      #     5pi/2
-		"3\\pi"                  #    3pi
-		]
-		
-		y_labels = [
-		"-\\frac{3\\pi}{2}",     #  -3pi/2
-		"-\\pi",                 #   -pi
-		"-\\frac{\\pi}{2}",      #   -pi/2
-		"0",                     #   Blank
-		"\\frac{\\pi}{2}",       #     pi/2
-		"\\pi",                  #     pi
-		"\\frac{3\\pi}{2}"      #     3pi/2
-		
-		]
-		
-		
-		# Creamos los ejes
-		ejes=Axes(
-		x_range = (-3*PI, 3*PI, PI), # Rango del eje x (inicio, fin, de cuanto en cuanto avanza)
-		x_length=(6),       # Tamaño del eje x
-		y_range = (-3*PI/2, 3*PI/2, PI), # Rango del eje y (inicio, fin, de cuanto en cuanto avanza)
-		y_length=(3),       # Tamaño del eje y
-		
-		# Configuramos los ejes.
-		axis_config={
-			"include_numbers": False,        # Los ejes se numerarán
-			"font_size": 13,                # Tamaño de los números
-			"tip_width": 0.05,              # Ancho de la punta
-			"tip_height": 0.03,             # Alto de la punta
-			"tick_size":0.06,               # Tamaño de las lineas de los ejes
-			"color": WHITE,                 # Color de los ejes
-			"stroke_width": 1,              # Grosor de los ejes
-			"line_to_number_buff": SMALL_BUFF # Espacio entre las lineas y los números
-		}       
-		)
-		
-		
-		x_tex_lables = VGroup(*[
-		MathTex(t, font_size=15).next_to(ejes.x_axis.n2p(x),DOWN*0.4) if x >= 0 else
-		# Shift pi<0 labels to left
-		MathTex(t, font_size=15).next_to(ejes.x_axis.n2p(x),DOWN*0.4).shift(LEFT*0.05)
-		for t,x in zip(x_labels,np.arange(-3*PI, 3*PI+PI/2, PI/2)) if t != "0"
-		# Ignore 0 value
-		])
-		
-		y_tex_lables = VGroup(*[
-		MathTex(t, font_size=15).next_to(ejes.y_axis.n2p(x),LEFT*0.4) if x >= 0 else
-		# Shift pi<0 labels to left
-		MathTex(t, font_size=15).next_to(ejes.y_axis.n2p(x),LEFT*0.4).shift(LEFT*0.05)
-		for t,x in zip(y_labels,np.arange(-3*PI/2, 3*PI/2+PI/2, PI/2)) if t != "0"
-		# Ignore 0 value
-		])
-		
-		# Creamos el plano de números
-		plano_numeros = NumberPlane(
-		x_range = (-3*PI, 3*PI, PI), # Rango del eje x (inicio, fin, de cuanto en cuanto avanza)
-		x_length=(6),       # Tamaño del eje x
-		y_range = (-3*PI/2, 3*PI/2, PI), # Rango del eje y (inicio, fin, de cuanto en cuanto avanza)
-		y_length=(3),       # Tamaño del eje y
-		faded_line_ratio=2,     # Dentro de cada recuadro de unidad, habrá dos de un color mas opaco
-		
-		# Configuración de los ejes
-		axis_config={
-			"include_numbers": False,   # Los ejes no se numerarán
-			"tip_width": 0.05, 
-			"tip_height": 0.03, 
-			"tick_size": 0.06, 
-			"color": WHITE
-		},
-		
-		# COnfiguración del plano
-		background_line_style={
-			"stroke_color": TEAL,   # Color de las líneas del plano
-			"stroke_width": 1,      # Grosor de las líneas
-			"stroke_opacity": 0.6   # Opacidad de las líneas
-		}
-		).set_z_index(-1)
-		
-		# Título en la parte superior
-		titulo = Text("Serie de Fourier compleja de:", font_size=32)
-		fun = MathTex(r"f(t)= t, -\pi < t < \pi", font_size=32)
-		
-		# Agrupamos ambos textos en un solo grupo y lo posicionamos en la parte superior
-		titulo.next_to(fun, UP)
-		encabezado = VGroup(titulo, fun)
-		encabezado.to_edge(UP).set_z_index(1)
-		
-		# Etiquetas de ejes
-		eje_x = ejes.get_x_axis_label("t").next_to(ejes.x_axis.get_end(), UP*0.1).scale(0.45).set_color(WHITE)
-		eje_y = ejes.get_y_axis_label("f(t)").next_to(ejes.y_axis.get_end(), RIGHT*0.1).scale(0.45).set_color(WHITE)
-		
-		ejes_etiquetas = VGroup(eje_x, eje_y)
-		
-		# Función f(t) en la parte inferior
-		funcion_label = MathTex(
-		r"f(t)= i\sum_{n=-\infty}^{\infty}\left( \frac{(-1)^{n}}{n} e^{i n t}  \right)",
-		font_size=24
-		)
-		#funcion_label.set_color_by_tex("n", YELLOW)
-		funcion_label.next_to(ejes, DOWN*2.4)
-		
-		# Usando dos rectangulos creamos una ventana para dibujar dentro todo nuestro plano
-		rec1 = Rectangle(height=80, width=40)
-		rec2 = Rectangle(height=3.8, width=6.6)
-		ventana = Cutout(rec1, rec2, fill_opacity=1, color="#212121", stroke_color=RED)
-		
-		# Creamos un contador n para mostrar la cantidad de terminos que se añaden a la suma
-		i_value_text = Text("n = 0", color=WHITE, font_size=16)
-		i_value_text.next_to(funcion_label, DOWN)
-		
-		
-		# Defininimos la función serie compleja
-		def funcion_Serie_Compleja(self, x, i):
-		# Inicialmente valdrá 0 
-		val=0
-		
-		# Como el coeficience c0 no es indeterminado, lo calculamos aparte
-		c0 = 0
-		
-		# En cada iteración sumará un elemento k positivo y uno negativo
-		for k in range(1,i+1):
-		try:
-		
-		val +=  (((-1)**(k)) / k) * (np.exp(complex(0, (k * x))))
-		val +=  (((-1)**(-k)) / (-k)) * (np.exp(complex(0, ( (-k) * x))))
-		
-		# Si algún termino es indeterminado se sumará un 0
-		except ZeroDivisionError:
-		val += 0 
-		
-		# EL valor de la suma será multiplicado por su coeficiente    
-		return  complex(0,1) * val + c0
-		
-		# Creamos la función a graficar en el intervalo establecido
-		func_Original=ejes.plot(
-		lambda x: x, x_range=(-PI,PI), color="#d7da63",
-		)
-		
-		self.play(Write(encabezado))
-		self.play(Create(ventana))
-		self.play(Create(ejes), Create(plano_numeros), Create(x_tex_lables), Create(y_tex_lables))
-		self.play(Write(ejes_etiquetas))
-		self.play(Create(func_Original))
-		
-		
-		# Se crean las aproximaciones en la Serie
-		for j in range (0,6):
-		i_value_text.set_text(f"n = {j}")
-		fsC_0=ejes.plot(
-		lambda x: funcion_Serie_Compleja(self, x, j), x_range=(-3*np.pi,3*np.pi), color=BLUE, stroke_width = 2.5
-		)
-		if j==0:
-		self.play(Create(fsC_0), Write(funcion_label), Write(i_value_text))
-		old_graph=fsC_0
-		else:
-		self.play(Transform(old_graph, fsC_0), Transform(i_value_text, Text(f"n = {j}", color=WHITE, font_size=16).next_to(funcion_label, DOWN)))
-		
-		plano = VGroup(encabezado, ejes, ejes_etiquetas, ventana, func_Original, old_graph)
-		plano.move_to(ORIGIN)
-		self.wait(2)
+	\begin{minted}[fontsize=\small, linenos, breaklines]{python}
+# Importamos todas la funciones de manim
+from manim import *
+
+# Creamos una escena
+class Prueba(Scene):
+def construct(self):
+
+#Definimos un color de fondo para todo el lienzo
+self.camera.background_color = "#212121" 
+
+x_labels = [
+"-3\\pi",                #   -3pi
+"-\\frac{5\\pi}{2}",     #  -5pi/2
+"-2\\pi",                #   -2pi
+"-\\frac{3\\pi}{2}",     #  -3pi/2
+"-\\pi",                 #   -pi
+"-\\frac{\\pi}{2}",      #   -pi/2
+"0",                     #   Blank
+"\\frac{\\pi}{2}",       #     pi/2
+"\\pi",                  #     pi
+"\\frac{3\\pi}{2}",      #     3pi/2
+"2\\pi",                 #    2pi
+"\\frac{5\\pi}{2}",      #     5pi/2
+"3\\pi"                  #    3pi
+]
+
+y_labels = [
+"-\\frac{3\\pi}{2}",     #  -3pi/2
+"-\\pi",                 #   -pi
+"-\\frac{\\pi}{2}",      #   -pi/2
+"0",                     #   Blank
+"\\frac{\\pi}{2}",       #     pi/2
+"\\pi",                  #     pi
+"\\frac{3\\pi}{2}"      #     3pi/2
+
+]
+
+
+# Creamos los ejes
+ejes=Axes(
+x_range = (-3*PI, 3*PI, PI), # Rango del eje x (inicio, fin, de cuanto en cuanto avanza)
+x_length=(6),       # Tamaño del eje x
+y_range = (-3*PI/2, 3*PI/2, PI), # Rango del eje y (inicio, fin, de cuanto en cuanto avanza)
+y_length=(3),       # Tamaño del eje y
+
+# Configuramos los ejes.
+axis_config={
+	"include_numbers": False,        # Los ejes se numerarán
+	"font_size": 13,                # Tamaño de los números
+	"tip_width": 0.05,              # Ancho de la punta
+	"tip_height": 0.03,             # Alto de la punta
+	"tick_size":0.06,               # Tamaño de las lineas de los ejes
+	"color": WHITE,                 # Color de los ejes
+	"stroke_width": 1,              # Grosor de los ejes
+	"line_to_number_buff": SMALL_BUFF # Espacio entre las lineas y los números
+}       
+)
+
+
+x_tex_lables = VGroup(*[
+MathTex(t, font_size=15).next_to(ejes.x_axis.n2p(x),DOWN*0.4) if x >= 0 else
+# Shift pi<0 labels to left
+MathTex(t, font_size=15).next_to(ejes.x_axis.n2p(x),DOWN*0.4).shift(LEFT*0.05)
+for t,x in zip(x_labels,np.arange(-3*PI, 3*PI+PI/2, PI/2)) if t != "0"
+# Ignore 0 value
+])
+
+y_tex_lables = VGroup(*[
+MathTex(t, font_size=15).next_to(ejes.y_axis.n2p(x),LEFT*0.4) if x >= 0 else
+# Shift pi<0 labels to left
+MathTex(t, font_size=15).next_to(ejes.y_axis.n2p(x),LEFT*0.4).shift(LEFT*0.05)
+for t,x in zip(y_labels,np.arange(-3*PI/2, 3*PI/2+PI/2, PI/2)) if t != "0"
+# Ignore 0 value
+])
+
+# Creamos el plano de números
+plano_numeros = NumberPlane(
+x_range = (-3*PI, 3*PI, PI), # Rango del eje x (inicio, fin, de cuanto en cuanto avanza)
+x_length=(6),       # Tamaño del eje x
+y_range = (-3*PI/2, 3*PI/2, PI), # Rango del eje y (inicio, fin, de cuanto en cuanto avanza)
+y_length=(3),       # Tamaño del eje y
+faded_line_ratio=2,     # Dentro de cada recuadro de unidad, habrá dos de un color mas opaco
+
+# Configuración de los ejes
+axis_config={
+	"include_numbers": False,   # Los ejes no se numerarán
+	"tip_width": 0.05, 
+	"tip_height": 0.03, 
+	"tick_size": 0.06, 
+	"color": WHITE
+},
+
+# COnfiguración del plano
+background_line_style={
+	"stroke_color": TEAL,   # Color de las líneas del plano
+	"stroke_width": 1,      # Grosor de las líneas
+	"stroke_opacity": 0.6   # Opacidad de las líneas
+}
+).set_z_index(-1)
+
+# Título en la parte superior
+titulo = Text("Serie de Fourier compleja de:", font_size=32)
+fun = MathTex(r"f(t)= t, -\pi < t < \pi", font_size=32)
+
+# Agrupamos ambos textos en un solo grupo y lo posicionamos en la parte superior
+titulo.next_to(fun, UP)
+encabezado = VGroup(titulo, fun)
+encabezado.to_edge(UP).set_z_index(1)
+
+# Etiquetas de ejes
+eje_x = ejes.get_x_axis_label("t").next_to(ejes.x_axis.get_end(), UP*0.1).scale(0.45).set_color(WHITE)
+eje_y = ejes.get_y_axis_label("f(t)").next_to(ejes.y_axis.get_end(), RIGHT*0.1).scale(0.45).set_color(WHITE)
+
+ejes_etiquetas = VGroup(eje_x, eje_y)
+
+# Función f(t) en la parte inferior
+funcion_label = MathTex(
+r"f(t)= i\sum_{n=-\infty}^{\infty}\left( \frac{(-1)^{n}}{n} e^{i n t}  \right)",
+font_size=24
+)
+#funcion_label.set_color_by_tex("n", YELLOW)
+funcion_label.next_to(ejes, DOWN*2.4)
+
+# Usando dos rectangulos creamos una ventana para dibujar dentro todo nuestro plano
+rec1 = Rectangle(height=80, width=40)
+rec2 = Rectangle(height=3.8, width=6.6)
+ventana = Cutout(rec1, rec2, fill_opacity=1, color="#212121", stroke_color=RED)
+
+# Creamos un contador n para mostrar la cantidad de terminos que se añaden a la suma
+i_value_text = Text("n = 0", color=WHITE, font_size=16)
+i_value_text.next_to(funcion_label, DOWN)
+
+
+# Defininimos la función serie compleja
+def funcion_Serie_Compleja(self, x, i):
+# Inicialmente valdrá 0 
+val=0
+
+# Como el coeficience c0 no es indeterminado, lo calculamos aparte
+c0 = 0
+
+# En cada iteración sumará un elemento k positivo y uno negativo
+for k in range(1,i+1):
+try:
+
+val +=  (((-1)**(k)) / k) * (np.exp(complex(0, (k * x))))
+val +=  (((-1)**(-k)) / (-k)) * (np.exp(complex(0, ( (-k) * x))))
+
+# Si algún termino es indeterminado se sumará un 0
+except ZeroDivisionError:
+val += 0 
+
+# EL valor de la suma será multiplicado por su coeficiente    
+return  complex(0,1) * val + c0
+
+# Creamos la función a graficar en el intervalo establecido
+func_Original=ejes.plot(
+lambda x: x, x_range=(-PI,PI), color="#d7da63",
+)
+
+self.play(Write(encabezado))
+self.play(Create(ventana))
+self.play(Create(ejes), Create(plano_numeros), Create(x_tex_lables), Create(y_tex_lables))
+self.play(Write(ejes_etiquetas))
+self.play(Create(func_Original))
+
+
+# Se crean las aproximaciones en la Serie
+for j in range (0,6):
+i_value_text.set_text(f"n = {j}")
+fsC_0=ejes.plot(
+lambda x: funcion_Serie_Compleja(self, x, j), x_range=(-3*np.pi,3*np.pi), color=BLUE, stroke_width = 2.5
+)
+if j==0:
+self.play(Create(fsC_0), Write(funcion_label), Write(i_value_text))
+old_graph=fsC_0
+else:
+self.play(Transform(old_graph, fsC_0), Transform(i_value_text, Text(f"n = {j}", color=WHITE, font_size=16).next_to(funcion_label, DOWN)))
+
+plano = VGroup(encabezado, ejes, ejes_etiquetas, ventana, func_Original, old_graph)
+plano.move_to(ORIGIN)
+self.wait(2)
 	\end{minted}
 	\caption[Código en Pyhton con Manim para graficar la serie de Fourier compleja de \ref{app2:trig-coeff}.] {Código en Pyhton con Manim para graficar la serie de Fourier compleja de \ref{app2:trig-coeff}. \textit{Fuente: Elaboración propia}} 
 \end{longlisting}
 
+
+\section{Script para dibujar el plano y sus funcionalidades básicas en el canva} \label{app3:canva_js}
+\begin{longlisting}
+	\begin{minted}[fontsize=\small, linenos, breaklines]{javascript}
+// Configuración del canvas y variables iniciales
+const canvas = document.getElementById("canvas");
+const ctx = canvas.getContext("2d");
+let width = canvas.width;
+let height = canvas.height;
+let unit = 75; // Escala de unidad en el plano
+let offsetX = 0, offsetY = 0;
+
+let origin = { x: width / 2, y: height / 2 };
+
+function drawScreen() {
+	ctx.clearRect(0, 0, width, height);
+	
+	// Ejes X e Y
+	const XAxis = { start: { x: 0, y: height / 2 }, end: { x: width, y: height / 2 } };
+	const YAxis = { start: { x: width / 2, y: 0 }, end: { x: width / 2, y: height } };
+	
+	origin = { x: width / 2, y: height / 2 };
+	
+	// Dibujar ejes
+	drawAxes(XAxis, YAxis, "#90DCB5");
+	drawGrid(origin, XAxis, YAxis, unit, "#6BBCAC", "#EBEBEB");
+}
+
+function drawAxes(XAxis, YAxis, axisColor) {
+	ctx.beginPath();
+	ctx.moveTo(XAxis.start.x, XAxis.start.y - offsetY);
+	ctx.lineTo(XAxis.end.x, XAxis.end.y - offsetY);
+	ctx.moveTo(YAxis.start.x - offsetX, YAxis.start.y);
+	ctx.lineTo(YAxis.end.x - offsetX, YAxis.end.y);
+	ctx.strokeStyle = axisColor;
+	ctx.lineWidth = 1;
+	ctx.stroke();
+}
+
+function drawGrid(origin, XAxis, YAxis, unit, gridColor, fontColor) {
+	ctx.strokeStyle = gridColor;
+	ctx.fillStyle = fontColor;
+	
+	for (let i = -1000; i < 1000; i++) {
+		const x = origin.x + unit * i - offsetX;
+		const y = origin.y + unit * i - offsetY;
+		
+		// Líneas verticales
+		ctx.beginPath();
+		ctx.moveTo(x, YAxis.start.y);
+		ctx.lineTo(x, YAxis.end.y);
+		ctx.lineWidth = (i % 5 === 0) ? 1 : 0.25;
+		ctx.stroke();
+		
+		// Líneas horizontales
+		ctx.beginPath();
+		ctx.moveTo(XAxis.start.x, y);
+		ctx.lineTo(XAxis.end.x, y);
+		ctx.lineWidth = (i % 5 === 0) ? 1 : 0.25;
+		ctx.stroke();
+		
+		// Etiquetas en los ejes
+		if (i % 5 === 0) {
+			ctx.fillText(i, x, origin.y - offsetY + 15); // Eje X
+			ctx.fillText(-i, origin.x - offsetX, y); // Eje Y
+		}
+	}
+}
+	\end{minted}
+	\caption[Parte del código en Javascript responsable de generar la gráfica y sus funcionalidades] {Parte del código en Javascript responsable de generar la gráfica y sus funcionalidades}. \textit{Fuente: Elaboración propia}
+\end{longlisting}
+
+\section{Script para graficar Función para graficar funciones en el canva}  \label{app3:canva_js_funciones}
+\begin{longlisting}
+	\begin{minted}[fontsize=\small, linenos, breaklines]{javascript}
+function drawFunction(mathFunction, color) {
+	let previousX = undefined;
+	let previousY = undefined;
+	
+	for (let px = 0; px < width; px++) {
+		const x = (((px + offsetX) / unit) - ((width / unit) / 2));
+		const y = mathFunction(x);
+		
+		if (previousX !== undefined && previousY !== undefined) {
+			ctx.strokeStyle = color;
+			ctx.beginPath();
+			ctx.moveTo(previousX, previousY);
+			ctx.lineTo(origin.x - offsetX + unit * x, origin.y - offsetY - unit * y);
+			ctx.lineWidth = 2;
+			ctx.stroke();
+		}
+		
+		previousX = origin.x - offsetX + unit * x;
+		previousY = origin.y - offsetY - unit * y;
+	}
+}
+	\end{minted}
+	\caption[Parte del código en Javascript responsable de graficar funciones matemáticas] {Parte del código en Javascript responsable de graficar funciones matemáticas}. \textit{Fuente: Elaboración propia}
+\end{longlisting}
+
+\section{Script para graficar Función para graficar funciones en el canva} \label{app3:canva_js_series}
+\begin{longlisting}
+	\begin{minted}[fontsize=\small, linenos, breaklines]{javascript}
+function drawFunction(mathFunction, color) {
+let previousX = undefined;
+let previousY = undefined;
+			
+for (let px = 0; px < width; px++) {
+	const x = (((px + offsetX) / unit) - ((width / unit) / 2));
+	const y = mathFunction(x);
+		
+	if (previousX !== undefined && previousY !== undefined) {
+		ctx.strokeStyle = color;
+		ctx.beginPath();
+		ctx.moveTo(previousX, previousY);
+		ctx.lineTo(origin.x - offsetX + unit * x, origin.y - offsetY - unit * y);
+		ctx.lineWidth = 2;
+		ctx.stroke();
+	}
+		
+	previousX = origin.x - offsetX + unit * x;
+	previousY = origin.y - offsetY - unit * y;
+	}
+}
+	\end{minted}
+		\caption[Parte del código en Javascript responsable de graficar series de funciones] {Parte del código en Javascript responsable de graficar series de funciones}. \textit{Fuente: Elaboración propia}
+\end{longlisting}
+
+\section{Código en Maxima para calcular la serie trigonométrica} \label{app3:maxima_trig_proto}
+\begin{longlisting}
+	\begin{minted}[fontsize=\small, linenos, breaklines]{c}
+/* Función a trozos */
+func : matrix([1, 0, 1], [0,1, 3], [-1, 3, 5]);
+
+/* Obtenemos la cantidad de trozos */
+pieces: length(func);
+
+/* Obtenemos a -T/2 y T/2 */
+inicio: func[1][2];
+fin: func[length(func)][3];
+
+declare(n, integer);
+
+/* Calcular el periodo */
+T: fin - inicio;
+
+/* Núcleo de los coeficientes */
+series_cosine_core: (cos((n*%pi*x)/((T))));
+series_sine_core: sin((n*%pi*x)/((T)));
+
+/* Núcleo de los coeficientes para extensión periódica */
+/*series_cosine_core: (cos((n*%pi*x)/((T/2))));
+series_sine_core: sin((n*%pi*x)/((T/2)));*/
+
+a0_acum: 0;
+an_acum: 0;
+bn_acum: 0;
+
+for i:1 thru pieces do
+(
+trozo: func[i],
+piece_func: trozo[1],
+start: trozo[2],
+end: trozo[3],
+
+a0: (2/(T)) * integrate((piece_func), x ,(start), (end)),
+an: (2/(T)) * integrate((piece_func) * series_cosine_core, x ,(start), (end)),
+bn: (2/(T)) * integrate((piece_func) * series_sine_core, x ,(start), (end)),
+
+a0_acum: a0 + a0_acum,
+an_acum: an + an_acum,
+bn_acum: bn + bn_acum
+)$
+
+a0_simp: ratsimp(a0_acum);
+an_simp: ratsimp(an_acum);
+bn_simp: ratsimp(bn_acum);
+
+Coeff_A0: factor(a0_simp/2);
+Coeff_An: factor(an_simp);
+Coeff_Bn: factor(bn_simp);
+
+tex(Coeff_A0);
+tex(Coeff_An);
+kill(all);
+	\end{minted}
+	\caption[Código en Maxima para calcular los coeficientes y su expansión de la serie Trigonométrica de Fourier]{Código en Maxima para calcular los coeficientes y su expansión de la serie Trigonométrica de Fourier} \textit{Fuente: Elaboración propia}
+\end{longlisting}
+
+\section{Código en Maxima para calcular la serie compleja} \label{app3:maxima_complex_proto}
+\begin{longlisting}
+	\begin{minted}[fontsize=\small, linenos, breaklines]{c}
+/* Función a trozos */
+func : matrix([1, 0, 1], [0,1, 3], [-1, 3, 5]);
+
+/* Obtenemos la cantidad de trozos */
+pieces: length(func);
+
+/* Obtenemos a -T/2 y T/2 */
+inicio: func[1][2];
+fin: func[length(func)][3];
+
+declare(n, integer);
+
+tellsimpafter(exp(%i * %pi * n), (-1)**n)$
+tellsimpafter(exp(%i * 2 * %pi * n), 1)$
+
+/* Calcular el periodo */
+T: fin - inicio;
+
+series_core: (exp((%i*n*%pi*x)/((T))));
+complex_core: (exp(-(%i*n*%pi*x)/((T))));
+
+c0_acum: 0;
+cn_acum: 0;
+
+for i:1 thru pieces do
+(
+trozo: func[i],
+piece_func: trozo[1],
+start: trozo[2],
+end: trozo[3],
+
+c0: (1/(T)) * integrate((piece_func), x, (start), (end)),
+cn: (1/(T)) * integrate((piece_func) * complex_core, x ,(start), (end)),
+
+c0_acum: c0 + c0_acum,
+cn_acum: cn + cn_acum
+)$
+
+c0_simp: ratsimp(c0_acum);
+cn_simp: ratsimp(cn_acum);
+
+Coeff_C0: factor(c0_simp/2);
+Coeff_Cn: factor(cn_simp);
+
+/* Definimos el rango de n positivo y negativo */
+n1 : 1;
+n2 :15;
+
+/* Creamos la lista de términos positivos */
+lista_positivos : makelist(subst(n=i, Coeff_Cn * series_core ), i, n1, n2);
+
+/* Creamos la lista de términos negativos */
+lista_negativos : makelist(subst(n=i, Coeff_Cn * series_core), i, -n2, -n1);
+
+/* Invertimos el orden de la lista de términos negativos */
+lista_negativos_invertida : reverse(lista_negativos);
+
+/* Sumamos los términos positivos y negativos (con la lista de negativos invertida) */
+lista_completa : lista_positivos + lista_negativos_invertida;
+
+serie_demoivre: demoivre(lista_completa);
+
+serie_simp: ratsimp(serie_demoivre);
+
+serie_factor: factor(serie_simp);
+
+kill(all);
+	\end{minted}
+\caption[Código en Maxima para calcular los coeficientes y su expansión de la serie compleja de Fourier]{Código en Maxima para calcular los coeficientes y su expansión de la serie compleja de Fourier} \textit{Fuente: Elaboración propia}
+\end{longlisting}
+
+\section{API en NodeJS para ejecutar a Maxima} \label{app3:API_nodejs}
+\begin{longlisting}
+	\begin{minted}[fontsize=\small, linenos, breaklines]{javascript}
+const express = require('express');
+const cors = require('cors');
+const bodyParser = require('body-parser');
+const { exec } = require('child_process');
+
+const app = express();
+const port = 3000;
+
+// Configurar CORS
+var corsOptions = {
+	origin: 'http://localhost:4200',
+	optionsSuccessStatus: 200
+};
+
+app.use(cors(corsOptions));
+app.use(bodyParser.json()); // Analizar las solicitudes JSON
+
+// Middleware para establecer cabeceras CORS
+function setCorsHeaders(req, res, next) {
+	res.setHeader('Access-Control-Allow-Origin', '*');
+	res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, PATCH, DELETE');
+	res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+	next();
+}
+
+app.use(setCorsHeaders);
+
+// Función para ejecutar comandos en Maxima y obtener los resultados
+function execMaxima(command, callback) {
+	exec(command, (error, stdout, stderr) => {
+		if (error) {
+			console.error(`Error executing Maxima command: ${stderr}`);
+			callback(error, null);
+		} else {
+			const result = stdout.trim();
+			callback(null, result);
+		}
+	});
+}
+
+// Ruta para calcular Serie Trigonométrica para una función de un solo trozo
+app.post('/fourier/trigonometric', (req, res) => {
+	console.log("Se ha recibido una solicitud para calcular la serie trigonométrica");
+	const { funcion, periodo } = req.body;
+	
+	const command_a0 = `echo "declare(n, integer)$ string(ratsimp(((1/((${periodo})/2)) * integrate(${funcion}, x, -(${periodo}/2), ${periodo}/2))));" | maxima --very-quiet -`;
+	const command_an = `echo "declare(n, integer)$ string(ratsimp(((1/((${periodo})/2)) * integrate(((${funcion}) * cos((n*%pi*x)/((${periodo}/2)))), x, -(${periodo}/2), ${periodo}/2))));" | maxima --very-quiet -`;
+	const command_bn = `echo "declare(n, integer)$ string(ratsimp(((1/((${periodo})/2)) * integrate(((${funcion}) * sin((n*%pi*x)/((${periodo}/2)))), x, -(${periodo}/2), ${periodo}/2))));" | maxima --very-quiet -`;
+	
+	execMaxima(command_a0, (error_a0, a0) => {
+		if (error_a0) {
+			res.status(500).send({ error: `Error calculating a0: ${error_a0.message}` });
+			return;
+		}
+		execMaxima(command_an, (error_an, an) => {
+			if (error_an) {
+				res.status(500).send({ error: `Error calculating an: ${error_an.message}` });
+				return;
+			}
+			execMaxima(command_bn, (error_bn, bn) => {
+				if (error_bn) {
+					res.status(500).send({ error: `Error calculating bn: ${error_bn.message}` });
+					return;
+				}
+				
+				res.json({ a0, an, bn });
+			});
+		});
+	});
+	console.log("Se ha calculado la serie trigonométrica");
+});
+
+// Ruta para calcular Serie Exponencial para una función de un solo trozo
+app.post('/fourier/complex', (req, res) => {
+	const { funcion, periodo } = req.body;
+	
+	const command_c0 = `echo "declare(n, integer)$ tellsimpafter(exp(%i*%pi*n), (-1)**n)$ tellsimpafter(exp(%i*2*%pi*n),1)$ string(ratsimp((1/(${periodo})) * integrate((${funcion}), x ,-((${periodo})/2), ((${periodo})/2))));" | maxima --very-quiet -`;
+	const command_cn = `echo "declare(n, integer)$ tellsimpafter(exp(%i*%pi*n), (-1)**n)$ tellsimpafter(exp(%i*2*%pi*n),1)$ string(ratsimp((1/(${periodo})) * integrate((${funcion}) * (exp(-(%i*n*%pi*x)/(((${periodo})/2)))), x ,-((${periodo})/2), ((${periodo})/2))));" | maxima --very-quiet -`;
+	
+	execMaxima(command_c0, (error_c0, c0) => {
+		if (error_c0) {
+			res.status(500).send({ error: `Error calculating c0: ${error_c0.message}` });
+			return;
+		}
+		execMaxima(command_cn, (error_cn, cn) => {
+			if (error_cn) {
+				res.status(500).send({ error: `Error calculating cn: ${error_cn.message}` });
+				return;
+			}
+			res.json({ c0, cn });
+		});
+	});
+	console.log("Se ha calculado la serie compleja");
+});
+
+// Iniciar el servidor
+app.listen(port, () => {
+	console.log(`Server running at http://localhost:${port}`);
+});
+	\end{minted}
+\caption[API en NodeJS para ejecutar comandos de Maxima]{API en NodeJS para ejecutar comandos de Maxima} \textit{Fuente: Elaboración propia}
+\end{longlisting}
+
+\section{Script en NodeJS para ejecutar a tex2max}\label{app3:node_js_tex2max}
+\begin{longlisting}
+	\begin{minted}[fontsize=\small, linenos, breaklines]{javascript}
+// Importa la librería TeX2Max.
+const TeX2Max = require('tex2max');
+
+// Crea una instancia de TeX2Max con las siguientes opciones de configuración.
+const converter = new TeX2Max({
+	onlySingleVariables: false,         // Permite nombres de variables complejas.
+	handleEquation: true,               // No permite que Maxima resuelva ecuaciones algebraicas.
+	addTimesSign: true,                 // Añade signos de multiplicación donde se implique multiplicación.
+	disallowDecimalPoints: false,       // Permite el uso de puntos decimales en los números.
+	disallowllowDecimalCommas: false,   // Permite el uso de comas decimales en los números.
+	onlyGreekName: false,               // No convierte letras griegas a nombres.
+	onlyGreekSymbol: false,             // No convierte letras griegas a símbolos.
+	debugging: false                    // No produce información de depuración.
+});
+// Configuración del convertidor con opciones personalizadas.
+
+// Define una cadena LaTeX 
+const latexInput = "\\frac{\\left ( x^{a} \\right )\\left ( x+y \\right )^{90}}{2^{25 \\cdot x  \\cdot \\pi}}";
+
+// Convierte la cadena LaTeX a código Maxima usando el método 'toMaxima'.
+const maximaOutput = converter.toMaxima(latexInput);
+
+// Imprime el resultado convertido a Maxima en la consola.
+console.log(maximaOutput);
+	\end{minted}
+\caption[Script en NodeJS para probar la biblioteca de tex2max]{Script en NodeJS para probar la biblioteca de tex2max} \textit{Fuente: Elaboración propia}
+\end{longlisting}
+
+\section{Script para implementar a MathQuill} \label{app3:mathquill}
+\begin{longlisting}
+	\begin{minted}[fontsize=\small, linenos, breaklines]{html}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- Estilos necesarios para MathQuill -->
+<link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="./src/mathquill-0.10.1/mathquill.css" />
+
+<!-- Cargar jQuery, ya que MathQuill depende de esta librería -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+<!-- Cargar el archivo JavaScript principal de MathQuill -->
+<script src="./src/mathquill-0.10.1/mathquill.js"></script>
+
+<title>MathQuill Input</title>
+</head>
+<body>
+<div class="container">
+<h1>Ingrese una ecuación</h1>
+
+<!-- Campo donde se integrará MathQuill -->
+<div id="math-field" class="math-field"></div>
+
+<!-- Sección para mostrar el LaTeX generado -->
+<p class="latex-text">LaTeX generado:</p>
+<div id="latex-output" class="latex-output"></div>
+</div>
+
+<script>
+// Inicializar la interfaz de MathQuill
+const MQ = MathQuill.getInterface(2); // Obtener la versión 2 de la interfaz
+
+// Referencia al contenedor del campo MathQuill
+const mathFieldSpan = document.getElementById("math-field");
+
+// Referencia al contenedor donde se mostrará el LaTeX generado
+const latexOutput = document.getElementById("latex-output");
+
+// Crear el campo MathQuill dentro del contenedor
+const mathField = MQ.MathField(mathFieldSpan, {
+	spaceBehavesLikeTab: true, // Presionar espacio actúa como tabulación
+	handlers: {
+		// Controlador de eventos cuando se edita el campo
+		edit: function () {
+			const enteredMath = mathField.latex(); // Obtener el contenido en formato LaTeX
+			latexOutput.textContent = enteredMath; // Mostrar el LaTeX generado
+		},
+	},
+});
+</script>
+</body>
+</html>
+	\end{minted}
+\caption[Código para usar MathQuill para introducir datos en \TeX] {Código para usar MathQuill para introducir datos en \TeX}\textit{Fuente: Elaboración propia}
+\end{longlisting}
+
+\section{Script para crear un teclado con MathJax y MathQuill} \label{app3:mathquill_mathjax_keyboard}
+\begin{longlisting}
+	\begin{minted}[fontsize=\small, linenos, breaklines]{html}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Teclado Matemático</title>
+
+<!-- Estilos de MathQuill -->
+<link rel="stylesheet" href="mathquill.css" />
+<!-- MathJax para renderizar fórmulas en el teclado -->
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+<!-- jQuery y MathQuill -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="mathquill.js"></script>
+</head>
+<body>
+<div class="container">
+<h1>Teclado Matemático</h1>
+
+<!-- Teclado Matemático -->
+<div class="math-keyboard">
+<button data-latex="\pi">$$\pi$$</button>
+<button data-latex="\frac{ }{ }">$$\frac{\square}{\square}$$</button>
+<button data-latex="\sin\left( \right )">$$\sin\left(\square\right)$$</button>
+<button data-latex="\cos\left( \right )">$$\cos\left(\square\right)$$</button>
+<button data-latex="{}^{}">$$\square^{\square}$$</button>
+</div>
+
+<!-- Campo de entrada MathQuill -->
+<div id="math-field" class="math-field"></div>
+</div>
+
+<script>
+// Inicializar MathQuill
+const MQ = MathQuill.getInterface(2);
+const mathField = MQ.MathField(document.getElementById("math-field"), {
+	spaceBehavesLikeTab: true,
+});
+
+// Manejar clics en el teclado matemático
+document.querySelectorAll(".math-keyboard button").forEach((button) => {
+	button.addEventListener("click", () => {
+		const latexToInsert = button.getAttribute("data-latex");
+		mathField.write(latexToInsert); // Insertar LaTeX en el campo activo
+	});
+});
+</script>
+</body>
+</html>
+	\end{minted}
+	\caption[Código para usar MathQuill y MathJax para crear un teclado e introducir datos en \TeX] {Código para usar MathQuill para introducir datos en \TeX}\textit{Fuente: Elaboración propia}
+\end{longlisting}

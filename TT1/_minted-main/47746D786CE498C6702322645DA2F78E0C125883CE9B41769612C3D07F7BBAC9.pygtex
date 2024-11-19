@@ -1,0 +1,101 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kd}{const}\PYG{+w}{ }\PYG{n+nx}{express}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nx}{require}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}express\PYGZsq{}}\PYG{p}{);}
+\PYG{k+kd}{const}\PYG{+w}{ }\PYG{n+nx}{cors}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nx}{require}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}cors\PYGZsq{}}\PYG{p}{);}
+\PYG{k+kd}{const}\PYG{+w}{ }\PYG{n+nx}{bodyParser}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nx}{require}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}body\PYGZhy{}parser\PYGZsq{}}\PYG{p}{);}
+\PYG{k+kd}{const}\PYG{+w}{ }\PYG{p}{\PYGZob{}}\PYG{+w}{ }\PYG{n+nx}{exec}\PYG{+w}{ }\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nx}{require}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}child\PYGZus{}process\PYGZsq{}}\PYG{p}{);}
+
+\PYG{k+kd}{const}\PYG{+w}{ }\PYG{n+nx}{app}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nx}{express}\PYG{p}{();}
+\PYG{k+kd}{const}\PYG{+w}{ }\PYG{n+nx}{port}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mf}{3000}\PYG{p}{;}
+
+\PYG{c+c1}{// Configurar CORS}
+\PYG{k+kd}{var}\PYG{+w}{ }\PYG{n+nx}{corsOptions}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{	}\PYG{n+nx}{origin}\PYG{o}{:}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}http://localhost:4200\PYGZsq{}}\PYG{p}{,}
+\PYG{+w}{	}\PYG{n+nx}{optionsSuccessStatus}\PYG{o}{:}\PYG{+w}{ }\PYG{l+m+mf}{200}
+\PYG{p}{\PYGZcb{};}
+
+\PYG{n+nx}{app}\PYG{p}{.}\PYG{n+nx}{use}\PYG{p}{(}\PYG{n+nx}{cors}\PYG{p}{(}\PYG{n+nx}{corsOptions}\PYG{p}{));}
+\PYG{n+nx}{app}\PYG{p}{.}\PYG{n+nx}{use}\PYG{p}{(}\PYG{n+nx}{bodyParser}\PYG{p}{.}\PYG{n+nx}{json}\PYG{p}{());}\PYG{+w}{ }\PYG{c+c1}{// Analizar las solicitudes JSON}
+
+\PYG{c+c1}{// Middleware para establecer cabeceras CORS}
+\PYG{k+kd}{function}\PYG{+w}{ }\PYG{n+nx}{setCorsHeaders}\PYG{p}{(}\PYG{n+nx}{req}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{res}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{next}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{	}\PYG{n+nx}{res}\PYG{p}{.}\PYG{n+nx}{setHeader}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Access\PYGZhy{}Control\PYGZhy{}Allow\PYGZhy{}Origin\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}*\PYGZsq{}}\PYG{p}{);}
+\PYG{+w}{	}\PYG{n+nx}{res}\PYG{p}{.}\PYG{n+nx}{setHeader}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Access\PYGZhy{}Control\PYGZhy{}Allow\PYGZhy{}Methods\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}GET, POST, PUT, PATCH, DELETE\PYGZsq{}}\PYG{p}{);}
+\PYG{+w}{	}\PYG{n+nx}{res}\PYG{p}{.}\PYG{n+nx}{setHeader}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Access\PYGZhy{}Control\PYGZhy{}Allow\PYGZhy{}Headers\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}Content\PYGZhy{}Type, Authorization\PYGZsq{}}\PYG{p}{);}
+\PYG{+w}{	}\PYG{n+nx}{next}\PYG{p}{();}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{n+nx}{app}\PYG{p}{.}\PYG{n+nx}{use}\PYG{p}{(}\PYG{n+nx}{setCorsHeaders}\PYG{p}{);}
+
+\PYG{c+c1}{// Función para ejecutar comandos en Maxima y obtener los resultados}
+\PYG{k+kd}{function}\PYG{+w}{ }\PYG{n+nx}{execMaxima}\PYG{p}{(}\PYG{n+nx}{command}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{callback}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{	}\PYG{n+nx}{exec}\PYG{p}{(}\PYG{n+nx}{command}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{(}\PYG{n+nx}{error}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{stdout}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{stderr}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{=\PYGZgt{}}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{		}\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n+nx}{error}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{			}\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{error}\PYG{p}{(}\PYG{l+s+sb}{`Error executing Maxima command: }\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nx}{stderr}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+sb}{`}\PYG{p}{);}
+\PYG{+w}{			}\PYG{n+nx}{callback}\PYG{p}{(}\PYG{n+nx}{error}\PYG{p}{,}\PYG{+w}{ }\PYG{k+kc}{null}\PYG{p}{);}
+\PYG{+w}{		}\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{k}{else}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{			}\PYG{k+kd}{const}\PYG{+w}{ }\PYG{n+nx}{result}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nx}{stdout}\PYG{p}{.}\PYG{n+nx}{trim}\PYG{p}{();}
+\PYG{+w}{			}\PYG{n+nx}{callback}\PYG{p}{(}\PYG{k+kc}{null}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{result}\PYG{p}{);}
+\PYG{+w}{		}\PYG{p}{\PYGZcb{}}
+\PYG{+w}{	}\PYG{p}{\PYGZcb{});}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{c+c1}{// Ruta para calcular Serie Trigonométrica para una función de un solo trozo}
+\PYG{n+nx}{app}\PYG{p}{.}\PYG{n+nx}{post}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}/fourier/trigonometric\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{(}\PYG{n+nx}{req}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{res}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{=\PYGZgt{}}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{	}\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Se ha recibido una solicitud para calcular la serie trigonométrica\PYGZdq{}}\PYG{p}{);}
+\PYG{+w}{	}\PYG{k+kd}{const}\PYG{+w}{ }\PYG{p}{\PYGZob{}}\PYG{+w}{ }\PYG{n+nx}{funcion}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{periodo}\PYG{+w}{ }\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nx}{req}\PYG{p}{.}\PYG{n+nx}{body}\PYG{p}{;}
+\PYG{+w}{	}
+\PYG{+w}{	}\PYG{k+kd}{const}\PYG{+w}{ }\PYG{n+nx}{command\PYGZus{}a0}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+sb}{`echo \PYGZdq{}declare(n, integer)\PYGZdl{} string(ratsimp(((1/((}\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nx}{periodo}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+sb}{)/2)) * integrate(}\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nx}{funcion}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+sb}{, x, \PYGZhy{}(}\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nx}{periodo}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+sb}{/2), }\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nx}{periodo}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+sb}{/2))));\PYGZdq{} | maxima \PYGZhy{}\PYGZhy{}very\PYGZhy{}quiet \PYGZhy{}`}\PYG{p}{;}
+\PYG{+w}{	}\PYG{k+kd}{const}\PYG{+w}{ }\PYG{n+nx}{command\PYGZus{}an}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+sb}{`echo \PYGZdq{}declare(n, integer)\PYGZdl{} string(ratsimp(((1/((}\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nx}{periodo}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+sb}{)/2)) * integrate(((}\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nx}{funcion}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+sb}{) * cos((n*\PYGZpc{}pi*x)/((}\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nx}{periodo}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+sb}{/2)))), x, \PYGZhy{}(}\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nx}{periodo}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+sb}{/2), }\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nx}{periodo}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+sb}{/2))));\PYGZdq{} | maxima \PYGZhy{}\PYGZhy{}very\PYGZhy{}quiet \PYGZhy{}`}\PYG{p}{;}
+\PYG{+w}{	}\PYG{k+kd}{const}\PYG{+w}{ }\PYG{n+nx}{command\PYGZus{}bn}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+sb}{`echo \PYGZdq{}declare(n, integer)\PYGZdl{} string(ratsimp(((1/((}\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nx}{periodo}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+sb}{)/2)) * integrate(((}\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nx}{funcion}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+sb}{) * sin((n*\PYGZpc{}pi*x)/((}\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nx}{periodo}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+sb}{/2)))), x, \PYGZhy{}(}\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nx}{periodo}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+sb}{/2), }\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nx}{periodo}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+sb}{/2))));\PYGZdq{} | maxima \PYGZhy{}\PYGZhy{}very\PYGZhy{}quiet \PYGZhy{}`}\PYG{p}{;}
+\PYG{+w}{	}
+\PYG{+w}{	}\PYG{n+nx}{execMaxima}\PYG{p}{(}\PYG{n+nx}{command\PYGZus{}a0}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{(}\PYG{n+nx}{error\PYGZus{}a0}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{a0}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{=\PYGZgt{}}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{		}\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n+nx}{error\PYGZus{}a0}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{			}\PYG{n+nx}{res}\PYG{p}{.}\PYG{n+nx}{status}\PYG{p}{(}\PYG{l+m+mf}{500}\PYG{p}{).}\PYG{n+nx}{send}\PYG{p}{(\PYGZob{}}\PYG{+w}{ }\PYG{n+nx}{error}\PYG{o}{:}\PYG{+w}{ }\PYG{l+s+sb}{`Error calculating a0: }\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nx}{error\PYGZus{}a0}\PYG{p}{.}\PYG{n+nx}{message}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+sb}{`}\PYG{+w}{ }\PYG{p}{\PYGZcb{});}
+\PYG{+w}{			}\PYG{k}{return}\PYG{p}{;}
+\PYG{+w}{		}\PYG{p}{\PYGZcb{}}
+\PYG{+w}{		}\PYG{n+nx}{execMaxima}\PYG{p}{(}\PYG{n+nx}{command\PYGZus{}an}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{(}\PYG{n+nx}{error\PYGZus{}an}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{an}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{=\PYGZgt{}}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{			}\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n+nx}{error\PYGZus{}an}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{				}\PYG{n+nx}{res}\PYG{p}{.}\PYG{n+nx}{status}\PYG{p}{(}\PYG{l+m+mf}{500}\PYG{p}{).}\PYG{n+nx}{send}\PYG{p}{(\PYGZob{}}\PYG{+w}{ }\PYG{n+nx}{error}\PYG{o}{:}\PYG{+w}{ }\PYG{l+s+sb}{`Error calculating an: }\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nx}{error\PYGZus{}an}\PYG{p}{.}\PYG{n+nx}{message}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+sb}{`}\PYG{+w}{ }\PYG{p}{\PYGZcb{});}
+\PYG{+w}{				}\PYG{k}{return}\PYG{p}{;}
+\PYG{+w}{			}\PYG{p}{\PYGZcb{}}
+\PYG{+w}{			}\PYG{n+nx}{execMaxima}\PYG{p}{(}\PYG{n+nx}{command\PYGZus{}bn}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{(}\PYG{n+nx}{error\PYGZus{}bn}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{bn}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{=\PYGZgt{}}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{				}\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n+nx}{error\PYGZus{}bn}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{					}\PYG{n+nx}{res}\PYG{p}{.}\PYG{n+nx}{status}\PYG{p}{(}\PYG{l+m+mf}{500}\PYG{p}{).}\PYG{n+nx}{send}\PYG{p}{(\PYGZob{}}\PYG{+w}{ }\PYG{n+nx}{error}\PYG{o}{:}\PYG{+w}{ }\PYG{l+s+sb}{`Error calculating bn: }\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nx}{error\PYGZus{}bn}\PYG{p}{.}\PYG{n+nx}{message}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+sb}{`}\PYG{+w}{ }\PYG{p}{\PYGZcb{});}
+\PYG{+w}{					}\PYG{k}{return}\PYG{p}{;}
+\PYG{+w}{				}\PYG{p}{\PYGZcb{}}
+\PYG{+w}{				}
+\PYG{+w}{				}\PYG{n+nx}{res}\PYG{p}{.}\PYG{n+nx}{json}\PYG{p}{(\PYGZob{}}\PYG{+w}{ }\PYG{n+nx}{a0}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{an}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{bn}\PYG{+w}{ }\PYG{p}{\PYGZcb{});}
+\PYG{+w}{			}\PYG{p}{\PYGZcb{});}
+\PYG{+w}{		}\PYG{p}{\PYGZcb{});}
+\PYG{+w}{	}\PYG{p}{\PYGZcb{});}
+\PYG{+w}{	}\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Se ha calculado la serie trigonométrica\PYGZdq{}}\PYG{p}{);}
+\PYG{p}{\PYGZcb{});}
+
+\PYG{c+c1}{// Ruta para calcular Serie Exponencial para una función de un solo trozo}
+\PYG{n+nx}{app}\PYG{p}{.}\PYG{n+nx}{post}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}/fourier/complex\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{(}\PYG{n+nx}{req}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{res}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{=\PYGZgt{}}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{	}\PYG{k+kd}{const}\PYG{+w}{ }\PYG{p}{\PYGZob{}}\PYG{+w}{ }\PYG{n+nx}{funcion}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{periodo}\PYG{+w}{ }\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nx}{req}\PYG{p}{.}\PYG{n+nx}{body}\PYG{p}{;}
+\PYG{+w}{	}
+\PYG{+w}{	}\PYG{k+kd}{const}\PYG{+w}{ }\PYG{n+nx}{command\PYGZus{}c0}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+sb}{`echo \PYGZdq{}declare(n, integer)\PYGZdl{} tellsimpafter(exp(\PYGZpc{}i*\PYGZpc{}pi*n), (\PYGZhy{}1)**n)\PYGZdl{} tellsimpafter(exp(\PYGZpc{}i*2*\PYGZpc{}pi*n),1)\PYGZdl{} string(ratsimp((1/(}\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nx}{periodo}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+sb}{)) * integrate((}\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nx}{funcion}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+sb}{), x ,\PYGZhy{}((}\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nx}{periodo}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+sb}{)/2), ((}\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nx}{periodo}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+sb}{)/2))));\PYGZdq{} | maxima \PYGZhy{}\PYGZhy{}very\PYGZhy{}quiet \PYGZhy{}`}\PYG{p}{;}
+\PYG{+w}{	}\PYG{k+kd}{const}\PYG{+w}{ }\PYG{n+nx}{command\PYGZus{}cn}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+sb}{`echo \PYGZdq{}declare(n, integer)\PYGZdl{} tellsimpafter(exp(\PYGZpc{}i*\PYGZpc{}pi*n), (\PYGZhy{}1)**n)\PYGZdl{} tellsimpafter(exp(\PYGZpc{}i*2*\PYGZpc{}pi*n),1)\PYGZdl{} string(ratsimp((1/(}\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nx}{periodo}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+sb}{)) * integrate((}\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nx}{funcion}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+sb}{) * (exp(\PYGZhy{}(\PYGZpc{}i*n*\PYGZpc{}pi*x)/(((}\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nx}{periodo}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+sb}{)/2)))), x ,\PYGZhy{}((}\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nx}{periodo}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+sb}{)/2), ((}\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nx}{periodo}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+sb}{)/2))));\PYGZdq{} | maxima \PYGZhy{}\PYGZhy{}very\PYGZhy{}quiet \PYGZhy{}`}\PYG{p}{;}
+\PYG{+w}{	}
+\PYG{+w}{	}\PYG{n+nx}{execMaxima}\PYG{p}{(}\PYG{n+nx}{command\PYGZus{}c0}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{(}\PYG{n+nx}{error\PYGZus{}c0}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{c0}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{=\PYGZgt{}}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{		}\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n+nx}{error\PYGZus{}c0}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{			}\PYG{n+nx}{res}\PYG{p}{.}\PYG{n+nx}{status}\PYG{p}{(}\PYG{l+m+mf}{500}\PYG{p}{).}\PYG{n+nx}{send}\PYG{p}{(\PYGZob{}}\PYG{+w}{ }\PYG{n+nx}{error}\PYG{o}{:}\PYG{+w}{ }\PYG{l+s+sb}{`Error calculating c0: }\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nx}{error\PYGZus{}c0}\PYG{p}{.}\PYG{n+nx}{message}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+sb}{`}\PYG{+w}{ }\PYG{p}{\PYGZcb{});}
+\PYG{+w}{			}\PYG{k}{return}\PYG{p}{;}
+\PYG{+w}{		}\PYG{p}{\PYGZcb{}}
+\PYG{+w}{		}\PYG{n+nx}{execMaxima}\PYG{p}{(}\PYG{n+nx}{command\PYGZus{}cn}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{(}\PYG{n+nx}{error\PYGZus{}cn}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{cn}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{=\PYGZgt{}}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{			}\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n+nx}{error\PYGZus{}cn}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{				}\PYG{n+nx}{res}\PYG{p}{.}\PYG{n+nx}{status}\PYG{p}{(}\PYG{l+m+mf}{500}\PYG{p}{).}\PYG{n+nx}{send}\PYG{p}{(\PYGZob{}}\PYG{+w}{ }\PYG{n+nx}{error}\PYG{o}{:}\PYG{+w}{ }\PYG{l+s+sb}{`Error calculating cn: }\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nx}{error\PYGZus{}cn}\PYG{p}{.}\PYG{n+nx}{message}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+sb}{`}\PYG{+w}{ }\PYG{p}{\PYGZcb{});}
+\PYG{+w}{				}\PYG{k}{return}\PYG{p}{;}
+\PYG{+w}{			}\PYG{p}{\PYGZcb{}}
+\PYG{+w}{			}\PYG{n+nx}{res}\PYG{p}{.}\PYG{n+nx}{json}\PYG{p}{(\PYGZob{}}\PYG{+w}{ }\PYG{n+nx}{c0}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{cn}\PYG{+w}{ }\PYG{p}{\PYGZcb{});}
+\PYG{+w}{		}\PYG{p}{\PYGZcb{});}
+\PYG{+w}{	}\PYG{p}{\PYGZcb{});}
+\PYG{+w}{	}\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Se ha calculado la serie compleja\PYGZdq{}}\PYG{p}{);}
+\PYG{p}{\PYGZcb{});}
+
+\PYG{c+c1}{// Iniciar el servidor}
+\PYG{n+nx}{app}\PYG{p}{.}\PYG{n+nx}{listen}\PYG{p}{(}\PYG{n+nx}{port}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{()}\PYG{+w}{ }\PYG{p}{=\PYGZgt{}}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{	}\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{l+s+sb}{`Server running at http://localhost:}\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nx}{port}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+sb}{`}\PYG{p}{);}
+\PYG{p}{\PYGZcb{});}
+\end{Verbatim}
