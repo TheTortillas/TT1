@@ -39,6 +39,8 @@ En la tabla \ref{tabla:tabla de tecnologías} se muestra un resumen de las tecno
 	
 	tex2max & Librería para convertir fórmulas TeX a formato Maxima & Parser & Convierte entrada TeX a formato computable \\ \hline
 	
+	Microsoft Azure & Plataforma en la nube para despliegue y hospedaje de la aplicación & Infraestructura en la nube & Aloja la aplicación web \\ \hline
+	
 	Git & Sistema de control de versiones & Controlador de versiones & Permite gestionar cambios en el código \\ \hline
 	
 	GitHub & Plataforma para alojar proyectos Git & Controlador de versiones & Almacena y colabora en el repositorio \\ \hline
@@ -51,7 +53,7 @@ En la tabla \ref{tabla:tabla de tecnologías} se muestra un resumen de las tecno
 %En particular, las tecnologías como HTML, CSS y JavaScript establecen la base para el desarrollo web al definir la estructura, estilización y funcionalidad interactiva de la aplicación. Frameworks como Angular y Tailwind CSS, en combinación con TypeScript, facilitan un desarrollo moderno, estructurado y responsivo. Por otro lado, herramientas como MathQuill y MathJax permiten trabajar con fórmulas matemáticas de manera interactiva, mientras que Maxima y tex2max son fundamentales para cálculos simbólicos y la interpretación de expresiones matemáticas.
 %
 %Además, Node.js y Postman aseguran la funcionalidad backend y la correcta integración de APIs, mientras que Git y GitHub se emplean para el control de versiones y la colaboración en el código fuente. Esta combinación de tecnologías asegura un flujo de desarrollo eficiente y una aplicación robusta.
-
+\newpage
 
 \section{Diagrama de arquitectura general del sistema}
 El diagrama de  la figura \ref{fig:diagrama_arqui} ilustra la arquitectura general de la apliación de cálculo y graficación mediante el modelo de cliente servidor
@@ -61,7 +63,14 @@ El diagrama de  la figura \ref{fig:diagrama_arqui} ilustra la arquitectura gener
 	\caption[Diagrama de arquitectura del sistema.]{Diagrama de arquitectura del sistema. \textit{Fuente: \textit{Elaboración propia}}}
 	\label{fig:diagrama_arqui}  % Etiqueta para la figura
 \end{figure}
-El diagrama de la figura \ref{fig:diagrama_arqui} ilustra la arquitectura general de la aplicación web para el cálculo y graficación de las series de Fourier. Este sistema sigue una arquitectura cliente-servidor, complementada con el modelo de microservicios para garantizar modularidad y escalabilidad en el desarrollo futuro.
+El diagrama de la figura \ref{fig:diagrama_arqui} ilustra la arquitectura general de la aplicación web para el cálculo y graficación de las series de Fourier. Este sistema sigue una arquitectura cliente-servidor, complementada con el modelo de microservicios para garantizar modularidad y escalabilidad en el desarrollo futuro. Dentro de este diagrama se describen 3 principales elementos:
+
+\begin{itemize}
+	\item \textbf{Cliente}: Representa al usuario final que interactúa con el sistema a través de un navegador web. Incluye herramientas de ingreso de datos, selección de parámetros y graficación interactiva.
+	\item \textbf{Servidor}: Implementado en NodeJS, actúa como intermediario entre el cliente y el sistema de cálculo matemático Maxima. Maneja las solicitudes entrantes, procesa los cálculos y devuelve los resultados.
+	\item \textbf{JSON}: Actúa como formato estándar para la comunicación entre el cliente, el servidor y los microservicios, asegurando interoperabilidad y facilidad de integración.
+\end{itemize}
+
 \subsection{Arquitectura cliente-servidor}
 El sistema se divide en dos componentes principales: el cliente y el servidor.
 
@@ -101,16 +110,37 @@ Aunque actualmente solo se cuenta con un microservicio (el API para cálculo de 
 	\item Cada microservicio puede ser independiente y comunicarse con el servidor principal mediante una API RESTful bien definida.
 \end{itemize}
 
-\subsection{Descripción del Diagrama}
 
-En el diagrama de la figura \ref{fig:diagrama_arqui}:
+\section{Diagrama de casos de uso}
+En la figura \ref{fig:Diagrama_casos_de_uso} se presenta el diagrama de casos de uso general de la aplicación, el cual describe las interacciones entre el usuario y las principales funcionalidades del sistema. 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{img/chapter04/DCU.pdf}
+	\caption[Diagrama general de casos de uso del sistema.]{Diagrama general de casos de uso del sistema. \textit{Fuente: \textit{Elaboración propia}}}
+	\label{fig:Diagrama_casos_de_uso}
+\end{figure}
 
+
+El diagrama de casos de uso describe las interacciones entre usuario: 
 \begin{itemize}
-	\item \textbf{Cliente}: Representa al usuario final que interactúa con el sistema a través de un navegador web. Incluye herramientas de ingreso de datos, selección de parámetros y graficación interactiva.
-	\item \textbf{Servidor}: Implementado en NodeJS, actúa como intermediario entre el cliente y el sistema de cálculo matemático Maxima. Maneja las solicitudes entrantes, procesa los cálculos y devuelve los resultados.
-	\item \textbf{Maxima}: Es el motor de cálculo algebraico que realiza las operaciones matemáticas necesarias para obtener los coeficientes y las series de Fourier.
-	\item \textbf{JSON}: Actúa como formato estándar para la comunicación entre el cliente, el servidor y los microservicios, asegurando interoperabilidad y facilidad de integración.
+	\item \textbf{Usuario}: Representa a la persona que interactúa con la aplicación, como estudiantes o docentes interesados en analizar y graficar series de Fourier.
 \end{itemize}
+Con las funcionalidades principales de la \textit{Aplicación Web para el Cálculo y Graficación de Series de Fourier}. 
+\begin{enumerate}
+	\item \textbf{Ingresar Función}: El usuario introduce la función matemática que desea analizar.
+	\item \textbf{Validar Función}: El sistema verifica si la función ingresada es válida y puede ser procesada.
+	\item \textbf{Seleccionar Tipo de Serie}: El usuario elige el tipo de serie de Fourier a calcular (por ejemplo, serie completa, solo senos, solo cosenos, etc.).
+	\item \textbf{Configurar Extensiones} (opcional): El usuario ajusta configuraciones adicionales, como los límites de integración o la cantidad de términos en la serie.
+	\item \textbf{Calcular Serie de Fourier}: Se realiza el cálculo de los coeficientes de la serie y se generan los datos necesarios.
+	\item \textbf{Visualizar Resultados y Coeficientes}: El sistema presenta los valores calculados, incluyendo los coeficientes de la serie, en un formato comprensible.
+	\item \textbf{Visualizar e Interactuar con la Gráfica}: El sistema genera una gráfica interactiva que permite al usuario explorar visualmente la serie de Fourier y su aproximación a la función original.
+\end{enumerate}
+El flujo principal del diagrama es el siguiente:
+\begin{enumerate}
+	\item El \textbf{Usuario} comienza \textbf{Ingresando una Función} (\textit{CU1}) que es \textbf{Validada} automáticamente (\textit{CU4}).
+	\item Luego, \textbf{Selecciona el Tipo de Serie} (\textit{CU2}) y, opcionalmente, \textbf{Configura Extensiones} (\textit{CU3}).
+	\item Después de estos pasos, la aplicación \textbf{Calcula la Serie de Fourier} (\textit{CU5}), generando \textbf{Resultados y Coeficientes} (\textit{CU6}) y \textbf{Gráficas Interactivas} (\textit{CU7}) que el usuario puede explorar visualmente.
+\end{enumerate}
 
 \newpage
 
@@ -268,16 +298,6 @@ Las relaciones que se tienen en estas clases son:
 Estos dos diagramas nos dan la estructura de como es que los datos que se envían y reciben entre el cliente y el servidor.
 
 \newpage
-
-\section{Diagrama de casos de uso}
-En la figura \ref{fig:Diagrama_casos_de_uso} se presenta el diagrama de casos de uso general de la aplicación, el cual describe las interacciones entre el usuario y las principales funcionalidades del sistema. 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\textwidth]{img/chapter04/DCU.pdf}
-	\caption[Diagrama general de casos de uso del sistema.]{Diagrama general de casos de uso del sistema. \textit{Fuente: \textit{Elaboración propia}}}
-	\label{fig:Diagrama_casos_de_uso}
-\end{figure}
-El flujo del diagrama inicia con el ingreso de la función y la validación de esta. Opcionalmente, el usuario puede configurar extensiones de medio rango si la serie seleccionada es trigonométrica. Posteriormente, se calcula la Serie de Fourier, y el usuario puede visualizar los resultados numéricos de los coeficientes o interactuar con la gráfica generada.
 
 \section{Diseño de la interfaz de usuario}
 El diseño de las interfaces de usuario proporciona una representación visual clara de las funcionalidades principales del sistema. A continuación, se presentan los mockups de las dos interfaces principales: la interfaz de ingreso de datos y la interfaz de gráficos interactivos.

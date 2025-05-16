@@ -338,7 +338,7 @@ Los requerimientos funcionales describen lo que el sistema debe hacer, es decir,
 
 
 \subsection{Requerimientos No Funcionales}
-Los requerimientos funcionales definen cómo debe funcionar el sistema, estableciendo estándares de calidad como rendimiento, seguridad, usabilidad, escalabilidad, y eficiencia.
+Los requerimientos funcionales definen cómo debe funcionar el sistema, además de características y restricciones que debe cumplir la aplicación, además de su funcionalidad básica.
 
 %Tabla de no funcionales
 \begin{longtable}{|m{5cm}|m{8.5cm}|}
@@ -354,22 +354,31 @@ Los requerimientos funcionales definen cómo debe funcionar el sistema, establec
 	\endfoot
 	\hline
 	\endlastfoot
-	\textbf{Rendimiento} & El sistema debe calcular los coeficientes de Fourier en un tiempo razonable, incluso para funciones con múltiples trozos o con un alto número de términos en la serie. La visualización gráfica debe ser fluida y responsiva, incluso al agregar o quitar muchos términos de la serie. Las interacciones en el lienzo canvas deben realizarse sin latencia perceptible. \\
+	
+	\textbf{Rendimiento} & El sistema debe ser capaz de calcular las Series de Fourier en un tiempo razonable  y devolver los resultados al usuario, asegurando fluidez en la interacción con la aplicación. La visualización de los gráficos debe ser fluida al agregar o quitar términos de la serie. \\ 
 	\hline
 	
-	\textbf{Escalabilidad} & El sistema debe calcular los coeficientes de Fourier en un tiempo razonable, incluso para funciones con múltiples trozos o con un alto número de términos en la serie. La visualización gráfica debe ser fluida y responsiva, incluso al agregar o quitar muchos términos de la serie. Las interacciones en el lienzo canvas deben realizarse sin latencia perceptible. \\
+	\textbf{Modularidad} & Cada microservicio debe ser autónomo, encargado de una tarea específica (por ejemplo, cálculo de series de Fourier) y desacoplado del cliente y otros microservicios, permitiendo su reemplazo o actualización sin afectar al sistema completo. \\
 	\hline
+		
+	\textbf{Escalabilidad} & El sistema debe poder integrar nuevos microservicios en el futuro (por ejemplo, cálculo de transformadas de Fourier o análisis simbólico avanzado) sin necesidad de modificar la arquitectura base. \\ 
+	\hline
+	
+	\textbf{Compatibilidad}  & La aplicación debe ser compatible con los principales navegadores modernos (Chrome, Firefox, Edge). A pesar de que no se definió y no es recomendable, el diseño debe ser responsivo para ajustarse a diferentes tamaños de pantalla, incluidos dispositivos móviles y tabletas. \\ \hline
 	
 	\textbf{Usabilidad} & La interfaz debe ser intuitiva y fácil de usar, con botones y controles claramente identificados. Los mensajes de error y advertencia deben ser comprensibles, evitando el uso de jerga técnica complicada. La notación matemática debe ser clara, precisa y visualmente agradable. \\
-	\hline
-	
-	\textbf{Compatibilidad} & La aplicación debe ser compatible con los principales navegadores modernos (Chrome, Firefox, Edge). Aunque no es recomendable usar la aplicación en dispositivos móviles, el diseño debe ser responsivo para ajustarse a diferentes tamaños de pantalla, incluidos dispositivos móviles y tabletas. \\
 	\hline
 	
 %	\textbf{Modularidad y Extensibilidad del Código} & El frontend debe estar diseñado para facilitar la migración a frameworks como Angular en el futuro. El código debe ser modular y seguir buenas prácticas de desarrollo para facilitar la adición de nuevas características. Aunque el sistema no requiere una base de datos en su versión actual, el backend debe ser fácilmente extensible para permitir el almacenamiento de sesiones o configuraciones del usuario en el futuro. \\
 %	\hline
 	
-	\textbf{Mantenibilidad} & La aplicación debe tener una guía de usuario clara para explicar cómo ingresar funciones, seleccionar series y usar la interfaz. El código debe estar bien documentado para que futuros desarrolladores puedan entender la lógica y estructura de la aplicación fácilmente. \\
+	\textbf{Mantenibilidad}  & El código del sistema debe estar estructurado siguiendo buenas prácticas de desarrollo, con documentación técnica que facilite su mantenimiento y futuras mejoras. \\ \hline
+	
+	\textbf{Interactividad} & Las gráficas deben ser dinámicas, permitiendo zoom, desplazamiento y control del número de coeficientes de Fourier mediante un slider interactivo, con actualizaciones instantáneas. \\ \hline
+	
+	\textbf{Fiabilidad} & La aplicación debe manejar adecuadamente errores de entrada de funciones no válidas, mostrando mensajes claros y precisos al usuario. \\ \hline
+	
+	\textbf{Reusabilidad} &  El código debe estar bien documentado para que futuros desarrolladores puedan entender la lógica y estructura de la aplicación fácilmente. \\
 	\hline
 	
 	\textbf{Seguridad} & Todas las comunicaciones entre el frontend y el backend deben estar cifradas (HTTPS). \\

@@ -1,0 +1,49 @@
+## Archivos generados por LaTeX
+*.aux
+*.auxlock
+*.bbl
+*.bcf
+*.blg
+*.dvi
+*.fdb_latexmk
+*.fls
+*.loa
+*.lof
+*.log
+*.lol
+*.lot
+*.out
+*.pyg
+*.run.xml
+*.synctex.gz
+*.toc
+*.vrb
+*.nav
+*.snm
+*.idx
+*.ilg
+*.ind
+*.xdv
+
+## Directorios generados
+_minted-*/
+figures/
+auto/
+
+## Archivos de respaldo/temporales de editores
+*~
+*.bak
+*.swp
+.DS_Store
+*.sav
+*\#*\#
+.\#*
+
+## Archivos específicos de IDE/editores
+.vscode/
+.idea/
+*.sublime-*
+
+## Otros archivos comunes a ignorar
+svg-inkscape/*.pdf_tex
+svg-inkscape/*.pdf
