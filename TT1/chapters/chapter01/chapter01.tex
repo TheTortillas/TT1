@@ -1,5 +1,5 @@
 \chapter{Introducción}\label{ch:Introducción}
-En este capítulo, examinaremos el problema que se abordará, la necesidad e impulso para hacerlo, así como los objetivos previstos para este proyecto y nuestras propuestas de solución para esta problemática. 
+En este capítulo, se examinará la problemática a tratar, la necesidad e impulso para hacerlo, así como los objetivos previstos para este proyecto y nuestras propuestas de solución para esta problemática. 
 
 \section{Motivación}
 Las matemáticas son fundamentales en la formación de un ingeniero, proporcionando herramientas esenciales para modelar y resolver problemas complejos. Durante mi formación en la Escuela Superior de Cómputo, al estudiar el análisis de Fourier y resolver series de Fourier, noté la ausencia de métodos eficientes para verificar los resultados de manera directa. A diferencia de otros cálculos matemáticos que cuentan con calculadoras especializadas, las series de Fourier requieren procesos un tanto más elaborados que implican el uso de múltiples softwares para calcular coeficientes y graficar funciones, consumiendo tiempo valioso que podría dedicarse a una comprensión más profunda de los conceptos. Esta situación motiva el desarrollo de herramientas más óptimas para facilitar y agilizar la verificación de series de Fourier, mejorando así la eficiencia en el aprendizaje y aplicación de estos conceptos.
@@ -69,8 +69,8 @@ La aplicación web contará con las siguientes características clave:
 	\item \textbf{Cálculo automático de series de Fourier para diferentes tipos de funciones:}
 	\vspace{-10pt}
 	\begin{itemize}
-		\item La aplicación calculará \textbf{series de Fourier} para \textbf{funciones continuas} en un intervalo o para \textbf{funciones definidas a trozos}. El usuario podrá ingresar funciones matemáticas, incluso aquellas con discontinuidades o que estén definidas por partes en distintos intervalos, y la aplicación manejará estos casos automáticamente.
-		\item Se implementará tanto la \textbf{serie trigonométrica} como la \textbf{serie exponencial compleja}. La serie trigonométrica descompondrá la función en términos de senos y cosenos, mientras que la versión compleja lo hará en términos de exponenciales imaginarios, lo cual es útil en el contexto de análisis más avanzado y en aplicaciones de ingeniería.
+		\item La aplicación calculará series de Fourier para funciones continuas en un intervalo o para funciones definidas a trozos. El usuario podrá ingresar funciones matemáticas, incluso aquellas con discontinuidades o que estén definidas por partes en distintos intervalos, y la aplicación manejará estos casos automáticamente.
+		\item Se implementará la serie de Fourier tanto en su forma trigonométrica como  exponencial compleja. La serie trigonométrica descompondrá la función en términos de senos y cosenos, mientras que la versión compleja lo hará en términos de exponenciales imaginarios, lo cual es útil en el contexto de análisis más avanzado y en aplicaciones de ingeniería.
 	\end{itemize}
 	
 	\item \textbf{Extensiones de medio rango:}
@@ -78,9 +78,8 @@ La aplicación web contará con las siguientes características clave:
 	\begin{itemize}
 		\item La herramienta permitirá calcular \textbf{extensiones de medio rango} para funciones en un medio intervalo. Esto incluirá la posibilidad de obtener:
 		\begin{itemize}
-			\item \textbf{Serie de senos} para funciones impares.
-			\item \textbf{Serie de cosenos} para funciones pares.
-			\item \textbf{Serie completa} para funciones periódicas en un intervalo definido, permitiendo extender la función para construir series de Fourier en un medio rango específico.
+			\item \textbf{Serie de cosenos} para hacer una expansión par de la función.
+			\item \textbf{Serie de senos} para una expansión impar de la función.
 		\end{itemize}
 	\end{itemize}
 	
@@ -98,6 +97,8 @@ La aplicación web contará con las siguientes características clave:
 \end{itemize}
 
 \section{Objetivos}
+Los objetivos planteados buscan guiar el desarrollo del prototipo de la aplicación web, definiendo metas claras tanto a nivel general como específico para garantizar la funcionalidad y usabilidad del sistema.
+
 \subsection{Objetivo General}
 Desarrollar un prototipo de una aplicación web capaz de calcular las series de Fourier en su forma trigonométrica o exponencial compleja de una función continua en un intervalo o definida a trozos, así como ser capaz de obtener la extensión par o impar de dicha función y, finalmente, graficar tanto la función original como la función expandida como una serie de Fourier y poder añadir o eliminar términos de dicha forma para apreciar como esta se aproxima a la función original.
 

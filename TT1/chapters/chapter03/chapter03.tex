@@ -1,15 +1,15 @@
 \chapter{Marco Teórico}\label{ch:Marco Teórico}
-En este capítulo se presentará la teoría necesaria para el desarrollo de nuestra calculadora de series de Fourier. Comenzaremos explorando la historia y evolución de las series de Fourier, se detallarán las fórmulas matemáticas para comprender la descomposición de funciones periódicas en sumas de senos y cosenos, resaltando los conceptos de coeficientes de Fourier. Además, se presentan las tecnologías necesarias para la elaboración del proyecto.
+En este capítulo se presentará la teoría necesaria para el desarrollo del presente proyecto. Comenzaremos explorando la historia y evolución de las series de Fourier, se detallarán las fórmulas matemáticas para comprender la descomposición de funciones periódicas en sumas de senos y cosenos, resaltando los conceptos de coeficientes de Fourier. Además, se presentan las tecnologías necesarias para la elaboración del proyecto.
 
 \section{Origen e historia de las series de Fourier}
 Uno de los problemas del que se ocuparon los matemáticos del siglo XVIII es el que se conoce con el nombre del \textit{problema de la cuerda vibrante}. Este problema fue estudiado por D’Alambert y Euler (usando el método de propagación de las ondas) y un poco más tarde, concretamente en 1753, por Daniel Bernoulli. La solución dada por este difería de la proporcionada por los anteriores y consistió básicamente en expresar la solución del problema como superposición (en general infinita) de ondas sencillas. 
-
+\newline
 Las ideas de Bernoulli fueron aplicadas y perfeccionadas por Fourier, en 1807, en el estudio de problemas relacionados con la conducción del calor. Quedaron plasmadas por escrito en el libro clásico \emph{Théorie analytique de la chaleur}, publicado en 1822. Los razonamientos realizados por Fourier en este libro plantearon de manera inmediata numerosas controversias y cuestiones que han tenido una influencia significativa en la historia de la Matemática ~\cite{historia-alambert-fourier-euler}.
 
 \subsection{El problema de la cuerda oscilante}
 
-Uno de los problemas más interesantes que abordaron los científicos del siglo XVIII, y que aparece con frecuencia en problemas físicos relacionados con procesos oscilatorios, es el conocido como \textit{problema de la cuerda vibrante}. Este se puede describir en su forma más elemental de la siguiente manera: Supongamos que tenemos una cuerda flexible y tensa, cuyos extremos están fijos, convenientemente, en los puntos $(0, 0)$ y $(\ell, 0)$ sobre el eje horizontal. Si la cuerda se tira de modo que su forma inicial corresponde a la curva definida por $y = f(x)$, y luego se suelta, la pregunta es: ¿Cuál será el movimiento resultante de la cuerda?
-
+El problema de la cuerda vibrante, que surge con frecuencia en fenómenos físicos oscilatorios, puede describirse de la siguiente manera: Supongamos una cuerda flexible y tensa, cuyos extremos están fijados en los puntos $(0,0)$ y $(\ell, 0)$ sobre el eje horizontal. Si la cuerda se desplaza de modo que su forma inicial corresponde a la curva definida por $y = f(x)$ y luego se suelta, la pregunta es: ¿cuál será el movimiento resultante de la cuerda?
+\newline
 Los desplazamientos de la cuerda siempre se encuentran en un mismo plano, y el vector desplazamiento es perpendicular en cualquier momento. Para describir este movimiento se utiliza una función $u(x, t)$, donde $u(x, t)$ representa el desplazamiento vertical de la cuerda en la posición $x$ (con $0 \leq x \leq \ell$) y en el instante $t$ (con $t \geq 0$). El problema es determinar $u(x, t)$ a partir de $f(x)$ ~\cite{weinbergerEDP}.
 
 \subsubsection{D’Alambert y Euler}
@@ -658,7 +658,7 @@ La frecuencia angular se mide comúnmente en radianes por segundo (\( \text{rad/
 \end{figure}
 
 \subsection{Armónicos}
-La función periódica de mayor importancia es:
+Las funciones periódicas más representativas son:
 \begin{equation}
 	f(t) = A \sin(\omega_0 t + \varphi) \quad \text{o} \quad f(t) = A \cos(\omega_0 t + \varphi)
 \end{equation}
@@ -1570,6 +1570,217 @@ Finalmente, las series de Fourier tienen impacto directo en campos como la músi
 	\item \textbf{Diseño de sistemas de control:} Predicción del comportamiento de sistemas no lineales ~\cite{repositorioFourierARG}. 
 \end{itemize}
 
+\section{Transformada Discreta de Fourier}
+
+En la práctica, no siempre es posible obtener una representación analítica de una función mediante series de Fourier. Por ejemplo, funciones como \( \tan(x) \) o \( \frac{\sin(x)}{x} \) presentan dificultades al calcular los coeficientes de la serie, ya que al ser multiplicadas por los núcleos ortogonales asociados, el resultado suele involucrar integrales no elementales, divergentes o indefinidas en el intervalo de integración.
+
+Recordando, los núcleos ortogonales dependen de la forma en que se represente la serie de Fourier:
+\begin{itemize}
+	\item Para la serie trigonométrica: \( \cos(n\omega_0 x) \) y \( \sin(n\omega_0 x) \)
+	\item Para la serie compleja: \( e^{-i n \omega_0 x} \)
+\end{itemize}
+
+Además, en muchos contextos reales —como el procesamiento de señales, el análisis numérico o la ingeniería— las funciones no se definen por expresiones analíticas, sino mediante un conjunto finito de muestras discretas. Estas situaciones exigen métodos que operen directamente sobre datos muestreados.
+
+Para abordar estas dificultades, la Transformada Discreta de Fourier (DFT) se presenta como una herramienta poderosa que permite realizar análisis espectrales sin necesidad de evaluar integrales simbólicas. La DFT aproxima la serie de Fourier mediante sumas finitas, operando directamente sobre los valores muestreados de la función. Transforma una secuencia discreta en el dominio del tiempo (o espacio) en una secuencia de componentes en el dominio de la frecuencia, y resulta especialmente útil para funciones periódicas conocidas en un número finito de puntos.
+
+En este contexto, puede pensarse a la DFT como una versión discreta de la serie compleja de Fourier, donde la integral que define los coeficientes \( C_n \) se reemplaza por una suma finita, y los valores continuos de la función se sustituyen por muestras equiespaciadas. Esta relación no es meramente formal: como se demostrará a continuación, los coeficientes de la DFT coinciden con los \( C_n \) cuando se evalúan sobre funciones periódicas muestreadas uniformemente. Además, la transformada inversa (IDFT) permite recuperar las muestras originales de forma exacta, replicando el comportamiento de la serie compleja de Fourier. Por tanto, la DFT constituye una extensión computacional coherente de la teoría clásica de Fourier.
+\newline
+Partiendo de la serie compleja de Fourier continua, podemos obtener expresiones para funciones discretas. Recordemos que la serie de Fourier compleja está dada por:
+
+\[
+f(x) = \sum_{n=-\infty}^{\infty} C_n e^{i n \omega_0 x}, \quad \text{donde } C_n = \frac{1}{T} \int_0^T f(x) e^{-i n \omega_0 x} dx
+\]
+
+Donde:
+\begin{itemize}
+	\item \( T \) es el periodo de la función.
+	\item \( \omega_0 = \frac{2\pi}{T} \) es la frecuencia fundamental.
+\end{itemize}
+
+\subsection{Discretización}
+
+Consideramos una función discreta \( f(x_k) = f_k \in \{f_0, f_1, f_2, \ldots, f_{N-1}\} \), evaluada en \( N \) valores \( x_k \in \{x_0, x_1, \ldots, x_{N-1}\} \). Tomamos el periodo \( T = N \Delta x \), donde \( \Delta x = 1 \), por simplicidad.
+
+\[
+x_k = k \Delta x, \quad \text{con } k = 0, 1, \ldots, N-1
+\]
+
+\begin{center}
+	\begin{minipage}{0.32\textwidth}
+		\begin{tikzpicture}[scale=1.2]
+			% Ejes
+			\draw[->] (-0.2,0) -- (3.4,0) node[right] {$x$};
+			\draw[->] (0,-0.2) -- (0,2.4) node[above] {$f(x)$};
+			
+			% Curva definida por la función proporcionada
+			\draw[thick, domain=0:3, smooth, samples=100]
+			plot(\x, {((\x - 0.7)^3)/2 - (\x - 0.7)^2 + (\x - 0.7)/5 + 1});
+			
+			% Marca del periodo T
+			\draw[|-|] (0,-0.3) -- (3,-0.3) node[midway, below] {$T$};
+		\end{tikzpicture}
+	\end{minipage}
+	\begin{minipage}{0.32\textwidth}
+		\begin{tikzpicture}[scale=1.2]
+			% Ejes
+			\draw[->] (-0.2,0) -- (3.4,0) node[right] {$x$};
+			\draw[->] (0,-0.2) -- (0,2.4) node[above] {$f(x)$};
+			
+			% Rectángulos (lower sum)
+			\foreach \k in {0,...,7} {
+				\pgfmathsetmacro\xleft{0.375*\k}
+				\pgfmathsetmacro\xright{0.375*(\k+1)}
+				\pgfmathsetmacro\yval{((\xleft - 0.7)^3)/2 - (\xleft - 0.7)^2 + (\xleft - 0.7)/5 + 1}  % Usar el valor en xleft con 0.7
+				\draw[fill=gray!30, draw=black] (\xleft,0) rectangle (\xright,\yval);
+			}
+			
+			% Curva original
+			\draw[thick, domain=0:3, smooth, samples=100]
+			plot(\x, {((\x - 0.7)^3)/2 - (\x - 0.7)^2 + (\x - 0.7)/5 + 1});
+			
+			% Etiquetas f_k
+			\node at (0,0.9) {$f_0$};
+			\node at (0.375,1.1) {$f_1$};
+			\node at (0.75,1.5) {$f_2$};
+			\node at (1.7,1.6) {$\cdots$};
+			\node at (3.3,1.7) {$f_{N-1}$};
+			
+			% Etiquetas x_k
+			\node at (0,-0.3) {$x_0$};
+			\node at (0.375,-0.3) {$x_1$};
+			\node at (0.75,-0.3) {$x_2$};
+			\node at (1.7,-0.3) {$\cdots$};
+			\node at (3.3,-0.3) {$x_{N-1}$};
+			
+			% Delta x con fuente más pequeña
+			\foreach \k in {0,1,6,7} {
+				\pgfmathsetmacro\xstart{0.375*\k}
+				\pgfmathsetmacro\xend{0.375*(\k+1)}
+				\pgfmathsetmacro\xmid{(\xstart+\xend)/2}
+				\draw[|-|] (\xstart,-0.5) -- (\xend,-0.5);
+				\node at (\xmid,-0.7) {\scriptsize $\Delta x$};
+			}
+			
+			% Puntos suspensivos en medio
+			\node at (1.7,-0.6) {$\cdots$};
+		\end{tikzpicture}
+		
+	\end{minipage}
+	\begin{minipage}{0.32\textwidth}
+		\begin{tikzpicture}[scale=1.2]
+			% Ejes
+			\draw[->] (-0.2,0) -- (3.4,0) node[right] {$k\Delta x$};
+			\draw[->] (0,-0.2) -- (0,2.4) node[above] {$f(k\Delta x)$};
+			
+			% Stems (discrete samples)
+			\foreach \k in {0,...,7} {
+				\pgfmathsetmacro\x{0.375*\k}
+				\pgfmathsetmacro\y{((\x - 0.7)^3)/2 - (\x - 0.7)^2 + (\x - 0.7)/5 + 1}
+				\draw[thick] (\x,0) -- (\x,\y);
+				\filldraw[fill=white] (\x,\y) circle (2pt);
+			}
+			
+			% Etiquetas f_k
+			\node at (-0.2,0.3) {$f_0$};
+			\node at (0.375,1.1) {$f_1$};
+			\node at (0.75,1.5) {$f_2$};
+			\node at (1.7,1.6) {$\cdots$};
+			\node at (3.3,1.7) {$f_{N-1}$};
+			
+			% Etiquetas x_k abajo
+			\node at (0,-0.3) {$x_0$};
+			\node at (0.375,-0.3) {$x_1$};
+			\node at (0.75,-0.3) {$x_2$};
+			\node at (1.125,-0.3) {$x_3$};
+			\node at (1.7,-0.3) {$\cdots$};
+			\node at (3.3,-0.3) {$x_{N-1}$};
+			
+			% Marca de Delta x (solo una, inicial)
+			\draw[|-|] (0,-0.5) -- (0.375,-0.5);
+			\node at (0.1875,-0.7) {\scriptsize $\Delta x$};
+			
+			% Marca del periodo T
+			\draw[|-|] (0,-1) -- (3,-1);
+			\node at (1.5,-1.2) {$T$};
+		\end{tikzpicture}
+	\end{minipage}
+\end{center}
+
+\subsection{Transformada Discreta de Fourier (DFT)}
+
+Discretizando la integral (como una suma de Riemann) para los \( N \) valores, tenemos:
+
+\begin{align}
+	F_n = C_n &= \frac{1}{T} \int_0^T f(x) \, e^{-i n \frac{2\pi}{T} x} \, dx \\[1ex]
+	&\approx \frac{1}{N\Delta x} \sum_{k=0}^{N-1} f(x_k) \, e^{-i n \frac{2\pi}{N\Delta x} k \Delta x} \, \Delta x \\[1ex]
+	&= \frac{1}{N} \sum_{k=0}^{N-1} f_k \, e^{-i n \frac{2\pi}{N \Delta x} k \Delta x} \\[1ex]
+	&= \frac{1}{N} \sum_{k=0}^{N-1} f_k \, e^{-i n \frac{2\pi}{N} k}
+\end{align}
+
+La DFT transforma una secuencia de tiempo discreta en una secuencia de frecuencias discretas.
+
+\[
+F_n = \frac{1}{N} \sum_{k=0}^{N-1} f_k e^{-i \frac{2\pi}{N} nk}, \quad n = 0, 1, \ldots, N-1
+\]
+
+\subsection{Transformada Inversa Discreta de Fourier (IDFT)}
+
+La transformada inversa permite recuperar las muestras originales, partimos de la serie compleja de Fourier:
+
+\begin{align}
+	f_k = f(x) &= \sum_{n=-\infty}^{\infty} C_n \, e^{i n \frac{2\pi}{T} x} \\[1ex]
+	&\approx \sum_{n=0}^{N-1} C_n \, e^{i n \frac{2\pi}{N \Delta x} k \Delta x} \\[1ex]
+	&= \sum_{n=0}^{N-1} C_n \, e^{i n \frac{2\pi}{N} k}
+\end{align}
+
+
+La transformada inversa permite recuperar las muestras originales:
+
+\[
+f_k = \sum_{n=0}^{N-1} F_n e^{i \frac{2\pi}{N} nk}, \quad k = 0, 1, \ldots, N-1
+\]
+
+\subsection{Periodicidad de la Transformada Discreta de Fourier (DFT)}
+
+Queremos demostrar que \( F_{n+N} = F_n \). Partimos de la definición:
+
+\begin{align}
+	F_{n+N} &= \frac{1}{N} \sum_{k=0}^{N-1} f_k \, e^{-i \frac{2\pi}{N} (n+N)k} \\[1ex]
+	&= \frac{1}{N} \sum_{k=0}^{N-1} f_k \, e^{-i \frac{2\pi}{N} nk} \cdot e^{-i \frac{2\pi}{N} Nk} \\[1ex]
+	&= \frac{1}{N} \sum_{k=0}^{N-1} f_k \, e^{-i \frac{2\pi}{N} nk} \cdot e^{-i 2\pi k} \\[1ex]
+	&= \frac{1}{N} \sum_{k=0}^{N-1} f_k \, e^{-i \frac{2\pi}{N} nk} \quad \text{(ya que \( e^{-i 2\pi k} = 1 \))} \\[1ex]
+	&= F_n
+\end{align}
+
+Por lo tanto:
+
+\[
+F_{n+N} = F_n
+\]
+
+La DFT es periódica con periodo \( N \).
+
+
+\subsection{Periodicidad de la Transformada Inversa Discreta de Fourier (IDFT)}
+
+Queremos demostrar que \( f_{k+N} = f_k \). Partimos de la definición:
+
+\begin{align}
+	f_{k+N} &= \sum_{n=0}^{N-1} F_n \, e^{i \frac{2\pi}{N} n(k+N)} \\[1ex]
+	&= \sum_{n=0}^{N-1} F_n \, e^{i \frac{2\pi}{N} nk} \cdot e^{i \frac{2\pi}{N} nN} \\[1ex]
+	&= \sum_{n=0}^{N-1} F_n \, e^{i \frac{2\pi}{N} nk} \cdot e^{i 2\pi n} \\[1ex]
+	&= \sum_{n=0}^{N-1} F_n \, e^{i \frac{2\pi}{N} nk} \quad \text{(ya que \( e^{i 2\pi n} = 1 \))} \\[1ex]
+	&= f_k
+\end{align}
+
+Por lo tanto:
+
+\[
+f_{k+N} = f_k
+\]
+
+La IDFT también es periódica con periodo \( N \).
 
 
 \section{Aplicaciones Web}
