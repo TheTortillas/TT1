@@ -11,7 +11,7 @@
 \usepackage{minted}
 \usepackage{listings}
 \usepackage[spanish]{babel}
-
+\usepackage{adjustbox} 
 %\usepackage{listings}   % Para incluir código fuente
 %\usepackage[utf8]{inputenc}
 \usepackage{float}
@@ -28,6 +28,10 @@
 \usepackage{longtable}
 \usepackage{svg}
 \usepackage{fontawesome5} %para los iconos
+\usepackage{siunitx}
+\usepackage{setspace}
+\usepackage{tcolorbox}
+\usepackage{pdfpages}
 
 % Create a new environment for breaking code listings across pages.
 \newenvironment{longlisting}{\captionsetup{type=listing}}{}
@@ -104,7 +108,7 @@
 \degree{Ingeniero en Sistemas Computacionales}
 \advisor{M. en C. Jesús Alfredo Martínez Nuño}
 \coadvisor{M. en C. Gisela González Albarrán}
-\academicyear{Junio 2025}
+\academicyear{16 de Junio de 2025}
 
 \hypersetup{
 	colorlinks=false,
@@ -121,14 +125,17 @@
 \begin{document}
 	\frontmatter
 	\maketitle
-	\cleardoublepage
+	%\cleardoublepage
 	
+	\clearpage
+	\includepdf[pages=-,fitpaper=true]{scan_docs/TT_docs.pdf} 
 	
 	%\input{frontmatter/dibujo-portada/draw}
 	%\input{frontmatter/technical_document/technical_document}
-	%\input{frontmatter/advertisement}
+	\input{frontmatter/advertisement}
+	\input{frontmatter/acknowledgements}
 	\input{frontmatter/abstract}
-	%\input{frontmatter/acknowledgements}
+
 	\cleardoublepage
 	\tableofcontents
 	\listoffigures
@@ -145,6 +152,7 @@
 		\include{chapters/chapter06/chapter06}
 		\include{chapters/chapter07/chapter07}
 		\include{chapters/chapter08/chapter08}
+		%\include{chapters/chapter09/chapter09}
 	\appendix
 		\include{appendages/appendixA/appendixA}
 		\include{appendages/appendixB/appendixB}

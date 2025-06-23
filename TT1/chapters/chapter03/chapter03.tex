@@ -1600,13 +1600,13 @@ Donde:
 
 \subsection{Discretización}
 
-Consideramos una función discreta \( f(x_k) = f_k \in \{f_0, f_1, f_2, \ldots, f_{N-1}\} \), evaluada en \( N \) valores \( x_k \in \{x_0, x_1, \ldots, x_{N-1}\} \). Tomamos el periodo \( T = N \Delta x \), donde \( \Delta x = 1 \), por simplicidad.
+Consideramos una función discreta \( f(x_k) = f_k \in \{f_0, f_1, f_2, \ldots, f_{N-1}\} \), evaluada en \( N \) valores \( x_k \in \{x_0, x_1, \ldots, x_{N-1}\} \). 
 
 \[
 x_k = k \Delta x, \quad \text{con } k = 0, 1, \ldots, N-1
 \]
 
-\begin{center}
+\begin{figure}[H]
 	\begin{minipage}{0.32\textwidth}
 		\begin{tikzpicture}[scale=1.2]
 			% Ejes
@@ -1705,7 +1705,11 @@ x_k = k \Delta x, \quad \text{con } k = 0, 1, \ldots, N-1
 			\node at (1.5,-1.2) {$T$};
 		\end{tikzpicture}
 	\end{minipage}
-\end{center}
+\caption[Discretización de una función continua]{Proceso de discretización de una función continua $f(x)$. A la izquierda, se muestra la función continua en el intervalo de periodo $T$. Al centro, se representa la aproximación mediante particiones uniformes del intervalo con paso $\Delta x$, evaluando la función en puntos equiespaciados. A la derecha, se ilustra la señal discreta resultante, compuesta por los valores $f_k = f(k\Delta x)$. \textit{Fuente: Elaboración propia.}}
+
+\label{fig:sf-to-dft} 
+\end{figure}
+
 
 \subsection{Transformada Discreta de Fourier (DFT)}
 

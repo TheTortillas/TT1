@@ -81,7 +81,7 @@
 
             \vspace{60pt}
             % Título del trabajo
-            {\fontsize{25}{20}\selectfont Trabajo Terminal II\\}
+            {\fontsize{25}{20}\selectfont Trabajo Terminal\\}
             \vspace{60pt}
             {\fontsize{16}{16}\selectfont\textbf{``\@title''\\}}
             \vspace{10pt} % Espacio entre el título y el número del proyecto
